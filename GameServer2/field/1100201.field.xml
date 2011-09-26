@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="euc-kr" ?>
+<maiet>
+    <FIELDINFO zone="110" min_x="0" min_y="0" max_x="60000" max_y="60000" boundary_min_x="13000" boundary_min_y="8000" boundary_max_x="29000" boundary_max_y="21000" weather_effect="true" town="false">
+        <Env set="default">
+            <WEATHER default="RNY">
+                <ADD weather="SUN" percent="0" />
+                <ADD weather="CLD" percent="0" />
+                <ADD weather="HRN" percent="0" />
+                <ADD weather="SNW" percent="0" />
+                <ADD weather="HSW" percent="0" />
+                <ADD weather="CLR" percent="0" />
+            </WEATHER>
+        </Env>
+        <SPAWN id="12100" group="0" name="[OBJ] 마법 지뢰" x="18123.500000" y="13926.914063" z="2079.491211" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="300.000000" random_dir="true" enabled="true" start_time="0" respawn_time="600" roam_radius="0" roam_depth="0" color="255,0,128">
+            <NPC id="110213" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="12101" group="0" name="[OBJ] 마법 지뢰" x="19929.179688" y="16243.619141" z="2094.618652" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="300.000000" random_dir="true" enabled="true" start_time="0" respawn_time="600" roam_radius="0" roam_depth="0" color="255,0,128">
+            <NPC id="110213" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="12102" group="0" name="[OBJ] 마법 지뢰" x="20648.478516" y="16107.790039" z="2115.668457" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="300.000000" random_dir="true" enabled="true" start_time="0" respawn_time="600" roam_radius="0" roam_depth="0" color="255,0,128">
+            <NPC id="110213" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="12103" group="0" name="[OBJ] 마법 지뢰" x="20004.843750" y="13544.880859" z="2082.918213" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="300.000000" random_dir="true" enabled="true" start_time="0" respawn_time="600" roam_radius="0" roam_depth="0" color="255,0,128">
+            <NPC id="110213" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="12104" group="0" name="[OBJ] 마법 지뢰" x="21048.253906" y="15346.206055" z="2060.557617" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="300.000000" random_dir="true" enabled="true" start_time="0" respawn_time="600" roam_radius="0" roam_depth="0" color="255,0,128">
+            <NPC id="110213" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="12105" group="0" name="[OBJ] 마법 지뢰" x="21522.417969" y="15891.849609" z="2069.832520" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="300.000000" random_dir="true" enabled="true" start_time="0" respawn_time="600" roam_radius="0" roam_depth="0" color="255,0,128">
+            <NPC id="110213" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="12106" group="0" name="[OBJ] 마법 지뢰" x="22166.925781" y="15611.995117" z="2038.081787" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="300.000000" random_dir="true" enabled="true" start_time="0" respawn_time="600" roam_radius="0" roam_depth="0" color="255,0,128">
+            <NPC id="110213" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="12107" group="0" name="[OBJ] 마법 지뢰" x="21698.343750" y="14740.531250" z="2008.032715" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="300.000000" random_dir="true" enabled="true" start_time="0" respawn_time="600" roam_radius="0" roam_depth="0" color="255,0,128">
+            <NPC id="110213" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="12108" group="0" name="[OBJ] 마법 지뢰" x="19276.896484" y="13740.375000" z="2090.391357" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="300.000000" random_dir="true" enabled="true" start_time="0" respawn_time="600" roam_radius="0" roam_depth="0" color="255,0,128">
+            <NPC id="110213" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="12109" group="0" name="[OBJ] 마법 지뢰" x="21942.175781" y="13822.756836" z="1984.401123" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="300.000000" random_dir="true" enabled="true" start_time="0" respawn_time="600" roam_radius="0" roam_depth="0" color="255,0,128">
+            <NPC id="110213" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="12110" group="0" name="[OBJ] 마법 지뢰" x="21865.722656" y="13147.249023" z="1974.167480" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="300.000000" random_dir="true" enabled="true" start_time="0" respawn_time="600" roam_radius="0" roam_depth="0" color="255,0,128">
+            <NPC id="110213" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="12111" group="0" name="[OBJ] 마법 지뢰" x="20471.962891" y="13080.519531" z="2037.763916" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="300.000000" random_dir="true" enabled="true" start_time="0" respawn_time="600" roam_radius="0" roam_depth="0" color="255,0,128">
+            <NPC id="110213" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="12112" group="0" name="[OBJ] 마법 지뢰" x="19707.656250" y="14377.580078" z="2081.337646" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="300.000000" random_dir="true" enabled="true" start_time="0" respawn_time="600" roam_radius="0" roam_depth="0" color="255,0,128">
+            <NPC id="110213" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="12113" group="0" name="[OBJ] 마법 지뢰" x="18749.210938" y="14412.413086" z="2079.488525" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="300.000000" random_dir="true" enabled="true" start_time="0" respawn_time="600" roam_radius="0" roam_depth="0" color="255,0,128">
+            <NPC id="110213" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="12114" group="0" name="[OBJ] 마법 지뢰" x="18959.359375" y="13183.779297" z="2090.927979" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="300.000000" random_dir="true" enabled="true" start_time="0" respawn_time="600" roam_radius="0" roam_depth="0" color="255,0,128">
+            <NPC id="110213" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="12115" group="0" name="[OBJ] 마법 지뢰" x="19381.111328" y="14999.591797" z="2079.488770" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="300.000000" random_dir="true" enabled="true" start_time="0" respawn_time="600" roam_radius="0" roam_depth="0" color="255,0,128">
+            <NPC id="110213" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="12116" group="0" name="[OBJ] 마법 지뢰" x="19058.392578" y="16344.855469" z="2079.489014" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="300.000000" random_dir="true" enabled="true" start_time="0" respawn_time="600" roam_radius="0" roam_depth="0" color="255,0,128">
+            <NPC id="110213" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="12117" group="0" name="[OBJ] 마법 지뢰" x="19657.697266" y="16787.648438" z="2094.916748" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="300.000000" random_dir="true" enabled="true" start_time="0" respawn_time="600" roam_radius="0" roam_depth="0" color="255,0,128">
+            <NPC id="110213" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="12118" group="0" name="[OBJ] 마법 지뢰" x="20601.546875" y="17075.796875" z="2174.736328" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="300.000000" random_dir="true" enabled="true" start_time="0" respawn_time="600" roam_radius="0" roam_depth="0" color="255,0,128">
+            <NPC id="110213" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="12119" group="0" name="[OBJ] 마법 지뢰" x="21217.447266" y="16563.462891" z="2143.651855" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="300.000000" random_dir="true" enabled="true" start_time="0" respawn_time="600" roam_radius="0" roam_depth="0" color="255,0,128">
+            <NPC id="110213" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="12120" group="0" name="[OBJ] 마법 지뢰" x="20301.332031" y="15488.225586" z="2088.479980" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="300.000000" random_dir="true" enabled="true" start_time="0" respawn_time="600" roam_radius="0" roam_depth="0" color="255,0,128">
+            <NPC id="110213" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="12121" group="0" name="[OBJ] 마법 지뢰" x="19528.886719" y="15685.772461" z="2079.599854" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="300.000000" random_dir="true" enabled="true" start_time="0" respawn_time="600" roam_radius="0" roam_depth="0" color="255,0,128">
+            <NPC id="110213" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="12122" group="0" name="[OBJ] 마법 지뢰" x="20598.890625" y="14796.256836" z="2078.501221" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="300.000000" random_dir="true" enabled="true" start_time="0" respawn_time="600" roam_radius="0" roam_depth="0" color="255,0,128">
+            <NPC id="110213" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="12123" group="0" name="[OBJ] 마법 지뢰" x="20688.517578" y="14035.601563" z="2078.976318" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="300.000000" random_dir="true" enabled="true" start_time="0" respawn_time="600" roam_radius="0" roam_depth="0" color="255,0,128">
+            <NPC id="110213" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="12124" group="0" name="[OBJ] 마법 지뢰" x="18367.839844" y="15784.248047" z="2079.508057" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="300.000000" random_dir="true" enabled="true" start_time="0" respawn_time="600" roam_radius="0" roam_depth="0" color="255,0,128">
+            <NPC id="110213" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="12125" group="0" name="[OBJ] 마법 지뢰" x="17586.429688" y="14731.940430" z="2090.946045" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="300.000000" random_dir="true" enabled="true" start_time="0" respawn_time="600" roam_radius="0" roam_depth="0" color="255,0,128">
+            <NPC id="110213" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="12126" group="0" name="[OBJ] 마법 지뢰" x="18512.996094" y="15181.281250" z="2079.488281" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="300.000000" random_dir="true" enabled="true" start_time="0" respawn_time="600" roam_radius="0" roam_depth="0" color="255,0,128">
+            <NPC id="110213" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="1" group="0" name="렌델 전투공병" x="23590.544922" y="14826.218750" z="1981.722534" dir_x="-0.173648" dir_y="-0.984808" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="0" respawn_time="0" roam_radius="0" roam_depth="0" color="255,0,128">
+            <NPC id="110233" default="true" rate="10" />
+        </SPAWN>
+        <MARKER id="1" name="시작지점" x="23692.591797" y="14034.236328" z="1987.096680" dir_x="-0.422618" dir_y="0.906308" dir_z="0.000000" random_dir="false" />
+        <MARKER id="2" name="지뢰밭" x="20109.464844" y="14744.031250" z="2079.393066" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <SENSOR id="1" name="체크포인트" local="false" x="23695.806641" y="14029.513672" z="1986.759155" radius="200.000000" enabled="true" checkpoint="1" />
+    </FIELDINFO>
+</maiet>

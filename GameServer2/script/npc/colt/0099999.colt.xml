@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet href="./colt.xsl" type="text/xsl"?>
+<maiet>
+	<COLT name="샌드백">
+	
+	</COLT>
+	<SCRIPT>
+<![CDATA[ 
+function NPC_99999:OnHitCapsule_1_0(HitInfo)
+
+	local limit = tonumber( HitInfo.Victim:GetHP() / HitInfo.Victim:GetMaxHP() * 100 )
+	if (limit <= 70) and (limit > 50)  then
+		this:BreakPart( 2, HitInfo.Attacker )	
+	elseif (limit <= 50) and (limit > 30)  then
+		this:BreakPart( 3, HitInfo.Attacker )	
+	elseif (limit <= 30) and (limit > 10)  then
+		this:BreakPart( 4, HitInfo.Attacker )	
+	elseif (limit <= 10) and (limit > 0)  then
+		if not this:CheckBPart( 1 ) then
+			this:BreakPart( 1, HitInfo.Attacker )	
+		end
+	end
+end
+]]>
+	</SCRIPT>
+</maiet>

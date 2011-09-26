@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<!--갓 부화한 거미-->
+<maiet>
+	<COLT>
+		<COMBAT >
+			<DEFAULT>
+				<ACTION type="talent" param1="200305701" rate="50" auto_run="1" />
+				<!-- <ACTION type="lua" param1="NPC_3057_SpAtk" rate="30" /> -->
+				<ACTION type="nothing" param1="0.5" rate="20" />
+			</DEFAULT>
+		</COMBAT>
+		
+  		<REACTION>
+		</REACTION>
+
+		<IDLE>
+		</IDLE>
+	</COLT>
+</maiet>

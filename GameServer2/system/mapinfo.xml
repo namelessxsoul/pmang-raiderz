@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="euc-kr" ?>
+<maiet>
+	<!-- 도시 -->
+	<MAPINFO id="1" name="리츠" file="001" min_x="0" min_y="0" max_x="60000" max_y="60000" instance="false">
+		<Env>
+			<Sky model="data/model/mapobject/soul_sky.elu" />
+		</Env>
+		<PORTAL min_x="19436" min_y="310" min_z="4" max_x="19936" max_y="810" max_z="504" dest_map="101" dest_x="16405" dest_y="58085" dest_z="0" />
+    </MAPINFO>
+
+	<MAPINFO id="3" name="란스바렌" file="003" min_x="0" min_y="0" max_x="40000" max_y="40000" instance="false">
+		<Env>
+			<Fog enabled="true" near="2000" far="3000" color_a="255" color_r="20" color_g="79" color_b="65"/>
+			<Sky model="data/model/mapobject/soul_sky.elu" />
+		</Env>
+		<PORTAL min_x="9694" min_y="817" min_z="0" max_x="10194" max_y="1217" max_z="500" dest_map="113" dest_x="19055" dest_y="57507" dest_z="0" />
+    </MAPINFO>
+
+
+
+	<!-- 필드 -->
+	<MAPINFO id="101" name="리오드" file="101" min_x="0" min_y="0" max_x="60000" max_y="60000" instance="false">
+		<Env>
+			<Sky model="data/model/mapobject/soul_sky.elu" />
+		</Env>
+		<NPCAREA min_x="1000" min_y="1000" max_x="59900" max_y="59900">
+			<SPAWN npc="1" amount="100" respawn_time="7"/>
+		</NPCAREA>
+		<PORTAL min_x="16310" min_y="58612" min_z="0" max_x="16810" max_y="59112" max_z="500" dest_map="1" dest_x="19361" dest_y="1375" dest_z="0" />
+		<PORTAL min_x="28683" min_y="1287" min_z="0" max_x="29183" max_y="1787" max_z="500" dest_map="108" dest_x="34559" dest_y="57367" dest_z="0" />
+<!--		<PORTAL min_x="" min_y="" min_z="0"  max_x="" max_y="" max_z="500" dest_map="" dest_x="" dest_y="" dest_z="0" /> -->
+    </MAPINFO>
+	<MAPINFO id="108" name="에다산" file="108" min_x="0" min_y="0" max_x="60000" max_y="60000" instance="false">
+		<Env>
+			<Sky model="data/model/mapobject/soul_sky.elu" />
+		</Env>
+		<NPCAREA min_x="1000" min_y="1000" max_x="59900" max_y="59900">
+			<SPAWN npc="1" amount="100" respawn_time="7"/>
+		</NPCAREA>
+		<PORTAL min_x="34109" min_y="58197" min_z="0" max_x="34609" max_y="58697" max_z="500" dest_map="101" dest_x="28257" dest_y="2021" dest_z="0" />
+		<PORTAL min_x="59091" min_y="21689" min_z="0" max_x="59591" max_y="22189" max_z="500" dest_map="111" dest_x="2119" dest_y="43192" dest_z="0" />
+    </MAPINFO>
+	<MAPINFO id="111" name="침묵의 늪" file="111" min_x="0" min_y="0" max_x="60000" max_y="60000" instance="false">
+		<Env>
+			<Sky model="data/model/mapobject/soul_sky.elu" />
+		</Env>
+		<NPCAREA min_x="1000" min_y="1000" max_x="59900" max_y="59900">
+			<SPAWN npc="1" amount="100" respawn_time="7"/>
+		</NPCAREA>
+		<PORTAL min_x="701" min_y="42302" min_z="0" max_x="1201" max_y="42802" max_z="500" dest_map="108" dest_x="58437" dest_y="21934" dest_z="0" />
+		<PORTAL min_x="19476" min_y="58785" min_z="0" max_x="19976" max_y="59285" max_z="500" dest_map="112" dest_x="20627" dest_y="1026" dest_z="13" />
+		<PORTAL min_x="59149" min_y="24533" min_z="0" max_x="59649" max_y="25033" max_z="500" dest_map="113" dest_x="2002" dest_y="39455" dest_z="0" />
+    </MAPINFO>
+    <MAPINFO id="112" name="침묵의 숲" file="Cemetery" min_x="0" min_y="0" max_x="40000" max_y="40000" instance="false">
+		<Env>
+			<Sky model="data/model/mapobject/soul_sky.elu" />
+		</Env>
+		<NPCAREA min_x="1000" min_y="1000" max_x="39900" max_y="39900">
+			<SPAWN npc="1" amount="100" respawn_time="7"/>
+		</NPCAREA>
+		<PORTAL min_x="20994" min_y="145" min_z="17" max_x="21494" max_y="645" max_z="517" dest_map="111" dest_x="19154" dest_y="57827" dest_z="0" />
+		<NPCAREA min_x="1000" min_y="1000" max_x="39900" max_y="39900">
+			<SPAWN npc="1" amount="300" respawn_time="7"/>
+			<SPAWN npc="1000" amount="10" respawn_time="10"/>
+		</NPCAREA>
+    </MAPINFO>
+	<MAPINFO id="113" name="린덴 언덕" file="113" min_x="0" min_y="0" max_x="60000" max_y="60000" instance="false">
+		<Env>
+			<Sky model="data/model/mapobject/soul_sky.elu" />
+		</Env>
+		<NPCAREA min_x="1000" min_y="1000" max_x="59900" max_y="59900">
+			<SPAWN npc="1" amount="100" respawn_time="7"/>
+		</NPCAREA>
+		<PORTAL min_x="703" min_y="38774" min_z="0" max_x="1203" max_y="39274" max_z="500" dest_map="111" dest_x="58249" dest_y="25041" dest_z="0" />
+		<PORTAL min_x="19437" min_y="58703" min_z="0" max_x="19937" max_y="59203" max_z="500" dest_map="3" dest_x="9710" dest_y="1881" dest_z="0" />
+    </MAPINFO>
+
+
+<!-- 인스턴트 필드  -->
+	<MAPINFO id="501" name="라시노스의 신전" file="Forbidden Temple" min_x="0" min_y="0" max_x="10000" max_y="10000" instance="true">
+    </MAPINFO>
+
+
+<!-- 테스트용 맵  -->
+    <MAPINFO id="1001" name="1km_square" file="1km_square" instance="false" min_x="0" min_y="0" max_x="100000" max_y="100000">
+		<NPCAREA min_x="0" min_y="0" max_x="1000" max_y="1000">
+			<SPAWN npc="1" amount="8" respawn_time="7"/>
+			<SPAWN npc="2" amount="8" respawn_time="10"/>
+		</NPCAREA>
+
+		<NPCAREA min_x="45000" min_y="45000" max_x="55000" max_y="55000">
+			<SPAWN npc="2" amount="2" respawn_time="10"/>
+			<SPAWN npc="1000" amount="1" respawn_time="60"/>
+		</NPCAREA>
+
+		<PORTAL min_x="0" min_y="5000" min_z="0" max_x="500" max_y="5500" max_z="500" dest_map="1100" dest_x="99000" dest_y="93500" dest_z="0"/>
+    </MAPINFO>
+
+    <MAPINFO id="1100" name="WestLand" file="1km_square" instance="false" min_x="0" min_y="0" max_x="100000" max_y="100000">
+		<NPCAREA min_x="97000" min_y="97000" max_x="100000" max_y="100000">
+			<SPAWN npc="1000" amount="10" respawn_time="7"/>
+		</NPCAREA>
+
+
+		<PORTAL min_x="99000" min_y="94000" min_z="0" max_x="99500" max_y="94500" max_z="500" dest_map="1001" dest_x="1500" dest_y="6000" dest_z="0"/>		
+		<PORTAL min_x="94000" min_y="99000" min_z="0" max_x="94500" max_y="99500" max_z="500" dest_map="1101" dest_x="94000" dest_y="1500" dest_z="0"/>		
+    </MAPINFO>
+
+    <MAPINFO id="2100" name="WestLand" file="1km_square" instance="true" min_x="0" min_y="0" max_x="100000" max_y="100000" parent="1100">
+		<NPCAREA min_x="97000" min_y="97000" max_x="100000" max_y="100000">
+			<SPAWN npc="1000" amount="10" respawn_time="7"/>
+		</NPCAREA>
+
+
+		<PORTAL min_x="99000" min_y="94000" min_z="0" max_x="99500" max_y="94500" max_z="500" dest_map="1001" dest_x="1500" dest_y="6000" dest_z="0"/>		
+		<PORTAL min_x="94000" min_y="99000" min_z="0" max_x="94500" max_y="99500" max_z="500" dest_map="2101" dest_x="94000" dest_y="1500" dest_z="0"/>		
+    </MAPINFO>
+
+    <MAPINFO id="1101" name="NorthWestLand" file="1km_square" instance="false" min_x="0" min_y="0" max_x="100000" max_y="100000">
+		<NPCAREA min_x="1000" min_y="1000" max_x="39900" max_y="39900">
+			<SPAWN npc="1" amount="300" respawn_time="7"/>
+			<SPAWN npc="1000" amount="10" respawn_time="10"/>
+		</NPCAREA>
+
+		<PORTAL min_x="94000" min_y="0" min_z="0" max_x="94500" max_y="500" max_z="500" dest_map="1100" dest_x="94000" dest_y="98500" dest_z="0"/>		
+    </MAPINFO>
+
+    <MAPINFO id="2101" name="NorthWestLand" file="1km_square" instance="true" min_x="0" min_y="0" max_x="100000" max_y="100000" parent="1101">
+		<NPCAREA min_x="1000" min_y="1000" max_x="39900" max_y="39900">
+			<SPAWN npc="1" amount="300" respawn_time="7"/>
+			<SPAWN npc="1000" amount="10" respawn_time="10"/>
+		</NPCAREA>
+
+		<PORTAL min_x="94000" min_y="0" min_z="0" max_x="94500" max_y="500" max_z="500" dest_map="2100" dest_x="94000" dest_y="98500" dest_z="0"/>		
+    </MAPINFO>
+
+    <MAPINFO id="1002" name="BirdTown" file="BirdTown" instance="false" min_x="0" min_y="0" max_x="10000" max_y="10000">
+		<NPCAREA min_x="100" min_y="100" max_x="2000" max_y="2000">
+			<SPAWN npc="1" amount="1" respawn_time="7"/>
+		</NPCAREA>
+		
+		<PORTAL min_x="1490" min_y="286" min_z="0" max_x="1990" max_y="786" max_z="500" dest_map="2" dest_x="531" dest_y="5094" dest_z="0"/>
+    </MAPINFO>
+    
+    <MAPGROUPINFO id="1" start="2100">
+		<ENTRYMAP id="2100" />
+		<ENTRYMAP id="2101" />
+    </MAPGROUPINFO>
+
+</maiet>

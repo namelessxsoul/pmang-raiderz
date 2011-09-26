@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="euc-kr" ?>
+<maiet>
+    <FIELDINFO zone="109" min_x="0" min_y="0" max_x="140000" max_y="140000" boundary_min_x="35000" boundary_min_y="25000" boundary_max_x="122000" boundary_max_y="115000" weather_effect="true" town="false" fixed_time="Daytime" >
+        <Env set="default">
+            <WEATHER default="SUN">
+                <ADD weather="CLD" percent="0" />
+                <ADD weather="RNY" percent="0" />
+                <ADD weather="HRN" percent="0" />
+                <ADD weather="SNW" percent="0" />
+                <ADD weather="HSW" percent="0" />
+                <ADD weather="CLR" percent="0" />
+            </WEATHER>
+        </Env>
+        <SPAWN id="109002" group="0" name="함장 레온" x="49673.527344" y="33332.667969" z="1062.000000" dir_x="0.325568" dir_y="0.945519" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="0" respawn_time="0" roam_radius="0" roam_depth="0" color="0,128,255">
+            <NPC id="109021" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="109003" group="0" name="항해사 올슨" x="50250.406250" y="35852.394531" z="837.644836" dir_x="-0.241922" dir_y="-0.970296" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="false" start_time="0" respawn_time="0" roam_radius="0" roam_depth="0" color="0,128,255">
+            <NPC id="109003" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="10" group="0" name="에덴 크루즈 선원" x="48339.667969" y="33225.308594" z="1565.538818" dir_x="0.731354" dir_y="0.681998" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="0" respawn_time="0" roam_radius="0" roam_depth="0" color="0,128,255">
+            <NPC id="109017" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="11" group="0" name="에덴 크루즈 선원" x="50503.324219" y="32879.640625" z="1415.213867" dir_x="-0.694658" dir_y="0.719340" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="0" respawn_time="0" roam_radius="0" roam_depth="0" color="0,128,255">
+            <NPC id="109017" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="12" group="0" name="에덴 크루즈 선원" x="51579.757813" y="32201.281250" z="1766.788940" dir_x="-0.965926" dir_y="0.258819" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="0" respawn_time="0" roam_radius="0" roam_depth="0" color="0,128,255">
+            <NPC id="109017" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="13" group="0" name="에덴 크루즈 선원" x="50864.914063" y="33319.078125" z="1415.213867" dir_x="0.469472" dir_y="0.882947" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="0" respawn_time="0" roam_radius="0" roam_depth="0" color="0,128,255">
+            <NPC id="109017" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="14" group="0" name="에덴 크루즈 선원" x="51323.449219" y="41208.863281" z="334.700500" dir_x="0.390731" dir_y="0.920505" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="false" start_time="0" respawn_time="0" roam_radius="0" roam_depth="0" color="0,128,255">
+            <NPC id="109017" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="15" group="0" name="에덴 크루즈 선원" x="51983.332031" y="41092.085938" z="349.720551" dir_x="0.139173" dir_y="0.990268" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="false" start_time="0" respawn_time="0" roam_radius="0" roam_depth="0" color="0,128,255">
+            <NPC id="109017" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="16" group="0" name="습격자" x="49847.617188" y="43651.105469" z="181.728882" dir_x="0.559193" dir_y="-0.829038" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="false" start_time="0" respawn_time="0" roam_radius="0" roam_depth="0" color="255,0,128">
+            <NPC id="109201" default="false" rate="500" />
+            <NPC id="109202" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="17" group="0" name="습격자" x="51501.796875" y="42236.398438" z="281.352600" dir_x="0.052336" dir_y="-0.998630" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="false" start_time="0" respawn_time="0" roam_radius="0" roam_depth="0" color="255,0,128">
+            <NPC id="109201" default="false" rate="500" />
+            <NPC id="109202" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="18" group="0" name="습격자" x="52035.839844" y="42312.941406" z="281.352600" dir_x="-0.292372" dir_y="-0.956305" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="false" start_time="0" respawn_time="0" roam_radius="0" roam_depth="0" color="255,0,128">
+            <NPC id="109201" default="false" rate="500" />
+            <NPC id="109202" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="19" group="0" name="습격자" x="50168.128906" y="43651.472656" z="181.728882" dir_x="0.515038" dir_y="-0.857168" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="false" start_time="0" respawn_time="0" roam_radius="0" roam_depth="0" color="255,0,128">
+            <NPC id="109201" default="false" rate="500" />
+            <NPC id="109202" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="20" group="0" name="습격자" x="52438.722656" y="41907.945313" z="327.613831" dir_x="-0.544639" dir_y="-0.838671" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="false" start_time="0" respawn_time="0" roam_radius="0" roam_depth="0" color="255,0,128">
+            <NPC id="109201" default="false" rate="500" />
+            <NPC id="109202" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="100" group="0" name="함장 레온의 시선" x="60869.785156" y="43527.058594" z="7338.702637" dir_x="-0.743145" dir_y="-0.669131" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="0" respawn_time="0" roam_radius="0" roam_depth="0" color="255,255,255">
+            <NPC id="1" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="21" group="0" name="도망자" x="54461.464844" y="45480.027344" z="371.999512" dir_x="0.981627" dir_y="-0.190809" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="false" start_time="0" respawn_time="0" roam_radius="0" roam_depth="0" color="255,0,128">
+            <NPC id="109022" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="22" group="0" name="도망자" x="54187.117188" y="45432.109375" z="371.999512" dir_x="0.981627" dir_y="-0.190809" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="false" start_time="0" respawn_time="0" roam_radius="0" roam_depth="0" color="255,0,128">
+            <NPC id="109023" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="23" group="0" name="도망자" x="54136.230469" y="45723.355469" z="371.999573" dir_x="0.981627" dir_y="-0.190809" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="false" start_time="0" respawn_time="0" roam_radius="0" roam_depth="0" color="255,0,128">
+            <NPC id="109022" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="24" group="0" name="도망자" x="54239.304688" y="45584.597656" z="371.999542" dir_x="0.981627" dir_y="-0.190809" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="false" start_time="0" respawn_time="0" roam_radius="0" roam_depth="0" color="255,0,128">
+            <NPC id="109022" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="25" group="0" name="대포" x="62514.324219" y="34539.292969" z="382.062988" dir_x="-0.848048" dir_y="0.529919" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="false" start_time="0" respawn_time="0" roam_radius="0" roam_depth="0" color="64,128,128">
+            <NPC id="109105" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="26" group="0" name="대포" x="62279.199219" y="34102.671875" z="301.126923" dir_x="-0.956305" dir_y="0.292372" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="false" start_time="0" respawn_time="0" roam_radius="0" roam_depth="0" color="64,128,128">
+            <NPC id="109105" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="27" group="0" name="대포" x="62168.871094" y="33616.839844" z="248.873886" dir_x="-0.996195" dir_y="0.087155" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="false" start_time="0" respawn_time="0" roam_radius="0" roam_depth="0" color="64,128,128">
+            <NPC id="109105" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="28" group="0" name="대포" x="62899.203125" y="34840.609375" z="462.739777" dir_x="-0.656059" dir_y="0.754709" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="false" start_time="0" respawn_time="0" roam_radius="0" roam_depth="0" color="64,128,128">
+            <NPC id="109105" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="29" group="0" name="포병" x="63025.863281" y="34711.652344" z="453.003754" dir_x="-0.656059" dir_y="0.754709" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="false" start_time="0" respawn_time="0" roam_radius="0" roam_depth="0" color="128,0,128">
+            <NPC id="109222" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="30" group="0" name="포병" x="62678.347656" y="34441.589844" z="376.803375" dir_x="-0.829038" dir_y="0.559192" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="false" start_time="0" respawn_time="0" roam_radius="0" roam_depth="0" color="128,0,128">
+            <NPC id="109222" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="31" group="0" name="포병" x="62465.949219" y="34048.429688" z="307.422485" dir_x="-0.945519" dir_y="0.325568" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="false" start_time="0" respawn_time="0" roam_radius="0" roam_depth="0" color="128,0,128">
+            <NPC id="109222" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="32" group="0" name="포병" x="62344.847656" y="33603.386719" z="258.639252" dir_x="-0.984808" dir_y="0.173648" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="false" start_time="0" respawn_time="0" roam_radius="0" roam_depth="0" color="128,0,128">
+            <NPC id="109222" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="33" group="0" name="습격자 (대포 호위)" x="61747.515625" y="33238.562500" z="199.624573" dir_x="-0.559193" dir_y="0.829037" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="false" start_time="0" respawn_time="0" roam_radius="0" roam_depth="0" color="255,0,128">
+            <NPC id="109201" default="false" rate="500" />
+            <NPC id="109202" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="34" group="0" name="습격자 (대포 호위)" x="63167.578125" y="35345.703125" z="572.910522" dir_x="-0.927184" dir_y="-0.374607" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="false" start_time="0" respawn_time="0" roam_radius="0" roam_depth="0" color="255,0,128">
+            <NPC id="109201" default="false" rate="500" />
+            <NPC id="109202" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="35" group="0" name="습격자" x="60081.890625" y="38283.585938" z="451.585510" dir_x="-0.927184" dir_y="-0.374607" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="false" start_time="0" respawn_time="0" roam_radius="0" roam_depth="0" color="255,0,128">
+            <NPC id="109201" default="false" rate="500" />
+            <NPC id="109202" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="36" group="0" name="습격자" x="56720.855469" y="38545.890625" z="19.204920" dir_x="0.275637" dir_y="0.961262" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="false" start_time="0" respawn_time="0" roam_radius="0" roam_depth="0" color="255,0,128">
+            <NPC id="109201" default="false" rate="500" />
+            <NPC id="109202" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="37" group="0" name="습격자" x="57497.230469" y="37011.968750" z="106.988327" dir_x="-1.000000" dir_y="-0.000000" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="false" start_time="0" respawn_time="0" roam_radius="0" roam_depth="0" color="255,0,128">
+            <NPC id="109201" default="false" rate="500" />
+            <NPC id="109202" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="38" group="0" name="습격자" x="61688.316406" y="37266.867188" z="670.131226" dir_x="-0.933580" dir_y="-0.358368" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="false" start_time="0" respawn_time="0" roam_radius="0" roam_depth="0" color="255,0,128">
+            <NPC id="109201" default="false" rate="500" />
+            <NPC id="109202" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="39" group="0" name="습격자" x="58305.320313" y="35388.738281" z="90.090729" dir_x="0.139173" dir_y="0.990268" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="false" start_time="0" respawn_time="0" roam_radius="0" roam_depth="0" color="255,0,128">
+            <NPC id="109201" default="false" rate="500" />
+            <NPC id="109202" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="40" group="0" name="습격자" x="59942.031250" y="40570.835938" z="441.472656" dir_x="-0.469471" dir_y="-0.882948" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="false" start_time="0" respawn_time="0" roam_radius="0" roam_depth="0" color="255,0,128">
+            <NPC id="109201" default="false" rate="500" />
+            <NPC id="109202" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="41" group="0" name="습격자" x="58163.441406" y="38636.890625" z="252.652573" dir_x="0.669131" dir_y="-0.743145" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="false" start_time="0" respawn_time="0" roam_radius="0" roam_depth="0" color="255,0,128">
+            <NPC id="109201" default="false" rate="500" />
+            <NPC id="109202" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="42" group="0" name="선원" x="59777.183594" y="40285.011719" z="433.520752" dir_x="0.484809" dir_y="0.874620" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="false" start_time="0" respawn_time="0" roam_radius="0" roam_depth="0" color="0,128,255">
+            <NPC id="109017" default="false" rate="500" />
+            <NPC id="109018" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="43" group="0" name="선원" x="59774.707031" y="38193.300781" z="416.201263" dir_x="0.945518" dir_y="0.325569" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="false" start_time="0" respawn_time="0" roam_radius="0" roam_depth="0" color="0,128,255">
+            <NPC id="109017" default="false" rate="500" />
+            <NPC id="109018" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="44" group="0" name="선원" x="61502.625000" y="37211.511719" z="599.948730" dir_x="0.939692" dir_y="0.342021" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="false" start_time="0" respawn_time="0" roam_radius="0" roam_depth="0" color="0,128,255">
+            <NPC id="109017" default="false" rate="500" />
+            <NPC id="109018" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="45" group="0" name="선원" x="58406.617188" y="35722.875000" z="131.309814" dir_x="-0.292371" dir_y="-0.956305" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="false" start_time="0" respawn_time="0" roam_radius="0" roam_depth="0" color="0,128,255">
+            <NPC id="109017" default="false" rate="500" />
+            <NPC id="109018" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="46" group="0" name="선원" x="57222.554688" y="37006.449219" z="68.658676" dir_x="0.998630" dir_y="0.052336" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="false" start_time="0" respawn_time="0" roam_radius="0" roam_depth="0" color="0,128,255">
+            <NPC id="109017" default="false" rate="500" />
+            <NPC id="109018" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="47" group="0" name="선원" x="56827.628906" y="38911.644531" z="43.215290" dir_x="-0.325568" dir_y="-0.945519" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="false" start_time="0" respawn_time="0" roam_radius="0" roam_depth="0" color="0,128,255">
+            <NPC id="109017" default="false" rate="500" />
+            <NPC id="109018" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="48" group="0" name="선원" x="58391.027344" y="38385.773438" z="290.197906" dir_x="-0.681999" dir_y="0.731353" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="false" start_time="0" respawn_time="0" roam_radius="0" roam_depth="0" color="0,128,255">
+            <NPC id="109017" default="false" rate="500" />
+            <NPC id="109018" default="false" rate="500" />
+        </SPAWN>
+        <MARKER id="1" name="시작지점" x="49251.140625" y="32883.867188" z="1062.000000" dir_x="0.559193" dir_y="0.829037" dir_z="0.000000" random_dir="false" />
+        <MARKER id="2" name="선원 이동 마커 1" x="48829.875000" y="33734.968750" z="1565.538452" dir_x="0.965926" dir_y="-0.258819" dir_z="0.000000" random_dir="false" />
+        <MARKER id="3" name="항해사 이동 마커 1" x="49719.000000" y="33864.425781" z="1152.341919" dir_x="-0.207912" dir_y="-0.978148" dir_z="0.000000" random_dir="false" />
+        <MARKER id="4" name="선원 이동 마커 2" x="49397.156250" y="33571.773438" z="1061.999878" dir_x="0.819152" dir_y="-0.573576" dir_z="0.000000" random_dir="false" />
+        <MARKER id="5" name="항해사 이동 마커 2" x="50050.613281" y="33587.796875" z="1062.000000" dir_x="0.342020" dir_y="0.939693" dir_z="0.000000" random_dir="false" />
+        <MARKER id="6" name="선장 이동 마커 1" x="51322.851563" y="39654.363281" z="399.980865" dir_x="0.258819" dir_y="0.965926" dir_z="0.000000" random_dir="false" />
+        <MARKER id="7" name="선장 이동 마커 2" x="51808.960938" y="41750.847656" z="301.488892" dir_x="0.275637" dir_y="0.961262" dir_z="0.000000" random_dir="false" />
+        <MARKER id="8" name="습격자 이동 마커 1" x="51306.339844" y="41615.976563" z="282.352600" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="9" name="도망자 이동 마커 1" x="54529.816406" y="45521.589844" z="372.999512" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="10" name="도망자 이동 마커 2" x="55224.308594" y="44468.335938" z="281.352600" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="11" name="도망자 이동 마커 3" x="56922.917969" y="45038.519531" z="211.046600" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="12" name="도망자 이동 마커 4" x="58417.617188" y="41752.851563" z="306.385223" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="13" name="도망자 이동 마커 5" x="59876.769531" y="37269.421875" z="372.246979" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="14" name="도망자 이동 마커 6" x="65019.628906" y="34842.910156" z="619.539185" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="15" name="선장 이동 마커 3" x="51877.199219" y="42349.773438" z="282.352600" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="16" name="선장 이동 마커 4" x="54268.015625" y="43779.554688" z="281.352600" dir_x="0.874620" dir_y="0.484810" dir_z="0.000000" random_dir="false" />
+        <MARKER id="17" name="선장 이동 마커 5" x="56810.140625" y="45188.656250" z="201.168259" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="18" name="선장 이동 마커 6" x="58314.632813" y="43518.164063" z="349.952026" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="19" name="선장 이동 마커 7" x="58614.234375" y="40154.972656" z="317.547546" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="20" name="대포 위치 마커" x="62727.750000" y="34176.722656" z="340.857880" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="21" name="선원 탈출 마커a" x="50706.589844" y="38152.191406" z="572.995850" dir_x="-0.292372" dir_y="-0.956305" dir_z="0.000000" random_dir="false" />
+        <MARKER id="22" name="선원 탈출 마커b" x="51029.105469" y="38065.789063" z="573.065613" dir_x="-0.275637" dir_y="-0.961262" dir_z="0.000000" random_dir="false" />
+        <SENSOR id="2" name="첫번째 전투 센서" local="false" x="51797.054688" y="41645.648438" z="312.980621" radius="2500.000000" enabled="false" />
+        <SENSOR id="1" name="시작 센서" local="false" x="49256.078125" y="32888.687500" z="1062.000000" radius="500.000000" enabled="true" checkpoint="1" />
+        <SENSOR id="3" name="두번째 이벤트 센서" local="false" x="55246.468750" y="44350.453125" z="282.352600" radius="1500.000000" enabled="false" />
+        <SENSOR id="4" name="세번째 전투 센서" local="false" x="60074.195313" y="40174.378906" z="449.115173" radius="5000.000000" enabled="false" />
+        <SENSOR id="5" name="첫번째 이벤트 센서" local="false" x="51809.867188" y="41753.246094" z="300.182037" radius="900.000000" enabled="false" />
+        <SENSOR id="6" name="Complete Sensor" local="false" x="56357.437500" y="40397.312500" z="18.577637" radius="20000.000000" enabled="false" />
+        <SENSOR id="7" name="Ending Sensor" x="56348.390625" y="40459.410156" z="19.782900" radius="20000.000000" enabled="false">
+            <WARP title="귀환" condition="0" gate_type="auto" field="109" marker="10" />
+        </SENSOR>
+    </FIELDINFO>
+</maiet>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<!-- 고블린 병정 샘플 -->
+<maiet>
+	<COLT>
+		<!--<COMBAT victory="210700205">-->
+		<COMBAT victory="200115">
+			<DEFAULT>
+				<ACTION type="group">
+					<ACTION type="talent" param1="200111" duration="1" rate="60" />
+					<ACTION type="talent" param1="200112" duration="1" rate="30" />
+				</ACTION>
+				<ACTION type="talent" param1="200111" duration="1" rate="60" />
+				<ACTION type="talent" param1="200113" duration="1" rate="60" />
+				<!--<ACTION type="talent" param1="200114" rate="10" />-->
+			</DEFAULT>
+		</COMBAT>
+		<REACTION>
+		</REACTION>
+		<IDLE>
+		</IDLE>
+	</COLT>
+</maiet>

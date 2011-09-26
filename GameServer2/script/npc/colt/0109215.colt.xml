@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<maiet>
+	<COLT name="흉악한 나무정령">
+		<COMBAT>
+			<DEFAULT>
+				<ACTION type="nothing" param1="1" rate="20" cycle="6"/>
+				<ACTION type="nothing" param1="1" rate="20" cycle="6"/>
+								
+				<ACTION type="talent" param1="210921501" rate="40" />
+				<ACTION type="talent" param1="210921502" rate="20" />
+			</DEFAULT>
+
+			<CHECK type="rage" param1="80">
+				<ACTION type="talent" param1="210921501" rate="10" />
+				<ACTION type="talent" param1="210921508" rate="90" />
+			</CHECK>
+			
+		</COMBAT>
+		<AGGRO>
+			<DEFAULT>
+				<ACTION type="talent" param1="210921503" duration="0" rate="10" />
+				<ACTION type="nothing"  param1="0" rate="90" />
+			</DEFAULT>
+		</AGGRO>
+		<IDLE>
+			<DEFAULT>
+				<ACTION type="nothing" param1="4" rate="50" />
+				<ACTION type="talent" param1="210921505" rate="50" />
+			</DEFAULT>
+		</IDLE>
+	</COLT>
+</maiet>
+

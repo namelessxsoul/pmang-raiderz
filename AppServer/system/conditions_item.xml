@@ -1,0 +1,419 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<maiet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CONDITIONS id="1">
+		<CONDITION type="level" param1="1" />
+	</CONDITIONS>
+	<CONDITIONS id="2">
+		<CONDITION type="level" param1="2" />
+	</CONDITIONS>
+	<CONDITIONS id="3">
+		<CONDITION type="level" param1="3" />
+	</CONDITIONS>
+	<CONDITIONS id="4">
+		<CONDITION type="level" param1="4" />
+	</CONDITIONS>
+	<CONDITIONS id="5">
+		<CONDITION type="level" param1="5" />
+	</CONDITIONS>
+	<CONDITIONS id="6">
+		<CONDITION type="level" param1="6" />
+	</CONDITIONS>
+	<CONDITIONS id="7">
+		<CONDITION type="level" param1="7" />
+	</CONDITIONS>
+	<CONDITIONS id="8">
+		<CONDITION type="level" param1="8" />
+	</CONDITIONS>
+	<CONDITIONS id="9">
+		<CONDITION type="level" param1="9" />
+	</CONDITIONS>
+	<CONDITIONS id="10">
+		<CONDITION type="level" param1="10" />
+	</CONDITIONS>
+	<CONDITIONS id="11">
+		<CONDITION type="level" param1="11" />
+	</CONDITIONS>
+	<CONDITIONS id="12">
+		<CONDITION type="level" param1="12" />
+	</CONDITIONS>
+	<CONDITIONS id="13">
+		<CONDITION type="level" param1="13" />
+	</CONDITIONS>
+	<CONDITIONS id="14">
+		<CONDITION type="level" param1="14" />
+	</CONDITIONS>
+	<CONDITIONS id="15">
+		<CONDITION type="level" param1="15" />
+	</CONDITIONS>
+	<CONDITIONS id="16">
+		<CONDITION type="level" param1="16" />
+	</CONDITIONS>
+	<CONDITIONS id="17">
+		<CONDITION type="level" param1="17" />
+	</CONDITIONS>
+	<CONDITIONS id="18">
+		<CONDITION type="level" param1="18" />
+	</CONDITIONS>
+	<CONDITIONS id="19">
+		<CONDITION type="level" param1="19" />
+	</CONDITIONS>
+	<CONDITIONS id="20">
+		<CONDITION type="level" param1="20" />
+	</CONDITIONS>
+	<CONDITIONS id="21">
+		<CONDITION type="level" param1="21" />
+	</CONDITIONS>
+	<CONDITIONS id="22">
+		<CONDITION type="level" param1="22" />
+	</CONDITIONS>
+	<CONDITIONS id="23">
+		<CONDITION type="level" param1="23" />
+	</CONDITIONS>
+	<CONDITIONS id="24">
+		<CONDITION type="level" param1="24" />
+	</CONDITIONS>
+	<CONDITIONS id="25">
+		<CONDITION type="level" param1="25" />
+	</CONDITIONS>
+	<CONDITIONS id="26">
+		<CONDITION type="level" param1="26" />
+	</CONDITIONS>
+	<CONDITIONS id="27">
+		<CONDITION type="level" param1="27" />
+	</CONDITIONS>
+	<CONDITIONS id="28">
+		<CONDITION type="level" param1="28" />
+	</CONDITIONS>
+	<CONDITIONS id="29">
+		<CONDITION type="level" param1="29" />
+	</CONDITIONS>
+	<CONDITIONS id="30">
+		<CONDITION type="level" param1="30" />
+	</CONDITIONS>
+	<CONDITIONS id="31">
+		<CONDITION type="level" param1="31" />
+	</CONDITIONS>
+	<CONDITIONS id="32">
+		<CONDITION type="level" param1="32" />
+	</CONDITIONS>
+	<CONDITIONS id="33">
+		<CONDITION type="level" param1="33" />
+	</CONDITIONS>
+	<CONDITIONS id="34">
+		<CONDITION type="level" param1="34" />
+	</CONDITIONS>
+	<CONDITIONS id="35">
+		<CONDITION type="level" param1="35" />
+	</CONDITIONS>
+	<CONDITIONS id="36">
+		<CONDITION type="level" param1="36" />
+	</CONDITIONS>
+	<CONDITIONS id="37">
+		<CONDITION type="level" param1="37" />
+	</CONDITIONS>
+	<CONDITIONS id="38">
+		<CONDITION type="level" param1="38" />
+	</CONDITIONS>
+	<CONDITIONS id="39">
+		<CONDITION type="level" param1="39" />
+	</CONDITIONS>  
+	<CONDITIONS id="40">
+		<CONDITION type="level" param1="40" />
+	</CONDITIONS>
+	<CONDITIONS id="41">
+		<CONDITION type="level" param1="41" />
+	</CONDITIONS>
+	<CONDITIONS id="42">
+		<CONDITION type="level" param1="42" />
+	</CONDITIONS>
+	<CONDITIONS id="43">
+		<CONDITION type="level" param1="43" />
+	</CONDITIONS>
+	<CONDITIONS id="44">
+		<CONDITION type="level" param1="44" />
+	</CONDITIONS>
+	<CONDITIONS id="45">
+		<CONDITION type="level" param1="45" />
+	</CONDITIONS>
+	<CONDITIONS id="46">
+		<CONDITION type="level" param1="46" />
+	</CONDITIONS>
+	<CONDITIONS id="47">
+		<CONDITION type="level" param1="47" />
+	</CONDITIONS>
+	<CONDITIONS id="48">
+		<CONDITION type="level" param1="48" />
+	</CONDITIONS>
+	<CONDITIONS id="49">
+		<CONDITION type="level" param1="49" />
+	</CONDITIONS>   
+	<CONDITIONS id="50">
+		<CONDITION type="level" param1="50" />
+	</CONDITIONS>
+	<CONDITIONS id="1001">
+		<CONDITION type="level" param1="1" param2="1" />
+	</CONDITIONS>
+	<CONDITIONS id="1002">
+		<CONDITION type="level" param1="1" param2="2" />
+	</CONDITIONS>
+	<CONDITIONS id="1003">
+		<CONDITION type="level" param1="1" param2="3" />
+	</CONDITIONS>
+	<CONDITIONS id="1004">
+		<CONDITION type="level" param1="1" param2="4" />
+	</CONDITIONS>
+	<CONDITIONS id="1005">
+		<CONDITION type="level" param1="1" param2="5" />
+	</CONDITIONS>
+	<CONDITIONS id="1006">
+		<CONDITION type="level" param1="1" param2="6" />
+	</CONDITIONS>
+	<CONDITIONS id="1007">
+		<CONDITION type="level" param1="1" param2="7" />
+	</CONDITIONS>
+	<CONDITIONS id="1008">
+		<CONDITION type="level" param1="1" param2="8" />
+	</CONDITIONS>
+	<CONDITIONS id="1009">
+		<CONDITION type="level" param1="1" param2="9" />
+	</CONDITIONS>
+	<CONDITIONS id="1010">
+		<CONDITION type="level" param1="1" param2="10" />
+	</CONDITIONS>
+	<CONDITIONS id="1011">
+		<CONDITION type="level" param1="1" param2="11" />
+	</CONDITIONS>
+	<CONDITIONS id="1012">
+		<CONDITION type="level" param1="1" param2="12" />
+	</CONDITIONS>
+	<CONDITIONS id="1013">
+		<CONDITION type="level" param1="1" param2="13" />
+	</CONDITIONS>
+	<CONDITIONS id="1014">
+		<CONDITION type="level" param1="1" param2="14" />
+	</CONDITIONS>
+	<CONDITIONS id="1015">
+		<CONDITION type="level" param1="1" param2="15" />
+	</CONDITIONS>
+	<CONDITIONS id="1016">
+		<CONDITION type="level" param1="1" param2="16" />
+	</CONDITIONS>
+	<CONDITIONS id="1017">
+		<CONDITION type="level" param1="1" param2="17" />
+	</CONDITIONS>
+	<CONDITIONS id="1018">
+		<CONDITION type="level" param1="1" param2="18" />
+	</CONDITIONS>
+	<CONDITIONS id="1019">
+		<CONDITION type="level" param1="1" param2="19" />
+	</CONDITIONS>
+	<CONDITIONS id="1020">
+		<CONDITION type="level" param1="1" param2="20" />
+	</CONDITIONS>
+	<CONDITIONS id="1021">
+		<CONDITION type="level" param1="1" param2="21" />
+	</CONDITIONS>
+	<CONDITIONS id="1022">
+		<CONDITION type="level" param1="1" param2="22" />
+	</CONDITIONS>
+	<CONDITIONS id="1023">
+		<CONDITION type="level" param1="1" param2="23" />
+	</CONDITIONS>
+	<CONDITIONS id="1024">
+		<CONDITION type="level" param1="1" param2="24" />
+	</CONDITIONS>
+	<CONDITIONS id="1025">
+		<CONDITION type="level" param1="1" param2="25" />
+	</CONDITIONS>
+	<CONDITIONS id="1026">
+		<CONDITION type="level" param1="1" param2="26" />
+	</CONDITIONS>
+	<CONDITIONS id="1027">
+		<CONDITION type="level" param1="1" param2="27" />
+	</CONDITIONS>
+	<CONDITIONS id="1028">
+		<CONDITION type="level" param1="1" param2="28" />
+	</CONDITIONS>
+	<CONDITIONS id="1029">
+		<CONDITION type="level" param1="1" param2="29" />
+	</CONDITIONS>
+	<CONDITIONS id="1030">
+		<CONDITION type="level" param1="1" param2="30" />
+	</CONDITIONS>
+	<CONDITIONS id="1031">
+		<CONDITION type="level" param1="1" param2="31" />
+	</CONDITIONS>
+	<CONDITIONS id="1032">
+		<CONDITION type="level" param1="1" param2="32" />
+	</CONDITIONS>
+	<CONDITIONS id="1033">
+		<CONDITION type="level" param1="1" param2="33" />
+	</CONDITIONS>
+	<CONDITIONS id="1034">
+		<CONDITION type="level" param1="1" param2="34" />
+	</CONDITIONS>
+	<CONDITIONS id="1035">
+		<CONDITION type="level" param1="1" param2="35" />
+	</CONDITIONS>
+	<CONDITIONS id="1036">
+		<CONDITION type="level" param1="1" param2="36" />
+	</CONDITIONS>
+	<CONDITIONS id="1037">
+		<CONDITION type="level" param1="1" param2="37" />
+	</CONDITIONS>
+	<CONDITIONS id="1038">
+		<CONDITION type="level" param1="1" param2="38" />
+	</CONDITIONS>
+	<CONDITIONS id="1039">
+		<CONDITION type="level" param1="1" param2="39" />
+	</CONDITIONS>  
+	<CONDITIONS id="1040">
+		<CONDITION type="level" param1="1" param2="40" />
+	</CONDITIONS>
+	<CONDITIONS id="1041">
+		<CONDITION type="level" param1="1" param2="41" />
+	</CONDITIONS>
+	<CONDITIONS id="1042">
+		<CONDITION type="level" param1="1" param2="42" />
+	</CONDITIONS>
+	<CONDITIONS id="1043">
+		<CONDITION type="level" param1="1" param2="43" />
+	</CONDITIONS>
+	<CONDITIONS id="1044">
+		<CONDITION type="level" param1="1" param2="44" />
+	</CONDITIONS>
+	<CONDITIONS id="1045">
+		<CONDITION type="level" param1="1" param2="45" />
+	</CONDITIONS>
+	<CONDITIONS id="1046">
+		<CONDITION type="level" param1="1" param2="46" />
+	</CONDITIONS>
+	<CONDITIONS id="1047">
+		<CONDITION type="level" param1="1" param2="47" />
+	</CONDITIONS>
+	<CONDITIONS id="1048">
+		<CONDITION type="level" param1="1" param2="48" />
+	</CONDITIONS>
+	<CONDITIONS id="1049">
+		<CONDITION type="level" param1="1" param2="49" />
+	</CONDITIONS>   
+	<CONDITIONS id="1050">
+		<CONDITION type="level" param1="1" param2="50" />
+	</CONDITIONS>
+	<CONDITIONS id="3001" comment="ID 3001 퀘스트를 진행중일때만 사용 가능">
+		<CONDITION type="quest" param1="3002" param2="exist" />
+	</CONDITIONS>
+	<CONDITIONS id="4022" comment="인간 여성만 사용 가능">
+		<CONDITION type="race" param1="HUMAN" />
+		<CONDITION type="sex" param1="FEMALE" />
+	</CONDITIONS>
+	<CONDITIONS id="4023" comment="ID 33번 팩션에 50000 이상의 우호도이면서 1004번 타이틀 사용시에만 아이템 사용 가능">
+		<CONDITION type="faction" param1="33" param2="50000" />
+		<CONDITION type="title" param1="1004" />
+	</CONDITIONS>
+		<CONDITIONS id="4024" comment="ID 10001, 10101, 10201 탤런트를 모두 배웠을때 사용 가능">
+		<CONDITION type="talent" param1="10001,10101,10201" />
+	</CONDITIONS>
+	<CONDITIONS id="10000" comment="역습 라이센스 - 아이템 사용조건">
+		<CONDITION type="talent_style_tp" param1="defender" param2="5" />	
+	</CONDITIONS>
+	<CONDITIONS id="10001" comment="격분 라이센스 - 아이템 사용조건">
+		<CONDITION type="talent_style_tp" param1="berserker" param2="5" />	
+	</CONDITIONS>
+	<CONDITIONS id="10002" comment="강신 라이센스 - 아이템 사용조건">
+		<CONDITION type="talent_style_tp" param1="cleric" param2="5" />	
+	</CONDITIONS> 
+	<CONDITIONS id="33010" comment="베기 특화 라이센스 - 아이템 사용조건">
+		<OR>
+			<CONDITION type="talent_style_tp" param1="defender" param2="15" />
+			<CONDITION type="talent_style_tp" param1="berserker" param2="15" />		
+		</OR>  
+	</CONDITIONS>  
+	<CONDITIONS id="33011" comment="둔기 특화 라이센스 - 아이템 사용조건">
+		<OR>
+			<CONDITION type="talent_style_tp" param1="defender" param2="15" />
+			<CONDITION type="talent_style_tp" param1="berserker" param2="15" />		
+		</OR>  
+	</CONDITIONS>  
+	<CONDITIONS id="33012" comment="찌르기 특화 라이센스 - 아이템 사용조건">
+		<OR>
+			<CONDITION type="talent_style_tp" param1="assassin" param2="15" />
+			<CONDITION type="talent_style_tp" param1="ranger" param2="15" />		
+		</OR>  
+	</CONDITIONS>    
+	<CONDITIONS id="33013" comment="자연마법 특화 라이센스 - 아이템 사용조건">
+		<CONDITION type="talent_style_tp" param1="sorcerer" param2="15" /> 
+	</CONDITIONS>  
+	<CONDITIONS id="33014" comment="신성마법 특화 라이센스 - 아이템 사용조건">
+		<CONDITION type="talent_style_tp" param1="cleric" param2="15" /> 
+	</CONDITIONS>    
+	<CONDITIONS id="33018" comment="중급갑옷 숙련 라이센스 - 아이템 사용조건">
+		<OR>
+			<CONDITION type="talent_style_tp" param1="defender" param2="5" />
+			<CONDITION type="talent_style_tp" param1="berserker" param2="5" />	
+			<CONDITION type="talent_style_tp" param1="assassin" param2="15" />
+			<CONDITION type="talent_style_tp" param1="ranger" param2="15" />		
+			<CONDITION type="talent_style_tp" param1="cleric" param2="15" />			
+		</OR>
+	</CONDITIONS>
+	<CONDITIONS id="33019" comment="상급갑옷 숙련 라이센스 - 아이템 사용조건">
+		<OR>
+			<CONDITION type="talent_style_tp" param1="defender" param2="15" />
+			<CONDITION type="talent_style_tp" param1="berserker" param2="15" />	
+			<CONDITION type="talent_style_tp" param1="cleric" param2="30" />		
+		</OR>  
+	</CONDITIONS>  
+	<!--CONDITIONS id="61120" comment="큐프럼 비늘 - 중갑 장비 조건">
+		<CONDITION type="level" param1="5" />
+		<CONDITION type="license" param1="80018"/>	
+	</CONDITIONS>   
+	<CONDITIONS id="61140" comment="디미디아 갑옷 - 중갑 장비 조건">
+		<CONDITION type="level" param1="7" />
+		<CONDITION type="license" param1="80018" />	
+	</CONDITIONS>   
+	<CONDITIONS id="61240" comment="사령의 갑옷 - 중갑 장비 조건">
+		<CONDITION type="level" param1="12" />
+		<CONDITION type="license" param1="80018"/>	
+	</CONDITIONS>   
+	<CONDITIONS id="61260" comment="홍련의 갑옷 - 중갑 장비 조건">
+		<CONDITION type="level" param1="15" />
+		<CONDITION type="license" param1="80018" />	
+	</CONDITIONS>   
+	<CONDITIONS id="61280" comment="플루티드 판금 갑옷 - 판금 장비 조건">
+		<CONDITION type="level" param1="15" />
+		<CONDITION type="license" param1="80019" />	
+	</CONDITIONS>   
+	<CONDITIONS id="61300" comment="유령기사의 갑옷 - 판금 장비 조건">
+		<CONDITION type="level" param1="18" />
+		<CONDITION type="license" param1="80019" />	
+	</CONDITIONS>   
+	<CONDITIONS id="61340" comment="렌델 기사단 갑옷 - 중갑 장비 조건">
+		<CONDITION type="level" param1="18" />
+		<CONDITION type="license" param1="80018" />	
+	</CONDITIONS-->     
+	<CONDITIONS id="1100181" comment="구원의 손길 - 도구 사용 조건">
+		<CONDITION type="quest" param1="110018" param2="exist" />
+		<CONDITION type="quest" param1="110018" param2="notcomplete" />	
+	</CONDITIONS>  
+	<CONDITIONS id="1110211" comment="마력의 정체 - 코볼드란 사용 조건">
+		<CONDITION type="quest" param1="111021" param2="exist" />
+	</CONDITIONS>	
+	<CONDITIONS id="1100261" comment="이공계 기피 현상 - 용해제 사용 조건">
+		<CONDITION type="quest" param1="110026" param2="exist" />
+		<CONDITION type="quest" param1="110026" param2="notcomplete" />	
+	</CONDITIONS>   
+	<CONDITIONS id="1100290" comment="고블린 고렘의 설계도 - 퀘스트 아이템 시작 조건">
+		<CONDITION type="level" param1="8" />
+		<CONDITION type="quest" param1="110029" param2="notexist" />
+		<CONDITION type="quest" param1="110029" param2="notdone" />
+	</CONDITIONS>  
+	<CONDITIONS id="1131121" comment="죽고 싶지 않아 - 수갑의 열쇠 사용 조건">
+		<CONDITION type="quest" param1="113112" param2="exist" /> 	
+	</CONDITIONS>     
+	<CONDITIONS id="1131231" comment="트롤에 불을 질러라 - 제르디의 횃불 사용 조건">
+		<CONDITION type="quest" param1="113123" param2="exist" /> 	
+	</CONDITIONS>   
+	<CONDITIONS id="1110461" comment="드래곤을 불태워라 - 진행 중">
+		<CONDITION type="quest" param1="111046" param2="exist" />
+	</CONDITIONS>   
+</maiet>

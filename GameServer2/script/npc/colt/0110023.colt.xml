@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<maiet>
+	<COLT name="사냥꾼 요오마">
+		<COMBAT>
+			<DEFAULT>	
+				<ACTION type="nothing" param1="0.5" rate="30" />
+				
+				<ACTION type="talent" param1="211002302" rate="30" />
+				<ACTION type="talent" param1="211002303" rate="20" />
+			</DEFAULT>
+
+			<CHECK type="distance" param1="0" param2="200">
+				<CHECK type="rage" param1="80">
+					<ACTION type="flee" param1="from_enemy" param2="3" cycle="10" />  <!-- 거리 벌리기 -->
+				</CHECK>
+			</CHECK>
+			
+			<!-- 적이 가까이 왔을경우 -->
+			<CHECK type="distance" param1="0" param2="300">
+				<ACTION type="nothing" param1="0.5" rate="20"/>
+				
+				<ACTION type="talent" param1="211002301" rate="10" />  <!-- 일반공격(근접) -->
+				<ACTION type="flee" param1="from_enemy" param2="3" rate="20" cycle="10" />  <!-- 거리 벌리기 -->
+			</CHECK>
+			
+			<!-- 적이 아주멀리 있을 경우 -->
+			<CHECK type="distance" param1="1500">
+				<ACTION type="distance" param1="1000" param2="1000" duration="2" />
+			</CHECK>
+		</COMBAT>
+		<AGGRO>
+			<DEFAULT>
+				<ACTION type="say" param1="$$COLT_0110023_33"  param2="0" />
+			</DEFAULT>
+		</AGGRO>
+		<IDLE>
+			<DEFAULT>
+				<ACTION type="talent" param1="211000207" rate="10" />
+				<ACTION type="nothing" param1="1" rate="90"/>
+			</DEFAULT>
+		</IDLE>
+	</COLT>
+</maiet>

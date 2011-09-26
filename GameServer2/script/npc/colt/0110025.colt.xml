@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<maiet>
+	<COLT name="브레비">
+		<COMBAT>
+			<DEFAULT>
+				<ACTION type="nothing" param1="0.5" rate="20" />
+
+				<ACTION type="talent" param1="211002501" rate="30" />
+				<ACTION type="talent" param1="211002502" rate="20" />
+				<ACTION type="talent" param1="211002505" rate="10" />
+				<ACTION type="talent" param1="211002507" rate="10" />
+				<ACTION type="lua" param1="NPC_110025" param2="Heal" rate="10" cycle="30"/>
+			</DEFAULT>
+
+			<CHECK type="distance" param1="300">
+				<ACTION type="nothing" param1="0.5" rate="20" />
+
+				<ACTION type="talent" param1="211002501" rate="20" />
+				<ACTION type="talent" param1="211002502" rate="10" />
+				<ACTION type="talent" param1="211002505" rate="30" />
+				<ACTION type="lua" param1="NPC_110025" param2="Heal" rate="10" cycle="30"/>
+			</CHECK>
+			
+			<CHECK type="distance" param1="0" param2="200">
+				<CHECK type="rage" param1="80">
+					<ACTION type="guard" param1="211002503" param2="1" rate="50"/>
+					<ACTION type="talent" param1="211002507" param2="1" rate="50"/>
+				</CHECK>
+			</CHECK>
+
+		</COMBAT>
+		<IDLE>
+			<DEFAULT>
+				<ACTION type="talent" param1="211000207" rate="5" />
+				<ACTION type="talent" param1="211002106" rate="5" />
+				<ACTION type="nothing" param1="1" rate="90" />
+			</DEFAULT>
+		</IDLE>
+	</COLT>
+	<SCRIPT><![CDATA[
+	
+function NPC_110025:Init(NPCID)
+	
+end
+
+function NPC_110025:OnYell(RequestNPC, TargetActor)
+	this:Assist(RequestNPC)
+end
+
+--[[
+		npc의 체력 상태에 따라 힐을 시전할지 말지를 결정
+	
+--]]
+
+function NPC_110025:Heal( ThisNPC, Enemy )
+	--GLog( "NPC_110025_Heal" )
+	local HP = ThisNPC:GetHP()
+	local MaxHP = ThisNPC:GetMaxHP()
+	
+	if MaxHP == HP then
+		ThisNPC:FaceTo( Enemy )
+		ThisNPC:Wait( 0.5 )
+	else
+		ThisNPC:UseTalentSelf( 211002508 )
+	end
+end
+
+	]]></SCRIPT>
+		
+</maiet>

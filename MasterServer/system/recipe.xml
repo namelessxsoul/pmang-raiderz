@@ -1,0 +1,441 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<maiet>
+
+	<!-- ///// 퀘스트 전용 레시피 ////// -->
+	<!-- 특제 게살 스프(퀘스트 전용) -->
+	<RECIPE id="1" item="10073" amount="1" mat1="10027" mat1_amount="6" mat2="10016" mat2_amount="6" price="0" />
+	<!-- 음성 테스트용 -->
+	<RECIPE id="3" item="10030" amount="1" mat1="50001" mat1_amount="1" price="0" />	
+	
+	<!-- ///// 교역 ///// -->
+	<RECIPE id="1000" item="50251" amount="1" mat1="50904" mat1_amount="1" price="0" />	
+	<RECIPE id="1001" item="50301" amount="1" mat1="50904" mat1_amount="1" price="0" />		
+	<RECIPE id="50002" item="50002" amount="1" mat1="50001" mat1_amount="5" price="0" />
+	<RECIPE id="50003" item="50003" amount="1" mat1="50002" mat1_amount="5" price="0" />
+	<RECIPE id="50052" item="50052" amount="1" mat1="50051" mat1_amount="5" price="0" />		
+	<RECIPE id="50053" item="50053" amount="1" mat1="50052" mat1_amount="5" price="0" />		
+	<RECIPE id="50102" item="50102" amount="1" mat1="50101" mat1_amount="5" price="0" />
+	<RECIPE id="50103" item="50103" amount="1" mat1="50102" mat1_amount="5" price="0" />
+	<RECIPE id="50152" item="50152" amount="1" mat1="50151" mat1_amount="5" price="0" />		
+	<RECIPE id="50153" item="50153" amount="1" mat1="50152" mat1_amount="5" price="0" />	
+	<RECIPE id="50202" item="50202" amount="1" mat1="50201" mat1_amount="5" price="0" />		
+	<RECIPE id="50203" item="50203" amount="1" mat1="50202" mat1_amount="5" price="0" />
+
+	<!-- 에다산 트롤 PvP 강화석 -->
+	<RECIPE id="1010" item="30000305" amount="1" mat1="50800" mat1_amount="1" price="0" />
+	<RECIPE id="1011" item="30000306" amount="1" mat1="50800" mat1_amount="1" price="0" />
+	<RECIPE id="1012" item="30000307" amount="1" mat1="50800" mat1_amount="1" price="0" />
+	<RECIPE id="1013" item="30000316" amount="1" mat1="9990018" mat1_amount="3" price="0" />
+	<RECIPE id="1014" item="30000330" amount="1" mat1="50800" mat1_amount="2" mat2="9990018" mat2_amount="5" price="0" condition="1021001" />
+	<RECIPE id="1015" item="30000332" amount="1" mat1="50800" mat1_amount="2" mat2="9990018" mat2_amount="5" price="0" condition="1021001" />
+	<RECIPE id="1016" item="30000333" amount="1" mat1="50800" mat1_amount="2" mat2="9990018" mat2_amount="5" price="0" condition="1021001" />
+	<RECIPE id="1017" item="30000369" amount="1" mat1="50800" mat1_amount="4" mat2="9990018" mat2_amount="10" price="0" condition="1021002" />
+	<RECIPE id="1018" item="30000379" amount="1" mat1="50800" mat1_amount="4" mat2="9990018" mat2_amount="10" price="0" condition="1021002" />
+	<!-- 에다산 오우거 PvP 강화석 -->
+	<RECIPE id="1020" item="30000305" amount="1" mat1="50801" mat1_amount="1" price="0" />
+	<RECIPE id="1021" item="30000306" amount="1" mat1="50801" mat1_amount="1" price="0" />
+	<RECIPE id="1022" item="30000307" amount="1" mat1="50801" mat1_amount="1" price="0" />
+	<RECIPE id="1023" item="30000311" amount="1" mat1="9990018" mat1_amount="3" price="0" />
+	<RECIPE id="1024" item="30000330" amount="1" mat1="50801" mat1_amount="2" mat2="9990018" mat2_amount="5" price="0" condition="1021011" />
+	<RECIPE id="1025" item="30000331" amount="1" mat1="50801" mat1_amount="2" mat2="9990018" mat2_amount="5" price="0" condition="1021011" />
+	<RECIPE id="1026" item="30000333" amount="1" mat1="50801" mat1_amount="2" mat2="9990018" mat2_amount="5" price="0" condition="1021011" />
+	<RECIPE id="1027" item="30000368" amount="1" mat1="50801" mat1_amount="4" mat2="9990018" mat2_amount="10" price="0" condition="1021012" />
+	<RECIPE id="1028" item="30000374" amount="1" mat1="50801" mat1_amount="4" mat2="9990018" mat2_amount="10" price="0" condition="1021012" />
+
+
+
+	<!-- 마코트 부락 전통 재료 장인 -->
+	<RECIPE id="1030" item="50826" amount="1" mat1="50053" mat1_amount="3" mat2="50822" mat2_amount="3" price="100" />	
+	<RECIPE id="1031" item="50827" amount="1" mat1="50103" mat1_amount="3" mat2="50820" mat2_amount="3" price="100" />	
+	<RECIPE id="1032" item="50828" amount="1" mat1="50003" mat1_amount="3" mat2="50830" mat2_amount="3" price="100" />	
+	<RECIPE id="1033" item="50829" amount="1" mat1="50003" mat1_amount="3" mat2="50820" mat2_amount="3" price="100" />		
+	
+	<!-- ///// 소모성, 재료, 기타 ///// -->
+	<RECIPE id="10030" item="10030" amount="4" mat1="50001" mat1_amount="4" price="40" condition="1100220" />
+	<RECIPE id="50251" item="50251" amount="1" mat1="10044" mat1_amount="5" price="0" />		
+	<RECIPE id="50301" item="50301" amount="1" mat1="10044" mat1_amount="5" price="0" />
+	<RECIPE id="31002" item="31002" amount="1" mat1="50608" mat1_amount="1" mat2="50609" mat2_amount="2" mat3="50610" mat3_amount="2" mat4="50252" mat4_amount="2" price="1200" />
+	
+
+	<!-- ///// 물약 제조///// -->
+	<!-- 오우거 힘의 물약 -->
+	<RECIPE id="31000" item="31000" amount="3" mat1="50528" mat1_amount="1" mat2="50529" mat2_amount="1" price="300" />
+
+	
+	<!-- ///// 옷, 갑옷 ///// -->
+	<!-- 소렌트 모험가 모자,조끼,바지,장갑,신발 -->	
+	<RECIPE id="62000" item="62000" mat1="50051" mat1_amount="2" mat2="50101" mat2_amount="1" price="21" />
+	<RECIPE id="62001" item="62001" mat1="50051" mat1_amount="2" mat2="50101" mat2_amount="1" price="21" />
+	<RECIPE id="62002" item="62002" mat1="50051" mat1_amount="2" mat2="50101" mat2_amount="1" price="21" />	
+	<RECIPE id="62003" item="62003" mat1="50051" mat1_amount="2" mat2="50101" mat2_amount="1" price="21" />
+	<RECIPE id="62004" item="62004" mat1="50051" mat1_amount="2" mat2="50101" mat2_amount="1" price="21" />
+	<!-- 창해의 가죽 모자,상의,바지,장갑,장화 -->
+	<RECIPE id="62020" item="62020" mat1="50101" mat1_amount="2" mat2="50051" mat2_amount="1" price="22" />
+	<RECIPE id="62021" item="62021" mat1="50101" mat1_amount="2" mat2="50051" mat2_amount="1" price="22" />
+	<RECIPE id="62022" item="62022" mat1="50101" mat1_amount="2" mat2="50051" mat2_amount="1" price="22" />
+	<RECIPE id="62023" item="62023" mat1="50101" mat1_amount="2" mat2="50051" mat2_amount="1" price="22" />
+	<RECIPE id="62024" item="62024" mat1="50101" mat1_amount="2" mat2="50051" mat2_amount="1" price="22" />
+
+	<!-- 선원의 두건, 해적 선장의 모자, 대해적의 모자 -->	
+	<RECIPE id="61997" item="61997" mat1="50903" mat1_amount="3" price="0" />	
+	<RECIPE id="61998" item="61998" mat1="50051" mat1_amount="3" mat2="50101" mat2_amount="3" price="0" />	
+	<RECIPE id="61999" item="61999" mat1="50051" mat1_amount="3" mat2="50101" mat2_amount="2" mat3="50904" mat3_amount="1" price="0" />		
+	
+	<!-- 알스테어 머리장식,로브,장갑,신발 -->
+	<RECIPE id="62040" item="62040" mat1="50051" mat1_amount="4" mat2="50251" mat2_amount="1" price="95" />
+	<RECIPE id="62041" item="62041" mat1="50051" mat1_amount="9" mat2="50506" mat2_amount="4" price="168" />
+	<RECIPE id="62043" item="62043" mat1="50051" mat1_amount="4" mat2="50500" mat2_amount="3" price="95" />
+	<RECIPE id="62044" item="62044" mat1="50051" mat1_amount="2" mat2="50101" mat2_amount="3" price="95" />	
+	<!-- 유랑의 머리띠,상의,하의,장갑,장화 -->	
+	<RECIPE id="62060" item="62060" mat1="50101" mat1_amount="4" mat2="50510" mat2_amount="4" price="99" />
+	<RECIPE id="62061" item="62061" mat1="50101" mat1_amount="4" mat2="50512" mat2_amount="4" price="99" />
+	<RECIPE id="62062" item="62062" mat1="50101" mat1_amount="6" price="99" />
+	<RECIPE id="62063" item="62063" mat1="50101" mat1_amount="2" mat2="50051" mat2_amount="3" price="99" />
+	<RECIPE id="62064" item="62064" mat1="50101" mat1_amount="3" mat2="50001" mat2_amount="3" price="99" />
+	<!-- 큐프럼 사슬 투구,흉갑,다리갑옷,장갑,장화 -->
+	<RECIPE id="62080" item="62080" mat1="50001" mat1_amount="3" mat2="50101" mat2_amount="3" price="108" />	
+	<RECIPE id="62081" item="62081" mat1="50001" mat1_amount="6" mat2="50512" mat2_amount="3" price="108" />	
+	<RECIPE id="62082" item="62082" mat1="50001" mat1_amount="6" mat2="50500" mat2_amount="3" price="108" />		
+	<RECIPE id="62083" item="62083" mat1="50001" mat1_amount="6" price="108" />	
+	<RECIPE id="62084" item="62084" mat1="50001" mat1_amount="4" mat2="50510" mat2_amount="4" price="108" />		
+	
+	<!-- 고행의 두건,로브,장갑,신발 -->
+	<RECIPE id="62100" item="62100" mat1="50051" mat1_amount="6" mat2="50500" mat2_amount="4" mat3="50508" mat3_amount="1" price="210" />	
+	<RECIPE id="62101" item="62101" mat1="50051" mat1_amount="13" mat2="50301" mat2_amount="3" mat3="50251" mat3_amount="1" mat4="50503" mat4_amount="1" price="378" />	
+	<RECIPE id="62103" item="62103" mat1="50051" mat1_amount="6" mat2="50506" mat2_amount="2" mat3="50301" mat3_amount="2" price="210" />	
+	<RECIPE id="62104" item="62104" mat1="50051" mat1_amount="5" mat2="50502" mat2_amount="4" mat3="50509" mat3_amount="1" price="210" />	
+	<!-- 루피나 가죽 모자,흉갑,바지,장갑,장화 -->	
+	<RECIPE id="62120" item="62120" mat1="50101" mat1_amount="7" mat2="50502" mat2_amount="4" mat3="50506" mat3_amount="4" price="220" />
+	<RECIPE id="62121" item="62121" mat1="50101" mat1_amount="9" mat2="50301" mat2_amount="3" mat3="50507" mat3_amount="1" price="220" />
+	<RECIPE id="62122" item="62122" mat1="50101" mat1_amount="6" mat2="50500" mat2_amount="3" mat3="50509" mat3_amount="1" price="220" />
+	<RECIPE id="62123" item="62123" mat1="50101" mat1_amount="6" mat2="50500" mat2_amount="4" mat3="50510" mat3_amount="6" price="220" />
+	<RECIPE id="62124" item="62124" mat1="50101" mat1_amount="7" mat2="50001" mat2_amount="3" mat3="50504" mat3_amount="1" price="220" />	
+	<!-- 유랑 용병의 투구,흉갑,바지,장갑,신발 -->	
+	<RECIPE id="62140" item="62140" mat1="62060" mat1_amount="1" mat2="50001" mat2_amount="6" mat3="50502" mat3_amount="5" mat4="50505" mat4_amount="1" price="240" />	
+	<RECIPE id="62141" item="62141" mat1="62061" mat1_amount="1" mat2="50001" mat2_amount="7" mat3="50507" mat3_amount="1" price="240" />	
+	<RECIPE id="62142" item="62142" mat1="62062" mat1_amount="1" mat2="50101" mat2_amount="6" mat3="50506" mat3_amount="3" price="240" />	
+	<RECIPE id="62143" item="62143" mat1="62063" mat1_amount="1" mat2="50001" mat2_amount="6" mat3="50512" mat3_amount="5" price="240" />	
+	<RECIPE id="62144" item="62144" mat1="62064" mat1_amount="1" mat2="50101" mat2_amount="5" mat3="50508" mat3_amount="1" price="240" />	
+	
+	<!-- 비의의 두건,로브,장갑,신발 -->
+	<RECIPE id="62160" item="62160" mat1="50051" mat1_amount="5" mat2="50526" mat2_amount="3" price="315" />	
+	<RECIPE id="62161" item="62161" mat1="50051" mat1_amount="9" mat2="50525" mat2_amount="4" mat3="50532" mat3_amount="4" mat4="50520" mat4_amount="4" price="588" />	
+	<RECIPE id="62163" item="62163" mat1="50051" mat1_amount="4" mat2="50526" mat2_amount="3" mat3="50301" mat3_amount="2" price="315" />	
+	<RECIPE id="62164" item="62164" mat1="50051" mat1_amount="3" mat2="50522" mat2_amount="4" price="315" />	
+	<!-- 경계의 가죽 모자,조끼,하의,장갑,장화 -->
+	<RECIPE id="62180" item="62180" mat1="50101" mat1_amount="4" mat2="50526" mat2_amount="4" price="330" />	
+	<RECIPE id="62181" item="62181" mat1="50101" mat1_amount="5" mat2="50522" mat2_amount="3" mat3="50520" mat3_amount="4" price="330" />	
+	<RECIPE id="62182" item="62182" mat1="50101" mat1_amount="5" mat2="50522" mat2_amount="3" mat3="50301" mat3_amount="2" price="330" />	
+	<RECIPE id="62183" item="62183" mat1="50101" mat1_amount="3" mat2="50525" mat2_amount="4" price="330" />	
+	<RECIPE id="62184" item="62184" mat1="50101" mat1_amount="4" mat2="50532" mat2_amount="4" price="330" />		
+	<!-- 디미디아 비늘 투구,흉갑,다리갑옷,장갑,장화  -->
+	<RECIPE id="62200" item="62200" mat1="50001" mat1_amount="4" mat2="50532" mat2_amount="4" price="360" />	
+	<RECIPE id="62201" item="62201" mat1="50001" mat1_amount="5" mat2="50520" mat2_amount="3" mat3="50301" mat3_amount="2" price="360" />	
+	<RECIPE id="62202" item="62202" mat1="50001" mat1_amount="4" mat2="50520" mat2_amount="3" price="360" />		
+	<RECIPE id="62203" item="62203" mat1="50001" mat1_amount="4" mat2="50522" mat2_amount="4" mat3="50526" mat3_amount="4" price="360" />	
+	<RECIPE id="62204" item="62204" mat1="50001" mat1_amount="4" mat2="50525" mat2_amount="4" price="360" />	
+	
+	<!-- 레나시안 사제 머리장식, 로브, 바지, 장갑, 신발  -->
+	<RECIPE id="62220" item="62220" mat1="50052" mat1_amount="4" mat2="50606" mat2_amount="5" mat3="50653" mat3_amount="4" mat4="50651" mat4_amount="1" price="672" />	
+	<RECIPE id="62221" item="62221" mat1="50052" mat1_amount="9" mat2="50604" mat2_amount="4" mat3="50602" mat3_amount="4" mat4="50650" mat4_amount="1" price="672" />	
+	<RECIPE id="62222" item="62222" mat1="50052" mat1_amount="5" mat2="50603" mat2_amount="5" mat3="50602" mat3_amount="4" mat4="50652" mat4_amount="1" price="672" />		
+	<RECIPE id="62223" item="62223" mat1="50052" mat1_amount="3" mat2="50604" mat2_amount="4" mat3="50535" mat3_amount="4" mat4="50252" mat4_amount="1" price="672" />	
+	<RECIPE id="62224" item="62224" mat1="50052" mat1_amount="5" mat2="50605" mat2_amount="5" mat3="50502" mat3_amount="4" mat4="50302" mat4_amount="2" price="672" />	
+	<!-- 어두운 숲의 사냥모, 코트, 바지, 장갑, 장화 -->	
+	<RECIPE id="62240" item="62240" mat1="50102" mat1_amount="6" mat2="50606" mat2_amount="5" mat3="50500" mat3_amount="4" mat4="50650" mat4_amount="1" price="704" />	
+	<RECIPE id="62241" item="62241" mat1="50102" mat1_amount="8" mat2="50605" mat2_amount="4" mat3="50516" mat3_amount="4" mat4="50651" mat4_amount="1" price="704" />	
+	<RECIPE id="62242" item="62242" mat1="50102" mat1_amount="4" mat2="50605" mat2_amount="4" mat3="50600" mat3_amount="4" mat4="50252" mat4_amount="1" price="704" />	
+	<RECIPE id="62243" item="62243" mat1="50102" mat1_amount="6" mat2="50604" mat2_amount="5" mat3="50653" mat3_amount="4" mat4="50652" mat4_amount="1" price="704" />	
+	<RECIPE id="62244" item="62244" mat1="50102" mat1_amount="6" mat2="50603" mat2_amount="5" mat3="50602" mat3_amount="6" mat4="50302" mat4_amount="2" price="704" />
+	<!-- 투스칸식 투구,흉갑,다리갑옷,장갑,장화 -->	
+	<RECIPE id="62260" item="62260" mat1="50002" mat1_amount="7" mat2="50606" mat2_amount="4" mat3="50600" mat3_amount="4" mat4="50302" mat4_amount="2" price="768" />	
+	<RECIPE id="62261" item="62261" mat1="50002" mat1_amount="13" mat2="50603" mat2_amount="5" mat3="50653" mat3_amount="4" mat4="50652" mat4_amount="1" price="768" />	
+	<RECIPE id="62262" item="62262" mat1="50002" mat1_amount="5" mat2="50604" mat2_amount="5" mat3="50532" mat3_amount="4" mat4="50252" mat4_amount="1" price="768" />	
+	<RECIPE id="62263" item="62263" mat1="50002" mat1_amount="7" mat2="50605" mat2_amount="5" mat3="50602" mat3_amount="6" mat4="50651" mat4_amount="1" price="768" />	
+	<RECIPE id="62264" item="62264" mat1="50002" mat1_amount="8" mat2="50606" mat2_amount="4" mat3="50512" mat3_amount="4" mat4="50650" mat4_amount="1" price="768" />	
+	<!-- 플루티드 판금 투구,흉갑,다리갑옷,장갑,장화 -->	
+	<RECIPE id="62280" item="62280" mat1="50002" mat1_amount="7" mat2="50605" mat2_amount="5" mat3="50653" mat3_amount="4" mat4="50252" mat4_amount="1" price="800" />	
+	<RECIPE id="62281" item="62281" mat1="50002" mat1_amount="10" mat2="50603" mat2_amount="4" mat3="50600" mat3_amount="4" mat4="50302" mat4_amount="2" price="800" />	
+	<RECIPE id="62282" item="62282" mat1="50002" mat1_amount="9" mat2="50603" mat2_amount="4" mat3="50500" mat3_amount="4" mat4="50651" mat4_amount="1" price="800" />	
+	<RECIPE id="62283" item="62283" mat1="50002" mat1_amount="6" mat2="50604" mat2_amount="5" mat3="50602" mat3_amount="6" mat4="50650" mat4_amount="1" price="800" />	
+	<RECIPE id="62284" item="62284" mat1="50002" mat1_amount="8" mat2="50606" mat2_amount="5" mat3="50520" mat3_amount="4" mat4="50652" mat4_amount="1" price="800" />
+	
+	<!-- 제례의 예복 모자,로브,장갑,신발 -->	
+	<RECIPE id="62300" item="62300" mat1="50052" mat1_amount="6" mat2="50605" mat2_amount="5" mat3="50707" mat3_amount="1" price="672" />	
+	<RECIPE id="62301" item="62301" mat1="50052" mat1_amount="14" mat2="50604" mat2_amount="8" mat3="50602" mat3_amount="8" mat4="50706" mat4_amount="2" price="1270" />	
+	<RECIPE id="62303" item="62303" mat1="50052" mat1_amount="5" mat2="50606" mat2_amount="5" mat3="50709" mat3_amount="4" mat4="50708" mat4_amount="1" price="672" />	
+	<RECIPE id="62304" item="62304" mat1="50052" mat1_amount="5" mat2="50603" mat2_amount="5" mat3="50705" mat3_amount="1" price="672" />
+	<!-- 혈흔의 가죽 투구,흉갑,하의,장갑,장화 -->	
+	<RECIPE id="62320" item="62320" mat1="50102" mat1_amount="5" mat2="50605" mat2_amount="4" mat3="50602" mat3_amount="6" mat4="50706" mat4_amount="1" price="704" />	
+	<RECIPE id="62321" item="62321" mat1="50102" mat1_amount="8" mat2="50603" mat2_amount="5" mat3="50709" mat3_amount="4" mat4="50708" mat4_amount="1" price="704" />	
+	<RECIPE id="62322" item="62322" mat1="50102" mat1_amount="6" mat2="50604" mat2_amount="5" mat3="50706" mat3_amount="1" price="704" />	
+	<RECIPE id="62323" item="62323" mat1="50102" mat1_amount="6" mat2="50606" mat2_amount="5" mat3="50601" mat3_amount="4" mat4="50707" mat4_amount="1" price="704" />	
+	<RECIPE id="62324" item="62324" mat1="50102" mat1_amount="5" mat2="50605" mat2_amount="4" mat3="50705" mat3_amount="1" price="704" />	
+	<!-- 사령의 투구,흉갑,다리갑옷,장갑,장화 -->	
+	<RECIPE id="62340" item="62340" mat1="50002" mat1_amount="8" mat2="50606" mat2_amount="4" mat3="50602" mat3_amount="6" mat4="50635" mat4_amount="1" price="768" />	
+	<RECIPE id="62341" item="62341" mat1="50002" mat1_amount="9" mat2="50605" mat2_amount="5" mat3="50601" mat3_amount="4" mat4="50708" mat4_amount="1" price="768" />	
+	<RECIPE id="62342" item="62342" mat1="50002" mat1_amount="9" mat2="50603" mat2_amount="5" mat3="50709" mat3_amount="4" mat4="50634" mat4_amount="1" price="768" />	
+	<RECIPE id="62343" item="62343" mat1="50002" mat1_amount="7" mat2="50604" mat2_amount="5" mat3="50706" mat3_amount="1" price="768" />	
+	<RECIPE id="62344" item="62344" mat1="50002" mat1_amount="7" mat2="50606" mat2_amount="4" mat3="50708" mat3_amount="1" price="768" />
+	<!-- 유령기사의 판금 투구,흉갑,다리갑옷,장갑,장화 -->	
+	<RECIPE id="62360" item="62360" mat1="50700" mat1_amount="1" mat2="50606" mat2_amount="5" mat3="50706" mat3_amount="1" price="800" />	
+	<RECIPE id="62361" item="62361" mat1="50701" mat1_amount="1" mat2="50603" mat2_amount="4" mat3="50709" mat3_amount="4" mat4="50706" mat4_amount="1" price="800" />	
+	<RECIPE id="62362" item="62362" mat1="50702" mat1_amount="1" mat2="50604" mat2_amount="5" mat3="50602" mat3_amount="6" mat4="50707" mat4_amount="1" price="800" />	
+	<RECIPE id="62363" item="62363" mat1="50703" mat1_amount="1" mat2="50603" mat2_amount="4" mat3="50601" mat3_amount="4" mat4="50634" mat4_amount="1" price="800" />	
+	<RECIPE id="62364" item="62364" mat1="50704" mat1_amount="1" mat2="50605" mat2_amount="5" mat3="50707" mat3_amount="1" price="800" />		
+
+	<!-- 서리늑대 두건, 상의, 하의, 장갑, 장화  -->
+	<RECIPE id="62400" item="62400" mat1="50052" mat1_amount="9" mat2="50802" mat2_amount="4" price="850" />	
+	<RECIPE id="62401" item="62401" mat1="50052" mat1_amount="10" mat2="50802" mat2_amount="4" mat3="50302" mat3_amount="1" price="850" />	
+	<RECIPE id="62402" item="62402" mat1="50052" mat1_amount="10" mat2="50804" mat2_amount="6" mat3="50302" mat3_amount="2" price="850" />		
+	<RECIPE id="62403" item="62403" mat1="50052" mat1_amount="8" mat2="50803" mat2_amount="4" price="850" />	
+	<RECIPE id="62404" item="62404" mat1="50052" mat1_amount="8" mat2="50803" mat2_amount="4" price="850" />	
+	<!-- 설원의 가죽 두건, 코트, 바지, 장갑, 장화 -->	
+	<RECIPE id="62420" item="62420" mat1="50102" mat1_amount="8" mat2="50802" mat2_amount="6" mat3="50302" mat3_amount="1" price="891" />	
+	<RECIPE id="62421" item="62421" mat1="50102" mat1_amount="10" mat2="50803" mat2_amount="4" price="891" />	
+	<RECIPE id="62422" item="62422" mat1="50102" mat1_amount="9" mat2="50803" mat2_amount="4" mat3="50302" mat3_amount="2" mat4="50806" mat4_amount="1" price="891" />	
+	<RECIPE id="62423" item="62423" mat1="50102" mat1_amount="9" mat2="50804" mat2_amount="4" price="891" />	
+	<RECIPE id="62424" item="62424" mat1="50102" mat1_amount="9" mat2="50804" mat2_amount="4" price="891" />	
+	<!-- 비요른 예거 투구,흉갑,다리갑옷,장갑,장화 -->	
+	<RECIPE id="62440" item="62440" mat1="50002" mat1_amount="6" mat2="50803" mat2_amount="4" mat3="50302" mat3_amount="1" price="972" />	
+	<RECIPE id="62441" item="62441" mat1="50002" mat1_amount="10" mat2="50802" mat2_amount="6" mat3="50302" mat3_amount="2" price="972" />	
+	<RECIPE id="62442" item="62442" mat1="50002" mat1_amount="9" mat2="50804" mat2_amount="4" price="972" />	
+	<RECIPE id="62443" item="62443" mat1="50002" mat1_amount="10" mat2="50830" mat2_amount="4" price="972" />	
+	<RECIPE id="62444" item="62444" mat1="50002" mat1_amount="10" mat2="50830" mat2_amount="4" price="972" />
+	<!-- 장인의 판금 투구,흉갑,다리갑옷,장갑,장화 -->	
+	<RECIPE id="62460" item="62460" mat1="50002" mat1_amount="8" mat2="50830" mat2_amount="4" price="1012" />	
+	<RECIPE id="62461" item="62461" mat1="50002" mat1_amount="10" mat2="50804" mat2_amount="6" mat3="50302" mat3_amount="2" price="1012" />	
+	<RECIPE id="62462" item="62462" mat1="50002" mat1_amount="10" mat2="50830" mat2_amount="4" price="1012" />	
+	<RECIPE id="62463" item="62463" mat1="50002" mat1_amount="8" mat2="50803" mat2_amount="6" mat3="50302" mat3_amount="1" price="1012" />	
+	<RECIPE id="62464" item="62464" mat1="50002" mat1_amount="9" mat2="50803" mat2_amount="6" price="1012" />	
+	
+	<!-- 서리늑대 세트 강화  -->
+	<RECIPE id="62500" item="62500" mat1="62400" mat1_amount="1" mat2="50826" mat2_amount="4" mat3="50810" mat3_amount="1" price="945" />	
+	<RECIPE id="62501" item="62501" mat1="62401" mat1_amount="1" mat2="50826" mat2_amount="4" mat3="50805" mat3_amount="1" price="945" />	
+	<RECIPE id="62502" item="62502" mat1="62402" mat1_amount="1" mat2="50828" mat2_amount="5" mat3="50806" mat3_amount="1" price="945" />		
+	<RECIPE id="62503" item="62503" mat1="62403" mat1_amount="1" mat2="50829" mat2_amount="5" mat3="50809" mat3_amount="1" price="945" />	
+	<RECIPE id="62504" item="62504" mat1="62404" mat1_amount="1" mat2="50827" mat2_amount="5" mat3="50808" mat3_amount="1" price="945" />	
+	<!-- 설원의 가죽 세트 강화 -->	
+	<RECIPE id="62520" item="62520" mat1="62420" mat1_amount="1" mat2="50827" mat2_amount="4" mat3="50807" mat3_amount="1" price="990" />	
+	<RECIPE id="62521" item="62521" mat1="62421" mat1_amount="1" mat2="50826" mat2_amount="5" mat3="50805" mat3_amount="1" price="990" />	
+	<RECIPE id="62522" item="62522" mat1="62422" mat1_amount="1" mat2="50827" mat2_amount="4" mat3="50808" mat3_amount="1" price="990" />	
+	<RECIPE id="62523" item="62523" mat1="62423" mat1_amount="1" mat2="50828" mat2_amount="5" mat3="50810" mat3_amount="1" price="990" />	
+	<RECIPE id="62524" item="62524" mat1="62424" mat1_amount="1" mat2="50829" mat2_amount="5" mat3="50806" mat3_amount="1" price="990" />	
+	<!-- 비요른 예거 세트 강화 -->	
+	<RECIPE id="62540" item="62540" mat1="62440" mat1_amount="1" mat2="50829" mat2_amount="5" mat3="50805" mat3_amount="1" price="1080" />	
+	<RECIPE id="62541" item="62541" mat1="62441" mat1_amount="1" mat2="50828" mat2_amount="4" mat3="50809" mat3_amount="1" price="1080" />	
+	<RECIPE id="62542" item="62542" mat1="62442" mat1_amount="1" mat2="50827" mat2_amount="5" mat3="50806" mat3_amount="1" price="1080" />	
+	<RECIPE id="62543" item="62543" mat1="62443" mat1_amount="1" mat2="50826" mat2_amount="5" mat3="50808" mat3_amount="1" price="1080" />	
+	<RECIPE id="62544" item="62544" mat1="62444" mat1_amount="1" mat2="50828" mat2_amount="4" mat3="50807" mat3_amount="1" price="1080" />
+	<!-- 장인의 판금 세트 강화 -->	
+	<RECIPE id="62560" item="62560" mat1="62460" mat1_amount="1" mat2="50829" mat2_amount="4" mat3="50810" mat3_amount="1" price="1125" />	
+	<RECIPE id="62561" item="62561" mat1="62461" mat1_amount="1" mat2="50829" mat2_amount="4" mat3="50808" mat3_amount="1" price="1125" />	
+	<RECIPE id="62562" item="62562" mat1="62462" mat1_amount="1" mat2="50826" mat2_amount="5" mat3="50809" mat3_amount="1" price="1125" />	
+	<RECIPE id="62563" item="62563" mat1="62463" mat1_amount="1" mat2="50828" mat2_amount="5" mat3="50806" mat3_amount="1" price="1125" />	
+	<RECIPE id="62564" item="62564" mat1="62464" mat1_amount="1" mat2="50827" mat2_amount="5" mat3="50807" mat3_amount="1" price="1125" />		
+	
+	<!-- 레나시안 사제 세트 강화  -->
+	<RECIPE id="62600" item="62600" mat1="62220" mat1_amount="1" mat2="50829" mat2_amount="5" mat3="50807" mat3_amount="1" price="945" />	
+	<RECIPE id="62601" item="62601" mat1="62221" mat1_amount="1" mat2="50826" mat2_amount="4" mat3="50805" mat3_amount="1" price="945" />	
+	<RECIPE id="62602" item="62602" mat1="62222" mat1_amount="1" mat2="50826" mat2_amount="4" mat3="50253" mat3_amount="2" price="945" />		
+	<RECIPE id="62603" item="62603" mat1="62223" mat1_amount="1" mat2="50828" mat2_amount="5" mat3="50806" mat3_amount="1" price="945" />	
+	<RECIPE id="62604" item="62604" mat1="62224" mat1_amount="1" mat2="50827" mat2_amount="5" mat3="50804" mat3_amount="6" price="945" />	
+	<!-- 어두운 숲의 세트 강화 -->	
+	<RECIPE id="62620" item="62620" mat1="62240" mat1_amount="1" mat2="50827" mat2_amount="4" mat3="50810" mat3_amount="1" price="990" />	
+	<RECIPE id="62621" item="62621" mat1="62241" mat1_amount="1" mat2="50828" mat2_amount="5" mat3="50807" mat3_amount="1" price="990" />	
+	<RECIPE id="62622" item="62622" mat1="62242" mat1_amount="1" mat2="50826" mat2_amount="5" mat3="50803" mat3_amount="6" price="990" />	
+	<RECIPE id="62623" item="62623" mat1="62243" mat1_amount="1" mat2="50827" mat2_amount="4" mat3="50806" mat3_amount="1" price="990" />	
+	<RECIPE id="62624" item="62624" mat1="62244" mat1_amount="1" mat2="50829" mat2_amount="5" mat3="50303" mat3_amount="2" price="990" />	
+	<!-- 루스칸식 세트 강화 -->	
+	<RECIPE id="62640" item="62640" mat1="62260" mat1_amount="1" mat2="50826" mat2_amount="5" mat3="50802" mat3_amount="6" price="1080" />	
+	<RECIPE id="62641" item="62641" mat1="62261" mat1_amount="1" mat2="50829" mat2_amount="5" mat3="50253" mat3_amount="2" price="1080" />	
+	<RECIPE id="62642" item="62642" mat1="62262" mat1_amount="1" mat2="50828" mat2_amount="4" mat3="50808" mat3_amount="1" price="1080" />	
+	<RECIPE id="62643" item="62643" mat1="62263" mat1_amount="1" mat2="50828" mat2_amount="4" mat3="50807" mat3_amount="1" price="1080" />	
+	<RECIPE id="62644" item="62644" mat1="62264" mat1_amount="1" mat2="50827" mat2_amount="5" mat3="50806" mat3_amount="1" price="1080" />
+	<!-- 플루티드 판금 세트 강화 -->	
+	<RECIPE id="62660" item="62660" mat1="62280" mat1_amount="1" mat2="50829" mat2_amount="4" mat3="50830" mat3_amount="6" price="1125" />	
+	<RECIPE id="62661" item="62661" mat1="62281" mat1_amount="1" mat2="50829" mat2_amount="4" mat3="50808" mat3_amount="1" price="1125" />	
+	<RECIPE id="62662" item="62662" mat1="62282" mat1_amount="1" mat2="50826" mat2_amount="5" mat3="50806" mat3_amount="1" price="1125" />	
+	<RECIPE id="62663" item="62663" mat1="62283" mat1_amount="1" mat2="50828" mat2_amount="5" mat3="50303" mat3_amount="2" price="1125" />	
+	<RECIPE id="62664" item="62664" mat1="62284" mat1_amount="1" mat2="50827" mat2_amount="5" mat3="50805" mat3_amount="1" price="1125" />		
+	
+	<!-- 제례의 예복 세트 강화  -->
+	<RECIPE id="62700" item="62700" mat1="62300" mat1_amount="1" mat2="50829" mat2_amount="5" mat3="50810" mat3_amount="1" price="945" />	
+	<RECIPE id="62701" item="62701" mat1="62301" mat1_amount="1" mat2="50826" mat2_amount="8" mat3="50253" mat3_amount="2" price="945" />	
+	<RECIPE id="62703" item="62703" mat1="62303" mat1_amount="1" mat2="50827" mat2_amount="5" mat3="50807" mat3_amount="1" price="945" />	
+	<RECIPE id="62704" item="62704" mat1="62304" mat1_amount="1" mat2="50828" mat2_amount="5" mat3="50803" mat3_amount="6" price="945" />	
+	<!-- 혈흔의 가죽 세트 강화 -->	
+	<RECIPE id="62720" item="62720" mat1="62320" mat1_amount="1" mat2="50829" mat2_amount="5" mat3="50802" mat3_amount="6" price="990" />	
+	<RECIPE id="62721" item="62721" mat1="62321" mat1_amount="1" mat2="50828" mat2_amount="5" mat3="50805" mat3_amount="1" price="990" />	
+	<RECIPE id="62722" item="62722" mat1="62322" mat1_amount="1" mat2="50827" mat2_amount="4" mat3="50808" mat3_amount="1" price="990" />	
+	<RECIPE id="62723" item="62723" mat1="62323" mat1_amount="1" mat2="50826" mat2_amount="5" mat3="50809" mat3_amount="1" price="990" />	
+	<RECIPE id="62724" item="62724" mat1="62324" mat1_amount="1" mat2="50827" mat2_amount="4" mat3="50303" mat3_amount="2" price="990" />	
+	<!-- 사령의 갑옷 세트 강화 -->	
+	<RECIPE id="62740" item="62740" mat1="62340" mat1_amount="1" mat2="50828" mat2_amount="4" mat3="50253" mat3_amount="2" price="1080" />	
+	<RECIPE id="62741" item="62741" mat1="62341" mat1_amount="1" mat2="50829" mat2_amount="5" mat3="50809" mat3_amount="1" price="1080" />	
+	<RECIPE id="62742" item="62742" mat1="62342" mat1_amount="1" mat2="50828" mat2_amount="4" mat3="50810" mat3_amount="1" price="1080" />	
+	<RECIPE id="62743" item="62743" mat1="62343" mat1_amount="1" mat2="50826" mat2_amount="5" mat3="50805" mat3_amount="1" price="1080" />	
+	<RECIPE id="62744" item="62744" mat1="62344" mat1_amount="1" mat2="50827" mat2_amount="5" mat3="50830" mat3_amount="6" price="1080" />
+	<!-- 유령기사의 판금 세트 강화 -->	
+	<RECIPE id="62760" item="62760" mat1="62360" mat1_amount="1" mat2="50828" mat2_amount="5" mat3="50809" mat3_amount="1" price="1125" />	
+	<RECIPE id="62761" item="62761" mat1="62361" mat1_amount="1" mat2="50829" mat2_amount="4" mat3="50808" mat3_amount="1" price="1125" />	
+	<RECIPE id="62762" item="62762" mat1="62362" mat1_amount="1" mat2="50829" mat2_amount="4" mat3="50303" mat3_amount="2" price="1125" />	
+	<RECIPE id="62763" item="62763" mat1="62363" mat1_amount="1" mat2="50826" mat2_amount="5" mat3="50810" mat3_amount="1" price="1125" />	
+	<RECIPE id="62764" item="62764" mat1="62364" mat1_amount="1" mat2="50827" mat2_amount="5" mat3="50804" mat3_amount="6" price="1125" />	
+
+	
+	
+	
+	
+	<!-- ///// 장신구 ///// -->
+	<!-- 오튼의 목걸이, 렌고트 주술용 부적, 골렘의 반지(적/청), 에다산의 정복자, 안개의 고리 -->
+	<RECIPE id="68000" item="68000" mat1="50506" mat1_amount="2" mat2="50251" mat2_amount="1" price="50" />
+	<RECIPE id="68008" item="68008" mat1="50523" mat1_amount="4" mat2="50251" mat2_amount="1" mat3="50535" mat3_amount="6" price="375" />
+	<RECIPE id="68009" item="68009" mat1="50537" mat1_amount="3" mat2="50533" mat2_amount="4" mat3="50535" mat3_amount="6" price="800" condition="1100339" />
+	<RECIPE id="68010" item="68010" mat1="50537" mat1_amount="3" mat2="50533" mat2_amount="4" mat3="50536" mat3_amount="1" price="800" condition="1100339" />
+	<RECIPE id="68018" item="68018" mat1="50810" mat1_amount="1" mat2="50805" mat2_amount="1" mat3="50807" mat3_amount="1" mat4="50822" mat4_amount="10" price="2275" />
+	<RECIPE id="68019" item="68019" mat1="50513" mat1_amount="1" mat2="50514" mat2_amount="1" mat3="50301" mat3_amount="1" mat4="50515" mat4_amount="1" price="450" />	
+	
+	<!-- 광기의 눈 부족/흰색예티 부족의 부적, 지켜보는 자의 반지, 흰색 털뭉치 반지, 발로르의 축복 목걸이, 락크러셔의 축복 목걸이, 저급 상처치유의 물약 -->
+	<RECIPE id="68012" item="68012" mat1="9990018" mat1_amount="30"  />
+	<RECIPE id="68013" item="68013" mat1="9990018" mat1_amount="30"  />
+	<RECIPE id="68014" item="68014" mat1="9990018" mat1_amount="80"  />
+	<RECIPE id="68015" item="68015" mat1="9990018" mat1_amount="80"  />
+	<RECIPE id="68016" item="68016" mat1="9990018" mat1_amount="50"  />
+	<RECIPE id="68017" item="68017" mat1="9990018" mat1_amount="50"  />
+	<RECIPE id="32006" item="32006" mat1="9990018" mat1_amount="10"  />
+  
+  
+  
+	
+	<!-- ///// 무기 ///// -->	
+	<!-- 약탈자의 검,둔기,대검,단검,양손해머,지팡이,활,방패 -->
+	<RECIPE id="70070" item="70070" mat1="50001" mat1_amount="5" price="25" />
+	<RECIPE id="70071" item="70071" mat1="50001" mat1_amount="5" price="25" />
+	<RECIPE id="70072" item="70072" mat1="50001" mat1_amount="5" price="25" />
+	<RECIPE id="70073" item="70073" mat1="50001" mat1_amount="5" price="25" />
+	<RECIPE id="70074" item="70074" mat1="50001" mat1_amount="5" price="25" />
+	<RECIPE id="70075" item="70075" mat1="50151" mat1_amount="5" price="25" />
+	<RECIPE id="70076" item="70076" mat1="50151" mat1_amount="5" price="25" />	
+	<RECIPE id="70077" item="70077" mat1="50001" mat1_amount="5" price="25" />		
+	<!-- 자유의 검,둔기,대검,단검,양손해머,지팡이,활,방패 -->
+	<RECIPE id="70000" item="70000" mat1="50001" mat1_amount="6" mat2="50101" mat2_amount="4" price="65" />
+	<RECIPE id="70001" item="70001" mat1="50001" mat1_amount="8" mat2="50151" mat2_amount="2" price="65" />
+	<RECIPE id="70002" item="70002" mat1="50001" mat1_amount="8" mat2="50101" mat2_amount="2" price="65" />
+	<RECIPE id="70003" item="70003" mat1="50001" mat1_amount="8" price="65" />
+	<RECIPE id="70004" item="70004" mat1="50001" mat1_amount="6" mat2="50151" mat2_amount="4" price="65" />
+	<RECIPE id="70005" item="70005" mat1="50151" mat1_amount="8" mat2="50001" mat2_amount="2" price="65" />
+	<RECIPE id="70006" item="70006" mat1="50151" mat1_amount="8" price="65" />	
+	<RECIPE id="70007" item="70007" mat1="50151" mat1_amount="5" mat2="50001" mat2_amount="5" price="65" />
+	<!-- 고대 제국의 장검,망치,양손검,단검,양손해머,지팡이,활,방패 -->
+	<RECIPE id="70010" item="70010" mat1="50001" mat1_amount="10" mat2="50512" mat2_amount="5" mat3="50505" mat3_amount="1" price="160" />
+	<RECIPE id="70011" item="70011" mat1="50001" mat1_amount="10" mat2="50512" mat2_amount="5" mat3="50503" mat3_amount="1" price="160" />
+	<RECIPE id="70012" item="70012" mat1="50001" mat1_amount="10" mat2="50512" mat2_amount="5" mat3="50505" mat3_amount="1" price="160" />
+	<RECIPE id="70013" item="70013" mat1="50001" mat1_amount="10" price="160" />
+	<RECIPE id="70014" item="70014" mat1="50001" mat1_amount="10" mat2="50512" mat2_amount="5" mat3="50504" mat3_amount="1" price="160" />
+	<RECIPE id="70015" item="70015" mat1="50151" mat1_amount="10" mat2="50512" mat2_amount="5" mat3="50503" mat3_amount="1" price="160" />
+	<RECIPE id="70016" item="70016" mat1="50151" mat1_amount="10" price="160" />	
+	<RECIPE id="70017" item="70017" mat1="50151" mat1_amount="10" mat2="50500" mat2_amount="5" mat3="50504" mat3_amount="1" price="160" />	
+	<!-- 고블린의 검,망치,대검,단검,양손해머,지팡이,활,방패 -->
+	<RECIPE id="70020" item="70020" mat1="50001" mat1_amount="10" mat2="50530" mat2_amount="5" mat3="50532" mat3_amount="4" price="205" />
+	<RECIPE id="70021" item="70021" mat1="50001" mat1_amount="10" mat2="50530" mat2_amount="5" mat3="50523" mat3_amount="4" price="205" />
+	<RECIPE id="70022" item="70022" mat1="50001" mat1_amount="10" mat2="50530" mat2_amount="5" mat3="50532" mat3_amount="4" price="205" />
+	<RECIPE id="70023" item="70023" mat1="50001" mat1_amount="10" price="205" />
+	<RECIPE id="70024" item="70024" mat1="50151" mat1_amount="10" mat2="50530" mat2_amount="5" mat3="50523" mat3_amount="4" price="205" />
+	<RECIPE id="70025" item="70025" mat1="50151" mat1_amount="10" mat2="50530" mat2_amount="4" mat3="50535" mat3_amount="5" price="205" />
+	<RECIPE id="70026" item="70026" mat1="50151" mat1_amount="10" price="205" />	
+	<RECIPE id="70027" item="70027" mat1="50151" mat1_amount="10" mat2="50522" mat2_amount="5" mat3="50525" mat3_amount="4" price="205" />	
+	<!-- 고블린 골렘의 검,망치,대검,단검,양손해머,지팡이,활,방패 -->
+	<RECIPE id="70030" item="70030" mat1="70020" mat1_amount="1" mat2="50538" mat2_amount="2" mat3="50251" mat3_amount="2" mat4="50533" mat4_amount="4" price="250" condition="1100339" />
+	<RECIPE id="70031" item="70031" mat1="70021" mat1_amount="1" mat2="50538" mat2_amount="2" mat3="50251" mat3_amount="2" mat4="50533" mat4_amount="4" price="250" condition="1100339" />
+	<RECIPE id="70032" item="70032" mat1="70022" mat1_amount="1" mat2="50536" mat2_amount="2" mat3="50251" mat3_amount="4" mat4="50533" mat4_amount="7" price="250" condition="1100339" />
+	<RECIPE id="70033" item="70033" mat1="70023" mat1_amount="1" price="250" condition="1100339" />
+	<RECIPE id="70034" item="70034" mat1="70024" mat1_amount="1" mat2="50536" mat2_amount="2" mat3="50251" mat3_amount="4" mat4="50533" mat4_amount="7" price="250" condition="1100339" />
+	<RECIPE id="70035" item="70035" mat1="70025" mat1_amount="1" mat2="50538" mat2_amount="2" mat3="50251" mat3_amount="4" mat4="50533" mat4_amount="7" price="250" condition="1100339" />
+	<RECIPE id="70036" item="70036" mat1="70026" mat1_amount="1" price="250" condition="1100339" />	
+	<RECIPE id="70037" item="70037" mat1="70027" mat1_amount="1" mat2="50536" mat2_amount="2" mat3="50251" mat3_amount="2" mat4="50533" mat4_amount="4" price="250" condition="1100339" />			
+	<!-- 망자의 검,망치,대검,양손해머,지팡이,방패 -->
+	<RECIPE id="70040" item="70040" mat1="50002" mat1_amount="12" mat2="50601" mat2_amount="5" mat3="50709" mat3_amount="3" mat4="50705" mat4_amount="1" price="800" />
+	<RECIPE id="70041" item="70041" mat1="50002" mat1_amount="12" mat2="50601" mat2_amount="5" mat3="50709" mat3_amount="3" mat4="50707" mat4_amount="1" price="800" />
+	<RECIPE id="70042" item="70042" mat1="50002" mat1_amount="12" mat2="50601" mat2_amount="9" mat3="50709" mat3_amount="6" mat4="50707" mat4_amount="1" price="800" />
+	<RECIPE id="70044" item="70044" mat1="50002" mat1_amount="12" mat2="50601" mat2_amount="9" mat3="50709" mat3_amount="6" mat4="50705" mat4_amount="1" price="800" />	
+	<RECIPE id="70045" item="70045" mat1="50152" mat1_amount="12" mat2="50601" mat2_amount="9" mat3="50709" mat3_amount="6" mat4="50708" mat4_amount="1" price="800" />
+	<RECIPE id="70047" item="70047" mat1="50152" mat1_amount="12" mat2="50601" mat2_amount="4" mat3="50709" mat3_amount="3" mat4="50708" mat4_amount="1" price="800" />		
+	<!-- 자연의 검,망치,대검,양손해머,지팡이,방패 -->
+	<RECIPE id="70050" item="70050" mat1="50002" mat1_amount="15" mat2="50600" mat2_amount="5" mat3="50653" mat3_amount="3" mat4="50651" mat4_amount="1" price="800" />
+	<RECIPE id="70051" item="70051" mat1="50002" mat1_amount="15" mat2="50600" mat2_amount="5" mat3="50253" mat3_amount="3" mat4="50650" mat4_amount="1" price="800" />
+	<RECIPE id="70052" item="70052" mat1="50002" mat1_amount="15" mat2="50600" mat2_amount="9" mat3="50653" mat3_amount="6" mat4="50650" mat4_amount="1" price="800" />
+	<RECIPE id="70054" item="70054" mat1="50002" mat1_amount="15" mat2="50600" mat2_amount="9" mat3="50653" mat3_amount="6" mat4="50651" mat4_amount="1" price="800" />		
+	<RECIPE id="70055" item="70055" mat1="50152" mat1_amount="15" mat2="50600" mat2_amount="9" mat3="50653" mat3_amount="6" mat4="50652" mat4_amount="1" price="800" />			
+	<RECIPE id="70057" item="70057" mat1="50152" mat1_amount="15" mat2="50600" mat2_amount="4" mat3="50653" mat3_amount="3" mat4="50652" mat4_amount="1" price="800" />	
+	<!-- 부장용 검,망치,대검,양손해머,지팡이,방패 -->
+	<RECIPE id="70060" item="70060" mat1="50002" mat1_amount="9" mat2="50602" mat2_amount="4" mat3="50252" mat3_amount="1" mat4="50302" mat4_amount="1" price="613" />
+	<RECIPE id="70061" item="70061" mat1="50002" mat1_amount="9" mat2="50602" mat2_amount="4" mat3="50252" mat3_amount="1" mat4="50302" mat4_amount="1" price="613" />
+	<RECIPE id="70062" item="70062" mat1="50002" mat1_amount="9" mat2="50602" mat2_amount="4" mat3="50252" mat3_amount="1" mat4="50302" mat4_amount="1" price="613" />
+	<RECIPE id="70064" item="70064" mat1="50002" mat1_amount="9" mat2="50602" mat2_amount="4" mat3="50252" mat3_amount="1" mat4="50302" mat4_amount="1" price="613" />		
+	<RECIPE id="70065" item="70065" mat1="50152" mat1_amount="9" mat2="50606" mat2_amount="4" mat3="50252" mat3_amount="1" mat4="50302" mat4_amount="1" price="613" />	
+	<RECIPE id="70067" item="70067" mat1="50152" mat1_amount="8" mat2="50603" mat2_amount="3" mat3="50605" mat3_amount="3" price="613" />
+	<!-- 승리의 검,망치,대검,양손해머,지팡이,방패 -->
+	<RECIPE id="70080" item="70080" mat1="50002" mat1_amount="17" mat2="50812" mat2_amount="7" mat3="50252" mat3_amount="4" mat4="50809" mat4_amount="1" price="1250" />
+	<RECIPE id="70081" item="70081" mat1="50002" mat1_amount="17" mat2="50812" mat2_amount="7" mat3="50252" mat3_amount="4" mat4="50809" mat4_amount="1" price="1250" />
+	<RECIPE id="70082" item="70082" mat1="50002" mat1_amount="17" mat2="50812" mat2_amount="12" mat3="50252" mat3_amount="4" mat4="50810" mat4_amount="1" price="1250" />
+	<RECIPE id="70084" item="70084" mat1="50002" mat1_amount="17" mat2="50812" mat2_amount="12" mat3="50252" mat3_amount="4" mat4="50810" mat4_amount="1" price="1250" />	
+	<RECIPE id="70085" item="70085" mat1="50152" mat1_amount="17" mat2="50812" mat2_amount="12" mat3="50252" mat3_amount="4" mat4="50809" mat4_amount="1" price="1250" />	
+	<RECIPE id="70087" item="70087" mat1="50152" mat1_amount="13" mat2="50812" mat2_amount="5" mat3="50302" mat3_amount="4" mat4="50810" mat4_amount="1" price="1250" />
+	<!-- 마코트 부족의 검,망치,대검,양손해머,지팡이,방패 -->
+	<RECIPE id="70090" item="70090" mat1="50003" mat1_amount="10" mat2="50820" mat2_amount="3" mat3="50253" mat3_amount="2" mat4="50303" mat4_amount="2" price="1375" />
+	<RECIPE id="70091" item="70091" mat1="50003" mat1_amount="10" mat2="50820" mat2_amount="3" mat3="50253" mat3_amount="2" mat4="50303" mat4_amount="2" price="1375" />
+	<RECIPE id="70092" item="70092" mat1="50003" mat1_amount="10" mat2="50820" mat2_amount="3" mat3="50253" mat3_amount="4" mat4="50303" mat4_amount="4" price="1375" />
+	<RECIPE id="70094" item="70094" mat1="50003" mat1_amount="10" mat2="50820" mat2_amount="3" mat3="50253" mat3_amount="4" mat4="50303" mat4_amount="4" price="1375" />	
+	<RECIPE id="70095" item="70095" mat1="50153" mat1_amount="10" mat2="50820" mat2_amount="3" mat3="50253" mat3_amount="4" mat4="50303" mat4_amount="4" price="1375" />	
+	<RECIPE id="70097" item="70097" mat1="50153" mat1_amount="10" mat2="50828" mat2_amount="4" mat3="50253" mat3_amount="2" mat4="50303" mat4_amount="2" price="1375" />
+	
+	
+	<!-- ///// 요리 ///// -->
+	<!-- 게살 스프, 허브 게살 스프 -->
+	<RECIPE id="75020" item="75020" amount="3" mat1="58017" mat1_amount="2" price="0" />	
+	<RECIPE id="75021" item="75021" amount="3" mat1="58017" mat1_amount="2" mat2="50201" mat2_amount="2" price="0" />
+	<RECIPE id="75046" item="75046" amount="3" mat1="58016" mat1_amount="3" price="10" />	
+	<!-- 바삭바삭한 빵, 구운 거미다리, 훈제 늑대고기, 브로드테일 스튜 -->
+	<RECIPE id="75000" item="75000" amount="3" mat1="58002" mat1_amount="3" price="30" />
+	<RECIPE id="75001" item="75001" amount="4" mat1="58001" mat1_amount="4" price="40" />
+	<RECIPE id="75002" item="75002" amount="3" mat1="58000" mat1_amount="3" price="30" />
+	<RECIPE id="75003" item="75003" amount="4" mat1="58003" mat1_amount="3" mat2="58002" mat2_amount="1" mat3="50516" mat3_amount="1" price="40" /> 
+	<!-- 핀델 빵, 허브 구운 거미다리, 허브 훈제 늑대고기, 브로드테일 허브 스튜 -->	
+	<RECIPE id="75012" item="75012" amount="3" mat1="58002" mat1_amount="3" mat2="50201" mat2_amount="3" price="30" />
+	<RECIPE id="75013" item="75013" amount="4" mat1="58001" mat1_amount="4" mat2="50201" mat2_amount="4" price="40" />
+	<RECIPE id="75014" item="75014" amount="3" mat1="58000" mat1_amount="3" mat2="50201" mat2_amount="3" price="30" />
+	<RECIPE id="75015" item="75015" amount="4" mat1="58003" mat1_amount="3" mat2="58002" mat2_amount="1" mat3="50516" mat3_amount="1" mat4="50201" mat4_amount="4" price="40" /> 	
+	<!-- 초승달 사슴의 녹용, 렌고트 송어찜, 군용 소시지, 사슴 전골, 가재 찜, 도마뱀 구이 -->
+	<RECIPE id="75006" item="75006" amount="2" mat1="50201" mat1_amount="4" mat2="50535" mat2_amount="2" price="100" condition="1100409" />	
+	<RECIPE id="75007" item="75007" amount="2" mat1="58005" mat1_amount="2" mat2="58007" mat2_amount="1" price="20" />
+	<RECIPE id="75008" item="75008" amount="6" mat1="58006" mat1_amount="5" price="60" />
+	<RECIPE id="75009" item="75009" amount="3" mat1="58018" mat1_amount="3" mat2="58006" mat2_amount="1" mat3="58007" mat3_amount="2" price="30" /> 
+	<RECIPE id="75010" item="75010" amount="2" mat1="58010" mat1_amount="1" mat2="58019" mat2_amount="2" mat3="58007" mat3_amount="2" price="20" />
+	<RECIPE id="75011" item="75011" amount="3" mat1="58016" mat1_amount="3" mat2="58019" mat2_amount="3" price="30" /> 
+	<!-- 허브 송어찜, 허브 소시지, 허브 사슴 전골, 허브 도마뱀 구이 -->
+	<RECIPE id="75016" item="75016" amount="2" mat1="58005" mat1_amount="2" mat2="58007" mat2_amount="1" mat3="50201" mat3_amount="2" price="20" />
+	<RECIPE id="75017" item="75017" amount="6" mat1="58006" mat1_amount="5" mat2="50201" mat2_amount="6" price="60" />
+	<RECIPE id="75018" item="75018" amount="3" mat1="58018" mat1_amount="3" mat2="58006" mat2_amount="1" mat3="58007" mat3_amount="2" mat4="50201" mat4_amount="3" price="30" /> 
+	<RECIPE id="75019" item="75019" amount="3" mat1="58016" mat1_amount="3" mat2="58019" mat2_amount="3" mat3="50201" mat3_amount="3" price="30" /> 	
+	<!-- 송사리 튀김, 향긋한 송사리 튀김, 선인장 노루 구이, 향긋한 선인장 노루 구이, 죽순 버섯 볶음, 호박죽, 과일 샐러드, 약과 -->
+	<RECIPE id="75030" item="75030" amount="3" mat1="58027" mat1_amount="3" mat2="50607" mat2_amount="2" mat3="58002" mat3_amount="1" mat4="58028" mat4_amount="1" price="30" />
+	<RECIPE id="75031" item="75031" amount="3" mat1="58027" mat1_amount="3" mat2="50607" mat2_amount="2" mat3="58002" mat3_amount="1" mat4="50202" mat4_amount="3" price="30" />
+	<RECIPE id="75032" item="75032" amount="3" mat1="58018" mat1_amount="3" mat2="58026" mat2_amount="2" price="30" /> 
+	<RECIPE id="75033" item="75033" amount="3" mat1="58018" mat1_amount="3" mat2="58026" mat2_amount="2" mat3="50202" mat3_amount="3" price="30" /> 	
+	<RECIPE id="75034" item="75034" amount="3" mat1="58008" mat1_amount="3" mat2="58009" mat2_amount="3" mat3="50607" mat3_amount="2" mat4="50516" mat4_amount="2" price="30" />
+	<RECIPE id="75035" item="75035" amount="4" mat1="58025" mat1_amount="4" mat2="58007" mat2_amount="2" mat3="58028" mat3_amount="1" price="40" />
+	<RECIPE id="75036" item="75036" amount="3" mat1="58011" mat1_amount="3" mat2="58004" mat2_amount="3" mat3="58024" mat3_amount="2" mat4="50202" mat4_amount="3" price="30" /> 
+	<RECIPE id="75037" item="75037" amount="5" mat1="58002" mat1_amount="4" mat2="58024" mat2_amount="5" mat3="50631" mat3_amount="1" price="50" /> 			
+	<!-- 에다 치즈, 치킨 너겟, 치킨 햄버거, 양고기 치즈 퐁듀, 허브 양고기 치즈 퐁듀, 열풍 도마뱀 구이 -->
+	<RECIPE id="75038" item="75038" amount="3" mat1="30014" mat1_amount="1" mat2="1000002" mat2_amount="1" price="30" condition="107224" />
+	<RECIPE id="75039" item="75039" amount="4" mat1="58012" mat1_amount="4" mat2="58002" mat2_amount="4" price="40" />
+	<RECIPE id="75040" item="75040" amount="4" mat1="75039" mat1_amount="4" mat2="58002" mat2_amount="4" mat3="50202" mat3_amount="4" price="40" /> 
+	<RECIPE id="75041" item="75041" amount="3" mat1="58014" mat1_amount="3" mat2="75038" mat2_amount="3" price="30" /> 		
+	<RECIPE id="75042" item="75042" amount="3" mat1="58014" mat1_amount="3" mat2="75038" mat2_amount="3" mat3="50202" mat3_amount="3" price="30" />
+	<RECIPE id="75043" item="75043" amount="5" mat1="58016" mat1_amount="4" mat2="50812" mat2_amount="2" mat3="50202" mat3_amount="4" price="50" />
+	<!-- 루세뜨 요리, 향기로운 루세뜨 요리 -->	
+	<RECIPE id="75044" item="75044" amount="3" mat1="50825" mat1_amount="3" price="30" />
+	<RECIPE id="75045" item="75045" amount="3" mat1="50825" mat1_amount="3" mat2="50203" mat2_amount="3" price="30" />	
+	
+</maiet>

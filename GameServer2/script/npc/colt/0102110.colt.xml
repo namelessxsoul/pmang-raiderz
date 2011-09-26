@@ -1,0 +1,410 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet href="./colt.xsl" type="text/xsl"?>
+<maiet>
+	<COLT name="디아고" npcid="102110">
+		<COMBAT mode="0" comment="default">
+			<DEFAULT>	
+				<ACTION type="aggro" param1="far" param2="0" rate="5"/>
+				<ACTION type="lua" param1="NPC_102110" rate="20" param2="LeapAttack" />
+
+				<ACTION type="talent" param1="210211025" rate="10" duration="0" desc="빠른 냉기포효"/>
+				
+				<ACTION type="talent" param1="210211007" rate="10" desc="오른손내려치기" />
+				<ACTION type="talent" param1="210211008" rate="20" desc="왼손휘두르기" />
+				<ACTION type="talent" param1="210211018" rate="10" desc="연속휘두르기" />
+
+				<CHECK type="rage" param1="80">
+					<ACTION type="talent" param1="210211010" rate="30" desc="앞점프휘두르기" />
+					<ACTION type="talent" param1="210211017" rate="5" duration="0" desc="제자리점프찍기" />
+				</CHECK>
+			</DEFAULT>
+
+			<CHECK type="hp" param2="60">
+				<ACTION type="talent" param1="210211003" rate="10" max_count="1" desc="광포 모드1" />
+			</CHECK>
+			
+			<CHECK type="distance" param1="1200" >
+				<ACTION type="lua" param1="NPC_102110" param2="SearchAndIceballAttack" rate="80"/>
+				<ACTION type="talent" param1="210211025" rate="10" desc="빠른 냉기포효" />
+			</CHECK>
+			
+			<CHECK type="distance" param1="800" >
+				<ACTION type="talent" param1="210211018" rate="50" desc="연속휘두르기" />
+				<ACTION type="group" rate="50">
+					<ACTION type="lua" param1="NPC_102110" param2="LeapAttack" />
+					<ACTION type="aggro" param1="far"/>
+				</ACTION>
+			</CHECK>
+		</COMBAT>
+		
+		<COMBAT mode="1" comment="Berserk">
+			<DEFAULT>	
+				<ACTION type="talent" param1="210211033" rate="10" duration="0" desc="냉기 포효" />
+				
+				<ACTION type="talent" param1="210211007" rate="15" desc="오른손내려치기" />
+				<ACTION type="talent" param1="210211031" rate="15" desc="왼손휘두르기" />
+				<ACTION type="talent" param1="210211032" rate="15" desc="연속휘두르기" />
+
+				<ACTION type="talent" param1="210211009" rate="5" desc="앞점프찍기" />
+				<ACTION type="talent" param1="210211017" rate="5" duration="0" desc="제자리점프찍기" />
+				<ACTION type="lua" param1="NPC_102110" param2="SlidingAttack" rate="5" />
+
+				<ACTION type="lua" param1="NPC_102110" param2="SmartIdle" rate="10" />
+				<ACTION type="talent" param1="210211025" rate="10" desc="빠른 냉기포효" />
+			</DEFAULT>
+			
+			<CHECK type="distance" param1="1600" >
+				<ACTION type="distance" param1="1300" param2="1300" rate="20" />
+			</CHECK>
+			
+			<CHECK type="distance" param1="1200" >
+				<ACTION type="lua" param1="NPC_102110" param2="SlidingAttack" rate="20" />
+				<ACTION type="group" rate="20">
+					<ACTION type="lua" param1="NPC_102110" param2="SlidingAttack" />
+					<ACTION type="lua" param1="NPC_102110" param2="SmartIdle" />
+				</ACTION>
+				<ACTION type="distance" param1="900" param2="900" rate="10" /> 
+				<ACTION type="talent" param1="210211025" rate="10" desc="빠른 냉기포효" />
+			</CHECK>
+			
+			<CHECK type="distance" param1="800" >
+				<ACTION type="lua" param1="NPC_102110" param2="LeapAttack" rate="20" />
+				<ACTION type="group" rate="20">
+					<ACTION type="lua" param1="NPC_102110" param2="LeapAttack" />
+					<ACTION type="lua" param1="NPC_102110" param2="SmartIdle" />
+				</ACTION>
+				<ACTION type="distance" param1="600" param2="600" rate="20" />
+				<ACTION type="talent" param1="210211025" rate="10" desc="빠른 냉기포효" />
+			</CHECK>
+			
+			<CHECK type="distance" param1="500">
+				<CHECK type="rage" param1="300">
+					<ACTION type="aggro" param1="short" param2="30"  cycle="15" auto_run="true"/>
+					<ACTION type="talent" param1="210211017" rate="5" duration="0" desc="제자리점프찍기" />
+				</CHECK>
+			</CHECK>
+		</COMBAT>
+		
+		<COMBAT mode="2" comment="Nail is broken">
+			<DEFAULT>	
+				<ACTION type="talent" param1="210211033" rate="10" duration="0" desc="자주 쓰는 냉기포효"/>
+				
+				<ACTION type="talent" param1="210211007" rate="15" desc="오른손내려치기" />
+				<ACTION type="talent" param1="210211031" rate="15" desc="왼손휘두르기" />
+				<ACTION type="talent" param1="210211032" rate="15" desc="연속휘두르기" />
+
+				<ACTION type="talent" param1="210211009" rate="5" desc="앞점프찍기" />
+				<ACTION type="talent" param1="210211017" rate="5" duration="0" desc="제자리점프찍기" />
+				<ACTION type="lua" param1="NPC_102110" param2="SlidingAttack" rate="5" />
+
+				<ACTION type="lua" param1="NPC_102110" param2="SmartIdle" rate="10" />
+				<ACTION type="talent" param1="210211025" rate="10" desc="빠른 냉기포효" />
+			</DEFAULT>
+			
+			<CHECK type="distance" param1="1200" >
+				<ACTION type="lua" param1="NPC_102110" param2="SlidingAttack" rate="20" />
+				<ACTION type="distance" param1="900" param2="900" rate="10" /> 
+				<ACTION type="talent" param1="210211025" rate="10" desc="빠른 냉기포효" />
+			</CHECK>
+			
+			<CHECK type="distance" param1="800" >
+				<ACTION type="lua" param1="NPC_102110" param2="LeapAttack" rate="20" />
+				<ACTION type="group" rate="20">
+					<ACTION type="lua" param1="NPC_102110" param2="LeapAttack" />
+					<ACTION type="lua" param1="NPC_102110" param2="SmartIdle" />
+				</ACTION>
+				<ACTION type="talent" param1="210211025" rate="10" desc="빠른 냉기포효" />
+				<ACTION type="distance" param1="600" param2="600" rate="20" />
+			</CHECK>
+
+			<CHECK type="distance" param1="500">
+				<CHECK type="rage" param1="300">
+					<ACTION type="aggro" param1="short" param2="30"  cycle="15" auto_run="true"/>
+					<ACTION type="talent" param1="210211017" rate="5" duration="0" desc="제자리점프찍기" />
+				</CHECK>
+			</CHECK>
+		</COMBAT>
+	</COLT>
+	<SCRIPT><![CDATA[
+function NPC_102110:Init( NPCID )
+	--[[  USERDATA 
+	1 : 머리 파츠 데미지 누적
+	2 : 손톱 파츠 데미지 누적
+	3 : Pain패턴을 보이기 위한 데미지 누적 
+	--]]
+	NPC_ReserveUserData( NPCID, 5 )
+	
+	--NPC_102110.LimitForPain		= 1
+	NPC_102110.LimitForPain			= NPC_102110.MaxHP/10
+	NPC_102110.LimitForBreakNail	= NPC_102110.MaxHP/20
+
+	NPC_102110.TalIdLeapFront 		= 210211009
+	NPC_102110.TalIdLeapFarFront	= 210211010
+	NPC_102110.TalIdLeapLeft		= 210211011
+	NPC_102110.TalIdLeapFarLeft		= 210211012
+	NPC_102110.TalIdLeapRight		= 210211013
+	NPC_102110.TalIdLeapFarRight	= 210211014
+	NPC_102110.TalIdLeapBack		= 210211015
+	NPC_102110.TalIdLeapFarBack		= 210211016
+	NPC_102110.TalIdLeapSelf		= 210211017
+	
+	NPC_102110.TalIdLeapFront2 		= 210211031
+	NPC_102110.TalIdLeapBack2		= 210211032
+	NPC_102110.TalIdLeapSelf2		= 210211033
+	
+	NPC_102110.TalIdIceBall1		= 210211019
+	NPC_102110.TalIdIceBall2		= 210211020
+	NPC_102110.TalIdIceBall3		= 210211021
+	NPC_102110.TalIdIceBall4		= 210211022
+	
+	NPC_102110.TalIdTurnLeft		= 210211001
+	NPC_102110.TalIdTurnRight		= 210211002
+	
+	NPC_102110.TalIdRage			= 210211003
+	NPC_102110.TalIdSniffle			= 210211023 -- 훌쩍거림
+	NPC_102110.TalIdLookAround		= 210211024
+	NPC_102110.TalIdThreat			= 210211004 -- 냉기포효
+		
+	NPC_102110.TalIdPain1			= 210211005
+	NPC_102110.TalIdPain2			= 210211006
+	NPC_102110.NpcIdIceBallDummy	= 102117
+end
+
+function NPC_102110:SearchAndIceballAttack( ThisNPC, Enemy )
+	--GLog("NPC_102110:SearchAndIceballAttack\n")
+	if ThisNPC:IsCooldown( NPC_102110.TalIdIceBall1 ) then return end
+	
+	local New = ThisNPC:Aggro( "far", 0 )
+	if not New then return end
+	
+	local Dist = ThisNPC:DistanceTo( New )
+	if Dist > 900 then
+		NPC_102110:IceballAttack( ThisNPC, Enemy )
+	end
+end
+
+function NPC_102110:IceballAttack( ThisNPC, Enemy )
+	local n = math.random( 0, 3 )
+	
+	if n == 0 then
+		ThisNPC:UseTalent( NPC_102110.TalIdIceBall1, Enemy )
+	elseif n == 1 then
+		ThisNPC:UseTalent( NPC_102110.TalIdIceBall2, Enemy )
+	elseif n == 2 then
+		ThisNPC:UseTalent( NPC_102110.TalIdIceBall3, Enemy )
+	else
+		ThisNPC:UseTalent( NPC_102110.TalIdIceBall4, Enemy )
+	end
+end
+
+function NPC_102110:SmartIdle( ThisNPC, Enemy )
+	local IsRear = Enemy:IsRear( ThisNPC )
+	
+	if IsRear then
+		ThisNPC:UseTalentSelf( NPC_102110.TalIdLookAround )
+	else
+		ThisNPC:UseTalentSelf( NPC_102110.TalIdSniffle )
+	end
+end
+
+function NPC_102110:SlidingAttack( ThisNPC, Enemy )
+	local IsRear = Enemy:IsRear( ThisNPC )
+	
+	if IsRear then
+		ThisNPC:UseTalentSelf( NPC_102110.TalIdLeapFarBack )
+	else
+		ThisNPC:UseTalentSelf( NPC_102110.TalIdLeapFarFront )
+	end
+end
+
+function LineAngle(vec1, vec2)
+	local vec = {}
+
+	vec.x = vec2.x - vec1.x;
+	vec.y = vec2.y - vec1.y;
+	
+	local th = math.atan2(vec.x, -vec.y)
+
+	th = th * 57.295 -- th := th / PI * 180;
+	if th < 0.0 then
+		th = 360 + th
+	end
+
+	return math.floor(th) 
+end
+
+-- 점프공격 방향을 체크해서 회전없이 바로 탤런트를 사용한다.
+-- 300 미터 안쪽이면 제자리 점프 공격
+-- 그외에는 해당 방향으로 점프 공격
+-- 일단 좌우 체크가 되지 않아 앞뒤 체크만 수행
+
+function NPC_102110:LeapAttack( ThisNPC, Enemy )
+	--GLog( "Leap Attack\n" )
+	if ThisNPC:IsCooldown( NPC_102110.TalIdLeapSelf	 ) then return end
+	
+	local dist = ThisNPC:DistanceTo( Enemy )
+	--AsNPC(ThisNPC):SayNow("거리 : "..dist)
+	if dist < 600 then
+		ThisNPC:UseTalentSelf( NPC_102110.TalIdThreat )
+		return
+	elseif 1000 < dist then
+		ThisNPC:UseTalentSelf( NPC_102110.TalIdLeapFarFront )
+		return
+	end
+	
+	--GLog( "GetDir : " .. ThisNPC:GetDir().x ..", ".. ThisNPC:GetDir().y ..", ".. ThisNPC:GetDir().z .. "\n" )
+	--GLog( "GetFowardDir : " .. ThisNPC:GetFowardDir(Enemy).x .. ", "..ThisNPC:GetFowardDir(Enemy).y .. ", "..ThisNPC:GetFowardDir(Enemy).z .. "\n ")
+	--GLog( "GetDir, GetFowardDir " ..  LineAngle(ThisNPC:GetDir(), ThisNPC:GetFowardDir(Enemy)) .. "\n" ) 
+	local vec = {x=0, y=0}
+	local myangle = LineAngle(ThisNPC:GetDir(), vec)
+	local yourangle = LineAngle(ThisNPC:GetFowardDir(Enemy), vec)
+	local angle = yourangle - myangle
+	
+	--GLog( "GetFowardDir-GetDir" .. angle .. "\n")
+	--GLog( "GetDir, 0 " ..  myangle .. "\n" ) 
+	--GLog( "GetFowardDir, 0 " ..  yourangle .. "\n" ) 
+	
+	if angle < 0 then angle = angle + 360 end
+	
+	if 65 < angle and angle < 110  then
+		ThisNPC:UseTalentSelf( NPC_102110.TalIdLeapLeft )
+		--AsNPC(ThisNPC):SayNow( myangle.." "..yourangle.." "..angle.." 왼\n" )
+	elseif 140 <= angle and angle <= 220 then
+		ThisNPC:UseTalentSelf( NPC_102110.TalIdLeapBack )
+		--AsNPC(ThisNPC):SayNow( myangle.." "..yourangle.." "..angle.." 뒤\n" )
+	elseif 250 < angle and angle < 295 then
+		ThisNPC:UseTalentSelf( NPC_102110.TalIdLeapRight )
+		--AsNPC(ThisNPC):SayNow( myangle.." "..yourangle.." "..angle.." 오른\n" )
+	else
+		ThisNPC:UseTalentSelf( NPC_102110.TalIdLeapFront )
+		--AsNPC(ThisNPC):SayNow( myangle.." "..yourangle.." "..angle.." 앞\n" )
+	end
+
+end 
+
+function NPC_102110:ProcessAccDamage( ThisNPC, PartsIdx, HitInfo )
+	local DmgAcc = 0
+	-- Acc damage parts
+	if  PartsIdx <= 2 and ThisNPC:GetMode() == 1 then
+		DmgAcc = ThisNPC:GetUserData( PartsIdx ) + HitInfo.Damage	
+		ThisNPC:SetUserData( PartsIdx, DmgAcc )
+	end
+	
+	-- Acc for pain
+	DmgAcc = ThisNPC:GetUserData( 3 ) + HitInfo.Damage	
+	ThisNPC:SetUserData( 3, DmgAcc )
+
+	--[[
+	GLog( "-- Process Acc Damage Root ( P:" .. PartsIdx .. 
+		", D:" .. HitInfo.Damage .. ", 1:" .. ThisNPC:GetUserData( 1 ) .. 
+		", 2:" .. ThisNPC:GetUserData( 2 ) .. ", 3:" .. ThisNPC:GetUserData( 3 ) .. ", 4:" .. ThisNPC:GetUserData( 4 ) .. ", 5:" .. ThisNPC:GetUserData( 5 ) .. " ) --\n"  )
+	--]]
+
+	-- Process reaction
+	
+	-- break nail
+	if 	PartsIdx == 2 and
+		ThisNPC:GetMode() == 1 and
+		( not ThisNPC:CheckBPart(2) ) and
+		DmgAcc > NPC_102110.LimitForBreakNail then
+		
+		ThisNPC:ClearJob()
+		ThisNPC:UseTalentSelf( NPC_102110.TalIdPain2	 )
+		ThisNPC:BreakPart( 2, HitInfo.Attacker )
+		ThisNPC:BreakPart( 3, HitInfo.Attacker )
+		ThisNPC:SetUserData( 2, 0 )
+		ThisNPC:SetUserData( 3, 0 )
+		return
+	end
+	
+	if 	DmgAcc > NPC_102110.LimitForPain and
+		ThisNPC:GetCurrentTalent() ~= NPC_102110.TalIdRage and
+		ChkMFForHitReaction( HitInfo ) then
+		
+		ThisNPC:ClearJob()
+		ThisNPC:UseTalentSelf( NPC_102110.TalIdPain1 )	
+		ThisNPC:UseTalentSelf( NPC_102110.TalIdThreat )
+		ThisNPC:SetUserData( 3, 0 )
+		return
+	end
+	
+end
+
+function NPC_102110:OnFinishLookAround(ThisNPC, Enemy)
+	ThisNPC:FaceTo(Enemy)
+end
+
+function NPC_102110:OnCombatEnd()
+	this:RemoveBuff( 40171 )
+end
+
+function NPC_102110:OnHitCapsule_1_0(HitInfo)
+	NPC_102110:ProcessAccDamage( this, 2, HitInfo )
+end
+
+function NPC_102110:OnHitCapsule_1_1(HitInfo)
+	NPC_102110:ProcessAccDamage( this, 2, HitInfo )
+end
+
+function NPC_102110:OnHitCapsule_1_2(HitInfo)
+	NPC_102110:ProcessAccDamage( this, 3, HitInfo )
+end
+
+function NPC_102110:OnHitCapsule_2_0(HitInfo)
+	NPC_102110:ProcessAccDamage( this, 3, HitInfo )
+end
+
+function NPC_102110:OnHitCapsule_2_1(HitInfo)
+	NPC_102110:ProcessAccDamage( this, 3, HitInfo )
+end
+
+function NPC_102110:OnHitCapsule_2_2(HitInfo)
+	NPC_102110:ProcessAccDamage( this, 3, HitInfo )
+end
+
+function NPC_102110:OnHitCapsule_3_0(HitInfo)
+	NPC_102110:ProcessAccDamage( this, 3, HitInfo )
+end
+
+function NPC_102110:OnHitCapsule_3_1(HitInfo)
+	NPC_102110:ProcessAccDamage( this, 3, HitInfo )
+end
+
+function NPC_102110:OnHitCapsule_3_2(HitInfo)
+	NPC_102110:ProcessAccDamage( this, 3, HitInfo )
+end
+
+function NPC_102110:OnHitCapsule_4_0(HitInfo)
+	NPC_102110:ProcessAccDamage( this, 3, HitInfo )
+end
+
+function NPC_102110:OnHitCapsule_4_1(HitInfo)
+	NPC_102110:ProcessAccDamage( this, 3, HitInfo )
+end
+
+function NPC_102110:OnHitCapsule_4_2(HitInfo)
+	NPC_102110:ProcessAccDamage( this, 3, HitInfo )
+end
+
+function NPC_102110:OnHitCapsule_4_3(HitInfo)
+	NPC_102110:ProcessAccDamage( this, 3, HitInfo )
+end
+
+function NPC_102110:OnHitCapsule_5_0(HitInfo)
+	NPC_102110:ProcessAccDamage( this, 3, HitInfo )
+end
+
+function NPC_102110:OnHitCapsule_5_1(HitInfo)
+	NPC_102110:ProcessAccDamage( this, 3, HitInfo )
+end
+
+function NPC_102110:OnHitCapsule_5_2(HitInfo)
+	NPC_102110:ProcessAccDamage( this, 3, HitInfo )
+end
+
+function NPC_102110:OnHitCapsule_5_3(HitInfo)
+	NPC_102110:ProcessAccDamage( this, 3, HitInfo )
+end
+
+	]]></SCRIPT>
+</maiet>

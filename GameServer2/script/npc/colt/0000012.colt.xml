@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- 고블린 마법사 샘플 -->
+<maiet>
+	<COLT>
+		<COMBAT >
+			<DEFAULT>
+				<ACTION type="talent" param1="200121" rate="10" />
+				<ACTION type="talent" param1="200122" rate="10" />
+				<ACTION type="talent" param1="200124" rate="80" />
+			</DEFAULT>
+			
+			<CHECK type="breakpart" param1="1">
+				<ACTION type="talent" param1="200121" rate="100" />
+			</CHECK>
+		</COMBAT>
+
+  		<REACTION>
+			<CHECK type="hp" param1="1" param2="50">
+				<CHECK type="unbreakpart" param1="1" >
+					<ACTION type="breakpart" param1="1" />
+				</CHECK>
+			</CHECK>
+		</REACTION>
+
+		<IDLE>
+
+		</IDLE>
+	</COLT>
+</maiet>

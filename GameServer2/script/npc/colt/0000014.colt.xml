@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<!-- 고블린 족장 샘플 -->
+<maiet>
+	<COLT>
+		<COMBAT >
+			<DEFAULT>
+				<ACTION type="talent" param1="200141" rate="100" />
+			</DEFAULT>
+		</COMBAT>
+
+  		<REACTION>
+
+		</REACTION>
+
+		<IDLE>
+
+		</IDLE>
+	</COLT>
+</maiet>

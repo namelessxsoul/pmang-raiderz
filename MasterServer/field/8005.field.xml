@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="euc-kr" ?>
+<maiet>
+    <FIELDINFO zone="8005" min_x="0" min_y="0" max_x="12000" max_y="12000" boundary_min_x="0" boundary_min_y="0" boundary_max_x="0" boundary_max_y="0" weather_effect="true" town="false" returnable="true">
+        <BGM fieldbgm="bgm_war_1" />
+        <Env set="default">
+            <WEATHER default="SUN">
+                <ADD weather="CLD" percent="0" />
+                <ADD weather="RNY" percent="0" />
+                <ADD weather="HRN" percent="0" />
+                <ADD weather="SNW" percent="0" />
+                <ADD weather="HSW" percent="0" />
+                <ADD weather="CLR" percent="0" />
+            </WEATHER>
+        </Env>
+        <SPAWN id="2" group="0" name="미젤란" x="6007.878418" y="8004.663086" z="3.000000" dir_x="-0.017452" dir_y="-0.999848" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="0" respawn_time="120" roam_radius="0" roam_depth="400" combat_radius="0" color="auto">
+            <NPC id="8005003" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="3" group="0" name="루나" x="3946.972900" y="4080.551270" z="687.100708" dir_x="0.743145" dir_y="0.669131" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="0" respawn_time="120" roam_radius="0" roam_depth="400" combat_radius="0" color="auto">
+            <NPC id="8005004" default="true" rate="10" />
+        </SPAWN>
+        <MARKER id="1" name="from 카를로스" x="2962.460938" y="5085.038574" z="827.099731" dir_x="1.000000" dir_y="-0.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="10" name="from 젤린데" x="5985.155762" y="6058.147461" z="2.000000" dir_x="0.017453" dir_y="-0.999848" dir_z="0.000000" random_dir="false" />
+        <MARKER id="11" name="from 미젤란" x="3212.367920" y="4333.178711" z="827.099976" dir_x="0.882948" dir_y="0.469472" dir_z="0.000000" random_dir="false" />
+    </FIELDINFO>
+</maiet>

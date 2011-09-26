@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<maiet>
+	<COLT name="평원 호저">
+	<!-- 리오드 임시 -->
+		<COMBAT>
+			<DEFAULT>
+				
+			</DEFAULT>
+			
+		</COMBAT>
+		
+		<IDLE>
+			<DEFAULT>
+				
+			</DEFAULT>
+		</IDLE>
+	</COLT>
+	<SCRIPT><![CDATA[
+	]]></SCRIPT>
+
+</maiet>

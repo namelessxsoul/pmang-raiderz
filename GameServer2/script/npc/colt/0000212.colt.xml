@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<maiet name="Throwup Sample">
+	<COLT>
+		<COMBAT>
+			<DEFAULT>			
+				<ACTION type="talent" param1="221201" rate="100" cycle="5"/>
+			</DEFAULT>
+			<CHECK type="rage" param1="10">
+				<ACTION type="group">
+					<ACTION type="say" param1="1000" />
+					<ACTION type="talent" param1="221204" duration="0" />
+				</ACTION>
+			</CHECK>
+		</COMBAT>
+		
+		<COMBAT mode="1">
+			<DEFAULT>			
+				<ACTION type="talent" param1="221202" rate="100" cycle="5"/>
+			</DEFAULT>
+			<CHECK type="rage" param1="10">
+				<ACTION type="group">
+					<ACTION type="say" param1="1500" />
+					<ACTION type="talent" param1="221205" duration="0" />
+				</ACTION>
+			</CHECK>
+		</COMBAT>
+		
+		<COMBAT mode="2">
+			<DEFAULT>			
+				<ACTION type="talent" param1="221203" rate="100" cycle="5"/>
+			</DEFAULT>
+			<CHECK type="rage" param1="10">
+				<ACTION type="group">
+					<ACTION type="say" param1="500" />
+					<ACTION type="talent" param1="221106" duration="0" />
+				</ACTION>
+			</CHECK>
+		</COMBAT>
+		<IDLE>
+			<DEFAULT>
+			</DEFAULT>
+		</IDLE>
+	</COLT>
+</maiet>

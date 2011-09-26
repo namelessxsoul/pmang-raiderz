@@ -1,0 +1,31 @@
+﻿
+
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet href="./colt.xsl" type="text/xsl"?>
+<maiet>
+	<COLT name="악화된 마리옹 주술사" npcid="109225">
+		<COMBAT comment="field" >
+			<DEFAULT>
+				<ACTION type="talent" param1="210932010" rate="10" />
+				<ACTION type="talent" param1="210932011" rate="10" />
+			</DEFAULT>
+			<CHECK type="hp" param2="50">
+				<ACTION type="talent" param1="210932012" rate="10" max_count="1" />
+			</CHECK>
+		</COMBAT>
+		<IDLE>
+			<DEFAULT>
+				<ACTION type="talent" param1="210932001" rate="10" />
+				<ACTION type="nothing" param1="3" rate="40" />
+			</DEFAULT>
+		</IDLE>
+	</COLT>
+	<SCRIPT><![CDATA[
+	
+	function NPC_109225:OnSpawn(Spawn)
+		this:NonDelaySay("$$COLT_0109225_26")
+		this:UseTalentSelf(210932002)
+		this:GainBuff(110026)
+	end
+	]]></SCRIPT>
+</maiet>

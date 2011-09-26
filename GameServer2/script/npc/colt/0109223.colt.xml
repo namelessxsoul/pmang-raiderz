@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet href="./colt.xsl" type="text/xsl"?>
+<maiet>
+	<COLT name="악화된 에보스 수렵민" npcid="109223">
+		<COMBAT>
+			<DEFAULT>
+				<ACTION type="nothing" param1="1" rate="30" cycle="6"/>
+				<ACTION type="nothing" param1="1" rate="30" cycle="6"/>
+				
+				
+				<ACTION type="talent" param1="210920501" rate="10" />
+				<ACTION type="talent" param1="210920502" rate="10" />
+			</DEFAULT>
+			
+			<CHECK type="distance" param1="600">
+				<ACTION type="distance" param1="400" param2="400" />
+			</CHECK>
+			
+			<CHECK type="distance" param1="400" >
+				<ACTION type="nothing" param1="1" rate="30" cycle="6"/>
+				<ACTION type="nothing" param1="1" rate="30" cycle="6"/>
+				
+				<ACTION type="talent" param1="210920501" rate="10" />
+				<ACTION type="talent" param1="210920502" rate="10" />
+				
+			</CHECK>
+
+			<CHECK type="rage" param1="150">
+				<CHECK type="distance" param2="300" >
+					<ACTION type="talent" param1="210920503" rate="10" />
+					<ACTION type="talent" param1="210920504" rate="10" />
+				</CHECK>
+			</CHECK>
+		</COMBAT>
+		<IDLE>
+			<DEFAULT>
+				<ACTION type="nothing" param1="1" rate="80" />
+			</DEFAULT>
+		</IDLE>
+	</COLT>
+	
+	<SCRIPT><![CDATA[
+	
+	function NPC_109223:OnSpawn(Spawn)
+		this:NonDelaySay("$$COLT_0109223_45")
+		this:UseTalentSelf(210920506)
+		this:GainBuff(110026)
+	end
+	
+	]]></SCRIPT>
+</maiet>

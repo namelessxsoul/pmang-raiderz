@@ -1,0 +1,295 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<maiet>
+	<CRAFT id="1" dialog="3003" makemod="1.0" faction="3"> <!-- 테스트 -->
+		<RECIPE id="3" />					
+	</CRAFT>	
+	
+	<CRAFT id="3003" dialog="3003" makemod="1.0" faction="3" type="weapon" hidden="false"> <!-- 아인델 -->
+		<RECIPE id="70070~70072" />	
+		<!--RECIPE id="70073~70074" /-->	<!-- 단검, 도끼, 활을 나중에 공개 -->		
+		<RECIPE id="70074~70075" />	
+		<!--RECIPE id="70076" /-->					
+		<RECIPE id="70077" />				
+	</CRAFT>	
+	
+	<CRAFT id="3005" dialog="3005" type="weapon" hidden="false"> <!-- 메시 -->
+		<RECIPE id="70000~70002" />			
+		<!--RECIPE id="3" /-->	
+		<!--RECIPE id="4" /-->		
+		<RECIPE id="70004~70005" />		
+		<!--RECIPE id="6" /-->		
+		<RECIPE id="70007" />		
+	</CRAFT>	
+	
+	<CRAFT id="3012" dialog="3012" type="inventory" hidden="false"> <!-- 교역상인 자벨/리엔 -->
+		<RECIPE id="50002~50003" />	
+		<RECIPE id="50052~50053" />		
+		<RECIPE id="50102~50103" />
+		<RECIPE id="50152~50153" />
+		<RECIPE id="50202~50203" />		
+		<RECIPE id="1000" />
+		<RECIPE id="1001" />			
+	</CRAFT>	
+	
+	<CRAFT id="3013" dialog="20" type="food" hidden="false"> <!-- 요리사 람파 -->
+		<RECIPE id="75020~75021" />	
+		<RECIPE id="75000~75003" />		
+		<RECIPE id="75007~75019" />
+		<RECIPE id="75030~75043" />
+	</CRAFT>
+
+	<CRAFT id="102009" dialog="102009" type="inventory" hidden="true">  <!-- 트롤 강화석 장인 -->
+		<RECIPE id="1010~1018" />		
+	</CRAFT>	
+	<CRAFT id="102010" dialog="102010" type="inventory" hidden="true">  <!-- 오우거 강화석 장인 -->
+		<RECIPE id="1020~1028" />			
+	</CRAFT>	
+
+	<CRAFT id="102216" dialog="21" type="weapon" hidden="true">  <!-- 은자 -->
+		<RECIPE id="70080~70082" />
+		<RECIPE id="70084~70085" />		
+		<RECIPE id="70087" />		
+	</CRAFT>		
+
+	<CRAFT id="102220" dialog="22" type="armor" hidden="false"> <!-- 시에라 : 방어구 장인 -->
+		<RECIPE id="62400~62404" />
+		<RECIPE id="62420~62424" />
+		<RECIPE id="62440~62444" />
+		<RECIPE id="62460~62464" />		
+	</CRAFT>	
+	
+	<CRAFT id="102224" dialog="24" type="food" hidden="false">  <!-- 요리사 지나 -->
+		<RECIPE id="75038~75043" />
+	</CRAFT>	
+	
+	
+	<CRAFT id="107201" dialog="1070198" type="inventory" hidden="true"> <!--지주 록히드-->
+		<RECIPE id="50251" />	
+		<RECIPE id="50301" />							
+		<RECIPE id="68019" />		
+	</CRAFT>		
+	
+	<CRAFT id="107227" dialog="24" type="food" hidden="false"> <!--도셋부인-->
+		<RECIPE id="75003" />	
+		<RECIPE id="75000" />				
+		<RECIPE id="75012" />	
+		<RECIPE id="75015" />		
+	</CRAFT>	
+	
+	<CRAFT id="107232" dialog="107232" type="accessory" hidden="false"> <!--오튼-->
+		<RECIPE id="68000" />		
+	</CRAFT>
+
+	<CRAFT id="107251" dialog="20" type="armor" hidden="false"> <!--마농-->
+		<RECIPE id="62040~62041" />	
+		<RECIPE id="62043~62044" />	
+		<RECIPE id="62060~62064" />			
+	</CRAFT>
+	
+	<CRAFT id="107252" dialog="21" type="weapon" hidden="false"> <!--견습생 파토스 (무기) -->
+		<RECIPE id="70000~70002" />			
+		<!--RECIPE id="3" /-->	
+		<!--RECIPE id="4" /-->		
+		<RECIPE id="70004~70005" />		
+		<!--RECIPE id="6" /-->	
+		<RECIPE id="70007" />		
+	</CRAFT>	
+	
+	<CRAFT id="107253" dialog="22" type="armor" hidden="false"> <!--견습생 파토스 (갑옷) -->						
+		<RECIPE id="62080~62084" />	
+	</CRAFT>	
+	
+	<CRAFT id="107254" dialog="107254" type="food" hidden="false"> <!--요리사 그레비치-->
+		<RECIPE id="75001~75002" />		
+		<RECIPE id="75013~75014" />		
+	</CRAFT>	
+
+	<CRAFT id="107255" dialog="1070038" type="weapon" hidden="true"> <!--라프(무기)-->
+		<RECIPE id="70010~70012" />			
+		<!--RECIPE id="70013" /-->	
+		<!--RECIPE id="70014" /-->		
+		<RECIPE id="70014~70015" />		
+		<!--RECIPE id="70016" /-->		
+		<RECIPE id="70017" />			
+	</CRAFT>
+	
+	<CRAFT id="107261" dialog="107261" type="armor" hidden="false"> <!--제피르(방어구)-->
+		<RECIPE id="62100~62101" />			
+		<RECIPE id="62103~62104" />					
+		<RECIPE id="62120~62124" />			
+		<RECIPE id="62140~62144" />			
+	</CRAFT>	
+
+	<CRAFT id="109005" dialog="21" type="weapon" hidden="false"> <!-- 대장장이 로코, 모드(무기) -->
+		<RECIPE id="70070~70072" />			
+		<!--RECIPE id="70073" /-->	
+		<!--RECIPE id="70074" /-->		
+		<RECIPE id="70074~70075" />		
+		<!--RECIPE id="70076" /-->		
+		<RECIPE id="70077" />
+	</CRAFT>	
+	
+	<CRAFT id="109027" dialog="24" type="food" hidden="false"> 	<!--조리장 클레멘스 냄비(109062 퀘스트 중)-->
+		<RECIPE id="1" />			
+	</CRAFT>	
+	<CRAFT id="109028" dialog="24" type="food" hidden="false"> 	<!--조리장 클레멘스 냄비-->
+		<RECIPE id="75020~75021" />			
+	</CRAFT>
+	
+	<CRAFT id="109035" dialog="22" type="armor" hidden="false"> 	<!--모드(방어구)-->
+		<RECIPE id="62000~62004" />			
+		<RECIPE id="62020~62024" />			
+	</CRAFT>
+
+	<CRAFT id="109046" dialog="109046" type="armor" hidden="true"> 	<!-- 모자 제작자 호아킴-->
+		<RECIPE id="61998~61999" />						
+	</CRAFT>
+	
+	<CRAFT id="109061" dialog="24" type="food" hidden="false"> 	<!-- 조리장 요스꾸 -->
+		<RECIPE id="75046" />			
+	</CRAFT>		
+
+	<CRAFT id="109073" dialog="109073" type="armor" hidden="false"> 	<!-- 두건 만드는 선원 -->
+		<RECIPE id="61997" />						
+	</CRAFT>		
+	
+	<CRAFT id="110202" dialog="20" type="usable" hidden="false"> <!-- 의무병 루미노르 -->
+		<RECIPE id="31000" />	
+		<RECIPE id="75006" />				
+	</CRAFT>	
+	
+	<CRAFT id="110205" dialog="20" type="weapon" hidden="false"> <!-- 죽음의 상인 아만다리 -->
+		<RECIPE id="70020~70022" />			
+		<!--RECIPE id="70023" /-->	
+		<!--RECIPE id="70024" /-->		
+		<RECIPE id="70024~70025" />		
+		<!--RECIPE id="70026" /-->		
+		<RECIPE id="70030~70032" />			
+		<!--RECIPE id="70033" /-->	
+		<!--RECIPE id="70034" /-->		
+		<RECIPE id="70034~70035" />		
+		<!--RECIPE id="70036" /-->	
+		<RECIPE id="70027" />
+		<RECIPE id="70037" />		
+		<RECIPE id="68009~68010" />		
+	</CRAFT>		
+	
+	<CRAFT id="110232" dialog="20" type="armor" hidden="false"> <!-- 병기 개발부 마뉴엘 -->
+		<RECIPE id="10030" />	
+		<RECIPE id="68008" />		
+		<RECIPE id="62160~62161" />
+		<RECIPE id="62163~62164" />		
+		<RECIPE id="62180~62184" />		
+		<RECIPE id="62200~62204" />		
+	</CRAFT>
+
+	<CRAFT id="110234" dialog="24" type="food" hidden="false"> <!-- 취사병 크로우 -->
+		<RECIPE id="75007~75011" />
+		<RECIPE id="75016~75019" />
+	</CRAFT>
+	
+	<CRAFT id="111215" dialog="24" type="food" hidden="false"> <!-- 포비오 : 음식 -->
+		<RECIPE id="75044~75045" />
+	</CRAFT>	
+	<CRAFT id="111218" dialog="21" type="weapon" hidden="false"> <!-- 오스르크 : 무기 -->
+		<RECIPE id="70090~70092" />
+		<RECIPE id="70094~70095" />
+		<RECIPE id="70097" />		
+	</CRAFT>
+	<CRAFT id="111202" dialog="111202" type="accessory" hidden="false"> <!-- 마법사 기예르모 : 장신구 (폐기) -->
+		<RECIPE id="68018" />
+	</CRAFT>	
+	<CRAFT id="111205" dialog="1112052" type="inventory" hidden="false"> <!-- 오스카 : 재료 제작 -->
+		<RECIPE id="1030~1033" />
+	</CRAFT>	
+	<CRAFT id="111209" dialog="111209" type="armor" hidden="false"> <!-- 카터 : 방어구 -->
+		<RECIPE id="62500~62504" />
+		<RECIPE id="62520~62524" />
+		<RECIPE id="62540~62544" />
+		<RECIPE id="62560~62564" />	
+		<RECIPE id="62600~62604" />
+		<RECIPE id="62620~62624" />
+		<RECIPE id="62640~62644" />
+		<RECIPE id="62660~62664" />	
+		<RECIPE id="62700~62701" />
+		<RECIPE id="62703~62704" />		
+		<RECIPE id="62720~62724" />
+		<RECIPE id="62740~62744" />
+		<RECIPE id="62760~62764" />			
+	</CRAFT>		
+
+	<CRAFT id="113201" dialog="21" type="weapon" hidden="false"> <!-- 대장장이 렌가 (무기) -->
+		<RECIPE id="70050~70052" />	
+		<RECIPE id="70054~70055" />	
+		<RECIPE id="70057" />		
+	</CRAFT>	
+	<CRAFT id="113202" dialog="22" type="armor" hidden="false"> <!-- 대장장이 렌가 (방어구) -->
+		<RECIPE id="62220~62224" />	
+		<RECIPE id="62240~62244" />	
+		<RECIPE id="62260~62264" />			
+		<RECIPE id="62280~62284" />			
+	</CRAFT>
+	
+	<CRAFT id="113229" dialog="113229" type="weapon" hidden="false">  <!-- 오래 전에 죽은 가람 (무기) -->
+		<RECIPE id="70040~70042" />				
+		<RECIPE id="70044~70045" />			
+		<RECIPE id="70047" />			
+	</CRAFT>
+	<CRAFT id="113230" dialog="113230" type="armor" hidden="false"> <!-- 오래 전에 죽은 가람 (방어구) -->
+		<RECIPE id="62300~62301" />			
+		<RECIPE id="62303~62304" />	
+		<RECIPE id="62320~62324" />			
+		<RECIPE id="62340~62344" />			
+		<RECIPE id="62360~62364" />			
+	</CRAFT>	
+
+	<CRAFT id="113231" dialog="24" type="food" hidden="false">  <!-- 요리사 지나 -->
+		<RECIPE id="75030~75037" />
+	</CRAFT>
+		
+	<CRAFT id="113237" dialog="113236" type="weapon" hidden="false"> <!-- 시스티나 (무기) -->	
+		<RECIPE id="70060~70062" />				
+		<RECIPE id="70064~70065" />		
+		<RECIPE id="70067" />			
+	</CRAFT>	
+
+	<CRAFT id="113250" dialog="21" type="inventory" hidden="false"> <!-- 어둠의 비술서 사본 -->	
+		<RECIPE id="31002" />						
+	</CRAFT>		
+
+	<CRAFT id="102163" dialog="21" type="inventory" hidden="true">    <!-- 에다산Qpvp승리시 나타나는 장인 -->
+		<RECIPE id="32006" />
+		<RECIPE id="68012" />
+		<RECIPE id="68014" />
+    <RECIPE id="68016" />
+	</CRAFT>
+
+	<CRAFT id="102165" dialog="21" type="inventory" hidden="true">    <!-- 에다산Qpvp승리시 나타나는 장인 -->
+		<RECIPE id="32006" />
+		<RECIPE id="68013" />
+		<RECIPE id="68015" />
+		<RECIPE id="68017" />
+	</CRAFT>
+	
+	<CRAFT id="5200010" dialog="22" type="weapon" hidden="false"> <!-- 장인 맵 표시 테스트 (무기) -->
+		<RECIPE id="70070~70076" />					
+	</CRAFT>	
+	<CRAFT id="5200011" dialog="22" type="armor" hidden="false"> <!-- 장인 맵 표시 테스트 (갑옷) -->
+		<RECIPE id="62000~62004" />					
+	</CRAFT>
+	<CRAFT id="5200012" dialog="22" type="usable" hidden="false"> <!-- 장인 맵 표시 테스트 (소모성) -->
+		<RECIPE id="10030" />					
+	</CRAFT>
+	<CRAFT id="5200013" dialog="22" type="food" hidden="false"> <!-- 장인 맵 표시 테스트 (요리) -->
+		<RECIPE id="75020~75021" />					
+	</CRAFT>
+	<CRAFT id="5200014" dialog="22" type="accessory" hidden="false"> <!-- 장인 맵 표시 테스트 (악세서리) -->
+		<RECIPE id="68008~68009" />					
+	</CRAFT>
+	<CRAFT id="5200015" dialog="22" type="housing" hidden="false"> <!-- 장인 맵 표시 테스트 (가구)X -->
+		<RECIPE id="62020~62024" />					
+	</CRAFT>
+	<CRAFT id="5200016" dialog="22" type="inventory" hidden="false"> <!-- 장인 맵 표시 테스트 (교환) -->
+		<RECIPE id="50002~50003" />					
+	</CRAFT>
+</maiet>

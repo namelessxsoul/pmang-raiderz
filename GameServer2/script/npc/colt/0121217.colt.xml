@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet href="./colt.xsl" type="text/xsl"?>
+<maiet>
+	<COLT name="화원의 석문 2번방">
+		<COMBAT>
+		</COMBAT>
+		<IDLE>
+		</IDLE>
+	</COLT>
+	<SCRIPT><![CDATA[ 
+
+function NPC_121217:OnDialogExit( Player, DialogID, ExitID )
+	--GLog( "OnDialogExit( " .. DialogID .. ", " .. ExitID .. ")\n" )
+	
+	if DialogID == 1212170 and ExitID == 2 then
+		Field = this:GetField()		
+		local Door1 = Field:GetSpawnNPC(46)		
+		
+		this:UseTalentSelf( 212104401 )
+		this:NarrationNow( "$$COLT_0121217_20"  )		
+		
+		Door1:UseTalentSelf( 212102201 )
+		
+		Field:DespawnByID(27) -- 오염된 꽃 디스폰 		
+		Field:DespawnByID(28) 
+		Field:DespawnByID(29) 
+		Field:DespawnByID(32) 
+		Field:DespawnByID(33) 
+		Field:DespawnByID(35) 
+		Field:DespawnByID(136) 
+		Field:DespawnByID(139) 
+		Field:DespawnByID(146) 
+		Field:DespawnByID(164) 
+		Field:DespawnByID(165)
+		
+		
+	end
+end
+
+	]]></SCRIPT>
+</maiet>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- 고블린 족장 샘플 -->
+<maiet>
+	<COLT>
+
+		<COMBAT >
+			<DEFAULT>
+				
+				<ACTION type="group" rate="1">  <!-- 멍때리기 -->
+					<ACTION type="face_to"  />
+					<ACTION type="nothing" param1="0.5" />
+				</ACTION>
+				
+				<ACTION type="talent" param1="201501" rate="5" /> <!-- 물기 -->
+				<ACTION type="talent" param1="201502" rate="10" />
+			</DEFAULT>
+		</COMBAT>
+
+		<!-- <AGGRO>
+			<DEFAULT>
+				<ACTION type="talent" param1="210700103" rate="10" />
+				<ACTION type="nothing"  param1="0" rate="90" />
+			</DEFAULT>
+		</AGGRO>
+		
+				
+		<REACTION>
+	
+		</REACTION> -->
+		
+		<CHECK type="hp" param1="20" >
+		
+			<ACTION type="group" rate="1">  <!-- 멍때리기 -->	
+				<ACTION type="face_to"  />
+				<ACTION type="nothing" param1="0.5" />
+				<ACTION type="talent" param1="201503" rate="100" /> 			
+			</ACTION>
+			
+		
+		</CHECK>
+		
+		<IDLE>
+			<DEFAULT>
+				<ACTION type="talent" param1="201503" rate="100" /> 
+			</DEFAULT>
+		</IDLE>		
+
+	</COLT>
+</maiet>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet href="./colt.xsl" type="text/xsl"?>
+<maiet>
+	<COLT name="포악한 나무정령" >
+		<COMBAT>
+			<DEFAULT>
+				<ACTION type="talent" param1="210911810" rate="40" />
+				<ACTION type="talent" param1="210911811" rate="30" />
+				<ACTION type="talent" param1="210911812" rate="20" />
+				
+			</DEFAULT>
+
+			<CHECK type="e_motionfactor" param1="knockdown">
+				<ACTION type="talent" param1="210911810" rate="40" />
+				<ACTION type="talent" param1="210911802" rate="10" />
+				<ACTION type="talent" param1="210911801" rate="10" />
+			</CHECK>
+			
+			<CHECK type="hp" param2="40">
+				<ACTION type="talent" param1="210911814" rate="1" auto_run="true"/>
+				<ACTION type="talent" param1="210911810" rate="40" />
+				<ACTION type="talent" param1="210911811" rate="30" />
+				<ACTION type="talent" param1="210911812" rate="20" />
+			</CHECK>
+		</COMBAT>
+		<IDLE>
+			<DEFAULT>
+				<ACTION type="talent" param1="210911800" rate="30" />
+				<ACTION type="nothing" param1="5" rate="70" />
+			</DEFAULT>
+		</IDLE>
+	</COLT>
+</maiet>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Maiet>
+  <FIXED_PARTY>
+   
+    <PARTY id="1" name="E3Expo1">
+      <MEMBER name="Defender1"/>
+      <MEMBER name="Berserker1"/>
+      <MEMBER name="Cleric1"/>
+      <MEMBER name="FusionDefender1"/>
+      <MEMBER name="FusionBerserker1"/>
+      <MEMBER name="Defender3"/>
+      <MEMBER name="Berserker3"/>
+      <MEMBER name="Cleric3"/>
+      <MEMBER name="FusionDefender3"/>
+      <MEMBER name="FusionBerserker3"/>
+    </PARTY>
+
+    <PARTY id="2" name="E3Expo2">
+      <MEMBER name="Defender2"/>
+      <MEMBER name="Berserker2"/>
+      <MEMBER name="Cleric2"/>
+      <MEMBER name="FusionDefender2"/>
+      <MEMBER name="FusionBerserker2"/>
+      <MEMBER name="Defender4"/>
+      <MEMBER name="Berserker4"/>
+      <MEMBER name="Cleric4"/>
+      <MEMBER name="FusionDefender4"/>
+      <MEMBER name="FusionBerserker4"/>
+    </PARTY>
+    
+  </FIXED_PARTY>
+</Maiet>

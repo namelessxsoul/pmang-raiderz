@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<maiet>
+    <ZONELIST>
+        <ZONE id="1" name="유닛테스트존" file="UnitTestTown" />
+    </ZONELIST>
+</maiet>

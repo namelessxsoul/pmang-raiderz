@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="euc-kr" ?>
+<maiet>
+    <FIELDINFO zone="109" min_x="0" min_y="0" max_x="140000" max_y="140000" boundary_min_x="45000" boundary_min_y="24000" boundary_max_x="70000" boundary_max_y="52000" weather_effect="true" town="false" fixed_time="Daytime" >
+        <Env set="default">
+            <WEATHER default="SUN">
+                <ADD weather="CLD" percent="10" />
+                <ADD weather="RNY" percent="10" />
+                <ADD weather="HRN" percent="10" />
+                <ADD weather="SNW" percent="10" />
+                <ADD weather="HSW" percent="10" />
+                <ADD weather="CLR" percent="10" />
+            </WEATHER>
+        </Env>
+        <SPAWN id="109053" group="0" name="[NPC] 마법사 누메라스" x="58755.941406" y="40699.890625" z="330.663300" dir_x="0.999848" dir_y="-0.017452" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="0" respawn_time="0" roam_radius="0" roam_depth="0" color="0,128,255">
+            <NPC id="109054" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="109100" group="0" name="크라울러" x="59246.429688" y="40678.632813" z="387.559174" dir_x="-0.999391" dir_y="0.034899" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="0" respawn_time="99999" roam_radius="0" roam_depth="0" color="128,0,255">
+            <NPC id="109100" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="109106" group="0" name="마인드 링커" x="96726.750000" y="83211.757813" z="586.734131" dir_x="-0.719339" dir_y="-0.694659" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="false" start_time="0" respawn_time="99999" roam_radius="0" roam_depth="0" color="128,0,255">
+            <NPC id="109106" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="109021" group="0" name="실버" x="68765.156250" y="34263.683594" z="525.310120" dir_x="0.615662" dir_y="0.788011" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="false" start_time="0" respawn_time="0" roam_radius="0" roam_depth="0" color="0,255,128">
+            <NPC id="109021" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="1000" group="0" name="선원" x="61068.042969" y="36527.656250" z="445.579132" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="0" respawn_time="10" roam_radius="0" roam_depth="0" color="0,128,255">
+            <NPC id="109017" default="false" rate="500" />
+            <NPC id="109018" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="1001" group="0" name="선원" x="63468.875000" y="35688.214844" z="659.686829" dir_x="-0.500000" dir_y="-0.866025" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="0" respawn_time="10" roam_radius="0" roam_depth="0" color="0,128,255">
+            <NPC id="109017" default="false" rate="500" />
+            <NPC id="109018" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="1002" group="0" name="선원" x="57566.906250" y="38294.593750" z="145.721817" dir_x="-0.500000" dir_y="-0.866025" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="0" respawn_time="10" roam_radius="0" roam_depth="0" color="0,128,255">
+            <NPC id="109017" default="false" rate="500" />
+            <NPC id="109018" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="1003" group="0" name="선원" x="58951.183594" y="44983.777344" z="403.656982" dir_x="-0.069757" dir_y="-0.997564" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="0" respawn_time="10" roam_radius="0" roam_depth="0" color="0,128,255">
+            <NPC id="109017" default="false" rate="500" />
+            <NPC id="109018" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="1004" group="0" name="선원" x="57858.011719" y="43426.933594" z="302.775818" dir_x="-0.798636" dir_y="-0.601815" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="0" respawn_time="10" roam_radius="0" roam_depth="0" color="0,128,255">
+            <NPC id="109017" default="false" rate="500" />
+            <NPC id="109018" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="1005" group="0" name="선원" x="51911.089844" y="42192.273438" z="274.132782" dir_x="-0.500000" dir_y="-0.866025" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="0" respawn_time="10" roam_radius="0" roam_depth="0" color="0,128,255">
+            <NPC id="109017" default="false" rate="500" />
+            <NPC id="109018" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="1006" group="0" name="선원" x="58162.460938" y="36054.722656" z="131.372314" dir_x="-0.241922" dir_y="0.970296" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="0" respawn_time="10" roam_radius="0" roam_depth="0" color="0,128,255">
+            <NPC id="109017" default="false" rate="500" />
+            <NPC id="109018" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="1007" group="0" name="선원" x="56063.464844" y="42081.312500" z="55.051758" dir_x="0.754710" dir_y="-0.656059" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="0" respawn_time="10" roam_radius="0" roam_depth="0" color="0,128,255">
+            <NPC id="109017" default="false" rate="500" />
+            <NPC id="109018" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="1100" group="0" name="모켄 해적" x="51711.253906" y="41839.226563" z="273.934570" dir_x="0.484810" dir_y="0.874620" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="0" respawn_time="10" roam_radius="0" roam_depth="0" color="255,0,128">
+            <NPC id="109211" default="false" rate="250" />
+            <NPC id="109212" default="false" rate="250" />
+            <NPC id="109213" default="false" rate="250" />
+            <NPC id="109214" default="false" rate="250" />
+        </SPAWN>
+        <SPAWN id="1101" group="0" name="모켄 해적" x="56388.402344" y="41878.074219" z="78.307518" dir_x="-0.965926" dir_y="0.258819" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="0" respawn_time="10" roam_radius="0" roam_depth="0" color="255,0,128">
+            <NPC id="109211" default="false" rate="250" />
+            <NPC id="109212" default="false" rate="250" />
+            <NPC id="109213" default="false" rate="250" />
+            <NPC id="109214" default="false" rate="250" />
+        </SPAWN>
+        <SPAWN id="1102" group="0" name="모켄 해적" x="57476.664063" y="43200.179688" z="253.012390" dir_x="0.866025" dir_y="0.500000" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="0" respawn_time="10" roam_radius="0" roam_depth="0" color="255,0,128">
+            <NPC id="109211" default="false" rate="250" />
+            <NPC id="109212" default="false" rate="250" />
+            <NPC id="109213" default="false" rate="250" />
+            <NPC id="109214" default="false" rate="250" />
+        </SPAWN>
+        <SPAWN id="1103" group="0" name="모켄 해적" x="58891.492188" y="44616.632813" z="400.638977" dir_x="0.484810" dir_y="0.874620" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="0" respawn_time="10" roam_radius="0" roam_depth="0" color="255,0,128">
+            <NPC id="109211" default="false" rate="250" />
+            <NPC id="109212" default="false" rate="250" />
+            <NPC id="109213" default="false" rate="250" />
+            <NPC id="109214" default="false" rate="250" />
+        </SPAWN>
+        <SPAWN id="1104" group="0" name="모켄 해적" x="57357.554688" y="38031.949219" z="104.193665" dir_x="0.777146" dir_y="0.629320" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="0" respawn_time="10" roam_radius="0" roam_depth="0" color="255,0,128">
+            <NPC id="109211" default="false" rate="250" />
+            <NPC id="109212" default="false" rate="250" />
+            <NPC id="109213" default="false" rate="250" />
+            <NPC id="109214" default="false" rate="250" />
+        </SPAWN>
+        <SPAWN id="1105" group="0" name="모켄 해적" x="58256.511719" y="36330.722656" z="164.283554" dir_x="-0.629320" dir_y="-0.777146" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="0" respawn_time="10" roam_radius="0" roam_depth="0" color="255,0,128">
+            <NPC id="109211" default="false" rate="250" />
+            <NPC id="109212" default="false" rate="250" />
+            <NPC id="109213" default="false" rate="250" />
+            <NPC id="109214" default="false" rate="250" />
+        </SPAWN>
+        <SPAWN id="1106" group="0" name="모켄 해적" x="63312.300781" y="35397.785156" z="595.413330" dir_x="0.544639" dir_y="0.838671" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="0" respawn_time="10" roam_radius="0" roam_depth="0" color="255,0,128">
+            <NPC id="109211" default="false" rate="250" />
+            <NPC id="109212" default="false" rate="250" />
+            <NPC id="109213" default="false" rate="250" />
+            <NPC id="109214" default="false" rate="250" />
+        </SPAWN>
+        <SPAWN id="1107" group="0" name="모켄 해적" x="61463.914063" y="36386.550781" z="505.514374" dir_x="-0.961262" dir_y="0.275637" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="0" respawn_time="10" roam_radius="0" roam_depth="0" color="255,0,128">
+            <NPC id="109211" default="false" rate="250" />
+            <NPC id="109212" default="false" rate="250" />
+            <NPC id="109213" default="false" rate="250" />
+            <NPC id="109214" default="false" rate="250" />
+        </SPAWN>
+        <SPAWN id="109221" group="0" name="[NPC] 모켄" x="58835.207031" y="40387.531250" z="342.587769" dir_x="-0.173649" dir_y="0.984808" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="0" respawn_time="0" roam_radius="0" roam_depth="0" color="255,128,0">
+            <NPC id="109221" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="109033" group="0" name="[NPC] 뱃사공" x="60468.847656" y="33039.343750" z="80.354111" dir_x="0.484810" dir_y="0.874620" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="0" respawn_time="0" roam_radius="0" roam_depth="0" color="255,0,128">
+            <NPC id="109033" default="false" rate="250" />
+        </SPAWN>
+        <SPAWN id="109043" group="0" name="spawn_109034" x="60277.066406" y="32441.236328" z="44.835400" dir_x="-1.000000" dir_y="0.000000" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="0" respawn_time="0" roam_radius="0" roam_depth="0" color="255,0,128">
+            <NPC id="109043" default="false" rate="250" />
+        </SPAWN>
+        <MARKER id="1" name="체크포인트 1" x="60747.679688" y="32780.554688" z="83.505608" dir_x="0.241922" dir_y="0.970296" dir_z="0.000000" random_dir="false" />
+        <MARKER id="2" name="체크포인트 2" x="58674.761719" y="37888.480469" z="321.629272" dir_x="0.156435" dir_y="0.987688" dir_z="0.000000" random_dir="false" />
+        <SENSOR id="1" name="체크포인트 1 센서" local="false" x="60740.781250" y="32768.480469" z="81.826775" radius="1000.000000" enabled="true" checkpoint="1" />
+        <SENSOR id="2" name="알림 센서" local="false" x="58728.738281" y="37638.832031" z="316.620697" radius="10000.000000" enabled="false" />
+        <SENSOR id="3" name="귀환 센서" x="58739.410156" y="37712.128906" z="319.914703" radius="10000.000000" enabled="false">
+            <WARP title="귀환" condition="0" gate_type="auto" field="109" marker="12" />
+        </SENSOR>
+        <SENSOR id="4" name="크라울러 소환" local="false" x="101573.507813" y="83172.312500" z="586.904541" radius="1500.000000" enabled="false" />
+        <SENSOR id="5" name="체크포인트 2 센서" local="false" x="58963.496094" y="40636.531250" z="354.939575" radius="2500.000000" enabled="true" checkpoint="2" />
+        <AREA id="1" name="크라울러" minz_hint="-1.000000" maxz_hint="-1.000000">
+            <CYLINDER x="59130.773438" y="40616.000000" z="6949.035156" radius="1.000000" height="1.000000" />
+        </AREA>
+    </FIELDINFO>
+</maiet>

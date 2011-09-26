@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="euc-kr" ?>
+<maiet>
+    <FIELDINFO zone="8003" min_x="0" min_y="0" max_x="60000" max_y="60000" boundary_min_x="0" boundary_min_y="0" boundary_max_x="0" boundary_max_y="0" weather_effect="true" town="false" returnable="true">
+        <Env set="default">
+            <WEATHER default="SUN">
+                <ADD weather="CLD" percent="10" />
+                <ADD weather="RNY" percent="10" />
+                <ADD weather="HRN" percent="10" />
+                <ADD weather="SNW" percent="0" />
+                <ADD weather="HSW" percent="0" />
+                <ADD weather="CLR" percent="10" />
+            </WEATHER>
+        </Env>
+        <MARKER id="1" name="MK00001" x="0.000000" y="0.000000" z="0.000000" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="2" name="MK00002" x="5000.000000" y="0.000000" z="0.000000" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="3" name="MK00003" x="7000.000000" y="5000.000000" z="0.000000" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <SENSOR id="1" name="Test" x="1000.000000" y="1000.000000" z="1000.000000" radius="3000.000000" enabled="true" exit="3">
+            <WARP title="2번 마커로 이동~" condition="102" gate_type="auto" field="9092" marker="2" />
+            <WARP title="기본 마커로 이동" condition="1" gate_type="auto" field="9092" marker="3" />
+        </SENSOR>
+        <SENSOR id="10" name="SR00001" local="false" x="8957.765137" y="5077.872070" z="3.000000" radius="500.000000" enabled="true" groupname="none" />
+		<SENSOR id="11" name="SR00001" local="false" x="48957.765137" y="5077.872070" z="3.000000" radius="500.000000" enabled="true" groupname="none" />
+    </FIELDINFO>
+</maiet>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- 퍼펫 [악] 샘플. 이 파일을 변경하기 전에 이야기 해주시기 바랍니다. - 조중필 -->
+<maiet>
+	<COLT>
+		<COMBAT >
+			<DEFAULT>
+				<ACTION type="talent" param1="200411" rate="40" />
+				<ACTION type="talent" param1="200418" rate="40" />
+				<ACTION type="guard" param1="200419" param2="1.5" rate="20" />
+			</DEFAULT>
+			
+			<CHECK type="e_motionfactor" param1="knockback">
+				<ACTION type="talent" param1="200418" rate="100" />
+			</CHECK>
+			
+			<CHECK type="e_motionfactor" param1="knockdown">
+				<ACTION type="talent" param1="200414" rate="30" />
+				<ACTION type="talent" param1="200415" rate="30" />
+			</CHECK>
+			
+			<CHECK type="e_motionfactor" param1="stun">
+				<ACTION type="talent" param1="200418" rate="100" />
+			</CHECK>
+			
+			<CHECK type="e_motionfactor" param1="knockback">
+				<ACTION type="talent" param1="200411" rate="70" />
+				<ACTION type="talent" param1="200413" rate="30" />
+			</CHECK>
+
+			<CHECK type="breakpart" param1="1">
+				<ACTION type="talent" param1="200411" rate="50" />
+				<ACTION type="talent" param1="200418" rate="50" />
+			</CHECK>
+			
+			<CHECK type="hp" param1="41" param2="80">
+				<ACTION type="talent" param1="200411" rate="30" />
+				<ACTION type="talent" param1="200418" rate="30" />
+				<ACTION type="talent" param1="200417" rate="20" />
+				<ACTION type="talent" param1="200413" rate="5" />
+				<ACTION type="guard" param1="200419" param2="1.5" rate="15" />
+			</CHECK>
+			<CHECK type="hp" param1="0" param2="40">
+				<ACTION type="talent" param1="200418" rate="20" />
+				<ACTION type="talent" param1="200417" rate="20" />
+				<ACTION type="talent" param1="200413" rate="40" />
+				<ACTION type="guard" param1="200419" param2="1.5" rate="20" />
+			</CHECK>
+		</COMBAT>
+
+		<REACTION>
+			<CHECK type="hp" param2="20">
+				<CHECK type="breakpart" param1="1">
+					<ACTION type="flee" param1="from_enemy" param2="5" max_count="1" />
+				</CHECK>
+  			</CHECK>
+
+			<CHECK type="unbreakpart" param1="1" >
+				<CHECK type="hp" param2="40">
+					<CHECK type="motionfactor" param1="deflect">
+						<ACTION type="breakpart" param1="1" />
+					</CHECK>
+				</CHECK>
+			</CHECK>
+		</REACTION>
+	</COLT>
+</maiet>

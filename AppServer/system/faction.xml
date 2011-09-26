@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<maiet>
+<!--  0~15,999  |  매우 나쁨(WORST)  | -->
+<!--  16,000~27,999  |  나쁨(BAD)  | -->
+<!--  28,000~35,999  |  보통(NORMAL)  | -->
+<!--  36,000~47,999  |  좋음(GOOD)  | -->
+<!--  48,000~63,999  |  매우 좋음(EXCELLENT)  | -->
+<!--  64,000~65,000  |  신뢰(TRUST):NEW:  | -->
+
+	<!-- Faction ID 3만번대까지 사용 가능-->
+	<FACTION id="1" default="32000" title="리츠 주민" desc="리츠에 사는 주민에 대한 우호도" attackable="false" />
+	<FACTION id="2" default="28000" title="레나시안 교도" desc="레나시안 신도에 대한 우호도" attackable="false" /> 
+	<FACTION id="3" default="28000" title="인젠 주민" desc="인젠에 사는 주민에 대한 우호도" attackable="false" />
+	<FACTION id="4" default="28000" title="테레스 평원 주민" desc="테레스 평원에 사는 주민에 대한 우호도" attackable="false" />
+	<FACTION id="5" default="32000" title="렌델 기사단" desc="렌델의 기사단" attackable="false" />
+	<FACTION id="6" default="20000" title="테스트용" desc="attackable false 테스트 팩션" attackable="false" />
+	<FACTION id="7" default="32000" title="부러진 돛대" desc="티안을 따르는 자들" attackable="false" />
+	<FACTION id="8" default="20000" title="모켄의 해적" desc="모켄을 따르는 해적의 무리. 부러진 돛대에 티안과 적대적" />	
+	
+	<FACTION id="10" default="36000" title="플레이어 캐릭터" desc="PC의 우호도. 실제 게임에는 쓰이지 않으며, 탤런트에서 오로지 PC만 맞게 하고 싶을 때 사용한다." />	
+	<FACTION id="11" default="35000" title="초식동물" desc="초식동물의 우호도. 비선공. 육식 동물에게 공격 받으면 반격한다." />	
+	<FACTION id="12" default="27000" title="육식동물" desc="육식동물의 우호도. 선공. 초식 동물을 보면 공격한다." />		
+	<FACTION id="13" default="40000" title="전투민족1" desc="이벤트용 팩션. 14와 싸우지만 PC에게는 우호적" />	
+	<FACTION id="14" default="40000" title="전투민족2" desc="이벤트용 팩션. 13과 싸우지만 PC에게는 우호적" />		
+	
+	<FACTION id="102" default="28000"  />
+	<FACTION id="103" default="28000"  />
+	<FACTION id="110" default="20000" title="렌고트 부족" desc=" 음흉하고 사악한 생각만을 하고 있는 렌고트 고블린들은 언제나 인젠항을 공격할 기회만을 노리고 있다. " />
+	<FACTION id="115" default="27000" title="광기의 눈 부족" desc="에다산에 사는 이 붉은색 피부의 트롤 부족은 마찬가지로 에다산에 살고있는 흰색 예티 부족과 전쟁중에 있다." />
+	<FACTION id="116" default="27000" title="흰색 예티 부족" desc="에다산에 사는 이 흰색 털의 오우거 부족은 마찬가지로 에다산에 살고있는 광기의 눈 부족과 전쟁중에 있다."  />	
+	<FACTION id="117" default="20000" title="에다산 코볼트" desc="에다산의 마코트 부락에서 서식하는 코볼트들은 마룡 카이저를 숭배하는 무리로 그의 둥지를 안전하게 지키고 있다. "  />		
+	<FACTION id="118" default="20000" title="광기의 심장 일족" desc="마코트 일족중 오염된 일부가 모여서 독립적인 무리를 이루었다. 일반 코볼트보다 훨씬 더 거칠고 포악한 성격을 지니고 있다. "  />
+	<FACTION id="119" default="20000" title="마코트 일족" desc="에다산의 마코트 부락에서 서식하는 코볼트들은 마룡 카이저를 숭배하는 무리로 그의 둥지를 안전하게 지키고 있다."  />	
+	<FACTION id="202" default="48000" title="부러진 돛대" desc="티안을 따르는 자들"  /> <!-- 연출용 -->
+	<FACTION id="201" default="48000" title="모켄의 해적" desc="모켄을 따르는 해적의 무리. "/> <!-- 연출용 -->
+	<FACTION id="203" default="48000" title="부러진 돛대" desc="티안을 따르는 자들." attackable="false "/> 
+	<FACTION id="204" default="20000" title="모켄의 해적" desc="모켄을 따르는 해적의 무리." attackable="false "/>
+
+	<FACTION id="251" default="28000"  />
+	<FACTION id="252" default="28000"  />
+
+	<FACTION id="255" default="0" title="필드몬스터" desc="플레이어와 적대적인 필드몬스터" />
+	<!-- 에다산 -->
+
+   
+	<!-- 테러우드 -->
+	<FACTION id="12101" default="20000"  />
+	
+	<!-- 지스타 : 부패한 날개 일족 -->
+	<FACTION id="8894" default="20000"  />
+	
+</maiet>

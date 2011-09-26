@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="euc-kr" ?>
+<maiet>
+    <FIELDINFO zone="105" min_x="0" min_y="0" max_x="90000" max_y="90000" instance="false">
+        <Env set="default">
+            <WEATHER default="SUN">
+                <ADD weather="CLD" percent="2" />
+                <ADD weather="RNY" percent="0" />
+                <ADD weather="HRN" percent="0" />
+                <ADD weather="SNW" percent="0" />
+                <ADD weather="HSW" percent="0" />
+                <ADD weather="CLR" percent="10" />
+            </WEATHER>
+        </Env>
+        <MARKER id="1" name="M4_TheForgotten" x="36363.605469" y="15436.149414" z="211.730927" dir_x="-0.612907" dir_y="0.790155" dir_z="0.000000" random_dir="false" />
+        <MARKER id="2" name="M4_Rinden" x="30261.625000" y="75889.875000" z="54.253834" dir_x="-0.425779" dir_y="-0.904827" dir_z="0.000000" random_dir="false" />
+        <SENSOR id="1" name="S4_TheForgotten" type="TOUCH" x="38227.277344" y="12229.514648" z="266.327637" radius="3000.000000" enabled="true" />
+        <SENSOR id="2" name="S4_Rinden" type="TOUCH" x="30969.560547" y="79540.429688" z="157.008850" radius="3360.000000" enabled="true" />
+    </FIELDINFO>
+</maiet>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<maiet>
+	<CUTSCENE id="3" repeatable="true" />
+	<CUTSCENE id="1021" repeatable="true" />
+	<CUTSCENE id="1022" repeatable="true" />
+	<CUTSCENE id="9001" repeatable="true" />
+	<CUTSCENE id="9095" repeatable="true" />
+<!--	<CUTSCENE id="109000" field_intro="109" repeatable="false" /> -->
+	<CUTSCENE id="109001" repeatable="true" />
+	<CUTSCENE id="209003" field_intro="109" repeatable="false" />
+	<CUTSCENE id="1090021" repeatable="true" />
+	<CUTSCENE id="1090162" repeatable="true" />
+</maiet>

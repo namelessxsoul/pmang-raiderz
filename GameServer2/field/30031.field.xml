@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="euc-kr" ?>
+<maiet>
+    <FIELDINFO zone="1022" min_x="-2000" min_y="-2000" max_x="2000" max_y="1000" weather_effect="true" town="false">
+        <Env set="default">
+            <WEATHER default="SUN">
+                <ADD weather="CLD" percent="10" />
+                <ADD weather="RNY" percent="10" />
+                <ADD weather="HRN" percent="10" />
+                <ADD weather="SNW" percent="0" />
+                <ADD weather="HSW" percent="0" />
+                <ADD weather="CLR" percent="10" />
+            </WEATHER>
+        </Env>
+        <SPAWN id="1" name="거미 알(부화)" x="52.318527" y="-620.754333" z="372.000000" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="0.000000" random_dir="true" enabled="true" start_time="0" respawn_time="3600" roam_radius="0" roam_depth="0" color="255,255,255">
+            <NPC id="3056" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="2" name="거미 알" x="178.404083" y="-490.436951" z="372.000000" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="0.000000" random_dir="true" enabled="true" start_time="0" respawn_time="3600" roam_radius="0" roam_depth="0" color="255,255,255">
+            <NPC id="3059" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="3" name="거미 알(부화)" x="-173.388397" y="-526.817139" z="372.000000" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="0.000000" random_dir="true" enabled="true" start_time="0" respawn_time="3600" roam_radius="0" roam_depth="0" color="255,255,255">
+            <NPC id="3056" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="4" name="거미 알" x="-288.163330" y="-502.727203" z="372.000000" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="0.000000" random_dir="true" enabled="true" start_time="0" respawn_time="3600" roam_radius="0" roam_depth="0" color="255,255,255">
+            <NPC id="3059" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="5" name="거미 알" x="84.187805" y="-427.975494" z="372.000000" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="0.000000" random_dir="true" enabled="true" start_time="0" respawn_time="3600" roam_radius="0" roam_depth="0" color="255,255,255">
+            <NPC id="3059" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="6" name="거미 알(부화)" x="-660.101196" y="-348.670837" z="372.000000" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="0.000000" random_dir="true" enabled="true" start_time="0" respawn_time="3600" roam_radius="0" roam_depth="0" color="255,255,255">
+            <NPC id="3056" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="7" name="거미 알" x="-834.888367" y="-503.233765" z="372.000000" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="0.000000" random_dir="true" enabled="true" start_time="0" respawn_time="3600" roam_radius="0" roam_depth="0" color="255,255,255">
+            <NPC id="3059" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="8" name="거미 알(부화)" x="-885.376404" y="-438.695496" z="372.000000" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="0.000000" random_dir="true" enabled="true" start_time="0" respawn_time="3600" roam_radius="0" roam_depth="0" color="255,255,255">
+            <NPC id="3056" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="9" name="거미 알" x="-1031.134521" y="-562.241272" z="372.000000" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="0.000000" random_dir="true" enabled="true" start_time="0" respawn_time="3600" roam_radius="0" roam_depth="0" color="255,255,255">
+            <NPC id="3059" default="true" rate="1000" />
+        </SPAWN>
+        <MARKER id="1" name="트라이얼 시작점, 안전장소1" x="-1.132202" y="-668.372620" z="31.999954" dir_x="-0.000000" dir_y="1.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="2" name="안전장소2" x="-853.798584" y="-252.939026" z="372.000000" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <SENSOR id="1" name="트라이얼 탈출점" x="-0.972504" y="-974.697632" z="31.999954" radius="100.000000" enabled="false">
+            <WARP condition="1" field="3" marker="3" title="바가시의 집에서 인젠으로" />
+        </SENSOR>
+        <SENSOR id="2" name="어미 거미 출현 센서" x="-171.301086" y="196.362610" z="31.999971" radius="300.000000" enabled="false" checkpoint="2" />
+        <SENSOR id="3" name="체크포인트" x="-0.466011" y="-671.785583" z="31.999954" radius="200.000000" enabled="true" checkpoint="1" />
+    </FIELDINFO>
+</maiet>

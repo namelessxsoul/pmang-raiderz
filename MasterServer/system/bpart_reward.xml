@@ -1,0 +1,447 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<maiet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<NPC id="5400002">
+		<BPART id="1" frag="8" rate="100" loot="5400003" dir="back"/>
+		<BPART id="1" frag="7" rate="100" loot="5400003" dir="back"/>
+	</NPC>
+	<NPC id="105002">
+		<BPART id="1" frag="7" rate="100" loot="5400003" dir="front"	/>
+	</NPC>
+
+	<!-- E3 // -->
+	<NPC id="8894020" comment="고블린골렘">
+		<BPART id="1" frag="4" rate="100" loot="5400009" dir="right"/>
+		<BPART id="1" frag="5" rate="100" loot="5400009" dir="left"/>
+		<BPART id="1" frag="9" rate="100" loot="5400009" dir="front"/>
+	</NPC>
+	<NPC id="8894021" comment="보르고">
+		<BPART id="1" frag="9" rate="100" loot="5400008" dir="left"/>
+	</NPC>
+	<NPC id="8894022" comment="소레나">
+		<BPART id="1" frag="7" rate="100" loot="5400000" dir="front"	/>
+	</NPC>
+	<NPC id="8895002" comment="소레나(e3퍼블릭)">
+		<BPART id="1" frag="7" rate="100" loot="5400000" dir="front"	/>
+	</NPC>
+	<NPC id="8895000" comment="호수 트롤">
+		<BPART id="1" frag="2" rate="100" loot="5400103" dir="front"/>
+	</NPC>	
+	<NPC id="8895001" comment="호수 에보스 광전사">
+		<BPART id="1" rate="100" loot="5400102" dir="right"/>
+	</NPC>
+	<NPC id="8894030" comment="주술사 펜딕">
+		<BPART id="1" rate="100" loot="5400010" dir="right"	/>
+	</NPC>
+
+	<NPC id="8894031" comment="마리옹 암살자">
+		<BPART id="1" rate="100" loot="5400409" dir="front"	/>
+		<BPART id="2" rate="100" loot="5400409" dir="front"	/>
+	</NPC>
+
+	<NPC id="8894032" comment="코볼트 돌격병">
+		<BPART id="1" rate="100" loot="5400011" dir="left"	/>
+	</NPC>
+	<NPC id="8894034" comment="코볼트 주술사">
+		<BPART id="1" rate="100" loot="5400012" dir="front"	/>
+	</NPC>
+	<NPC id="8894040" comment="전위부대 돌격병">
+		<BPART id="1" rate="100" loot="5400002" dir="front"/>
+	</NPC>
+	<NPC id="8894041" comment="전위부대 주술사">
+		<BPART id="1" rate="100" loot="5400003" dir="front"/>
+	</NPC>
+	<NPC id="8894042" comment="전위부대 저격수">
+		<BPART id="1" rate="100" loot="5400004" dir="left"/>
+	</NPC>
+
+	<NPC id="8894003" coment="엘리트 봉봉">
+		<!--<BPART id="1" frag="0" rate="100" loot="5400409" dir="front"/>
+		<BPART id="1" frag="1" rate="100" loot="5400409" dir="front"/>
+		<BPART id="1" frag="2" rate="100" loot="5400409" dir="front"/>
+		<BPART id="1" frag="3" rate="100" loot="5400409" dir="front"/>-->
+		<BPART id="1" frag="4" rate="100" loot="5400005" dir="left"/>
+		<BPART id="1" frag="5" rate="100" loot="5400005" dir="front"/>
+		<!--<BPART id="1" frag="6" rate="100" loot="5400409" dir="front"/>-->
+	</NPC>
+	<NPC id="8894004" coment="엘리트 봉봉 헌터">
+		<!--<BPART id="1" frag="0" rate="100" loot="5400409" dir="front"/>-->
+		<BPART id="1" frag="1" rate="100" loot="5400006" dir="left"/>
+		<BPART id="1" frag="2" rate="100" loot="5400006" dir="right"/>
+		<BPART id="1" frag="3" rate="100" loot="5400006" dir="front"/>
+		<BPART id="1" frag="4" rate="100" loot="5400006" dir="back"/>
+		<!--<BPART id="1" frag="5" rate="100" loot="5400409" dir="front"/>-->
+	</NPC>
+	<NPC id="8894005" coment="엘리트 봉봉 주술사">
+		<BPART id="1" rate="100" loot="5400007" dir="front"/>
+	</NPC>
+
+	<!-- // E3 -->
+	
+	
+	<NPC id="109100" comment="크라울러">
+		<BPART id="3" frag="7" rate="100" loot="5400100" dir="right" />
+		<BPART id="4" frag="7" rate="100" loot="5400100" dir="right" />
+	</NPC>
+	<NPC id="109316" comment="바다트롤">
+		<BPART id="1" frag="2" rate="100" loot="5400103" dir="front"/>
+	</NPC>
+	<NPC id="109317" comment="바다에보스">
+		<BPART id="1" rate="100" loot="5400101" dir="right"/>
+	</NPC>
+	<NPC id="109318 " comment="바다에보스 광전사">
+		<BPART id="1" rate="100" loot="5400102" dir="right"/>
+	</NPC>
+	<NPC id="109103" comment="방패게">
+		<BPART id="1" frag="7" rate="100" loot="5400104" dir="back"/>
+	</NPC>
+	<NPC id="109205 " comment="미쳐버린 에보스 정찰병">
+		<BPART id="1" rate="100" loot="5400105" dir="front"/>
+	</NPC>
+	<NPC id="109206" comment="미쳐버린 에보스 주술사">
+		<BPART id="1" frag="0" rate="100" loot="5400106" dir="front"/>
+	</NPC>
+	<NPC id="109219" comment="미쳐버린 에보스 전사">
+		<BPART id="1" rate="100" loot="5400107" dir="front"/>
+	</NPC>
+	<NPC id="109320" comment="오염된 마리옹 주술사">
+		<!--<BPART id="1" rate="100" loot="5400108" dir="front"/>-->
+		<BPART id="2" rate="100" loot="5400109" dir="front"/>
+	</NPC>
+	
+	<!-- 테레스 평원 -->
+	<NPC id="107007" comment="테레시스">
+		<BPART id="3" frag="5" rate="100" loot="5400211" dir="front" />
+		<BPART id="4" frag="5" rate="100" loot="5400211" dir="front" />
+	</NPC>
+	<NPC id="107010" comment="플릿풋">
+		<!--
+		<BPART id="1" rate="100" loot="5400213" dir="front" />
+		<BPART id="2" rate="100" loot="5400213" dir="front" />
+		<BPART id="3" rate="100" loot="5400213" dir="front" />
+		-->
+	</NPC>
+	
+	<NPC id="107023" comment="렌고트 부족 공작원">
+		<BPART id="1" rate="100" loot="5400200" dir="left" />
+	</NPC>
+	<NPC id="107024" comment="렌고트 부족 침략자">
+		<BPART id="1" rate="100" loot="5400201" dir="front"/>
+	</NPC>
+	<NPC id="107025" comment="렌고트 부족 궁수">
+		<BPART id="1" rate="100" loot="5400202" dir="left"/>
+	</NPC>
+	<NPC id="107026" comment="렌고트 부족 전령">
+		<BPART id="1" rate="100" loot="5400203" dir="right"/>
+	</NPC>
+	<NPC id="107027" comment="렌고트 부족 치료사">
+		<BPART id="1" rate="100" loot="5400204" dir="front"/>
+	</NPC>
+	<NPC id="107028" comment="렌고트 부족 공병">
+		<BPART id="1" rate="100" loot="5400205" dir="front"/>
+	</NPC>
+	<NPC id="107029" comment="렌고트 부족 호위병">
+		<BPART id="1" rate="100" loot="5400206" dir="right"/>
+		<BPART id="2" rate="100" loot="5400207" dir="front"/>
+	</NPC>
+	<NPC id="107030" comment="감찰관 타리비">
+		<BPART id="2" rate="100" loot="5400208" dir="front"/>
+	</NPC>
+	<NPC id="107045" comment="야생 우르크">
+		<BPART id="1" frag="4" rate="100" loot="5400209" dir="front"/>
+	</NPC>
+	<NPC id="107054" comment="렌고트 음유시인 고비">
+		<BPART id="1" rate="100" loot="5400210" dir="front"/>
+	</NPC>
+	<NPC id="110002" comment="렌고트 부족 일꾼">
+		<BPART id="1" rate="100" loot="5400300" dir="front"/>
+	</NPC>
+	<NPC id="110003" comment="렌고트 부족 대장장이">
+		<BPART id="1" rate="100" loot="5400301" dir="front"/>
+	</NPC>
+	<NPC id="110004" comment="렌고트 부족 사육사">
+		<BPART id="1" rate="100" loot="5400302" dir="right"/>
+	</NPC>
+	<NPC id="110005" comment="렌고트 부족 전사">
+		<BPART id="1" rate="100" loot="5400303" dir="right"/>
+	</NPC>
+	<NPC id="110006" comment="렌고트 부족 마법사">
+		<BPART id="1" rate="100" loot="5400304" dir="front"/>
+	</NPC>
+	<NPC id="110007" comment="렌고트 부족 사수">
+		<BPART id="1" rate="100" loot="5400305" dir="left"/>
+	</NPC>
+	<NPC id="110013" comment="렌고트 부족 정예병">
+		<BPART id="1" rate="100" loot="5400306" dir="right"/>
+		<BPART id="2" rate="100" loot="5400307" dir="front"/>
+	</NPC>
+	<NPC id="110014" comment="렌고트 부족 사냥꾼">
+		<BPART id="1" rate="100" loot="5400308" dir="left"/>
+	</NPC>
+	<NPC id="110016" comment="렌고트 부족 낚시꾼">
+		<BPART id="1" rate="100" loot="5400309" dir="front"/>
+	</NPC>
+	<NPC id="110017" comment="렌고트 부족 수석낚시꾼">
+		<BPART id="1" rate="100" loot="5400310" dir="front"/>
+	</NPC>
+	<NPC id="110018" comment="렌고트 부족 석공">
+		<BPART id="1" rate="100" loot="5400311" dir="front"/>
+	</NPC>
+	<NPC id="110019" comment="렌고트 부족 저항군">
+		<BPART id="1" rate="100" loot="5400312" dir="front"/>
+	</NPC>
+	<NPC id="110021" comment="진군대장 브라비">
+		<BPART id="2"  rate="100" loot="5400313" dir="front"/>
+	</NPC>
+	<NPC id="110023" comment="사냥꾼 요오마">
+		<BPART id="1" rate="100" loot="5400314" dir="left"/>
+	</NPC>
+	<NPC id="110024" comment="장군 카라비">
+		<BPART id="1" rate="100" loot="5400315" dir="right"/>
+		<BPART id="2" rate="100" loot="5400316" dir="front"/>
+	</NPC>
+	<NPC id="110026" comment="렌고트 부족 광부">
+		<BPART id="1" rate="100" loot="5400317" dir="front"/>
+	</NPC>
+	<NPC id="110027" comment="렌고트 부족 수석광부">
+		<BPART id="1" rate="100" loot="5400318" dir="front"/>
+	</NPC>
+	<NPC id="110028" comment="주술사 펜딕">
+		<BPART id="2" rate="100" loot="5400319" dir="front"/>
+	</NPC>
+	<NPC id="110034" comment="초승달 사슴">
+		<BPART id="1" frag="1" rate="100" loot="5400320" dir="front"/>
+	</NPC>
+	<NPC id="110039" comment="렌고트 부족 경계병">
+		<BPART id="1" rate="100" loot="5400321" dir="right"/>
+	</NPC>
+	<NPC id="110041" comment="렌고트 부족 폭탄병">
+		<BPART id="1" rate="100" loot="5400322" dir="front"/>
+	</NPC>
+	<NPC id="110306" comment="전위부대 돌격병">
+		<BPART id="1" rate="100" loot="5400323" dir="front"/>
+	</NPC>
+	<NPC id="110307" comment="전위부대 주술사">
+		<BPART id="1" rate="100" loot="5400324" dir="front"/>
+	</NPC>
+	<NPC id="110308" comment="전위부대 저격수">
+		<BPART id="1" rate="100" loot="5400325" dir="left"/>
+	</NPC>
+	<NPC id="113010" comment="부패한 시체">
+		<BPART id="1" frag="0" rate="100" loot="5400400" dir="left" />
+		<BPART id="2" frag="0" rate="100" loot="5400401" dir="right"/>
+		<BPART id="3" frag="0" rate="100" loot="5400402" dir="front"/>
+	</NPC>
+	<NPC id="113011" comment="역병걸린 시체">
+		<BPART id="1" frag="0" rate="100" loot="5400400" dir="left" />
+		<BPART id="2" frag="0" rate="100" loot="5400401" dir="right"/>
+		<BPART id="3" frag="0" rate="100" loot="5400403" dir="front"/>
+	</NPC>
+	<NPC id="113012" comment="변형된 시체">
+		<BPART id="1" frag="0" rate="100" loot="5400400" dir="left" />
+		<BPART id="2" frag="0" rate="100" loot="5400401" dir="right"/>
+		<BPART id="3" frag="0" rate="100" loot="5400404" dir="front"/>
+	</NPC>
+	<NPC id="113013" comment="시체 이그서">
+		<BPART id="1" frag="0" rate="100" loot="5400400" dir="left" />
+		<BPART id="2" frag="0" rate="100" loot="5400401" dir="right"/>
+		<BPART id="3" frag="0" rate="100" loot="5400405" dir="front"/>
+	</NPC>
+	<NPC id="113015" comment="스켈레톤 전사">
+		<BPART id="1" frag="2" rate="100" loot="5400406" dir="right" />
+	</NPC>
+	<NPC id="113016" comment="스켈레톤 궁수">
+		<BPART id="1" frag="2" rate="100" loot="5400407" dir="back"/>
+	</NPC>
+	<NPC id="113055" comment="다크우드 봉봉">
+		<BPART id="1" frag="5" rate="100" loot="5400408" dir="front"/>
+	</NPC>
+	<NPC id="113056" comment="다크우드 봉봉 헌터">
+		<BPART id="1" frag="3" rate="100" loot="5400409" dir="front"/>
+	</NPC>
+	<NPC id="113057" comment="다크우드 봉봉 샤먼">
+		<BPART id="1" frag="6" rate="100" loot="5400410" dir="front"/>
+	</NPC>
+	<NPC id="113062" comment="부랑자 트롤">
+		<BPART id="1" rate="100" loot="5400411" dir="front"/>
+		<BPART id="2" rate="100" loot="5400412" dir="front"/>
+	</NPC>
+	<NPC id="113069" comment="거대봉봉">
+		<BPART id="1" frag="4" rate="100" loot="5400413" dir="front" />
+	</NPC>
+	<NPC id="113084" comment="검은뿔 사슴">
+		<BPART id="1" frag="1" rate="100" loot="5400414" dir="front"/>
+	</NPC>
+	<NPC id="512100" comment="저주받은 스켈레톤">
+		<BPART id="1" frag="13" rate="100" loot="5400415" dir="front"/>
+	</NPC>
+	<NPC id="512101" comment="구울 어쌔신">
+		<BPART id="1" frag="0" rate="100" loot="5400416" dir="front"/>
+	</NPC>
+	<NPC id="512102" comment="구울 버서커">
+		<BPART id="1" frag="0" rate="100" loot="5400417" dir="front"/>
+	</NPC>
+	<NPC id="512103" comment="구울 광신자">
+		<BPART id="1" frag="2" rate="100" loot="5400419" dir="front"/>
+	</NPC>
+	<NPC id="512104" comment="고위사제 콰트라">
+		<BPART id="1" frag="2" rate="100" loot="5400420" dir="front"/>
+	</NPC>
+	<NPC id="121012" comment="엘리트 봉봉">
+		<BPART id="1" frag="4" rate="100" loot="5400421" dir="front"/>
+	</NPC>
+	<NPC id="121013" comment="엘리트 봉봉 헌터">
+		<BPART id="1" frag="3" rate="100" loot="5400422" dir="front"/>
+	</NPC>
+	<NPC id="121014" comment="악랄한 봉봉 주술사">
+		<BPART id="1" frag="4" rate="100" loot="5400423" dir="front"/>
+	</NPC>
+	<NPC id="121016" comment="메마른 봉봉">
+		<BPART id="1" frag="7" rate="100" loot="5400424" dir="front"/>
+	</NPC>
+	<!--<NPC id="102001" comment="수문장 키클롭스">
+		<BPART id="1" rate="100" loot="5400500" dir="front"/>
+		<BPART id="2" rate="100" loot="5400501" dir="front"/>
+	</NPC>
+	<NPC id="102002" comment="수문장 브록">
+		<BPART id="3" frag="5" rate="100" loot="5400502" dir="back" />
+	</NPC>
+	<NPC id="102003" comment="트롤 전사">
+		<BPART id="1" rate="100" loot="5400500" dir="front"/>
+		<BPART id="2" rate="100" loot="5400501" dir="front"/>
+	</NPC>
+	<NPC id="102004" comment="오우거 전사">
+		<BPART id="1" frag="5" rate="100" loot="5400502" dir="back"/>
+	</NPC>
+	<NPC id="102007" comment="부족 수호자">
+		<BPART id="1" rate="100" loot="5400500" dir="front"/>
+		<BPART id="2" rate="100" loot="5400501" dir="front"/>
+	</NPC>
+	<NPC id="102008" comment="부족 수호자">
+		<BPART id="1" frag="5" rate="100" loot="5400502" dir="back"/>
+	</NPC>
+	<NPC id="102009" comment="트롤 강화석 장인">
+		<BPART id="1" rate="100" loot="5400500" dir="front"/>
+		<BPART id="2" rate="100" loot="5400501" dir="front"/>
+	</NPC>
+	<NPC id="102010" comment="오우거 강화석 장인">
+		<BPART id="1" frag="5" rate="100" loot="5400502" dir="back" />
+	</NPC>-->
+	<NPC id="102101" comment="코볼트 산적">
+		<BPART id="1" rate="100" loot="5400503" dir="left"/>
+	</NPC>
+	<NPC id="102103" comment="코볼트 수집가">
+		<BPART id="1" rate="100" loot="5400504" dir="front"/>
+	</NPC>
+	<NPC id="102113" comment="코볼트 밀렵꾼">
+		<BPART id="1" rate="100" loot="5400503" dir="left"/>
+	</NPC>
+	<NPC id="102115" comment="코볼트 수색꾼">
+		<BPART id="1" rate="100" loot="5400504" dir="front"/>
+	</NPC>
+	<NPC id="102116" comment="사냥대장 마르티스">
+		<BPART id="1" rate="100" loot="5400505" dir="front"/>
+	</NPC>
+	<!--<NPC id="102152" comment="전투 사제 리멜라">
+		<BPART id="1" rate="100" loot="5400506" dir="front" />
+		<BPART id="2" rate="100" loot="5400507" dir="front" />
+	</NPC>
+	<NPC id="102153" comment="전투 사제 데피라">
+		<BPART id="1" rate="100" loot="5400506" dir="front"/>
+		<BPART id="2" rate="100" loot="5400507" dir="front"/>
+	</NPC>
+	<NPC id="102154" comment="전투 사제 핑거릭커">
+		<BPART id="1" frag="3" rate="100" loot="5400508" dir="back"/>
+	</NPC>
+	<NPC id="102155" comment="전투 사제 믹케가이버">
+		<BPART id="1" frag="3" rate="100" loot="5400508" dir="back"/>
+	</NPC>
+	<NPC id="102156" comment="트롤 습격자">
+		<BPART id="1" rate="100" loot="5400500" dir="front"/>
+		<BPART id="2" rate="100" loot="5400501" dir="front"/>
+	</NPC>
+	<NPC id="102157" comment="트롤 습격자">
+		<BPART id="1" rate="100" loot="5400500" dir="front"/>
+		<BPART id="2" rate="100" loot="5400501" dir="front"/>
+	</NPC>
+	<NPC id="102158" comment="오우거 습격자">
+		<BPART id="1" frag="3" rate="100" loot="5400502" dir="back"/>
+	</NPC>
+	<NPC id="102159" comment="오우거 습격자">
+		<BPART id="1" frag="3" rate="100" loot="5400502" dir="back"/>
+	</NPC>
+	<NPC id="102166" comment="소환된 트롤 호위병">
+		<BPART id="1" rate="100" loot="5400500" dir="front"/>
+		<BPART id="2" rate="100" loot="5400501" dir="front"/>
+	</NPC>
+	<NPC id="102167" comment="소환된 트롤 호위병">
+		<BPART id="1" rate="100" loot="5400500" dir="front"/>
+		<BPART id="2" rate="100" loot="5400501" dir="front"/>
+	</NPC>
+	<NPC id="102168" comment="소환된 트롤 호위병">
+		<BPART id="1" rate="100" loot="5400500" dir="front"/>
+		<BPART id="2" rate="100" loot="5400501" dir="front"/>
+	</NPC>
+	<NPC id="102169" comment="소환된 오우거 호위병">
+		<BPART id="1" frag="1" rate="100" loot="5400502" dir="back"/>
+	</NPC>
+	<NPC id="102170" comment="소환된 오우거 호위병">
+		<BPART id="1" frag="1" rate="100" loot="5400502" dir="back"/>
+	</NPC>
+	<NPC id="102171" comment="소환된 오우거 호위병">
+		<BPART id="1" frag="1" rate="100" loot="5400502" dir="back"/>
+	</NPC>-->
+	<NPC id="111008" comment="르왕키 친위대 마법사">
+		<BPART id="1" rate="100" loot="5400600" dir="front"/>
+	</NPC>
+	<NPC id="111009" comment="르왕키 친위대 전사">
+		<BPART id="1" rate="100" loot="5400601" dir="front"/>
+	</NPC>
+	<NPC id="111010" comment="대족장 르왕키">
+		<BPART id="1" rate="100" loot="5400602" dir="front"/>
+		<BPART id="2" rate="100" loot="5400603" dir="left"/>
+	</NPC>
+	<NPC id="111011" comment="광기의 코볼트 마법사">
+		<BPART id="1" rate="100" loot="5400600" dir="front"/>
+	</NPC>
+	<NPC id="111012" comment="광기의 코볼트 전사">
+		<BPART id="1" rate="100" loot="5400604" dir="left"/>
+	</NPC>
+	<NPC id="111257" comment="광기의 코볼트 전사">
+		<BPART id="1" rate="100" loot="5400604" dir="left"/>
+	</NPC>
+	<NPC id="111013" comment="광기의 코볼트 지휘관">
+		<BPART id="1" rate="100" loot="5400601" dir="front"/>
+	</NPC>
+	<NPC id="111021" comment="마코트 일족 마법사">
+		<BPART id="1" rate="100" loot="5400600" dir="front"/>
+	</NPC>
+	<NPC id="111022" comment="마코트 일족 전사">
+		<BPART id="1" rate="100" loot="5400604" dir="left"/>
+	</NPC>
+	<NPC id="111023" comment="마코트 일족 지휘관">
+		<BPART id="1" rate="100" loot="5400601" dir="front"/>
+	</NPC>
+	<NPC id="111031" comment="박쥐 여왕">
+		<BPART id="1" frag="0" rate="100" loot="5400607" dir="back"/>
+	</NPC>
+	<NPC id="111035" comment="마귀벌레">
+		<BPART id="1" frag="1" rate="100" loot="5400608" dir="front"/>
+		<BPART id="2" frag="1" rate="100" loot="5400609" dir="front"/>
+		<BPART id="3" frag="1" rate="100" loot="5400610" dir="right"/>
+	</NPC>
+	<NPC id="111040" comment="르왕키의 전령">
+		<BPART id="1" rate="100" loot="5400604" dir="left"/>
+	</NPC>
+	<NPC id="111200" comment="카카야키">
+		<BPART id="1" rate="100" loot="5400602" dir="front"/>
+		<BPART id="2" rate="100" loot="5400603" dir="left"/>
+	</NPC>
+	<NPC id="111251" comment="우르쿠스">
+		<BPART id="1" rate="100" loot="5400602" dir="front"/>
+		<BPART id="2" rate="100" loot="5400603" dir="left"/>
+	</NPC>
+	<NPC id="111252" comment="대족장 르왕키">
+		<BPART id="1" rate="100" loot="5400602" dir="front"/>
+		<BPART id="2" rate="100" loot="5400603" dir="left"/>
+	</NPC>
+</maiet>

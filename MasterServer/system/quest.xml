@@ -1,0 +1,2833 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<maiet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <QUEST id="1" title="$$Q1T" desc="QUEST_DESC_1" category="QUEST_CATEGORY_1" repeatable="true" dialog="5" incomplete_dialog="10" level="10" timelimit="60" destroy_item="10001, 10002" comment="테스트용 퀘스트" validation="false">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_1_1" type="DESTROY" param1="110002" param2="10" field="107" marker="1" public_progress="self" />
+      <OBJECTIVE id="2" desc="QUEST_OBJ_DESC_1_2" type="COLLECT" param1="31000" param2="10" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="7" />
+  </QUEST>
+  <QUEST id="2" title="$$Q2T" desc="QUEST_DESC_2" category="QUEST_CATEGORY_2" repeatable="true" dialog="6" comment="테스트용 퀘스트" validation="false">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_2_1" type="DESTROY" param1="110003" param2="5" public_progress="self" />
+      <OBJECTIVE id="2" desc="QUEST_OBJ_DESC_2_2" type="ACT" param1="3" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="8">
+      <REWARD type="SILVER" param1="300" />
+      <REWARD type="XP" param1="3000" />
+      <REWARD type="TITLE" param1="20" />
+      <REWARD type="ITEM" param1="31000, 31001" param2="5, 5" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="3002" title="인젠으로" desc="QUEST_DESC_3002" category="QUEST_CATEGORY_3002" repeatable="false" dialog="30020" level="4" share_condition="30020">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_3002_1" type="SCOUT" param1="3" param2="3002" field="109" marker="30" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="30029" rewarder="3,3017">
+      <REWARD type="XP" param1="100" />
+      <REWARD type="ITEM" param1="32007" param2="1" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="3005" title="다쳤을때는 빨간약" desc="QUEST_DESC_3005" category="QUEST_CATEGORY_3005" repeatable="false" share="manual" dialog="30050" incomplete_dialog="30051" level="4" destroy_item="10005" share_condition="1" comment="하우징 기능이 추가되면 간단한 가구를 보상으로...">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_3005_1" type="COLLECT" param1="10005" param2="1" field="3" marker="12" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="30059" rewarder="3,3083">
+      <REWARD type="XP" param1="100" />
+      <REWARD type="SILVER" param1="70" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="3006" title="티모트 여관으로" desc="QUEST_DESC_3006" category="QUEST_CATEGORY_3006" repeatable="false" share="manual" dialog="30060" level="4" share_condition="1" comment="여관 등록">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_3006_1" type="SCOUT" param1="3" param2="3006" field="3" marker="6" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="30069" rewarder="3,3030">
+      <REWARD type="XP" param1="100" />
+      <REWARD type="ITEM" param1="32000" param2="5" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="3007" title="간단한 용돈 벌기" desc="QUEST_DESC_3007" category="QUEST_CATEGORY_3007" repeatable="false" share="manual" dialog="30070" level="4" share_condition="30070">
+    <ITEM>
+      <ADD id="10024" amount="1" />
+    </ITEM>
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_3007_1" type="COLLECT" param1="10024" param2="1" field="107" marker="40" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="30079" rewarder="107,107208">
+      <REWARD type="XP" param1="100" />
+      <REWARD type="SILVER" param1="144" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="3008" title="가이드스톤의 테스트" desc="QUEST_DESC_3008" category="QUEST_CATEGORY_3008" repeatable="false" share="manual" dialog="30080" level="4" share_condition="4">
+    <ITEM>
+      <ADD id="32004" amount="1" />
+    </ITEM>
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_3008_1" type="ACT" param1="2" field="107" marker="40" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="30089" rewarder="107,107208">
+      <REWARD type="XP" param1="100" />
+      <REWARD type="SILVER" param1="140" />
+      <REWARD type="ITEM" param1="32002" param2="3" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="3009" title="하나의 심부름" desc="QUEST_DESC_3009" category="QUEST_CATEGORY_3009" repeatable="false" share="manual" dialog="30090" level="4" share_condition="30090">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_3009_1" type="SCOUT" param1="3" param2="3009" field="3" marker="3009" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="30099" rewarder="3,3007">
+      <REWARD type="XP" param1="100" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="3010" title="택배 왔습니다!" desc="QUEST_DESC_3010" category="QUEST_CATEGORY_3010" repeatable="false" share="manual" dialog="30100" incomplete_dialog="30108" level="4" destroy_item="10034,10035,10036" share_condition="30100">
+    <ITEM>
+      <ADD id="10031" amount="1" />
+      <ADD id="10032" amount="1" />
+      <ADD id="10033" amount="1" />
+    </ITEM>
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_3010_1" type="COLLECT" param1="10034" param2="1" field="3" marker="13" public_progress="self" />
+      <OBJECTIVE id="2" desc="QUEST_OBJ_DESC_3010_2" type="COLLECT" param1="10035" param2="1" field="3" marker="8" public_progress="self" />
+      <OBJECTIVE id="3" desc="QUEST_OBJ_DESC_3010_3" type="COLLECT" param1="10036" param2="1" field="3" marker="3" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="30109" rewarder="3,3007">
+      <REWARD type="XP" param1="400" />
+      <REWARD type="SILVER" param1="150" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="3020" title="탐험가 입문" desc="QUEST_DESC_3020" category="QUEST_CATEGORY_3020" repeatable="false" share="manual" dialog="30200" incomplete_dialog="30208" level="4" share_condition="1">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_3020_1" type="COLLECT" param1="49000" param2="1" public_progress="self" />
+      <OBJECTIVE id="2" desc="QUEST_OBJ_DESC_3020_2" type="COLLECT" param1="49001" param2="1" public_progress="self" />
+      <OBJECTIVE id="3" desc="QUEST_OBJ_DESC_3020_3" type="COLLECT" param1="49002" param2="1" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="30209" rewarder="3,3002">
+      <REWARD type="ITEM" param1="33500" param2="1" />
+      <REWARD type="ITEM" param1="49000" param2="1" />
+      <REWARD type="ITEM" param1="49001" param2="1" />
+      <REWARD type="ITEM" param1="49002" param2="1" />
+      <REWARD type="XP" param1="400" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="3021" title="탐험가 교본 초급1" desc="QUEST_DESC_3021" category="QUEST_CATEGORY_3021" repeatable="false" share="manual" dialog="30210" incomplete_dialog="30218" level="5" destroy_item="10115" share_condition="1">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_3021_1" type="COLLECT" param1="10115" param2="20" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="30219" rewarder="3,3002">
+      <REWARD type="ITEM" param1="33501" param2="1" />
+      <REWARD type="XP" param1="1060" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="3022" title="탐험가 교본 초급2" desc="QUEST_DESC_3022" category="QUEST_CATEGORY_3022" repeatable="false" share="manual" dialog="30220" incomplete_dialog="30228" level="10" destroy_item="10115" share_condition="1">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_3022_1" type="COLLECT" param1="10115" param2="20" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="30229" rewarder="3,3002">
+      <REWARD type="ITEM" param1="33502" param2="1" />
+      <REWARD type="XP" param1="3280" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="3023" title="탐험가 교본 초급3" desc="QUEST_DESC_3023" category="QUEST_CATEGORY_3023" repeatable="false" share="manual" dialog="30230" incomplete_dialog="30238" level="20" destroy_item="10115" share_condition="1">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_3023_1" type="COLLECT" param1="10115" param2="20" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="30239" rewarder="3,3002">
+      <REWARD type="ITEM" param1="33503" param2="1" />
+      <REWARD type="XP" param1="11230" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="3024" title="#탐험가 교본 중급1" desc="QUEST_DESC_3024" category="QUEST_CATEGORY_3024" repeatable="false" share="manual" dialog="30240" incomplete_dialog="30248" level="30" destroy_item="10116" share_condition="1" comment="레벨이 풀릴 때마다 하나씩 추가">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_3024_1" type="COLLECT" param1="10116" param2="20" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="30249" rewarder="3,3004">
+      <REWARD type="ITEM" param1="33504" param2="1" />
+      <REWARD type="XP" param1="23870" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="3025" title="#탐험가 교본 중급2" desc="QUEST_DESC_3025" category="QUEST_CATEGORY_3025" repeatable="false" share="manual" dialog="30250" incomplete_dialog="30258" level="40" destroy_item="10116" share_condition="1">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_3025_1" type="COLLECT" param1="10116" param2="17" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="30259" rewarder="3,3004">
+      <REWARD type="ITEM" param1="33505" param2="1" />
+      <REWARD type="XP" param1="38020" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="3026" title="#탐험가 교본 중급3" desc="QUEST_DESC_3026" category="QUEST_CATEGORY_3026" repeatable="false" share="manual" dialog="30260" incomplete_dialog="30268" level="50" destroy_item="10116" share_condition="1">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_3026_1" type="COLLECT" param1="10116" param2="20" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="30269" rewarder="3,3004">
+      <REWARD type="ITEM" param1="33506" param2="1" />
+      <REWARD type="XP" param1="56110" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="3027" title="#탐험가 교본 고급1" desc="QUEST_DESC_3027" category="QUEST_CATEGORY_3027" repeatable="false" share="manual" dialog="30270" incomplete_dialog="30278" level="60" destroy_item="10117" share_condition="1">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_3027_1" type="COLLECT" param1="10117" param2="14" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="30279" rewarder="3,3004">
+      <REWARD type="ITEM" param1="33507" param2="1" />
+      <REWARD type="XP" param1="240" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="3028" title="#탐험가 교본 고급2" desc="QUEST_DESC_3028" category="QUEST_CATEGORY_3028" repeatable="false" share="manual" dialog="30280" incomplete_dialog="30288" level="70" destroy_item="10117" share_condition="1">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_3028_1" type="COLLECT" param1="10117" param2="17" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="30289" rewarder="3,3004">
+      <REWARD type="ITEM" param1="33508" param2="1" />
+      <REWARD type="XP" param1="270" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="3029" title="#탐험가 교본 고급3" desc="QUEST_DESC_3029" category="QUEST_CATEGORY_3029" repeatable="false" share="manual" dialog="30290" incomplete_dialog="30298" level="80" destroy_item="10117" share_condition="1">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_3029_1" type="COLLECT" param1="10117" param2="20" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="30299" rewarder="3,3004">
+      <REWARD type="ITEM" param1="33509" param2="1" />
+      <REWARD type="XP" param1="300" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="101001" title="마녀의 흔적" desc="QUEST_DESC_101001" category="QUEST_CATEGORY_101001" repeatable="false" share="manual" dialog="1010010" incomplete_dialog="1010011" level="19" share_condition="1010010">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_101001_1" type="SCOUT" param1="101" param2="101001" field="101" marker="101001" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1010019" rewarder="101,101202">
+      <REWARD type="XP" param1="1230" />
+      <REWARD type="SILVER" param1="860" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="101002" title="마녀의 실체" desc="QUEST_DESC_101002" category="QUEST_CATEGORY_101002" repeatable="false" share="manual" dialog="1010020" incomplete_dialog="1010021" level="19" share_condition="1010020">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_101002_1" type="SCOUT" param1="101" param2="101002" field="101" marker="101002" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1010029" rewarder="101,101203">
+      <REWARD type="XP" param1="1230" />
+      <REWARD type="ITEM" param1="10161" param2="1" />
+      <REWARD type="SILVER" param1="860" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="101003" title="그림을 그립시다." desc="QUEST_DESC_101003" category="QUEST_CATEGORY_101003" repeatable="false" share="manual" dialog="1010030" incomplete_dialog="1010031" level="19" destroy_item="10161,10160,10194" share_condition="1010030">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_101003_1" type="SCOUT" param1="101" param2="101001" field="101" marker="101001" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1010039" rewarder="101,101202">
+      <REWARD type="XP" param1="1230" />
+      <REWARD type="ITEM" param1="10163" param2="10" />
+      <REWARD type="SILVER" param1="860" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="101004" title="마녀와 미녀의 차이" desc="QUEST_DESC_101004" category="QUEST_CATEGORY_101004" repeatable="false" share="manual" dialog="1010040" incomplete_dialog="1010041" level="19" share_condition="1010040">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_101004_1" type="SCOUT" param1="101" param2="101004" field="101" marker="101004" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1010049" rewarder="101,101204">
+      <REWARD type="XP" param1="1230" />
+      <REWARD type="SILVER" param1="860" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="101005" title="공개수배 '마녀'" desc="QUEST_DESC_101005" category="QUEST_CATEGORY_101005" repeatable="false" share="manual" dialog="1010050" incomplete_dialog="1010051" level="19" destroy_item="10163" share_condition="1010050">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_101005_1" type="ACT" param1="1" field="101" marker="1010051" public_progress="self" />
+      <OBJECTIVE id="2" desc="QUEST_OBJ_DESC_101005_2" type="ACT" param1="2" field="101" marker="1010052" public_progress="self" />
+      <OBJECTIVE id="3" desc="QUEST_OBJ_DESC_101005_3" type="INTERACT" param1="101234" param2="1" field="101" marker="1010053" public_progress="self" />
+      <OBJECTIVE id="4" desc="QUEST_OBJ_DESC_101005_4" type="INTERACT" param1="101235" param2="1" field="101" marker="1010054" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1010059" rewarder="101,101204">
+      <REWARD type="XP" param1="1230" />
+      <REWARD type="SILVER" param1="860" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="101006" title="교대 업무" desc="QUEST_DESC_101006" category="QUEST_CATEGORY_101006" repeatable="false" share="manual" dialog="1010060" incomplete_dialog="1010061" level="19" share_condition="19">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_101006_1" type="DESTROY" param1="101010" param2="10" marker="101006" public_progress="party" />
+    </OBJECTIVES>
+    <REWARDS dialog="1010069" rewarder="101,101206">
+      <REWARD type="XP" param1="1230" />
+      <REWARD type="SILVER" param1="860" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="101007" title="보고도 믿기 힘든 일" desc="QUEST_DESC_101007" category="QUEST_CATEGORY_101007" repeatable="false" share="manual" dialog="1010070" incomplete_dialog="1010071" level="19" destroy_item="10165,10166" share_condition="19">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_101007_1" type="COLLECT" param1="10165" param2="10" field="101" marker="1010071" public_progress="self" />
+      <OBJECTIVE id="2" desc="QUEST_OBJ_DESC_101007_2" type="COLLECT" param1="10166" param2="5" field="101" marker="1010072" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1010079" rewarder="101,101207">
+      <REWARD type="XP" param1="1230" />
+      <REWARD type="SILVER" param1="860" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="101008" title="건강 검진" desc="QUEST_DESC_101008" category="QUEST_CATEGORY_101008" repeatable="false" share="manual" dialog="1010080" incomplete_dialog="1010081" level="19" destroy_item="10169" share_condition="1010080">
+    <ITEM>
+      <ADD id="10169" amount="1" />
+    </ITEM>
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_101008_1" type="SCOUT" param1="101" param2="101008" field="101" marker="101008" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1010089" rewarder="101,101208">
+      <REWARD type="XP" param1="1230" />
+      <REWARD type="SILVER" param1="860" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="101009" title="건강 검진 - 체력 검사" desc="QUEST_DESC_101009" category="QUEST_CATEGORY_101009" repeatable="false" share="manual" dialog="1010090" incomplete_dialog="1010091" level="19" share_condition="1010090">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_101009_1" type="DESTROY" param1="101012" param2="7" field="101" marker="101009" public_progress="party" />
+    </OBJECTIVES>
+    <REWARDS dialog="1010099" rewarder="101,101209">
+      <REWARD type="XP" param1="1230" />
+      <REWARD type="SILVER" param1="860" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="101010" title="건강 검진 - 혈액 검사" desc="QUEST_DESC_101010" category="QUEST_CATEGORY_101010" repeatable="false" share="manual" dialog="1010100" incomplete_dialog="1010101" level="19" destroy_item="10167,10168" share_condition="1010100">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_101010_1" type="COLLECT" param1="10168" param2="3" field="101" marker="101010" public_progress="self" />
+      <OBJECTIVE id="2" desc="QUEST_OBJ_DESC_101010_2" type="COLLECT" param1="10167" param2="3" field="101" marker="101010" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1010109" rewarder="101,101209">
+      <REWARD type="XP" param1="1230" />
+      <REWARD type="SILVER" param1="860" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="101011" title="건강 검진 - 마력 단층 촬영" desc="QUEST_DESC_101011" category="QUEST_CATEGORY_101011" repeatable="false" share="manual" dialog="1010110" incomplete_dialog="1010111" level="19" share_condition="1010110">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_101011_1" type="ACT" param1="1" field="101" marker="101011" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1010119" rewarder="101,101210">
+      <REWARD type="XP" param1="1230" />
+      <REWARD type="SILVER" param1="860" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="101012" title="이제 행동을 시작할 때" desc="QUEST_DESC_101012" category="QUEST_CATEGORY_101012" repeatable="false" share="manual" dialog="1010120" incomplete_dialog="1010121" level="19" share_condition="1010120">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_101012_1" type="SCOUT" param1="101" param2="101008" field="101" marker="101008" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1010129" rewarder="101,101210">
+      <REWARD type="XP" param1="1230" />
+      <REWARD type="SILVER" param1="860" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="101013" title="증거를 찾아라" desc="QUEST_DESC_101013" category="QUEST_CATEGORY_101013" repeatable="false" share="manual" dialog="1010130" incomplete_dialog="1010131" level="19" destroy_item="10170,10171,10172" share_condition="1010130">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_101013_1" type="COLLECT" param1="10170" param2="5" field="101" marker="1010131" public_progress="self" />
+      <OBJECTIVE id="2" desc="QUEST_OBJ_DESC_101013_2" type="COLLECT" param1="10171" param2="5" field="101" marker="1010131" public_progress="self" />
+      <OBJECTIVE id="3" desc="QUEST_OBJ_DESC_101013_3" type="COLLECT" param1="10172" param2="3" field="101" marker="1010132" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1010139" rewarder="101,101211">
+      <REWARD type="XP" param1="1230" />
+      <REWARD type="SILVER" param1="860" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="101014" title="연관 관계" desc="QUEST_DESC_101014" category="QUEST_CATEGORY_101014" repeatable="false" share="manual" dialog="1010140" incomplete_dialog="1010141" level="19" destroy_item="10173,10174,10175" share_condition="1010140">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_101014_1" type="COLLECT" param1="10173" param2="4" field="101" marker="1010132" public_progress="self" />
+      <OBJECTIVE id="2" desc="QUEST_OBJ_DESC_101014_2" type="COLLECT" param1="10174" param2="3" field="101" marker="1010132" public_progress="self" />
+      <OBJECTIVE id="3" desc="QUEST_OBJ_DESC_101014_3" type="COLLECT" param1="10175" param2="4" field="101" marker="1010132" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1010139" rewarder="101,101211">
+      <REWARD type="XP" param1="1230" />
+      <REWARD type="SILVER" param1="860" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="101015" title="영역 확인" desc="QUEST_DESC_101015" category="QUEST_CATEGORY_101015" repeatable="false" share="manual" dialog="1010150" incomplete_dialog="1010151" level="19" destroy_item="10173" share_condition="1010150">
+    <ITEM>
+      <ADD id="10176" amount="1" />
+    </ITEM>
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_101015_1" type="DESTROY" param1="101010" param2="10" field="101" public_progress="party" />
+      <OBJECTIVE id="2" desc="QUEST_OBJ_DESC_101015_2" type="INTERACT" param1="101010" param2="10" field="101" public_progress="party" />
+    </OBJECTIVES>
+    <REWARDS dialog="1010159" rewarder="101,101211">
+      <REWARD type="XP" param1="1230" />
+      <REWARD type="SILVER" param1="860" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="101016" title="더 이상은 안되" desc="QUEST_DESC_101016" category="QUEST_CATEGORY_101016" repeatable="false" share="manual" dialog="1010160" incomplete_dialog="1010161" level="19" share_condition="1010160">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_101016_1" type="SCOUT" param1="101" param2="101016" field="101" marker="101016" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1010169" rewarder="101,101210">
+      <REWARD type="XP" param1="1230" />
+      <REWARD type="SILVER" param1="860" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="101017" title="가장 급한 곳은?" desc="QUEST_DESC_101017" category="QUEST_CATEGORY_101017" repeatable="false" share="manual" dialog="1010170" incomplete_dialog="1010171" level="19" destroy_item="10177" share_condition="1010170">
+    <ITEM>
+      <ADD id="10177" amount="1" />
+    </ITEM>
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_101017_1" type="ACT" param1="1" field="101" marker="1010171" public_progress="self" />
+      <OBJECTIVE id="2" desc="QUEST_OBJ_DESC_101017_2" type="ACT" param1="2" field="101" marker="1010172" public_progress="self" />
+      <OBJECTIVE id="3" desc="QUEST_OBJ_DESC_101017_3" type="ACT" param1="3" field="101" marker="1010173" public_progress="self" />
+      <OBJECTIVE id="4" desc="QUEST_OBJ_DESC_101017_4" type="ACT" param1="4" field="101" marker="1010174" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1010179" rewarder="101,101209">
+      <REWARD type="XP" param1="1230" />
+      <REWARD type="SILVER" param1="860" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="101018" title="리오드 방역" desc="QUEST_DESC_101018" category="QUEST_CATEGORY_101018" repeatable="false" share="manual" dialog="1010180" incomplete_dialog="1010181" level="19" destroy_item="10178" share_condition="1010180">
+    <ITEM>
+      <ADD id="10178" amount="1" />
+    </ITEM>
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_101018_1" type="ACT" param1="1" field="101" marker="1010181" public_progress="self" />
+      <OBJECTIVE id="2" desc="QUEST_OBJ_DESC_101018_2" type="ACT" param1="2" field="101" marker="1010182" public_progress="self" />
+      <OBJECTIVE id="3" desc="QUEST_OBJ_DESC_101018_3" type="ACT" param1="3" field="101" marker="1010183" public_progress="self" />
+      <OBJECTIVE id="4" desc="QUEST_OBJ_DESC_101018_4" type="ACT" param1="4" field="101" marker="1010184" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1010189" rewarder="101,101209">
+      <REWARD type="XP" param1="1230" />
+      <REWARD type="SILVER" param1="860" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="101019" title="애타게 찾던 그..." desc="QUEST_DESC_101019" category="QUEST_CATEGORY_101019" repeatable="false" share="manual" dialog="1010190" incomplete_dialog="1010191" level="19" destroy_item="10179" share_condition="1010190">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_101019_1" type="SCOUT" param1="101" param2="101019" field="101" marker="101019" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1010199" rewarder="101,101212">
+      <REWARD type="XP" param1="1230" />
+      <REWARD type="SILVER" param1="860" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="101020" title="살아 갈 수 있는 길" desc="QUEST_DESC_101020" category="QUEST_CATEGORY_101020" repeatable="false" share="manual" dialog="1010200" incomplete_dialog="1010201" level="19" share_condition="1010200">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_101020_1" type="ACT" param1="1" field="101" marker="101019" public_progress="self" />
+      <OBJECTIVE id="2" desc="QUEST_OBJ_DESC_101020_2" type="SCOUT" param1="101" param2="101008" field="101" marker="101008" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1010209" rewarder="101,101208">
+      <REWARD type="XP" param1="1230" />
+      <REWARD type="SILVER" param1="860" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="101021" title="결과 보고" desc="QUEST_DESC_101021" category="QUEST_CATEGORY_101021" repeatable="false" share="manual" dialog="1010210" incomplete_dialog="1010211" level="19" destroy_item="10180" share_condition="1010210">
+    <ITEM>
+      <ADD id="10180" amount="1" />
+    </ITEM>
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_101021_1" type="SCOUT" param1="101" param2="101021" field="101" marker="101021" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1010219" rewarder="101,101201">
+      <REWARD type="XP" param1="1230" />
+      <REWARD type="SILVER" param1="860" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="101022" title="탈영병 검거" desc="QUEST_DESC_101022" category="QUEST_CATEGORY_101022" repeatable="false" share="manual" dialog="1010220" incomplete_dialog="1010221" level="19" share_condition="1010220">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_101022_1" type="ACT" param1="1" field="101" marker="1010221" public_progress="self" />
+      <OBJECTIVE id="2" desc="QUEST_OBJ_DESC_101022_2" type="ACT" param1="2" field="101" marker="1010222" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1010229" rewarder="101,101219">
+      <REWARD type="XP" param1="1230" />
+      <REWARD type="SILVER" param1="860" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="101023" title="작전명 '스파이'" desc="QUEST_DESC_101023" category="QUEST_CATEGORY_101023" repeatable="false" share="manual" dialog="1010230" incomplete_dialog="1010231" level="19" share_condition="1010230">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_101023_1" type="INTERACT" param1="101216" param2="1" field="101" marker="101023" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1010239" rewarder="101,101216">
+      <REWARD type="XP" param1="1230" />
+      <REWARD type="SILVER" param1="860" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="101024" title="브룬을 모시는 자" desc="QUEST_DESC_101024" category="QUEST_CATEGORY_101024" repeatable="false" share="manual" dialog="1010240" incomplete_dialog="1010241" level="19" share_condition="1010240">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_101024_1" type="SCOUT" param1="101" param2="101024" field="101" marker="101024" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1010249" rewarder="101,101213">
+      <REWARD type="XP" param1="1230" />
+      <REWARD type="SILVER" param1="860" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="101025" title="수상한 기운" desc="QUEST_DESC_101025" category="QUEST_CATEGORY_101025" repeatable="false" share="manual" dialog="1010250" incomplete_dialog="1010251" level="19" share_condition="1010250">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_101025_1" type="DESTROY" param1="101022" param2="8" field="101" marker="1010032" public_progress="party" />
+      <OBJECTIVE id="2" desc="QUEST_OBJ_DESC_101025_2" type="DESTROY" param1="101023" param2="4" field="101" marker="101025" public_progress="party" />
+    </OBJECTIVES>
+    <REWARDS dialog="1010259" rewarder="101,101213">
+      <REWARD type="XP" param1="1230" />
+      <REWARD type="SILVER" param1="860" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="101026" title="한잔 쭉 들이키세요" desc="QUEST_DESC_101026" category="QUEST_CATEGORY_101026" repeatable="false" share="manual" dialog="1010260" incomplete_dialog="1010261" level="19" share_condition="1010260">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_101026_1" type="DESTROY" param1="101024" param2="1" field="101" marker="1010261" public_progress="party" />
+      <OBJECTIVE id="2" desc="QUEST_OBJ_DESC_101026_2" type="COLLECT" param1="10181" param2="1" field="101" marker="1010261" public_progress="self" />
+      <OBJECTIVE id="3" desc="QUEST_OBJ_DESC_101026_3" type="SCOUT" param1="101" param2="101024" field="101" marker="101024" public_progress="self" />
+      <OBJECTIVE id="4" desc="QUEST_OBJ_DESC_101026_4" type="ACT" param1="4" field="101" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1010269" rewarder="101,101213">
+      <REWARD type="XP" param1="1230" />
+      <REWARD type="SILVER" param1="860" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="101027" title="숲 속의 비극" desc="QUEST_DESC_101027" category="QUEST_CATEGORY_101027" repeatable="false" share="manual" dialog="1010270" incomplete_dialog="1010271" level="19" destroy_item="10173">
+    <ITEM>
+      <ADD id="10176" amount="1" />
+    </ITEM>
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_101027_1" type="INTERACT" param1="101025" param2="3" field="101" marker="101027" public_progress="party" />
+      <OBJECTIVE id="2" desc="QUEST_OBJ_DESC_101027_2" type="INTERACT" param1="101026" param2="3" field="101" marker="101027" public_progress="party" />
+    </OBJECTIVES>
+    <REWARDS dialog="1010179" rewarder="101,101214">
+      <REWARD type="XP" param1="1230" />
+      <REWARD type="SILVER" param1="860" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="101028" title="우두머리 처치" desc="QUEST_DESC_101028" category="QUEST_CATEGORY_101028" repeatable="false" share="manual" dialog="1010280" incomplete_dialog="1010281" level="19" share_condition="1010280">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_101028_1" type="DESTROY" param1="101018" param2="1" marker="1010281" public_progress="party" />
+      <OBJECTIVE id="2" desc="QUEST_OBJ_DESC_101028_2" type="DESTROY" param1="101019" param2="1" marker="1010282" public_progress="party" />
+    </OBJECTIVES>
+    <REWARDS dialog="1010289" rewarder="101,101214">
+      <REWARD type="XP" param1="1230" />
+      <REWARD type="SILVER" param1="860" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="101029" title="축적의 발찌" desc="QUEST_DESC_101029" category="QUEST_CATEGORY_101029" repeatable="false" share="manual" dialog="1010290" incomplete_dialog="1010291" level="19" destroy_item="10184" share_condition="1010290">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_101029_1" type="SCOUT" param1="101" param2="101024" field="101" marker="101024" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1010299" rewarder="101,101213">
+      <REWARD type="XP" param1="1230" />
+      <REWARD type="SILVER" param1="860" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="101030" title="심증이 확증으로..." desc="QUEST_DESC_101030" category="QUEST_CATEGORY_101030" repeatable="false" share="manual" dialog="1010300" incomplete_dialog="1010301" level="19" share_condition="1010300">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_101030_1" type="SCOUT" param1="101" param2="101030" field="101" marker="101030" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1010309" rewarder="101,101215">
+      <REWARD type="XP" param1="1230" />
+      <REWARD type="SILVER" param1="860" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="101031" title="환영인사" desc="QUEST_DESC_101031" category="QUEST_CATEGORY_101031" repeatable="false" share="manual" dialog="1010310" incomplete_dialog="1010311" level="19" share_condition="1010310">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_101031_1" type="ACT" param1="1" field="101" marker="1010311" public_progress="self" />
+      <OBJECTIVE id="2" desc="QUEST_OBJ_DESC_101031_2" type="ACT" param1="2" field="101" marker="1010312" public_progress="self" />
+      <OBJECTIVE id="3" desc="QUEST_OBJ_DESC_101031_3" type="ACT" param1="3" field="101" marker="101023" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1010319" rewarder="101,101215">
+      <REWARD type="XP" param1="1230" />
+      <REWARD type="SILVER" param1="860" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="101032" title="현상 수배 - 지그니프" desc="QUEST_DESC_101032" category="QUEST_CATEGORY_101032" repeatable="false" share="manual" dialog="1010320" incomplete_dialog="1010321" level="19">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_101032_1" type="DESTROY" param1="101000" param2="1" field="101" marker="101032" public_progress="party" />
+    </OBJECTIVES>
+    <REWARDS dialog="1010329" rewarder="101,101217">
+      <REWARD type="XP" param1="1230" />
+      <REWARD type="SILVER" param1="860" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="101033" title="기사들의 습격" desc="QUEST_DESC_101033" category="QUEST_CATEGORY_101033" repeatable="false" share="manual" dialog="1010330" incomplete_dialog="1010331" level="19" share_condition="1010330">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_101033_1" type="SCOUT" param1="101" param2="1010331" field="101" marker="1010331" public_progress="self" />
+      <OBJECTIVE id="2" desc="QUEST_OBJ_DESC_101033_2" type="INTERACT" param1="101026" param2="5" field="101" marker="1010332" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1010329" rewarder="101,101217">
+      <REWARD type="XP" param1="1230" />
+      <REWARD type="SILVER" param1="860" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="101034" title="메린샤의 기적" desc="QUEST_DESC_101034" category="QUEST_CATEGORY_101034" repeatable="false" share="manual" dialog="1010340" incomplete_dialog="1010341" level="19" share_condition="1010340">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_101034_1" type="ACT" param1="1" field="101" marker="1010331" public_progress="self" />
+      <OBJECTIVE id="2" desc="QUEST_OBJ_DESC_101034_2" type="ACT" param1="2" field="101" marker="101024" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1010349" rewarder="101,101215">
+      <REWARD type="XP" param1="1230" />
+      <REWARD type="SILVER" param1="860" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="101035" title="마녀의 정체" desc="QUEST_DESC_101035" category="QUEST_CATEGORY_101035" repeatable="false" share="manual" dialog="1010350" incomplete_dialog="1010351" level="19" share_condition="1010350">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_101035_1" type="COLLECT" param1="10186" param2="1" field="1" marker="101044" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1010359" rewarder="101,101219">
+      <REWARD type="XP" param1="1230" />
+      <REWARD type="SILVER" param1="860" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="101036" title="가디엘교 위장 잠입" desc="QUEST_DESC_101036" category="QUEST_CATEGORY_101036" repeatable="false" share="manual" dialog="1010360" incomplete_dialog="1010361" level="19" share_condition="1010360">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_101036_1" type="SCOUT" param1="501" param2="101036" field="501" marker="101036" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1010369" rewarder="501,101242">
+      <REWARD type="XP" param1="1230" />
+      <REWARD type="SILVER" param1="860" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="101037" title="위험천만 가디엘교" desc="QUEST_DESC_101037" category="QUEST_CATEGORY_101037" repeatable="false" share="manual" dialog="1010370" incomplete_dialog="1010371" level="19" share_condition="1010370">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_101037_1" type="SCOUT" param1="101" param2="101043" field="101" marker="101037" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1010379" rewarder="101,101223">
+      <REWARD type="XP" param1="1230" />
+      <REWARD type="SILVER" param1="860" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="101038" title="밝혀지는 진실" desc="QUEST_DESC_101038" category="QUEST_CATEGORY_101038" repeatable="false" share="manual" dialog="1010380" incomplete_dialog="1010381" level="19" destroy_item="10186" share_condition="1010380">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_101038_1" type="ACT" param1="1" field="101" marker="101038" public_progress="self" />
+      <OBJECTIVE id="2" desc="QUEST_OBJ_DESC_101038_2" type="ACT" param1="1" field="101" marker="101038" public_progress="self" />
+      <OBJECTIVE id="3" desc="QUEST_OBJ_DESC_101038_3" type="ACT" param1="1" field="101" marker="101038" public_progress="self" />
+      <OBJECTIVE id="4" desc="QUEST_OBJ_DESC_101038_4" type="SCOUT" param1="101" param2="101043" field="101" marker="101037" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1010389" rewarder="101,101223">
+      <REWARD type="XP" param1="1230" />
+      <REWARD type="SILVER" param1="860" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="101039" title="나는 가디엘 교도다" desc="QUEST_DESC_101039" category="QUEST_CATEGORY_101039" repeatable="false" share="manual" dialog="1010390" incomplete_dialog="1010391" level="19" share_condition="1010390">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_101039_1" type="DESTROY" param1="101016" param2="5" field="101" marker="101039" public_progress="party" />
+      <OBJECTIVE id="2" desc="QUEST_OBJ_DESC_101039_2" type="DESTROY" param1="101017" param2="3" field="101" marker="101039" public_progress="party" />
+    </OBJECTIVES>
+    <REWARDS dialog="1010329" rewarder="101,101225">
+      <REWARD type="XP" param1="1230" />
+      <REWARD type="SILVER" param1="860" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="101040" title="자격 증명" desc="QUEST_DESC_101040" category="QUEST_CATEGORY_101040" repeatable="false" share="manual" dialog="1010400" incomplete_dialog="1010401" level="19" share_condition="1010400">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_101040_1" type="DESTROY" param1="101028,101036" param2="6" field="101" marker="101040" public_progress="party" />
+      <OBJECTIVE id="2" desc="QUEST_OBJ_DESC_101040_2" type="DESTROY" param1="101029,101037" param2="5" field="101" marker="101040" public_progress="party" />
+    </OBJECTIVES>
+    <REWARDS dialog="1010329" rewarder="101,101225">
+      <REWARD type="XP" param1="1230" />
+      <REWARD type="SILVER" param1="860" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="101041" title="꿈도 희망도 없다" desc="QUEST_DESC_101041" category="QUEST_CATEGORY_101041" repeatable="false" share="manual" dialog="1010400" incomplete_dialog="1010401" level="19" destroy_item="10187" share_condition="19">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_101041_1" type="COLLECT" param1="10187" param2="10" field="101" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1010419" rewarder="501,101242">
+      <REWARD type="XP" param1="1230" />
+      <REWARD type="SILVER" param1="860" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="101042" title="리오드에 생명을..." desc="QUEST_DESC_101042" category="QUEST_CATEGORY_101042" repeatable="false" share="manual" dialog="1010420" incomplete_dialog="1010421" level="19" share_condition="1010420">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_101042_1" type="DESTROY" param1="501003" param2="1" field="101" public_progress="party" />
+    </OBJECTIVES>
+    <REWARDS dialog="1010429" rewarder="501,101242">
+      <REWARD type="XP" param1="1230" />
+      <REWARD type="SILVER" param1="860" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="101043" title="비탄한 현실...하지만 해야만 하는 일" desc="QUEST_DESC_101043" category="QUEST_CATEGORY_101043" repeatable="false" share="manual" dialog="1010430" incomplete_dialog="1010431" level="19" destroy_item="10188" share_condition="1010430">
+    <ITEM>
+      <ADD id="10188" amount="1" />
+    </ITEM>
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_101043_1" type="ACT" param1="1" field="101" marker="1010431" public_progress="self" />
+      <OBJECTIVE id="2" desc="QUEST_OBJ_DESC_101043_2" type="ACT" param1="2" field="101" marker="1010182" public_progress="self" />
+      <OBJECTIVE id="3" desc="QUEST_OBJ_DESC_101043_3" type="ACT" param1="3" field="101" marker="1010181" public_progress="self" />
+      <OBJECTIVE id="4" desc="QUEST_OBJ_DESC_101043_4" type="SCOUT" param1="101" param2="101021" field="101" marker="101021" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1010439" rewarder="101,101201">
+      <REWARD type="XP" param1="1230" />
+      <REWARD type="SILVER" param1="860" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="101044" title="통제 해제령" desc="QUEST_DESC_101044" category="QUEST_CATEGORY_101044" repeatable="false" share="manual" dialog="1010440" incomplete_dialog="1010441" level="19" share_condition="1010440">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_101044_1" type="SCOUT" param1="1" param2="101045" field="1" marker="101044" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1010449" rewarder="1,1108">
+      <REWARD type="XP" param1="1230" />
+      <REWARD type="SILVER" param1="860" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="101045" title="영웅의 전설" desc="QUEST_DESC_101045" category="QUEST_CATEGORY_101045" repeatable="false" share="manual" dialog="1010450" incomplete_dialog="1010451" level="19" share_condition="19">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_101045_1" type="INTERACT" param1="1113" param2="1" field="1" marker="101045" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1010459" rewarder="1,1113">
+      <REWARD type="XP" param1="1230" />
+      <REWARD type="SILVER" param1="860" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="101046" title="영웅의 자격" desc="QUEST_DESC_101046" category="QUEST_CATEGORY_101046" repeatable="false" share="manual" dialog="1010460" incomplete_dialog="1010461" level="19" share_condition="1010460">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_101046_1" type="COLLECT" param1="10189" param2="1" field="1" marker="1010461" public_progress="self" />
+      <OBJECTIVE id="2" desc="QUEST_OBJ_DESC_101046_2" type="COLLECT" param1="10190" param2="1" field="1" marker="1010462" public_progress="self" />
+      <OBJECTIVE id="3" desc="QUEST_OBJ_DESC_101046_3" type="ACT" param1="1" field="1" marker="1010463" public_progress="self" />
+      <OBJECTIVE id="4" desc="QUEST_OBJ_DESC_101046_4" type="SCOUT" param1="1" param2="101046" field="1" marker="1010464" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1010459" rewarder="1,1109">
+      <REWARD type="XP" param1="1230" />
+      <REWARD type="SILVER" param1="860" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="101047" title="영웅 알현" desc="QUEST_DESC_101047" category="QUEST_CATEGORY_101047" repeatable="false" share="manual" dialog="1010470" incomplete_dialog="1010471" level="19" destroy_item="10189,10190" share_condition="1010470">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_101047_1" type="INTERACT" param1="101232" param2="1" field="101" marker="101047" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1010479" rewarder="101,101002">
+      <REWARD type="XP" param1="1230" />
+      <REWARD type="SILVER" param1="860" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="101048" title="홍익인간" desc="QUEST_DESC_101048" category="QUEST_CATEGORY_101048" repeatable="false" share="manual" dialog="1010480" incomplete_dialog="1010481" level="19" share_condition="1010480">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_101048_1" type="DESTROY" param1="101000" param2="50" field="101" public_progress="party" />
+    </OBJECTIVES>
+    <REWARDS dialog="1010489" rewarder="101,101002">
+      <REWARD type="XP" param1="1230" />
+      <REWARD type="SILVER" param1="860" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="101049" title="호수의 수호자 이리스" desc="QUEST_DESC_101049" category="QUEST_CATEGORY_101049" repeatable="false" share="manual" dialog="1010490" incomplete_dialog="1010491" level="19" share_condition="1010490">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_101049_1" type="ACT" param1="1" field="101" marker="101047" public_progress="party" />
+    </OBJECTIVES>
+    <REWARDS dialog="1010329" rewarder="101,101002">
+      <REWARD type="XP" param1="1230" />
+      <REWARD type="SILVER" param1="860" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="101050" title="초상화의 재료 - 도화지" desc="QUEST_DESC_101050" category="QUEST_CATEGORY_101050" repeatable="false" share="manual" dialog="1010500" incomplete_dialog="1010501" level="19" destroy_item="10164" share_condition="1010500">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_101050_1" type="COLLECT" param1="10164" param2="10" field="101" marker="1010032" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1010509" rewarder="101,101203">
+      <REWARD type="XP" param1="1230" />
+      <REWARD type="ITEM" param1="10160" param2="10" />
+      <REWARD type="SILVER" param1="860" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="101051" title="초상화의 재료 - 물감" desc="QUEST_DESC_101051" category="QUEST_CATEGORY_101051" repeatable="false" share="manual" dialog="1010510" incomplete_dialog="1010511" level="19" destroy_item="10191,10192,10193" share_condition="1010510">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_101051_1" type="COLLECT" param1="10191" param2="3" field="101" marker="1010031" public_progress="self" />
+      <OBJECTIVE id="2" desc="QUEST_OBJ_DESC_101051_2" type="COLLECT" param1="10192" param2="3" field="101" marker="1010031" public_progress="self" />
+      <OBJECTIVE id="3" desc="QUEST_OBJ_DESC_101051_3" type="COLLECT" param1="10193" param2="3" field="101" marker="1010031" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1010519" rewarder="101,101203">
+      <REWARD type="XP" param1="1230" />
+      <REWARD type="ITEM" param1="10194" param2="1" />
+      <REWARD type="SILVER" param1="860" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="102001" title="매서운 추위" desc="QUEST_DESC_102001" category="QUEST_CATEGORY_102001" repeatable="false" share="manual" dialog="1020010" incomplete_dialog="1020011" level="17" destroy_item="10000" share_condition="17">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_102001_1" type="COLLECT" param1="10000" param2="5" field="102" marker="102001" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1020019" rewarder="102,102201">
+      <REWARD type="XP" param1="8370" />
+      <REWARD type="SILVER" param1="1940" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="102002" title="바로 그 약초" desc="QUEST_DESC_102002" category="QUEST_CATEGORY_102002" repeatable="false" share="manual" dialog="1020020" incomplete_dialog="1020021" level="18" destroy_item="10002" share_condition="1020020">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_102002_1" type="COLLECT" param1="10002" param2="3" field="102" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1020029" rewarder="102,102207">
+      <REWARD type="XP" param1="9270" />
+      <REWARD type="SILVER" param1="2160" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="102003" title="순례자 보호" desc="QUEST_DESC_102003" category="QUEST_CATEGORY_102003" repeatable="false" share="auto" dialog="1020030" incomplete_dialog="1020033" level="17" share_condition="17">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_102003_1" type="ESCORT" param1="102223" param2="102003" field="102" marker="102003" public_progress="party" />
+    </OBJECTIVES>
+    <REWARDS dialog="1020039" rewarder="102,102215">
+      <REWARD type="XP" param1="8370" />
+      <REWARD type="SILVER" param1="1940" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="102004" title="한 명도 놓쳐선 안 돼" desc="QUEST_DESC_102004" category="QUEST_CATEGORY_102004" repeatable="false" share="manual" dialog="1020040" incomplete_dialog="1020041" level="17" destroy_item="10017" share_condition="17">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_102004_1" type="COLLECT" param1="10017" param2="8" field="102" marker="102004" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1020049" rewarder="102,102205">
+      <REWARD type="XP" param1="8370" />
+      <REWARD type="SILVER" param1="1940" />
+      <REWARD type="ITEM" param1="58023" param2="4" />
+      <REWARD type="ITEM" param1="1000001" param2="1" />
+      <REWARD type="ITEM" param1="1000002" param2="4" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="102005" title="편지에 분노를 담아" desc="QUEST_DESC_102005" category="QUEST_CATEGORY_102005" repeatable="false" share="manual" dialog="1020050" incomplete_dialog="1020051" level="17" share_condition="17">
+    <ITEM>
+      <ADD id="10018" amount="1" />
+    </ITEM>
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_102005_1" type="COLLECT" param1="10018" param2="1" field="102" marker="102005" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1020059" rewarder="102,102205">
+      <REWARD type="XP" param1="1000" />
+      <REWARD type="SILVER" param1="1000" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="102006" title="인명 구조" desc="QUEST_DESC_102006" category="QUEST_CATEGORY_102006" repeatable="false" share="manual" dialog="1020060" incomplete_dialog="1020061" level="17" share_condition="17">
+    <ITEM>
+      <ADD id="10068" amount="1" />
+    </ITEM>
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_102006_1" type="ACT" param1="2" field="102" public_progress="party" />
+      <OBJECTIVE id="2" desc="QUEST_OBJ_DESC_102006_2" type="ACT" param1="3" field="102" public_progress="party" />
+      <OBJECTIVE id="3" desc="QUEST_OBJ_DESC_102006_3" type="ACT" param1="4" field="102" public_progress="party" />
+    </OBJECTIVES>
+    <REWARDS dialog="1020069" rewarder="102,102207">
+      <REWARD type="XP" param1="8370" />
+      <REWARD type="SILVER" param1="2000" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="102007" title="하피 먹고 알 먹고" desc="QUEST_DESC_102007" category="QUEST_CATEGORY_102007" repeatable="false" share="manual" dialog="1020070" incomplete_dialog="1020071" level="17" share_condition="1020070">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_102007_1" type="COLLECT" param1="58021" param2="1" field="102" marker="1020071" public_progress="self" />
+      <OBJECTIVE id="2" desc="QUEST_OBJ_DESC_102007_2" type="COLLECT" param1="58022" param2="1" field="102" marker="1020072" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1020079" rewarder="102,102205">
+      <REWARD type="XP" param1="8370" />
+      <REWARD type="SILVER" param1="1900" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="102008" title="얼어붙은 수통" desc="QUEST_DESC_102008" category="QUEST_CATEGORY_102008" repeatable="false" share="manual" dialog="1020080" incomplete_dialog="1020081" level="18" destroy_item="10023" share_condition="1020080">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_102008_1" type="COLLECT" param1="10023" param2="3" field="102" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1020089" rewarder="102,102207">
+      <REWARD type="XP" param1="9270" />
+      <REWARD type="SILVER" param1="2160" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="102009" title="과거의 식물" desc="QUEST_DESC_102009" category="QUEST_CATEGORY_102009" repeatable="false" share="manual" dialog="1020090" incomplete_dialog="1020091" level="18" destroy_item="10037" share_condition="1020090">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_102009_1" type="COLLECT" param1="10037" param2="1" field="102" marker="102009" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1020099" rewarder="102,102208">
+      <REWARD type="XP" param1="9270" />
+      <REWARD type="SILVER" param1="2160" />
+      <REWARD type="ITEM" param1="50800, 50801" param2="3, 3" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="102010" title="누구에게나 중요한 인맥" desc="QUEST_DESC_102010" category="QUEST_CATEGORY_102010" repeatable="false" share="manual" dialog="1020100" incomplete_dialog="1020101" level="18" destroy_item="10069,10070" share_condition="1020100">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_102010_1" type="COLLECT" param1="10069" param2="1" field="102" marker="102011" public_progress="self" />
+      <OBJECTIVE id="2" desc="QUEST_OBJ_DESC_102010_2" type="COLLECT" param1="10070" param2="1" field="102" marker="102010" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1020109" rewarder="102,102206">
+      <REWARD type="XP" param1="9270" />
+      <REWARD type="SILVER" param1="1000" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="102011" title="트롤의 관심" desc="QUEST_DESC_102011" category="QUEST_CATEGORY_102011" repeatable="false" share="manual" dialog="1020110" incomplete_dialog="1020111" level="18" share_condition="1020110">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_102011_1" type="COLLECT" param1="50002" param2="10" field="102" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1020119" rewarder="102,102005">
+      <REWARD type="XP" param1="9270" />
+      <REWARD type="SILVER" param1="2200" />
+      <REWARD type="ITEM" param1="50800" param2="2" />
+      <REWARD type="FACTION" param1="115" param2="2500" />
+      <REWARD type="FACTION" param1="116" param2="-2500" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="102012" title="오우거의 관심" desc="QUEST_DESC_102012" category="QUEST_CATEGORY_102012" repeatable="false" share="manual" dialog="1020120" incomplete_dialog="1020121" level="18" share_condition="1020120">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_102012_1" type="COLLECT" param1="50202" param2="10" field="102" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1020129" rewarder="102,102006">
+      <REWARD type="XP" param1="9270" />
+      <REWARD type="SILVER" param1="2200" />
+      <REWARD type="ITEM" param1="50801" param2="2" />
+      <REWARD type="FACTION" param1="116" param2="2500" />
+      <REWARD type="FACTION" param1="115" param2="-2500" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="102013" title="트롤의 용병" desc="QUEST_DESC_102013" category="QUEST_CATEGORY_102013" repeatable="false" share="manual" dialog="1020130" level="18" share_condition="1020130">
+    <ITEM>
+      <ADD id="10074" amount="1" />
+    </ITEM>
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_102013_1" type="COLLECT" param1="10074" param2="1" field="102" marker="102010" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1020139" rewarder="102,102001">
+      <REWARD type="XP" param1="1110" />
+      <REWARD type="FACTION" param1="115" param2="3000" />
+      <REWARD type="FACTION" param1="116" param2="-3000" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="102014" title="오우거의 용병" desc="QUEST_DESC_102014" category="QUEST_CATEGORY_102014" repeatable="false" share="manual" dialog="1020140" level="18" share_condition="1020140">
+    <ITEM>
+      <ADD id="10075" amount="1" />
+    </ITEM>
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_102014_1" type="COLLECT" param1="10075" param2="1" field="102" marker="102011" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1020149" rewarder="102,102002">
+      <REWARD type="XP" param1="1110" />
+      <REWARD type="FACTION" param1="116" param2="3000" />
+      <REWARD type="FACTION" param1="115" param2="-3000" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="102015" title="#용병계약 해지" desc="QUEST_DESC_102015" category="QUEST_CATEGORY_102015" repeatable="true" share="none" dialog="1020150" level="18" share_condition="18" comment="구조상 팩션 바꾸기가 힘듬">
+    <REWARDS dialog="1020159" rewarder="102,102206" />
+  </QUEST>
+  <QUEST id="102016" title="신뢰받는 자" desc="QUEST_DESC_102016" category="QUEST_CATEGORY_102016" repeatable="false" share="manual" dialog="1020160" incomplete_dialog="1020161" level="18" share_condition="1020160" comment="트롤편">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_102016_1" type="ACT" param1="2" field="102" marker="102016" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1020169" rewarder="102,102118">
+      <REWARD type="XP" param1="9270" />
+      <REWARD type="SILVER" param1="2100" />
+      <REWARD type="ITEM" param1="50800" param2="1" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="102017" title="신뢰받는 자" desc="QUEST_DESC_102017" category="QUEST_CATEGORY_102017" repeatable="false" share="manual" dialog="1020170" incomplete_dialog="1020171" level="18" share_condition="1020170" comment="오우거편">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_102017_1" type="ACT" param1="2" field="102" marker="102017" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1020179" rewarder="102,102119">
+      <REWARD type="XP" param1="9270" />
+      <REWARD type="SILVER" param1="2100" />
+      <REWARD type="ITEM" param1="50801" param2="1" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="102019" title="피가 모자라" desc="QUEST_DESC_102019" category="QUEST_CATEGORY_102019" repeatable="false" share="manual" dialog="1020190" incomplete_dialog="1020191" level="17" share_condition="17">
+    <ITEM>
+      <ADD id="10077" amount="1" />
+    </ITEM>
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_102019_1" type="COLLECT" param1="10078" param2="30" field="102" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1020199" rewarder="102,102208">
+      <REWARD type="XP" param1="8370" />
+      <REWARD type="SILVER" param1="2000" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="102020" title="순백의 그림자" desc="QUEST_DESC_102020" category="QUEST_CATEGORY_102020" repeatable="false" share="manual" dialog="1020200" incomplete_dialog="1020201" level="17" trialtype="single" field_group="1020200" share_condition="17">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_102020_1" type="ACT" param1="2" field="102" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1020209" rewarder="102,102207">
+      <REWARD type="XP" param1="8370" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="102021" title="디아고 처치" desc="QUEST_DESC_102021" category="QUEST_CATEGORY_102021" repeatable="false" share="manual" dialog="1020210" incomplete_dialog="1020211" level="19" share_condition="1020210">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_102021_1" type="DESTROY" param1="102110" param2="1" field="102" marker="102021" public_progress="party" />
+    </OBJECTIVES>
+    <REWARDS dialog="1020219" rewarder="102,102216">
+      <REWARD type="XP" param1="15360" />
+      <REWARD type="SILVER" param1="4800" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="102022" title="설인을 처치할 무기" desc="QUEST_DESC_102022" category="QUEST_CATEGORY_102022" repeatable="false" share="manual" dialog="1020220" level="18" share_condition="1020220">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_102022_1" type="SCOUT" param1="102" param2="102023" field="102" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1020229" rewarder="102,102216">
+      <REWARD type="XP" param1="3000" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="102023" title="아들의 유품" desc="QUEST_DESC_102023" category="QUEST_CATEGORY_102023" repeatable="false" share="manual" dialog="1020230" level="18" destroy_item="10085" share_condition="18">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_102023_1" type="COLLECT" param1="10085" param2="1" field="102" marker="102023" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1020239" rewarder="102,102216">
+      <REWARD type="XP" param1="3000" />
+      <REWARD type="ITEM" param1="10087" param2="1" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="102024" title="정상으로 가는 길" desc="QUEST_DESC_102024" category="QUEST_CATEGORY_102024" repeatable="false" share="manual" dialog="1020240" level="18" share_condition="1020240">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_102024_1" type="SCOUT" param1="102" param2="102024" field="102" marker="102024" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1020249" rewarder="102,102206">
+      <REWARD type="XP" param1="1110" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="102025" title="여신의 숨결" desc="QUEST_DESC_102025" category="QUEST_CATEGORY_102025" repeatable="false" share="manual" dialog="1020250" level="18" destroy_item="10090" share_condition="1020250">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_102025_1" type="COLLECT" param1="10090" param2="1" field="102" marker="102025" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1020259" rewarder="102,102216">
+      <REWARD type="XP" param1="9270" />
+      <REWARD type="SILVER" param1="2100" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="102026" title="불길을 잠재우는 것" desc="QUEST_DESC_102026" category="QUEST_CATEGORY_102026" repeatable="false" share="manual" dialog="1020260" level="18" destroy_item="10091" share_condition="1020260">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_102026_1" type="COLLECT" param1="10091" param2="5" field="102" marker="102025" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1020269" rewarder="102,102216">
+      <REWARD type="XP" param1="9270" />
+      <REWARD type="SILVER" param1="2100" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="102027" title="고대의 불" desc="QUEST_DESC_102027" category="QUEST_CATEGORY_102027" repeatable="false" share="manual" dialog="1020270" incomplete_dialog="1020271" level="18" destroy_item="10092, 10093" share_condition="1020270">
+    <ITEM>
+      <ADD id="10092" amount="1" />
+    </ITEM>
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_102027_1" type="COLLECT" param1="10093" param2="1" field="102" marker="102027" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1020279" rewarder="102,102216">
+      <REWARD type="XP" param1="9270" />
+      <REWARD type="SILVER" param1="2100" />
+      <REWARD type="ITEM" param1="40000000,40000001" param2="1,1" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="102028" title="물자 요청" desc="QUEST_DESC_102028" category="QUEST_CATEGORY_102028" repeatable="false" share="manual" dialog="1020280" level="18" share_condition="1020280">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_102028_1" type="SCOUT" param1="102" param2="102024" field="102" marker="2" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1020289" rewarder="102,102205">
+      <REWARD type="XP" param1="1110" />
+      <REWARD type="SILVER" param1="700" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="102040" title="유령늑대 샤디즈 [파티]" desc="QUEST_DESC_102040" category="QUEST_CATEGORY_102040" repeatable="false" share="manual" dialog="1020400" incomplete_dialog="1020401" level="18" share_condition="18" party_field="102" party_sensor="1000000" party_member_count="3">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_102040_1" type="DESTROY" param1="102111" param2="1" field="102" marker="102040" public_progress="party" />
+    </OBJECTIVES>
+    <REWARDS dialog="1020409" rewarder="102,102222">
+      <REWARD type="XP" param1="13910" />
+      <REWARD type="SILVER" param1="4300" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="102041" title="사냥꾼을 사냥하기" desc="QUEST_DESC_102041" category="QUEST_CATEGORY_102041" repeatable="false" share="manual" dialog="1020410" incomplete_dialog="1020411" level="18" share_condition="18">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_102041_1" type="DESTROY" param1="102116" param2="1" field="102" marker="102041" public_progress="party" />
+      <OBJECTIVE id="2" desc="QUEST_OBJ_DESC_102041_2" type="DESTROY" param1="102113" param2="3" field="102" marker="102041" public_progress="party" />
+      <OBJECTIVE id="3" desc="QUEST_OBJ_DESC_102041_3" type="DESTROY" param1="102114" param2="3" field="102" marker="102041" public_progress="party" />
+      <OBJECTIVE id="4" desc="QUEST_OBJ_DESC_102041_4" type="DESTROY" param1="102115" param2="3" field="102" marker="102041" public_progress="party" />
+    </OBJECTIVES>
+    <REWARDS dialog="1020419" rewarder="102,102222">
+      <REWARD type="XP" param1="9270" />
+      <REWARD type="SILVER" param1="2200" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="102050" title="오우거 전사 처치" desc="QUEST_DESC_102050" category="QUEST_CATEGORY_102050" repeatable="true" share="manual" dialog="1020500" incomplete_dialog="1020501" level="18" share_condition="1020500" comment="트롤편">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_102050_1" type="DESTROY" param1="102004" param2="1" field="102" marker="102050" public_progress="party" />
+    </OBJECTIVES>
+    <REWARDS dialog="1020509" rewarder="102,102011">
+      <REWARD type="SILVER" param1="1800" />
+      <REWARD type="ITEM" param1="50800" param2="2" />
+      <REWARD type="FACTION" param1="115" param2="2500" />
+      <REWARD type="FACTION" param1="116" param2="-2500" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="102051" title="트롤 전사 처치" desc="QUEST_DESC_102051" category="QUEST_CATEGORY_102051" repeatable="true" share="manual" dialog="1020510" incomplete_dialog="1020511" level="18" share_condition="1020510" comment="오우거편">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_102051_1" type="DESTROY" param1="102003" param2="1" field="102" marker="102051" public_progress="party" />
+    </OBJECTIVES>
+    <REWARDS dialog="1020519" rewarder="102,102012">
+      <REWARD type="SILVER" param1="1800" />
+      <REWARD type="ITEM" param1="50801" param2="2" />
+      <REWARD type="FACTION" param1="116" param2="2500" />
+      <REWARD type="FACTION" param1="115" param2="-2500" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="102052" title="고고학자의 제자" desc="QUEST_DESC_102052" category="QUEST_CATEGORY_102052" repeatable="false" share="manual" dialog="1020520" level="18" share_condition="1020520" comment="트롤편">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_102052_1" type="SCOUT" param1="102" param2="102052" field="102" marker="102052" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1020529" rewarder="102,102118">
+      <REWARD type="XP" param1="1110" />
+      <REWARD type="ITEM" param1="50800" param2="1" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="102053" title="고고학자의 제자" desc="QUEST_DESC_102053" category="QUEST_CATEGORY_102053" repeatable="false" share="manual" dialog="1020530" level="18" share_condition="1020530" comment="오우거편">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_102053_1" type="SCOUT" param1="102" param2="102053" field="102" marker="102053" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1020539" rewarder="102,102119">
+      <REWARD type="XP" param1="1110" />
+      <REWARD type="ITEM" param1="50801" param2="1" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="102054" title="고대로부터의 전언" desc="QUEST_DESC_102054" category="QUEST_CATEGORY_102054" repeatable="false" share="manual" dialog="1020540" incomplete_dialog="1020541" level="18" destroy_item="10088,10089" share_condition="1020540" comment="트롤편">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_102054_1" type="COLLECT" param1="10088" param2="1" field="102" marker="102054" public_progress="self" />
+      <OBJECTIVE id="2" desc="QUEST_OBJ_DESC_102054_2" type="COLLECT" param1="10089" param2="1" field="102" marker="102055" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1020549" rewarder="102,102118">
+      <REWARD type="XP" param1="9270" />
+      <REWARD type="SILVER" param1="2000" />
+      <REWARD type="ITEM" param1="50800" param2="1" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="102055" title="고대로부터의 전언" desc="QUEST_DESC_102055" category="QUEST_CATEGORY_102055" repeatable="false" share="manual" dialog="1020550" incomplete_dialog="1020551" level="18" destroy_item="10088,10089" share_condition="1020550" comment="오우거편">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_102055_1" type="COLLECT" param1="10089" param2="1" field="102" marker="102055" public_progress="self" />
+      <OBJECTIVE id="2" desc="QUEST_OBJ_DESC_102055_2" type="COLLECT" param1="10088" param2="1" field="102" marker="102054" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1020559" rewarder="102,102119">
+      <REWARD type="XP" param1="9270" />
+      <REWARD type="SILVER" param1="2000" />
+      <REWARD type="ITEM" param1="50801" param2="1" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="102056" title="돈 앞에선 친구도 없다" desc="QUEST_DESC_102056" category="QUEST_CATEGORY_102056" repeatable="true" share="manual" dialog="1020560" incomplete_dialog="1020561" level="18" share_condition="1020560" comment="트롤편">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_102056_1" type="DESTROY" param1="950001,102122,102123,102119,102008" param2="3" field="102" marker="102056" public_progress="party" />
+    </OBJECTIVES>
+    <REWARDS dialog="1020569" rewarder="102,102011">
+      <REWARD type="SILVER" param1="1800" />
+      <REWARD type="ITEM" param1="50800" param2="2" />
+      <REWARD type="FACTION" param1="115" param2="2500" />
+      <REWARD type="FACTION" param1="116" param2="-2500" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="102057" title="돈 앞에선 친구도 없다" desc="QUEST_DESC_102057" category="QUEST_CATEGORY_102057" repeatable="true" share="manual" dialog="1020570" incomplete_dialog="1020571" level="18" share_condition="1020570" comment="오우거편">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_102057_1" type="DESTROY" param1="950000,102120,102121,102118,102007" param2="3" field="102" marker="102057" public_progress="party" />
+    </OBJECTIVES>
+    <REWARDS dialog="1020579" rewarder="102,102012">
+      <REWARD type="SILVER" param1="1800" />
+      <REWARD type="ITEM" param1="50801" param2="2" />
+      <REWARD type="FACTION" param1="116" param2="2500" />
+      <REWARD type="FACTION" param1="115" param2="-2500" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="107003" title="해방감과 함께 다가오는 공복" desc="QUEST_DESC_107003" category="QUEST_CATEGORY_107003" repeatable="false" share="manual" dialog="1070030" incomplete_dialog="1070031" level="7" share_condition="7">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_107003_1" type="COLLECT" param1="75003" param2="1" field="107" marker="107003" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1070039" rewarder="107,107255">
+      <REWARD type="XP" param1="1820" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="107005" title="야생화 수집" desc="QUEST_DESC_107005" category="QUEST_CATEGORY_107005" repeatable="false" share="manual" dialog="1070050" incomplete_dialog="1070051" level="7" destroy_item="10062, 10063, 10064" share_condition="7">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_107005_1" type="COLLECT" param1="10062" param2="6" field="107" public_progress="self" />
+      <OBJECTIVE id="2" desc="QUEST_OBJ_DESC_107005_2" type="COLLECT" param1="10063" param2="6" field="107" public_progress="self" />
+      <OBJECTIVE id="3" desc="QUEST_OBJ_DESC_107005_3" type="COLLECT" param1="10064" param2="6" field="107" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1070059" rewarder="107,107204">
+      <REWARD type="XP" param1="1820" />
+      <REWARD type="SILVER" param1="400" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="107006" title="영웅의 오솔길로" desc="QUEST_DESC_107006" category="QUEST_CATEGORY_107006" repeatable="false" share="manual" dialog="1070060" level="12" share_condition="1070060">
+    <ITEM>
+      <ADD id="10003" amount="1" />
+    </ITEM>
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_107006_1" type="COLLECT" param1="10003" param2="1" field="113" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1070069" rewarder="113,113203">
+      <REWARD type="XP" param1="4500" />
+      <REWARD type="SILVER" param1="600" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="107010" title="식량 되찾기" desc="QUEST_DESC_107010" category="QUEST_CATEGORY_107010" repeatable="false" share="manual" dialog="1070100" incomplete_dialog="1070101" level="7" share_condition="7">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_107010_1" type="COLLECT" param1="58002" param2="8" field="107" marker="36" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1070109" rewarder="107,107203">
+      <REWARD type="XP" param1="1820" />
+      <REWARD type="SILVER" param1="380" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="107011" title="피의 연쇄" desc="QUEST_DESC_107011" category="QUEST_CATEGORY_107011" repeatable="false" share="manual" dialog="1070110" incomplete_dialog="1070111" level="6" share_condition="6">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_107011_1" type="DESTROY" param1="107011, 107012" param2="12" field="107" marker="36" public_progress="party" />
+    </OBJECTIVES>
+    <REWARDS dialog="1070119" rewarder="107,107204">
+      <REWARD type="XP" param1="1400" />
+      <REWARD type="SILVER" param1="300" />
+      <REWARD type="ITEM" param1="58002" param2="3" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="107012" title="무기를 들어라!" desc="QUEST_DESC_107012" category="QUEST_CATEGORY_107012" repeatable="false" share="manual" dialog="1070120" incomplete_dialog="1070121" level="7" destroy_item="10057, 10058" share_condition="1070120">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_107012_1" type="COLLECT" param1="10057" param2="5" field="107" marker="38" public_progress="self" />
+      <OBJECTIVE id="2" desc="QUEST_OBJ_DESC_107012_2" type="COLLECT" param1="10058" param2="5" field="107" marker="38" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1070129" rewarder="107,107205">
+      <REWARD type="XP" param1="1820" />
+      <REWARD type="SILVER" param1="380" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="107013" title="검은바위 동굴 습격" desc="QUEST_DESC_107013" category="QUEST_CATEGORY_107013" repeatable="false" players="5" share="manual" dialog="1070130" incomplete_dialog="1070131" level="8" trialtype="party" field_group="1070130" share_condition="1070130">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_107013_1" type="DESTROY" param1="107017, 107018" param2="4" field="107" marker="107013" public_progress="party" />
+      <OBJECTIVE id="2" desc="QUEST_OBJ_DESC_107013_2" type="DESTROY" param1="107019, 107020" param2="4" field="107" marker="107013" public_progress="party" />
+      <OBJECTIVE id="3" desc="QUEST_OBJ_DESC_107013_3" type="DESTROY" param1="107031" param2="1" field="107" marker="107013" public_progress="party" />
+      <OBJECTIVE id="4" desc="QUEST_OBJ_DESC_107013_4" type="DESTROY" param1="107021" param2="1" field="107" marker="107013" public_progress="party" />
+    </OBJECTIVES>
+    <REWARDS dialog="1070139" rewarder="107,107201">
+      <REWARD type="XP" param1="2250" />
+      <REWARD type="SILVER" param1="480" />
+      <REWARD type="ITEM" param1="30000100,30000101,30000102,30000103" param2="1,1,1,1" />
+      <REWARD type="ITEM" param1="50515" param2="1" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="107016" title="위협의 끝" desc="QUEST_DESC_107016" category="QUEST_CATEGORY_107016" repeatable="false" share="manual" dialog="1070160" level="8" trialtype="party" field_group="1070160" destroy_item="10041" share_condition="1070160">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_107016_1" type="DESTROY" param1="107035,107036" param2="6" field="107" marker="107016" public_progress="party" />
+      <OBJECTIVE id="2" desc="QUEST_OBJ_DESC_107016_2" type="COLLECT" param1="10041" param2="1" field="107" marker="107016" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1070169" rewarder="107,107203">
+      <REWARD type="XP" param1="2250" />
+      <REWARD type="SILVER" param1="480" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="107018" title="노인과 낚싯대" desc="QUEST_DESC_107018" category="QUEST_CATEGORY_107018" repeatable="false" share="manual" dialog="1070180" incomplete_dialog="1070181" level="7" destroy_item="10007" share_condition="7">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_107018_1" type="COLLECT" param1="10007" param2="1" field="107" marker="38" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1070189" rewarder="107,107207">
+      <REWARD type="XP" param1="1820" />
+      <REWARD type="SILVER" param1="400" />
+      <REWARD type="ITEM" param1="50516" param2="1" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="107019" title="베스피오단 현상금" desc="QUEST_DESC_107019" category="QUEST_CATEGORY_107019" repeatable="false" share="manual" dialog="1070190" incomplete_dialog="1070191" level="7" share_condition="7">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_107019_1" type="COLLECT" param1="10044" param2="20" field="107" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1070199" rewarder="107,107201">
+      <REWARD type="XP" param1="1820" />
+      <REWARD type="SILVER" param1="380" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="107041" title="발굴지 보호" desc="QUEST_DESC_107041" category="QUEST_CATEGORY_107041" repeatable="false" share="manual" dialog="1070410" incomplete_dialog="1070411" level="5" share_condition="5">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_107041_1" type="DESTROY" param1="107024" param2="6" field="107" marker="35" public_progress="party" />
+      <OBJECTIVE id="2" desc="QUEST_OBJ_DESC_107041_2" type="DESTROY" param1="107025" param2="6" field="107" marker="35" public_progress="party" />
+    </OBJECTIVES>
+    <REWARDS dialog="1070419" rewarder="107,107212">
+      <REWARD type="XP" param1="1060" />
+      <REWARD type="SILVER" param1="220" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="107042" title="습격당한 마차" desc="QUEST_DESC_107042" category="QUEST_CATEGORY_107042" repeatable="false" share="manual" dialog="1070420" incomplete_dialog="1070421" level="5" destroy_item="10043" share_condition="5">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_107042_1" type="COLLECT" param1="10043" param2="1" field="107" marker="28" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1070429" rewarder="107,107221">
+      <REWARD type="XP" param1="1060" />
+      <REWARD type="SILVER" param1="210" />
+      <REWARD type="ITEM" param1="50001" param2="3" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="107043" title="불길한 전조" desc="QUEST_DESC_107043" category="QUEST_CATEGORY_107043" repeatable="false" share="manual" dialog="1070430" incomplete_dialog="1070431" level="5" destroy_item="10045" share_condition="5">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_107043_1" type="DESTROY" param1="107026" param2="1" field="107" public_progress="party" />
+      <OBJECTIVE id="2" desc="QUEST_OBJ_DESC_107043_2" type="COLLECT" param1="10045" param2="1" field="107" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1070439" rewarder="107,107215">
+      <REWARD type="XP" param1="1060" />
+      <REWARD type="SILVER" param1="220" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="107044" title="의문의 메시지" desc="QUEST_DESC_107044" category="QUEST_CATEGORY_107044" repeatable="false" share="manual" dialog="1070440" incomplete_dialog="1070441" level="6" destroy_item="10006" share_condition="1070440">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_107044_1" type="COLLECT" param1="10006" param2="5" field="107" marker="107044" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1070449" rewarder="107,107222">
+      <REWARD type="XP" param1="1400" />
+      <REWARD type="SILVER" param1="290" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="107045" title="진군 저지" desc="QUEST_DESC_107045" category="QUEST_CATEGORY_107045" repeatable="false" share="manual" dialog="1070450" incomplete_dialog="1070451" level="6" share_condition="1070450">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_107045_1" type="DESTROY" param1="107027" param2="7" field="107" marker="34" public_progress="party" />
+      <OBJECTIVE id="2" desc="QUEST_OBJ_DESC_107045_2" type="DESTROY" param1="107028" param2="7" field="107" marker="34" public_progress="party" />
+    </OBJECTIVES>
+    <REWARDS dialog="1070459" rewarder="107,107215">
+      <REWARD type="XP" param1="1400" />
+      <REWARD type="SILVER" param1="290" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="107046" title="사보타주" desc="QUEST_DESC_107046" category="QUEST_CATEGORY_107046" repeatable="false" share="manual" dialog="1070460" incomplete_dialog="1070461" level="6" destroy_item="10066" share_condition="1070460">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_107046_1" type="COLLECT" param1="10066" param2="1" field="107" marker="107047" public_progress="self" />
+      <OBJECTIVE id="2" desc="QUEST_OBJ_DESC_107046_2" type="ACT" param1="3" field="107" marker="107047" public_progress="party" />
+    </OBJECTIVES>
+    <REWARDS dialog="1070469" rewarder="107,107215">
+      <REWARD type="XP" param1="1400" />
+      <REWARD type="SILVER" param1="290" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="107047" title="침략자의 최후" desc="QUEST_DESC_107047" category="QUEST_CATEGORY_107047" repeatable="false" share="manual" dialog="1070470" incomplete_dialog="1070471" level="6" trialtype="party" field_group="1070460" share_condition="1070470">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_107047_1" type="DESTROY" param1="107029" param2="4" field="107" marker="103" public_progress="party" />
+      <OBJECTIVE id="2" desc="QUEST_OBJ_DESC_107047_2" type="DESTROY" param1="107030" param2="1" field="107" marker="103" public_progress="party" />
+    </OBJECTIVES>
+    <REWARDS dialog="1070479" rewarder="107,107215">
+      <REWARD type="XP" param1="1400" />
+      <REWARD type="SILVER" param1="450" />
+      <REWARD type="ITEM" param1="50512, 50506" param2="2, 2" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="107048" title="돕고사는 세상" desc="QUEST_DESC_107048" category="QUEST_CATEGORY_107048" repeatable="false" share="manual" dialog="1070480" level="6" share_condition="1070480">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_107048_1" type="SCOUT" param1="107" param2="107048" field="107" marker="107048" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1070489" rewarder="107,107203">
+      <REWARD type="XP" param1="170" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="107051" title="돌아오지 않는 자" desc="QUEST_DESC_107051" category="QUEST_CATEGORY_107051" repeatable="false" share="manual" dialog="1070510" incomplete_dialog="1070511" level="4" destroy_item="10059" share_condition="1070510">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_107051_1" type="COLLECT" param1="10059" param2="1" field="107" public_progress="self" />
+      <OBJECTIVE id="2" desc="QUEST_OBJ_DESC_107051_2" type="ACT" param1="2" field="107" public_progress="party" />
+    </OBJECTIVES>
+    <REWARDS dialog="1070519" rewarder="107,107216">
+      <REWARD type="XP" param1="810" />
+      <REWARD type="SILVER" param1="150" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="107052" title="소를 위한 (늑)대의 희생" desc="QUEST_DESC_107052" category="QUEST_CATEGORY_107052" repeatable="false" share="manual" dialog="1070520" incomplete_dialog="1070521" level="4" share_condition="4">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_107052_1" type="DESTROY" param1="107008, 107051, 107052" param2="7" field="107" marker="32" public_progress="party" />
+    </OBJECTIVES>
+    <REWARDS dialog="1070529" rewarder="107,107216">
+      <REWARD type="XP" param1="810" />
+      <REWARD type="SILVER" param1="150" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="107053" title="늑대들의 우두머리" desc="QUEST_DESC_107053" category="QUEST_CATEGORY_107053" repeatable="false" share="manual" dialog="1070530" incomplete_dialog="1070531" level="5" share_condition="5" party_field="107" party_sensor="1000000" party_member_count="2">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_107053_1" type="DESTROY" param1="107010" param2="1" field="107" marker="33" public_progress="party" />
+    </OBJECTIVES>
+    <REWARDS dialog="1070539" rewarder="107,107216">
+      <REWARD type="XP" param1="1590" />
+      <REWARD type="SILVER" param1="440" />
+      <REWARD type="ITEM" param1="50251, 50301" param2="2, 2" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="107054" title="마이 스위트 홈" desc="QUEST_DESC_107054" category="QUEST_CATEGORY_107054" repeatable="false" players="5" share="manual" dialog="1070540" incomplete_dialog="1070541" level="5" trialtype="single" field_group="1070540" destroy_item="10040" share_condition="1070540">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_107054_1" type="DESTROY" param1="107004" param2="1" field="107" marker="107054" public_progress="self" />
+      <OBJECTIVE id="2" desc="QUEST_OBJ_DESC_107054_2" type="COLLECT" param1="10040" param2="1" field="107" marker="107054" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1070549" rewarder="107,107216">
+      <REWARD type="XP" param1="1060" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="107055" title="갈대밭의 사냥꾼" desc="QUEST_DESC_107055" category="QUEST_CATEGORY_107055" repeatable="false" share="manual" dialog="1070550" level="5" share_condition="1070550">
+    <ITEM>
+      <ADD id="10071" amount="1" />
+    </ITEM>
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_107055_1" type="COLLECT" param1="10071" param2="1" field="107" marker="37" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1070559" rewarder="107,107224">
+      <REWARD type="XP" param1="130" />
+      <REWARD type="SILVER" param1="210" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="107057" title="고집쟁이 설득하기" desc="QUEST_DESC_107057" category="QUEST_CATEGORY_107057" repeatable="false" share="manual" dialog="1070570" level="5" share_condition="1070570">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_107057_1" type="SCOUT" param1="107" param2="107057" field="107" marker="107057" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1070579" rewarder="107,107221">
+      <REWARD type="XP" param1="130" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="107081" title="지금 필요한 것은 무엇?" desc="QUEST_DESC_107081" category="QUEST_CATEGORY_107081" repeatable="false" share="manual" dialog="1070810" incomplete_dialog="1070811" level="4" destroy_item="10019" share_condition="4">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_107081_1" type="COLLECT" param1="10019" param2="5" field="107" marker="107081" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1070819" rewarder="107,107206">
+      <REWARD type="XP" param1="810" />
+      <REWARD type="SILVER" param1="140" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="107082" title="늑대의 공포" desc="QUEST_DESC_107082" category="QUEST_CATEGORY_107082" repeatable="false" share="manual" dialog="1070820" level="4" share_condition="4">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_107082_1" type="DESTROY" param1="107001" param2="8" field="107" marker="107082" public_progress="party" />
+    </OBJECTIVES>
+    <REWARDS dialog="1070829" rewarder="107,107206">
+      <REWARD type="XP" param1="810" />
+      <REWARD type="SILVER" param1="140" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="107083" title="돌려받고 싶은 것" desc="QUEST_DESC_107083" category="QUEST_CATEGORY_107083" repeatable="false" share="manual" dialog="1070830" level="4" share_condition="4">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_107083_1" type="SCOUT" param1="107" param2="107083" field="107" marker="510" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1070839" rewarder="107,107216">
+      <REWARD type="XP" param1="100" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="107085" title="아낌없이 주는 나무" desc="QUEST_DESC_107085" category="QUEST_CATEGORY_107085" repeatable="false" share="manual" dialog="1070850" incomplete_dialog="1070851" level="8" destroy_item="10001" share_condition="8">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_107085_1" type="COLLECT" param1="10001" param2="30" field="107" marker="107088" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1070859" rewarder="107,107202">
+      <REWARD type="XP" param1="2250" />
+      <REWARD type="SILVER" param1="500" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="107086" title="정령과 나무꾼" desc="QUEST_DESC_107086" category="QUEST_CATEGORY_107086" repeatable="false" share="manual" dialog="1070860" incomplete_dialog="1070861" level="8" share_condition="8">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_107086_1" type="DESTROY" param1="107032, 107047" param2="10" field="107" marker="107088" public_progress="party" />
+    </OBJECTIVES>
+    <REWARDS dialog="1070869" rewarder="107,107202">
+      <REWARD type="XP" param1="2250" />
+      <REWARD type="SILVER" param1="500" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="107087" title="연기에 푹 빠진 당신" desc="QUEST_DESC_107087" category="QUEST_CATEGORY_107087" repeatable="false" share="manual" dialog="1070870" incomplete_dialog="1070871" level="8" share_condition="1070870">
+    <ITEM>
+      <ADD id="10004" amount="1" />
+    </ITEM>
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_107087_1" type="INTERACT" param1="107228" param2="1" field="107" marker="1070871" public_progress="party" />
+      <OBJECTIVE id="2" desc="QUEST_OBJ_DESC_107087_2" type="INTERACT" param1="107229" param2="1" field="107" marker="1070872" public_progress="party" />
+      <OBJECTIVE id="3" desc="QUEST_OBJ_DESC_107087_3" type="INTERACT" param1="107230" param2="1" field="107" marker="1070873" public_progress="party" />
+      <OBJECTIVE id="4" desc="QUEST_OBJ_DESC_107087_4" type="INTERACT" param1="107231" param2="1" field="107" marker="1070874" public_progress="party" />
+      <OBJECTIVE id="5" desc="QUEST_OBJ_DESC_107087_5" type="DESTROY" param1="107005" param2="7" field="107" marker="39" public_progress="party" />
+    </OBJECTIVES>
+    <REWARDS dialog="1070879" rewarder="107,107202">
+      <REWARD type="XP" param1="2250" />
+      <REWARD type="SILVER" param1="530" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="107088" title="숲의 여왕" desc="QUEST_DESC_107088" category="QUEST_CATEGORY_107088" repeatable="false" share="manual" dialog="1070880" level="9" share_condition="1070880" party_field="107" party_sensor="1000001" party_member_count="3">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_107088_1" type="DESTROY" param1="107007" param2="1" field="107" marker="107088" public_progress="party" />
+    </OBJECTIVES>
+    <REWARDS dialog="1070889" rewarder="107,107201">
+      <REWARD type="XP" param1="4130" />
+      <REWARD type="SILVER" param1="1200" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="107090" title="용병 모집" desc="QUEST_DESC_107090" category="QUEST_CATEGORY_107090" repeatable="false" share="manual" dialog="1070900" level="9" share_condition="9">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_107090_1" type="SCOUT" param1="107" param2="107090" field="107" marker="41" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1070909" rewarder="107,3067">
+      <REWARD type="XP" param1="330" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="109001" title="제작을 배워 봅시다." desc="QUEST_DESC_109001" category="QUEST_CATEGORY_109001" repeatable="false" dialog="1090000" level="1">
+    <ITEM />
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_109001_1" type="SCOUT" param1="109" param2="1098001" field="109" marker="1090679" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1090009" rewarder="109,109073">
+      <REWARD type="XP" param1="100" />
+      <REWARD type="SILVER" param1="10" />
+      <REWARD type="ITEM" param1="50903" param2="3" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="109002" title="#의문의 습격" desc="QUEST_DESC_109002" category="QUEST_CATEGORY_109002" repeatable="false" share="none" dialog="1090020" level="1" trialtype="single" field_group="1090020" share_condition="1">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_109002_1" type="ACT" param1="2" field="1090021" marker="7" public_progress="self" />
+      <OBJECTIVE id="2" desc="QUEST_OBJ_DESC_109002_2" type="ACT" param1="3" field="1090021" marker="20" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1090029" rewarder="109,109002">
+      <REWARD type="XP" param1="100" />
+      <REWARD type="SILVER" param1="80" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="109005" title="에덴 크루즈 파손" desc="QUEST_DESC_109005" category="QUEST_CATEGORY_109005" repeatable="false" share="manual" dialog="1090050" level="1" share_condition="1">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_109005_1" type="SCOUT" param1="109" param2="109005" field="109" marker="109005" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1090059" rewarder="109,109069">
+      <REWARD type="XP" param1="100" />
+      <REWARD type="ITEM" param1="32001" param2="2" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="109006" title="티안의 부름" desc="QUEST_DESC_109006" category="QUEST_CATEGORY_109006" repeatable="false" share="manual" dialog="1090060" level="1" share_condition="1090060">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_109006_1" type="SCOUT" param1="109" param2="109006" field="109" marker="109006" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1090069" rewarder="109,109001">
+      <REWARD type="XP" param1="100" />
+      <REWARD type="ITEM" param1="31502" param2="1" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="109007" title="모튼기어의 사정" desc="QUEST_DESC_109007" category="QUEST_CATEGORY_109007" repeatable="false" share="manual" dialog="1090070" level="2" share_condition="1090070">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_109007_1" type="SCOUT" param1="109" param2="109007" field="109" marker="109007" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1090079" rewarder="109,109053">
+      <REWARD type="XP" param1="100" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="109008" title="이상한 정황" desc="QUEST_DESC_109008" category="QUEST_CATEGORY_109008" repeatable="false" share="manual" dialog="1090080" level="2" share_condition="1090080">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_109008_1" type="SCOUT" param1="109" param2="109008" field="109" marker="109008" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1090089" rewarder="109,109027">
+      <REWARD type="XP" param1="100" />
+      <REWARD type="SILVER" param1="15" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="109009" title="반드시 처리해야 할 일" desc="QUEST_DESC_109009" category="QUEST_CATEGORY_109009" repeatable="false" share="manual" dialog="1090090" incomplete_dialog="1090091" level="2" share_condition="1090090">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_109009_1" type="DESTROY" param1="109317" param2="5" field="109" marker="109009" public_progress="party" />
+    </OBJECTIVES>
+    <REWARDS dialog="1090099" rewarder="109,109027">
+      <REWARD type="XP" param1="600" />
+      <REWARD type="SILVER" param1="48" />
+      <REWARD type="ITEM" param1="50001" param2="5" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="109010" title="크라울러가 좋아하는 것" desc="QUEST_DESC_109010" category="QUEST_CATEGORY_109010" repeatable="false" share="manual" dialog="1090100" level="2" destroy_item="10027" share_condition="1090100" validation="false">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_109010_1" type="COLLECT" param1="10027" param2="5" field="109" marker="109010" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1090109" rewarder="109,109007">
+      <REWARD type="XP" param1="600" />
+      <REWARD type="ITEM" param1="50151" param2="5" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="109011" title="장비 지급" desc="QUEST_DESC_109011" category="QUEST_CATEGORY_109011" repeatable="false" share="manual" dialog="1090110" level="2" share_condition="1090110">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_109011_1" type="SCOUT" param1="109" param2="109011" field="109" marker="109011" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1090119" rewarder="109,109007">
+      <REWARD type="XP" param1="100" />
+      <REWARD type="SILVER" param1="48" />
+      <REWARD type="ITEM" param1="50001" param2="5" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="109012" title="정찰대원의 행방" desc="QUEST_DESC_109012" category="QUEST_CATEGORY_109012" repeatable="false" share="manual" dialog="1090120" level="2" share_condition="1090120">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_109012_1" type="SCOUT" param1="109" param2="109012" field="109" marker="109012" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1090129" rewarder="109,109105">
+      <REWARD type="XP" param1="100" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="109013" title="정찰대원의 흔적" desc="QUEST_DESC_109013" category="QUEST_CATEGORY_109013" repeatable="false" share="manual" dialog="1090130" level="2" destroy_item="10053" share_condition="1090130">
+    <ITEM>
+      <FILL id="10053" amount="1" />
+    </ITEM>
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_109013_1" type="COLLECT" param1="10053" param2="1" field="109" marker="109012" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1090139" rewarder="109,109056">
+      <REWARD type="XP" param1="100" />
+      <REWARD type="SILVER" param1="12" />
+      <REWARD type="ITEM" param1="32001" param2="2" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="109014" title="내 죽음을 모두에게 알려라" desc="QUEST_DESC_109014" category="QUEST_CATEGORY_109014" repeatable="false" share="manual" dialog="1090140" level="2" share_condition="2">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_109014_1" type="DESTROY" param1="109099" param2="1" field="109" marker="109014" public_progress="sector" />
+    </OBJECTIVES>
+    <REWARDS dialog="1090149" rewarder="109,109032">
+      <REWARD type="XP" param1="1000" />
+      <REWARD type="SILVER" param1="100" />
+      <REWARD type="ITEM" param1="31502" param2="1" />
+      <REWARD type="ITEM" param1="50101" param2="5" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="109015" title="반격 준비" desc="QUEST_DESC_109015" category="QUEST_CATEGORY_109015" repeatable="false" share="manual" dialog="1090150" incomplete_dialog="1090151" level="3" share_condition="1090150">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_109015_1" type="ACT" param1="2" field="109" marker="1090151" public_progress="self" />
+      <OBJECTIVE id="2" desc="QUEST_OBJ_DESC_109015_2" type="INTERACT" param1="109115" param2="1" field="109" marker="1090152" public_progress="party" />
+      <OBJECTIVE id="3" desc="QUEST_OBJ_DESC_109015_3" type="DESTROY" param1="109030" param2="1" field="109" marker="1090152" public_progress="party" />
+    </OBJECTIVES>
+    <REWARDS dialog="1090159" rewarder="109,109056">
+      <REWARD type="XP" param1="600" />
+      <REWARD type="SILVER" param1="96" />
+      <REWARD type="ITEM" param1="50101" param2="5" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="109016" title="의심스러운 일" desc="QUEST_DESC_109016" category="QUEST_CATEGORY_109016" repeatable="false" share="manual" dialog="1090160" incomplete_dialog="1090161" level="3" destroy_item="10039" share_condition="1090160">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_109016_1" type="DESTROY" param1="109301,109302" param2="5" field="109" marker="109016" public_progress="party" />
+      <OBJECTIVE id="2" desc="QUEST_OBJ_DESC_109016_2" type="COLLECT" param1="10039" param2="1" field="109" marker="109016" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1090169" rewarder="109,109032">
+      <REWARD type="XP" param1="600" />
+      <REWARD type="SILVER" param1="96" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="109017" title="슬픈 영혼의 절규" desc="QUEST_DESC_109017" category="QUEST_CATEGORY_109017" repeatable="false" share="manual" dialog="1090170" incomplete_dialog="1090171" level="3" share_condition="1090170">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_109017_1" type="DESTROY" param1="109205" param2="4" field="109" marker="109017" public_progress="party" />
+      <OBJECTIVE id="2" desc="QUEST_OBJ_DESC_109017_2" type="DESTROY" param1="109219" param2="3" field="109" marker="1090172" public_progress="party" />
+    </OBJECTIVES>
+    <REWARDS dialog="1090179" rewarder="109,109032">
+      <REWARD type="XP" param1="600" />
+      <REWARD type="SILVER" param1="96" />
+      <REWARD type="ITEM" param1="50051" param2="5" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="109018" title="심해의 위협" desc="QUEST_DESC_109018" category="QUEST_CATEGORY_109018" repeatable="false" share="manual" dialog="1090180" incomplete_dialog="1090181" level="3" share_condition="1090180">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_109018_1" type="DESTROY" param1="109316" param2="4" field="109" marker="109018" public_progress="party" />
+      <OBJECTIVE id="2" desc="QUEST_OBJ_DESC_109018_2" type="DESTROY" param1="109318" param2="3" field="109" marker="109018" public_progress="party" />
+    </OBJECTIVES>
+    <REWARDS dialog="1090189" rewarder="109,109060">
+      <REWARD type="XP" param1="700" />
+      <REWARD type="SILVER" param1="96" />
+      <REWARD type="ITEM" param1="50051" param2="10" />
+      <REWARD type="ITEM" param1="50101" param2="10" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="109019" title="전진 기지로" desc="QUEST_DESC_109019" category="QUEST_CATEGORY_109019" repeatable="false" share="manual" dialog="1090190" level="3" destroy_item="10112" share_condition="1090190">
+    <ITEM>
+      <FILL id="10112" amount="1" />
+    </ITEM>
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_109019_1" type="COLLECT" param1="10112" param2="1" field="109" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1090199" rewarder="109,109011">
+      <REWARD type="XP" param1="100" />
+      <REWARD type="SILVER" param1="20" />
+      <REWARD type="ITEM" param1="32000" param2="1" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="109020" title="보급품 탈취" desc="QUEST_DESC_109020" category="QUEST_CATEGORY_109020" repeatable="false" share="manual" dialog="1090200" incomplete_dialog="1090201" level="3" destroy_item="10113" share_condition="3">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_109020_1" type="COLLECT" param1="10113" param2="5" field="109" marker="109020" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1090209" rewarder="109,109035">
+      <REWARD type="XP" param1="700" />
+      <REWARD type="SILVER" param1="96" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="109021" title="요리를 배워 봅시다." desc="QUEST_DESC_109021" category="QUEST_CATEGORY_109021" repeatable="false" share="manual" dialog="1090210" incomplete_dialog="1090211" level="3" destroy_item="10012" share_condition="3">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_109021_1" type="COLLECT" param1="10012" param2="3" field="109" marker="109021" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1090219" rewarder="109,109061">
+      <REWARD type="XP" param1="100" />
+      <REWARD type="SILVER" param1="300" />
+      <REWARD type="ITEM" param1="58016" param2="3" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="109101" title="#그들의 목적은?" desc="QUEST_DESC_109101" category="QUEST_CATEGORY_109101" repeatable="false" share="manual" dialog="1091010" incomplete_dialog="1091011" level="4" destroy_item="10083,10084" share_condition="1091010">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_109101_1" type="COLLECT" param1="10083" param2="1" field="109" marker="9" public_progress="self" />
+      <OBJECTIVE id="2" desc="QUEST_OBJ_DESC_109101_2" type="COLLECT" param1="10084" param2="1" field="109" marker="1091012" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1091019" rewarder="109,109011">
+      <REWARD type="XP" param1="700" />
+      <REWARD type="SILVER" param1="144" />
+      <REWARD type="ITEM" param1="32001" param2="2" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="109102" title="#세력 약화" desc="QUEST_DESC_109102" category="QUEST_CATEGORY_109102" repeatable="false" share="manual" dialog="1091020" incomplete_dialog="1091021" level="4" share_condition="1091020">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_109102_1" type="DESTROY" param1="109220" param2="1" field="109" marker="28" public_progress="sector" />
+    </OBJECTIVES>
+    <REWARDS dialog="1091029" rewarder="109,109011">
+      <REWARD type="XP" param1="700" />
+      <REWARD type="SILVER" param1="144" />
+      <REWARD type="ITEM" param1="32000" param2="1" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="109103" title="#모켄의 은신처" desc="QUEST_DESC_109103" category="QUEST_CATEGORY_109103" repeatable="false" players="5" share="manual" dialog="1091030" incomplete_dialog="1091031" level="4" trialtype="party" field_group="1091030" share_condition="1091030">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_109103_1" type="SCOUT" param1="1091031" param2="5" field="109" marker="8" public_progress="party" />
+    </OBJECTIVES>
+    <REWARDS dialog="1091039" rewarder="109,109011">
+      <REWARD type="XP" param1="1200" />
+      <REWARD type="SILVER" param1="144" />
+      <REWARD type="ITEM" param1="31502" param2="1" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="109104" title="#모튼 기어 구원" desc="QUEST_DESC_109104" category="QUEST_CATEGORY_109104" repeatable="false" players="5" share="auto" dialog="1091040" level="4" trialtype="party" field_group="1091040" share_condition="1091040" party_field="109" party_sensor="2000001" party_member_count="2">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_109104_1" type="SCOUT" param1="1091041" param2="8" field="109" marker="109033" public_progress="party" />
+      <OBJECTIVE id="2" desc="QUEST_OBJ_DESC_109104_2" type="SCOUT" param1="1091041" param2="12" field="1091041" marker="4" public_progress="party" />
+      <OBJECTIVE id="3" desc="QUEST_OBJ_DESC_109104_3" type="DESTROY" param1="109100" param2="1" field="1091041" marker="6" public_progress="party" />
+    </OBJECTIVES>
+    <REWARDS dialog="1091049" rewarder="109,109001">
+      <REWARD type="XP" param1="1200" />
+      <REWARD type="SILVER" param1="216" />
+      <REWARD type="ITEM" param1="30000000,30000001,30000002,30000003" param2="1,1,1,1" />
+      <REWARD type="ITEM" param1="39999000" param2="1" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="109105" title="#벨피노의 보급품" desc="QUEST_DESC_109105" category="QUEST_CATEGORY_109105" repeatable="false" share="manual" dialog="1091050" incomplete_dialog="1091051" level="4" destroy_item="10086" share_condition="1091050">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_109105_1" type="COLLECT" param1="10086" param2="5" field="109" marker="109105" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1091059" rewarder="109,109035">
+      <REWARD type="XP" param1="700" />
+      <REWARD type="SILVER" param1="144" />
+      <REWARD type="ITEM" param1="50051" param2="5" />
+      <REWARD type="ITEM" param1="50101" param2="5" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="110000" title="전투 지원" desc="QUEST_DESC_110000" category="QUEST_CATEGORY_110000" repeatable="false" players="5" share="manual" dialog="1100000" level="9" trialtype="party" field_group="1100000" share_condition="9">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_110000_1" type="SCOUT" param1="1100001" param2="20" field="107" marker="41" public_progress="self" />
+      <OBJECTIVE id="2" desc="QUEST_OBJ_DESC_110000_2" type="ACT" param1="3" field="1100001" marker="9" public_progress="party" />
+    </OBJECTIVES>
+    <REWARDS dialog="1100009" rewarder="110,110201">
+      <REWARD type="XP" param1="2750" />
+      <REWARD type="SILVER" param1="660" />
+      <REWARD type="ITEM" param1="50529" param2="1" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="110001" title="고블린 부대 기습" desc="QUEST_DESC_110001" category="QUEST_CATEGORY_110001" repeatable="false" share="manual" dialog="1100010" incomplete_dialog="1100011" level="9" share_condition="9">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_110001_1" type="DESTROY" param1="110005" param2="6" field="110" marker="101" public_progress="party" />
+      <OBJECTIVE id="2" desc="QUEST_OBJ_DESC_110001_2" type="DESTROY" param1="110006" param2="6" field="110" marker="101" public_progress="party" />
+      <OBJECTIVE id="3" desc="QUEST_OBJ_DESC_110001_3" type="DESTROY" param1="110007" param2="6" field="110" marker="101" public_progress="party" />
+    </OBJECTIVES>
+    <REWARDS dialog="1100019" rewarder="110,110215">
+      <REWARD type="XP" param1="2750" />
+      <REWARD type="SILVER" param1="600" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="110002" title="격려의 말" desc="QUEST_DESC_110002" category="QUEST_CATEGORY_110002" repeatable="false" share="manual" dialog="1100020" incomplete_dialog="1100021" level="10" share_condition="10">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_110002_1" type="SCOUT" param1="110" param2="110002" field="110" marker="146" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1100029" rewarder="110,110204">
+      <REWARD type="XP" param1="390" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="110003" title="진군대장 브라비 암살" desc="QUEST_DESC_110003" category="QUEST_CATEGORY_110003" repeatable="false" share="manual" dialog="1100030" incomplete_dialog="1100031" level="9" share_condition="9">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_110003_1" type="DESTROY" param1="110021" param2="1" field="110" marker="103" public_progress="party" />
+    </OBJECTIVES>
+    <REWARDS dialog="1100039" rewarder="110,110201">
+      <REWARD type="XP" param1="2750" />
+      <REWARD type="SILVER" param1="600" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="110005" title="부대원 보급" desc="QUEST_DESC_110005" category="QUEST_CATEGORY_110005" repeatable="false" share="manual" dialog="1100050" incomplete_dialog="1100051" level="9" destroy_item="10008" share_condition="9">
+    <ITEM>
+      <ADD id="10013" amount="1" />
+    </ITEM>
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_110005_1" type="COLLECT" param1="10008" param2="4" field="110" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1100059" rewarder="110,110203">
+      <REWARD type="XP" param1="2750" />
+      <REWARD type="SILVER" param1="320" />
+      <REWARD type="FACTION" param1="5" param2="5000" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="110007" title="보급방해" desc="QUEST_DESC_110007" category="QUEST_CATEGORY_110007" repeatable="false" share="manual" dialog="1100070" incomplete_dialog="1100071" level="10" share_condition="10">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_110007_1" type="DESTROY" param1="110020" param2="6" field="110" marker="109" public_progress="party" />
+      <OBJECTIVE id="2" desc="QUEST_OBJ_DESC_110007_2" type="INTERACT" param1="110040" param2="3" field="110" marker="143" public_progress="party" />
+    </OBJECTIVES>
+    <REWARDS dialog="1100079" rewarder="110,110204">
+      <REWARD type="XP" param1="3280" />
+      <REWARD type="SILVER" param1="720" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="110008" title="보급부대 공격" desc="QUEST_DESC_110008" category="QUEST_CATEGORY_110008" repeatable="false" share="manual" dialog="1100080" incomplete_dialog="1100081" level="10" share_condition="10">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_110008_1" type="DESTROY" param1="110041" param2="7" field="110" marker="144" public_progress="party" />
+      <OBJECTIVE id="2" desc="QUEST_OBJ_DESC_110008_2" type="DESTROY" param1="110039" param2="2" field="110" marker="144" public_progress="party" />
+    </OBJECTIVES>
+    <REWARDS dialog="1100089" rewarder="110,110204">
+      <REWARD type="XP" param1="3280" />
+      <REWARD type="SILVER" param1="720" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="110009" title="폭탄 가져오기" desc="QUEST_DESC_110009" category="QUEST_CATEGORY_110009" repeatable="false" share="manual" dialog="1100090" incomplete_dialog="1100091" level="10" destroy_item="10067" share_condition="10">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_110009_1" type="COLLECT" param1="10067" param2="3" field="110" marker="145" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1100099" rewarder="110,110204">
+      <REWARD type="XP" param1="3280" />
+      <REWARD type="SILVER" param1="720" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="110018" title="구원의 손길" desc="QUEST_DESC_110018" category="QUEST_CATEGORY_110018" repeatable="false" share="manual" dialog="1100180" incomplete_dialog="1100181" level="10" trialtype="single" field_group="1100180" share_condition="1100180">
+    <ITEM>
+      <ADD id="10014" amount="1" />
+    </ITEM>
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_110018_1" type="ACT" param1="2" field="110" marker="118" public_progress="self" />
+      <OBJECTIVE id="2" desc="QUEST_OBJ_DESC_110018_2" type="INTERACT" param1="110218, 110219" param2="6" field="1100181" marker="2" public_progress="self" />
+      <OBJECTIVE id="3" desc="QUEST_OBJ_DESC_110018_3" type="DESTROY" param1="110023" param2="1" field="1100181" marker="2" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1100189" rewarder="110,110201">
+      <REWARD type="XP" param1="3280" />
+      <REWARD type="SILVER" param1="800" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="110019" title="기사 바스틸 지원" desc="QUEST_DESC_110019" category="QUEST_CATEGORY_110019" repeatable="false" share="manual" dialog="1100190" level="10" share_condition="10">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_110019_1" type="SCOUT" param1="110" param2="110019" field="110" marker="130" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1100199" rewarder="110,110210">
+      <REWARD type="XP" param1="390" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="110022" title="베타 테스터" desc="QUEST_DESC_110022" category="QUEST_CATEGORY_110022" repeatable="false" share="manual" dialog="1100220" incomplete_dialog="1100221" level="11" share_condition="1100220">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_110022_1" type="DESTROY" param1="110013" param2="10" field="110" marker="123" public_progress="party" />
+    </OBJECTIVES>
+    <REWARDS dialog="1100229" rewarder="110,110232">
+      <REWARD type="XP" param1="3870" />
+      <REWARD type="SILVER" param1="500" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="110023" title="돌파" desc="QUEST_DESC_110023" category="QUEST_CATEGORY_110023" repeatable="false" share="manual" dialog="1100230" incomplete_dialog="1100231" level="11" share_condition="1100230">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_110023_1" type="DESTROY" param1="110024" param2="1" field="110" marker="122" public_progress="party" />
+    </OBJECTIVES>
+    <REWARDS dialog="1100239" rewarder="110,110210">
+      <REWARD type="XP" param1="3870" />
+      <REWARD type="SILVER" param1="1320" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="110024" title="숨바꼭질" desc="QUEST_DESC_110024" category="QUEST_CATEGORY_110024" repeatable="false" share="manual" dialog="1100240" incomplete_dialog="1100241" level="11" destroy_item="10010" share_condition="1100240">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_110024_1" type="COLLECT" param1="10010" param2="6" field="110" marker="124" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1100249" rewarder="110,110209">
+      <REWARD type="XP" param1="3870" />
+      <REWARD type="SILVER" param1="860" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="110025" title="노동의 결실 " desc="QUEST_DESC_110025" category="QUEST_CATEGORY_110025" repeatable="false" share="manual" dialog="1100250" incomplete_dialog="1100251" level="12" share_condition="1100250">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_110025_1" type="DESTROY" param1="110026, 110027" param2="10" field="110" marker="125" public_progress="party" />
+    </OBJECTIVES>
+    <REWARDS dialog="1100259" rewarder="110,110210">
+      <REWARD type="XP" param1="4500" />
+      <REWARD type="SILVER" param1="1000" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="110026" title="이공계 기피 현상" desc="QUEST_DESC_110026" category="QUEST_CATEGORY_110026" repeatable="false" share="manual" dialog="1100260" incomplete_dialog="1100261" level="12" destroy_item="10020" share_condition="1100260">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_110026_1" type="INTERACT" param1="110008" param2="1" field="110" marker="126" public_progress="party" />
+      <OBJECTIVE id="2" desc="QUEST_OBJ_DESC_110026_2" type="INTERACT" param1="110009" param2="1" field="110" marker="126" public_progress="party" />
+      <OBJECTIVE id="3" desc="QUEST_OBJ_DESC_110026_3" type="INTERACT" param1="110010" param2="1" field="110" marker="126" public_progress="party" />
+    </OBJECTIVES>
+    <REWARDS dialog="1100269" rewarder="110,110209">
+      <REWARD type="XP" param1="4500" />
+      <REWARD type="SILVER" param1="1000" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="110028" title="고블린 골렘 [파티]" desc="QUEST_DESC_110028" category="QUEST_CATEGORY_110028" repeatable="false" share="manual" dialog="1100280" level="12" share_condition="1100280" party_field="110" party_sensor="1000000" party_member_count="4">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_110028_1" type="DESTROY" param1="110011" param2="1" field="110" marker="128" public_progress="party" />
+    </OBJECTIVES>
+    <REWARDS dialog="1100289" rewarder="110,110210">
+      <REWARD type="XP" param1="6750" />
+      <REWARD type="SILVER" param1="2000" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="110029" title="고블린 골렘의 설계도" desc="QUEST_DESC_110029" category="QUEST_CATEGORY_110029" repeatable="false" share="auto" dialog="1100290" level="12" share_condition="1100290">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_110029_1" type="COLLECT" param1="10021" param2="1" field="110" marker="130" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1100299" rewarder="110,110210">
+      <REWARD type="XP" param1="540" />
+      <REWARD type="SILVER" param1="400" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="110031" title="호의적인 거래(1) " desc="QUEST_DESC_110031" category="QUEST_CATEGORY_110031" repeatable="false" share="manual" dialog="1100310" incomplete_dialog="1100311" level="11" destroy_item="10009" share_condition="11">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_110031_1" type="COLLECT" param1="10009" param2="30" field="110" marker="131" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1100319" rewarder="110,110206">
+      <REWARD type="XP" param1="3870" />
+      <REWARD type="SILVER" param1="860" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="110032" title="호의적인 거래(2)" desc="QUEST_DESC_110032" category="QUEST_CATEGORY_110032" repeatable="false" share="manual" dialog="1100320" incomplete_dialog="1100321" level="12" destroy_item="10026" share_condition="12">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_110032_1" type="COLLECT" param1="10026" param2="6" field="110" marker="125" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1100329" rewarder="110,110205">
+      <REWARD type="XP" param1="4500" />
+      <REWARD type="SILVER" param1="1000" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="110033" title="호의적인 거래(3) [파티]" desc="QUEST_DESC_110033" category="QUEST_CATEGORY_110033" repeatable="false" share="manual" dialog="1100330" incomplete_dialog="1100331" level="12" share_condition="1100330">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_110033_1" type="COLLECT" param1="10038" param2="1" field="110" marker="128" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1100339" rewarder="110,110205">
+      <REWARD type="XP" param1="6750" />
+      <REWARD type="SILVER" param1="2000" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="110040" title="값비싼 대용품" desc="QUEST_DESC_110040" category="QUEST_CATEGORY_110040" repeatable="false" share="manual" dialog="1100400" incomplete_dialog="1100401" level="9" destroy_item="10159" share_condition="9">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_110040_1" type="COLLECT" param1="10159" param2="5" field="110" marker="142" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1100409" rewarder="110,110202">
+      <REWARD type="XP" param1="2750" />
+      <REWARD type="SILVER" param1="800" />
+      <REWARD type="ITEM" param1="75006" param2="3" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="110041" title="죄와 벌" desc="QUEST_DESC_110041" category="QUEST_CATEGORY_110041" repeatable="false" share="manual" dialog="1100410" incomplete_dialog="1100411" level="10" share_condition="10">
+    <ITEM>
+      <ADD id="10029" amount="1" />
+    </ITEM>
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_110041_1" type="DESTROY" param1="110033" param2="10" field="110" marker="120" public_progress="party" />
+    </OBJECTIVES>
+    <REWARDS dialog="1100419" rewarder="110,110210">
+      <REWARD type="XP" param1="3280" />
+      <REWARD type="SILVER" param1="720" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="110042" title="전격 G 작전" desc="QUEST_DESC_110042" category="QUEST_CATEGORY_110042" repeatable="false" share="manual" dialog="1100420" incomplete_dialog="1100421" level="11" destroy_item="10011" share_condition="11">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_110042_1" type="COLLECT" param1="10011" param2="6" field="110" marker="141" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1100429" rewarder="110,110232">
+      <REWARD type="XP" param1="3870" />
+      <REWARD type="SILVER" param1="860" />
+      <REWARD type="ITEM" param1="10030" param2="8" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="110050" title="조카의 선물" desc="QUEST_DESC_110050" category="QUEST_CATEGORY_110050" repeatable="false" share="manual" dialog="1100500" incomplete_dialog="1100501" level="12" destroy_item="10320" share_condition="12">
+    <ITEM>
+      <ADD id="10320" amount="1" />
+    </ITEM>
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_110050_1" type="SCOUT" param1="113" param2="110050" field="113" marker="113060" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1100509" rewarder="113,113209">
+      <REWARD type="XP" param1="540" />
+      <REWARD type="SILVER" param1="860" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="111001" title="#숨겨놓은 것" desc="QUEST_DESC_111001" category="QUEST_CATEGORY_111001" repeatable="false" share="manual" dialog="1110010" level="19" destroy_item="10132" share_condition="19">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_111001_1" type="COLLECT" param1="10132" param2="1" field="102" marker="102023" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1110019" rewarder="102,102206">
+      <REWARD type="XP" param1="10240" />
+      <REWARD type="SILVER" param1="860" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="111002" title="#마력은 마력이오, 조각은 조각이로다." desc="QUEST_DESC_111002" category="QUEST_CATEGORY_111002" repeatable="false" share="manual" dialog="1110020" level="19" share_condition="1110020">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_111002_1" type="SCOUT" param1="111" param2="111002" field="102" marker="6" field2="111" marker2="111002" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1110029" rewarder="111,111202">
+      <REWARD type="XP" param1="1230" />
+      <REWARD type="SILVER" param1="860" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="111003" title="#마력? 지금 그게 문제야?" desc="QUEST_DESC_111003" category="QUEST_CATEGORY_111003" repeatable="false" share="manual" dialog="1110030" incomplete_dialog="1110031" level="19" share_condition="1110030">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_111003_1" type="SCOUT" param1="111" param2="111003" field="111" marker="111003" public_progress="party" />
+    </OBJECTIVES>
+    <REWARDS dialog="1110039" rewarder="111,111202">
+      <REWARD type="XP" param1="1230" />
+      <REWARD type="SILVER" param1="860" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="111004" title="#조사단의 흔적" desc="QUEST_DESC_111004" category="QUEST_CATEGORY_111004" repeatable="false" share="manual" dialog="1110040" incomplete_dialog="1110041" level="19" share_condition="1110040">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_111004_1" type="ACT" param1="2" field="102" marker="111004" field2="111" marker2="1" public_progress="self" />
+      <OBJECTIVE id="2" desc="QUEST_OBJ_DESC_111004_2" type="ACT" param1="3" field="102" marker="111004" field2="111" marker2="1" public_progress="self" />
+      <OBJECTIVE id="3" desc="QUEST_OBJ_DESC_111004_3" type="ACT" param1="4" field="102" marker="111004" field2="111" marker2="1" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1110049" rewarder="111,111202">
+      <REWARD type="XP" param1="10240" />
+      <REWARD type="SILVER" param1="860" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="111005" title="#마력의 흔적" desc="QUEST_DESC_111005" category="QUEST_CATEGORY_111005" repeatable="false" share="manual" dialog="1110050" level="19" share_condition="1110050">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_111005_1" type="SCOUT" param1="111" param2="111005" field="111" marker="111005" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1110059" rewarder="111,111200">
+      <REWARD type="XP" param1="1230" />
+      <REWARD type="SILVER" param1="860" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="111006" title="#코볼트란 조각" desc="QUEST_DESC_111006" category="QUEST_CATEGORY_111006" repeatable="false" share="manual" dialog="1110060" incomplete_dialog="1110061" level="20" destroy_item="10133" share_condition="1110060" comment="트롤편">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_111006_1" type="COLLECT" param1="10133" param2="1" field="111" marker="1" field2="102" marker2="102016" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1110069" rewarder="111,111200">
+      <REWARD type="XP" param1="11230" />
+      <REWARD type="SILVER" param1="860" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="111007" title="#코볼트란 조각" desc="QUEST_DESC_111007" category="QUEST_CATEGORY_111007" repeatable="false" share="manual" dialog="1110070" incomplete_dialog="1110071" level="20" destroy_item="10133" share_condition="1110070" comment="오우거편">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_111007_1" type="COLLECT" param1="10133" param2="1" field="111" marker="1" field2="102" marker2="102017" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1110079" rewarder="111,111200">
+      <REWARD type="XP" param1="11230" />
+      <REWARD type="SILVER" param1="860" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="111010" title="#위험한 코볼트" desc="QUEST_DESC_111010" category="QUEST_CATEGORY_111010" repeatable="false" share="manual" dialog="1110100" incomplete_dialog="1110101" level="19" destroy_item="10153" share_condition="19">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_111010_1" type="COLLECT" param1="10153" param2="6" field="111" marker="111010" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1110109" rewarder="111,111215">
+      <REWARD type="XP" param1="10240" />
+      <REWARD type="SILVER" param1="860" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="111011" title="#이것도 저것도 다 내꺼야" desc="QUEST_DESC_111011" category="QUEST_CATEGORY_111011" repeatable="false" share="manual" dialog="1110110" incomplete_dialog="1110111" level="19" destroy_item="10135, 10136" share_condition="19">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_111011_1" type="COLLECT" param1="10136" param2="1" field="111" marker="1110112" public_progress="self" />
+      <OBJECTIVE id="2" desc="QUEST_OBJ_DESC_111011_2" type="COLLECT" param1="10135" param2="7" field="111" marker="1110111" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1110119" rewarder="111,111210">
+      <REWARD type="XP" param1="10240" />
+      <REWARD type="SILVER" param1="860" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="111012" title="#드래곤 슬레이어의 일지" desc="QUEST_DESC_111012" category="QUEST_CATEGORY_111012" repeatable="false" share="manual" dialog="1110120" level="19" destroy_item="10134" share_condition="19">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_111012_1" type="COLLECT" param1="10134" param2="1" field="111" marker="111012" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1110129" rewarder="111,111210">
+      <REWARD type="XP" param1="1230" />
+      <REWARD type="SILVER" param1="860" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="111013" title="#곰팡내 나는 지루한 것" desc="QUEST_DESC_111013" category="QUEST_CATEGORY_111013" repeatable="false" share="manual" dialog="1110130" level="19" share_condition="1110130">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_111013_1" type="SCOUT" param1="102" param2="111013" field="111" marker="1" field2="102" marker2="111013" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1110139" rewarder="102,102225">
+      <REWARD type="XP" param1="1230" />
+      <REWARD type="SILVER" param1="860" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="111014" title="#드드드드... 드래곤!!" desc="QUEST_DESC_111014" category="QUEST_CATEGORY_111014" repeatable="false" share="manual" dialog="1110140" incomplete_dialog="1110141" level="19" destroy_item="10137, 10138, 10139" share_condition="1110140">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_111014_1" type="COLLECT" param1="10137" param2="1" field="102" marker="1110141" public_progress="self" />
+      <OBJECTIVE id="2" desc="QUEST_OBJ_DESC_111014_2" type="COLLECT" param1="10138" param2="1" field="102" marker="1110142" public_progress="self" />
+      <OBJECTIVE id="3" desc="QUEST_OBJ_DESC_111014_3" type="COLLECT" param1="10139" param2="1" field="102" marker="1110143" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1110149" rewarder="102,102225">
+      <REWARD type="XP" param1="10240" />
+      <REWARD type="SILVER" param1="860" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="111015" title="#공포의 마룡 카이저" desc="QUEST_DESC_111015" category="QUEST_CATEGORY_111015" repeatable="false" share="manual" dialog="1110150" level="19" share_condition="1110150">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_111015_1" type="SCOUT" param1="111" param2="111015" field="102" marker="6" field2="111" marker2="111012" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1110159" rewarder="111,111210">
+      <REWARD type="XP" param1="1230" />
+      <REWARD type="SILVER" param1="860" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="111020" title="#조각을 찾는 자" desc="QUEST_DESC_111020" category="QUEST_CATEGORY_111020" repeatable="false" share="manual" dialog="1110200" incomplete_dialog="1110201" level="20" destroy_item="10141" share_condition="1110200">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_111020_1" type="COLLECT" param1="10141" param2="1" field="111" marker="1" field2="102" marker2="111020" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1110209" rewarder="111,111200">
+      <REWARD type="XP" param1="11230" />
+      <REWARD type="SILVER" param1="860" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="111021" title="#마력의 정체" desc="QUEST_DESC_111021" category="QUEST_CATEGORY_111021" repeatable="false" share="manual" dialog="1110210" incomplete_dialog="1110211" level="20" share_condition="1110210">
+    <ITEM>
+      <ADD id="10142" amount="1" />
+    </ITEM>
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_111021_1" type="ACT" param1="2" field="111" marker="111005" public_progress="self" />
+      <OBJECTIVE id="2" desc="QUEST_OBJ_DESC_111021_2" type="SCOUT" param1="111" param2="111021" field="111" marker="111021" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1110219" rewarder="111,111201">
+      <REWARD type="XP" param1="11230" />
+      <REWARD type="SILVER" param1="860" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="111022" title="#고대의 마력" desc="QUEST_DESC_111022" category="QUEST_CATEGORY_111022" repeatable="false" share="manual" dialog="1110220" level="20" share_condition="1110220">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_111022_1" type="SCOUT" param1="111" param2="111021" field="111" marker="111021" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1110229" rewarder="111,111207">
+      <REWARD type="XP" param1="1350" />
+      <REWARD type="SILVER" param1="860" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="111023" title="#떠나지 못한 자의 슬픔" desc="QUEST_DESC_111023" category="QUEST_CATEGORY_111023" repeatable="false" share="manual" dialog="1110230" level="20" share_condition="1110230">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_111023_1" type="SCOUT" param1="111" param2="111021" field="111" marker="111021" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1110239" rewarder="111,111207">
+      <REWARD type="XP" param1="1350" />
+      <REWARD type="SILVER" param1="860" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="111024" title="#오염의 원인" desc="QUEST_DESC_111024" category="QUEST_CATEGORY_111024" repeatable="false" share="manual" dialog="1110240" level="20" destroy_item="10144" share_condition="1110240">
+    <ITEM>
+      <FILL id="10144" amount="1" />
+    </ITEM>
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_111024_1" type="COLLECT" param1="10144" param2="1" field="111" marker="111024" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1110249" rewarder="111,111203">
+      <REWARD type="XP" param1="1350" />
+      <REWARD type="SILVER" param1="860" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="111025" title="#샘플 채취" desc="QUEST_DESC_111025" category="QUEST_CATEGORY_111025" repeatable="false" share="manual" dialog="1110250" incomplete_dialog="1110251" level="20" destroy_item="10145, 10146" share_condition="1110250">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_111025_1" type="COLLECT" param1="10145" param2="1" field="111" marker="111026" public_progress="self" />
+      <OBJECTIVE id="2" desc="QUEST_OBJ_DESC_111025_2" type="COLLECT" param1="10146" param2="3" field="111" marker="111025" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1110259" rewarder="111,111203">
+      <REWARD type="XP" param1="11230" />
+      <REWARD type="SILVER" param1="860" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="111026" title="#어떻게 처리해야 하나?" desc="QUEST_DESC_111026" category="QUEST_CATEGORY_111026" repeatable="false" share="manual" dialog="1110260" incomplete_dialog="1110261" level="20" share_condition="1110260">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_111026_1" type="ACT" param1="3" field="111" marker="111026" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1110269" rewarder="111,111203">
+      <REWARD type="XP" param1="11230" />
+      <REWARD type="SILVER" param1="860" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="111027" title="#반짝이는 것" desc="QUEST_DESC_111027" category="QUEST_CATEGORY_111027" repeatable="false" share="manual" dialog="1110270" level="20" destroy_item="10148" share_condition="1110270">
+    <ITEM>
+      <FILL id="10148" amount="1" />
+    </ITEM>
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_111027_1" type="COLLECT" param1="10148" param2="1" field="111" marker="111021" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1110279" rewarder="111,111201">
+      <REWARD type="XP" param1="1350" />
+      <REWARD type="SILVER" param1="860" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="111028" title="#마력의 화염" desc="QUEST_DESC_111028" category="QUEST_CATEGORY_111028" repeatable="false" share="manual" dialog="1110280" incomplete_dialog="1110281" level="21" destroy_item="10149, 10150" share_condition="1110280">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_111028_1" type="COLLECT" param1="10149" param2="6" field="111" marker="111025" public_progress="self" />
+      <OBJECTIVE id="2" desc="QUEST_OBJ_DESC_111028_2" type="COLLECT" param1="10150" param2="3" field="111" marker="111028" public_progress="self" />
+      <OBJECTIVE id="3" desc="QUEST_OBJ_DESC_111028_3" type="SCOUT" param1="102" param2="111028" field="111" marker="2" field2="102" marker2="111045" public_progress="self" />	  
+    </OBJECTIVES>
+    <REWARDS dialog="1110289" rewarder="102,111214">
+      <REWARD type="XP" param1="12290" />
+      <REWARD type="SILVER" param1="860" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="111030" title="#특별한 망치" desc="QUEST_DESC_111030" category="QUEST_CATEGORY_111030" repeatable="false" share="manual" dialog="1110300" incomplete_dialog="1110301" level="21" destroy_item="10151" share_condition="1110300">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_111030_1" type="COLLECT" param1="10151" param2="1" field="102" marker="111030" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1110309" rewarder="102,111214">
+      <REWARD type="XP" param1="12290" />
+      <REWARD type="SILVER" param1="860" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="111031" title="#암호 해독" desc="QUEST_DESC_111031" category="QUEST_CATEGORY_111031" repeatable="false" share="manual" dialog="1110310" level="21" share_condition="1110310">
+    <ITEM>
+      <ADD id="10152" amount="1" />
+    </ITEM>
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_111031_1" type="SCOUT" param1="111" param2="111021" field="111" marker="111021" field2="102" marker2="5" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1110319" rewarder="111,111201">
+      <REWARD type="XP" param1="1470" />
+      <REWARD type="SILVER" param1="860" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="111032" title="#불가능하지만 해야만 하는 일" desc="QUEST_DESC_111032" category="QUEST_CATEGORY_111032" repeatable="false" share="manual" dialog="1110320" incomplete_dialog="1110321" level="21" share_condition="1110320">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_111032_1" type="DESTROY" param1="111034" param2="1" field="111" marker="111032" public_progress="party" />
+      <OBJECTIVE id="2" desc="QUEST_OBJ_DESC_111032_2" type="COLLECT" param1="10156" param2="1" field="111" marker="111032" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1110329" rewarder="111,111207">
+      <REWARD type="XP" param1="18440" />
+      <REWARD type="SILVER" param1="860" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="111033" title="#마코트 해방 전쟁" desc="QUEST_DESC_111033" category="QUEST_CATEGORY_111033" repeatable="false" share="manual" dialog="1110330" incomplete_dialog="1110331" level="21" trialtype="party" field_group="1110330" share_condition="1110330">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_111033_1" type="DESTROY" param1="111010" param2="1" field="111" marker="111033" public_progress="party" />
+    </OBJECTIVES>
+    <REWARDS dialog="1110339" rewarder="111,111251">
+      <REWARD type="XP" param1="12290" />
+      <REWARD type="SILVER" param1="860" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="111034" title="#쉽지 않은 상황" desc="QUEST_DESC_111034" category="QUEST_CATEGORY_111034" repeatable="false" share="manual" dialog="1110340" incomplete_dialog="1110341" level="21" share_condition="1110340">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_111034_1" type="INTERACT" param1="111304" param2="1" field="111" marker="111021" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1110349" rewarder="111,111208">
+      <REWARD type="XP" param1="12290" />
+      <REWARD type="SILVER" param1="860" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="111035" title="#르왕키의 잔재" desc="QUEST_DESC_111035" category="QUEST_CATEGORY_111035" repeatable="false" share="manual" dialog="1110350" incomplete_dialog="1110351" level="21" destroy_item="10155" share_condition="1110350">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_111035_1" type="DESTROY" param1="111040" param2="1" field="111" marker="2" field2="102" marker2="111035" public_progress="party" />
+      <OBJECTIVE id="2" desc="QUEST_OBJ_DESC_111035_2" type="COLLECT" param1="10155" param2="1" field="111" marker="2" field2="102" marker2="111035" public_progress="self" />
+      <OBJECTIVE id="3" desc="QUEST_OBJ_DESC_111035_3" type="SCOUT" param1="101" param2="111046" field="111" marker="2" field2="102" marker2="3" public_progress="self" />	  
+    </OBJECTIVES>
+    <REWARDS dialog="1110359" rewarder="101,101201">
+      <REWARD type="XP" param1="12290" />
+      <REWARD type="SILVER" param1="860" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="111040" title="#주술의 토템" desc="QUEST_DESC_111040" category="QUEST_CATEGORY_111040" repeatable="false" share="manual" dialog="1110400" incomplete_dialog="1110401" level="20" destroy_item="10147" share_condition="1110400">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_111040_1" type="COLLECT" param1="10147" param2="6" field="111" marker="111040" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1110409" rewarder="111,111201">
+      <REWARD type="XP" param1="11230" />
+      <REWARD type="SILVER" param1="860" />
+      <REWARD type="FACTION" param1="119" param2="10000" />
+      <REWARD type="FACTION" param1="118" param2="-10000" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="111041" title="#고대의 유물" desc="QUEST_DESC_111041" category="QUEST_CATEGORY_111041" repeatable="false" share="manual" dialog="1110410" level="20" share_condition="1110410">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_111041_1" type="ACT" param1="6" field="111" marker="5" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1110419" rewarder="111,111303">
+      <REWARD type="XP" param1="11230" />
+      <REWARD type="SILVER" param1="860" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="111045" title="#마지막 조각...일까?" desc="QUEST_DESC_111045" category="QUEST_CATEGORY_111045" repeatable="false" share="auto" dialog="1110450" level="21" share_condition="1110450">
+    <ITEM>
+      <FILL id="10154" amount="1" />
+    </ITEM>
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_111045_1" type="SCOUT" param1="102" param2="111028" field="111" marker="2" field2="102" marker2="111045" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1110459" rewarder="102,111214">
+      <REWARD type="XP" param1="1470" />
+      <REWARD type="SILVER" param1="860" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="111046" title="#드래곤을 불태워라" desc="QUEST_DESC_111046" category="QUEST_CATEGORY_111046" repeatable="false" share="manual" dialog="1110460" incomplete_dialog="1110461" level="21" share_condition="1110460">
+    <ITEM>
+      <ADD id="10157" amount="1" />
+      <ADD id="10158" amount="1" />
+    </ITEM>
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_111046_1" type="INTERACT" param1="111217" param2="1" field="111" marker="111026" public_progress="party" />
+      <OBJECTIVE id="2" desc="QUEST_OBJ_DESC_111046_2" type="SCOUT" param1="101" param2="111046" field="111" marker="2" field2="102" marker2="3" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1110469" rewarder="101,101201">
+      <REWARD type="XP" param1="12290" />
+      <REWARD type="SILVER" param1="860" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="113020" title="꽃의 왕" desc="QUEST_DESC_113020" category="QUEST_CATEGORY_113020" repeatable="true" players="5" share="manual" dialog="1130200" incomplete_dialog="1130201" level="14" trialtype="party" field_group="121" share_condition="1130200" party_field="113" party_sensor="1000000" party_member_count="4" comment="인던 시작퀘">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_113020_1" type="COLLECT" param1="10022" param2="5" field="121001" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1130209" rewarder="113,113210">
+      <REWARD type="SILVER" param1="1350" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="113050" title="시더의 화살" desc="QUEST_DESC_113050" category="QUEST_CATEGORY_113050" repeatable="true" players="5" share="manual" dialog="1130500" incomplete_dialog="1130501" level="15" trialtype="party" field_group="512" share_condition="1130500" party_field="113" party_sensor="1000001" party_member_count="4" comment="인던 시작퀘">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_113050_1" type="COLLECT" param1="10130" param2="1" field="512001" public_progress="self" />
+      <OBJECTIVE id="2" desc="QUEST_OBJ_DESC_113050_2" type="COLLECT" param1="10131" param2="1" field="512001" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1130509" rewarder="113,113236">
+      <REWARD type="SILVER" param1="1500" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="113060" title="의문의 시체" desc="QUEST_DESC_113060" category="QUEST_CATEGORY_113060" repeatable="false" share="manual" dialog="1130600" level="12" share_condition="1130600">
+    <ITEM>
+      <ADD id="10095" amount="1" />
+    </ITEM>
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_113060_1" type="COLLECT" param1="10095" param2="1" field="113" marker="113060" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1130609" rewarder="113,113209">
+      <REWARD type="XP" param1="540" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="113061" title="말라버린 시체" desc="QUEST_DESC_113061" category="QUEST_CATEGORY_113061" repeatable="false" share="manual" dialog="1130610" level="12" share_condition="1130610">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_113061_1" type="SCOUT" param1="113" param2="113061" field="113" marker="113061" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1130619" rewarder="113,113211">
+      <REWARD type="XP" param1="540" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="113062" title="말라버린 시체" desc="QUEST_DESC_113062" category="QUEST_CATEGORY_113062" repeatable="false" share="manual" dialog="1130620" level="12" share_condition="1130620">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_113062_1" type="SCOUT" param1="113" param2="113061" field="113" marker="113061" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1130629" rewarder="113,113211">
+      <REWARD type="XP" param1="540" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="113063" title="기이한 마을" desc="QUEST_DESC_113063" category="QUEST_CATEGORY_113063" repeatable="false" share="manual" dialog="1130630" level="12" share_condition="1130630">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_113063_1" type="SCOUT" param1="113" param2="113061" field="113" marker="113061" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1130639" rewarder="113,113211">
+      <REWARD type="XP" param1="540" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="113070" title="오래된 단검" desc="QUEST_DESC_113070" category="QUEST_CATEGORY_113070" repeatable="false" share="manual" dialog="1130700" level="12" share_condition="1130700">
+    <ITEM>
+      <ADD id="10095" amount="1" />
+    </ITEM>
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_113070_1" type="COLLECT" param1="10095" param2="1" field="113" marker="113070" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1130709" rewarder="113,113224">
+      <REWARD type="XP" param1="540" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="113071" title="추출의 의식" desc="QUEST_DESC_113071" category="QUEST_CATEGORY_113071" repeatable="false" share="manual" dialog="1130710" incomplete_dialog="1130711" level="12" destroy_item="10046, 10047" share_condition="1130710">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_113071_1" type="COLLECT" param1="10046" param2="6" field="113" marker="1130711" public_progress="self" />
+      <OBJECTIVE id="2" desc="QUEST_OBJ_DESC_113071_2" type="COLLECT" param1="10047" param2="6" field="113" marker="1130712" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1130719" rewarder="113,113224">
+      <REWARD type="XP" param1="4500" />
+      <REWARD type="SILVER" param1="1000" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="113072" title="소모의 의식" desc="QUEST_DESC_113072" category="QUEST_CATEGORY_113072" repeatable="false" share="manual" dialog="1130720" incomplete_dialog="1130721" level="12" share_condition="1130720">
+    <ITEM>
+      <ADD id="10097" amount="1" />
+    </ITEM>
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_113072_1" type="INTERACT" param1="113093" param2="1" field="113" marker="1130721" public_progress="self" />
+      <OBJECTIVE id="2" desc="QUEST_OBJ_DESC_113072_2" type="INTERACT" param1="113094" param2="1" field="113" marker="1130722" public_progress="self" />
+      <OBJECTIVE id="3" desc="QUEST_OBJ_DESC_113072_3" type="INTERACT" param1="113095" param2="1" field="113" marker="1130723" public_progress="self" />
+      <OBJECTIVE id="4" desc="QUEST_OBJ_DESC_113072_4" type="INTERACT" param1="113096" param2="1" field="113" marker="1130724" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1130729" rewarder="113,113224">
+      <REWARD type="XP" param1="4500" />
+      <REWARD type="SILVER" param1="1000" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="113073" title="능력 밖의 일" desc="QUEST_DESC_113073" category="QUEST_CATEGORY_113073" repeatable="false" share="manual" dialog="1130730" level="12" share_condition="1130730" validation="false">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_113073_1" type="ACT" param1="2" field="113" marker="113060" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1130739" rewarder="113,113215">
+      <REWARD type="XP" param1="540" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="113074" title="실험 재료" desc="QUEST_DESC_113074" category="QUEST_CATEGORY_113074" repeatable="false" share="manual" dialog="1130740" incomplete_dialog="1130741" level="12" destroy_item="10049, 10050" share_condition="1130740">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_113074_1" type="COLLECT" param1="10049" param2="5" field="113" marker="113074" public_progress="self" />
+      <OBJECTIVE id="2" desc="QUEST_OBJ_DESC_113074_2" type="COLLECT" param1="10050" param2="5" field="113" marker="113074" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1130749" rewarder="113,113209">
+      <REWARD type="XP" param1="4500" />
+      <REWARD type="SILVER" param1="1000" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="113080" title="아이젠트 트리어" desc="QUEST_DESC_113080" category="QUEST_CATEGORY_113080" repeatable="false" share="manual" dialog="1130800" level="13" share_condition="1130800">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_113080_1" type="ACT" param1="1" field="113" marker="113060" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1130809" rewarder="113,113205">
+      <REWARD type="XP" param1="620" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="113081" title="과거의 원한" desc="QUEST_DESC_113081" category="QUEST_CATEGORY_113081" repeatable="false" share="manual" dialog="1130810" incomplete_dialog="1130811" level="13" share_condition="1130810" validation="false">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_113081_1" type="DESTROY" param1="113045" param2="7" field="113" marker="113081" public_progress="party" />
+      <OBJECTIVE id="2" desc="QUEST_OBJ_DESC_113081_2" type="DESTROY" param1="113046" param2="7" field="113" marker="113081" public_progress="party" />
+    </OBJECTIVES>
+    <REWARDS dialog="1130819" rewarder="113,113215">
+      <REWARD type="XP" param1="5180" />
+      <REWARD type="SILVER" param1="1200" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="113082" title="그래스라이더" desc="QUEST_DESC_113082" category="QUEST_CATEGORY_113082" repeatable="false" share="manual" dialog="1130820" incomplete_dialog="1130821" level="13" share_condition="1130820" validation="false">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_113082_1" type="DESTROY" param1="113080" param2="1" field="113" marker="113082" public_progress="party" />
+    </OBJECTIVES>
+    <REWARDS dialog="1130829" rewarder="113,113215">
+      <REWARD type="XP" param1="5180" />
+      <REWARD type="SILVER" param1="1200" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="113083" title="2개의 영혼을 가진 사람" desc="QUEST_DESC_113083" category="QUEST_CATEGORY_113083" repeatable="false" share="manual" dialog="1130830" level="13" share_condition="1130830">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_113083_1" type="ACT" param1="1" field="113" marker="113060" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1130839" rewarder="113,113209">
+      <REWARD type="XP" param1="620" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="113084" title="광휘의 목걸이" desc="QUEST_DESC_113084" category="QUEST_CATEGORY_113084" repeatable="false" share="manual" dialog="1130840" level="13" share_condition="1130840">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_113084_1" type="SCOUT" param1="113" param2="113084" field="113" marker="113084" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1130849" rewarder="113,113220">
+      <REWARD type="XP" param1="620" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="113085" title="성검 벼르기" desc="QUEST_DESC_113085" category="QUEST_CATEGORY_113085" repeatable="false" share="manual" dialog="1130850" level="13" destroy_item="10096" share_condition="1130850">
+    <ITEM>
+      <ADD id="10096" amount="1" />
+    </ITEM>
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_113085_1" type="COLLECT" param1="10096" param2="1" field="113" marker="113084" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1130859" rewarder="113,113208">
+      <REWARD type="XP" param1="620" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="113090" title="지겨운 녀석들" desc="QUEST_DESC_113090" category="QUEST_CATEGORY_113090" repeatable="false" share="none" dialog="1130900" incomplete_dialog="1130901" level="13" share_condition="1130900">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_113090_1" type="ACT" param1="1" field="113" marker="1130901" public_progress="self" />
+      <OBJECTIVE id="2" desc="QUEST_OBJ_DESC_113090_2" type="ACT" param1="2" field="113" marker="1130902" public_progress="self" />
+      <OBJECTIVE id="3" desc="QUEST_OBJ_DESC_113090_3" type="ACT" param1="3" field="113" marker="1130903" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1130909" rewarder="113,113220">
+      <REWARD type="XP" param1="5180" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="113091" title="거대 줄기" desc="QUEST_DESC_113091" category="QUEST_CATEGORY_113091" repeatable="false" share="none" dialog="1130910" incomplete_dialog="1130911" level="13" destroy_item="10099" share_condition="1130910" validation="false">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_113091_1" type="COLLECT" param1="10099" param2="10" field="113" marker="113091" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1130919" rewarder="113,113216">
+      <REWARD type="XP" param1="5180" />
+      <REWARD type="SILVER" param1="1200" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="113092" title="뭔가 이상해" desc="QUEST_DESC_113092" category="QUEST_CATEGORY_113092" repeatable="false" share="manual" dialog="1130920" level="13" share_condition="1130920">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_113092_1" type="SCOUT" param1="113" param2="113092" field="113" marker="113092" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1130929" rewarder="113,113239">
+      <REWARD type="XP" param1="620" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="113093" title="연락 두절" desc="QUEST_DESC_113093" category="QUEST_CATEGORY_113093" repeatable="false" share="manual" dialog="1130930" level="13" share_condition="1130930">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_113093_1" type="SCOUT" param1="113" param2="113093" field="113" marker="113093" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1130939" rewarder="113,113238">
+      <REWARD type="XP" param1="620" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="113094" title="구출" desc="QUEST_DESC_113094" category="QUEST_CATEGORY_113094" repeatable="false" share="manual" dialog="1130940" incomplete_dialog="1130941" level="13" share_condition="1130940">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_113094_1" type="INTERACT" param1="113238" param2="1" field="113" marker="113093" public_progress="party" />
+    </OBJECTIVES>
+    <REWARDS dialog="1130949" rewarder="113,113239">
+      <REWARD type="XP" param1="2500" />
+      <REWARD type="SILVER" param1="1000" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="113095" title="수수께끼의 마력" desc="QUEST_DESC_113095" category="QUEST_CATEGORY_113095" repeatable="false" share="manual" dialog="1130950" incomplete_dialog="1130951" level="14" destroy_item="10100" share_condition="1130950" validation="false">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_113095_1" type="COLLECT" param1="10100" param2="1" field="113" marker="113095" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1130959" rewarder="113,113216">
+      <REWARD type="XP" param1="5900" />
+      <REWARD type="SILVER" param1="1350" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="113096" title="게리온의 일기" desc="QUEST_DESC_113096" category="QUEST_CATEGORY_113096" repeatable="false" share="manual" dialog="1130960" level="14" share_condition="1130960">
+    <ITEM>
+      <FILL id="10102" amount="1" />
+    </ITEM>
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_113096_1" type="COLLECT" param1="10102" param2="1" field="113" marker="113092" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1130969" rewarder="113,113239">
+      <REWARD type="XP" param1="710" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="113097" title="넌 여기 있으면 안돼" desc="QUEST_DESC_113097" category="QUEST_CATEGORY_113097" repeatable="false" share="manual" dialog="1130970" incomplete_dialog="1130971" level="14" share_condition="1130970">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_113097_1" type="COLLECT" param1="58009" param2="4" field="113" marker="113097" public_progress="self" />
+      <OBJECTIVE id="2" desc="QUEST_OBJ_DESC_113097_2" type="COLLECT" param1="58008" param2="4" field="113" marker="113097" public_progress="self" />
+      <OBJECTIVE id="3" desc="QUEST_OBJ_DESC_113097_3" type="COLLECT" param1="58026" param2="4" field="113" marker="113097" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1130979" rewarder="113,113240">
+      <REWARD type="XP" param1="5900" />
+      <REWARD type="SILVER" param1="1350" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="113101" title="마력 주입 [파티]" desc="QUEST_DESC_113101" category="QUEST_CATEGORY_113101" repeatable="false" share="manual" dialog="1131010" incomplete_dialog="1131011" level="14" destroy_item="10101" share_condition="1131010">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_113101_1" type="COLLECT" param1="10101" param2="3" field="113" marker="113101" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1131019" rewarder="113,113208">
+      <REWARD type="XP" param1="8850" />
+      <REWARD type="SILVER" param1="2700" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="113102" title="동료 구출 [파티]" desc="QUEST_DESC_113102" category="QUEST_CATEGORY_113102" repeatable="false" share="manual" dialog="1131020" incomplete_dialog="1131021" level="14" share_condition="1131020">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_113102_1" type="INTERACT" param1="113228" param2="5" field="113" marker="113102" public_progress="party" />
+    </OBJECTIVES>
+    <REWARDS dialog="1131029" rewarder="113,113239">
+      <REWARD type="XP" param1="8850" />
+      <REWARD type="SILVER" param1="2700" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="113103" title="화원 정화 [파티]" desc="QUEST_DESC_113103" category="QUEST_CATEGORY_113103" repeatable="false" share="manual" dialog="1131030" incomplete_dialog="1131031" level="14" share_condition="1131030">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_113103_1" type="DESTROY" param1="121019" param2="1" field="113" marker="113103" public_progress="party" />
+    </OBJECTIVES>
+    <REWARDS dialog="1131039" rewarder="113,113225">
+      <REWARD type="XP" param1="8850" />
+      <REWARD type="SILVER" param1="2700" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="113110" title="아이젠트 트리어의 성물" desc="QUEST_DESC_113110" category="QUEST_CATEGORY_113110" repeatable="false" players="5" share="manual" dialog="1131100" incomplete_dialog="1131101" level="15" trialtype="party" field_group="113001" destroy_item="10106" share_condition="1131100">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_113110_1" type="COLLECT" param1="10106" param2="1" field="113" marker="113110" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1131109" rewarder="113,113224">
+      <REWARD type="XP" param1="6680" />
+      <REWARD type="SILVER" param1="1500" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="113111" title="두목을 구출하라" desc="QUEST_DESC_113111" category="QUEST_CATEGORY_113111" repeatable="false" share="manual" dialog="1131110" incomplete_dialog="1131111" level="15" share_condition="1131110">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_113111_1" type="DESTROY" param1="113079" param2="1" field="113" marker="113111" public_progress="party" />
+    </OBJECTIVES>
+    <REWARDS dialog="1131119" rewarder="113,113225">
+      <REWARD type="XP" param1="6680" />
+      <REWARD type="SILVER" param1="1500" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="113112" title="죽고 싶지 않아" desc="QUEST_DESC_113112" category="QUEST_CATEGORY_113112" repeatable="false" share="manual" dialog="1131120" incomplete_dialog="1131121" level="15" destroy_item="10111" share_condition="1131120">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_113112_1" type="INTERACT" param1="113235" param2="6" field="113" marker="113112" public_progress="party" />
+    </OBJECTIVES>
+    <REWARDS dialog="1131129" rewarder="113,113241">
+      <REWARD type="XP" param1="6680" />
+      <REWARD type="SILVER" param1="1500" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="113113" title="단 한번의 기회 [파티]" desc="QUEST_DESC_113113" category="QUEST_CATEGORY_113113" repeatable="false" share="manual" dialog="1131130" incomplete_dialog="1131131" level="15" destroy_item="10103" share_condition="1131130" validation="false">
+    <ITEM>
+      <FILL id="10103" amount="1" />
+    </ITEM>
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_113113_1" type="DESTROY" param1="512001" param2="1" field="113" marker="113113" public_progress="party" />
+      <OBJECTIVE id="2" desc="QUEST_OBJ_DESC_113113_2" type="DESTROY" param1="512000" param2="1" field="113" marker="113113" public_progress="party" />
+      <OBJECTIVE id="3" desc="QUEST_OBJ_DESC_113113_3" type="INTERACT" param1="113222" param2="1" field="113" marker="113113" public_progress="party" />
+    </OBJECTIVES>
+    <REWARDS dialog="1131139" rewarder="113,113217">
+      <REWARD type="XP" param1="10020" />
+      <REWARD type="SILVER" param1="3000" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="113115" title="만넬로스... 만넬로스 [파티]" desc="QUEST_DESC_113115" category="QUEST_CATEGORY_113115" repeatable="false" share="manual" dialog="1131150" incomplete_dialog="1131151" level="15" share_condition="1131150">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_113115_1" type="DESTROY" param1="512002" param2="1" field="113" marker="113115" public_progress="party" />
+    </OBJECTIVES>
+    <REWARDS dialog="1131159" rewarder="512001,113214">
+      <REWARD type="XP" param1="10020" />
+      <REWARD type="SILVER" param1="3000" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="113116" title="사건의 전말" desc="QUEST_DESC_113116" category="QUEST_CATEGORY_113116" repeatable="false" share="manual" dialog="1131160" level="16" share_condition="1131160">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_113116_1" type="SCOUT" param1="113" param2="113114" field="113" marker="113114" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1131169" rewarder="113,113207">
+      <REWARD type="XP" param1="900" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="113120" title="암흑 안개 숲" desc="QUEST_DESC_113120" category="QUEST_CATEGORY_113120" repeatable="false" share="manual" dialog="1131200" incomplete_dialog="1131201" level="16" destroy_item="10104" share_condition="16">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_113120_1" type="COLLECT" param1="10104" param2="10" field="113" marker="113120" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1131209" rewarder="113,113242">
+      <REWARD type="XP" param1="7490" />
+      <REWARD type="SILVER" param1="1700" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="113121" title="별미가 필요한 때" desc="QUEST_DESC_113121" category="QUEST_CATEGORY_113121" repeatable="false" share="manual" dialog="1131210" incomplete_dialog="1131211" level="16" destroy_item="10105" share_condition="16">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_113121_1" type="COLLECT" param1="10105" param2="7" field="113" marker="113121" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1131219" rewarder="113,113242">
+      <REWARD type="XP" param1="7490" />
+      <REWARD type="SILVER" param1="1720" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="113122" title="도끼질은 나무에만" desc="QUEST_DESC_113122" category="QUEST_CATEGORY_113122" repeatable="false" share="manual" dialog="1131220" incomplete_dialog="1131221" level="16" destroy_item="10107" share_condition="16">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_113122_1" type="COLLECT" param1="10107" param2="8" field="113" marker="113122" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1131229" rewarder="113,113243">
+      <REWARD type="XP" param1="7490" />
+      <REWARD type="SILVER" param1="1720" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="113123" title="트롤에 불을 질러라" desc="QUEST_DESC_113123" category="QUEST_CATEGORY_113123" repeatable="false" share="manual" dialog="1131230" incomplete_dialog="1131231" level="16" destroy_item="10108" share_condition="1131230">
+    <ITEM>
+      <FILL id="10108" amount="1" />
+    </ITEM>
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_113123_1" type="INTERACT" param1="113062" param2="10" field="113" marker="113123" public_progress="party" />
+    </OBJECTIVES>
+    <REWARDS dialog="1131239" rewarder="113,113207">
+      <REWARD type="XP" param1="7490" />
+      <REWARD type="SILVER" param1="1720" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="113125" title="음모의 단체" desc="QUEST_DESC_113125" category="QUEST_CATEGORY_113125" repeatable="false" share="manual" dialog="1131250" level="16" share_condition="1131250">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_113125_1" type="SCOUT" param1="102" param2="113125" field="102" marker="7" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1131259" rewarder="102,102203">
+      <REWARD type="XP" param1="900" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="113126" title="무기의 조건" desc="QUEST_DESC_113126" category="QUEST_CATEGORY_113126" repeatable="false" share="manual" dialog="1131260" level="12" share_condition="1131260">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_113126_1" type="ACT" param1="1" field="113" marker="113060" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1131269" rewarder="113,113209">
+      <REWARD type="XP" param1="2250" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="113127" title="뼈와 심장" desc="QUEST_DESC_113127" category="QUEST_CATEGORY_113127" repeatable="false" share="manual" dialog="1131270" level="12" destroy_item="10051, 10052" share_condition="1131270">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_113127_1" type="COLLECT" param1="10052" param2="1" field="113" marker="113076" public_progress="self" />
+      <OBJECTIVE id="2" desc="QUEST_OBJ_DESC_113127_2" type="COLLECT" param1="10051" param2="8" field="113" marker="113075" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1131279" rewarder="113,113205">
+      <REWARD type="XP" param1="4500" />
+      <REWARD type="SILVER" param1="1000" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="113128" title="마력의 핵" desc="QUEST_DESC_113128" category="QUEST_CATEGORY_113128" repeatable="false" share="manual" dialog="1131280" level="12" share_condition="1131280">
+    <ITEM>
+      <ADD id="10096" amount="1" />
+    </ITEM>
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_113128_1" type="ACT" param1="1" field="113" marker="113060" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="1131289" rewarder="113,113209">
+      <REWARD type="XP" param1="540" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="889101" title="전투 지원" desc="QUEST_DESC_889101" category="QUEST_CATEGORY_889101" repeatable="true" players="5" share="manual" dialog="8891010" level="1" trialtype="party" field_group="8893" share_condition="1" validation="false">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_889101_1" type="ACT" param1="3" field="8894" marker="9" public_progress="true" />
+    </OBJECTIVES>
+    <REWARDS dialog="8891019" rewarder="8892,131007">
+      <REWARD type="SILVER" param1="2010" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="999100" title="위험한 도전" desc="QUEST_DESC_999100" category="QUEST_CATEGORY_999100" repeatable="false" share="manual" dialog="9991000" incomplete_dialog="9991001" level="5" condition="1000">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_999100_1" type="SCOUT" param1="3" param2="6" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="9991009" rewarder="3,5200000">
+      <REWARD type="XP" param1="130" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="999101" title="도전하라! 크라울러" desc="QUEST_DESC_999101" category="QUEST_CATEGORY_999101" repeatable="false" share="manual" dialog="9991010" level="5" field_group="107095" share_condition="1">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_999101_1" type="DESTROY" param1="1000000" param2="1" field="107" marker="37" public_progress="party" />
+    </OBJECTIVES>
+    <REWARDS dialog="9991019" rewarder="107,107224">
+      <REWARD type="XP" param1="1590" />
+      <REWARD type="SILVER" param1="432" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="999102" title="도전하라! 테레시스" desc="QUEST_DESC_999102" category="QUEST_CATEGORY_999102" repeatable="false" share="manual" dialog="9991020" level="9" field_group="107091" share_condition="1001" cq_condition="1001">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_999102_1" type="DESTROY" param1="1000002" param2="1" field="107" marker="509" public_progress="party" />
+    </OBJECTIVES>
+    <REWARDS dialog="9991029" rewarder="107,107202">
+      <REWARD type="XP" param1="4130" />
+      <REWARD type="SILVER" param1="1200" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="999103" title="도전하라! 플릿풋" desc="QUEST_DESC_999103" category="QUEST_CATEGORY_999103" repeatable="false" share="manual" dialog="9991030" level="5" field_group="107090" share_condition="1002" cq_condition="1002">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_999103_1" type="DESTROY" param1="1000001" param2="1" field="107" marker="510" public_progress="party" />
+    </OBJECTIVES>
+    <REWARDS dialog="9991039" rewarder="107,107223">
+      <REWARD type="XP" param1="1590" />
+      <REWARD type="SILVER" param1="432" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="999104" title="도전하라! 보르고" desc="QUEST_DESC_999104" category="QUEST_CATEGORY_999104" repeatable="false" share="manual" dialog="9991040" level="10" field_group="107092" share_condition="1003" cq_condition="1003">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_999104_1" type="DESTROY" param1="1000004" param2="1" field="107" marker="511" public_progress="party" />
+    </OBJECTIVES>
+    <REWARDS dialog="9991049" rewarder="107,107212">
+      <REWARD type="XP" param1="4920" />
+      <REWARD type="SILVER" param1="1440" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="999105" title="도전하라! 고블린 골렘" desc="QUEST_DESC_999105" category="QUEST_CATEGORY_999105" repeatable="false" share="manual" dialog="9991050" level="12" field_group="107093" share_condition="1004" cq_condition="1004">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_999105_1" type="DESTROY" param1="1000003" param2="1" field="110" marker="118" public_progress="party" />
+    </OBJECTIVES>
+    <REWARDS dialog="9991059" rewarder="110,110215">
+      <REWARD type="XP" param1="6750" />
+      <REWARD type="SILVER" param1="2016" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="999107" title="도전하라! 타일런트 좀비" desc="QUEST_DESC_999107" category="QUEST_CATEGORY_999107" repeatable="false" share="manual" dialog="9991070" level="14" field_group="113090" share_condition="1007" cq_condition="1007">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_999107_1" type="DESTROY" param1="1000006" param2="1" field="113" marker="113084" public_progress="party" />
+    </OBJECTIVES>
+    <REWARDS dialog="9991079" rewarder="113,113220">
+      <REWARD type="XP" param1="8850" />
+      <REWARD type="SILVER" param1="2688" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="999113" title="도전하라! 샤디즈" desc="QUEST_DESC_999113" category="QUEST_CATEGORY_999113" repeatable="false" share="manual" dialog="9991130" level="18" field_group="113096" share_condition="1013" cq_condition="1013">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_999113_1" type="DESTROY" param1="1000011" param2="1" field="102" marker="999113" public_progress="party" />
+    </OBJECTIVES>
+    <REWARDS dialog="9991139" rewarder="102,102222">
+      <REWARD type="XP" param1="13910" />
+      <REWARD type="SILVER" param1="4320" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="5000000" title="#배달" desc="QUEST_DESC_5000000" category="QUEST_CATEGORY_5000000" repeatable="true" dialog="5000000" level="1" destroy_item="5000001" comment="테스트용 퀘스트" validation="false">
+    <ITEM>
+      <ADD id="5000000" amount="1" />
+    </ITEM>
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_5000000_1" type="ACT" param1="1" public_progress="self" />
+      <OBJECTIVE id="2" desc="QUEST_OBJ_DESC_5000000_2" type="ACT" param1="2" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="5000003" rewarder="5000,5000000">
+      <REWARD type="XP" param1="3000" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="5000010" title="#수집" desc="QUEST_DESC_5000010" category="QUEST_CATEGORY_5000010" repeatable="true" dialog="5000010" level="1" comment="테스트용 퀘스트" validation="false">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_5000010_1" type="COLLECT" param1="5000010" param2="5" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="5000011" rewarder="5000,5000010">
+      <REWARD type="XP" param1="3000" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="5000020" title="#사냥" desc="QUEST_DESC_5000020" category="QUEST_CATEGORY_5000020" repeatable="true" dialog="5000020" level="1" comment="테스트용 퀘스트" validation="false">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_5000020_1" type="DESTROY" param1="5000021" param2="1" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="5000021" rewarder="5000,5000020">
+      <REWARD type="XP" param1="3000" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="5000030" title="#정찰" desc="QUEST_DESC_5000030" category="QUEST_CATEGORY_5000030" repeatable="true" dialog="5000030" level="1" comment="테스트용 퀘스트" validation="false">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_5000030_1" type="SCOUT" param1="5000" param2="1" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="5000031" rewarder="5000,5000030">
+      <REWARD type="XP" param1="3000" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="5000040" title="#탈출" desc="QUEST_DESC_5000040" category="QUEST_CATEGORY_5000040" repeatable="true" dialog="5000040" level="1" timelimit="10" comment="테스트용 퀘스트" validation="false">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_5000040_1" type="ACT" param1="1" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="5000041" rewarder="5000,5000041">
+      <REWARD type="XP" param1="3000" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="5000050" title="#아이템사용" desc="QUEST_DESC_5000050" category="QUEST_CATEGORY_5000050" repeatable="true" dialog="5000050" level="1" comment="테스트용 퀘스트" validation="false">
+    <ITEM>
+      <ADD id="5000050" amount="1" />
+      <ADD id="5000051" amount="1" />
+    </ITEM>
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_5000050_1" type="DESTROY" param1="5000051" param2="1" public_progress="self" />
+      <OBJECTIVE id="2" desc="QUEST_OBJ_DESC_5000050_2" type="COLLECT" param1="5000052" param2="1" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="5000051" rewarder="5000,5000050">
+      <REWARD type="XP" param1="3000" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="5000060" title="#브레이크 파츠" desc="QUEST_DESC_5000060" category="QUEST_CATEGORY_5000060" repeatable="true" dialog="5000060" level="1" comment="테스트용 퀘스트" validation="false">
+    <ITEM>
+      <ADD id="5000060" amount="1" />
+    </ITEM>
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_5000060_1" type="DESTROY" param1="5000061" param2="1" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="5000061" rewarder="5000,5000060">
+      <REWARD type="XP" param1="3000" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="5000070" title="#조작(책장 소환)" desc="QUEST_DESC_5000070" category="QUEST_CATEGORY_5000070" repeatable="true" dialog="5000070" level="1" comment="테스트용 퀘스트" validation="false">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_5000070_1" type="INTERACT" param1="5000071" param2="1" public_progress="self" />
+      <OBJECTIVE id="2" desc="QUEST_OBJ_DESC_5000070_2" type="INTERACT" param1="5000072" param2="1" public_progress="self" />
+      <OBJECTIVE id="3" desc="QUEST_OBJ_DESC_5000070_3" type="INTERACT" param1="5000073" param2="1" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="5000071" rewarder="5000,5000070">
+      <REWARD type="XP" param1="3000" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="5000080" title="#조작(화재 조심)" desc="QUEST_DESC_5000080" category="QUEST_CATEGORY_5000080" repeatable="true" dialog="5000080" level="1" comment="테스트용 퀘스트" validation="false">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_5000080_1" type="INTERACT" param1="5000081" param2="2" public_progress="self" />
+      <OBJECTIVE id="2" desc="QUEST_OBJ_DESC_5000080_2" type="INTERACT" param1="5000082" param2="2" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="5000081" rewarder="5000,5000080">
+      <REWARD type="XP" param1="3000" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="5000090" title="#구출" desc="QUEST_DESC_5000090" category="QUEST_CATEGORY_5000090" repeatable="true" dialog="5000090" level="1" comment="테스트용 퀘스트" validation="false">
+    <ITEM>
+      <ADD id="5000090" amount="1" />
+    </ITEM>
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_5000090_1" type="INTERACT" param1="5000091" param2="5" public_progress="self" />
+      <OBJECTIVE id="2" desc="QUEST_OBJ_DESC_5000090_2" type="ACT" param1="2" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="5000091" rewarder="5000,5000090">
+      <REWARD type="XP" param1="3000" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="5000100" title="#조작(우솝의춤)" desc="QUEST_DESC_5000100" category="QUEST_CATEGORY_5000100" repeatable="true" dialog="5000100" level="1" comment="테스트용 퀘스트" validation="false">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_5000100_1" type="INTERACT" param1="5000101" param2="1" public_progress="party" />
+      <OBJECTIVE id="2" desc="QUEST_OBJ_DESC_5000100_2" type="INTERACT" param1="5000102" param2="2" public_progress="party" />
+    </OBJECTIVES>
+    <REWARDS dialog="5000101" rewarder="5000,5000100">
+      <REWARD type="XP" param1="3000" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="5000110" title="#호위" desc="QUEST_DESC_5000110" category="QUEST_CATEGORY_5000110" repeatable="true" dialog="5000110" level="1" comment="테스트용 퀘스트" validation="false">
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_5000110_1" type="SCOUT" param1="5000" param2="3" public_progress="party" />
+      <OBJECTIVE id="2" desc="QUEST_OBJ_DESC_5000110_2" type="ESCORT" param1="5000111" param2="6" public_progress="party" />
+    </OBJECTIVES>
+    <REWARDS dialog="5000111" rewarder="5000,5000110">
+      <REWARD type="XP" param1="3000" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="5000120" title="#퀘스트 목적이 없는 퀘스트" desc="QUEST_DESC_5000120" category="QUEST_CATEGORY_5000120" repeatable="true" dialog="5000120" level="1" comment="테스트용 퀘스트" validation="false">
+    <REWARDS dialog="5000121" rewarder="5000,5000120">
+      <REWARD type="XP" param1="3000" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="5000130" title="#퀘스트 선택 보상" desc="QUEST_DESC_5000130" category="QUEST_CATEGORY_5000130" repeatable="true" dialog="5000130" level="1" comment="테스트용 퀘스트" validation="false">
+    <REWARDS dialog="5000131" rewarder="5000,5000130">
+      <REWARD type="XP" param1="3000" />
+      <REWARD type="ITEM" param1="5000130, 5000131" param2="1, 1" />
+    </REWARDS>
+  </QUEST>
+  <QUEST id="10900001" title="빼앗긴 모튼기어" desc="QUEST_DESC_10900001" category="QUEST_CATEGORY_10900001" repeatable="false" dialog="10900000" level="1">
+    <ITEM />
+    <OBJECTIVES>
+      <OBJECTIVE id="1" desc="QUEST_OBJ_DESC_10900001_1" type="ACT" param1="1" field="1090000" marker="4" public_progress="self" />
+    </OBJECTIVES>
+    <REWARDS dialog="10900009" rewarder="1090000,109809">
+      <REWARD type="XP" param1="1000" />
+      <REWARD type="SILVER" param1="50" />
+    </REWARDS>
+  </QUEST>
+</maiet>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<maiet>
+	<COLT name="렌고트부족사냥꾼">
+		<COMBAT>
+			<DEFAULT>	
+				<ACTION type="nothing" param1="1" rate="20" cycle="6"/>
+				<ACTION type="nothing" param1="1" rate="20" cycle="6"/>
+				
+				<ACTION type="talent" param1="211001402" rate="35" />
+				<ACTION type="talent" param1="211001403" rate="25" />
+				
+				<ACTION type="distance" param1="300" param2="300" rate="10" cycle="15"/>
+			</DEFAULT>
+
+			<!-- 적이 가까이 왔을경우 -->
+			<CHECK type="distance" param1="0" param2="300">
+				<ACTION type="nothing" param1="1" rate="20" cycle="6"/>
+				<ACTION type="nothing" param1="1" rate="20" cycle="6"/>
+				
+				<ACTION type="talent" param1="211001401" rate="30" />  <!-- 일반공격(근접) -->
+			</CHECK>
+			
+			<!-- 적이 아주멀리 있을 경우 -->
+			<CHECK type="distance" param1="1500">
+				<ACTION type="distance" param1="1000" param2="1000" duration="2" />
+			</CHECK>
+			
+		</COMBAT>
+		<IDLE>
+			<DEFAULT>
+				<ACTION type="talent" param1="211000207" rate="20" />
+				<ACTION type="nothing" param1="1" rate="80"/>
+			</DEFAULT>
+		</IDLE>
+	</COLT>
+	<SCRIPT><![CDATA[
+
+function NPC_110014:OnSpawn( Spawn )
+	local NPCID_HOUNTER = 110035
+	local Pos = this:GetPos()
+	local Field = this:GetField()
+	local Pet = Field:Spawn(  NPCID_HOUNTER, Pos )
+	this:SetTarget( Pet )
+	Pet:SetTarget( this )
+end
+
+function NPC_110014:OnAggro( Target )
+	local Pet = this:GetTarget()
+	if Pet == nil or Pet:IsNull() or Pet:IsDead() then
+		return
+	end
+	
+	AsNPC(Pet):Assist( this )
+end
+
+function NPC_110014:OnDie(Despawn)
+--[[
+	local Pet = this:GetTarget()
+	
+	if Pet == nil or Pet:IsNull() then
+		return
+	end
+--]]
+end
+
+	]]></SCRIPT>
+</maiet>

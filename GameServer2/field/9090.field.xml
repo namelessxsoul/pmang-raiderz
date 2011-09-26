@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="euc-kr" ?>
+<maiet>
+    <FIELDINFO zone="8003" min_x="0" min_y="0" max_x="60000" max_y="60000" boundary_min_x="0" boundary_min_y="0" boundary_max_x="0" boundary_max_y="0" weather_effect="true" town="false" returnable="true" qpvpnpc1="950000" qpvpnpc2="950000" qpvprebirth1="102230" qpvprebirth2="102231">
+        <Env set="default">
+            <WEATHER default="SUN">
+                <ADD weather="CLD" percent="10" />
+                <ADD weather="RNY" percent="10" />
+                <ADD weather="HRN" percent="10" />
+                <ADD weather="SNW" percent="0" />
+                <ADD weather="HSW" percent="0" />
+                <ADD weather="CLR" percent="10" />
+            </WEATHER>
+        </Env>
+        <SPAWN id="109221" group="0" name="모켄" x="8495.584961" y="2502.396729" z="2.000000" dir_x="-0.933580" dir_y="0.358368" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="0" respawn_time="20" roam_radius="0" roam_depth="0" combat_radius="0" color="auto">
+            <NPC id="109221" default="true" rate="10" />
+        </SPAWN>
+        <MARKER id="1" name="1" x="7966.354004" y="2639.906982" z="3.000000" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <SENSOR id="1" name="SR00001" local="false" x="3528.375000" y="4463.601563" z="3.000000" radius="700.000000" enabled="true" groupname="none" />
+        <AREA id="1" name="area_00001" path="false" minz_hint="-1.000000" maxz_hint="-1.000000">
+            <CYLINDER x="9836.286133" y="2335.415527" z="0.000000" radius="1000.000000" height="1000.000000" />
+        </AREA>
+    </FIELDINFO>
+</maiet>

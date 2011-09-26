@@ -1,0 +1,2415 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<maiet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LOOT id="1" max="20">
+    <ITEM min="7" max="7" id="31001" quest="1" bpart="1" />
+    <SOUL rate="50" min="2" max="3" type="C" bpart1="4" bpart2="3" bpart3="1" bpart4="1" />
+  </LOOT>
+  <LOOT id="2">
+    <SILVER rate="80" min="3000" max="5000" />
+    <ITEM rate="10" id="31000" />
+    <ITEM rate="50" id="31001" />
+    <SOUL rate="50" min="2" max="3" type="C" bpart1="4" bpart2="3" bpart3="1" bpart4="1" />
+  </LOOT>
+  <LOOT id="101010" comment="붉은 비늘 늑대">
+    <ITEM rate="70" id="10167" quest="101010" />
+  </LOOT>
+  <LOOT id="101011" comment="리오드 우르크">
+    <ITEM rate="70" id="10166" quest="101007" />
+  </LOOT>
+  <LOOT id="101013" comment="푸른 가죽 사슴">
+    <ITEM rate="60" id="10168" quest="101010" />
+  </LOOT>
+  <LOOT id="101014" comment="거대 비늘 호저">
+    <ITEM rate="100" id="10170" quest="101013" />
+  </LOOT>
+  <LOOT id="101015" comment="평원 호저">
+    <ITEM rate="100" id="10171" quest="101013" />
+  </LOOT>
+  <LOOT id="101016" comment="호수 에보스">
+    <ITEM rate="100" id="10172" quest="101013" />
+  </LOOT>
+  <LOOT id="101017" comment="호수 방패게">
+    <ITEM rate="70" id="10175" quest="101014" />
+  </LOOT>
+  <LOOT id="101018" comment="비늘 늑대 우두머리">
+    <ITEM rate="100" id="10184" quest="101028" />
+  </LOOT>
+  <LOOT id="101024" comment="수색대장 코코키">
+    <ITEM rate="100" id="10182" quest="101026" />
+	<ITEM rate="20" id="10191" quest="101051" />
+	<ITEM rate="20" id="10192" quest="101051" />
+	<ITEM rate="20" id="10193" quest="101051" />
+  </LOOT>
+  <LOOT id="101028" comment="버림받은 신도">
+    <ITEM rate="100" id="10187" quest="101041" />
+  </LOOT>
+  <LOOT id="101029" comment="버림받은 사제">
+    <ITEM rate="100" id="10187" quest="101041" />
+  </LOOT>
+  <LOOT id="101030" comment="변성된 시리즈1">
+    <ITEM rate="100" id="10187" quest="101041" />
+  </LOOT>
+  <LOOT id="101031" comment="변성된 시리즈2">
+    <ITEM rate="100" id="10187" quest="101041" />
+  </LOOT>
+  <LOOT id="101032" comment="평원 사슴">
+    <ITEM rate="90" id="10164" quest="101050" />
+  </LOOT>
+  <LOOT id="101041" comment="코볼트 특공대">
+    <ITEM rate="20" id="10191" quest="101051" />
+	<ITEM rate="20" id="10192" quest="101051" />
+	<ITEM rate="20" id="10193" quest="101051" />
+  </LOOT>
+  <LOOT id="101042" comment="코볼트 수색대">
+    <ITEM rate="20" id="10191" quest="101051" />
+	<ITEM rate="20" id="10192" quest="101051" />
+	<ITEM rate="20" id="10193" quest="101051" />
+  </LOOT>
+  <LOOT id="101236" comment="야생동물의 시체">
+    <ITEM rate="100" id="10165" quest="101007" />
+  </LOOT>
+  <LOOT id="101238" comment="죽어있는 생선">
+    <ITEM rate="100" id="10173" quest="101014" />
+  </LOOT>
+  <LOOT id="101239" comment="오염된 풀 뿌리">
+    <ITEM rate="100" id="10174" quest="101014" />
+  </LOOT>
+  <LOOT id="101251" comment="붓">
+    <ITEM rate="100" id="10161" quest="101002" />
+  </LOOT>
+  <LOOT id="102003" comment="트롤 전사 18LV PARTY">
+    <ITEM rate="30" id="50052" />
+    <ITEM rate="30" id="50102" />
+    <ITEM rate="30" id="50152" />
+    <ITEM rate="30" id="50804" />
+  </LOOT>
+  <LOOT id="102004" comment="오우거 전사 18LV PARTY">
+    <ITEM rate="30" id="50052" />
+    <ITEM rate="30" id="50102" />
+    <ITEM rate="30" id="50152" />
+    <ITEM rate="30" id="50804" />
+  </LOOT>
+  <LOOT id="102100" comment="에다산 산양 16LV">
+    <ITEM rate="100" id="10000" quest="102001" />
+    <ITEM rate="40" id="20203" />
+    <ITEM rate="30" id="50102" />
+    <ITEM rate="30" id="58014" />
+    <ITEM rate="40" max="1" id="20201" />
+  </LOOT>
+  <LOOT id="102101" comment="코볼트 산적 17LV">
+    <SILVER rate="50" min="87" max="107" />
+    <ITEM rate="20" id="10017" quest="102004" />
+    <ITEM rate="20" id="50002" />
+    <ITEM rate="30" id="50052" />
+    <ITEM rate="15" id="50812" />
+    <ITEM rate="10" id="50830" />
+    <ITEM rate="30" id="58002" />
+    <ITEM rate="40" max="1" id="20200" />
+  </LOOT>
+  <LOOT id="102102" comment="코볼트 강도 17LV">
+    <SILVER rate="50" min="87" max="107" />
+    <ITEM rate="22" id="10017" quest="102004" />
+    <ITEM rate="20" id="50002" />
+    <ITEM rate="30" id="50052" />
+    <ITEM rate="15" id="50812" />
+    <ITEM rate="10" id="50830" />
+    <ITEM rate="30" id="58002" />
+    <ITEM rate="40" max="1" id="20200" />
+  </LOOT>
+  <LOOT id="102103" comment="코볼트 수집가 17LV">
+    <SILVER rate="50" min="87" max="107" />
+    <ITEM rate="23" id="10017" quest="102004" />
+    <ITEM rate="20" id="50002" />
+    <ITEM rate="30" id="50052" />
+    <ITEM rate="15" id="50812" />
+    <ITEM rate="10" id="50830" />
+    <ITEM rate="30" id="58002" />
+    <ITEM rate="40" max="1" id="20200" />
+  </LOOT>
+  <LOOT id="102104" comment="고지 하운터 수컷 18LV">
+    <ITEM rate="32" id="50102" />
+    <ITEM rate="50" id="20203" />
+    <ITEM rate="32" id="58016" />
+    <ITEM rate="50" max="1" id="20201" />
+    <ITEM rate="21" id="50803" />
+  </LOOT>
+  <LOOT id="102105" comment="고지 하운터 암컷 17LV">
+    <ITEM rate="30" id="50102" />
+    <ITEM rate="50" id="20203" />
+    <ITEM rate="30" id="58016" />
+    <ITEM rate="50" max="1" id="20201" />
+    <ITEM rate="20" id="50803" />
+  </LOOT>
+  <LOOT id="102106" comment="하피 바람술사 17LV">
+    <ITEM rate="30" id="58012" />
+    <ITEM rate="15" id="50252" />
+    <ITEM rate="15" id="50302" />
+    <ITEM rate="50" max="1" id="20202" />
+    <ITEM rate="20" max="1" id="50802" />
+  </LOOT>
+  <LOOT id="102107" comment="하피 순찰자 17LV">
+    <ITEM rate="30" id="58012" />
+    <ITEM rate="15" id="50252" />
+    <ITEM rate="15" id="50302" />
+    <ITEM rate="50" max="1" id="20202" />
+    <ITEM rate="20" max="1" id="50802" />
+  </LOOT>
+  <LOOT id="102108" comment="높은 바람 18LV RARE">
+    <ITEM rate="90" id="58012" />
+    <ITEM rate="45" id="50252" />
+    <ITEM rate="45" max="1" id="50302" />
+    <ITEM rate="60" max="1" id="50802" />
+  </LOOT>
+  <LOOT id="102109" comment="채혈 도구 사용">
+    <ITEM rate="100" min="1" max="2" id="10078" />
+  </LOOT>
+  <LOOT id="102110" comment="디아고 20LV EPIC">
+    <SILVER rate="100" min="2640" max="3640" />
+    <ITEM rate="50" max="1" id="31020300" />
+    <ITEM rate="100" max="1" id="30000400" />
+    <ITEM rate="100" max="1" id="30000401" />
+    <ITEM rate="80" max="1" id="30000404" />
+    <ITEM rate="50" max="1" id="30000405" />
+    <ITEM rate="100" id="50805" />
+    <ITEM rate="100" id="50806" />
+    <ITEM rate="80" max="1" id="50805" />
+    <ITEM rate="80" max="1" id="50806" />
+  </LOOT>
+  <LOOT id="102111" comment="유령늑대 샤디즈 18LV EPIC">
+    <SILVER rate="100" min="2160" max="3160" />
+    <ITEM rate="50" max="1" id="31010002" />
+    <ITEM rate="100" max="1" id="30000407" />
+    <ITEM rate="100" max="1" id="30000404" />
+    <ITEM rate="80" max="1" id="30000402" />
+    <ITEM rate="50" max="1" id="30000401" />
+    <ITEM rate="100" id="50809" />
+    <ITEM rate="100" id="50810" />
+    <ITEM rate="80" max="1" id="50809" />
+    <ITEM rate="80" max="1" id="50810" />
+  </LOOT>
+  <LOOT id="102113" comment="코볼트 밀렵꾼 18LV">
+    <SILVER rate="50" min="98" max="118" />
+    <ITEM rate="22" id="50002" />
+    <ITEM rate="32" id="50052" />
+    <ITEM rate="16" id="50812" />
+    <ITEM rate="15" id="50830" />
+    <ITEM rate="32" id="58002" />
+    <ITEM rate="40" max="1" id="20200" />
+  </LOOT>
+  <LOOT id="102114" comment="코볼트 사냥꾼 18LV">
+    <SILVER rate="50" min="98" max="118" />
+    <ITEM rate="22" id="50002" />
+    <ITEM rate="32" id="50052" />
+    <ITEM rate="16" id="50812" />
+    <ITEM rate="15" id="50830" />
+    <ITEM rate="32" id="58002" />
+    <ITEM rate="40" max="1" id="20200" />
+  </LOOT>
+  <LOOT id="102115" comment="코볼트 수색꾼 18LV">
+    <SILVER rate="50" min="98" max="118" />
+    <ITEM rate="22" id="50002" />
+    <ITEM rate="32" id="50052" />
+    <ITEM rate="16" id="50812" />
+    <ITEM rate="15" id="50830" />
+    <ITEM rate="32" id="58002" />
+    <ITEM rate="40" max="1" id="20200" />
+  </LOOT>
+  <LOOT id="102116" comment="사냥대장 마르티스 18LV RARE">
+    <SILVER rate="100" min="98" max="118" />
+    <ITEM rate="40" id="50002" />
+    <ITEM rate="60" id="50052" />
+    <ITEM rate="30" id="50812" />
+    <ITEM rate="30" id="50830" />
+    <ITEM rate="60" id="58002" />
+    <ITEM rate="40" max="1" id="20200" />
+    <ITEM rate="100" id="10085" />
+  </LOOT>
+  <LOOT id="102120" comment="트롤 용병 NPC">
+    <ITEM rate="100" id="9990018" />
+  </LOOT>
+  <LOOT id="102122" comment="오우거 용병 NPC">
+    <ITEM rate="100" id="9990018" />
+  </LOOT>
+  <LOOT id="102124" comment="태양의 석판">
+    <ITEM rate="100" id="10088" />
+  </LOOT>
+  <LOOT id="102125" comment="달의 석판">
+    <ITEM rate="100" id="10089" />
+  </LOOT>
+  <LOOT id="102127" comment="에다산 만년설">
+    <ITEM rate="100" id="10091" quest="102026" />
+  </LOOT>
+  <LOOT id="102128" comment="고대의 상자">
+    <ITEM rate="100" id="10093" quest="102027" />
+  </LOOT>
+  <LOOT id="102200" comment="빼앗긴 상품">
+    <ITEM rate="100" id="10017" quest="102004" />
+  </LOOT>
+  <LOOT id="102204" comment="하피의 알">
+    <ITEM rate="100" id="58021" />
+  </LOOT>
+  <LOOT id="102209" comment="하운터 우리">
+    <ITEM rate="100" id="58022" />
+  </LOOT>
+  <LOOT id="102221" comment="얼어붙은 식물">
+    <ITEM rate="100" id="10037" quest="102009" />
+  </LOOT>
+  <LOOT id="102234" comment="고대의 금속판">
+    <ITEM rate="100" id="10132" />
+  </LOOT>
+  <LOOT id="102238" comment="드래곤 슬레이어의 일지 3장(트롤)">
+    <ITEM rate="100" id="10137" />
+  </LOOT>
+  <LOOT id="102239" comment="드래곤 슬레이어의 일지 3장(오우거)">
+    <ITEM rate="100" id="10137" />
+  </LOOT>
+  <LOOT id="102240" comment="드래곤 슬레이어의 일지 4장">
+    <ITEM rate="100" id="10138" />
+  </LOOT>
+  <LOOT id="102241" comment="드래곤 슬레이어의 일지 5장">
+    <ITEM rate="100" id="10139" />
+  </LOOT>
+  <LOOT id="102242" comment="코볼드란 네번째 조각">
+    <ITEM rate="100" id="10141" />
+  </LOOT>
+  <LOOT id="102400" comment="에다산 광맥">
+    <ITEM rate="100" min="1" max="2" id="50002" />
+    <ITEM rate="100" id="10115" quest="3022" />
+    <ITEM rate="70" id="10023" quest="102008" />
+    <ITEM rate="10" id="50252" />
+    <ITEM rate="10" id="50302" />
+    <ITEM rate="10" id="50002" />
+  </LOOT>
+  <LOOT id="102401" comment="에다산 약초">
+    <ITEM rate="100" min="1" max="2" id="50202" />
+    <ITEM rate="10" id="50202" />
+    <ITEM rate="100" id="10115" quest="3022" />
+    <ITEM rate="70" id="10002" quest="102002" />
+    <ITEM rate="1" max="1" id="20002000" />
+    <ITEM rate="1" max="1" id="20002002" />
+    <ITEM rate="1" max="1" id="20002003" />
+    <ITEM rate="1" max="1" id="20002004" />
+    <ITEM rate="1" max="1" id="20002005" />
+    <ITEM rate="1" max="1" id="20002007" />
+    <ITEM rate="5" max="1" id="39999002" />
+  </LOOT>
+  <LOOT id="102402" comment="에다산 상자">
+    <ITEM rate="100" min="2" max="2" id="10115" quest="3022" />
+    <ITEM rate="70" max="1" id="50800" />
+    <ITEM rate="70" max="1" id="50801" />
+    <ITEM rate="40" max="1" id="50812" />
+    <ITEM rate="100" max="1" id="10090" quest="102025" />
+    <ITEM rate="1" max="1" id="20002000" />
+    <ITEM rate="1" max="1" id="20002002" />
+    <ITEM rate="1" max="1" id="20002003" />
+    <ITEM rate="1" max="1" id="20002004" />
+    <ITEM rate="1" max="1" id="20002005" />
+    <ITEM rate="1" max="1" id="20002007" />
+    <ITEM rate="60" id="50252" />
+    <ITEM rate="60" id="50302" />
+  </LOOT>
+  <LOOT id="102403" comment="에다산 목재">
+    <ITEM rate="100" min="1" max="2" id="50152" />
+    <ITEM rate="10" id="50152" />
+    <ITEM rate="100" id="10115" quest="3022" />
+  </LOOT>
+  <LOOT id="107001" comment="회색늑대 3LV">
+    <ITEM rate="30" id="50500" />
+    <ITEM rate="20" id="50502" />
+    <ITEM rate="40" id="50101" />
+    <ITEM rate="30" id="58000" />
+    <ITEM rate="40" id="20005" />
+  </LOOT>
+  <LOOT id="107003" comment="이끼거미 3LV">
+    <ITEM rate="60" id="10019" quest="107081" />
+    <ITEM rate="30" id="50506" />
+    <ITEM rate="30" id="58001" />
+    <ITEM rate="40" max="1" id="20001" />
+    <ITEM rate="40" max="1" id="20002" />
+  </LOOT>
+  <LOOT id="107006" comment="커다란 이끼거미 8LV">
+    <ITEM rate="30" id="50506" />
+    <ITEM rate="30" id="58001" />
+    <ITEM rate="40" max="1" id="20001" />
+    <ITEM rate="40" max="1" id="20002" />
+  </LOOT>
+  <LOOT id="107007" comment="여왕 테레시스 9LV EPIC">
+    <SILVER rate="100" min="600" max="700" />
+    <ITEM rate="16" max="1" id="31010100" />
+    <ITEM rate="16" max="1" id="31010200" />
+    <ITEM rate="16" max="1" id="31030100" />
+    <ITEM rate="100" max="1" id="30000107" />
+    <ITEM rate="100" max="1" id="30000102" />
+    <ITEM rate="80" max="1" id="30000108" />
+    <ITEM rate="50" max="1" id="30000106" />
+    <ITEM rate="100" min="3" max="5" id="50506" />
+    <ITEM rate="100" id="50507" />
+    <ITEM rate="100" id="50508" bpart="1" />
+    <ITEM rate="100" id="50508" bpart="2" />
+    <ITEM rate="100" id="50507" bpart="3" />
+    <ITEM rate="100" id="50509" bpart="4" />
+    <ITEM rate="80" max="1" id="50509" />
+  </LOOT>
+  <LOOT id="107008" comment="굶주린 회색 늑대 4LV">
+    <ITEM rate="30" id="50500" />
+    <ITEM rate="21" id="50502" />
+    <ITEM rate="40" id="50101" />
+    <ITEM rate="30" id="58000" />
+    <ITEM rate="40" id="20005" />
+  </LOOT>
+  <LOOT id="107009" comment="광포한 회색 늑대 5LV">
+    <ITEM rate="30" id="50500" />
+    <ITEM rate="22" id="50502" />
+    <ITEM rate="40" id="50101" />
+    <ITEM rate="30" id="58000" />
+    <ITEM rate="40" id="20005" />
+  </LOOT>
+  <LOOT id="107010" comment="플릿풋 5LV EPIC">
+    <SILVER rate="100" min="215" max="315" />
+    <ITEM rate="50" max="1" id="31010000" />
+    <ITEM rate="100" max="1" id="30000000" />
+    <ITEM rate="100" max="1" id="30000002" />
+    <ITEM rate="80" max="1" id="30000001" />
+    <ITEM rate="50" max="1" id="30000005" />
+    <ITEM rate="100" id="50503" />
+    <ITEM rate="100" id="50503" bpart="1" />
+    <ITEM rate="100" id="50503" bpart="2" />
+    <ITEM rate="100" id="50505" />
+    <ITEM rate="100" id="50504" />
+    <ITEM rate="80" max="1" id="50505" />
+    <ITEM rate="80" max="1" id="50504" />
+  </LOOT>
+  <LOOT id="107011" comment="베스피오단 단원(남) 6LV">
+    <SILVER rate="50" min="13" max="15" />
+    <ITEM rate="70" id="10044" />
+    <ITEM rate="20" id="50001" />
+    <ITEM rate="40" id="50051" />
+    <ITEM rate="30" id="50512" />
+    <ITEM rate="30" id="58002" />
+    <ITEM rate="40" id="20004" />
+  </LOOT>
+  <LOOT id="107012" comment="베스피오단 단원(여) 6LV">
+    <SILVER rate="50" min="13" max="15" />
+    <ITEM rate="70" id="10044" />
+    <ITEM rate="20" id="50001" />
+    <ITEM rate="40" id="50051" />
+    <ITEM rate="30" id="50512" />
+    <ITEM rate="30" id="58002" />
+    <ITEM rate="40" id="20004" />
+  </LOOT>
+  <LOOT id="107013" comment="베스피오단 노상강도(남) 7LV">
+    <SILVER rate="50" min="18" max="20" />
+    <ITEM rate="80" id="10044" />
+    <ITEM rate="20" id="50001" />
+    <ITEM rate="40" id="50051" />
+    <ITEM rate="30" id="50512" />
+    <ITEM rate="100" id="10057" quest="107012" />
+    <ITEM rate="25" id="10007" quest="107018" />
+    <ITEM rate="30" id="58002" />
+    <ITEM rate="40" id="20006" />
+  </LOOT>
+  <LOOT id="107014" comment="베스피오단 노상강도(여) 7LV">
+    <SILVER rate="50" min="18" max="20" />
+    <ITEM rate="80" id="10044" />
+    <ITEM rate="20" id="50001" />
+    <ITEM rate="40" id="50051" />
+    <ITEM rate="30" id="50512" />
+    <ITEM rate="100" id="10057" quest="107012" />
+    <ITEM rate="25" id="10007" quest="107018" />
+    <ITEM rate="30" id="58002" />
+    <ITEM rate="40" id="20006" />
+  </LOOT>
+  <LOOT id="107015" comment="베스피오단 약탈자(남) 7LV">
+    <SILVER rate="50" min="18" max="20" />
+    <ITEM rate="80" id="10044" />
+    <ITEM rate="20" id="50001" />
+    <ITEM rate="40" id="50051" />
+    <ITEM rate="30" id="50512" />
+    <ITEM rate="100" id="10058" quest="107012" />
+    <ITEM rate="25" id="10007" quest="107018" />
+    <ITEM rate="30" id="58002" />
+    <ITEM rate="40" id="20006" />
+  </LOOT>
+  <LOOT id="107016" comment="베스피오단 약탈자(여) 7LV">
+    <SILVER rate="50" min="18" max="20" />
+    <ITEM rate="80" id="10044" />
+    <ITEM rate="20" id="50001" />
+    <ITEM rate="40" id="50051" />
+    <ITEM rate="30" id="50512" />
+    <ITEM rate="100" id="10058" quest="107012" />
+    <ITEM rate="25" id="10007" quest="107018" />
+    <ITEM rate="30" id="58002" />
+    <ITEM rate="40" id="20006" />
+  </LOOT>
+  <LOOT id="107017" comment="베스피오단 강탈자(남) 8LV">
+    <SILVER rate="50" min="22" max="26" />
+    <ITEM rate="100" id="10044" />
+    <ITEM rate="20" id="50001" />
+    <ITEM rate="40" id="50051" />
+    <ITEM rate="30" id="50512" />
+    <ITEM rate="30" id="58002" />
+    <ITEM rate="40" id="20007" />
+  </LOOT>
+  <LOOT id="107018" comment="베스피오단 강탈자(여) 8LV">
+    <SILVER rate="50" min="22" max="26" />
+    <ITEM rate="100" id="10044" />
+    <ITEM rate="20" id="50001" />
+    <ITEM rate="40" id="50051" />
+    <ITEM rate="30" id="50512" />
+    <ITEM rate="30" id="58002" />
+    <ITEM rate="40" id="20007" />
+  </LOOT>
+  <LOOT id="107019" comment="베스피오단 무법자(남) 8LV">
+    <SILVER rate="50" min="22" max="26" />
+    <ITEM rate="100" id="10044" />
+    <ITEM rate="20" id="50001" />
+    <ITEM rate="40" id="50051" />
+    <ITEM rate="30" id="50512" />
+    <ITEM rate="30" id="58002" />
+    <ITEM rate="40" id="20007" />
+  </LOOT>
+  <LOOT id="107020" comment="베스피오단 무법자(여) 8LV">
+    <SILVER rate="50" min="22" max="26" />
+    <ITEM rate="100" id="10044" />
+    <ITEM rate="20" id="50001" />
+    <ITEM rate="40" id="50051" />
+    <ITEM rate="30" id="50512" />
+    <ITEM rate="30" id="58002" />
+    <ITEM rate="40" id="20007" />
+  </LOOT>
+  <LOOT id="107021" comment="돌격대장 폼페이우스 9LV NAMED">
+    <SILVER rate="100" min="44" max="52" />
+    <ITEM rate="100" id="10044" />
+    <ITEM rate="40" id="50051" />
+    <ITEM rate="40" id="50512" />
+    <ITEM rate="100" id="50514" />
+  </LOOT>
+  <LOOT id="107023" comment="렌고트 공작원 6LV">
+    <ITEM rate="35" id="10066" quest="107046" />
+    <ITEM rate="40" id="50051" />
+    <ITEM rate="30" id="50510" />
+    <ITEM rate="15" id="50001" />
+    <ITEM rate="40" id="20003" />
+  </LOOT>
+  <LOOT id="107024" comment="렌고트 침략자 5LV">
+    <ITEM rate="40" id="50051" />
+    <ITEM rate="30" id="50510" />
+    <ITEM rate="15" id="50001" />
+    <ITEM rate="40" id="20003" />
+    <ITEM rate="40" max="1" id="20004" />
+  </LOOT>
+  <LOOT id="107025" comment="렌고트 궁수 5LV">
+    <ITEM rate="40" id="50051" />
+    <ITEM rate="30" id="50510" />
+    <ITEM rate="15" id="50001" />
+    <ITEM rate="40" id="20003" />
+    <ITEM rate="40" max="1" id="20007" />
+  </LOOT>
+  <LOOT id="107026" comment="렌고트부족 전령 5LV">
+    <ITEM rate="40" id="50051" />
+    <ITEM rate="30" id="50510" />
+    <ITEM rate="15" id="50001" />
+    <ITEM rate="40" id="20003" />
+    <ITEM rate="100" id="10045" quest="107043" />
+  </LOOT>
+  <LOOT id="107027" comment="렌고트 치료사 6LV">
+    <ITEM rate="40" id="50051" />
+    <ITEM rate="30" id="50510" />
+    <ITEM rate="15" id="50001" />
+    <ITEM rate="40" id="20003" />
+    <ITEM rate="40" max="1" id="20001" />
+  </LOOT>
+  <LOOT id="107028" comment="렌고트 공병 6LV">
+    <ITEM rate="40" id="50051" />
+    <ITEM rate="30" id="50510" />
+    <ITEM rate="15" id="50001" />
+    <ITEM rate="40" id="20003" />
+    <ITEM rate="40" max="1" id="20004" />
+  </LOOT>
+  <LOOT id="107029" comment="렌고트 호위병 6LV">
+    <ITEM rate="40" id="50051" />
+    <ITEM rate="30" id="50510" />
+    <ITEM rate="20" id="50001" />
+    <ITEM rate="28" id="50512" />
+    <ITEM rate="40" id="20004" />
+  </LOOT>
+  <LOOT id="107030" comment="감찰관 타리비 6LV NAMED">
+    <ITEM rate="40" id="50051" />
+    <ITEM rate="30" id="50510" />
+    <ITEM rate="30" id="50001" />
+    <ITEM rate="40" id="50512" />
+    <ITEM rate="40" id="20004" />
+  </LOOT>
+  <LOOT id="107031" comment="조련사 조나한 8LV NAMED">
+    <SILVER rate="100" min="44" max="52" />
+    <ITEM rate="30" id="50001" />
+    <ITEM rate="40" id="50051" />
+    <ITEM rate="40" id="50101" />
+    <ITEM rate="30" id="50151" />
+    <ITEM rate="30" id="50201" />
+    <ITEM rate="100" id="10044" />
+    <ITEM rate="100" id="50513" />
+  </LOOT>
+  <LOOT id="107032" comment="타락한 나무정령 8LV">
+    <ITEM rate="70" max="5" id="10001" quest="107085" />
+    <ITEM rate="20" id="50601" />
+    <ITEM rate="30" id="50516" />
+    <ITEM rate="40" id="50151" />
+    <ITEM rate="40" id="58004" />
+  </LOOT>
+  <LOOT id="107037" comment="복수의 라쿠리 8LV">
+    <SILVER rate="100" min="22" max="26" />
+    <ITEM rate="100" min="1" max="1" id="10041" quest="107016" />
+    <ITEM rate="100" id="10044" />
+  </LOOT>
+  <LOOT id="107045" comment="야생 우르크 6LV">
+    <ITEM rate="40" id="50101" />
+    <ITEM rate="30" id="50151" />
+    <ITEM rate="30" id="58003" />
+    <ITEM rate="40" id="20005" />
+  </LOOT>
+  <LOOT id="107047" comment="혼란스런 나무정령 7LV">
+    <ITEM rate="80" max="8" id="10001" quest="107085" />
+    <ITEM rate="20" id="50601" />
+    <ITEM rate="30" id="50516" />
+    <ITEM rate="40" id="50151" />
+    <ITEM rate="40" id="58004" />
+  </LOOT>
+  <LOOT id="107054" comment="렌고트 음유시인 고비 8LV">
+    <ITEM rate="50" max="1" id="30000102" />
+    <ITEM rate="50" max="1" id="30000106" />
+    <ITEM rate="100" id="41000" />
+  </LOOT>
+  <LOOT id="107055" comment="검은갈기늑대 8LV">
+    <ITEM rate="20" max="1" id="30000101" />
+    <ITEM rate="20" max="1" id="30000100" />
+    <ITEM rate="40" max="5" id="50101" />
+    <ITEM rate="40" max="5" id="58000" />
+    <ITEM rate="40" max="5" id="20001" />
+    <ITEM rate="40" max="5" id="20004" />
+    <ITEM rate="40" max="5" id="20005" />
+  </LOOT>
+  <LOOT id="107056" comment="베스피오단 요리사 7LV">
+    <ITEM rate="10" max="1" id="30000103" />
+    <ITEM rate="10" max="1" id="30000105" />
+    <ITEM rate="15" max="1" id="30000107" />
+    <ITEM rate="30" max="10" id="30011" />
+    <ITEM rate="30" max="10" id="30012" />
+    <ITEM rate="30" max="10" id="30013" />
+  </LOOT>
+  <LOOT id="107209" comment="밀가루 포대">
+    <ITEM rate="100" id="58002" />
+  </LOOT>
+  <LOOT id="107210" comment="수리용 부품 상자">
+    <ITEM rate="100" id="10043" />
+  </LOOT>
+  <LOOT id="107225" comment="굵은 장작개비" max="1">
+    <ITEM rate="100" min="1" max="3" id="10001" />
+  </LOOT>
+  <LOOT id="107236" comment="시집">
+    <ITEM rate="100" id="10040" />
+  </LOOT>
+  <LOOT id="107243" comment="고블린어가 적힌 문서">
+    <ITEM rate="100" id="10006" />
+  </LOOT>
+  <LOOT id="107244" comment="청색 리시안사스">
+    <ITEM rate="100" min="1" max="4" id="10062" />
+  </LOOT>
+  <LOOT id="107245" comment="흰색 안개초">
+    <ITEM rate="100" min="1" max="4" id="10063" />
+  </LOOT>
+  <LOOT id="107246" comment="금잔화">
+    <ITEM rate="100" min="1" max="4" id="10064" />
+  </LOOT>
+  <LOOT id="107257" comment="테레스 광맥">
+    <ITEM rate="100" min="1" max="2" id="50001" />
+    <ITEM rate="100" id="10115" quest="3021" />
+    <ITEM rate="10" id="50251" />
+    <ITEM rate="10" id="50301" />
+    <ITEM rate="10" id="50001" />
+  </LOOT>
+  <LOOT id="107258" comment="테레스 약초">
+    <ITEM rate="100" min="1" max="2" id="50201" />
+    <ITEM rate="10" id="50201" />
+    <ITEM rate="100" id="10115" quest="3021" />
+    <ITEM rate="1" max="1" id="20002000" />
+    <ITEM rate="1" max="1" id="20002002" />
+    <ITEM rate="1" max="1" id="20002003" />
+    <ITEM rate="1" max="1" id="20002004" />
+    <ITEM rate="1" max="1" id="20002005" />
+    <ITEM rate="1" max="1" id="20002007" />
+    <ITEM rate="5" max="1" id="39999000" />
+  </LOOT>
+  <LOOT id="107259" comment="테레스 상자">
+    <ITEM rate="100" min="2" max="2" id="10115" quest="3021" />
+    <ITEM rate="50" max="1" id="50251" />
+    <ITEM rate="50" max="1" id="50301" />
+    <ITEM rate="60" max="1" id="50500" />
+    <ITEM rate="100" max="1" id="50512" />
+    <ITEM rate="1" max="1" id="20002000" />
+    <ITEM rate="1" max="1" id="20002002" />
+    <ITEM rate="1" max="1" id="20002003" />
+    <ITEM rate="1" max="1" id="20002004" />
+    <ITEM rate="1" max="1" id="20002005" />
+    <ITEM rate="1" max="1" id="20002007" />
+  </LOOT>
+  <LOOT id="107260" comment="테레스 목재">
+    <ITEM rate="100" min="1" max="2" id="50151" />
+    <ITEM rate="10" id="50151" />
+    <ITEM rate="100" id="10115" quest="3021" />
+  </LOOT>
+  <LOOT id="109030" comment="옐로" max="1">
+    <ITEM rate="100" min="2" max="2" id="50051" />
+    <SILVER rate="100" min="10" max="15" />
+  </LOOT>
+  <LOOT id="109037" comment="부러진 돛대 광맥(폐기)">
+    <ITEM rate="100" min="1" max="2" id="50001" />
+  </LOOT>
+  <LOOT id="109038" comment="부러진 돛대 약초(폐기)">
+    <ITEM rate="100" min="1" max="2" id="50201" />
+  </LOOT>
+  <LOOT id="109039" comment="부러진 돛대 상자">
+    <ITEM rate="100" max="2" id="20012" />
+    <ITEM rate="50" max="1" id="50251" />
+    <ITEM rate="50" max="1" id="50900" />
+    <ITEM rate="50" max="1" id="50901" />
+    <ITEM rate="50" max="1" id="50902" />
+    <ITEM rate="100" max="2" id="30011" />
+    <ITEM rate="100" max="2" id="30012" />
+  </LOOT>
+  <LOOT id="109040" comment="부러진 돛대 목재(폐기)">
+    <ITEM rate="100" max="2" id="50151" />
+  </LOOT>
+  <LOOT id="109099" comment="까르엔 2LV RARE">
+    <ITEM rate="100" max="2" id="50001" />
+    <ITEM rate="100" max="2" id="50051" />
+    <ITEM rate="100" max="2" id="50101" />
+    <ITEM rate="100" max="2" id="50151" />
+    <ITEM rate="100" max="2" id="50151" />
+    <ITEM rate="100" max="2" id="50201" />
+  </LOOT>
+  <LOOT id="109100" comment="크라울러 5LV EPIC">
+    <SILVER rate="100" min="215" max="315" />
+    <ITEM rate="100" id="50904" />
+    <ITEM rate="100" id="50904" />
+    <ITEM rate="100" id="50904" bpart="1" />
+    <ITEM rate="100" id="50904" bpart="2" />
+    <ITEM rate="100" id="50904" />
+    <ITEM rate="100" id="50904" />
+    <ITEM rate="100" id="50904" />
+  </LOOT>
+  <LOOT id="109103" comment="방패게">
+    <ITEM rate="50" min="1" max="1" id="58017" />
+    <ITEM rate="40" min="1" max="1" id="20009" />
+    <ITEM rate="40" min="1" max="1" id="50900" />
+    <ITEM rate="70" min="1" max="1" id="10027" quest="109010" />
+    <ITEM rate="50" min="1" max="1" id="50001" />
+  </LOOT>
+  <LOOT id="109108" comment="크라울러 유인제">
+    <ITEM rate="100" id="10076" quest="109071" />
+  </LOOT>
+  <LOOT id="109109" comment="벨피노 보급품">
+    <ITEM rate="100" id="10086" quest="109105" />
+  </LOOT>
+  <LOOT id="109110" comment="에보스 시체">
+    <ITEM rate="100" id="10054" quest="109081" />
+  </LOOT>
+  <LOOT id="109118" comment="포악한 나무정령 3LV RARE">
+    <ITEM rate="70" max="2" id="30012" />
+    <ITEM rate="30" max="2" id="50001" />
+    <ITEM rate="30" max="2" id="50051" />
+    <ITEM rate="40" max="2" id="50151" />
+    <ITEM rate="100" max="2" id="50151" />
+    <ITEM rate="20" max="2" id="50201" />
+  </LOOT>
+  <LOOT id="109119" comment="고대 거북 3LV RARE">
+    <ITEM rate="70" max="2" id="30011" />
+    <ITEM rate="70" max="1" id="50001" />
+    <ITEM rate="30" max="1" id="20007" />
+    <ITEM rate="100" id="20005" />
+    <ITEM rate="70" max="1" id="50201" />
+  </LOOT>
+  <LOOT id="109120" comment="허약한 벌 1LV">
+    <ITEM rate="20" max="1" id="20002" />
+  </LOOT>
+  <LOOT id="109121" comment="이끼 하운터 2LV">
+    <ITEM rate="70" min="1" max="2" id="20001" />
+    <ITEM rate="30" min="1" max="2" id="20005" />
+    <ITEM rate="50" min="1" max="1" id="50101" />
+    <ITEM rate="80" id="10012" quest="109021" />
+    <ITEM rate="50" min="1" max="1" id="58016" />
+  </LOOT>
+  <LOOT id="109122" comment="새끼 늑대 2LV">
+    <ITEM rate="70" min="1" max="2" id="20004" />
+    <ITEM rate="30" min="1" max="2" id="20001" />
+    <ITEM rate="50" min="1" max="1" id="50101" />
+  </LOOT>
+  <LOOT id="109123" comment="연약한 사슴 2LV">
+    <ITEM rate="70" min="1" max="2" id="20005" />
+    <ITEM rate="30" min="1" max="2" id="20004" />
+    <ITEM rate="50" min="1" max="1" id="50101" />
+  </LOOT>
+  <LOOT id="109201" comment="모켄의 해적(남) 3LV">
+    <SILVER rate="45" min="3" max="4" />
+    <ITEM rate="50" id="20010" />
+    <ITEM rate="50" id="20011" />
+    <ITEM rate="30" id="50051" />
+    <ITEM rate="20" id="50902" />
+    <ITEM rate="1" max="1" id="2221" />
+    <ITEM rate="1" max="1" id="2222" />
+    <ITEM rate="1" max="1" id="2223" />
+    <ITEM rate="1" max="1" id="2224" />
+    <ITEM rate="1" max="1" id="2225" />
+    <ITEM rate="10" id="30012" />
+  </LOOT>
+  <LOOT id="109202" comment="모켄의 해적(여) 3LV">
+    <SILVER rate="45" min="3" max="4" />
+    <ITEM rate="50" id="20010" />
+    <ITEM rate="50" id="20011" />
+    <ITEM rate="30" id="50051" />
+    <ITEM rate="20" id="50902" />
+    <ITEM rate="1" max="1" id="2221" />
+    <ITEM rate="1" max="1" id="2222" />
+    <ITEM rate="1" max="1" id="2223" />
+    <ITEM rate="1" max="1" id="2224" />
+    <ITEM rate="1" max="1" id="2225" />
+    <ITEM rate="10" id="30012" />
+  </LOOT>
+  <LOOT id="109205" comment="오염된 에보스 수렵민 2LV">
+    <ITEM rate="50" min="1" max="1" id="20002" />
+    <ITEM rate="50" min="1" max="1" id="20010" />
+    <ITEM rate="30" min="1" max="1" id="50001" />
+    <ITEM rate="40" min="1" max="1" id="50101" />
+    <SILVER rate="50" min="10" max="15" />
+    <ITEM rate="10" min="1" max="1" id="30011" />
+  </LOOT>
+  <LOOT id="109206" comment="오염된 에보스 마법사 2LV">
+    <ITEM rate="50" min="1" max="1" id="20002" />
+    <ITEM rate="50" min="1" max="1" id="20011" />
+    <ITEM rate="30" min="1" max="1" id="50051" />
+    <ITEM rate="30" min="1" max="1" id="50901" />
+    <SILVER rate="50" min="10" max="15" />
+    <ITEM rate="10" min="1" max="1" id="30011" />
+  </LOOT>
+  <LOOT id="109207" comment="벨피노 해병(남) 4LV">
+    <SILVER rate="45" min="16" max="22" />
+    <ITEM rate="40" min="1" max="1" id="20010" />
+    <ITEM rate="40" min="1" max="1" id="20003" />
+    <ITEM rate="40" min="1" max="1" id="50051" />
+    <ITEM rate="30" min="1" max="1" id="50902" />
+    <ITEM rate="30" min="1" max="1" id="50001" />
+    <ITEM rate="15" min="1" max="1" id="30012" />
+  </LOOT>
+  <LOOT id="109208" comment="벨피노 해병(여) 4LV">
+    <SILVER rate="45" min="2" max="4" />
+    <ITEM rate="40" min="1" max="1" id="20010" />
+    <ITEM rate="40" min="1" max="1" id="20003" />
+    <ITEM rate="40" min="1" max="1" id="50051" />
+    <ITEM rate="30" min="1" max="1" id="50902" />
+    <ITEM rate="30" min="1" max="1" id="50001" />
+    <ITEM rate="15" min="1" max="1" id="30012" />
+  </LOOT>
+  <LOOT id="109209" comment="벨피노 승무원(남) 3LV">
+    <SILVER rate="45" min="2" max="4" />
+    <ITEM rate="50" min="1" max="1" id="20010" />
+    <ITEM rate="50" min="1" max="1" id="20003" />
+    <ITEM rate="30" min="1" max="1" id="50151" />
+    <ITEM rate="20" min="1" max="1" id="50902" />
+    <ITEM rate="15" min="1" max="1" id="30012" />
+  </LOOT>
+  <LOOT id="109210" comment="벨피노 승무원(여) 3LV">
+    <SILVER rate="45" min="2" max="4" />
+    <ITEM rate="50" min="1" max="1" id="20010" />
+    <ITEM rate="50" min="1" max="1" id="20003" />
+    <ITEM rate="30" min="1" max="1" id="50151" />
+    <ITEM rate="20" min="1" max="1" id="50902" />
+    <ITEM rate="15" min="1" max="1" id="30012" />
+  </LOOT>
+  <LOOT id="109216" comment="에보스 낚시꾼 1LV">
+    <SILVER rate="45" min="1" max="3" />
+    <ITEM rate="50" id="20002" />
+    <ITEM rate="50" id="20007" />
+    <ITEM rate="80" id="50101" />
+    <ITEM rate="30" id="50001" />
+    <ITEM rate="30" id="50101" />
+    <ITEM rate="10" id="30011" />
+    <ITEM rate="100" id="10016" quest="109061" />
+  </LOOT>
+  <LOOT id="109219" comment="오염된 에보스 전사 4LV">
+    <SILVER rate="50" min="10" max="15" />
+    <ITEM rate="50" id="20003" />
+    <ITEM rate="50" id="20006" />
+    <ITEM rate="30" id="50001" />
+    <ITEM rate="40" id="50101" />
+    <ITEM rate="10" id="30011" />
+  </LOOT>
+  <LOOT id="109220" comment="알펜 제독 5LV RARE">
+    <SILVER rate="100" min="10" max="20" />
+    <ITEM rate="100" max="2" id="50051" />
+    <ITEM rate="100" id="50902" />
+    <ITEM rate="20" id="20012" />
+  </LOOT>
+  <LOOT id="109221" comment="모켄" max="1">
+    <SILVER rate="100" min="40" max="50" />
+    <ITEM rate="50" min="1" max="1" id="30012" />
+    <ITEM rate="40" min="1" max="2" id="50201" />
+    <ITEM rate="50" min="1" max="2" id="50101" />
+  </LOOT>
+  <LOOT id="109223" comment="더 악화된 에보스 수렵민 3LV">
+    <SILVER rate="50" min="5" max="9" />
+    <ITEM rate="50" id="20004" />
+    <ITEM rate="50" id="20005" />
+    <ITEM rate="30" id="50001" />
+    <ITEM rate="30" id="50101" />
+    <ITEM rate="10" id="30011" />
+  </LOOT>
+  <LOOT id="109224" comment="더 악화된 에보스 마법사 3LV">
+    <SILVER rate="50" min="5" max="9" />
+    <ITEM rate="50" id="20011" />
+    <ITEM rate="50" id="20002" />
+    <ITEM rate="30" id="50051" />
+    <ITEM rate="30" id="50201" />
+    <ITEM rate="10" id="30011" />
+  </LOOT>
+  <LOOT id="109225" comment="더 악화된 마리옹 주술사 3LV">
+    <SILVER rate="50" min="5" max="9" />
+    <ITEM rate="50" id="20008" />
+    <ITEM rate="50" id="20006" />
+    <ITEM rate="30" id="50051" />
+    <ITEM rate="30" id="50201" />
+    <ITEM rate="10" id="30011" />
+  </LOOT>
+  <LOOT id="109226" comment="더 악화된 마리옹 전사 3LV">
+    <SILVER rate="50" min="5" max="9" />
+    <ITEM rate="50" id="20003" />
+    <ITEM rate="50" id="20010" />
+    <ITEM rate="30" id="50001" />
+    <ITEM rate="30" id="50101" />
+    <ITEM rate="10" id="30011" />
+  </LOOT>
+  <LOOT id="109301" comment="수상한 마법사 3LV">
+    <SILVER rate="50" min="10" max="15" />
+    <ITEM rate="100" min="1" max="1" id="10039" quest="109016" />
+    <ITEM rate="30" min="1" max="1" id="20001" />
+    <ITEM rate="30" min="1" max="1" id="20005" />
+    <ITEM rate="40" min="1" max="1" id="50051" />
+    <ITEM rate="30" min="1" max="1" id="50201" />
+    <ITEM rate="10" min="1" max="1" id="30012" />
+  </LOOT>
+  <LOOT id="109308" comment="항해사 올레 4LV RARE">
+    <SILVER rate="50" min="20" max="40" />
+    <ITEM rate="100" min="1" max="1" id="10083" quest="109101" />
+    <ITEM rate="50" min="1" max="1" id="20010" />
+    <ITEM rate="50" min="1" max="1" id="20003" />
+    <ITEM rate="30" min="1" max="1" id="50151" />
+    <ITEM rate="20" min="1" max="1" id="50902" />
+    <ITEM rate="70" min="1" max="1" id="50051" />
+  </LOOT>
+  <LOOT id="109309" comment="부관 잭슨 4LV RARE">
+    <SILVER rate="50" min="20" max="40" />
+    <ITEM rate="100" min="1" max="1" id="10084" quest="109101" />
+    <ITEM rate="50" min="1" max="1" id="20010" />
+    <ITEM rate="50" min="1" max="1" id="20003" />
+    <ITEM rate="30" min="1" max="1" id="50101" />
+    <ITEM rate="20" min="1" max="1" id="50902" />
+    <ITEM rate="20" min="1" max="1" id="50051" />
+  </LOOT>
+  <LOOT id="109310" comment="튜토리얼 일반몹들">
+    <ITEM rate="100" id="50903" />
+    <ITEM rate="50" id="20006" />
+    <ITEM rate="20" id="20007" />
+  </LOOT>
+  <LOOT id="109311" comment="튜토리얼 돌격대장 바우스">
+    <ITEM rate="100" min="2" max="4" id="50903" />
+    <ITEM rate="50" id="20006" />
+    <ITEM rate="20" id="20007" />
+  </LOOT>
+  <LOOT id="109316" comment="바다 트롤 4LV">
+    <ITEM rate="75" min="1" max="1" id="10113" quest="109020" />
+    <ITEM rate="40" min="1" max="1" id="50101" />
+    <ITEM rate="50" min="1" max="1" id="20005" />
+    <ITEM rate="30" min="1" max="1" id="50001" />
+    <ITEM rate="30" min="1" max="1" id="50201" />
+  </LOOT>
+  <LOOT id="109317" comment="바다 에보스 2LV">
+    <ITEM rate="20" min="1" max="1" id="30011" />
+    <ITEM rate="30" min="1" max="1" id="50101" />
+    <ITEM rate="50" min="1" max="1" id="50001" />
+  </LOOT>
+  <LOOT id="109318" comment="바다 에보스 광전사 4LV">
+    <ITEM rate="75" min="1" max="1" id="10113" quest="109020" />
+    <ITEM rate="30" min="1" max="1" id="50001" />
+    <ITEM rate="30" min="1" max="1" id="50201" />
+    <ITEM rate="40" min="1" max="1" id="50101" />
+    <ITEM rate="50" min="1" max="1" id="20005" />
+  </LOOT>
+  <LOOT id="109320" comment="오염된 마리옹 주술사 3LV">
+    <SILVER rate="50" min="5" max="9" />
+    <ITEM rate="50" id="20007" />
+    <ITEM rate="50" id="20011" />
+    <ITEM rate="30" id="50051" />
+    <ITEM rate="30" id="50201" />
+    <ITEM rate="10" id="30011" />
+  </LOOT>
+  <LOOT id="109321" comment="오염된 마리옹 전사 3LV">
+    <SILVER rate="50" min="5" max="9" />
+    <ITEM rate="50" id="20004" />
+    <ITEM rate="50" id="20010" />
+    <ITEM rate="30" id="50001" />
+    <ITEM rate="30" id="50101" />
+    <ITEM rate="10" id="30011" />
+  </LOOT>
+  <LOOT id="109825" comment="오우거 해적 2LV" max="1">
+    <ITEM rate="100" max="1" id="50101" />
+  </LOOT>
+  <LOOT id="110001" comment="보르고 14LV EPIC">
+    <SILVER rate="100" min="1345" max="2345" />
+    <ITEM rate="100" max="1" id="30000205" />
+    <ITEM rate="100" max="1" id="30000201" />
+    <ITEM rate="80" max="1" id="30000208" />
+    <ITEM rate="50" max="1" id="30000200" />
+    <ITEM rate="25" id="30003" />
+    <ITEM rate="50" id="20005" />
+    <ITEM rate="40" id="20006" />
+  </LOOT>
+  <LOOT id="110002" comment="렌고트부족 일꾼 9LV">
+    <ITEM rate="40" id="20006" />
+    <ITEM rate="40" id="20001" />
+    <ITEM rate="30" id="50151" />
+  </LOOT>
+  <LOOT id="110003" comment="렌고트부족 대장장이 12LV">
+    <ITEM rate="33" id="10020" quest="110026" />
+    <ITEM rate="40" id="10021" />
+    <ITEM rate="30" id="50532" />
+    <ITEM rate="25" id="50533" />
+    <ITEM rate="40" id="20004" />
+    <ITEM rate="40" id="20006" />
+    <ITEM rate="40" id="20007" />
+  </LOOT>
+  <LOOT id="110004" comment="렌고트부족 사육사 9LV">
+    <ITEM rate="40" id="20008" />
+    <ITEM rate="30" id="50151" />
+    <ITEM rate="30" id="58006" />
+    <ITEM rate="40" id="20005" />
+    <ITEM rate="40" id="20008" />
+    <ITEM rate="40" id="20010" />
+  </LOOT>
+  <LOOT id="110005" comment="렌고트부족 전사 9LV">
+    <ITEM rate="25" id="50530" />
+    <ITEM rate="40" id="50101" />
+    <ITEM rate="40" id="20004" />
+    <ITEM rate="40" id="20006" />
+    <ITEM rate="40" id="20007" />
+  </LOOT>
+  <LOOT id="110006" comment="렌고트부족 마법사 9LV">
+    <ITEM rate="25" id="50526" />
+    <ITEM rate="40" id="50051" />
+    <ITEM rate="25" id="50535" />
+    <ITEM rate="40" id="20004" />
+    <ITEM rate="40" id="20006" />
+    <ITEM rate="40" id="20007" />
+  </LOOT>
+  <LOOT id="110007" comment="렌고트부족 사수 9LV">
+    <ITEM rate="25" id="50525" />
+    <ITEM rate="40" id="50101" />
+    <ITEM rate="40" id="20004" />
+    <ITEM rate="40" id="20006" />
+    <ITEM rate="40" id="20007" />
+  </LOOT>
+  <LOOT id="110009" comment="심지달린 폭탄" max="1">
+    <ITEM rate="100" id="10067" quest="110009" />
+  </LOOT>
+  <LOOT id="110011" comment="고블린 골렘 12LV EPIC">
+    <SILVER rate="100" min="1010" max="2010" />
+    <ITEM rate="25" max="1" id="31020000" />
+    <ITEM rate="25" max="1" id="31020200" />
+    <ITEM rate="100" max="1" id="30000201" />
+    <ITEM rate="100" max="1" id="30000203" />
+    <ITEM rate="80" max="1" id="30000209" />
+    <ITEM rate="50" max="1" id="30000207" />
+    <ITEM rate="100" id="50535" />
+    <ITEM rate="100" id="50536" />
+    <ITEM rate="100" id="50537" />
+    <ITEM rate="100" id="50538" bpart="1" />
+    <ITEM rate="100" id="10038" quest="110033" bpart="1" />
+    <ITEM rate="100" id="50537" />
+    <ITEM rate="100" id="50536" />
+    <ITEM rate="100" max="1" id="50538" />
+  </LOOT>
+  <LOOT id="110013" comment="렌고트부족 정예병 11LV">
+    <ITEM rate="40" id="20006" />
+    <ITEM rate="50" id="20001" />
+    <ITEM rate="30" id="50530" />
+    <ITEM rate="25" id="50001" />
+  </LOOT>
+  <LOOT id="110014" comment="렌고트부족 사냥꾼 12LV">
+    <ITEM rate="40" id="20007" />
+    <ITEM rate="40" id="20004" />
+    <ITEM rate="30" id="50525" />
+    <ITEM rate="40" id="50101" />
+  </LOOT>
+  <LOOT id="110016" comment="렌고트부족 낚시꾼 10LV">
+    <ITEM rate="70" max="5" id="10009" quest="110031" />
+    <ITEM rate="40" min="1" max="2" id="20002" />
+    <ITEM rate="10" id="50051" />
+    <ITEM rate="20" id="58005" />
+    <ITEM rate="20" id="58007" />
+    <ITEM rate="10" id="58010" />
+  </LOOT>
+  <LOOT id="110017" comment="렌고트부족 수석낚시꾼 11LV RARE">
+    <ITEM rate="100" min="4" max="12" id="10009" quest="110031" />
+    <ITEM rate="40" min="2" max="3" id="20002" />
+    <ITEM rate="40" id="20007" />
+    <ITEM rate="40" id="50051" />
+    <ITEM rate="100" id="58005" />
+    <ITEM rate="50" id="58007" />
+    <ITEM rate="50" id="58010" />
+  </LOOT>
+  <LOOT id="110018" comment="렌고트부족 석공 12LV">
+    <ITEM rate="25" id="50532" />
+    <ITEM rate="30" id="50533" />
+    <ITEM rate="40" id="20004" />
+    <ITEM rate="40" id="20006" />
+    <ITEM rate="40" id="20007" />
+  </LOOT>
+  <LOOT id="110019" comment="렌고트부족 저항군 12LV">
+    <ITEM rate="40" id="20004" />
+    <ITEM rate="40" id="50051" />
+    <ITEM rate="30" id="50526" />
+    <ITEM rate="30" id="50535" />
+  </LOOT>
+  <LOOT id="110021" comment="진군대장 브라비 9LV RARE">
+    <ITEM rate="40" id="20001" />
+    <ITEM rate="40" id="20005" />
+    <ITEM rate="40" id="20006" />
+    <ITEM rate="100" min="1" max="3" id="50051" />
+    <ITEM rate="100" id="50530" />
+    <ITEM rate="100" id="50535" />
+  </LOOT>
+  <LOOT id="110024" comment="장군 카라비 11LV RARE">
+    <ITEM rate="80" id="30000201" />
+    <ITEM rate="40" id="20001" />
+    <ITEM rate="40" id="20004" />
+    <ITEM rate="100" id="50001" />
+    <ITEM rate="100" max="2" id="50530" />
+  </LOOT>
+  <LOOT id="110026" comment="렌고트부족 광부 12LV">
+    <ITEM rate="60" id="10026" quest="110032" />
+    <ITEM rate="20" id="50532" />
+    <ITEM rate="20" id="50533" />
+    <ITEM rate="40" id="20001" />
+  </LOOT>
+  <LOOT id="110027" comment="렌고트부족 수석광부 12LV RARE">
+    <SILVER rate="100" min="8" max="10" />
+    <ITEM rate="100" max="3" id="10026" quest="110032" />
+    <ITEM rate="60" max="2" id="50532" />
+    <ITEM rate="60" max="2" id="50533" />
+    <ITEM rate="15" id="50251" />
+    <ITEM rate="15" id="50301" />
+  </LOOT>
+  <LOOT id="110028" comment="주술사 펜딕 12LV RARE">
+    <ITEM rate="10" id="30000202" />
+    <ITEM rate="10" id="30000206" />
+    <ITEM rate="15" id="30000209" />
+    <ITEM rate="100" max="2" id="50535" />
+    <ITEM rate="70" id="50251" />
+    <ITEM rate="70" id="50301" />
+    <ITEM rate="40" id="20007" />
+    <ITEM rate="40" id="20004" />
+  </LOOT>
+  <LOOT id="110033" comment="주술에 걸린 말벌 11LV">
+    <ITEM rate="40" id="20002" />
+    <ITEM rate="10" id="50535" />
+  </LOOT>
+  <LOOT id="110034" comment="초승달 사슴 8LV">
+    <ITEM rate="40" id="20004" />
+    <ITEM rate="40" id="20005" />
+    <ITEM rate="30" id="50520" />
+    <ITEM rate="15" id="50535" />
+    <ITEM rate="20" id="50101" />
+    <ITEM rate="30" id="58018" />
+    <ITEM rate="50" id="10159" quest="110040" />
+  </LOOT>
+  <LOOT id="110035" comment="하운터 11LV">
+    <ITEM rate="40" id="20001" />
+    <ITEM rate="40" id="20004" />
+    <ITEM rate="40" id="20005" />
+    <ITEM rate="40" id="50101" />
+    <ITEM rate="30" id="58016" />
+  </LOOT>
+  <LOOT id="110036" comment="호저 10LV">
+    <ITEM rate="100" id="10011" quest="110042" />
+    <ITEM rate="20" id="50101" />
+    <ITEM rate="30" id="58006" />
+    <ITEM rate="25" id="50522" />
+    <ITEM rate="25" id="50523" />
+  </LOOT>
+  <LOOT id="110043" comment="흉폭한 호저 10LV RARE">
+    <ITEM rate="10" id="30000200" />
+    <ITEM rate="10" id="30000208" />
+    <ITEM rate="15" id="30000205" />
+    <ITEM rate="100" id="50522" />
+    <ITEM rate="100" id="50523" />
+    <ITEM rate="100" id="50101" />
+    <ITEM rate="100" max="3" id="58006" />
+    <ITEM rate="40" id="20004" />
+    <ITEM rate="40" id="20005" />
+    <ITEM rate="100" id="10011" quest="110042" />
+  </LOOT>
+  <LOOT id="110214" comment="망꾼초">
+    <ITEM rate="100" min="1" max="1" id="10010" />
+  </LOOT>
+  <LOOT id="110236" comment="렌고트 광맥">
+    <ITEM rate="100" min="1" max="2" id="50001" />
+    <ITEM rate="100" id="10115" quest="3021" />
+    <ITEM rate="10" id="50251" />
+    <ITEM rate="10" id="50301" />
+    <ITEM rate="10" id="50001" />
+  </LOOT>
+  <LOOT id="110237" comment="렌고트 약초">
+    <ITEM rate="100" min="1" max="2" id="50201" />
+    <ITEM rate="10" id="50201" />
+    <ITEM rate="100" id="10115" quest="3021" />
+    <ITEM rate="1" max="1" id="20002000" />
+    <ITEM rate="1" max="1" id="20002002" />
+    <ITEM rate="1" max="1" id="20002003" />
+    <ITEM rate="1" max="1" id="20002004" />
+    <ITEM rate="1" max="1" id="20002005" />
+    <ITEM rate="1" max="1" id="20002007" />
+    <ITEM rate="5" max="1" id="39999001" />
+  </LOOT>
+  <LOOT id="110238" comment="렌고트 상자">
+    <ITEM rate="100" min="2" max="2" id="10115" quest="3021" />
+    <ITEM rate="60" id="50251" />
+    <ITEM rate="60" max="1" id="50301" />
+    <ITEM rate="100" max="1" id="50533" />
+    <ITEM rate="1" max="1" id="20002000" />
+    <ITEM rate="1" max="1" id="20002002" />
+    <ITEM rate="1" max="1" id="20002003" />
+    <ITEM rate="1" max="1" id="20002004" />
+    <ITEM rate="1" max="1" id="20002005" />
+    <ITEM rate="1" max="1" id="20002007" />
+  </LOOT>
+  <LOOT id="110239" comment="렌고트 목재">
+    <ITEM rate="100" min="1" max="2" id="50151" />
+    <ITEM rate="10" id="50151" />
+    <ITEM rate="100" id="10115" quest="3021" />
+  </LOOT>
+  <LOOT id="110305" comment="오우거용병 보르고(전투지원) 10LV NAMED">
+    <SILVER rate="100" min="33" max="39" />
+    <ITEM rate="100" id="50528" />
+  </LOOT>
+  <LOOT id="111007" comment="광기의 코볼트 감정사 20LV">
+    <ITEM rate="30" id="50053" />
+    <ITEM rate="10" id="50253" />
+    <ITEM rate="10" id="50303" />
+    <ITEM rate="20" id="50830" />
+    <ITEM rate="20" id="50830" />
+    <ITEM rate="50" id="20207" />
+    <ITEM rate="100" id="10149" quest="111028" />
+    <ITEM rate="70" id="10147" quest="111040" />
+  </LOOT>
+  <LOOT id="111008" comment="르왕키 친위대 마법사 21LV">
+    <ITEM rate="30" id="50053" />
+    <ITEM rate="10" id="50822" />
+    <ITEM rate="3" id="50826" />
+    <ITEM rate="3" id="50827" />
+    <ITEM rate="20" id="50830" />
+    <ITEM rate="50" id="20207" />
+  </LOOT>
+  <LOOT id="111009" comment="르왕키 친위대 전사 21LV">
+    <ITEM rate="20" id="50003" />
+    <ITEM rate="10" id="50820" />
+    <ITEM rate="3" id="50828" />
+    <ITEM rate="3" id="50829" />
+    <ITEM rate="20" id="50830" />
+    <ITEM rate="50" id="20207" />
+  </LOOT>
+  <LOOT id="111010" comment="대족장 르왕키 22LV PARTY">
+    <SILVER rate="100" min="1030" max="1200" />
+    <ITEM rate="10" id="50826" />
+    <ITEM rate="10" id="50827" />
+    <ITEM rate="10" id="50828" />
+    <ITEM rate="15" min="1" max="2" id="50829" />
+    <ITEM rate="100" id="50830" />
+  </LOOT>
+  <LOOT id="111011" comment="광기의 코볼트 마법사 20LV">
+    <ITEM rate="30" id="50053" />
+    <ITEM rate="10" id="50822" />
+    <ITEM rate="3" id="50826" />
+    <ITEM rate="20" id="50830" />
+    <ITEM rate="50" id="20207" />
+    <ITEM rate="70" id="10135" quest="111011" />
+    <ITEM rate="70" id="10147" quest="111040" />
+  </LOOT>
+  <LOOT id="111012" comment="광기의 코볼트 전사 20LV">
+    <ITEM rate="30" id="50103" />
+    <ITEM rate="10" id="50820" />
+    <ITEM rate="3" id="50828" />
+    <ITEM rate="20" id="50830" />
+    <ITEM rate="50" id="20207" />
+    <ITEM rate="70" id="10135" quest="111011" />
+    <ITEM rate="100" id="10146" quest="111025" />
+    <ITEM rate="70" id="10147" quest="111040" />
+  </LOOT>
+  <LOOT id="111013" comment="광기의 코볼트 지휘관 20LV">
+    <ITEM rate="20" id="50003" />
+    <ITEM rate="10" id="50820" />
+    <ITEM rate="3" id="50829" />
+    <ITEM rate="20" id="50830" />
+    <ITEM rate="50" id="20207" />
+    <ITEM rate="70" id="10135" quest="111011" />
+    <ITEM rate="100" id="10146" quest="111025" />
+    <ITEM rate="70" id="10147" quest="111040" />
+  </LOOT>
+  <LOOT id="111014" comment="광기의 코볼트 명사수 20LV">
+    <ITEM rate="30" id="50053" />
+    <ITEM rate="10" id="50822" />
+    <ITEM rate="3" id="50827" />
+    <ITEM rate="20" id="50830" />
+    <ITEM rate="50" id="20207" />
+    <ITEM rate="70" id="10135" quest="111011" />
+    <ITEM rate="70" id="10147" quest="111040" />
+    <ITEM rate="100" id="10153" quest="111010" />
+  </LOOT>
+  <LOOT id="111015" comment="마코트 일족 감정사 20LV">
+    <ITEM rate="30" id="50053" />
+    <ITEM rate="10" id="50253" />
+    <ITEM rate="10" id="50303" />
+    <ITEM rate="30" id="50820" />
+    <ITEM rate="20" id="50830" />
+    <ITEM rate="20" id="50830" />
+    <ITEM rate="50" id="20207" />
+    <ITEM rate="100" id="10150" quest="111028" />
+  </LOOT>
+  <LOOT id="111021" comment="마코트 일족 마법사 20LV">
+    <ITEM rate="30" id="50053" />
+    <ITEM rate="10" id="50822" />
+    <ITEM rate="3" id="50826" />
+    <ITEM rate="20" id="50830" />
+    <ITEM rate="50" id="20207" />
+  </LOOT>
+  <LOOT id="111022" comment="마코트 일족 전사 20LV">
+    <ITEM rate="30" id="50103" />
+    <ITEM rate="10" id="50820" />
+    <ITEM rate="3" id="50828" />
+    <ITEM rate="20" id="50830" />
+    <ITEM rate="50" id="20207" />
+  </LOOT>
+  <LOOT id="111023" comment="마코트 일족 지휘관 20LV">
+    <ITEM rate="20" id="50003" />
+    <ITEM rate="10" id="50820" />
+    <ITEM rate="3" id="50829" />
+    <ITEM rate="20" id="50830" />
+    <ITEM rate="50" id="20207" />
+  </LOOT>
+  <LOOT id="111024" comment="마코트 일족 명사수 20LV">
+    <ITEM rate="30" id="50053" />
+    <ITEM rate="10" id="50822" />
+    <ITEM rate="3" id="50827" />
+    <ITEM rate="20" id="50830" />
+    <ITEM rate="50" id="20207" />
+    <ITEM rate="100" id="10153" quest="111010" />
+    <ITEM rate="100" id="10135" quest="111011" />
+  </LOOT>
+  <LOOT id="111030" comment="동굴박쥐 20LV">
+    <ITEM rate="40" id="50825" />
+    <ITEM rate="60" id="20205" />
+  </LOOT>
+  <LOOT id="111031" comment="박쥐 여왕 20LV RARE">
+    <ITEM rate="100" min="3" max="4" id="50103" />
+    <ITEM rate="100" min="1" max="2" id="50201" />
+    <ITEM rate="60" id="50253" />
+    <ITEM rate="60" id="50303" />
+    <ITEM rate="60" id="50820" />
+    <ITEM rate="60" id="50822" />
+    <ITEM rate="20" id="50827" />
+    <ITEM rate="100" id="50830" />
+    <ITEM rate="100" min="2" max="3" id="50825" />
+  </LOOT>
+  <LOOT id="111032" comment="새끼 동굴거미 19LV">
+    <ITEM rate="25" id="50103" />
+    <ITEM rate="5" id="50203" />
+    <ITEM rate="5" id="50253" />
+    <ITEM rate="30" id="50822" />
+    <ITEM rate="55" id="20204" />
+  </LOOT>
+  <LOOT id="111033" comment="동굴거미 20LV">
+    <ITEM rate="30" id="50103" />
+    <ITEM rate="6" id="50203" />
+    <ITEM rate="6" id="50253" />
+    <ITEM rate="40" id="50822" />
+    <ITEM rate="50" id="20204" />
+  </LOOT>
+  <LOOT id="111034" comment="어둠의 종속자 크라서스 22LV EPIC">
+    <SILVER rate="100" min="3170" max="4170" />
+    <ITEM rate="80" id="50807" />
+    <ITEM rate="80" id="50808" />
+    <ITEM rate="100" min="3" max="5" id="50830" />
+    <ITEM rate="100" id="50807" bpart="1" />
+    <ITEM rate="100" id="50808" bpart="3" />
+    <ITEM rate="100" min="11" max="20" id="50820" bpart="2" />
+    <ITEM rate="100" id="30000400" />
+    <ITEM rate="100" id="30000402" />
+    <ITEM rate="80" id="30000401" />
+    <ITEM rate="50" id="30000403" />
+    <ITEM rate="100" id="31030102" bpart="1" />
+    <ITEM rate="100" id="10156" quest="111032" />
+    <ITEM rate="100" id="10154" />
+  </LOOT>
+  <LOOT id="111035" comment="마귀벌레 20LV">
+    <ITEM rate="30" id="50103" />
+    <ITEM rate="6" id="50203" />
+    <ITEM rate="6" id="50253" />
+    <ITEM rate="30" id="50820" />
+    <ITEM rate="50" id="20206" />
+  </LOOT>
+  <LOOT id="111038" comment="친위대원 막스키 20LV NAMED">
+    <ITEM rate="30" id="50003" />
+    <ITEM rate="15" id="50820" />
+    <ITEM rate="6" id="50829" />
+    <ITEM rate="20" id="50830" />
+    <ITEM rate="50" id="20207" />
+    <ITEM rate="100" id="10151" quest="111030" />
+  </LOOT>
+  <LOOT id="111039" comment="크르흐 20LV NAMED">
+    <ITEM rate="40" id="50053" />
+    <ITEM rate="15" id="50822" />
+    <ITEM rate="6" id="50827" />
+    <ITEM rate="20" id="50830" />
+    <ITEM rate="50" id="20207" />
+    <ITEM rate="100" id="10153" quest="111010" />
+    <ITEM rate="100" id="10135" quest="111011" />
+  </LOOT>
+  <LOOT id="111040" comment="르왕키의 전령 20LV">
+    <ITEM rate="30" id="50103" />
+    <ITEM rate="10" id="50820" />
+    <ITEM rate="3" id="50828" />
+    <ITEM rate="20" id="50830" />
+    <ITEM rate="50" id="20207" />
+    <ITEM rate="100" id="10155" quest="111035" />
+  </LOOT>
+  <LOOT id="111216" comment="슈나크의 머리 25LV">
+    <ITEM rate="100" id="10145" quest="111025" />
+  </LOOT>
+  <LOOT id="111300" comment="마코트 보물 상자">
+    <ITEM rate="100" id="10135" />
+  </LOOT>
+  <LOOT id="111301" comment="크르흐의 보물 상자">
+    <ITEM rate="100" id="10136" />
+    <ITEM rate="100" id="10134" />
+  </LOOT>
+  <LOOT id="111400" comment="마코트 부락 광맥">
+    <ITEM rate="100" min="1" max="2" id="50003" />
+    <ITEM rate="100" id="10115" quest="3023" />
+    <ITEM rate="10" id="50253" />
+    <ITEM rate="10" id="50303" />
+    <ITEM rate="10" id="50003" />
+  </LOOT>
+  <LOOT id="111401" comment="마코트 부락 약초">
+    <ITEM rate="100" min="1" max="2" id="50203" />
+    <ITEM rate="10" id="50203" />
+    <ITEM rate="100" id="10115" quest="3023" />
+    <ITEM rate="1" max="1" id="20002000" />
+    <ITEM rate="1" max="1" id="20002002" />
+    <ITEM rate="1" max="1" id="20002003" />
+    <ITEM rate="1" max="1" id="20002004" />
+    <ITEM rate="1" max="1" id="20002005" />
+    <ITEM rate="1" max="1" id="20002007" />
+    <ITEM rate="5" max="1" id="39999002" />
+  </LOOT>
+  <LOOT id="111402" comment="마코트 부락 상자">
+    <ITEM rate="50" id="50253" />
+    <ITEM rate="50" id="50303" />
+    <ITEM rate="100" min="2" max="2" id="10115" quest="3023" />
+    <ITEM rate="70" id="50820" />
+    <ITEM rate="12" id="50826" />
+    <ITEM rate="12" id="50827" />
+    <ITEM rate="12" id="50828" />
+    <ITEM rate="12" id="50829" />
+    <ITEM rate="70" id="50822" />
+    <ITEM rate="1" max="1" id="20002000" />
+    <ITEM rate="1" max="1" id="20002002" />
+    <ITEM rate="1" max="1" id="20002003" />
+    <ITEM rate="1" max="1" id="20002004" />
+    <ITEM rate="1" max="1" id="20002005" />
+    <ITEM rate="1" max="1" id="20002007" />
+  </LOOT>
+  <LOOT id="111403" comment="마코트 부락 목재">
+    <ITEM rate="100" min="1" max="2" id="50153" />
+    <ITEM rate="10" id="50153" />
+    <ITEM rate="100" id="10115" quest="3023" />
+  </LOOT>
+  <LOOT id="113010" comment="부폐한 시체 11LV">
+    <SILVER rate="50" min="33" max="53" />
+    <ITEM rate="75" id="10049" quest="113074" />
+    <ITEM rate="40" id="20101" />
+    <ITEM rate="30" id="50052" />
+    <ITEM rate="25" id="50601" />
+    <ITEM rate="25" id="50604" />
+  </LOOT>
+  <LOOT id="113011" comment="역병걸린 시체 12LV">
+    <SILVER rate="50" min="40" max="58" />
+    <ITEM rate="75" id="10050" quest="113074" />
+    <ITEM rate="40" id="20101" />
+    <ITEM rate="30" id="50052" />
+    <ITEM rate="25" id="50601" />
+    <ITEM rate="25" id="50604" />
+  </LOOT>
+  <LOOT id="113012" comment="변형된 시체 15LV">
+    <SILVER rate="50" min="66" max="86" />
+    <ITEM rate="80" id="10111" quest="113112" />
+    <ITEM rate="50" id="20101" />
+    <ITEM rate="50" id="20109" />
+    <ITEM rate="42" id="50052" />
+    <ITEM rate="22" id="50601" />
+    <ITEM rate="22" id="50604" />
+  </LOOT>
+  <LOOT id="113013" comment="시체 이그서 15LV RARE">
+    <ITEM rate="10" max="1" id="30000203" />
+    <ITEM rate="10" max="1" id="30000205" />
+    <ITEM rate="15" max="1" id="30000207" />
+    <ITEM rate="50" max="2" id="50601" />
+    <ITEM rate="50" max="2" id="50604" />
+    <ITEM rate="50" max="5" id="20101" />
+    <ITEM rate="50" max="5" id="20107" />
+    <ITEM rate="50" max="5" id="20109" />
+  </LOOT>
+  <LOOT id="113015" comment="해골 전사 10LV">
+    <SILVER rate="50" min="26" max="46" />
+    <ITEM rate="75" id="10051" quest="113127" />
+    <ITEM rate="40" id="20100" />
+    <ITEM rate="40" id="20101" />
+    <ITEM rate="20" id="50002" />
+    <ITEM rate="25" id="50600" />
+    <ITEM rate="30" id="50601" />
+  </LOOT>
+  <LOOT id="113016" comment="해골 궁수 11LV">
+    <SILVER rate="50" min="33" max="53" />
+    <ITEM rate="75" id="10051" quest="113127" />
+    <ITEM rate="40" id="20101" />
+    <ITEM rate="40" id="20102" />
+    <ITEM rate="30" id="50102" />
+    <ITEM rate="25" id="50600" />
+    <ITEM rate="30" id="50601" />
+  </LOOT>
+  <LOOT id="113035" comment="유령 종자 12LV">
+    <SILVER rate="50" min="40" max="60" />
+    <ITEM rate="85" id="10047" quest="113071" />
+    <ITEM rate="40" id="20105" />
+    <ITEM rate="40" id="20108" />
+    <ITEM rate="35" id="50052" />
+    <ITEM rate="35" id="50602" />
+    <ITEM rate="25" id="50606" />
+  </LOOT>
+  <LOOT id="113040" comment="길잃은 유령마 12LV">
+    <ITEM rate="85" id="10046" quest="113071" />
+    <ITEM rate="50" id="20104" />
+    <ITEM rate="50" id="20105" />
+    <ITEM rate="25" id="50602" />
+    <ITEM rate="25" id="50603" />
+    <ITEM rate="30" id="50605" />
+  </LOOT>
+  <LOOT id="113045" comment="유령 병사 13LV">
+    <SILVER rate="50" min="48" max="68" />
+    <ITEM rate="25" id="50002" />
+    <ITEM rate="30" id="50602" />
+    <ITEM rate="30" id="50603" />
+    <ITEM rate="30" id="50606" />
+    <ITEM rate="40" id="20103" />
+    <ITEM rate="40" id="20105" />
+  </LOOT>
+  <LOOT id="113046" comment="유령 궁수 13LV">
+    <SILVER rate="50" min="48" max="68" />
+    <ITEM rate="40" id="50102" />
+    <ITEM rate="30" id="50602" />
+    <ITEM rate="30" id="50603" />
+    <ITEM rate="30" id="50606" />
+    <ITEM rate="40" id="20102" />
+    <ITEM rate="40" id="20105" />
+  </LOOT>
+  <LOOT id="113055" comment="다크우드 봉봉 14LV">
+    <ITEM rate="50" id="20103" />
+    <ITEM rate="50" id="20106" />
+    <ITEM rate="25" id="50152" />
+    <ITEM rate="15" id="50607" />
+    <ITEM rate="80" id="58008" quest="113097" />
+    <ITEM rate="30" id="58008" />
+    <ITEM rate="30" id="58027" />
+  </LOOT>
+  <LOOT id="113056" comment="다크우드 봉봉 헌터 14LV">
+    <ITEM rate="50" id="20102" />
+    <ITEM rate="50" id="20106" />
+    <ITEM rate="25" id="50152" />
+    <ITEM rate="15" id="50607" />
+    <ITEM rate="80" id="58009" quest="113097" />
+    <ITEM rate="30" id="58009" />
+    <ITEM rate="30" id="58027" />
+  </LOOT>
+  <LOOT id="113057" comment="다크우드 봉봉 샤먼 14LV">
+    <ITEM rate="50" max="2" id="20106" />
+    <ITEM rate="25" id="50152" />
+    <ITEM rate="15" id="50607" />
+    <ITEM rate="80" id="58026" quest="113097" />
+    <ITEM rate="30" id="58026" />
+    <ITEM rate="30" id="58027" />
+  </LOOT>
+  <LOOT id="113060" comment="썩어가는 나무 정령 16LV">
+    <ITEM rate="70" id="10107" quest="113122" />
+    <ITEM rate="40" id="20100" />
+    <ITEM rate="40" id="20101" />
+    <ITEM rate="40" id="20106" />
+    <ITEM rate="40" id="50152" />
+    <ITEM rate="40" id="50516" />
+    <ITEM rate="30" id="58004" />
+    <ITEM rate="30" id="58011" />
+  </LOOT>
+  <LOOT id="113062" comment="부랑자 트롤 16LV">
+    <ITEM rate="50" id="20107" />
+    <ITEM rate="50" id="20110" />
+    <ITEM rate="40" id="50102" />
+    <ITEM rate="30" id="58025" />
+  </LOOT>
+  <LOOT id="113069" comment="거대 봉봉 14LV RARE">
+    <SILVER rate="100" min="46" max="62" />
+    <ITEM rate="100" id="10102" />
+    <ITEM rate="100" id="10100" quest="113095" />
+    <ITEM rate="40" id="50152" />
+    <ITEM rate="60" id="58027" />
+  </LOOT>
+  <LOOT id="113073" comment="욕심많은 베스피오단 15LV">
+    <SILVER rate="50" min="26" max="40" />
+    <ITEM rate="80" id="10111" quest="113112" />
+    <ITEM rate="40" id="20107" />
+    <ITEM rate="40" id="20108" />
+    <ITEM rate="25" id="50002" />
+    <ITEM rate="40" id="50532" />
+    <ITEM rate="30" id="50600" />
+    <ITEM rate="30" id="50604" />
+  </LOOT>
+  <LOOT id="113079" comment="게리온">
+    <ITEM rate="100" id="10106" quest="113110" />
+    <ITEM rate="50" id="50002" />
+    <ITEM rate="80" id="50532" />
+    <ITEM rate="60" id="50600" />
+    <ITEM rate="60" id="50604" />
+  </LOOT>
+  <LOOT id="113080" comment="유령마 그레스라이더 13LV RARE">
+    <ITEM rate="100" id="50602" />
+    <ITEM rate="60" id="50603" />
+    <ITEM rate="100" id="50605" />
+  </LOOT>
+  <LOOT id="113082" comment="매드맨 제이콥 13LV RARE">
+    <SILVER rate="100" min="40" max="50" />
+    <ITEM rate="100" id="10052" quest="113127" />
+    <ITEM rate="60" id="50052" />
+    <ITEM rate="50" id="50601" />
+    <ITEM rate="50" id="50604" />
+  </LOOT>
+  <LOOT id="113083" comment="타일런트 좀비 14LV EPIC">
+    <SILVER rate="100" min="1345" max="2345" />
+    <ITEM rate="50" id="31030102" />
+    <ITEM rate="100" id="30000206" />
+    <ITEM rate="100" id="30000202" />
+    <ITEM rate="80" id="30000204" />
+    <ITEM rate="50" id="30000209" />
+    <ITEM rate="100" id="50608" />
+    <ITEM rate="100" id="50609" bpart="1" />
+    <ITEM rate="80" id="50609" />
+    <ITEM rate="100" id="50610" />
+    <ITEM rate="80" id="50610" />
+  </LOOT>
+  <LOOT id="113084" comment="검은뿔 사슴 16LV">
+    <ITEM rate="70" id="10105" quest="113121" />
+    <ITEM rate="40" id="50102" />
+    <ITEM rate="40" id="50520" />
+    <ITEM rate="40" id="50535" />
+    <ITEM rate="30" id="58018" />
+    <ITEM rate="40" id="20101" />
+    <ITEM rate="30" id="20110" />
+  </LOOT>
+  <LOOT id="113088" comment="영웅의 오솔길 광맥">
+    <ITEM rate="100" min="1" max="2" id="50002" />
+    <ITEM rate="100" max="1" id="10115" quest="3022" />
+    <ITEM rate="10" id="50252" />
+    <ITEM rate="10" id="50302" />
+    <ITEM rate="10" id="50002" />
+  </LOOT>
+  <LOOT id="113089" comment="영웅의 오솔길 약초">
+    <ITEM rate="100" min="1" max="2" id="50202" />
+    <ITEM rate="10" id="50202" />
+    <ITEM rate="100" id="10115" quest="3022" />
+    <ITEM rate="1" max="1" id="20002000" />
+    <ITEM rate="1" max="1" id="20002002" />
+    <ITEM rate="1" max="1" id="20002003" />
+    <ITEM rate="1" max="1" id="20002004" />
+    <ITEM rate="1" max="1" id="20002005" />
+    <ITEM rate="1" max="1" id="20002007" />
+    <ITEM rate="5" max="1" id="39999001" />
+  </LOOT>
+  <LOOT id="113090" comment="영웅의 오솔길 상자">
+    <ITEM rate="100" min="2" max="2" id="10115" quest="3022" />
+    <ITEM rate="50" id="50252" />
+    <ITEM rate="50" id="50302" />
+    <ITEM rate="20" id="50600" />
+    <ITEM rate="20" id="50603" />
+    <ITEM rate="20" id="50605" />
+    <ITEM rate="20" id="50607" />
+    <ITEM rate="1" max="1" id="20002000" />
+    <ITEM rate="1" max="1" id="20002002" />
+    <ITEM rate="1" max="1" id="20002003" />
+    <ITEM rate="1" max="1" id="20002004" />
+    <ITEM rate="1" max="1" id="20002005" />
+    <ITEM rate="1" max="1" id="20002007" />
+  </LOOT>
+  <LOOT id="113091" comment="영웅의 오솔길 목재">
+    <ITEM rate="100" min="1" max="2" id="50152" />
+    <ITEM rate="10" id="50152" />
+    <ITEM rate="100" id="10115" quest="3022" />
+  </LOOT>
+  <LOOT id="113150" comment="묘지 늑대 13LV">
+    <ITEM rate="35" id="50102" />
+    <ITEM rate="40" id="50500" />
+    <ITEM rate="40" id="50502" />
+    <ITEM rate="30" id="58000" />
+    <ITEM rate="50" id="20110" />
+    <ITEM rate="50" id="20101" />
+  </LOOT>
+  <LOOT id="113160" comment="고스트라이더 30LV EPIC">
+    <SILVER rate="100" min="10000" max="16000" />
+    <ITEM rate="80" id="30000460" />
+    <ITEM rate="80" id="30000461" />
+    <ITEM rate="80" id="30000462" />
+    <ITEM rate="80" id="30000463" />
+    <ITEM rate="80" id="30000464" />
+    <ITEM rate="80" id="30000466" />
+    <ITEM rate="80" id="30000467" />
+    <ITEM rate="80" id="30000468" />
+  </LOOT>
+  <LOOT id="113226" comment="정리된 목재">
+    <ITEM rate="100" id="10104" quest="113120" />
+  </LOOT>
+  <LOOT id="113227" comment="거대 줄기">
+    <ITEM rate="100" id="10099" quest="113091" />
+  </LOOT>
+  <LOOT id="113246" comment="알케스트 꽃">
+    <ITEM rate="100" id="10022" quest="113020" />
+  </LOOT>
+  <LOOT id="121009" comment="아루카 15LV EPIC">
+    <SILVER rate="100" min="5000" max="6000" />
+    <ITEM rate="100" id="10101" quest="113101" />
+    <ITEM rate="30" id="50650" />
+    <ITEM rate="30" id="50651" />
+    <ITEM rate="30" id="50652" />
+    <ITEM rate="100" id="50653" />
+    <ITEM rate="100" id="58024" />
+  </LOOT>
+  <LOOT id="121012" comment="엘리트 봉봉 14LV PARTY">
+    <SILVER rate="100" min="437" max="537" />
+    <ITEM rate="40" id="20002" />
+    <ITEM rate="40" id="20106" />
+    <ITEM rate="30" id="50600" />
+    <ITEM rate="20" id="50607" />
+    <ITEM rate="30" id="58008" />
+    <ITEM rate="30" id="50653" />
+  </LOOT>
+  <LOOT id="121013" comment="엘리트 봉봉 헌터 14LV PARTY">
+    <SILVER rate="100" min="437" max="537" />
+    <ITEM rate="40" id="20002" />
+    <ITEM rate="40" id="20106" />
+    <ITEM rate="30" id="50600" />
+    <ITEM rate="20" id="50607" />
+    <ITEM rate="30" id="58009" />
+    <ITEM rate="30" id="50653" />
+  </LOOT>
+  <LOOT id="121014" comment="엘리트 봉봉 주술사 14LV PARTY">
+    <SILVER rate="100" min="437" max="537" />
+    <ITEM rate="40" id="20002" />
+    <ITEM rate="40" id="20106" />
+    <ITEM rate="30" id="50600" />
+    <ITEM rate="20" id="50607" />
+    <ITEM rate="60" id="58024" />
+    <ITEM rate="30" id="50653" />
+  </LOOT>
+  <LOOT id="121016" comment="메마른 봉봉 14LV PARTY">
+    <SILVER rate="100" min="437" max="537" />
+    <ITEM rate="40" id="20002" />
+    <ITEM rate="40" id="20106" />
+    <ITEM rate="30" id="50600" />
+    <ITEM rate="20" id="50607" />
+    <ITEM rate="30" id="58026" />
+    <ITEM rate="30" id="50653" />
+  </LOOT>
+  <LOOT id="121019" comment="화원의 주인 15LV EPIC">
+    <SILVER rate="100" min="5000" max="6000" />
+    <ITEM rate="100" id="10101" quest="113101" />
+    <ITEM rate="50" id="31040000" />
+    <ITEM rate="100" id="30000309" />
+    <ITEM rate="100" id="30000302" />
+    <ITEM rate="80" id="30000301" />
+    <ITEM rate="50" id="30000307" />
+    <ITEM rate="100" id="50650" />
+    <ITEM rate="100" id="50651" />
+    <ITEM rate="100" id="50652" />
+    <ITEM rate="80" id="50650" />
+    <ITEM rate="80" id="50651" />
+    <ITEM rate="80" id="50652" />
+  </LOOT>
+  <LOOT id="121030" comment="가짜 굳게 닫힌 상자에서 나올 쓰레기">
+    <ITEM rate="100" id="20104" />
+    <ITEM rate="90" id="20109" />
+    <ITEM rate="90" id="20102" />
+  </LOOT>
+  <LOOT id="121201" comment="말벌 14LV">
+    <ITEM rate="80" id="20002" />
+  </LOOT>
+  <LOOT id="121205" comment="루루가 15LV PARTY">
+    <SILVER rate="100" min="500" max="600" />
+    <ITEM rate="100" id="10101" quest="113101" />
+    <ITEM rate="40" id="20002" />
+    <ITEM rate="40" id="20106" />
+    <ITEM rate="100" id="58024" bpart="1" />
+    <ITEM rate="40" id="50607" />
+    <ITEM rate="100" id="58024" />
+    <ITEM rate="60" id="50653" />
+  </LOOT>
+  <LOOT id="121210" comment="타나루가 15LV PARTY">
+    <SILVER rate="100" min="500" max="600" />
+    <ITEM rate="100" id="10101" quest="113101" />
+    <ITEM rate="40" id="20002" />
+    <ITEM rate="40" id="20106" />
+    <ITEM rate="100" id="58024" bpart="1" />
+    <ITEM rate="40" id="50607" />
+    <ITEM rate="100" id="58024" />
+    <ITEM rate="60" id="50653" />
+  </LOOT>
+  <LOOT id="121212" comment="오염된 나무정령 15LV PARTY">
+    <SILVER rate="100" min="500" max="600" />
+    <ITEM rate="80" id="50152" />
+    <ITEM rate="80" id="50516" />
+    <ITEM rate="30" id="58004" />
+    <ITEM rate="30" id="58011" />
+  </LOOT>
+  <LOOT id="512000" comment="바스테로 17LV EPIC">
+    <SILVER rate="100" min="6320" max="7300" />
+    <ITEM rate="50" id="31040100" />
+    <ITEM rate="100" id="30000302" />
+    <ITEM rate="100" id="30000306" />
+    <ITEM rate="80" id="30000308" />
+    <ITEM rate="50" id="30000301" />
+    <ITEM rate="100" id="50706" />
+    <ITEM rate="50" id="50707" />
+    <ITEM rate="50" id="50708" />
+    <ITEM rate="50" id="50705" />
+  </LOOT>
+  <LOOT id="512001" comment="기사대장 리비우트 17LV EPIC">
+    <SILVER rate="100" min="6320" max="7300" />
+    <ITEM rate="50" id="31020202" />
+    <ITEM rate="100" id="30000305" />
+    <ITEM rate="100" id="30000301" />
+    <ITEM rate="80" id="30000304" />
+    <ITEM rate="50" id="30000300" />
+    <ITEM rate="100" id="50700" />
+    <ITEM rate="100" id="50701" />
+    <ITEM rate="100" id="50702" />
+    <ITEM rate="100" id="50703" />
+    <ITEM rate="100" id="50704" />
+  </LOOT>
+  <LOOT id="512002" comment="만넬로스 18LV EPIC">
+    <SILVER rate="100" min="7020" max="8000" />
+    <ITEM rate="50" id="31020002" />
+    <ITEM rate="100" id="30000306" />
+    <ITEM rate="100" id="30000309" />
+    <ITEM rate="80" id="30000308" />
+    <ITEM rate="50" id="30000302" />
+    <ITEM rate="100" id="50705" />
+    <ITEM rate="100" id="50706" />
+    <ITEM rate="100" id="50707" />
+    <ITEM rate="100" id="50708" />
+    <ITEM rate="50" id="50705" />
+    <ITEM rate="50" id="50707" />
+    <ITEM rate="50" id="50708" />
+  </LOOT>
+  <LOOT id="512100" comment="저주받은 해골  15LV PARTY">
+    <SILVER rate="100" min="500" max="600" />
+    <ITEM rate="40" id="20100" />
+    <ITEM rate="40" id="20101" />
+    <ITEM rate="30" id="50002" />
+    <ITEM rate="35" id="50600" />
+    <ITEM rate="35" id="50601" />
+  </LOOT>
+  <LOOT id="512101" comment="구울 어쌔신 15LV PARTY">
+    <SILVER rate="100" min="500" max="600" />
+    <ITEM rate="40" id="50102" />
+    <ITEM rate="35" id="50601" />
+    <ITEM rate="35" id="50605" />
+    <ITEM rate="30" id="50709" />
+    <ITEM rate="40" id="20103" />
+    <ITEM rate="40" id="20109" />
+  </LOOT>
+  <LOOT id="512102" comment="구울 버서커 15LV PARTY">
+    <SILVER rate="100" min="500" max="600" />
+    <ITEM rate="30" id="50002" />
+    <ITEM rate="35" id="50601" />
+    <ITEM rate="35" id="50605" />
+    <ITEM rate="30" id="50709" />
+    <ITEM rate="40" id="20103" />
+    <ITEM rate="40" id="20109" />
+  </LOOT>
+  <LOOT id="512103" comment="구울 광신자 15LV PARTY">
+    <SILVER rate="100" min="500" max="600" />
+    <ITEM rate="40" id="50052" />
+    <ITEM rate="35" id="50601" />
+    <ITEM rate="35" id="50604" />
+    <ITEM rate="30" id="50709" />
+    <ITEM rate="40" id="20103" />
+    <ITEM rate="40" id="20109" />
+  </LOOT>
+  <LOOT id="512104" comment="고위사제 콰트라 15LV PARTY">
+    <SILVER rate="100" min="500" max="600" />
+    <ITEM rate="100" id="10130" quest="113050" />
+    <ITEM rate="80" id="50052" />
+    <ITEM rate="70" id="50601" />
+    <ITEM rate="70" id="50604" />
+    <ITEM rate="60" id="50709" />
+  </LOOT>
+  <LOOT id="512105" comment="유령 고용인 15LV PARTY">
+    <SILVER rate="100" min="500" max="600" />
+    <ITEM rate="40" id="50052" />
+    <ITEM rate="35" id="50602" />
+    <ITEM rate="35" id="50604" />
+    <ITEM rate="35" id="50606" />
+  </LOOT>
+  <LOOT id="512109" comment="아이센드 유령병사 15LV PARTY">
+    <SILVER rate="100" min="500" max="600" />
+    <ITEM rate="30" id="50002" />
+    <ITEM rate="35" id="50602" />
+    <ITEM rate="35" id="50603" />
+    <ITEM rate="35" id="50606" />
+    <ITEM rate="40" id="20105" />
+    <ITEM rate="40" id="20109" />
+  </LOOT>
+  <LOOT id="512110" comment="아이센드 유령궁사 15LV PARTY">
+    <SILVER rate="100" min="500" max="600" />
+    <ITEM rate="40" id="50102" />
+    <ITEM rate="35" id="50602" />
+    <ITEM rate="35" id="50603" />
+    <ITEM rate="35" id="50606" />
+    <ITEM rate="40" id="20102" />
+    <ITEM rate="40" id="20109" />
+  </LOOT>
+  <LOOT id="512111" comment="아이센드 유령기사 15LV PARTY">
+    <SILVER rate="100" min="500" max="600" />
+    <ITEM rate="30" id="50002" />
+    <ITEM rate="35" id="50602" />
+    <ITEM rate="35" id="50603" />
+    <ITEM rate="35" id="50606" />
+    <ITEM rate="40" id="20103" />
+    <ITEM rate="40" id="20104" />
+  </LOOT>
+  <LOOT id="512112" comment="상위기사 탐핀 15LV PARTY">
+    <SILVER rate="100" min="500" max="600" />
+    <ITEM rate="100" id="10131" quest="113050" />
+    <ITEM rate="60" id="50002" />
+    <ITEM rate="70" id="50602" />
+    <ITEM rate="70" id="50603" />
+    <ITEM rate="70" id="50606" />
+  </LOOT>
+  <LOOT id="512206" comment="숨겨진 보물 상자1">
+    <ITEM rate="100" id="10301" />
+  </LOOT>
+  <LOOT id="512207" comment="숨겨진 보물 상자2">
+    <ITEM rate="100" id="10302" />
+  </LOOT>
+  <LOOT id="950000" comment="패배한 자의 영혼">
+    <ITEM rate="100" id="9990018" />
+  </LOOT>
+  <LOOT id="1000000" comment="크라울러 TRIAL">
+    <SILVER rate="100" min="215" max="315" />
+    <ITEM rate="100" id="50904" />
+    <ITEM rate="100" id="50904" />
+    <ITEM rate="100" id="50904" bpart="1" />
+    <ITEM rate="100" id="50904" bpart="2" />
+    <ITEM rate="100" id="50904" />
+    <ITEM rate="100" id="50904" />
+    <ITEM rate="100" id="50904" />
+  </LOOT>
+  <LOOT id="1000001" comment="플릿풋 TRIAL">
+    <SILVER rate="100" min="215" max="315" />
+    <ITEM rate="50" max="1" id="31010000" />
+    <ITEM rate="100" max="1" id="30000000" />
+    <ITEM rate="100" max="1" id="30000002" />
+    <ITEM rate="80" max="1" id="30000001" />
+    <ITEM rate="50" max="1" id="30000005" />
+    <ITEM rate="100" id="50503" />
+    <ITEM rate="100" id="50503" bpart="1" />
+    <ITEM rate="100" id="50503" bpart="2" />
+    <ITEM rate="100" id="50505" />
+    <ITEM rate="100" id="50504" />
+    <ITEM rate="80" max="1" id="50505" />
+    <ITEM rate="80" max="1" id="50504" />
+  </LOOT>
+  <LOOT id="1000002" comment="여왕 테레시스 TRIAL">
+    <SILVER rate="100" min="600" max="700" />
+    <ITEM rate="16" max="1" id="31010100" />
+    <ITEM rate="16" max="1" id="31010200" />
+    <ITEM rate="16" max="1" id="31030100" />
+    <ITEM rate="100" max="1" id="30000107" />
+    <ITEM rate="100" max="1" id="30000102" />
+    <ITEM rate="80" max="1" id="30000108" />
+    <ITEM rate="50" max="1" id="30000106" />
+    <ITEM rate="100" min="3" max="5" id="50506" />
+    <ITEM rate="100" id="50507" />
+    <ITEM rate="100" id="50508" bpart="1" />
+    <ITEM rate="100" id="50508" bpart="2" />
+    <ITEM rate="100" id="50507" bpart="3" />
+    <ITEM rate="100" id="50509" bpart="4" />
+    <ITEM rate="80" max="1" id="50509" />
+  </LOOT>
+  <LOOT id="1000003" comment="고블린 골렘 TRIAL">
+    <SILVER rate="100" min="1010" max="2010" />
+    <ITEM rate="25" max="1" id="31020000" />
+    <ITEM rate="25" max="1" id="31020200" />
+    <ITEM rate="100" max="1" id="30000201" />
+    <ITEM rate="100" max="1" id="30000203" />
+    <ITEM rate="80" max="1" id="30000209" />
+    <ITEM rate="50" max="1" id="30000207" />
+    <ITEM rate="100" id="50535" />
+    <ITEM rate="100" id="50536" />
+    <ITEM rate="100" id="50537" />
+    <ITEM rate="100" id="50538" bpart="1" />
+    <ITEM rate="100" id="50537" />
+    <ITEM rate="100" id="50536" />
+    <ITEM rate="100" max="1" id="50538" />
+  </LOOT>
+  <LOOT id="1000004" comment="보르고 TRIAL">
+    <ITEM rate="40" id="30003" />
+    <ITEM rate="80" id="20005" />
+    <ITEM rate="70" id="20006" />
+  </LOOT>
+  <LOOT id="1000005" comment="아루카 TRIAL">
+    <SILVER rate="100" min="5000" max="6000" />
+    <ITEM rate="30" id="50650" />
+    <ITEM rate="30" id="50651" />
+    <ITEM rate="30" id="50652" />
+    <ITEM rate="100" id="50653" />
+    <ITEM rate="100" id="58024" />
+  </LOOT>
+  <LOOT id="1000006" comment="타일런트 좀비 TRIAL">
+    <SILVER rate="100" min="1345" max="2345" />
+    <ITEM rate="50" id="31030102" />
+    <ITEM rate="100" id="30000206" />
+    <ITEM rate="100" id="30000202" />
+    <ITEM rate="80" id="30000204" />
+    <ITEM rate="50" id="30000209" />
+    <ITEM rate="100" id="50608" />
+    <ITEM rate="100" id="50609" bpart="1" />
+    <ITEM rate="80" id="50609" />
+    <ITEM rate="100" id="50610" />
+    <ITEM rate="80" id="50610" />
+  </LOOT>
+  <LOOT id="1000007" comment="화원의 주인 TRIAL">
+    <SILVER rate="100" min="5000" max="6000" />
+    <ITEM rate="50" id="31040000" />
+    <ITEM rate="100" id="30000309" />
+    <ITEM rate="100" id="30000302" />
+    <ITEM rate="80" id="30000301" />
+    <ITEM rate="50" id="30000307" />
+    <ITEM rate="100" id="50650" />
+    <ITEM rate="100" id="50651" />
+    <ITEM rate="100" id="50652" />
+    <ITEM rate="80" id="50650" />
+    <ITEM rate="80" id="50651" />
+    <ITEM rate="80" id="50652" />
+  </LOOT>
+  <LOOT id="1000008" comment="바스테로 TRIAL">
+    <SILVER rate="100" min="6320" max="7300" />
+    <ITEM rate="50" id="31040100" />
+    <ITEM rate="100" id="30000302" />
+    <ITEM rate="100" id="30000306" />
+    <ITEM rate="80" id="30000308" />
+    <ITEM rate="50" id="30000301" />
+    <ITEM rate="100" id="50706" />
+    <ITEM rate="50" id="50707" />
+    <ITEM rate="50" id="50708" />
+    <ITEM rate="50" id="50705" />
+  </LOOT>
+  <LOOT id="1000009" comment="기사대장 리비우트 TRIAL">
+    <SILVER rate="100" min="6320" max="7300" />
+    <ITEM rate="50" id="31020202" />
+    <ITEM rate="100" id="30000305" />
+    <ITEM rate="100" id="30000301" />
+    <ITEM rate="80" id="30000304" />
+    <ITEM rate="50" id="30000300" />
+    <ITEM rate="100" id="50700" />
+    <ITEM rate="100" id="50701" />
+    <ITEM rate="100" id="50702" />
+    <ITEM rate="100" id="50703" />
+    <ITEM rate="100" id="50704" />
+  </LOOT>
+  <LOOT id="1000010" comment="만넬로스 TRIAL">
+    <SILVER rate="100" min="7020" max="8000" />
+    <ITEM rate="50" id="31020002" />
+    <ITEM rate="100" id="30000306" />
+    <ITEM rate="100" id="30000309" />
+    <ITEM rate="80" id="30000308" />
+    <ITEM rate="50" id="30000302" />
+    <ITEM rate="100" id="50705" />
+    <ITEM rate="100" id="50706" />
+    <ITEM rate="100" id="50707" />
+    <ITEM rate="100" id="50708" />
+    <ITEM rate="50" id="50705" />
+    <ITEM rate="50" id="50707" />
+    <ITEM rate="50" id="50708" />
+  </LOOT>
+  <LOOT id="1000011" comment="샤디즈 TRIAL">
+    <SILVER rate="100" min="2160" max="3160" />
+    <ITEM rate="50" max="1" id="31010002" />
+    <ITEM rate="100" max="1" id="30000407" />
+    <ITEM rate="100" max="1" id="30000404" />
+    <ITEM rate="80" max="1" id="30000402" />
+    <ITEM rate="50" max="1" id="30000401" />
+    <ITEM rate="100" id="50809" />
+    <ITEM rate="100" id="50810" />
+    <ITEM rate="80" max="1" id="50809" />
+    <ITEM rate="80" max="1" id="50810" />
+  </LOOT>
+  <LOOT id="5000010" comment="수집" max="5">
+    <ITEM rate="100" min="5" max="5" id="5000010" />
+  </LOOT>
+  <LOOT id="5000050" comment="아이템 사용" max="5">
+    <ITEM rate="100" min="1" max="1" id="5000052" />
+  </LOOT>
+  <LOOT id="5009001" comment="loot테스트 퀘스트아이템" max="1">
+    <ITEM rate="100" min="1" max="1" id="5000901" />
+    <ITEM rate="100" min="1" max="1" id="5000901" />
+  </LOOT>
+  <!-- BParts looting -->
+  <!-- E3// -->
+  <LOOT id="5400000" comment="소레나">
+    <BUFF rate="100" id="500000" />
+  </LOOT>
+  <LOOT id="5400008" comment="보르고">
+    <BUFF rate="100" id="500008" />
+  </LOOT>
+  <LOOT id="5400009" comment="고블린골렘">
+    <BUFF rate="100" id="500009" />
+  </LOOT>
+  <LOOT id="5400010" comment="학살의 펜딕">
+    <BUFF rate="100" id="500010" />
+  </LOOT>
+  
+  <LOOT id="5400002" comment="운명의 파편">
+    <BUFF id="500002" />
+  </LOOT>
+  <LOOT id="5400003" comment="지혜의 조각">
+    <BUFF id="500003" />
+  </LOOT>
+  <LOOT id="5400004" comment="평원의 바람">
+    <BUFF id="500004" />
+  </LOOT>
+  
+  <LOOT id="5400005" comment="촉촉한 피부">
+    <BUFF id="500005" />
+  </LOOT>
+  <LOOT id="5400006" comment="튼튼한 신체">
+    <BUFF id="500006" />
+  </LOOT>
+  <LOOT id="5400007" comment="선인장 육즙">
+    <BUFF id="500007" />
+  </LOOT>
+  
+  <LOOT id="5400011" comment="방패막이">
+    <BUFF id="500011" />
+  </LOOT>
+  <LOOT id="5400012" comment="예지력의 마법책">
+    <BUFF id="500012" />
+  </LOOT>
+  <!-- //E3 -->
+   
+  <LOOT id="5400100" comment="크라울러">
+    <BUFF id="500100" />
+  </LOOT>
+  <LOOT id="5400101" comment="바다 에보스 몽둥이">
+    <BUFF id="500101" />
+  </LOOT>
+  <LOOT id="5400102" comment="바다 에보스 광전사 몽둥이">
+    <BUFF id="500102" />
+  </LOOT>
+  <LOOT id="5400103" comment="바다트롤 참치">
+    <BUFF id="500103" />
+  </LOOT>
+  <LOOT id="5400104" comment="방패게 껍질">
+    <BUFF id="500104" />
+  </LOOT>
+  <LOOT id="5400105" comment="미쳐버린 에보스 정찰병 촉">
+    <BUFF id="500105" />
+  </LOOT>
+  <LOOT id="5400106" comment="미쳐버린 에보스 주술사 모자">
+    <BUFF id="500106" />
+  </LOOT>
+  <LOOT id="5400107" comment="미쳐버린 에보스 전사 모자">
+    <BUFF id="500107" />
+  </LOOT>
+  <LOOT id="5400108" comment="오염된 마리옹 주술사 모자">
+    <BUFF id="500108" />
+  </LOOT>
+  <LOOT id="5400109" comment="오염된 마리옹 주술사 선인장">
+    <BUFF id="500109" />
+  </LOOT>
+  
+  <!-- 테레스평원 -->
+  <LOOT id="5400200" comment="렌고트 부족 공작원의 활">
+    <BUFF id="500200" />
+  </LOOT>
+  <LOOT id="5400201" comment="렌고트 부족 침략자의 몽둥이">
+    <BUFF id="500201" />
+  </LOOT>
+  <LOOT id="5400202" comment="렌고트 부족 궁수의 활">
+    <BUFF id="500202" />
+  </LOOT>
+  <LOOT id="5400203" comment="렌고트 부족 전령의 몽둥이">
+    <BUFF id="500203" />
+  </LOOT>
+  <LOOT id="5400204" comment="렌고트 부족 치료사의 지팡이">
+    <BUFF id="500204" />
+  </LOOT>
+  <LOOT id="5400205" comment="렌고트 부족 공병의 날">
+    <BUFF id="500205" />
+  </LOOT>
+  <LOOT id="5400206" comment="렌고트 부족 호위병의 칼날">
+    <BUFF id="500206" />
+  </LOOT>
+  <LOOT id="5400207" comment="렌고트 부족 호위병의 어깨갑옷">
+    <BUFF id="500207" />
+  </LOOT>
+  <LOOT id="5400208" comment="감찰관 타리비의 몽둥이">
+    <BUFF id="500208" />
+  </LOOT>
+  <LOOT id="5400209" comment="야생 우르크의 뿔">
+    <BUFF id="500209" />
+  </LOOT>
+  <LOOT id="5400210" comment="렌고트 음유시인 고비의 막대기">
+    <BUFF id="500210" />
+  </LOOT>
+  <LOOT id="5400211" comment="테레시스 독니">
+	<BUFF id="500211" />
+  </LOOT>
+  <LOOT id="5400213" comment="플릿풋 꼬리">
+    <BUFF id="500213" />
+  </LOOT>
+  
+  <LOOT id="5400300" comment="렌고트 부족 일꾼의 망치">
+    <BUFF id="500300" />
+  </LOOT>
+  <LOOT id="5400301" comment="렌고트 부족 대장장이의 날">
+    <BUFF id="500301" />
+  </LOOT>
+  <LOOT id="5400302" comment="렌고트 부족 사육사의 몽둥이">
+    <BUFF id="500302" />
+  </LOOT>
+  <LOOT id="5400303" comment="렌고트 부족 전사의 몽둥이">
+    <BUFF id="500303" />
+  </LOOT>
+  <LOOT id="5400304" comment="렌고트 부족 마법사의 지팡이">
+    <BUFF id="500304" />
+  </LOOT>
+  <LOOT id="5400305" comment="렌고트 부족 사수의 활">
+    <BUFF id="500305" />
+  </LOOT>
+  <LOOT id="5400306" comment="렌고트 부족 정예병의 칼날">
+    <BUFF id="500306" />
+  </LOOT>
+  <LOOT id="5400307" comment="렌고트 부족 정예병의 어깨갑옷">
+    <BUFF id="500307" />
+  </LOOT>
+  <LOOT id="5400308" comment="렌고트 부족 사냥꾼의 활">
+    <BUFF id="500308" />
+  </LOOT>
+  <LOOT id="5400309" comment="렌고트 부족 낚시꾼의 막대기">
+    <BUFF id="500309" />
+  </LOOT>
+  <LOOT id="5400310" comment="렌고트 부족 수석낚시꾼의 막대기">
+    <BUFF id="500310" />
+  </LOOT>
+  <LOOT id="5400311" comment="렌고트 부족 석공의 날">
+    <BUFF id="500311" />
+  </LOOT>
+  <LOOT id="5400312" comment="렌고트 부족 저항군의 지팡이">
+    <BUFF id="500312" />
+  </LOOT>
+  <LOOT id="5400313" comment="진군대장 브라비의 몽둥이">
+    <BUFF id="500313" />
+  </LOOT>
+  <LOOT id="5400314" comment="사냥꾼 요오마의 활">
+    <BUFF id="500314" />
+  </LOOT>
+  <LOOT id="5400315" comment="장군 카라비의 칼날">
+    <BUFF id="500315" />
+  </LOOT>
+  <LOOT id="5400316" comment="장군 카라비의 어깨갑옷">
+    <BUFF id="500316" />
+  </LOOT>
+  <LOOT id="5400317" comment="렌고트 부족 광부의 날">
+    <BUFF id="500317" />
+  </LOOT>
+  <LOOT id="5400318" comment="렌고트 부족 수석광부의 날">
+    <BUFF id="500318" />
+  </LOOT>
+  <LOOT id="5400319" comment="주술사 펜딕의 몽둥이">
+    <BUFF id="500319" />
+  </LOOT>
+  <LOOT id="5400320" comment="초승달 사슴의 뿔">
+    <BUFF id="500320" />
+  </LOOT>
+  <LOOT id="5400321" comment="렌고트 부족 경계병의 몽둥이">
+    <BUFF id="500321" />
+  </LOOT>
+   <LOOT id="5400322" comment="렌고트 부족 폭탄병의 날">
+    <BUFF id="500322" />
+  </LOOT>
+   <LOOT id="5400323" comment="전위부대 돌격병의 몽둥이">
+    <BUFF id="500323" />
+  </LOOT>
+   <LOOT id="5400324" comment="전위부대 주술사의 지팡이">
+    <BUFF id="500324" />
+  </LOOT>
+   <LOOT id="5400325" comment="전위부대 저격수의 활">
+    <BUFF id="500325" />
+  </LOOT>
+  <LOOT id="5400400" comment="부패한 시체의 왼쪽팔">
+    <BUFF id="500400" />
+  </LOOT>
+  <LOOT id="5400401" comment="부패한 시체의 오른쪽팔">
+    <BUFF id="500401" />
+  </LOOT>
+  <LOOT id="5400402" comment="부패한 시체의 머리">
+    <BUFF id="500402" />
+  </LOOT>
+  <LOOT id="5400403" comment="역병걸린 시체의 머리">
+    <BUFF id="500403" />
+  </LOOT>
+  <LOOT id="5400404" comment="변형된 시체의 머리">
+    <BUFF id="500404" />
+  </LOOT>
+  <LOOT id="5400405" comment="시체 이그서의 머리">
+    <BUFF id="500405" />
+  </LOOT>
+  <LOOT id="5400406" comment="스켈레톤 전사의 머리">
+    <BUFF id="500406" />
+  </LOOT>
+  <LOOT id="5400407" comment="스켈레톤 궁수의 머리">
+    <BUFF id="500407" />
+  </LOOT>
+  <LOOT id="5400408" comment="다크우드 봉봉의 알로에">
+    <BUFF id="500408" />
+  </LOOT>
+  <LOOT id="5400409" comment="다크우드 봉봉 헌터의 버섯">
+    <BUFF id="500409" />
+  </LOOT>
+  <LOOT id="5400410" comment="다크우드 봉봉 샤먼의 선인장">
+    <BUFF id="500410" />
+  </LOOT>
+  <LOOT id="5400411" comment="부랑자 트롤의 송곳니">
+    <BUFF id="500411" />
+  </LOOT>
+  <LOOT id="5400412" comment="부랑자 트롤의 몽둥이">
+    <BUFF id="500412" />
+  </LOOT>
+  <LOOT id="5400413" comment="거대봉봉의 꽃">
+    <BUFF id="500413" />
+  </LOOT>
+  <LOOT id="5400414" comment="검은뿔 사슴의 뿔">
+    <BUFF id="500414" />
+  </LOOT>
+  <LOOT id="5400415" comment="저주받은 스켈레톤의 머리">
+    <BUFF id="500415" />
+  </LOOT>
+  <LOOT id="5400416" comment="구울 어쌔신의 머리">
+    <BUFF id="500416" />
+  </LOOT>
+  <LOOT id="5400417" comment="구울 버서커의 머리">
+    <BUFF id="500417" />
+  </LOOT>
+  <LOOT id="5400418" comment="구울 버서커의 칼">
+    <BUFF id="500418" />
+  </LOOT>
+  <LOOT id="5400419" comment="구울 광신자의 마법구슬">
+    <BUFF id="500419" />
+  </LOOT>
+  <LOOT id="5400420" comment="고위사제 콰트라의 마법구슬">
+    <BUFF id="500420" />
+  </LOOT>
+  <LOOT id="5400421" comment="엘리트 봉봉의 알로에">
+    <BUFF id="500421" />
+  </LOOT>
+  <LOOT id="5400422" comment="엘리트 봉봉 헌터의 버섯">
+    <BUFF id="500422" />
+  </LOOT>
+  <LOOT id="5400423" comment="악랄한 봉봉 주술사의 꽃">
+    <BUFF id="500423" />
+  </LOOT>
+  <LOOT id="5400424" comment="메마른 봉봉의 선인장">
+    <BUFF id="500424" />
+  </LOOT>
+  <LOOT id="5400500" comment="트롤 몬스터 송곳니">
+    <BUFF id="500500" />
+  </LOOT>
+  <LOOT id="5400501" comment="트롤 몬스터 몽둥이">
+    <BUFF id="500501" />
+  </LOOT>
+  <LOOT id="5400502" comment="오우거 몬스터 가방">
+    <BUFF id="500502" />
+  </LOOT>
+  <LOOT id="5400503" comment="코볼트 산적, 밀렵꾼 방패">
+    <BUFF id="500503" />
+  </LOOT>
+  <LOOT id="5400504" comment="코볼트 수집가, 수색꾼 책">
+    <BUFF id="500504" />
+  </LOOT>
+  <LOOT id="5400505" comment="사냥대장 마르티스 모자깃털">
+    <BUFF id="500505" />
+  </LOOT>
+  <LOOT id="5400506" comment="전투 사제 리멜라, 전투 사제 데피라 송곳니">
+    <BUFF id="500506" />
+  </LOOT>
+  <LOOT id="5400507" comment="전투 사제 리멜라, 전투 사제 데피라의 몽둥이">
+    <BUFF id="500507" />
+  </LOOT>
+  <LOOT id="5400508" comment="전투 사제 핑거릭커, 전투 사제 믹케가이버의 가방">
+    <BUFF id="500508" />
+  </LOOT>
+  <LOOT id="5400600" comment="마법사들의 책">
+    <BUFF id="500600" />
+  </LOOT>
+  <LOOT id="5400601" comment="르왕키 친위대 전사의 모자 깃털">
+    <BUFF id="500601" />
+  </LOOT>
+  <LOOT id="5400602" comment="대족장들 안면 갑옷">
+    <BUFF id="500602" />
+  </LOOT>
+  <LOOT id="5400603" comment="대족장들 왼쪽팔 갑옷">
+    <BUFF id="500603" />
+  </LOOT>
+  <LOOT id="5400604" comment="전사들의 방패">
+    <BUFF id="500604" />
+  </LOOT>
+  <LOOT id="5400605" comment="광기의 코볼트 지휘관의 모자 깃털">
+    <BUFF id="500605" />
+  </LOOT>
+  <LOOT id="5400606" comment="마코트 일족 지휘관의 모자 깃털">
+    <BUFF id="500606" />
+  </LOOT>
+  <LOOT id="5400607" comment="박쥐 여왕 꼬리">
+    <BUFF id="500607" />
+  </LOOT>
+  <LOOT id="5400608" comment="마귀벌레 뿔">
+    <BUFF id="500608" />
+  </LOOT>
+  <LOOT id="5400609" comment="마귀벌레 왼쪽 발">
+    <BUFF id="500609" />
+  </LOOT>
+  <LOOT id="5400610" comment="마귀벌레 오른쪽 발">
+    <BUFF id="500610" />
+  </LOOT>
+</maiet>

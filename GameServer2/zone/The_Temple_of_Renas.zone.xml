@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ROOT>
+    <SCENE>
+        <DIRLIGHT>
+            <COMMON name="DirectionalLight">
+                <POSITION>0.000000 0.000000 776.369141</POSITION>
+                <DIRECTION>0.418056 0.554779 -0.719340</DIRECTION>
+                <UP>0.432910 0.574490 0.694658</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <SHADOWLUMINOSITY>0.100</SHADOWLUMINOSITY>
+                <POWER>1.000</POWER>
+                <AMBIENT>0.000 0.000 0.000</AMBIENT>
+                <DIFFUSE>1.000 1.000 1.000</DIFFUSE>
+                <SPECULAR>1.000 1.000 1.000</SPECULAR>
+                <SKYSPECULAR>0.000</SKYSPECULAR>
+            </PROPERTY>
+        </DIRLIGHT>
+        <SUBLIGHT>
+            <COMMON name="SubLight">
+                <POSITION>0.000000 0.000000 1100.000000</POSITION>
+                <DIRECTION>-0.640258 0.378505 -0.668434</DIRECTION>
+                <UP>-0.749850 -0.496820 0.436915</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <COLOR>0.314 0.392 0.498</COLOR>
+            </PROPERTY>
+        </SUBLIGHT>
+        <SUBLIGHT>
+            <COMMON name="SubL_001">
+                <POSITION>0.000000 0.000000 900.000000</POSITION>
+                <DIRECTION>-0.367966 -0.925598 -0.088714</DIRECTION>
+                <UP>-0.071873 -0.066810 0.995174</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <COLOR>0.290 0.184 0.325</COLOR>
+            </PROPERTY>
+        </SUBLIGHT>
+        <SUBLIGHT>
+            <COMMON name="SubL_002">
+                <POSITION>0.000000 0.000000 1000.000000</POSITION>
+                <DIRECTION>0.693056 0.484806 0.533513</DIRECTION>
+                <UP>-0.389181 -0.371337 0.842999</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <COLOR>0.263 0.318 0.267</COLOR>
+            </PROPERTY>
+        </SUBLIGHT>
+        <LIGHT>
+            <COMMON name="PointLight">
+                <POSITION>1882.426025 1491.715820 3747.402832</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <COLOR>1.000 1.000 1.000</COLOR>
+                <INTENSITY>1.000</INTENSITY>
+                <ATTENUATIONEND>4000.000</ATTENUATIONEND>
+                <ATTENUATIONSTART>100.000</ATTENUATIONSTART>
+                <AREARANGE>0.000 0.000 0.000</AREARANGE>
+            </PROPERTY>
+        </LIGHT>
+        <ACTOR>
+            <COMMON name="teress_drum_11">
+                <POSITION>13639.013672 -4272.775879 -365.930664</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>teress_drum_11.elu</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </ACTOR>
+        <SCENEINSTANCE>
+            <COMMON name="teress_drum_11.scene_001">
+                <POSITION>-296.430420 -19590.300781 399.773407</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>teress_drum_11.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="temple_of_renas_b.scene_001">
+                <POSITION>0.000000 0.000000 0.000000</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>temple_of_renas_b.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="article_lenas_statue.scene_001">
+                <POSITION>2800.000000 -16800.000000 500.000000</POSITION>
+                <DIRECTION>1.000000 -0.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>3.500000 3.500000 3.500000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>article_lenas_statue.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="temple_of_renas_statue_support_01.scene_001">
+                <POSITION>2800.000000 -16800.000000 0.000000</POSITION>
+                <DIRECTION>-1.000000 -0.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>temple_of_renas_statue_support_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="temple_of_renas_corridor.scene_001">
+                <POSITION>0.000000 -11640.000000 0.000000</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>temple_of_renas_corridor.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="temple_of_renas_fence_a_01.scene_001">
+                <POSITION>4443.596680 6359.041504 378.740143</POSITION>
+                <DIRECTION>0.707107 0.707107 0.000000</DIRECTION>
+                <UP>-0.000000 0.000000 1.000000</UP>
+                <SCALE>1.500000 1.500000 1.500000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>temple_of_renas_fence_a_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="temple_of_renas_fence_a_02.scene_001">
+                <POSITION>4107.286133 6698.083008 379.134277</POSITION>
+                <DIRECTION>0.707107 0.707107 0.000000</DIRECTION>
+                <UP>-0.000000 0.000000 1.000000</UP>
+                <SCALE>1.500000 1.500000 1.500000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>temple_of_renas_fence_a_02.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="temple_of_renas_fence_a_01.scene_002">
+                <POSITION>4493.418945 6237.363281 378.740143</POSITION>
+                <DIRECTION>1.000000 0.000000 0.000000</DIRECTION>
+                <UP>-0.000000 0.000000 1.000000</UP>
+                <SCALE>1.500000 1.500000 1.500000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>temple_of_renas_fence_a_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="temple_of_renas_fence_a_01.scene_003">
+                <POSITION>3766.781250 7038.359863 378.740143</POSITION>
+                <DIRECTION>0.707107 0.707107 0.000000</DIRECTION>
+                <UP>-0.000000 0.000000 1.000000</UP>
+                <SCALE>1.500000 1.500000 1.500000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>temple_of_renas_fence_a_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="temple_of_renas_fence_a_02.scene_002">
+                <POSITION>3424.986816 7378.768066 379.134277</POSITION>
+                <DIRECTION>0.707107 0.707107 0.000000</DIRECTION>
+                <UP>-0.000000 0.000000 1.000000</UP>
+                <SCALE>1.500000 1.500000 1.500000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>temple_of_renas_fence_a_02.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="temple_of_renas_a.scene_001">
+                <POSITION>0.000000 0.000000 0.000000</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>temple_of_renas_a.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="temple_of_renas_box_a_01.scene_001">
+                <POSITION>1915.000000 -16115.000000 0.000265</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>temple_of_renas_box_a_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="temple_of_renas_post_a_02.scene_001">
+                <POSITION>1915.000000 -16115.000000 59.801373</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>temple_of_renas_post_a_02.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="temple_of_renas_post_a_04_1.scene_001">
+                <POSITION>1915.000000 -16115.000000 256.544800</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>0.900000 0.900000 0.900000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>temple_of_renas_post_a_04_1.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="temple_of_renas_post_a_04_1.scene_002">
+                <POSITION>1915.000000 -17485.810547 256.544800</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>0.900000 0.900000 0.900000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>temple_of_renas_post_a_04_1.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="temple_of_renas_post_a_02.scene_002">
+                <POSITION>1915.000000 -17485.810547 59.801373</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>temple_of_renas_post_a_02.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="temple_of_renas_box_a_01.scene_002">
+                <POSITION>1915.000000 -17485.810547 0.000265</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>temple_of_renas_box_a_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="temple_of_renas_post_a_04_1.scene_003">
+                <POSITION>3684.794678 -17485.810547 256.544800</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>0.900000 0.900000 0.900000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>temple_of_renas_post_a_04_1.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="temple_of_renas_post_a_02.scene_003">
+                <POSITION>3684.794678 -17485.810547 59.801373</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>temple_of_renas_post_a_02.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="temple_of_renas_box_a_01.scene_003">
+                <POSITION>3684.794678 -17485.810547 0.000265</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>temple_of_renas_box_a_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="temple_of_renas_post_a_04_1.scene_004">
+                <POSITION>3684.794678 -16115.000000 256.544800</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>0.900000 0.900000 0.900000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>temple_of_renas_post_a_04_1.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="temple_of_renas_post_a_02.scene_004">
+                <POSITION>3684.794678 -16115.000000 59.801373</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>temple_of_renas_post_a_02.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="temple_of_renas_box_a_01.scene_004">
+                <POSITION>3684.794678 -16115.000000 0.000265</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>temple_of_renas_box_a_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <WATERPLANE>
+            <COMMON name="the_temple_of_renas_water_p_1.elu">
+                <POSITION>-4000.000000 -19600.000000 40.000000</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <MESHFILE>the_temple_of_renas_water_p_1.elu</MESHFILE>
+                <DEPTHLIMIT>550.000</DEPTHLIMIT>
+                <BUMPUVSCALE>2900.000000 3500.000000 5000.000000 7000.000000</BUMPUVSCALE>
+                <BUMPUVMOVE>-0.003000 0.005000 -0.007000 -0.016000 0.013000 0.013000 -0.003000 0.010000</BUMPUVMOVE>
+                <BUMPADJUST>0.000</BUMPADJUST>
+                <BUMPWEIGHT>0.550000 0.350000 0.250000 0.140000</BUMPWEIGHT>
+                <BUMPTEX1>WaterBumps1.tga</BUMPTEX1>
+                <BUMPTEX2>WaterBumps2.tga</BUMPTEX2>
+                <CUSTOMFOG>false</CUSTOMFOG>
+                <FOGNEAR>0.000</FOGNEAR>
+                <FOGFAR>8900.000</FOGFAR>
+                <UNDERWATERFOGNEAR>-5900.000</UNDERWATERFOGNEAR>
+                <UNDERWATERFOGFAR>11900.000</UNDERWATERFOGFAR>
+                <UNDERWATERBUMPUVSCALE>120.000</UNDERWATERBUMPUVSCALE>
+                <UNDERWATERDEPTH>500.000</UNDERWATERDEPTH>
+                <FOGCOLOR>0.603922 0.772549 0.611765</FOGCOLOR>
+                <WATERCOLOR>0.850980 0.992157 0.933333</WATERCOLOR>
+                <RGBHALFLIFE>2500.000000 4160.000000 5800.000000</RGBHALFLIFE>
+                <FRESNELCONSTANT>0.190</FRESNELCONSTANT>
+                <REFLECTADJUST>0.080</REFLECTADJUST>
+                <VERTEXWAVESCALE>250.000</VERTEXWAVESCALE>
+                <VERTEXWAVEAMPLITUDE1>0.000</VERTEXWAVEAMPLITUDE1>
+                <VERTEXWAVEPHASE1>1.000</VERTEXWAVEPHASE1>
+                <BLENDING>0.500</BLENDING>
+                <REFRACTATTENUATIONDIST>1.000</REFRACTATTENUATIONDIST>
+                <REFRACTATTENUATIONFACTOR>1.000</REFRACTATTENUATIONFACTOR>
+            </PROPERTY>
+        </WATERPLANE>
+    </SCENE>
+</ROOT>

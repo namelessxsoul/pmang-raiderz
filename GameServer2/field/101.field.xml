@@ -1,0 +1,1329 @@
+<?xml version="1.0" encoding="euc-kr" ?>
+<maiet>
+    <FIELDINFO zone="101" min_x="0" min_y="0" max_x="90000" max_y="90000" boundary_min_x="0" boundary_min_y="0" boundary_max_x="0" boundary_max_y="0" weather_effect="true" town="false" returnable="true" tutorial="false" qpvpnpc1="950000" qpvpnpc2="950000" qpvprebirth1="102230" qpvprebirth2="102231">
+        <BGM fieldbgm="bgm_field_3" />
+        <Env set="default">
+            <WEATHER default="SUN">
+                <ADD weather="CLD" percent="10" />
+                <ADD weather="RNY" percent="5" />
+                <ADD weather="HRN" percent="2" />
+                <ADD weather="SNW" percent="0" />
+                <ADD weather="HSW" percent="0" />
+                <ADD weather="CLR" percent="8" />
+            </WEATHER>
+        </Env>
+        <SPAWN id="101201" group="0" name="[NPC]계엄사령관 테오도르" x="20549.912109" y="11154.248047" z="3277.374512" dir_x="0.000000" dir_y="1.000000" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="1" respawn_time="1" roam_radius="0" roam_depth="0" combat_radius="0" color="255,0,0">
+            <NPC id="101201" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="101202" group="0" name="[NPC]정찰병 디비치" x="34732.117188" y="15106.361328" z="3980.951172" dir_x="-0.052336" dir_y="0.998630" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="1" respawn_time="1" roam_radius="0" roam_depth="0" combat_radius="0" color="255,0,0">
+            <NPC id="101202" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="101203" group="0" name="[NPC]기록관 안짐" x="21630.740234" y="12438.749023" z="3344.605957" dir_x="-0.469471" dir_y="0.882948" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="1" respawn_time="1" roam_radius="0" roam_depth="0" combat_radius="0" color="255,0,0">
+            <NPC id="101203" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="101204" group="0" name="[NPC]수도기사단장 코크웰" x="21627.269531" y="11824.354492" z="3284.218750" dir_x="-0.961262" dir_y="0.275638" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="1" respawn_time="1" roam_radius="0" roam_depth="0" combat_radius="0" color="255,0,0">
+            <NPC id="101204" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="101205" group="0" name="[NPC]정찰병 케롤라인" x="36584.351563" y="31623.724609" z="3548.976074" dir_x="0.743144" dir_y="-0.669131" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="1" respawn_time="1" roam_radius="0" roam_depth="0" combat_radius="0" color="255,0,0">
+            <NPC id="101205" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="101206" group="0" name="[NPC]분대장 헤크린" x="20687.080078" y="12004.875977" z="3273.233154" dir_x="0.309017" dir_y="0.951057" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="1" respawn_time="1" roam_radius="0" roam_depth="0" combat_radius="0" color="255,0,0">
+            <NPC id="101206" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="101207" group="0" name="[NPC]왕국군 병사1" x="24672.806641" y="30539.695313" z="-541.488892" dir_x="0.743145" dir_y="-0.669131" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="1" respawn_time="1" roam_radius="0" roam_depth="0" combat_radius="0" color="255,0,0">
+            <NPC id="101207" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="101208" group="0" name="[NPC]궁중연금술사 코엘류" x="44502.945313" y="22696.851563" z="-494.211090" dir_x="-0.573576" dir_y="0.819152" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="1" respawn_time="1" roam_radius="0" roam_depth="0" combat_radius="0" color="255,0,0">
+            <NPC id="101208" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="101209" group="0" name="[NPC]치료 연금술사 클로에" x="44844.851563" y="18077.378906" z="-452.336670" dir_x="0.309017" dir_y="0.951056" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="1" respawn_time="1" roam_radius="0" roam_depth="0" combat_radius="0" color="255,0,0">
+            <NPC id="101209" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="101210" group="0" name="[NPC]방역 대책 연금술사 에론" x="45676.992188" y="12131.954102" z="808.505798" dir_x="0.156435" dir_y="0.987688" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="1" respawn_time="1" roam_radius="0" roam_depth="0" combat_radius="0" color="255,0,0">
+            <NPC id="101210" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="101211" group="0" name="[NPC]궁중연금술사 오스꾸" x="44647.562500" y="22951.154297" z="-494.215942" dir_x="-0.997564" dir_y="0.069757" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="1" respawn_time="1" roam_radius="0" roam_depth="0" combat_radius="0" color="255,0,0">
+            <NPC id="101211" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="101212" group="0" name="[NPC]로렌스" x="47356.531250" y="11141.776367" z="806.692810" dir_x="-0.965926" dir_y="0.258819" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="1" respawn_time="1" roam_radius="0" roam_depth="0" combat_radius="0" color="255,0,0">
+            <NPC id="101212" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="101213" group="0" name="[NPC]수도사 지나" x="18887.488281" y="31965.707031" z="-563.474548" dir_x="0.974370" dir_y="-0.224951" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="1" respawn_time="1" roam_radius="0" roam_depth="0" combat_radius="0" color="255,0,0">
+            <NPC id="101213" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="101214" group="0" name="[NPC]숲의 수호자 필리스" x="19052.308594" y="32144.478516" z="-477.827393" dir_x="0.777146" dir_y="-0.629321" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="1" respawn_time="1" roam_radius="0" roam_depth="0" combat_radius="0" color="255,0,0">
+            <NPC id="101214" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="101215" group="0" name="[NPC]가디엘교도 리히터" x="34503.128906" y="59042.207031" z="226.840332" dir_x="0.342021" dir_y="0.939692" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="1" respawn_time="1" roam_radius="0" roam_depth="0" combat_radius="0" color="255,0,0">
+            <NPC id="101215" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="101216" group="0" name="[NPC]카트리나" x="30376.740234" y="62905.101563" z="471.591064" dir_x="-0.829038" dir_y="-0.559193" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="1" respawn_time="1" roam_radius="0" roam_depth="0" combat_radius="0" color="255,0,0">
+            <NPC id="101216" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="101217" group="0" name="[NPC]촌장 클로드" x="27728.425781" y="59254.972656" z="547.521667" dir_x="-0.961262" dir_y="-0.275637" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="1" respawn_time="1" roam_radius="0" roam_depth="0" combat_radius="0" color="255,0,0">
+            <NPC id="101217" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="101218" group="0" name="[NPC]주민 애쉬튼" x="34429.312500" y="57463.457031" z="204.416855" dir_x="0.615662" dir_y="0.788011" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="1" respawn_time="1" roam_radius="0" roam_depth="0" combat_radius="0" color="255,0,0">
+            <NPC id="101218" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="101219" group="0" name="[NPC]부사령관 빅터" x="41224.019531" y="55637.230469" z="4359.711426" dir_x="-0.906308" dir_y="0.422619" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="1" respawn_time="1" roam_radius="0" roam_depth="0" combat_radius="0" color="255,0,0">
+            <NPC id="101219" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="101220" group="0" name="[NPC]탈영병 애나" x="18146.599609" y="38627.792969" z="-525.044312" dir_x="0.939693" dir_y="-0.342020" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="1" respawn_time="1" roam_radius="0" roam_depth="0" combat_radius="0" color="255,0,0">
+            <NPC id="101220" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="101221" group="0" name="[NPC]탈영병 애드리언" x="38287.300781" y="48736.601563" z="4.248506" dir_x="0.087156" dir_y="-0.996195" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="1" respawn_time="1" roam_radius="0" roam_depth="0" combat_radius="0" color="255,0,0">
+            <NPC id="101221" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="101223" group="0" name="[NPC]정찰병 험프리" x="73732.429688" y="17102.566406" z="2523.204834" dir_x="0.669130" dir_y="-0.743145" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="1" respawn_time="1" roam_radius="0" roam_depth="0" combat_radius="0" color="255,0,0">
+            <NPC id="101223" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="101224" group="0" name="[NPC]가디엘교 심판관" x="68334.484375" y="18160.591797" z="2437.021240" dir_x="-0.707107" dir_y="0.707107" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="1" respawn_time="1" roam_radius="0" roam_depth="0" combat_radius="0" color="255,0,0">
+            <NPC id="101224" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="101225" group="0" name="[NPC]가디엘교도 빈센트" x="71116.726563" y="23545.093750" z="2428.115967" dir_x="-0.000000" dir_y="-1.000000" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="1" respawn_time="1" roam_radius="0" roam_depth="0" combat_radius="0" color="255,0,0">
+            <NPC id="101225" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="101232" group="0" name="[NPC]영웅의 오벨리스크" x="66814.398438" y="48195.089844" z="-580.552734" dir_x="0.819152" dir_y="0.573576" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="1" respawn_time="1" roam_radius="0" roam_depth="0" combat_radius="0" color="255,0,0">
+            <NPC id="101232" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="101245" group="0" name="[NPC]왕국군 병사2" x="24600.019531" y="30299.972656" z="-540.129272" dir_x="0.999848" dir_y="0.017452" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="1" respawn_time="1" roam_radius="0" roam_depth="0" combat_radius="0" color="255,0,0">
+            <NPC id="101245" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="101243" group="0" name="[NPC]브룬의 석상" x="69708.937500" y="22182.056641" z="2443.674561" dir_x="0.681999" dir_y="0.731353" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="1" respawn_time="1" roam_radius="0" roam_depth="0" combat_radius="0" color="255,0,0">
+            <NPC id="101243" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="101000" group="0" name="지그니프" x="21031.441406" y="62070.808594" z="1275.667480" dir_x="0.970296" dir_y="-0.241922" dir_z="0.000000" radius="500.000000" random_dir="true" enabled="true" start_time="1" respawn_time="180" roam_radius="1000" roam_depth="200" combat_radius="0" color="0,0,255">
+            <NPC id="101000" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="1" group="0" name="평원사슴" x="30594.658203" y="27560.900391" z="-147.945801" dir_x="0.997564" dir_y="0.069756" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="0,0,255">
+            <NPC id="101032" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="2" group="0" name="평원사슴" x="28303.267578" y="27777.435547" z="-498.162292" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="0,0,255">
+            <NPC id="101032" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="3" group="0" name="평원사슴" x="29327.558594" y="30905.869141" z="-532.144409" dir_x="0.970296" dir_y="-0.241922" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="0,0,255">
+            <NPC id="101032" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="4" group="0" name="평원사슴" x="22204.591797" y="27744.683594" z="-187.993652" dir_x="0.997564" dir_y="0.069756" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="0,0,255">
+            <NPC id="101032" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="5" group="0" name="평원사슴" x="37132.644531" y="26124.185547" z="131.765625" dir_x="0.997564" dir_y="0.069756" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="0,0,255">
+            <NPC id="101032" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="6" group="0" name="평원사슴" x="18331.039063" y="33176.210938" z="-629.429810" dir_x="0.997564" dir_y="0.069756" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="0,0,255">
+            <NPC id="101032" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="7" group="0" name="평원사슴" x="26802.085938" y="33548.394531" z="-441.760132" dir_x="0.997564" dir_y="0.069756" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="0,0,255">
+            <NPC id="101032" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="8" group="0" name="평원사슴" x="37163.441406" y="29130.609375" z="408.982574" dir_x="0.997564" dir_y="0.069756" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="0,0,255">
+            <NPC id="101032" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="9" group="0" name="평원사슴" x="21954.486328" y="33673.445313" z="-610.624268" dir_x="0.997564" dir_y="0.069756" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="0,0,255">
+            <NPC id="101032" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="10" group="0" name="평원사슴" x="19605.355469" y="30462.359375" z="-453.030182" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="0,0,255">
+            <NPC id="101032" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="20" group="0" name="코볼트 특공대" x="21719.664063" y="46574.066406" z="-458.315002" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="500" roam_depth="200" combat_radius="0" color="255,128,0">
+            <NPC id="101041" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="21" group="0" name="코볼트 특공대" x="21496.753906" y="45391.023438" z="-468.768311" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="540.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="500" roam_depth="200" combat_radius="0" color="255,128,0">
+            <NPC id="101041" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="22" group="0" name="코볼트 특공대" x="22514.804688" y="46709.167969" z="-272.614502" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="580.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="500" roam_depth="200" combat_radius="0" color="255,128,0">
+            <NPC id="101041" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="23" group="0" name="코볼트 특공대" x="21389.263672" y="43860.003906" z="-394.947754" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="580.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="500" roam_depth="200" combat_radius="0" color="255,128,0">
+            <NPC id="101041" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="24" group="0" name="코볼트 특공대" x="20723.167969" y="46226.347656" z="-432.042969" dir_x="0.743145" dir_y="-0.669131" dir_z="0.000000" radius="580.000000" random_dir="false" enabled="true" start_time="1" respawn_time="120" roam_radius="500" roam_depth="200" combat_radius="0" color="255,128,0">
+            <NPC id="101041" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="25" group="0" name="코볼트 특공대" x="20720.958984" y="44963.359375" z="-444.164185" dir_x="0.694659" dir_y="0.719340" dir_z="0.000000" radius="580.000000" random_dir="false" enabled="true" start_time="1" respawn_time="120" roam_radius="500" roam_depth="200" combat_radius="0" color="255,128,0">
+            <NPC id="101041" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="26" group="0" name="코볼트 특공대" x="22252.080078" y="44618.117188" z="-461.806152" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="580.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="500" roam_depth="200" combat_radius="0" color="255,128,0">
+            <NPC id="101041" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="30" group="0" name="붉은 비늘 늑대" x="27886.210938" y="31823.015625" z="-566.075439" dir_x="0.998630" dir_y="-0.052336" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="255,0,128">
+            <NPC id="101010" default="false" rate="600" />
+            <NPC id="101012" default="false" rate="400" />
+        </SPAWN>
+        <SPAWN id="31" group="0" name="붉은 비늘 늑대" x="29783.207031" y="33556.250000" z="-600.400330" dir_x="0.997564" dir_y="0.069756" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="255,0,128">
+            <NPC id="101010" default="false" rate="600" />
+            <NPC id="101012" default="false" rate="400" />
+        </SPAWN>
+        <SPAWN id="32" group="0" name="붉은 비늘 늑대" x="32504.296875" y="32766.132813" z="-502.313080" dir_x="0.997564" dir_y="0.069756" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="255,0,128">
+            <NPC id="101010" default="false" rate="600" />
+            <NPC id="101012" default="false" rate="400" />
+        </SPAWN>
+        <SPAWN id="33" group="0" name="붉은 비늘 늑대" x="33359.773438" y="28811.820313" z="-414.468140" dir_x="0.997564" dir_y="0.069756" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="255,0,128">
+            <NPC id="101010" default="false" rate="600" />
+            <NPC id="101012" default="false" rate="400" />
+        </SPAWN>
+        <SPAWN id="34" group="0" name="붉은 비늘 늑대" x="33077.515625" y="31105.281250" z="-435.347443" dir_x="0.997564" dir_y="0.069756" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="255,0,128">
+            <NPC id="101010" default="false" rate="600" />
+            <NPC id="101012" default="false" rate="400" />
+        </SPAWN>
+        <SPAWN id="35" group="0" name="붉은 비늘 늑대" x="35859.820313" y="27296.085938" z="10.782759" dir_x="0.997564" dir_y="0.069756" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="255,0,128">
+            <NPC id="101010" default="false" rate="600" />
+            <NPC id="101012" default="false" rate="400" />
+        </SPAWN>
+        <SPAWN id="36" group="0" name="붉은 비늘 늑대" x="24470.513672" y="27909.484375" z="-631.718079" dir_x="0.998630" dir_y="-0.052336" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="255,0,128">
+            <NPC id="101010" default="false" rate="600" />
+            <NPC id="101012" default="false" rate="400" />
+        </SPAWN>
+        <SPAWN id="27" group="0" name="수색대장 코코키" x="18343.376953" y="45062.062500" z="-405.089447" dir_x="0.104529" dir_y="0.994522" dir_z="0.000000" radius="580.000000" random_dir="false" enabled="true" start_time="1" respawn_time="120" roam_radius="500" roam_depth="200" combat_radius="0" color="255,128,0">
+            <NPC id="101024" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="28" group="0" name="코볼트 특공대" x="22435.394531" y="45736.324219" z="-429.091461" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="580.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="500" roam_depth="200" combat_radius="0" color="255,128,0">
+            <NPC id="101041" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="40" group="0" name="야생동물의 시체" x="22131.468750" y="30977.757813" z="-725.845764" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="300.000000" random_dir="true" enabled="true" start_time="0" respawn_time="20" roam_radius="0" roam_depth="0" combat_radius="0" color="0,128,0">
+            <NPC id="101236" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="41" group="0" name="야생동물의 시체" x="22971.232422" y="31410.365234" z="-728.293457" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="300.000000" random_dir="true" enabled="true" start_time="0" respawn_time="20" roam_radius="0" roam_depth="0" combat_radius="0" color="0,128,0">
+            <NPC id="101236" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="42" group="0" name="야생동물의 시체" x="22623.216797" y="30243.746094" z="-745.042236" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="300.000000" random_dir="true" enabled="true" start_time="0" respawn_time="20" roam_radius="0" roam_depth="0" combat_radius="0" color="0,128,0">
+            <NPC id="101236" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="43" group="0" name="야생동물의 시체" x="23269.021484" y="30638.484375" z="-751.973267" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="300.000000" random_dir="true" enabled="true" start_time="0" respawn_time="30" roam_radius="0" roam_depth="0" combat_radius="0" color="0,128,0">
+            <NPC id="101236" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="44" group="0" name="야생동물의 시체" x="25608.232422" y="30287.046875" z="-767.014404" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="300.000000" random_dir="true" enabled="true" start_time="0" respawn_time="30" roam_radius="0" roam_depth="0" combat_radius="0" color="0,128,0">
+            <NPC id="101236" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="45" group="0" name="야생동물의 시체" x="26663.093750" y="30257.035156" z="-825.289490" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="300.000000" random_dir="true" enabled="true" start_time="0" respawn_time="20" roam_radius="0" roam_depth="0" combat_radius="0" color="0,128,0">
+            <NPC id="101236" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="46" group="0" name="야생동물의 시체" x="26745.578125" y="29445.462891" z="-842.464661" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="300.000000" random_dir="true" enabled="true" start_time="0" respawn_time="30" roam_radius="0" roam_depth="0" combat_radius="0" color="0,128,0">
+            <NPC id="101236" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="47" group="0" name="야생동물의 시체" x="26055.257813" y="29749.660156" z="-845.688843" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="300.000000" random_dir="true" enabled="true" start_time="0" respawn_time="20" roam_radius="0" roam_depth="0" combat_radius="0" color="0,128,0">
+            <NPC id="101236" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="48" group="0" name="야생동물의 시체" x="25820.207031" y="29173.359375" z="-780.476563" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="0.000000" random_dir="true" enabled="true" start_time="0" respawn_time="20" roam_radius="0" roam_depth="0" combat_radius="0" color="0,128,0">
+            <NPC id="101236" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="50" group="0" name="붉은 비늘 늑대" x="20890.806641" y="31908.732422" z="-381.925354" dir_x="0.998630" dir_y="-0.052336" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="255,0,128">
+            <NPC id="101010" default="false" rate="600" />
+            <NPC id="101012" default="false" rate="400" />
+        </SPAWN>
+        <SPAWN id="51" group="0" name="붉은 비늘 늑대" x="55475.371094" y="19606.976563" z="798.749084" dir_x="0.998630" dir_y="-0.052336" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="255,0,128">
+            <NPC id="101010" default="false" rate="600" />
+            <NPC id="101012" default="false" rate="400" />
+        </SPAWN>
+        <SPAWN id="52" group="0" name="붉은 비늘 늑대" x="61124.019531" y="17003.406250" z="910.742676" dir_x="0.998630" dir_y="-0.052336" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="255,0,128">
+            <NPC id="101010" default="false" rate="600" />
+            <NPC id="101012" default="false" rate="400" />
+        </SPAWN>
+        <SPAWN id="53" group="0" name="붉은 비늘 늑대" x="53552.925781" y="13555.833984" z="447.631897" dir_x="0.998630" dir_y="-0.052336" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="255,0,128">
+            <NPC id="101010" default="false" rate="600" />
+            <NPC id="101012" default="false" rate="400" />
+        </SPAWN>
+        <SPAWN id="54" group="0" name="붉은 비늘 늑대" x="57223.734375" y="21003.949219" z="406.592194" dir_x="0.998630" dir_y="-0.052336" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="255,0,128">
+            <NPC id="101010" default="false" rate="600" />
+            <NPC id="101012" default="false" rate="400" />
+        </SPAWN>
+        <SPAWN id="55" group="0" name="붉은 비늘 늑대" x="50038.593750" y="18372.212891" z="872.963562" dir_x="0.998630" dir_y="-0.052336" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="255,0,128">
+            <NPC id="101010" default="false" rate="600" />
+            <NPC id="101012" default="false" rate="400" />
+        </SPAWN>
+        <SPAWN id="56" group="0" name="붉은 비늘 늑대" x="52460.523438" y="24314.333984" z="743.456482" dir_x="0.998630" dir_y="-0.052336" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="255,0,128">
+            <NPC id="101010" default="false" rate="400" />
+            <NPC id="101012" default="false" rate="600" />
+        </SPAWN>
+        <SPAWN id="57" group="0" name="붉은 비늘 늑대" x="54416.636719" y="28281.478516" z="302.236725" dir_x="0.998630" dir_y="-0.052336" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="255,0,128">
+            <NPC id="101010" default="false" rate="400" />
+            <NPC id="101012" default="false" rate="600" />
+        </SPAWN>
+        <SPAWN id="58" group="0" name="붉은 비늘 늑대" x="57753.636719" y="25717.929688" z="288.458557" dir_x="0.998630" dir_y="-0.052336" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="255,0,128">
+            <NPC id="101010" default="false" rate="400" />
+            <NPC id="101012" default="false" rate="600" />
+        </SPAWN>
+        <SPAWN id="59" group="0" name="붉은 비늘 늑대" x="66859.500000" y="33168.746094" z="1002.905640" dir_x="0.998630" dir_y="-0.052336" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="255,0,128">
+            <NPC id="101010" default="false" rate="400" />
+            <NPC id="101012" default="false" rate="600" />
+        </SPAWN>
+        <SPAWN id="11" group="0" name="평원사슴" x="27320.646484" y="12277.024414" z="1965.525391" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="0,0,255">
+            <NPC id="101032" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="12" group="0" name="평원사슴" x="19568.402344" y="16319.511719" z="2776.699219" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="0,0,255">
+            <NPC id="101032" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="70" group="0" name="푸른 가죽 사슴" x="52103.871094" y="18965.460938" z="1042.588501" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="150" roam_radius="1000" roam_depth="200" combat_radius="0" color="255,128,64">
+            <NPC id="101013" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="71" group="0" name="푸른 가죽 사슴" x="55563.406250" y="21772.115234" z="518.735413" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="150" roam_radius="1000" roam_depth="200" combat_radius="0" color="255,128,64">
+            <NPC id="101013" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="72" group="0" name="푸른 가죽 사슴" x="52420.710938" y="15311.001953" z="455.698883" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="150" roam_radius="1000" roam_depth="200" combat_radius="0" color="255,128,64">
+            <NPC id="101013" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="73" group="0" name="푸른 가죽 사슴" x="50553.273438" y="25168.220703" z="1043.702148" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="150" roam_radius="1000" roam_depth="200" combat_radius="0" color="255,128,64">
+            <NPC id="101013" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="74" group="0" name="푸른 가죽 사슴" x="56993.925781" y="28613.691406" z="484.031219" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="150" roam_radius="1000" roam_depth="200" combat_radius="0" color="255,128,64">
+            <NPC id="101013" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="75" group="0" name="푸른 가죽 사슴" x="59117.328125" y="16496.154297" z="722.350647" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="150" roam_radius="1000" roam_depth="200" combat_radius="0" color="255,128,64">
+            <NPC id="101013" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="76" group="0" name="푸른 가죽 사슴" x="63558.441406" y="32193.000000" z="916.074890" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="150" roam_radius="1000" roam_depth="200" combat_radius="0" color="255,128,64">
+            <NPC id="101013" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="77" group="0" name="푸른 가죽 사슴" x="69106.687500" y="33019.710938" z="1019.737366" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="150" roam_radius="1000" roam_depth="200" combat_radius="0" color="255,128,64">
+            <NPC id="101013" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="90" group="0" name="평원호저" x="50156.375000" y="30159.574219" z="-283.575684" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="0,255,255">
+            <NPC id="101015" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="91" group="0" name="평원호저" x="49668.941406" y="16287.907227" z="433.121338" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="0,255,255">
+            <NPC id="101015" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="92" group="0" name="평원호저" x="55954.652344" y="16991.406250" z="998.624512" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="0,255,255">
+            <NPC id="101015" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="93" group="0" name="평원호저" x="56497.953125" y="27140.875000" z="460.496155" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="0,255,255">
+            <NPC id="101015" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="94" group="0" name="평원호저" x="48075.429688" y="29870.310547" z="-145.800293" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="0,255,255">
+            <NPC id="101015" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="95" group="0" name="평원호저" x="43288.851563" y="29541.882813" z="128.395020" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="0,255,255">
+            <NPC id="101015" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="96" group="0" name="평원호저" x="47559.414063" y="17289.000000" z="-174.973373" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="0,255,255">
+            <NPC id="101015" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="97" group="0" name="평원호저" x="54010.468750" y="18959.035156" z="865.883789" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="0,255,255">
+            <NPC id="101015" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="98" group="0" name="평원호저" x="41413.683594" y="15823.296875" z="525.328613" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="0,255,255">
+            <NPC id="101015" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="99" group="0" name="평원호저" x="52981.628906" y="17065.974609" z="829.699463" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="0,255,255">
+            <NPC id="101015" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="120" group="0" name="거대 비늘 호저" x="40700.582031" y="11347.737305" z="1627.923828" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="150" roam_radius="1000" roam_depth="200" combat_radius="0" color="0,128,255">
+            <NPC id="101014" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="121" group="0" name="거대 비늘 호저" x="48316.382813" y="14399.024414" z="759.549133" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="150" roam_radius="1000" roam_depth="200" combat_radius="0" color="0,128,255">
+            <NPC id="101014" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="122" group="0" name="거대 비늘 호저" x="51796.289063" y="21390.216797" z="887.798340" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="150" roam_radius="1000" roam_depth="200" combat_radius="0" color="0,128,255">
+            <NPC id="101014" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="123" group="0" name="거대 비늘 호저" x="50666.082031" y="26914.697266" z="1045.794067" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="150" roam_radius="1000" roam_depth="200" combat_radius="0" color="0,128,255">
+            <NPC id="101014" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="124" group="0" name="거대 비늘 호저" x="54908.167969" y="24085.677734" z="950.032471" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="150" roam_radius="1000" roam_depth="200" combat_radius="0" color="0,128,255">
+            <NPC id="101014" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="125" group="0" name="거대 비늘 호저" x="40848.910156" y="14074.682617" z="1567.079102" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="150" roam_radius="1000" roam_depth="200" combat_radius="0" color="0,128,255">
+            <NPC id="101014" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="126" group="0" name="거대 비늘 호저" x="51241.015625" y="23143.083984" z="740.843262" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="150" roam_radius="1000" roam_depth="200" combat_radius="0" color="0,128,255">
+            <NPC id="101014" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="127" group="0" name="거대 비늘 호저" x="49151.132813" y="19840.417969" z="1065.954346" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="150" roam_radius="1000" roam_depth="200" combat_radius="0" color="0,128,255">
+            <NPC id="101014" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="128" group="0" name="거대 비늘 호저" x="56521.917969" y="24836.248047" z="561.288086" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="150" roam_radius="1000" roam_depth="200" combat_radius="0" color="0,128,255">
+            <NPC id="101014" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="129" group="0" name="거대 비늘 호저" x="49579.980469" y="27562.992188" z="1047.730957" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="150" roam_radius="1000" roam_depth="200" combat_radius="0" color="0,128,255">
+            <NPC id="101014" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="100" group="0" name="평원호저" x="58486.164063" y="23535.318359" z="312.905762" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="0,255,255">
+            <NPC id="101015" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="150" group="0" name="호수 에보스 호수 방패게" x="42619.894531" y="42621.847656" z="-678.556641" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="150" roam_radius="1000" roam_depth="200" combat_radius="0" color="64,0,128">
+            <NPC id="101016" default="false" rate="600" />
+            <NPC id="101017" default="false" rate="400" />
+        </SPAWN>
+        <SPAWN id="151" group="0" name="호수 에보스" x="44916.687500" y="44903.601563" z="-680.369202" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="150" roam_radius="1000" roam_depth="200" combat_radius="0" color="64,0,128">
+            <NPC id="101016" default="false" rate="600" />
+            <NPC id="101017" default="false" rate="400" />
+        </SPAWN>
+        <SPAWN id="152" group="0" name="호수 에보스" x="42289.500000" y="48856.359375" z="-612.331055" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="150" roam_radius="1000" roam_depth="200" combat_radius="0" color="64,0,128">
+            <NPC id="101016" default="false" rate="600" />
+            <NPC id="101017" default="false" rate="400" />
+        </SPAWN>
+        <SPAWN id="153" group="0" name="호수 에보스" x="44371.437500" y="50460.710938" z="-696.142761" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="150" roam_radius="1000" roam_depth="200" combat_radius="0" color="64,0,128">
+            <NPC id="101016" default="false" rate="600" />
+            <NPC id="101017" default="false" rate="400" />
+        </SPAWN>
+        <SPAWN id="154" group="0" name="호수 에보스" x="42649.984375" y="44961.343750" z="-623.827332" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="150" roam_radius="1000" roam_depth="200" combat_radius="0" color="64,0,128">
+            <NPC id="101016" default="false" rate="600" />
+            <NPC id="101017" default="false" rate="400" />
+        </SPAWN>
+        <SPAWN id="155" group="0" name="호수 에보스" x="44564.449219" y="53119.468750" z="-438.012695" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="150" roam_radius="1000" roam_depth="200" combat_radius="0" color="64,0,128">
+            <NPC id="101016" default="false" rate="600" />
+            <NPC id="101017" default="false" rate="400" />
+        </SPAWN>
+        <SPAWN id="156" group="0" name="호수 에보스" x="43936.355469" y="47003.140625" z="-743.860107" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="150" roam_radius="1000" roam_depth="200" combat_radius="0" color="64,0,128">
+            <NPC id="101016" default="false" rate="600" />
+            <NPC id="101017" default="false" rate="400" />
+        </SPAWN>
+        <SPAWN id="157" group="0" name="호수 에보스" x="68778.828125" y="44892.070313" z="-691.609436" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="150" roam_radius="1000" roam_depth="200" combat_radius="0" color="64,0,128">
+            <NPC id="101016" default="false" rate="600" />
+            <NPC id="101017" default="false" rate="400" />
+        </SPAWN>
+        <SPAWN id="158" group="0" name="호수 에보스" x="69078.656250" y="42489.210938" z="-786.784912" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="150" roam_radius="1000" roam_depth="200" combat_radius="0" color="64,0,128">
+            <NPC id="101016" default="false" rate="600" />
+            <NPC id="101017" default="false" rate="400" />
+        </SPAWN>
+        <SPAWN id="159" group="0" name="호수 에보스" x="65965.296875" y="52105.828125" z="-571.129211" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="150" roam_radius="1000" roam_depth="200" combat_radius="0" color="64,0,128">
+            <NPC id="101016" default="false" rate="400" />
+            <NPC id="101017" default="false" rate="600" />
+        </SPAWN>
+        <SPAWN id="160" group="0" name="호수 에보스" x="63246.527344" y="54650.804688" z="-618.969482" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="150" roam_radius="1000" roam_depth="200" combat_radius="0" color="64,0,128">
+            <NPC id="101016" default="false" rate="400" />
+            <NPC id="101017" default="false" rate="600" />
+        </SPAWN>
+        <SPAWN id="161" group="0" name="호수 에보스" x="68932.468750" y="49570.292969" z="-618.968872" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="150" roam_radius="1000" roam_depth="200" combat_radius="0" color="64,0,128">
+            <NPC id="101016" default="false" rate="400" />
+            <NPC id="101017" default="false" rate="600" />
+        </SPAWN>
+        <SPAWN id="162" group="0" name="호수 에보스" x="65000.683594" y="50184.632813" z="-677.143555" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="150" roam_radius="1000" roam_depth="200" combat_radius="0" color="64,0,128">
+            <NPC id="101016" default="false" rate="400" />
+            <NPC id="101017" default="false" rate="600" />
+        </SPAWN>
+        <SPAWN id="163" group="0" name="호수 에보스" x="42955.742188" y="40437.710938" z="-677.816223" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="150" roam_radius="1000" roam_depth="200" combat_radius="0" color="64,0,128">
+            <NPC id="101016" default="false" rate="400" />
+            <NPC id="101017" default="false" rate="600" />
+        </SPAWN>
+        <SPAWN id="164" group="0" name="호수 에보스" x="63496.671875" y="64018.621094" z="-726.953247" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="150" roam_radius="1000" roam_depth="200" combat_radius="0" color="64,0,128">
+            <NPC id="101016" default="false" rate="400" />
+            <NPC id="101017" default="false" rate="600" />
+        </SPAWN>
+        <SPAWN id="165" group="0" name="호수 에보스" x="62137.582031" y="65972.476563" z="-571.660889" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="150" roam_radius="1000" roam_depth="200" combat_radius="0" color="64,0,128">
+            <NPC id="101016" default="false" rate="400" />
+            <NPC id="101017" default="false" rate="600" />
+        </SPAWN>
+        <SPAWN id="166" group="0" name="호수 에보스" x="62155.753906" y="68398.078125" z="-701.046143" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="150" roam_radius="1000" roam_depth="200" combat_radius="0" color="64,0,128">
+            <NPC id="101016" default="false" rate="400" />
+            <NPC id="101017" default="false" rate="600" />
+        </SPAWN>
+        <SPAWN id="167" group="0" name="호수 에보스" x="59506.843750" y="69382.000000" z="-642.594421" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="150" roam_radius="1000" roam_depth="200" combat_radius="0" color="64,0,128">
+            <NPC id="101016" default="false" rate="400" />
+            <NPC id="101017" default="false" rate="600" />
+        </SPAWN>
+        <SPAWN id="168" group="0" name="호수 에보스" x="45446.058594" y="68161.984375" z="-673.075256" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="150" roam_radius="1000" roam_depth="200" combat_radius="0" color="64,0,128">
+            <NPC id="101016" default="false" rate="400" />
+            <NPC id="101017" default="false" rate="600" />
+        </SPAWN>
+        <SPAWN id="169" group="0" name="호수 에보스" x="42234.160156" y="68991.906250" z="-755.363281" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="150" roam_radius="1000" roam_depth="200" combat_radius="0" color="64,0,128">
+            <NPC id="101016" default="false" rate="400" />
+            <NPC id="101017" default="false" rate="600" />
+        </SPAWN>
+        <SPAWN id="170" group="0" name="호수 에보스" x="39229.984375" y="68534.445313" z="-633.321045" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="150" roam_radius="1000" roam_depth="200" combat_radius="0" color="64,0,128">
+            <NPC id="101016" default="false" rate="400" />
+            <NPC id="101017" default="false" rate="600" />
+        </SPAWN>
+        <SPAWN id="171" group="0" name="호수 에보스" x="37090.667969" y="69434.328125" z="-747.406799" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="150" roam_radius="1000" roam_depth="200" combat_radius="0" color="64,0,128">
+            <NPC id="101016" default="false" rate="400" />
+            <NPC id="101017" default="false" rate="600" />
+        </SPAWN>
+        <SPAWN id="172" group="0" name="호수 에보스" x="34104.914063" y="67615.023438" z="-699.249634" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="150" roam_radius="1000" roam_depth="200" combat_radius="0" color="64,0,128">
+            <NPC id="101016" default="false" rate="400" />
+            <NPC id="101017" default="false" rate="600" />
+        </SPAWN>
+        <SPAWN id="173" group="0" name="호수 에보스" x="31561.496094" y="66977.109375" z="-781.039124" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="150" roam_radius="1000" roam_depth="200" combat_radius="0" color="64,0,128">
+            <NPC id="101016" default="false" rate="400" />
+            <NPC id="101017" default="false" rate="600" />
+        </SPAWN>
+        <SPAWN id="200" group="0" name="오염된 풀뿌리" x="40689.375000" y="39290.578125" z="28.419434" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="800.000000" random_dir="true" enabled="true" start_time="0" respawn_time="60" roam_radius="0" roam_depth="0" combat_radius="0" color="0,128,0">
+            <NPC id="101239" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="201" group="0" name="오염된 풀뿌리" x="40093.996094" y="46963.601563" z="3.244141" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="800.000000" random_dir="true" enabled="true" start_time="0" respawn_time="60" roam_radius="0" roam_depth="0" combat_radius="0" color="0,128,0">
+            <NPC id="101239" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="202" group="0" name="오염된 풀뿌리" x="41568.210938" y="52078.296875" z="61.745911" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="800.000000" random_dir="true" enabled="true" start_time="0" respawn_time="60" roam_radius="0" roam_depth="0" combat_radius="0" color="0,128,0">
+            <NPC id="101239" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="203" group="0" name="오염된 풀뿌리" x="39893.699219" y="49648.203125" z="3.245117" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="800.000000" random_dir="true" enabled="true" start_time="0" respawn_time="60" roam_radius="0" roam_depth="0" combat_radius="0" color="0,128,0">
+            <NPC id="101239" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="204" group="0" name="오염된 풀뿌리" x="39075.718750" y="43382.871094" z="-113.208984" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="800.000000" random_dir="true" enabled="true" start_time="0" respawn_time="60" roam_radius="0" roam_depth="0" combat_radius="0" color="0,128,0">
+            <NPC id="101239" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="205" group="0" name="오염된 풀뿌리" x="37504.718750" y="41067.468750" z="-3.359150" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="800.000000" random_dir="true" enabled="true" start_time="0" respawn_time="60" roam_radius="0" roam_depth="0" combat_radius="0" color="0,128,0">
+            <NPC id="101239" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="206" group="0" name="오염된 풀뿌리" x="44705.136719" y="56182.078125" z="424.844727" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="800.000000" random_dir="true" enabled="true" start_time="0" respawn_time="60" roam_radius="0" roam_depth="0" combat_radius="0" color="0,128,0">
+            <NPC id="101239" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="207" group="0" name="오염된 풀뿌리" x="26587.167969" y="65826.726563" z="134.516907" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="800.000000" random_dir="true" enabled="true" start_time="0" respawn_time="60" roam_radius="0" roam_depth="0" combat_radius="0" color="0,128,0">
+            <NPC id="101239" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="208" group="0" name="오염된 풀뿌리" x="58832.046875" y="68876.171875" z="-584.640442" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="800.000000" random_dir="true" enabled="true" start_time="0" respawn_time="60" roam_radius="0" roam_depth="0" combat_radius="0" color="0,128,0">
+            <NPC id="101239" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="209" group="0" name="오염된 풀뿌리" x="61915.375000" y="63834.277344" z="-55.270565" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="800.000000" random_dir="true" enabled="true" start_time="0" respawn_time="60" roam_radius="0" roam_depth="0" combat_radius="0" color="0,128,0">
+            <NPC id="101239" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="220" group="0" name="죽어있는 생선" x="44713.925781" y="42526.035156" z="-667.453857" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="800.000000" random_dir="true" enabled="true" start_time="0" respawn_time="120" roam_radius="0" roam_depth="0" combat_radius="0" color="255,255,0">
+            <NPC id="101238" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="221" group="0" name="죽어있는 생선" x="44513.648438" y="46178.132813" z="-667.163025" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="800.000000" random_dir="true" enabled="true" start_time="0" respawn_time="120" roam_radius="0" roam_depth="0" combat_radius="0" color="255,255,0">
+            <NPC id="101238" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="222" group="0" name="죽어있는 생선" x="44891.617188" y="51574.214844" z="-659.559387" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="800.000000" random_dir="true" enabled="true" start_time="0" respawn_time="120" roam_radius="0" roam_depth="0" combat_radius="0" color="255,255,0">
+            <NPC id="101238" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="223" group="0" name="죽어있는 생선" x="42883.281250" y="39618.246094" z="-595.458252" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="800.000000" random_dir="true" enabled="true" start_time="0" respawn_time="120" roam_radius="0" roam_depth="0" combat_radius="0" color="255,255,0">
+            <NPC id="101238" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="224" group="0" name="죽어있는 생선" x="44164.785156" y="49174.597656" z="-614.222412" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="800.000000" random_dir="true" enabled="true" start_time="0" respawn_time="120" roam_radius="0" roam_depth="0" combat_radius="0" color="255,255,0">
+            <NPC id="101238" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="225" group="0" name="죽어있는 생선" x="45583.996094" y="54186.898438" z="-94.623047" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="800.000000" random_dir="true" enabled="true" start_time="0" respawn_time="120" roam_radius="0" roam_depth="0" combat_radius="0" color="255,255,0">
+            <NPC id="101238" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="226" group="0" name="죽어있는 생선" x="41759.917969" y="44657.093750" z="-667.580322" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="800.000000" random_dir="true" enabled="true" start_time="0" respawn_time="120" roam_radius="0" roam_depth="0" combat_radius="0" color="255,255,0">
+            <NPC id="101238" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="227" group="0" name="죽어있는 생선" x="42813.910156" y="50401.195313" z="-655.482483" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="800.000000" random_dir="true" enabled="true" start_time="0" respawn_time="120" roam_radius="0" roam_depth="0" combat_radius="0" color="255,255,0">
+            <NPC id="101238" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="240" group="0" name="큰 이빨 호저" x="36667.148438" y="55343.542969" z="114.932129" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="600" roam_depth="200" combat_radius="0" color="128,128,64">
+            <NPC id="101023" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="241" group="0" name="큰 이빨 호저" x="32852.347656" y="50787.273438" z="581.210815" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="600" roam_depth="200" combat_radius="0" color="128,128,64">
+            <NPC id="101023" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="243" group="0" name="큰 이빨 호저" x="36000.441406" y="50545.746094" z="635.106812" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="600" roam_depth="200" combat_radius="0" color="128,128,64">
+            <NPC id="101023" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="244" group="0" name="큰 이빨 호저" x="38273.359375" y="50947.386719" z="813.777710" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="600" roam_depth="200" combat_radius="0" color="128,128,64">
+            <NPC id="101023" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="245" group="0" name="큰 이빨 호저" x="33391.628906" y="48791.511719" z="728.240601" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="600" roam_depth="200" combat_radius="0" color="128,128,64">
+            <NPC id="101023" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="246" group="0" name="큰 이빨 호저" x="40319.582031" y="52550.960938" z="1252.606812" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="600" roam_depth="200" combat_radius="0" color="128,128,64">
+            <NPC id="101023" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="247" group="0" name="큰 이빨 호저" x="34619.519531" y="47976.757813" z="637.017944" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="600" roam_depth="200" combat_radius="0" color="128,128,64">
+            <NPC id="101023" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="248" group="0" name="큰 이빨 호저" x="35929.578125" y="49286.367188" z="715.122925" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="600" roam_depth="200" combat_radius="0" color="128,128,64">
+            <NPC id="101023" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="249" group="0" name="큰 이빨 호저" x="38250.554688" y="55894.707031" z="142.374756" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="600" roam_depth="200" combat_radius="0" color="128,128,64">
+            <NPC id="101023" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="270" group="0" name="사나운 붉은 비늘 늑대" x="25620.714844" y="47263.167969" z="-194.422562" dir_x="0.998630" dir_y="-0.052336" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="255,0,128">
+            <NPC id="101022" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="271" group="0" name="사나운 붉은 비늘 늑대" x="26171.214844" y="41226.265625" z="-378.871826" dir_x="0.998630" dir_y="-0.052336" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="255,0,128">
+            <NPC id="101022" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="272" group="0" name="사나운 붉은 비늘 늑대" x="20276.105469" y="37344.621094" z="-479.324341" dir_x="0.998630" dir_y="-0.052336" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="255,0,128">
+            <NPC id="101022" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="273" group="0" name="사나운 붉은 비늘 늑대" x="26556.748047" y="39050.835938" z="-434.046631" dir_x="0.998630" dir_y="-0.052336" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="255,0,128">
+            <NPC id="101022" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="274" group="0" name="비늘 늑대 우두머리" x="29720.054688" y="42377.367188" z="-284.234009" dir_x="0.998630" dir_y="-0.052336" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="255,0,128">
+            <NPC id="101018" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="275" group="0" name="사나운 붉은 비늘 늑대" x="27560.916016" y="50557.636719" z="-215.042633" dir_x="0.998630" dir_y="-0.052336" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="255,0,128">
+            <NPC id="101022" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="276" group="0" name="사나운 붉은 비늘 늑대" x="31377.597656" y="50755.324219" z="349.176239" dir_x="0.998630" dir_y="-0.052336" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="255,0,128">
+            <NPC id="101022" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="290" group="0" name="붉은 가죽 사슴 난폭한 푸른 가죽 사슴" x="25067.150391" y="42736.375000" z="-400.022308" dir_x="0.997564" dir_y="0.069756" dir_z="0.000000" radius="800.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="255,255,0">
+            <NPC id="101025" default="false" rate="500" />
+            <NPC id="101026" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="291" group="0" name="붉은 가죽 사슴 난폭한 푸른 가죽 사슴" x="23012.511719" y="37804.839844" z="-442.040497" dir_x="0.997564" dir_y="0.069756" dir_z="0.000000" radius="800.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="255,255,0">
+            <NPC id="101025" default="false" rate="500" />
+            <NPC id="101026" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="292" group="0" name="붉은 가죽 사슴 난폭한 푸른 가죽 사슴" x="30649.384766" y="38139.296875" z="-514.910828" dir_x="0.997564" dir_y="0.069756" dir_z="0.000000" radius="800.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="255,255,0">
+            <NPC id="101025" default="false" rate="500" />
+            <NPC id="101026" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="293" group="0" name="붉은 가죽 사슴 난폭한 푸른 가죽 사슴" x="27354.968750" y="46730.179688" z="-159.160095" dir_x="0.997564" dir_y="0.069756" dir_z="0.000000" radius="800.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="255,255,0">
+            <NPC id="101025" default="false" rate="500" />
+            <NPC id="101026" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="294" group="0" name="붉은 가죽 사슴 난폭한 푸른 가죽 사슴" x="21174.316406" y="40239.128906" z="-304.578766" dir_x="0.997564" dir_y="0.069756" dir_z="0.000000" radius="800.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="255,255,0">
+            <NPC id="101025" default="false" rate="500" />
+            <NPC id="101026" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="295" group="0" name="붉은 가죽 사슴 난폭한 푸른 가죽 사슴" x="28152.552734" y="38495.140625" z="-629.288757" dir_x="0.997564" dir_y="0.069756" dir_z="0.000000" radius="800.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="255,255,0">
+            <NPC id="101025" default="false" rate="500" />
+            <NPC id="101026" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="296" group="0" name="붉은 가죽 사슴 난폭한 푸른 가죽 사슴" x="30879.132813" y="40263.156250" z="-516.862610" dir_x="0.997564" dir_y="0.069756" dir_z="0.000000" radius="800.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="255,255,0">
+            <NPC id="101025" default="false" rate="500" />
+            <NPC id="101026" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="297" group="0" name="붉은 가죽 사슴 난폭한 푸른 가죽 사슴" x="27694.646484" y="51644.152344" z="-109.649582" dir_x="0.997564" dir_y="0.069756" dir_z="0.000000" radius="800.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="255,255,0">
+            <NPC id="101025" default="false" rate="500" />
+            <NPC id="101026" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="298" group="0" name="붉은 가죽 사슴 난폭한 푸른 가죽 사슴" x="25522.136719" y="50287.667969" z="-264.878418" dir_x="0.997564" dir_y="0.069756" dir_z="0.000000" radius="800.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="255,255,0">
+            <NPC id="101025" default="false" rate="500" />
+            <NPC id="101026" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="299" group="0" name="붉은 가죽 사슴 난폭한 푸른 가죽 사슴" x="27597.808594" y="56498.839844" z="255.807953" dir_x="0.997564" dir_y="0.069756" dir_z="0.000000" radius="800.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="255,255,0">
+            <NPC id="101025" default="false" rate="500" />
+            <NPC id="101026" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="300" group="0" name="붉은 가죽 사슴 난폭한 푸른 가죽 사슴" x="28588.181641" y="47877.507813" z="-380.024933" dir_x="0.997564" dir_y="0.069756" dir_z="0.000000" radius="800.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="255,255,0">
+            <NPC id="101025" default="false" rate="500" />
+            <NPC id="101026" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="301" group="0" name="붉은 가죽 사슴 난폭한 푸른 가죽 사슴" x="28145.427734" y="43686.753906" z="-614.233826" dir_x="0.997564" dir_y="0.069756" dir_z="0.000000" radius="800.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="255,255,0">
+            <NPC id="101025" default="false" rate="500" />
+            <NPC id="101026" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="320" group="0" name="코볼트 수색대" x="23987.617188" y="47531.484375" z="-187.848938" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="580.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="800" roam_depth="200" combat_radius="0" color="128,128,255">
+            <NPC id="101042" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="321" group="0" name="코볼트 수색대" x="23744.437500" y="44389.394531" z="-356.133942" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="580.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="800" roam_depth="200" combat_radius="0" color="128,128,255">
+            <NPC id="101042" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="322" group="0" name="코볼트 수색대" x="22631.232422" y="42811.007813" z="-343.448914" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="580.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="800" roam_depth="200" combat_radius="0" color="128,128,255">
+            <NPC id="101042" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="323" group="0" name="코볼트 수색대" x="20499.259766" y="41064.398438" z="-294.088898" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="580.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="800" roam_depth="200" combat_radius="0" color="128,128,255">
+            <NPC id="101042" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="324" group="0" name="코볼트 수색대" x="25501.191406" y="45671.171875" z="-65.775505" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="580.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="800" roam_depth="200" combat_radius="0" color="128,128,255">
+            <NPC id="101042" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="325" group="0" name="코볼트 수색대" x="23699.914063" y="41881.246094" z="-375.488037" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="580.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="800" roam_depth="200" combat_radius="0" color="128,128,255">
+            <NPC id="101042" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="350" group="0" name="버림받은 신도" x="61129.187500" y="24203.449219" z="1327.508789" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="500.000000" random_dir="true" enabled="true" start_time="10" respawn_time="120" roam_radius="1000" roam_depth="50" combat_radius="0" color="0,255,0">
+            <NPC id="101028" default="false" rate="500" />
+            <NPC id="101036" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="351" group="0" name="버림받은 신도" x="63967.562500" y="23023.410156" z="1327.508301" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="500.000000" random_dir="true" enabled="true" start_time="10" respawn_time="120" roam_radius="1000" roam_depth="50" combat_radius="0" color="0,255,0">
+            <NPC id="101028" default="false" rate="500" />
+            <NPC id="101036" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="352" group="0" name="버림받은 신도" x="65621.007813" y="28396.468750" z="1326.779297" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="500.000000" random_dir="true" enabled="true" start_time="10" respawn_time="120" roam_radius="1000" roam_depth="50" combat_radius="0" color="0,255,0">
+            <NPC id="101028" default="false" rate="500" />
+            <NPC id="101036" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="353" group="0" name="버림받은 신도" x="68709.695313" y="27926.003906" z="1326.610962" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="500.000000" random_dir="true" enabled="true" start_time="10" respawn_time="120" roam_radius="1000" roam_depth="50" combat_radius="0" color="0,255,0">
+            <NPC id="101028" default="false" rate="500" />
+            <NPC id="101036" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="354" group="0" name="버림받은 신도" x="68153.132813" y="30024.566406" z="1328.313477" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="500.000000" random_dir="true" enabled="true" start_time="10" respawn_time="120" roam_radius="1000" roam_depth="50" combat_radius="0" color="0,255,0">
+            <NPC id="101028" default="false" rate="500" />
+            <NPC id="101036" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="355" group="0" name="버림받은 신도" x="63048.375000" y="24684.490234" z="1327.508301" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="500.000000" random_dir="true" enabled="true" start_time="10" respawn_time="120" roam_radius="1000" roam_depth="50" combat_radius="0" color="0,255,0">
+            <NPC id="101028" default="false" rate="500" />
+            <NPC id="101036" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="356" group="0" name="버림받은 신도" x="65289.972656" y="29944.664063" z="1337.537842" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="500.000000" random_dir="true" enabled="true" start_time="10" respawn_time="120" roam_radius="1000" roam_depth="50" combat_radius="0" color="0,255,0">
+            <NPC id="101028" default="false" rate="500" />
+            <NPC id="101036" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="357" group="0" name="버림받은 신도" x="62091.820313" y="21020.978516" z="1327.508789" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="500.000000" random_dir="true" enabled="true" start_time="10" respawn_time="120" roam_radius="1000" roam_depth="50" combat_radius="0" color="0,255,0">
+            <NPC id="101028" default="false" rate="500" />
+            <NPC id="101036" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="358" group="0" name="버림받은 신도" x="68605.984375" y="23730.148438" z="2434.719238" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="500.000000" random_dir="true" enabled="true" start_time="10" respawn_time="120" roam_radius="1000" roam_depth="50" combat_radius="0" color="0,255,0">
+            <NPC id="101028" default="false" rate="500" />
+            <NPC id="101036" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="359" group="0" name="버림받은 사제" x="63835.777344" y="28273.232422" z="1372.595459" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="300.000000" random_dir="true" enabled="true" start_time="10" respawn_time="120" roam_radius="500" roam_depth="50" combat_radius="0" color="255,128,0">
+            <NPC id="101029" default="false" rate="500" />
+            <NPC id="101037" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="360" group="0" name="버림받은 사제" x="62321.503906" y="22559.312500" z="1348.561035" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="300.000000" random_dir="true" enabled="true" start_time="10" respawn_time="120" roam_radius="500" roam_depth="50" combat_radius="0" color="255,128,0">
+            <NPC id="101029" default="false" rate="500" />
+            <NPC id="101037" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="361" group="0" name="버림받은 사제" x="65673.906250" y="22444.755859" z="1372.494141" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="300.000000" random_dir="true" enabled="true" start_time="10" respawn_time="120" roam_radius="500" roam_depth="50" combat_radius="0" color="255,128,0">
+            <NPC id="101029" default="false" rate="500" />
+            <NPC id="101037" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="362" group="0" name="버림받은 사제" x="66700.843750" y="26895.404297" z="1360.695313" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="300.000000" random_dir="true" enabled="true" start_time="10" respawn_time="120" roam_radius="500" roam_depth="50" combat_radius="0" color="255,128,0">
+            <NPC id="101029" default="false" rate="500" />
+            <NPC id="101037" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="364" group="0" name="버림받은 사제" x="66530.312500" y="31189.035156" z="1440.603027" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="300.000000" random_dir="true" enabled="true" start_time="10" respawn_time="120" roam_radius="500" roam_depth="50" combat_radius="0" color="255,128,0">
+            <NPC id="101029" default="false" rate="500" />
+            <NPC id="101037" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="365" group="0" name="버림받은 사제" x="64379.187500" y="20204.265625" z="1375.595459" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="300.000000" random_dir="true" enabled="true" start_time="10" respawn_time="120" roam_radius="500" roam_depth="50" combat_radius="0" color="255,128,0">
+            <NPC id="101029" default="false" rate="500" />
+            <NPC id="101037" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="366" group="0" name="버림받은 사제" x="61751.886719" y="25932.410156" z="1380.539551" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="300.000000" random_dir="true" enabled="true" start_time="10" respawn_time="120" roam_radius="500" roam_depth="50" combat_radius="0" color="255,128,0">
+            <NPC id="101029" default="false" rate="500" />
+            <NPC id="101037" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="367" group="0" name="버림받은 사제" x="60603.089844" y="25748.130859" z="1364.890137" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="300.000000" random_dir="true" enabled="true" start_time="10" respawn_time="120" roam_radius="500" roam_depth="50" combat_radius="0" color="255,128,0">
+            <NPC id="101029" default="false" rate="500" />
+            <NPC id="101037" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="368" group="0" name="버림받은 사제" x="69642.062500" y="26726.917969" z="1377.169922" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="300.000000" random_dir="true" enabled="true" start_time="10" respawn_time="120" roam_radius="500" roam_depth="50" combat_radius="0" color="255,128,0">
+            <NPC id="101029" default="false" rate="500" />
+            <NPC id="101037" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="369" group="0" name="버림받은 사제" x="67306.179688" y="28363.085938" z="1355.205566" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="300.000000" random_dir="true" enabled="true" start_time="10" respawn_time="120" roam_radius="500" roam_depth="50" combat_radius="0" color="255,128,0">
+            <NPC id="101029" default="false" rate="500" />
+            <NPC id="101037" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="174" group="0" name="호수 에보스" x="70914.734375" y="42504.964844" z="-693.393555" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="150" roam_radius="1000" roam_depth="200" combat_radius="0" color="64,0,128">
+            <NPC id="101016" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="250" group="0" name="큰 이빨 호저" x="35427.496094" y="46183.988281" z="439.377533" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="600" roam_depth="200" combat_radius="0" color="128,128,64">
+            <NPC id="101023" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="251" group="0" name="비늘 호저 우두머리" x="61567.753906" y="14455.639648" z="969.918152" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="180" roam_radius="1000" roam_depth="200" combat_radius="0" color="0,128,255">
+            <NPC id="101014" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="380" group="0" name="가디엘 교도" x="67735.484375" y="16694.021484" z="2441.748047" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="300.000000" random_dir="true" enabled="true" start_time="10" respawn_time="120" roam_radius="500" roam_depth="50" combat_radius="0" color="0,0,255">
+            <NPC id="101020" default="false" rate="500" />
+            <NPC id="101035" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="381" group="0" name="가디엘 교도" x="70117.171875" y="16653.259766" z="2450.976563" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="300.000000" random_dir="true" enabled="true" start_time="10" respawn_time="120" roam_radius="500" roam_depth="50" combat_radius="0" color="0,0,255">
+            <NPC id="101020" default="false" rate="500" />
+            <NPC id="101035" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="382" group="0" name="가디엘 교도" x="69405.429688" y="14775.300781" z="2439.323242" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="300.000000" random_dir="true" enabled="true" start_time="10" respawn_time="120" roam_radius="500" roam_depth="50" combat_radius="0" color="0,0,255">
+            <NPC id="101020" default="false" rate="500" />
+            <NPC id="101035" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="383" group="0" name="가디엘 교도" x="71432.882813" y="14091.173828" z="2437.255615" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="300.000000" random_dir="true" enabled="true" start_time="10" respawn_time="120" roam_radius="500" roam_depth="50" combat_radius="0" color="0,0,255">
+            <NPC id="101020" default="false" rate="500" />
+            <NPC id="101035" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="384" group="0" name="가디엘 교도" x="74038.343750" y="15395.814453" z="2438.766602" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="300.000000" random_dir="true" enabled="true" start_time="10" respawn_time="120" roam_radius="500" roam_depth="50" combat_radius="0" color="0,0,255">
+            <NPC id="101020" default="false" rate="500" />
+            <NPC id="101035" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="385" group="0" name="가디엘 교도" x="75471.187500" y="19124.980469" z="2437.060791" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="300.000000" random_dir="true" enabled="true" start_time="10" respawn_time="120" roam_radius="500" roam_depth="50" combat_radius="0" color="0,0,255">
+            <NPC id="101020" default="false" rate="500" />
+            <NPC id="101035" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="386" group="0" name="가디엘 교도" x="71796.664063" y="21526.101563" z="2437.059570" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="300.000000" random_dir="true" enabled="true" start_time="10" respawn_time="120" roam_radius="500" roam_depth="50" combat_radius="0" color="0,0,255">
+            <NPC id="101020" default="false" rate="500" />
+            <NPC id="101035" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="387" group="0" name="가디엘교 사제" x="67211.164063" y="20221.011719" z="2427.074707" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="300.000000" random_dir="true" enabled="true" start_time="0" respawn_time="150" roam_radius="500" roam_depth="50" combat_radius="0" color="255,255,0">
+            <NPC id="101033" default="false" rate="500" />
+            <NPC id="101040" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="392" group="0" name="가디엘교 사제" x="66773.460938" y="18894.625000" z="2526.771973" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="300.000000" random_dir="true" enabled="true" start_time="0" respawn_time="150" roam_radius="500" roam_depth="50" combat_radius="0" color="255,255,0">
+            <NPC id="101033" default="false" rate="500" />
+            <NPC id="101040" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="393" group="0" name="가디엘교 사제" x="69244.273438" y="17430.992188" z="2437.059570" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="300.000000" random_dir="true" enabled="true" start_time="0" respawn_time="150" roam_radius="500" roam_depth="50" combat_radius="0" color="255,255,0">
+            <NPC id="101033" default="false" rate="500" />
+            <NPC id="101040" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="394" group="0" name="가디엘교 사제" x="67919.093750" y="15302.522461" z="2469.428223" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="300.000000" random_dir="true" enabled="true" start_time="0" respawn_time="150" roam_radius="500" roam_depth="50" combat_radius="0" color="255,255,0">
+            <NPC id="101033" default="false" rate="500" />
+            <NPC id="101040" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="395" group="0" name="가디엘교 사제" x="72523.203125" y="14944.154297" z="2437.059570" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="300.000000" random_dir="true" enabled="true" start_time="0" respawn_time="150" roam_radius="500" roam_depth="50" combat_radius="0" color="255,255,0">
+            <NPC id="101033" default="false" rate="500" />
+            <NPC id="101040" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="396" group="0" name="가디엘교 사제" x="73939.296875" y="19893.562500" z="2437.059570" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="300.000000" random_dir="true" enabled="true" start_time="0" respawn_time="150" roam_radius="500" roam_depth="50" combat_radius="0" color="255,255,0">
+            <NPC id="101033" default="false" rate="500" />
+            <NPC id="101040" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="397" group="0" name="가디엘교 사제" x="73065.046875" y="21771.109375" z="2436.757568" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="300.000000" random_dir="true" enabled="true" start_time="0" respawn_time="150" roam_radius="500" roam_depth="50" combat_radius="0" color="255,255,0">
+            <NPC id="101033" default="false" rate="500" />
+            <NPC id="101040" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="398" group="0" name="가디엘교 사제" x="72339.953125" y="23924.390625" z="2508.653076" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="300.000000" random_dir="true" enabled="true" start_time="0" respawn_time="150" roam_radius="500" roam_depth="50" combat_radius="0" color="255,255,0">
+            <NPC id="101033" default="false" rate="500" />
+            <NPC id="101040" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="410" group="0" name="이단 심판관" x="70716.359375" y="15402.061523" z="2437.059570" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="500.000000" random_dir="true" enabled="true" start_time="0" respawn_time="150" roam_radius="800" roam_depth="50" combat_radius="0" color="255,0,128">
+            <NPC id="101034" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="411" group="0" name="이단 심판관" x="75363.835938" y="17272.878906" z="2437.059570" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="500.000000" random_dir="true" enabled="true" start_time="0" respawn_time="150" roam_radius="800" roam_depth="50" combat_radius="0" color="255,0,128">
+            <NPC id="101034" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="412" group="0" name="이단 심판관" x="66526.492188" y="17808.650391" z="2548.478027" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="500.000000" random_dir="true" enabled="true" start_time="0" respawn_time="150" roam_radius="800" roam_depth="50" combat_radius="0" color="255,0,128">
+            <NPC id="101034" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="415" group="0" name="이단 심판관" x="68756.593750" y="25856.898438" z="1326.830444" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="500.000000" random_dir="true" enabled="true" start_time="0" respawn_time="150" roam_radius="800" roam_depth="50" combat_radius="0" color="255,0,128">
+            <NPC id="101034" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="416" group="0" name="이단 심판관" x="65410.542969" y="20987.609375" z="1327.508301" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="500.000000" random_dir="true" enabled="true" start_time="0" respawn_time="150" roam_radius="800" roam_depth="50" combat_radius="0" color="255,0,128">
+            <NPC id="101034" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="417" group="0" name="거대 비늘 호저" x="58748.976563" y="20223.156250" z="434.491699" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="540.000000" random_dir="true" enabled="true" start_time="1" respawn_time="150" roam_radius="1000" roam_depth="200" combat_radius="0" color="0,128,255">
+            <NPC id="101014" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="421" group="0" name="푸른 가죽 사슴" x="60458.550781" y="18709.498047" z="397.553528" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="150" roam_radius="1000" roam_depth="200" combat_radius="0" color="255,128,64">
+            <NPC id="101013" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="422" group="0" name="사나운 붉은 비늘 늑대" x="25127.708984" y="37157.203125" z="-342.134979" dir_x="0.998630" dir_y="-0.052336" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="255,0,128">
+            <NPC id="101022" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="423" group="0" name="사나운 붉은 비늘 늑대" x="28484.566406" y="53247.074219" z="84.251839" dir_x="0.998630" dir_y="-0.052336" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="255,0,128">
+            <NPC id="101022" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="425" group="0" name="평원사슴" x="26947.437500" y="15133.101563" z="1667.828491" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="0,0,255">
+            <NPC id="101032" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="426" group="0" name="평원사슴" x="23433.904297" y="64428.109375" z="1302.050537" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="0,0,255">
+            <NPC id="101032" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="427" group="0" name="평원사슴" x="22376.451172" y="58037.429688" z="1339.000000" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="0,0,255">
+            <NPC id="101032" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="428" group="0" name="평원사슴" x="19247.789063" y="57789.347656" z="1225.057251" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="0,0,255">
+            <NPC id="101032" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="429" group="0" name="평원사슴" x="26489.164063" y="64215.046875" z="875.636719" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="0,0,255">
+            <NPC id="101032" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="430" group="0" name="큰 이빨 호저" x="44102.070313" y="60608.281250" z="-28.881481" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="600" roam_depth="200" combat_radius="0" color="128,128,64">
+            <NPC id="101023" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="431" group="0" name="큰 이빨 호저" x="41876.015625" y="61160.671875" z="53.780411" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="600" roam_depth="200" combat_radius="0" color="128,128,64">
+            <NPC id="101023" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="432" group="0" name="큰 이빨 호저" x="38658.753906" y="64608.871094" z="3.003906" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="600" roam_depth="200" combat_radius="0" color="128,128,64">
+            <NPC id="101023" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="433" group="0" name="큰 이빨 호저" x="44355.289063" y="62592.867188" z="281.019073" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="600" roam_depth="200" combat_radius="0" color="128,128,64">
+            <NPC id="101023" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="434" group="0" name="붉은 가죽 사슴 난폭한 푸른 가죽 사슴" x="44761.722656" y="65213.136719" z="-90.963852" dir_x="0.997564" dir_y="0.069756" dir_z="0.000000" radius="800.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="255,255,0">
+            <NPC id="101025" default="false" rate="500" />
+            <NPC id="101026" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="435" group="0" name="붉은 가죽 사슴 난폭한 푸른 가죽 사슴" x="43772.812500" y="57740.808594" z="312.231201" dir_x="0.997564" dir_y="0.069756" dir_z="0.000000" radius="800.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="255,255,0">
+            <NPC id="101025" default="false" rate="500" />
+            <NPC id="101026" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="436" group="0" name="붉은 가죽 사슴 난폭한 푸른 가죽 사슴" x="56475.269531" y="60641.136719" z="580.855957" dir_x="0.997564" dir_y="0.069756" dir_z="0.000000" radius="800.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="255,255,0">
+            <NPC id="101025" default="false" rate="500" />
+            <NPC id="101026" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="437" group="0" name="붉은 가죽 사슴 난폭한 푸른 가죽 사슴" x="57970.082031" y="58300.546875" z="389.525757" dir_x="0.997564" dir_y="0.069756" dir_z="0.000000" radius="800.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="255,255,0">
+            <NPC id="101025" default="false" rate="500" />
+            <NPC id="101026" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="438" group="0" name="붉은 가죽 사슴 난폭한 푸른 가죽 사슴" x="48708.933594" y="60337.972656" z="342.255524" dir_x="0.997564" dir_y="0.069756" dir_z="0.000000" radius="800.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="255,255,0">
+            <NPC id="101025" default="false" rate="500" />
+            <NPC id="101026" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="439" group="0" name="붉은 가죽 사슴 난폭한 푸른 가죽 사슴" x="54384.085938" y="56483.074219" z="422.819550" dir_x="0.997564" dir_y="0.069756" dir_z="0.000000" radius="800.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="255,255,0">
+            <NPC id="101025" default="false" rate="500" />
+            <NPC id="101026" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="440" group="0" name="붉은 가죽 사슴 난폭한 푸른 가죽 사슴" x="50093.335938" y="56255.617188" z="525.262268" dir_x="0.997564" dir_y="0.069756" dir_z="0.000000" radius="800.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="255,255,0">
+            <NPC id="101025" default="false" rate="500" />
+            <NPC id="101026" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="441" group="0" name="붉은 가죽 사슴 난폭한 푸른 가죽 사슴" x="58914.226563" y="61590.207031" z="90.222427" dir_x="0.997564" dir_y="0.069756" dir_z="0.000000" radius="800.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="255,255,0">
+            <NPC id="101025" default="false" rate="500" />
+            <NPC id="101026" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="442" group="0" name="붉은 가죽 사슴 난폭한 푸른 가죽 사슴" x="58008.031250" y="67498.898438" z="-379.644531" dir_x="0.997564" dir_y="0.069756" dir_z="0.000000" radius="800.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="255,255,0">
+            <NPC id="101025" default="false" rate="500" />
+            <NPC id="101026" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="443" group="0" name="붉은 가죽 사슴 난폭한 푸른 가죽 사슴" x="50076.765625" y="67511.820313" z="1353.994019" dir_x="0.997564" dir_y="0.069756" dir_z="0.000000" radius="800.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="255,255,0">
+            <NPC id="101025" default="false" rate="500" />
+            <NPC id="101026" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="444" group="0" name="붉은 가죽 사슴 난폭한 푸른 가죽 사슴" x="61572.164063" y="63295.917969" z="12.932481" dir_x="0.997564" dir_y="0.069756" dir_z="0.000000" radius="800.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="255,255,0">
+            <NPC id="101025" default="false" rate="500" />
+            <NPC id="101026" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="445" group="0" name="붉은 가죽 사슴 난폭한 푸른 가죽 사슴" x="58828.042969" y="56233.136719" z="221.507095" dir_x="0.997564" dir_y="0.069756" dir_z="0.000000" radius="800.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="255,255,0">
+            <NPC id="101025" default="false" rate="500" />
+            <NPC id="101026" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="101249" group="0" name="[NPC]아이1" x="49895.000000" y="63873.964844" z="313.871857" dir_x="-0.104529" dir_y="-0.994522" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="1" respawn_time="1" roam_radius="0" roam_depth="0" combat_radius="0" color="255,0,0">
+            <NPC id="101249" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="101250" group="0" name="[NPC]아이2" x="50330.335938" y="63648.250000" z="285.746704" dir_x="-0.766045" dir_y="-0.642787" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="1" respawn_time="1" roam_radius="0" roam_depth="0" combat_radius="0" color="255,0,0">
+            <NPC id="101250" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="101246" group="0" name="[NPC]왕국군 기사" x="49493.875000" y="64053.773438" z="340.147766" dir_x="-0.309017" dir_y="-0.951056" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="1" respawn_time="1" roam_radius="0" roam_depth="0" combat_radius="0" color="255,0,0">
+            <NPC id="101246" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="101247" group="0" name="[NPC]왕국군 기사" x="49031.042969" y="64069.835938" z="387.666229" dir_x="-0.104529" dir_y="-0.994522" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="1" respawn_time="1" roam_radius="0" roam_depth="0" combat_radius="0" color="255,0,0">
+            <NPC id="101247" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="101248" group="0" name="[NPC]왕국군 수문장 레골라스" x="50265.285156" y="63217.570313" z="391.575653" dir_x="-0.857167" dir_y="-0.515038" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="1" respawn_time="1" roam_radius="0" roam_depth="0" combat_radius="0" color="255,0,0">
+            <NPC id="101248" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="460" group="0" name="우르크" x="31128.611328" y="54353.816406" z="-11.647305" dir_x="0.997564" dir_y="0.069756" dir_z="0.000000" radius="300.000000" random_dir="true" enabled="true" start_time="0" respawn_time="60" roam_radius="500" roam_depth="30" combat_radius="0" color="255,255,0">
+            <NPC id="101011" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="461" group="0" name="우르크" x="31043.500000" y="57444.675781" z="-9.219751" dir_x="0.997564" dir_y="0.069756" dir_z="0.000000" radius="300.000000" random_dir="true" enabled="true" start_time="0" respawn_time="60" roam_radius="500" roam_depth="30" combat_radius="0" color="255,255,0">
+            <NPC id="101011" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="462" group="0" name="우르크" x="34544.769531" y="55996.187500" z="48.972919" dir_x="0.997564" dir_y="0.069756" dir_z="0.000000" radius="300.000000" random_dir="true" enabled="true" start_time="0" respawn_time="60" roam_radius="500" roam_depth="30" combat_radius="0" color="255,255,0">
+            <NPC id="101011" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="463" group="0" name="우르크" x="34779.699219" y="55139.578125" z="41.198112" dir_x="0.997564" dir_y="0.069756" dir_z="0.000000" radius="300.000000" random_dir="true" enabled="true" start_time="0" respawn_time="60" roam_radius="500" roam_depth="30" combat_radius="0" color="255,255,0">
+            <NPC id="101011" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="464" group="0" name="우르크" x="31264.083984" y="52224.867188" z="89.163567" dir_x="0.997564" dir_y="0.069756" dir_z="0.000000" radius="300.000000" random_dir="true" enabled="true" start_time="0" respawn_time="60" roam_radius="500" roam_depth="30" combat_radius="0" color="255,255,0">
+            <NPC id="101011" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="465" group="0" name="우르크" x="30962.273438" y="60223.140625" z="492.286713" dir_x="0.997564" dir_y="0.069756" dir_z="0.000000" radius="300.000000" random_dir="true" enabled="true" start_time="0" respawn_time="60" roam_radius="500" roam_depth="30" combat_radius="0" color="255,255,0">
+            <NPC id="101011" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="101235" group="0" name="[NPC]북쪽 경비탑" x="37827.238281" y="30367.224609" z="425.437927" dir_x="-0.998630" dir_y="0.052336" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="1" respawn_time="1" roam_radius="0" roam_depth="0" combat_radius="0" color="255,0,0">
+            <NPC id="101235" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="101234" group="0" name="[NPC]남쪽 경비탑" x="33015.652344" y="15841.183594" z="878.293457" dir_x="-0.956305" dir_y="-0.292371" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="1" respawn_time="1" roam_radius="0" roam_depth="0" combat_radius="0" color="255,0,0">
+            <NPC id="101234" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="466" group="0" name="우르크" x="33256.601563" y="21661.617188" z="1568.642212" dir_x="0.997564" dir_y="0.069756" dir_z="0.000000" radius="300.000000" random_dir="true" enabled="true" start_time="0" respawn_time="60" roam_radius="500" roam_depth="30" combat_radius="0" color="255,255,0">
+            <NPC id="101011" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="467" group="0" name="우르크" x="31338.339844" y="21551.265625" z="1534.352417" dir_x="0.997564" dir_y="0.069756" dir_z="0.000000" radius="320.000000" random_dir="true" enabled="true" start_time="0" respawn_time="60" roam_radius="500" roam_depth="30" combat_radius="0" color="255,255,0">
+            <NPC id="101011" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="468" group="0" name="우르크" x="30596.623047" y="20266.904297" z="1525.496460" dir_x="0.997564" dir_y="0.069756" dir_z="0.000000" radius="320.000000" random_dir="true" enabled="true" start_time="0" respawn_time="60" roam_radius="500" roam_depth="30" combat_radius="0" color="255,255,0">
+            <NPC id="101011" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="469" group="0" name="우르크" x="29749.531250" y="21190.152344" z="1509.247070" dir_x="0.997564" dir_y="0.069756" dir_z="0.000000" radius="320.000000" random_dir="true" enabled="true" start_time="0" respawn_time="60" roam_radius="500" roam_depth="30" combat_radius="0" color="255,255,0">
+            <NPC id="101011" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="470" group="0" name="우르크" x="28493.859375" y="23232.351563" z="1566.882690" dir_x="0.997564" dir_y="0.069756" dir_z="0.000000" radius="320.000000" random_dir="true" enabled="true" start_time="0" respawn_time="60" roam_radius="500" roam_depth="30" combat_radius="0" color="255,255,0">
+            <NPC id="101011" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="471" group="0" name="우르크" x="28651.011719" y="20248.470703" z="1556.660278" dir_x="0.997564" dir_y="0.069756" dir_z="0.000000" radius="320.000000" random_dir="true" enabled="true" start_time="0" respawn_time="60" roam_radius="500" roam_depth="30" combat_radius="0" color="255,255,0">
+            <NPC id="101011" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="472" group="0" name="우르크" x="29954.066406" y="19299.474609" z="1602.497681" dir_x="0.997564" dir_y="0.069756" dir_z="0.000000" radius="320.000000" random_dir="true" enabled="true" start_time="0" respawn_time="60" roam_radius="500" roam_depth="30" combat_radius="0" color="255,255,0">
+            <NPC id="101011" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="473" group="0" name="우르크" x="27408.894531" y="22032.599609" z="1569.720215" dir_x="0.997564" dir_y="0.069756" dir_z="0.000000" radius="320.000000" random_dir="true" enabled="true" start_time="0" respawn_time="60" roam_radius="500" roam_depth="30" combat_radius="0" color="255,255,0">
+            <NPC id="101011" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="474" group="0" name="우르크" x="27208.380859" y="23788.839844" z="1569.707764" dir_x="0.997564" dir_y="0.069756" dir_z="0.000000" radius="320.000000" random_dir="true" enabled="true" start_time="0" respawn_time="60" roam_radius="500" roam_depth="30" combat_radius="0" color="255,255,0">
+            <NPC id="101011" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="475" group="0" name="우르크" x="27052.808594" y="25309.218750" z="1701.765259" dir_x="0.997564" dir_y="0.069756" dir_z="0.000000" radius="320.000000" random_dir="true" enabled="true" start_time="0" respawn_time="60" roam_radius="500" roam_depth="30" combat_radius="0" color="255,255,0">
+            <NPC id="101011" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="476" group="0" name="우르크" x="31245.292969" y="24074.316406" z="1568.559570" dir_x="0.997564" dir_y="0.069756" dir_z="0.000000" radius="320.000000" random_dir="true" enabled="true" start_time="0" respawn_time="60" roam_radius="500" roam_depth="30" combat_radius="0" color="255,255,0">
+            <NPC id="101011" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="60" group="0" name="붉은 비늘 늑대" x="59318.417969" y="15305.532227" z="833.901855" dir_x="0.998630" dir_y="-0.052336" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="255,0,128">
+            <NPC id="101010" default="false" rate="600" />
+            <NPC id="101012" default="false" rate="400" />
+        </SPAWN>
+        <SPAWN id="61" group="0" name="붉은 비늘 늑대" x="52293.363281" y="14643.019531" z="394.532349" dir_x="0.998630" dir_y="-0.052336" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="255,0,128">
+            <NPC id="101010" default="false" rate="600" />
+            <NPC id="101012" default="false" rate="400" />
+        </SPAWN>
+        <SPAWN id="62" group="0" name="붉은 비늘 늑대" x="56644.722656" y="23370.892578" z="525.151550" dir_x="0.998630" dir_y="-0.052336" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="255,0,128">
+            <NPC id="101010" default="false" rate="600" />
+            <NPC id="101012" default="false" rate="400" />
+        </SPAWN>
+        <SPAWN id="63" group="0" name="붉은 비늘 늑대" x="59629.085938" y="27176.578125" z="195.555435" dir_x="0.998630" dir_y="-0.052336" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="255,0,128">
+            <NPC id="101010" default="false" rate="600" />
+            <NPC id="101012" default="false" rate="400" />
+        </SPAWN>
+        <SPAWN id="101251" group="0" name="호수 에보스" x="57240.242188" y="33694.957031" z="-585.505066" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="150" roam_radius="1000" roam_depth="200" combat_radius="0" color="64,0,128">
+            <NPC id="101016" default="false" rate="600" />
+            <NPC id="101017" default="false" rate="400" />
+        </SPAWN>
+        <SPAWN id="175" group="0" name="호수 에보스" x="58906.757813" y="33435.011719" z="-501.440826" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="150" roam_radius="1000" roam_depth="200" combat_radius="0" color="64,0,128">
+            <NPC id="101016" default="false" rate="600" />
+            <NPC id="101017" default="false" rate="400" />
+        </SPAWN>
+        <SPAWN id="176" group="0" name="호수 에보스" x="60588.609375" y="34491.777344" z="-411.524628" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="150" roam_radius="1000" roam_depth="200" combat_radius="0" color="64,0,128">
+            <NPC id="101016" default="false" rate="600" />
+            <NPC id="101017" default="false" rate="400" />
+        </SPAWN>
+        <SPAWN id="177" group="0" name="호수 에보스" x="62157.046875" y="35788.078125" z="-593.661072" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="150" roam_radius="1000" roam_depth="200" combat_radius="0" color="64,0,128">
+            <NPC id="101016" default="false" rate="600" />
+            <NPC id="101017" default="false" rate="400" />
+        </SPAWN>
+        <SPAWN id="178" group="0" name="호수 에보스" x="63981.527344" y="35455.250000" z="-574.255554" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="150" roam_radius="1000" roam_depth="200" combat_radius="0" color="64,0,128">
+            <NPC id="101016" default="false" rate="600" />
+            <NPC id="101017" default="false" rate="400" />
+        </SPAWN>
+        <SPAWN id="78" group="0" name="푸른 가죽 사슴" x="72478.734375" y="37437.062500" z="874.303894" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="150" roam_radius="1000" roam_depth="200" combat_radius="0" color="255,128,64">
+            <NPC id="101013" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="79" group="0" name="푸른 가죽 사슴" x="75228.335938" y="40180.304688" z="364.142517" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="150" roam_radius="1000" roam_depth="200" combat_radius="0" color="255,128,64">
+            <NPC id="101013" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="80" group="0" name="푸른 가죽 사슴" x="73869.125000" y="44728.867188" z="246.961548" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="150" roam_radius="1000" roam_depth="200" combat_radius="0" color="255,128,64">
+            <NPC id="101013" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="81" group="0" name="푸른 가죽 사슴" x="72894.085938" y="48701.691406" z="336.134766" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="150" roam_radius="1000" roam_depth="200" combat_radius="0" color="255,128,64">
+            <NPC id="101013" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="82" group="0" name="푸른 가죽 사슴" x="70936.234375" y="50761.632813" z="371.812592" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="150" roam_radius="1000" roam_depth="200" combat_radius="0" color="255,128,64">
+            <NPC id="101013" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="83" group="0" name="푸른 가죽 사슴" x="69287.929688" y="54215.839844" z="735.926636" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="150" roam_radius="1000" roam_depth="200" combat_radius="0" color="255,128,64">
+            <NPC id="101013" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="84" group="0" name="푸른 가죽 사슴" x="69428.546875" y="57886.554688" z="400.151428" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="150" roam_radius="1000" roam_depth="200" combat_radius="0" color="255,128,64">
+            <NPC id="101013" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="101263" group="0" name="오염된 풀뿌리" x="59647.269531" y="31586.037109" z="-628.681885" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="800.000000" random_dir="true" enabled="true" start_time="0" respawn_time="60" roam_radius="0" roam_depth="0" combat_radius="0" color="0,128,0">
+            <NPC id="101239" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="101264" group="0" name="오염된 풀뿌리" x="62725.656250" y="32770.761719" z="-1377.414673" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="800.000000" random_dir="true" enabled="true" start_time="0" respawn_time="60" roam_radius="0" roam_depth="0" combat_radius="0" color="0,128,0">
+            <NPC id="101239" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="101265" group="0" name="오염된 풀뿌리" x="72924.960938" y="41683.882813" z="-798.917969" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="800.000000" random_dir="true" enabled="true" start_time="0" respawn_time="60" roam_radius="0" roam_depth="0" combat_radius="0" color="0,128,0">
+            <NPC id="101239" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="101266" group="0" name="오염된 풀뿌리" x="70240.257813" y="47300.515625" z="-114.259079" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="800.000000" random_dir="true" enabled="true" start_time="0" respawn_time="60" roam_radius="0" roam_depth="0" combat_radius="0" color="0,128,0">
+            <NPC id="101239" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="101267" group="0" name="오염된 풀뿌리" x="69232.460938" y="51572.554688" z="630.247803" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="800.000000" random_dir="true" enabled="true" start_time="0" respawn_time="60" roam_radius="0" roam_depth="0" combat_radius="0" color="0,128,0">
+            <NPC id="101239" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="101268" group="0" name="오염된 풀뿌리" x="70110.781250" y="45977.968750" z="-17.865234" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="800.000000" random_dir="true" enabled="true" start_time="0" respawn_time="60" roam_radius="0" roam_depth="0" combat_radius="0" color="0,128,0">
+            <NPC id="101239" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="101269" group="0" name="죽어있는 생선" x="59203.527344" y="34485.218750" z="-533.985474" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="800.000000" random_dir="true" enabled="true" start_time="0" respawn_time="120" roam_radius="0" roam_depth="0" combat_radius="0" color="255,255,0">
+            <NPC id="101238" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="101270" group="0" name="죽어있는 생선" x="61682.261719" y="36091.917969" z="-626.927185" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="800.000000" random_dir="true" enabled="true" start_time="0" respawn_time="120" roam_radius="0" roam_depth="0" combat_radius="0" color="255,255,0">
+            <NPC id="101238" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="101271" group="0" name="죽어있는 생선" x="66684.539063" y="42319.144531" z="-643.455078" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="800.000000" random_dir="true" enabled="true" start_time="0" respawn_time="120" roam_radius="0" roam_depth="0" combat_radius="0" color="255,255,0">
+            <NPC id="101238" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="101272" group="0" name="죽어있는 생선" x="67252.070313" y="44810.660156" z="-730.940979" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="800.000000" random_dir="true" enabled="true" start_time="0" respawn_time="120" roam_radius="0" roam_depth="0" combat_radius="0" color="255,255,0">
+            <NPC id="101238" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="101273" group="0" name="죽어있는 생선" x="64509.503906" y="50575.476563" z="-775.563416" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="800.000000" random_dir="true" enabled="true" start_time="0" respawn_time="120" roam_radius="0" roam_depth="0" combat_radius="0" color="255,255,0">
+            <NPC id="101238" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="101274" group="0" name="죽어있는 생선" x="62598.179688" y="54315.773438" z="-689.039429" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="800.000000" random_dir="true" enabled="true" start_time="0" respawn_time="120" roam_radius="0" roam_depth="0" combat_radius="0" color="255,255,0">
+            <NPC id="101238" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="101252" group="0" name="부치치 못한 편지" x="45850.925781" y="32738.375000" z="693.553223" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="100.000000" random_dir="true" enabled="true" start_time="0" respawn_time="1" roam_radius="0" roam_depth="0" combat_radius="0" color="0,128,0">
+            <NPC id="101252" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="101002" group="0" name="[NPC]호수의 수호자 이리스" x="66048.312500" y="48231.890625" z="-709.650452" dir_x="0.819152" dir_y="0.573576" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="false" start_time="1" respawn_time="1" roam_radius="0" roam_depth="0" combat_radius="0" color="255,0,0">
+            <NPC id="101002" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="500" group="0" name="평원사슴" x="15231.747070" y="14290.554688" z="4491.728516" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="0,0,255">
+            <NPC id="101032" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="501" group="0" name="평원사슴" x="22989.667969" y="14908.090820" z="2393.043945" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="0,0,255">
+            <NPC id="101032" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="502" group="0" name="평원사슴" x="31748.802734" y="15929.850586" z="810.604248" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="0,0,255">
+            <NPC id="101032" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="503" group="0" name="평원사슴" x="36082.492188" y="11109.745117" z="2097.197754" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="0,0,255">
+            <NPC id="101032" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="504" group="0" name="평원사슴" x="26731.898438" y="17809.845703" z="1542.845337" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="0,0,255">
+            <NPC id="101032" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="505" group="0" name="우르크" x="33921.210938" y="23921.019531" z="1424.673462" dir_x="0.997564" dir_y="0.069756" dir_z="0.000000" radius="300.000000" random_dir="true" enabled="true" start_time="0" respawn_time="60" roam_radius="500" roam_depth="30" combat_radius="0" color="255,255,0">
+            <NPC id="101011" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="506" group="0" name="우르크" x="35690.031250" y="23170.445313" z="1068.904419" dir_x="0.997564" dir_y="0.069756" dir_z="0.000000" radius="300.000000" random_dir="true" enabled="true" start_time="0" respawn_time="60" roam_radius="500" roam_depth="30" combat_radius="0" color="255,255,0">
+            <NPC id="101011" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="507" group="0" name="우르크" x="29684.169922" y="22998.531250" z="1461.276489" dir_x="0.997564" dir_y="0.069756" dir_z="0.000000" radius="300.000000" random_dir="true" enabled="true" start_time="0" respawn_time="60" roam_radius="500" roam_depth="30" combat_radius="0" color="255,255,0">
+            <NPC id="101011" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="508" group="0" name="우르크" x="37056.617188" y="20937.558594" z="313.836029" dir_x="0.997564" dir_y="0.069756" dir_z="0.000000" radius="300.000000" random_dir="true" enabled="true" start_time="0" respawn_time="60" roam_radius="500" roam_depth="30" combat_radius="0" color="255,255,0">
+            <NPC id="101011" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="509" group="0" name="우르크" x="37255.855469" y="19971.019531" z="27.829094" dir_x="0.997564" dir_y="0.069756" dir_z="0.000000" radius="300.000000" random_dir="true" enabled="true" start_time="0" respawn_time="60" roam_radius="500" roam_depth="30" combat_radius="0" color="255,255,0">
+            <NPC id="101011" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="510" group="0" name="우르크" x="40366.675781" y="21496.687500" z="-116.751358" dir_x="0.997564" dir_y="0.069756" dir_z="0.000000" radius="300.000000" random_dir="true" enabled="true" start_time="0" respawn_time="60" roam_radius="500" roam_depth="30" combat_radius="0" color="255,255,0">
+            <NPC id="101011" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="511" group="0" name="우르크" x="42300.757813" y="20505.912109" z="-496.906128" dir_x="0.997564" dir_y="0.069756" dir_z="0.000000" radius="300.000000" random_dir="true" enabled="true" start_time="0" respawn_time="60" roam_radius="500" roam_depth="30" combat_radius="0" color="255,255,0">
+            <NPC id="101011" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="512" group="0" name="우르크" x="39298.527344" y="23560.998047" z="84.540794" dir_x="0.997564" dir_y="0.069756" dir_z="0.000000" radius="300.000000" random_dir="true" enabled="true" start_time="0" respawn_time="60" roam_radius="500" roam_depth="30" combat_radius="0" color="255,255,0">
+            <NPC id="101011" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="513" group="0" name="붉은 가죽 사슴 난폭한 푸른 가죽 사슴" x="24121.824219" y="40598.839844" z="-332.249939" dir_x="0.997564" dir_y="0.069756" dir_z="0.000000" radius="800.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="255,255,0">
+            <NPC id="101025" default="false" rate="500" />
+            <NPC id="101026" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="517" group="0" name="붉은 가죽 사슴 난폭한 푸른 가죽 사슴" x="35518.394531" y="38171.390625" z="115.390015" dir_x="0.997564" dir_y="0.069756" dir_z="0.000000" radius="800.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="255,255,0">
+            <NPC id="101025" default="false" rate="500" />
+            <NPC id="101026" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="518" group="0" name="붉은 가죽 사슴 난폭한 푸른 가죽 사슴" x="39208.250000" y="39061.542969" z="35.902908" dir_x="0.997564" dir_y="0.069756" dir_z="0.000000" radius="800.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="255,255,0">
+            <NPC id="101025" default="false" rate="500" />
+            <NPC id="101026" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="519" group="0" name="붉은 가죽 사슴 난폭한 푸른 가죽 사슴" x="37375.292969" y="41976.671875" z="183.968384" dir_x="0.997564" dir_y="0.069756" dir_z="0.000000" radius="800.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="255,255,0">
+            <NPC id="101025" default="false" rate="500" />
+            <NPC id="101026" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="520" group="0" name="붉은 가죽 사슴 난폭한 푸른 가죽 사슴" x="34702.191406" y="43096.003906" z="473.139465" dir_x="0.997564" dir_y="0.069756" dir_z="0.000000" radius="800.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="255,255,0">
+            <NPC id="101025" default="false" rate="500" />
+            <NPC id="101026" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="521" group="0" name="붉은 가죽 사슴 난폭한 푸른 가죽 사슴" x="32389.576172" y="45699.468750" z="443.809998" dir_x="0.997564" dir_y="0.069756" dir_z="0.000000" radius="800.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="255,255,0">
+            <NPC id="101025" default="false" rate="500" />
+            <NPC id="101026" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="522" group="0" name="붉은 가죽 사슴 난폭한 푸른 가죽 사슴" x="31237.451172" y="47952.753906" z="796.616943" dir_x="0.997564" dir_y="0.069756" dir_z="0.000000" radius="800.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="255,255,0">
+            <NPC id="101025" default="false" rate="500" />
+            <NPC id="101026" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="525" group="0" name="큰 이빨 호저" x="36834.699219" y="44156.011719" z="558.838867" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="600" roam_depth="200" combat_radius="0" color="128,128,64">
+            <NPC id="101023" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="526" group="0" name="큰 이빨 호저" x="38601.933594" y="47178.855469" z="11.824219" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="600" roam_depth="200" combat_radius="0" color="128,128,64">
+            <NPC id="101023" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="527" group="0" name="큰 이빨 호저" x="37563.523438" y="52330.402344" z="751.298157" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="600" roam_depth="200" combat_radius="0" color="128,128,64">
+            <NPC id="101023" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="528" group="0" name="큰 이빨 호저" x="39488.734375" y="52085.960938" z="1045.761719" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="600" roam_depth="200" combat_radius="0" color="128,128,64">
+            <NPC id="101023" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="529" group="0" name="큰 이빨 호저" x="36016.941406" y="52650.683594" z="144.754486" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="600" roam_depth="200" combat_radius="0" color="128,128,64">
+            <NPC id="101023" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="530" group="0" name="큰 이빨 호저" x="45493.726563" y="56083.417969" z="336.619019" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="600" roam_depth="200" combat_radius="0" color="128,128,64">
+            <NPC id="101023" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="531" group="0" name="큰 이빨 호저" x="45650.535156" y="58100.937500" z="416.500000" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="600" roam_depth="200" combat_radius="0" color="128,128,64">
+            <NPC id="101023" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="532" group="0" name="사나운 붉은 비늘 늑대" x="27550.259766" y="44843.242188" z="-269.087280" dir_x="0.998630" dir_y="-0.052336" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="255,0,128">
+            <NPC id="101022" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="533" group="0" name="사나운 붉은 비늘 늑대" x="21776.277344" y="39805.406250" z="-365.287109" dir_x="0.998630" dir_y="-0.052336" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="255,0,128">
+            <NPC id="101022" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="534" group="0" name="사나운 붉은 비늘 늑대" x="28257.605469" y="46196.808594" z="-340.369141" dir_x="0.998630" dir_y="-0.052336" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="255,0,128">
+            <NPC id="101022" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="535" group="0" name="사나운 붉은 비늘 늑대" x="25443.843750" y="44185.726563" z="47.259167" dir_x="0.998630" dir_y="-0.052336" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="255,0,128">
+            <NPC id="101022" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="536" group="0" name="사나운 붉은 비늘 늑대" x="28770.281250" y="39959.343750" z="-534.046265" dir_x="0.998630" dir_y="-0.052336" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="255,0,128">
+            <NPC id="101022" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="537" group="0" name="붉은 비늘 늑대" x="56840.789063" y="18224.230469" z="851.926880" dir_x="0.998630" dir_y="-0.052336" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="255,0,128">
+            <NPC id="101010" default="false" rate="600" />
+            <NPC id="101012" default="false" rate="400" />
+        </SPAWN>
+        <SPAWN id="538" group="0" name="붉은 비늘 늑대" x="60725.421875" y="16999.414063" z="765.521484" dir_x="0.998630" dir_y="-0.052336" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="255,0,128">
+            <NPC id="101010" default="false" rate="600" />
+            <NPC id="101012" default="false" rate="400" />
+        </SPAWN>
+        <SPAWN id="539" group="0" name="붉은 비늘 늑대" x="54550.039063" y="17748.150391" z="780.849365" dir_x="0.998630" dir_y="-0.052336" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="255,0,128">
+            <NPC id="101010" default="false" rate="600" />
+            <NPC id="101012" default="false" rate="400" />
+        </SPAWN>
+        <SPAWN id="540" group="0" name="붉은 비늘 늑대" x="52857.343750" y="19950.062500" z="991.015015" dir_x="0.998630" dir_y="-0.052336" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="255,0,128">
+            <NPC id="101010" default="false" rate="600" />
+            <NPC id="101012" default="false" rate="400" />
+        </SPAWN>
+        <SPAWN id="541" group="0" name="붉은 비늘 늑대" x="60092.406250" y="20508.914063" z="333.165039" dir_x="0.998630" dir_y="-0.052336" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="255,0,128">
+            <NPC id="101010" default="false" rate="600" />
+            <NPC id="101012" default="false" rate="400" />
+        </SPAWN>
+        <SPAWN id="542" group="0" name="붉은 비늘 늑대" x="50585.789063" y="20129.484375" z="875.578369" dir_x="0.998630" dir_y="-0.052336" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="255,0,128">
+            <NPC id="101010" default="false" rate="600" />
+            <NPC id="101012" default="false" rate="400" />
+        </SPAWN>
+        <SPAWN id="543" group="0" name="붉은 비늘 늑대" x="50395.535156" y="24941.712891" z="940.518250" dir_x="0.998630" dir_y="-0.052336" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="255,0,128">
+            <NPC id="101010" default="false" rate="600" />
+            <NPC id="101012" default="false" rate="400" />
+        </SPAWN>
+        <SPAWN id="544" group="0" name="붉은 비늘 늑대" x="57310.437500" y="29779.191406" z="445.853027" dir_x="0.998630" dir_y="-0.052336" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="255,0,128">
+            <NPC id="101010" default="false" rate="600" />
+            <NPC id="101012" default="false" rate="400" />
+        </SPAWN>
+        <SPAWN id="545" group="0" name="붉은 비늘 늑대" x="59514.359375" y="18610.158203" z="370.967865" dir_x="0.998630" dir_y="-0.052336" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="255,0,128">
+            <NPC id="101010" default="false" rate="600" />
+            <NPC id="101012" default="false" rate="400" />
+        </SPAWN>
+        <SPAWN id="546" group="0" name="붉은 비늘 늑대" x="53288.097656" y="22414.126953" z="762.140686" dir_x="0.998630" dir_y="-0.052336" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="255,0,128">
+            <NPC id="101010" default="false" rate="600" />
+            <NPC id="101012" default="false" rate="400" />
+        </SPAWN>
+        <SPAWN id="547" group="0" name="붉은 비늘 늑대" x="50942.734375" y="21340.773438" z="885.279968" dir_x="0.998630" dir_y="-0.052336" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="255,0,128">
+            <NPC id="101010" default="false" rate="600" />
+            <NPC id="101012" default="false" rate="400" />
+        </SPAWN>
+        <SPAWN id="548" group="0" name="붉은 비늘 늑대" x="51670.613281" y="28013.972656" z="1045.851563" dir_x="0.998630" dir_y="-0.052336" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="255,0,128">
+            <NPC id="101010" default="false" rate="600" />
+            <NPC id="101012" default="false" rate="400" />
+        </SPAWN>
+        <SPAWN id="549" group="0" name="붉은 비늘 늑대" x="55964.382813" y="27991.281250" z="491.835266" dir_x="0.998630" dir_y="-0.052336" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="255,0,128">
+            <NPC id="101010" default="false" rate="600" />
+            <NPC id="101012" default="false" rate="400" />
+        </SPAWN>
+        <SPAWN id="550" group="0" name="붉은 비늘 늑대" x="58874.562500" y="28668.548828" z="376.061737" dir_x="0.998630" dir_y="-0.052336" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="255,0,128">
+            <NPC id="101010" default="false" rate="600" />
+            <NPC id="101012" default="false" rate="400" />
+        </SPAWN>
+        <SPAWN id="551" group="0" name="붉은 비늘 늑대" x="58720.523438" y="21509.363281" z="341.222382" dir_x="0.998630" dir_y="-0.052336" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="255,0,128">
+            <NPC id="101010" default="false" rate="600" />
+            <NPC id="101012" default="false" rate="400" />
+        </SPAWN>
+        <SPAWN id="552" group="0" name="붉은 비늘 늑대" x="53770.179688" y="26225.636719" z="501.995361" dir_x="0.998630" dir_y="-0.052336" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="255,0,128">
+            <NPC id="101010" default="false" rate="600" />
+            <NPC id="101012" default="false" rate="400" />
+        </SPAWN>
+        <SPAWN id="553" group="0" name="붉은 비늘 늑대" x="54995.492188" y="29550.285156" z="406.040680" dir_x="0.998630" dir_y="-0.052336" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="255,0,128">
+            <NPC id="101010" default="false" rate="600" />
+            <NPC id="101012" default="false" rate="400" />
+        </SPAWN>
+        <SPAWN id="554" group="0" name="붉은 비늘 늑대" x="53786.472656" y="15978.636719" z="613.452881" dir_x="0.998630" dir_y="-0.052336" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="255,0,128">
+            <NPC id="101010" default="false" rate="600" />
+            <NPC id="101012" default="false" rate="400" />
+        </SPAWN>
+        <SPAWN id="555" group="0" name="푸른 가죽 사슴" x="74494.460938" y="63507.734375" z="409.612976" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="150" roam_radius="1000" roam_depth="200" combat_radius="0" color="255,128,64">
+            <NPC id="101013" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="556" group="0" name="푸른 가죽 사슴" x="71694.703125" y="62902.253906" z="9.176499" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="150" roam_radius="1000" roam_depth="200" combat_radius="0" color="255,128,64">
+            <NPC id="101013" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="557" group="0" name="푸른 가죽 사슴" x="74297.593750" y="61373.089844" z="547.390625" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="150" roam_radius="1000" roam_depth="200" combat_radius="0" color="255,128,64">
+            <NPC id="101013" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="558" group="0" name="푸른 가죽 사슴" x="76732.062500" y="61610.566406" z="719.484863" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="150" roam_radius="1000" roam_depth="200" combat_radius="0" color="255,128,64">
+            <NPC id="101013" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="559" group="0" name="푸른 가죽 사슴" x="81063.789063" y="60343.457031" z="121.840034" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="150" roam_radius="1000" roam_depth="200" combat_radius="0" color="255,128,64">
+            <NPC id="101013" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="560" group="0" name="푸른 가죽 사슴" x="79024.695313" y="62902.398438" z="279.682495" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="150" roam_radius="1000" roam_depth="200" combat_radius="0" color="255,128,64">
+            <NPC id="101013" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="561" group="0" name="푸른 가죽 사슴" x="70743.179688" y="64684.625000" z="417.087769" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="150" roam_radius="1000" roam_depth="200" combat_radius="0" color="255,128,64">
+            <NPC id="101013" default="true" rate="1000" />
+        </SPAWN>
+        <SPAWN id="562" group="0" name="호수 에보스" x="73230.281250" y="69114.484375" z="-604.357849" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="520.000000" random_dir="true" enabled="true" start_time="1" respawn_time="150" roam_radius="1000" roam_depth="200" combat_radius="0" color="64,0,128">
+            <NPC id="101016" default="false" rate="400" />
+            <NPC id="101017" default="false" rate="600" />
+        </SPAWN>
+        <SPAWN id="563" group="0" name="호수 에보스" x="74685.812500" y="67818.703125" z="-655.473206" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="500.000000" random_dir="true" enabled="true" start_time="1" respawn_time="150" roam_radius="1000" roam_depth="200" combat_radius="0" color="64,0,128">
+            <NPC id="101016" default="false" rate="400" />
+            <NPC id="101017" default="false" rate="600" />
+        </SPAWN>
+        <SPAWN id="564" group="0" name="호수 에보스" x="76425.242188" y="67956.937500" z="-610.411865" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="500.000000" random_dir="true" enabled="true" start_time="1" respawn_time="150" roam_radius="1000" roam_depth="200" combat_radius="0" color="64,0,128">
+            <NPC id="101016" default="false" rate="400" />
+            <NPC id="101017" default="false" rate="600" />
+        </SPAWN>
+        <SPAWN id="565" group="0" name="호수 에보스" x="77549.742188" y="66954.906250" z="-507.971619" dir_x="0.994522" dir_y="0.104528" dir_z="0.000000" radius="500.000000" random_dir="true" enabled="true" start_time="1" respawn_time="150" roam_radius="1000" roam_depth="200" combat_radius="0" color="64,0,128">
+            <NPC id="101016" default="false" rate="400" />
+            <NPC id="101017" default="false" rate="600" />
+        </SPAWN>
+        <MARKER id="1" name="from 에다산" x="14328.395508" y="16855.400391" z="5170.818359" dir_x="0.665230" dir_y="-0.746638" dir_z="0.000000" random_dir="false" />
+        <MARKER id="2" name="form 리츠" x="52315.898438" y="68230.953125" z="1785.716187" dir_x="-0.017452" dir_y="-0.999848" dir_z="0.000000" random_dir="false" />
+        <MARKER id="3" name="from 침묵의 늪" x="80728.968750" y="58027.832031" z="0.001953" dir_x="-0.309017" dir_y="0.951057" dir_z="0.000000" random_dir="false" />
+        <MARKER id="4" name="리오드 가이드스톤" x="56541.074219" y="42648.863281" z="-231.334412" dir_x="-0.000000" dir_y="1.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="101001" name="QM 101001" x="34589.296875" y="14998.734375" z="3980.013672" dir_x="0.087156" dir_y="0.996195" dir_z="0.000000" random_dir="false" />
+        <MARKER id="1010032" name="QM 101003" x="29612.351563" y="29694.697266" z="-401.364563" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="1010031" name="QM 101003" x="21806.847656" y="45476.531250" z="-518.464111" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="101004" name="QM 101004" x="21564.414063" y="11763.320313" z="3330.182617" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="1010051" name="QM 101005" x="20667.570313" y="12066.320313" z="3297.359863" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="1010052" name="QM 101005" x="36519.187500" y="31578.841797" z="3523.152100" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="1010054" name="QM 101005" x="33020.585938" y="15825.129883" z="881.625366" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="1010053" name="QM 101005" x="37850.078125" y="30376.884766" z="417.235199" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="101006" name="QM 101006" x="54761.089844" y="18836.658203" z="859.262634" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="1010071" name="QM 101007" x="24149.376953" y="30144.455078" z="-512.055176" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="1010072" name="QM 101007" x="30636.064453" y="21872.050781" z="1535.765991" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="101008" name="QM 101008" x="44466.640625" y="22880.091797" z="-489.184967" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="101009" name="QM 101009" x="56044.441406" y="21270.613281" z="461.108704" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="101010" name="QM 101010" x="53695.742188" y="21072.712891" z="829.602600" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="101011" name="QM 101011" x="44640.375000" y="14248.980469" z="813.737793" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="1010132" name="QM 101013" x="43834.382813" y="46139.691406" z="-653.409607" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="1010131" name="QM 101013" x="53476.375000" y="24129.060547" z="768.476379" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="101016" name="QM 101016" x="45705.710938" y="12271.816406" z="813.738770" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="1010171" name="QM 101017" x="45136.605469" y="12986.567383" z="1251.054688" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="1010181" name="QM 101018" x="45714.375000" y="32114.910156" z="498.749512" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="1010182" name="QM 101018" x="24696.193359" y="33758.566406" z="-566.436218" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="1010183" name="QM 101018" x="20975.263672" y="11543.802734" z="3312.072754" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="1010184" name="QM 101018" x="44977.421875" y="18017.091797" z="-452.336670" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="101019" name="QM 101019" x="47278.980469" y="11128.029297" z="743.018066" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="1010172" name="QM 101017" x="45049.750000" y="10820.966797" z="1152.339844" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="1010174" name="QM 101017" x="47409.343750" y="11529.809570" z="1230.158325" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="1010173" name="QM 101017" x="46204.574219" y="13358.546875" z="1341.630371" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="101021" name="QM 101021" x="20454.951172" y="11278.487305" z="3334.218262" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="1010221" name="QM 101022" x="18289.818359" y="38604.589844" z="-506.448547" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="1010222" name="QM 101022" x="38317.289063" y="48709.718750" z="3.344011" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="101023" name="QM 101023" x="30338.169922" y="62863.265625" z="473.369873" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="101024" name="QM 101024" x="18957.757813" y="31910.906250" z="-563.419861" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="101025" name="QM 101025" x="34913.382813" y="49333.921875" z="703.637512" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="1010261" name="QM 101026" x="18323.107422" y="45371.585938" z="-421.394287" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="101027" name="QM 101027" x="26549.917969" y="44273.671875" z="-37.010704" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="1010281" name="QM 101028" x="29708.705078" y="42204.539063" z="-333.907532" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="1010282" name="QM 101028" x="61442.183594" y="14280.808594" z="979.213867" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="101030" name="QM 101030" x="34352.472656" y="59092.839844" z="214.422073" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="1010311" name="QM 101031" x="34351.066406" y="57508.953125" z="204.467621" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="1010312" name="QM 101031" x="27674.166016" y="59305.343750" z="544.863464" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="101032" name="QM 101032" x="22027.929688" y="61544.449219" z="1275.667725" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="1010331" name="QM 101033" x="41253.164063" y="55595.890625" z="4353.269043" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="1010332" name="QM 101033" x="49479.437500" y="63249.371094" z="441.574066" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="101037" name="QM 101037" x="73717.671875" y="17048.998047" z="2523.353760" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="101038" name="QM 101038" x="68261.148438" y="18100.085938" z="2437.059570" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="101039" name="QM 101039" x="61200.351563" y="33872.957031" z="-346.955292" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="101040" name="QM 101040" x="64915.144531" y="25381.228516" z="1509.824219" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="1010431" name="QM 101043" x="68215.703125" y="48704.171875" z="-583.435791" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="101047" name="QM 101047" x="66882.390625" y="48010.769531" z="-604.840088" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="1012231" name="[P]험프리 로밍1" x="72670.484375" y="16068.408203" z="2452.450928" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="1012232" name="[P]험프리 로밍2" x="71112.078125" y="16831.974609" z="2437.059814" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="1012233" name="[P]험프리 로밍3" x="69096.664063" y="18997.550781" z="2436.344971" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="1012234" name="[P]험프리 로밍4" x="71431.937500" y="21508.968750" z="2433.276611" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="1012235" name="[P]험프리 로밍5" x="73485.859375" y="19970.328125" z="2451.592529" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="1012236" name="[P]험프리 로밍6" x="75330.218750" y="17987.128906" z="2451.592529" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="1012237" name="[P]험프리 로밍7" x="74202.359375" y="17449.701172" z="2451.592773" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="101002" name="QM 101002" x="21690.333984" y="12496.634766" z="3275.252441" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <SENSOR id="1" name="to 에다산" x="12313.864258" y="19154.394531" z="5781.306152" radius="2000.000000" enabled="true">
+            <WARP warp_type="field" title="에다산으로" condition="1" gate_type="auto" field="102" marker="3" />
+        </SENSOR>
+        <SENSOR id="2" name="to 리츠" x="52616.519531" y="77799.007813" z="2395.754639" radius="1000.000000" enabled="true">
+            <WARP warp_type="field" title="리츠로" condition="1" gate_type="auto" field="1" marker="1" />
+        </SENSOR>
+        <SENSOR id="3" name="to 침묵의 늪" local="false" x="81965.023438" y="54357.824219" z="812.741211" radius="3000.000000" enabled="true" groupname="none" />
+        <SENSOR id="101001" name="[SENSOR]정찰병 디비치" local="false" x="34726.714844" y="15092.070313" z="3979.526367" radius="500.000000" enabled="true" groupname="none" />
+        <SENSOR id="101004" name="[SENSOR]리오드 입구" local="false" x="21577.853516" y="11716.539063" z="3327.689209" radius="1500.000000" enabled="true" groupname="none" />
+        <SENSOR id="101008" name="[SENSOR]코엘류 오스꾸" local="false" x="44517.445313" y="22940.414063" z="-493.873260" radius="600.000000" enabled="true" groupname="none" />
+        <SENSOR id="101011" name="[SENSOR]마법진" local="false" x="44721.156250" y="14160.942383" z="813.737793" radius="500.000000" enabled="true" groupname="none" />
+        <SENSOR id="101016" name="[SENSOR]에론" local="false" x="45697.371094" y="11982.556641" z="813.319458" radius="500.000000" enabled="true" groupname="none" />
+        <SENSOR id="1010171" name="[SENSOR]방역본부1" local="false" x="45126.144531" y="12941.027344" z="1412.698486" radius="300.000000" enabled="true" groupname="none" />
+        <SENSOR id="1010172" name="[SENSOR]방역본부2" local="false" x="45122.398438" y="10819.309570" z="1364.948364" radius="300.000000" enabled="true" groupname="none" />
+        <SENSOR id="1010173" name="[SENSOR]방역본부3" local="false" x="46350.636719" y="13201.769531" z="1287.035400" radius="300.000000" enabled="true" groupname="none" />
+        <SENSOR id="1010174" name="[SENSOR]방역본부4" local="false" x="47392.375000" y="11535.724609" z="1322.160278" radius="300.000000" enabled="true" groupname="none" />
+        <SENSOR id="1010181" name="[SENSOR]수차" local="false" x="45753.816406" y="33832.562500" z="498.728851" radius="3000.000000" enabled="true" groupname="none" />
+        <SENSOR id="1010182" name="[SENSOR]기원의 숲" local="false" x="26215.427734" y="35338.855469" z="-723.327820" radius="17000.000000" enabled="true" groupname="none" />
+        <SENSOR id="1010183" name="[SENSOR]본영1" local="false" x="21064.865234" y="11592.662109" z="3364.085449" radius="3000.000000" enabled="true" groupname="none" />
+        <SENSOR id="1010184" name="[SENSOR]본영2" local="false" x="45070.156250" y="18577.410156" z="-494.320801" radius="2000.000000" enabled="true" groupname="none" />
+        <SENSOR id="101019" name="[SENSOR]로렌스" local="false" x="47320.515625" y="11091.249023" z="813.738770" radius="500.000000" enabled="true" groupname="none" />
+        <SENSOR id="101021" name="[SENSOR] 테오도르" local="false" x="20541.908203" y="11198.884766" z="3304.211914" radius="500.000000" enabled="true" groupname="none" />
+        <SENSOR id="101024" name="[SENSOR]수도사 지나" local="false" x="18835.228516" y="31969.037109" z="-574.072144" radius="500.000000" enabled="true" groupname="none" />
+        <SENSOR id="101030" name="[SENSOR] 리히터" local="false" x="34408.597656" y="58984.511719" z="274.421143" radius="500.000000" enabled="true" groupname="none" />
+        <SENSOR id="101043" name="[SENSOR]험프리" local="false" x="73798.617188" y="17048.283203" z="2523.353760" radius="400.000000" enabled="true" groupname="none" />
+        <SENSOR id="101038" name="[SENSOR]템푸스 호수" local="false" x="68937.171875" y="46831.070313" z="44.746094" radius="8000.000000" enabled="true" groupname="none" />
+        <SENSOR id="1010331" name="[SENSOR]빅터" local="false" x="41257.460938" y="55504.687500" z="4353.269043" radius="300.000000" enabled="true" groupname="none" />
+        <SENSOR id="101002" name="[SENSOR]안짐" local="false" x="21618.332031" y="12423.391602" z="3269.660645" radius="400.000000" enabled="true" groupname="none" />
+        <SENSOR id="111046" name="QOS 111046" local="false" x="14338.888672" y="16835.474609" z="5166.191895" radius="500.000000" enabled="true" groupname="none" />
+    </FIELDINFO>
+</maiet>

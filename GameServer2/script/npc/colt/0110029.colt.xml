@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<maiet>
+	<COLT name="주술사 라르비">
+		<COMBAT>
+			<DEFAULT>
+				<ACTION type="nothing" param1="0.5" rate="20"/>
+				
+				<ACTION type="talent" param1="211002901" rate="35" />
+				<ACTION type="talent" param1="211002902" rate="25" />
+				<ACTION type="talent" param1="211002904" rate="20" />
+				
+			</DEFAULT>
+
+			<CHECK type="hp" param2="50">
+				<ACTION type="talent" param1="211002908" rate="10" max_count="1"/>
+			</CHECK>
+			
+			<CHECK type="distance" param1="300">
+				<CHECK type="hp" param1="50" >
+					<ACTION type="nothing" param1="0.5" rate="20" />
+					
+					<ACTION type="talent" param1="211002901" rate="20" />
+					<ACTION type="talent" param1="211002902" rate="10" />
+					
+					<ACTION type="talent" param1="211002904" rate="40" />
+				</CHECK>
+			</CHECK>
+			
+			<CHECK type="distance" param1="300">
+				<CHECK type="hp" param1="50" >
+					<ACTION type="nothing" param1="0.5" rate="20" />
+					
+					<ACTION type="talent" param1="211002901" rate="20" />
+					<ACTION type="talent" param1="211002902" rate="10" />
+					
+					<ACTION type="talent" param1="211002907" rate="40" />
+				</CHECK>
+			</CHECK>
+			
+			<CHECK type="distance" param1="0" param2="200">
+				<CHECK type="rage" param1="80">
+					<ACTION type="guard" param1="211002903" param2="1" />
+				</CHECK>
+			</CHECK>
+			
+			<CHECK type="rage" param1="80">
+				<ACTION type="talent" param1="211002908" param2="1" />
+			</CHECK>
+			
+			<CHECK type="hp" param2="50">
+				<ACTION type="nothing" param1="0.5" rate="20" />
+				
+				<ACTION type="talent" param1="211002901" rate="35" />
+				<ACTION type="talent" param1="211002902" rate="25" />
+				<ACTION type="talent" param1="211002907" rate="20" />
+				
+			</CHECK>
+			
+		</COMBAT>
+		<IDLE>
+			<DEFAULT>
+				<ACTION type="talent" param1="211000207" rate="10" />
+				<ACTION type="nothing" param1="1" rate="90" />
+			</DEFAULT>
+		</IDLE>
+	</COLT>
+	<SCRIPT><![CDATA[
+	]]></SCRIPT>
+		
+</maiet>

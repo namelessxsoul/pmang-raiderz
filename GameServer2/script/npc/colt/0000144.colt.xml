@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<maiet>
+<!-- 
+거리조절 샘플 
+
+300미터 안쪽의 거리에서는 전투보행.
+
+300미터보다 멀리 있으면 달려옴.
+-->
+	<COLT name="인간 샘플 (1hs)">
+		<COMBAT >
+			<DEFAULT>	
+			</DEFAULT>
+			<CHECK type="distance" param1="1" param2="200" >
+				<ACTION type="nothing" param1="0.1" rate="85"/>
+				
+				<ACTION type="say" param1="Combat zone" rate="15" />
+			</CHECK>
+			<CHECK type="distance" param1="200" param2="300" >
+				<ACTION type="nothing" param1="0.1" rate="85" />
+				
+				<!--사거리내로 접근 -->
+				<ACTION type="lua" param1="ApproachLeft" rate="5" />
+				<ACTION type="lua" param1="ApproachRight" rate="5" />
+
+			</CHECK>
+			<CHECK type="distance" param1="300" >
+				<ACTION type="distance" param1="200" param2="250" rate="90" />
+				<ACTION type="nothing" param1="1" rate="10"/>
+			</CHECK>
+		</COMBAT>
+		<IDLE>
+			<DEFAULT>
+				<ACTION type="nothing" param1="3" rate="50" />
+			</DEFAULT>
+		</IDLE>
+	</COLT>
+	<SCRIPT><![CDATA[
+	]]></SCRIPT>
+</maiet>

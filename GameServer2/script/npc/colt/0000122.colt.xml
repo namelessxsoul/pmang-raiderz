@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<!-- 리치 로드 샘플  -->
+<maiet>
+	<COLT>
+		<COMBAT>
+			<DEFAULT>			
+				<ACTION type="talent" param1="212204" rate="100" />
+			</DEFAULT>						
+			<CHECK type="distance" param1="0" param2="600">		
+				<ACTION type="talent" param1="212201" rate="12" />
+				<ACTION type="talent" param1="212202" rate="12" />
+				<ACTION type="talent" param1="212205" rate="12" />
+				<ACTION type="talent" param1="212206" rate="12" />
+				<ACTION type="talent" param1="212207" rate="12" />				
+				<ACTION type="talent" param1="212208" rate="14" />						
+				<ACTION type="talent" param1="212209" rate="14" />						
+			</CHECK>			
+		</COMBAT>
+
+  		<REACTION>	
+		</REACTION>
+		<IDLE>
+			<DEFAULT>
+
+			
+			</DEFAULT>
+		</IDLE>
+	</COLT>
+</maiet>
