@@ -1,0 +1,59 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">
+    </Configuration>
+    <Name>"Application"</Name>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <LuaRuntimes>.\lua51.exe</LuaRuntimes>
+    <LUA_PATH>.\</LUA_PATH>
+    <LUA_CPATH>.\</LUA_CPATH>
+    <EntryScript>script\entry.lua</EntryScript>
+    <ProjectGuid>{13d388d3-6772-4647-96cc-dc1b649e1bbb}</ProjectGuid>
+    <AssemblyName>GameServerScripts</AssemblyName>
+    <RootNamespace>GameServerScripts</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'LuaExt' ">
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="script" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="script\Const.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="script\Container.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="script\debug.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="script\entry.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="script\Event.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="script\lacinos.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="script\QuestNPC1.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="script\QuestNPC2.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="script\ShopTestNPC1.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="script\skeleton.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="script\SkeletonArcher.lua">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Target Name="Build">
+    <Exec Command="set LUA_PATH=&quot;$(LUA_PATH)&quot;&amp;&amp;set LUA_CPATH=&quot;$(LUA_CPATH)&quot;&amp;&amp;&quot;$(LuaRuntimes)&quot; &quot;$(EntryScript)&quot;" IgnoreExitCode="false" />
+  </Target>
+  <Target Name="Compile" />
+</Project>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet href="./colt.xsl" type="text/xsl"?>
+<maiet>
+  <COLT name="마리옹족장" npcid="94">
+		<COMBAT mode="0" comment="field" victory="200009400">
+			<DEFAULT>
+				<ACTION type="lua" param1="NPC_94" param2="SummonMinion" auto_run="true" cycle="60"/>
+				
+				<ACTION type="talent" param1="200009410" rate="10" />
+				<ACTION type="talent" param1="200009411" rate="10" />
+				<ACTION type="talent" param1="200009412" rate="10" />
+				<ACTION type="talent" param1="200009413" rate="10" />
+				<ACTION type="talent" param1="200009414" rate="10" />
+			</DEFAULT>
+			
+			<CHECK type="hp" param2="40">
+				<ACTION type="lua" param1="NPC_94" param2="SummonMinion" auto_run="true" cycle="60"/>
+				
+				<ACTION type="talent" param1="200009410" rate="5" />
+				<ACTION type="talent" param1="200009411" rate="5" />
+				<ACTION type="talent" param1="200009412" rate="5" />
+				<ACTION type="talent" param1="200009413" rate="5" />
+				<ACTION type="talent" param1="200009414" rate="5" />
+				
+				<ACTION type="talent" param1="200009420" rate="75" duration="0" />
+			</CHECK>
+		</COMBAT>
+		<COMBAT mode="1" comment="burrow" victory="200009421">
+			<DEFAULT>
+				<ACTION type="talent" param1="200009421" rate="10" duration="5"/>
+			</DEFAULT>
+		</COMBAT>
+	<IDLE>
+      <DEFAULT>
+      </DEFAULT>
+    </IDLE>
+  </COLT>
+  <SCRIPT><![CDATA[
+  
+function NPC_94:SummonMinion( ThisNPC, Enemy )
+	local MinionCnt = ThisNPC:GetSummonCount()
+	local WorldPos = vec3()
+	local LocalAdjPos = vec3()
+	
+	for i = 1, 2-MinionCnt, 1 do
+		LocalAdjPos = vec3(math.random(-500, 500), math.random(-500, 500), 0)
+		WorldPos = Math_LocalToWorld(ThisNPC:GetDir(), ThisNPC:GetPos(), LocalAdjPos)
+		ThisNPC:SummonNow( 95, WorldPos)
+	end
+end
+
+
+
+
+  ]]></SCRIPT>
+</maiet>

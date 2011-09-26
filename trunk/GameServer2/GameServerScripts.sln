@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{74F2664D-668E-4058-AF23-3C959863AEE8}") = "GameServerScripts", "GameServerScripts.luaproj", "{13D388D3-6772-4647-96CC-DC1B649E1BBB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GameServerXML", "GameServerXML.vcproj", "{74890532-4D7D-4DEB-A0E9-0614ACD6EA50}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|Win32 = Debug|Win32
+		LuaExt|.NET = LuaExt|.NET
+		LuaExt|Mixed Platforms = LuaExt|Mixed Platforms
+		LuaExt|Win32 = LuaExt|Win32
+		Release|.NET = Release|.NET
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{13D388D3-6772-4647-96CC-DC1B649E1BBB}.Debug|.NET.ActiveCfg = LuaExt|.NET
+		{13D388D3-6772-4647-96CC-DC1B649E1BBB}.Debug|.NET.Build.0 = LuaExt|.NET
+		{13D388D3-6772-4647-96CC-DC1B649E1BBB}.Debug|Mixed Platforms.ActiveCfg = LuaExt|.NET
+		{13D388D3-6772-4647-96CC-DC1B649E1BBB}.Debug|Mixed Platforms.Build.0 = LuaExt|.NET
+		{13D388D3-6772-4647-96CC-DC1B649E1BBB}.Debug|Win32.ActiveCfg = LuaExt|.NET
+		{13D388D3-6772-4647-96CC-DC1B649E1BBB}.LuaExt|.NET.ActiveCfg = LuaExt|.NET
+		{13D388D3-6772-4647-96CC-DC1B649E1BBB}.LuaExt|.NET.Build.0 = LuaExt|.NET
+		{13D388D3-6772-4647-96CC-DC1B649E1BBB}.LuaExt|Mixed Platforms.ActiveCfg = LuaExt|.NET
+		{13D388D3-6772-4647-96CC-DC1B649E1BBB}.LuaExt|Mixed Platforms.Build.0 = LuaExt|.NET
+		{13D388D3-6772-4647-96CC-DC1B649E1BBB}.LuaExt|Win32.ActiveCfg = LuaExt|.NET
+		{13D388D3-6772-4647-96CC-DC1B649E1BBB}.Release|.NET.ActiveCfg = LuaExt|.NET
+		{13D388D3-6772-4647-96CC-DC1B649E1BBB}.Release|.NET.Build.0 = LuaExt|.NET
+		{13D388D3-6772-4647-96CC-DC1B649E1BBB}.Release|Mixed Platforms.ActiveCfg = LuaExt|.NET
+		{13D388D3-6772-4647-96CC-DC1B649E1BBB}.Release|Mixed Platforms.Build.0 = LuaExt|.NET
+		{13D388D3-6772-4647-96CC-DC1B649E1BBB}.Release|Win32.ActiveCfg = LuaExt|.NET
+		{74890532-4D7D-4DEB-A0E9-0614ACD6EA50}.Debug|.NET.ActiveCfg = Debug|Win32
+		{74890532-4D7D-4DEB-A0E9-0614ACD6EA50}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{74890532-4D7D-4DEB-A0E9-0614ACD6EA50}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{74890532-4D7D-4DEB-A0E9-0614ACD6EA50}.Debug|Win32.ActiveCfg = Debug|Win32
+		{74890532-4D7D-4DEB-A0E9-0614ACD6EA50}.Debug|Win32.Build.0 = Debug|Win32
+		{74890532-4D7D-4DEB-A0E9-0614ACD6EA50}.LuaExt|.NET.ActiveCfg = Release|Win32
+		{74890532-4D7D-4DEB-A0E9-0614ACD6EA50}.LuaExt|Mixed Platforms.ActiveCfg = Release|Win32
+		{74890532-4D7D-4DEB-A0E9-0614ACD6EA50}.LuaExt|Mixed Platforms.Build.0 = Release|Win32
+		{74890532-4D7D-4DEB-A0E9-0614ACD6EA50}.LuaExt|Win32.ActiveCfg = Release|Win32
+		{74890532-4D7D-4DEB-A0E9-0614ACD6EA50}.LuaExt|Win32.Build.0 = Release|Win32
+		{74890532-4D7D-4DEB-A0E9-0614ACD6EA50}.Release|.NET.ActiveCfg = Release|Win32
+		{74890532-4D7D-4DEB-A0E9-0614ACD6EA50}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{74890532-4D7D-4DEB-A0E9-0614ACD6EA50}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{74890532-4D7D-4DEB-A0E9-0614ACD6EA50}.Release|Win32.ActiveCfg = Release|Win32
+		{74890532-4D7D-4DEB-A0E9-0614ACD6EA50}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

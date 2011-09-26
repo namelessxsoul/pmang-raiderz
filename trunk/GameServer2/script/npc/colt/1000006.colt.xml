@@ -1,0 +1,371 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet href="./colt.xsl" type="text/xsl"?>
+<maiet>
+	<COLT name="타일런트 좀비">
+		<COMBAT comment="Drum playing.">
+			<DEFAULT>
+				<ACTION type="talent" param1="211308301" rate="40"/>
+				<ACTION type="talent" param1="211308302" rate="40"/>
+				<ACTION type="talent" param1="211308303" rate="15"/>
+				<ACTION type="talent" param1="211308305" rate="5"/>
+			</DEFAULT>
+			
+			<CHECK type="rage" param1="300" >
+				<ACTION type="talent" param1="211308302" rate="5"/>
+			</CHECK>
+			
+			<CHECK type="distance" param1="1000" >
+				<ACTION type="distance" param1="700" param2="700" rate="20" duration="2" />
+			</CHECK>
+			
+			<CHECK type="distance" param1="700" >
+				<ACTION type="talent" param1="211308301" rate="5"/>
+				<ACTION type="talent" param1="211308302" rate="5"/>
+				<ACTION type="talent" param1="211308303" rate="5"/>
+				<ACTION type="talent" param1="211308304" rate="5"/>
+				<ACTION type="talent" param1="211308305" rate="60"/>
+				<ACTION type="distance" param1="400" param2="400" rate="20" duration="2" />
+			</CHECK>
+			
+			<CHECK type="distance" param1="300" >
+				<CHECK type="e_motionfactor" param1="knockdown" >
+					<ACTION type="talent" param1="211308303" rate="20"/>	
+				</CHECK>
+				<CHECK type="e_motionfactor" param1="throwup" >
+					<ACTION type="talent" param1="211308303" rate="20"/>	
+				</CHECK>
+				
+				<ACTION type="talent" param1="211308301" rate="30"/>
+				<ACTION type="talent" param1="211308302" rate="30"/>
+				<ACTION type="talent" param1="211308303" rate="20"/>
+				<ACTION type="talent" param1="211308304" rate="20"/>
+			</CHECK>
+		</COMBAT>
+		
+		<COMBAT mode="1" comment="No playing.">
+			<DEFAULT>
+				<ACTION type="talent" param1="211308321" rate="40"/>
+				<ACTION type="talent" param1="211308322" rate="40"/>
+				<ACTION type="talent" param1="211308323" rate="15"/>
+				<ACTION type="talent" param1="211308325" rate="5"/>
+			</DEFAULT>
+			
+			<CHECK type="rage" param1="300" >
+				<ACTION type="talent" param1="211308322" rate="5"/>
+			</CHECK>
+
+			<CHECK type="distance" param1="1000" >
+				<ACTION type="distance" param1="700" param2="700" rate="20" duration="2" />
+			</CHECK>
+			
+			<CHECK type="distance" param1="700" >
+				<ACTION type="talent" param1="211308321" rate="5"/>
+				<ACTION type="talent" param1="211308322" rate="5"/>
+				<ACTION type="talent" param1="211308323" rate="5"/>
+				<ACTION type="talent" param1="211308324" rate="5"/>
+				<ACTION type="talent" param1="211308325" rate="60"/>
+				<ACTION type="distance" param1="400" param2="400" rate="20" duration="2" />
+			</CHECK>
+			
+			<CHECK type="distance" param1="300" >
+				<CHECK type="e_motionfactor" param1="knockdown" >
+					<ACTION type="talent" param1="211308323" rate="20"/>	
+				</CHECK>
+				<CHECK type="e_motionfactor" param1="throwup" >
+					<ACTION type="talent" param1="211308303" rate="20"/>	
+				</CHECK>
+				
+				<ACTION type="talent" param1="211308321" rate="10"/>
+				<ACTION type="talent" param1="211308322" rate="10"/>
+				<ACTION type="talent" param1="211308323" rate="10"/>
+				<ACTION type="talent" param1="211308324" rate="10"/>				
+			</CHECK>
+		</COMBAT>
+		
+		<COMBAT mode="2" comment="Playing with enforced aura damage.">
+			<DEFAULT>
+				<ACTION type="talent" param1="211308301" rate="40"/>
+				<ACTION type="talent" param1="211308302" rate="40"/>
+				<ACTION type="talent" param1="211308303" rate="15"/>
+				<ACTION type="talent" param1="211308305" rate="5"/>
+			</DEFAULT>
+			
+			<CHECK type="rage" param1="300" >
+				<ACTION type="talent" param1="211308302" rate="5"/>
+			</CHECK>
+			
+			<CHECK type="distance" param1="1000" >
+				<ACTION type="distance" param1="700" param2="700" rate="20" duration="2" />
+			</CHECK>
+			
+			<CHECK type="distance" param1="700" >
+				<ACTION type="talent" param1="211308301" rate="5"/>
+				<ACTION type="talent" param1="211308302" rate="5"/>
+				<ACTION type="talent" param1="211308303" rate="5"/>
+				<ACTION type="talent" param1="211308304" rate="5"/>
+				<ACTION type="talent" param1="211308305" rate="60"/>
+				<ACTION type="distance" param1="400" param2="400" rate="20" duration="2" />
+			</CHECK>
+			
+			<CHECK type="distance" param1="300" >
+				<CHECK type="e_motionfactor" param1="knockdown" >
+					<ACTION type="talent" param1="211308303" rate="20"/>	
+				</CHECK>
+				<CHECK type="e_motionfactor" param1="throwup" >
+					<ACTION type="talent" param1="211308303" rate="20"/>	
+				</CHECK>
+				
+				<ACTION type="talent" param1="211308301" rate="30"/>
+				<ACTION type="talent" param1="211308302" rate="30"/>
+				<ACTION type="talent" param1="211308303" rate="20"/>
+				<ACTION type="talent" param1="211308304" rate="20"/>
+			</CHECK>
+		</COMBAT>
+		
+		<COMBAT mode="3" comment="None combat mode">
+			<DEFAULT>
+				<ACTION type="lua" param1="NPC_1000006" param2="StartCombat" rate="10" max_count="1"/>
+			</DEFAULT>	
+		</COMBAT>
+		
+		<IDLE>
+			<DEFAULT>
+				<ACTION type="nothing" param1="3" rate="80" />
+				<ACTION type="talent" param1="211308300" rate="20" />
+			</DEFAULT>
+			<CHECK type="mode" param1="1">
+				<ACTION type="nothing" param1="3" rate="80" />
+				<ACTION type="talent" param1="211308320" rate="20" />
+			</CHECK>
+			<CHECK type="mode" param1="2">
+				<ACTION type="nothing" param1="3" rate="80" />
+				<ACTION type="talent" param1="211308300" rate="20" />
+			</CHECK>
+			<CHECK type="mode" param1="3">
+				<ACTION type="nothing" param1="3" rate="80" />
+				<ACTION type="talent" param1="211308320" rate="20" />
+			</CHECK>
+		</IDLE>
+	</COLT>
+	<SCRIPT><![CDATA[ 
+	
+function NPC_1000006:Init( NPCID )
+	--[[  
+	PARTS
+	1 : 손등
+	2 : 드러머 왼손
+	3 : 북
+	
+	USERDATA 
+	1 : 북
+	2 : 손등
+	3 : Pain
+	4 : 현재 Drum 오오라 인덱스
+	5 : 분노모드 돌입여부
+	--]]
+	
+	NPC_ReserveUserData( NPCID, 5 )
+	
+	NPC_1000006.LimitForBreakDrum 				= NPC_1000006.MaxHP / 2
+	NPC_1000006.LimitForBreakShell 				= NPC_1000006.MaxHP / 10
+	NPC_1000006.LimitForPain						= NPC_1000006.MaxHP / 10
+	NPC_1000006.LimitForRage						= NPC_1000006.MaxHP / 2
+	
+	NPC_1000006.TalIdPain1 						= 211308308
+	NPC_1000006.TalIdPain2 						= 211308309
+	
+	NPC_1000006.TalIDChangeMode0				= 211308330	
+	NPC_1000006.TalIdChangeMode1 				= 211308310
+	NPC_1000006.TalIdChangeMode2 				= 211308331
+	NPC_1000006.TalIdChangeMode3 				= 211308332
+	
+	NPC_1000006.TalIdMode1Pain1 				= 211308328
+	NPC_1000006.TalIdMode1Pain2 				= 211308329
+	
+	NPC_1000006.BufIdsDrumSound				= { 40152, 40154, 40156, 40158, 40162, 40164, 40166, 40168 }
+	NPC_1000006.DurationsDrumSound			= { 20, 20, 20, 20, 10, 10, 10, 10 }
+	NPC_1000006.BufCount							= 8
+	
+	NPC_1000006.TimerIdSetDrum					= 1
+	NPC_1000006.TimerIdBufExpire					= 2
+
+	NPC_1000006.BufIdZombieSlow				= 40161
+
+end
+
+function NPC_1000006:StartCombat( ThisNPC, Enemy )
+	--GLog( "===== Start Combat =====\n" )
+	ThisNPC:UseTalentSelf( NPC_1000006.TalIDChangeMode0 )
+	NPC_1000006:SetDrum( ThisNPC, 1 )
+end
+
+function NPC_1000006:SetDrum( ThisNPC, Index )
+	--GLog( "SetDrum( " .. Index .." )\n" )
+	
+	local BufIdx = ThisNPC:GetUserData( 4 )
+	-- Clear current drum aura
+	
+	if  BufIdx > 0 then
+		ThisNPC:RemoveBuff( NPC_1000006.BufIdsDrumSound[ BufIdx ] )
+		ThisNPC:SetUserData( 4 , 0 )
+	end
+	
+	if Index <= 0 then
+		return
+	end
+	
+	if Index <= NPC_1000006.BufCount/2 then
+		ThisNPC:NarrationNow( "$$COLT_1000006_218" )
+	else
+		ThisNPC:NarrationNow( "$$COLT_1000006_220" )
+	end
+
+	ThisNPC:GainBuff( NPC_1000006.BufIdsDrumSound[ Index ] )
+	--GLog ( "SetBuf (" .. NPC_1000006.BufIdsDrumSound[ Index ] .. ") \n" )
+	
+	ThisNPC:SetTimer( NPC_1000006.TimerIdBufExpire, NPC_1000006.DurationsDrumSound[ Index ] , false )
+	ThisNPC:SetUserData( 4, Index )
+end
+
+function NPC_1000006:OnTimer( Index )
+	if this:GetMode() == 0 and ( this:GetHP() < NPC_1000006.LimitForRage ) then
+		this:UseTalentSelf( NPC_1000006.TalIdChangeMode2 )
+		return
+	end
+	
+	--GLog( "-----[ OnTimer( " .. Index .. " ) ]-----\n" )
+	
+	if Index == NPC_1000006.TimerIdBufExpire then
+		if this:CheckBPart(3) then
+			return
+		end
+		
+		if this:IsNowCombat() then
+			NPC_1000006:NextDrum(this)
+		else 
+			this:UseTalentSelf( NPC_1000006.TalIdChangeMode3 )
+		end
+	end
+end
+
+function NPC_1000006:OnFinishModeChange1( ThisNPC, Enemy )
+end
+
+function NPC_1000006:OnFinishModeChange2( ThisNPC, Enemy )
+	NPC_1000006:NextDrum( AsNPC(ThisNPC) )
+end
+
+function NPC_1000006:OnFinishModeChange3( ThisNPC, Enemy )
+	NPC_1000006:SetDrum( AsNPC(ThisNPC), 0 )
+end
+
+function NPC_1000006:NextDrum( ThisNPC )
+	local NumberOfBufs = NPC_1000006.BufCount/2
+	local BufIdx = ThisNPC:GetUserData(4)
+	
+	--GLog( "BufIdx" .. BufIdx .."\n" )
+	
+	if BufIdx == 0  then
+		return
+	end
+	
+	if ThisNPC:GetMode() == 0 then
+		NPC_1000006:SetDrum( ThisNPC, ( BufIdx + math.random( 0,NumberOfBufs-2) ) % NumberOfBufs +1 )
+	elseif ThisNPC:GetMode() == 2 then
+		local NextBufIdx
+		if BufIdx > NumberOfBufs then
+			NextBufIdx = ( BufIdx%NumberOfBufs + math.random( 0,NumberOfBufs-2) ) % NumberOfBufs +1
+		else
+			NextBufIdx = ( BufIdx + math.random( 0,NumberOfBufs-2) ) % NumberOfBufs +5 
+		end
+		
+		NPC_1000006:SetDrum( ThisNPC, NextBufIdx )
+		
+		if NextBufIdx > NumberOfBufs then
+			ThisNPC:GainBuff( NPC_1000006.BufIdZombieSlow )
+		else
+			ThisNPC:RemoveBuff( NPC_1000006.BufIdZombieSlow )			
+		end
+	end
+end
+
+function NPC_1000006:AccDamage( ThisNPC, DataIdx, HitInfo )
+	if ( DataIdx == 1 and not ThisNPC:CheckBPart( 3 ) ) or
+		( DataIdx == 2 and not ThisNPC:CheckBPart( 1 ) ) then
+		ThisNPC:SetUserData( DataIdx, ThisNPC:GetUserData( DataIdx ) + HitInfo.Damage	 )
+	end
+	
+	ThisNPC:SetUserData( 3, ThisNPC:GetUserData( 3 ) + HitInfo.Damage )
+
+	--[[
+	--GLog( "-- Process Acc Damage ( P:" .. DataIdx .. 
+		", D:" .. HitInfo.Damage .. ", 1:" .. ThisNPC:GetUserData( 1 ) .. 
+		", 2:" .. ThisNPC:GetUserData( 2 ) .. ", 3:" .. ThisNPC:GetUserData( 3 ) .. " )--\n"  )
+	--]]
+	
+	-- reaction
+	if not ChkMFForHitReaction( HitInfo ) then
+		return
+	end
+	
+	-- 북 파괴
+	if DataIdx == 1 and ThisNPC:GetUserData(DataIdx) > NPC_1000006.LimitForBreakDrum then
+		if not ThisNPC:IsCooldown( NPC_1000006.TalIdChangeMode1 ) then
+			--GLog( "To Mode1\n" )
+			ThisNPC:ClearJob()
+			ThisNPC:UseTalentSelf( NPC_1000006.TalIdChangeMode1 )
+			ThisNPC:BreakPart( 3, HitInfo.Attacker )
+		
+			ThisNPC:SetUserData( DataIdx , 0 )
+			ThisNPC:SetUserData( 3 , 0 )
+			NPC_1000006:SetDrum( ThisNPC, 0 )
+		end
+		
+		return
+	end
+	
+	-- 손등 파괴
+	if DataIdx == 2 and ThisNPC:GetUserData(DataIdx) > NPC_1000006.LimitForBreakShell then
+		if not ThisNPC:IsCooldown( NPC_1000006.TalIdPain1 ) then
+			--GLog( "Pain1" )
+			ThisNPC:ClearJob()
+			ThisNPC:UseTalentSelf( NPC_1000006.TalIdPain1 )
+			ThisNPC:BreakPart( 1, HitInfo.Attacker )
+		
+			ThisNPC:SetUserData( DataIdx , 0 )
+			ThisNPC:SetUserData( 3 , 0 )
+		end
+		
+		return
+	end
+	
+	-- pain
+	if  ThisNPC:GetUserData(3) > NPC_1000006.LimitForPain then
+		if not ThisNPC:IsCooldown( NPC_1000006.TalIdPain2 ) then
+			ThisNPC:ClearJob()
+			ThisNPC:UseTalentSelf( NPC_1000006.TalIdPain2 )
+			
+			ThisNPC:SetUserData( 3 , 0 )
+		end
+		return
+	end
+end
+
+--[[
+		HitCapsule Callback functions.
+--]]
+function NPC_1000006:OnHitCapsule_1_0(HitInfo)
+	NPC_1000006:AccDamage( this, 1, HitInfo )
+end
+
+function NPC_1000006:OnHitCapsule_1_1(HitInfo)
+	NPC_1000006:AccDamage( this, 2, HitInfo )
+end
+
+function NPC_1000006:OnHitCapsule_1_2(HitInfo)
+	NPC_1000006:AccDamage( this, 3, HitInfo )
+end
+
+	]]>
+	</SCRIPT>
+</maiet>

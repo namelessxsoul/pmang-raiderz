@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet href="./colt.xsl" type="text/xsl"?>
+<maiet>					
+	<COLT name="비늘 늑대 우두머리" npcid="101018">	
+		<!-- 리오드 임시 -->
+		<COMBAT>			
+			<DEFAULT>	
+				
+			</DEFAULT>
+			
+			
+		</COMBAT>
+		
+		<IDLE>
+			<DEFAULT>
+				
+			</DEFAULT>
+		</IDLE>
+	</COLT>
+	<SCRIPT><![CDATA[
+	
+
+	]]></SCRIPT>	
+</maiet>

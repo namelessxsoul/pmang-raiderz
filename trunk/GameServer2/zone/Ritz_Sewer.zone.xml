@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ROOT>
+    <SCENE>
+        <DIRLIGHT>
+            <COMMON name="DirectionalLight">
+                <POSITION>0.000000 0.000000 191.005341</POSITION>
+                <DIRECTION>0.393305 0.528286 -0.752479</DIRECTION>
+                <UP>0.436810 0.612803 0.658536</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <SHADOWLUMINOSITY>0.100</SHADOWLUMINOSITY>
+                <POWER>1.000</POWER>
+                <AMBIENT>0.000 0.000 0.000</AMBIENT>
+                <DIFFUSE>1.000 1.000 1.000</DIFFUSE>
+                <SPECULAR>1.000 1.000 1.000</SPECULAR>
+                <SKYSPECULAR>1.000</SKYSPECULAR>
+            </PROPERTY>
+        </DIRLIGHT>
+		<SUBLIGHT> 
+            <COMMON name="SubLight">
+                <POSITION>57902.539063 41502.070313 462.805542</POSITION>
+                <DIRECTION>-0.718381 0.429663 -0.547099</DIRECTION>
+                <UP>-0.695631 -0.449390 0.560487</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <COLOR>0.314 0.392 0.498</COLOR>
+            </PROPERTY>
+        </SUBLIGHT>
+        <SUBLIGHT>
+            <COMMON name="SubL_001">
+                <POSITION>57921.363281 41568.613281 466.709961</POSITION>
+                <DIRECTION>-0.367966 -0.925598 -0.088714</DIRECTION>
+                <UP>-0.071873 -0.066810 0.995174</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <COLOR>0.290 0.184 0.325</COLOR>
+            </PROPERTY>
+        </SUBLIGHT>
+        <SUBLIGHT>
+            <COMMON name="SubL_002">
+                <POSITION>57860.949219 41460.191406 456.742401</POSITION>
+                <DIRECTION>0.966718 0.232756 0.106208</DIRECTION>
+                <UP>-0.052876 -0.224401 0.973061</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <COLOR>0.263 0.318 0.267</COLOR>
+            </PROPERTY>
+        </SUBLIGHT>
+        <SCENEINSTANCE>
+            <COMMON name="ritz_sewer_12.scene_001">
+                <POSITION>19991.570313 -10514.533203 0.000000</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>ritz_sewer_12.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="ritz_sewer_22.scene_001">
+                <POSITION>0.000000 -5200.000000 0.000000</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>ritz_sewer_22.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="ritz_sewer_31.scene_001">
+                <POSITION>0.000000 0.000000 0.000000</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>ritz_sewer_31.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="ritz_sewer_33.scene_001">
+                <POSITION>0.000000 0.000000 0.000000</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>ritz_sewer_33.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="ritz_sewer_34.scene_001">
+                <POSITION>0.000000 0.000000 0.000000</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>ritz_sewer_34.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="ritz_sewer_channel_A.scene_001">
+                <POSITION>0.000000 0.000000 0.000000</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>ritz_sewer_channel_A.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="ritz_sewer_channel_B.scene_001">
+                <POSITION>0.000000 0.000000 0.000000</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>ritz_sewer_channel_B.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <WATERPLANE>
+            <COMMON name="ritz_sewer_water_p_1.elu">
+                <POSITION>0.000000 0.000000 0.000000</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <MESHFILE>ritz_sewer_water_p_1.elu</MESHFILE>
+                <DEPTHLIMIT>1500.000</DEPTHLIMIT>
+                <BUMPUVSCALE>2000.000000 3500.000000 5000.000000 7000.000000</BUMPUVSCALE>
+                <BUMPUVMOVE>0.012000 -0.010000 -0.007000 0.008000 0.004000 -0.004000 -0.004000 0.003000</BUMPUVMOVE>
+                <BUMPADJUST>0.000</BUMPADJUST>
+                <BUMPWEIGHT>0.550000 0.350000 0.250000 0.150000</BUMPWEIGHT>
+                <BUMPTEX1>WaterBumps1.tga</BUMPTEX1>
+                <BUMPTEX2>WaterBumps2.tga</BUMPTEX2>
+                <CUSTOMFOG>false</CUSTOMFOG>
+                <FOGNEAR>0.000</FOGNEAR>
+                <FOGFAR>0.000</FOGFAR>
+                <UNDERWATERFOGNEAR>0.000</UNDERWATERFOGNEAR>
+                <UNDERWATERFOGFAR>400.000</UNDERWATERFOGFAR>
+                <UNDERWATERBUMPUVSCALE>10.000</UNDERWATERBUMPUVSCALE>
+                <UNDERWATERDEPTH>10000.000</UNDERWATERDEPTH>
+                <FOGCOLOR>0.000000 0.000000 0.000000</FOGCOLOR>
+                <WATERCOLOR>1.000000 1.000000 1.000000</WATERCOLOR>
+                <RGBHALFLIFE>2400.000000 4800.000000 12000.000000</RGBHALFLIFE>
+                <FRESNELCONSTANT>0.970</FRESNELCONSTANT>
+                <REFLECTADJUST>1.000</REFLECTADJUST>
+                <VERTEXWAVESCALE>250.000</VERTEXWAVESCALE>
+                <VERTEXWAVEAMPLITUDE1>0.000</VERTEXWAVEAMPLITUDE1>
+                <VERTEXWAVEPHASE1>1.000</VERTEXWAVEPHASE1>
+                <BLENDING>0.000</BLENDING>
+                <REFRACTATTENUATIONDIST>1.000</REFRACTATTENUATIONDIST>
+                <REFRACTATTENUATIONFACTOR>1.000</REFRACTATTENUATIONFACTOR>
+            </PROPERTY>
+        </WATERPLANE>
+        <SCENEINSTANCE>
+            <COMMON name="ritz_sewer_cellar_food.scene_001">
+                <POSITION>0.000000 0.000000 0.000000</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>ritz_sewer_cellar_food.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="ritz_sewer_cellar_weapon.scene_001">
+                <POSITION>0.000000 0.000000 0.000000</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>ritz_sewer_cellar_weapon.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <OCCLUDER>
+            <COMMON>
+                <POSITION>-14243.810547 5812.615234 -8272.040039</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <LOCALSCALE>14.500000 1.000000 20.000000</LOCALSCALE>
+                <OCCLUDERPOINT>
+                    <P>-500.000000 0.000000 1000.000000</P>
+                    <P>-500.000000 0.000002 0.000000</P>
+                    <P>500.000000 0.000002 0.000000</P>
+                    <P>500.000000 0.000000 1000.000000</P>
+                </OCCLUDERPOINT>
+            </PROPERTY>
+        </OCCLUDER>
+        <OCCLUDER>
+            <COMMON name="_001">
+                <POSITION>-3711.803711 -10635.359375 -8272.040039</POSITION>
+                <DIRECTION>-1.000000 -0.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <LOCALSCALE>25.000000 1.000000 20.000000</LOCALSCALE>
+                <OCCLUDERPOINT>
+                    <P>-500.000000 0.000000 1000.000000</P>
+                    <P>-500.000000 0.000002 0.000000</P>
+                    <P>500.000000 0.000002 0.000000</P>
+                    <P>500.000000 0.000000 1000.000000</P>
+                </OCCLUDERPOINT>
+            </PROPERTY>
+        </OCCLUDER>
+        <OCCLUDER>
+            <COMMON name="_002">
+                <POSITION>4883.346680 -1271.512207 -8272.040039</POSITION>
+                <DIRECTION>-0.990268 0.139173 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <LOCALSCALE>20.000000 1.000000 20.000000</LOCALSCALE>
+                <OCCLUDERPOINT>
+                    <P>-500.000000 0.000000 1000.000000</P>
+                    <P>-500.000000 0.000002 0.000000</P>
+                    <P>500.000000 0.000002 0.000000</P>
+                    <P>500.000000 0.000000 1000.000000</P>
+                </OCCLUDERPOINT>
+            </PROPERTY>
+        </OCCLUDER>
+        <OCCLUDER>
+            <COMMON name="_003">
+                <POSITION>23161.529297 -7678.746094 -8272.040039</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <LOCALSCALE>22.000000 1.000000 20.000000</LOCALSCALE>
+                <OCCLUDERPOINT>
+                    <P>-500.000000 0.000000 1000.000000</P>
+                    <P>-500.000000 0.000002 0.000000</P>
+                    <P>500.000000 0.000002 0.000000</P>
+                    <P>500.000000 0.000000 1000.000000</P>
+                </OCCLUDERPOINT>
+            </PROPERTY>
+        </OCCLUDER>
+        <OCCLUDER>
+            <COMMON name="_004">
+                <POSITION>7926.108398 -15148.426758 -8272.040039</POSITION>
+                <DIRECTION>-1.000000 -0.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <LOCALSCALE>15.000000 1.000000 20.000000</LOCALSCALE>
+                <OCCLUDERPOINT>
+                    <P>-500.000000 0.000000 1000.000000</P>
+                    <P>-500.000000 0.000002 0.000000</P>
+                    <P>500.000000 0.000002 0.000000</P>
+                    <P>500.000000 0.000000 1000.000000</P>
+                </OCCLUDERPOINT>
+            </PROPERTY>
+        </OCCLUDER>
+        <OCCLUDER>
+            <COMMON name="_005">
+                <POSITION>-20912.472656 -5766.961914 -8272.040039</POSITION>
+                <DIRECTION>-1.000000 -0.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <LOCALSCALE>8.300000 1.000000 20.000000</LOCALSCALE>
+                <OCCLUDERPOINT>
+                    <P>-500.000000 0.000000 1000.000000</P>
+                    <P>-500.000000 0.000002 0.000000</P>
+                    <P>500.000000 0.000002 0.000000</P>
+                    <P>500.000000 0.000000 1000.000000</P>
+                </OCCLUDERPOINT>
+            </PROPERTY>
+        </OCCLUDER>
+        <OCCLUDER>
+            <COMMON name="_006">
+                <POSITION>3636.618164 14936.798828 -8272.040039</POSITION>
+                <DIRECTION>-0.990268 0.139173 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <LOCALSCALE>15.000000 1.000000 20.000000</LOCALSCALE>
+                <OCCLUDERPOINT>
+                    <P>-500.000000 0.000000 1000.000000</P>
+                    <P>-500.000000 0.000002 0.000000</P>
+                    <P>500.000000 0.000002 0.000000</P>
+                    <P>500.000000 0.000000 1000.000000</P>
+                </OCCLUDERPOINT>
+            </PROPERTY>
+        </OCCLUDER>
+        <OCCLUDER>
+            <COMMON name="_007">
+                <POSITION>-3141.208740 12268.647461 -8272.040039</POSITION>
+                <DIRECTION>-1.000000 -0.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <LOCALSCALE>15.000000 1.000000 20.000000</LOCALSCALE>
+                <OCCLUDERPOINT>
+                    <P>-500.000000 0.000000 1000.000000</P>
+                    <P>-500.000000 0.000002 0.000000</P>
+                    <P>500.000000 0.000002 0.000000</P>
+                    <P>500.000000 0.000000 1000.000000</P>
+                </OCCLUDERPOINT>
+            </PROPERTY>
+        </OCCLUDER>
+    </SCENE>
+</ROOT>

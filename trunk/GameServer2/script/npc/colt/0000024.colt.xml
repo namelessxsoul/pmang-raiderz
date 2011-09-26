@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- 코볼드 족장 샘플. 이 파일을 변경하기 전에 이야기 해주시기 바랍니다. - 조중필 -->
+<maiet>
+	<SCRIPT>
+<![CDATA[
+
+function NPC_24:Init(NPCID)
+	
+end
+
+function NPC_24:OnYell(RequestNPC, TargetActor)
+	this:Assist(RequestNPC);
+end
+
+]]>
+	</SCRIPT>
+	<COLT>
+		<COMBAT >
+			<DEFAULT>
+				<ACTION type="yell" auto_run="true" max_count="1" />
+				<ACTION type="talent" param1="200241" rate="50" />
+				<ACTION type="talent" param1="200243" rate="30" />
+				<ACTION type="guard"  param1="200249" param2="5" rate="20" />
+			</DEFAULT>
+			
+			<CHECK type="hp" param1="31" param2="70">
+				<ACTION type="talent" param1="200241" rate="30" />
+				<ACTION type="talent" param1="200242" rate="30" />
+				<ACTION type="talent" param1="200243" rate="20" />
+				<ACTION type="guard"  param1="200249" param2="5" rate="20" />
+			</CHECK>
+			<CHECK type="hp" param1="1" param2="30">
+				<ACTION type="talent" param1="200241" rate="30" />
+				<ACTION type="talent" param1="200244" rate="30" />
+				<ACTION type="talent" param1="200242" rate="30" />
+				<ACTION type="guard"  param1="200249" param2="5" rate="20" />
+			</CHECK>
+		</COMBAT>
+		<REACTION>
+			<CHECK type="unbreakpart" param1="1" >
+				<CHECK type="hp" param2="30">
+					<CHECK type="motionfactor"  param1="knockback">
+						<ACTION type="breakpart" param1="1"/>
+					</CHECK>
+				</CHECK>
+			</CHECK>
+		</REACTION>
+		<IDLE>
+			<DEFAULT>
+				<ACTION type="talent" param1="200245" rate="30" />
+				<ACTION type="talent" param1="200246" rate="20" />
+				<ACTION type="nothing"  param1="1000" rate="50" />
+			</DEFAULT>
+		</IDLE>
+	</COLT>
+</maiet>

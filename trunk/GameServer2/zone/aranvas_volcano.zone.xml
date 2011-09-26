@@ -1,0 +1,2953 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ROOT>
+    <PROPERTY />
+    <SCENE>
+        <RTERRAIN>
+            <COMMON>
+                <POSITION>0.000000 0.000000 0.000000</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY version="1.3">
+                <MAP_WIDTH type="int">
+                    <int>512</int>
+                </MAP_WIDTH>
+                <MAP_HEIGHT type="int">
+                    <int>512</int>
+                </MAP_HEIGHT>
+                <MAP_SIZE type="vec3">
+                    <vec3>100000.000000 100000.000000 0.000000</vec3>
+                </MAP_SIZE>
+                <MAP_NAME>aranvas_volcano_dis.dds</MAP_NAME>
+                <BASEMAP_NAME>aranvas_volcano_baked.dds</BASEMAP_NAME>
+                <CREATE_NAVEMESH type="bool">
+                    <bool>true</bool>
+                </CREATE_NAVEMESH>
+                <GRASS>aranvas_volcano_grass.grs</GRASS>
+                <LAYER type="array" size="12">
+                    <LAYERINFO index="0">
+                        <ALPHAMAP>aranvas_volcano_mask0.dds</ALPHAMAP>
+                        <TILEMAP type="specular">aranvas_stone_g01.dds</TILEMAP>
+                        <TILEUV type="vec3">
+                            <vec3>500.000000 500.000000 1.000000</vec3>
+                        </TILEUV>
+                    </LAYERINFO>
+                    <LAYERINFO index="1">
+                        <ALPHAMAP>aranvas_volcano_mask1.dds</ALPHAMAP>
+                        <TILEMAP type="specular">aranvas_stone_g03.dds</TILEMAP>
+                        <TILEUV type="vec3">
+                            <vec3>500.000000 500.000000 1.000000</vec3>
+                        </TILEUV>
+                    </LAYERINFO>
+                    <LAYERINFO index="2">
+                        <ALPHAMAP>aranvas_volcano_mask2.dds</ALPHAMAP>
+                        <TILEMAP type="specular">aranvas_ground_g05.dds</TILEMAP>
+                        <TILEUV type="vec3">
+                            <vec3>300.000000 300.000000 1.000000</vec3>
+                        </TILEUV>
+                    </LAYERINFO>
+                    <LAYERINFO index="3">
+                        <ALPHAMAP>aranvas_volcano_mask3.dds</ALPHAMAP>
+                        <TILEMAP type="specular">aranvas_ground_g07.dds</TILEMAP>
+                        <TILEUV type="vec3">
+                            <vec3>500.000000 500.000000 1.000000</vec3>
+                        </TILEUV>
+                    </LAYERINFO>
+                    <LAYERINFO index="4">
+                        <ALPHAMAP>aranvas_volcano_mask4.dds</ALPHAMAP>
+                        <TILEMAP type="specular">aranvas_ground_g04.dds</TILEMAP>
+                        <TILEUV type="vec3">
+                            <vec3>500.000000 500.000000 1.000000</vec3>
+                        </TILEUV>
+                    </LAYERINFO>
+                    <LAYERINFO index="5">
+                        <ALPHAMAP>aranvas_volcano_mask5.dds</ALPHAMAP>
+                        <TILEMAP type="specular">aranvas_stone_g04.dds</TILEMAP>
+                        <TILEUV type="vec3">
+                            <vec3>500.000000 500.000000 1.000000</vec3>
+                        </TILEUV>
+                    </LAYERINFO>
+                    <LAYERINFO index="6">
+                        <ALPHAMAP>aranvas_volcano_mask6.dds</ALPHAMAP>
+                        <TILEMAP type="specular">aranvas_ground_g08.dds</TILEMAP>
+                        <TILEUV type="vec3">
+                            <vec3>500.000000 500.000000 1.000000</vec3>
+                        </TILEUV>
+                    </LAYERINFO>
+                    <LAYERINFO index="7">
+                        <ALPHAMAP>aranvas_volcano_mask7.dds</ALPHAMAP>
+                        <TILEMAP type="specular">aranvas_ground_g03.dds</TILEMAP>
+                        <TILEUV type="vec3">
+                            <vec3>500.000000 500.000000 1.000000</vec3>
+                        </TILEUV>
+                    </LAYERINFO>
+                    <LAYERINFO index="8">
+                        <ALPHAMAP>aranvas_volcano_mask8.dds</ALPHAMAP>
+                        <TILEMAP type="specular">aranvas_ground_g02.dds</TILEMAP>
+                        <TILEUV type="vec3">
+                            <vec3>500.000000 500.000000 1.000000</vec3>
+                        </TILEUV>
+                    </LAYERINFO>
+                    <LAYERINFO index="9">
+                        <ALPHAMAP>aranvas_volcano_mask9.dds</ALPHAMAP>
+                        <TILEMAP type="specular">aranvas_ground_g01.dds</TILEMAP>
+                        <TILEUV type="vec3">
+                            <vec3>500.000000 500.000000 1.000000</vec3>
+                        </TILEUV>
+                    </LAYERINFO>
+                    <LAYERINFO index="10">
+                        <ALPHAMAP>aranvas_volcano_mask10.dds</ALPHAMAP>
+                        <TILEMAP type="specular">aranvas_lava_g01.dds</TILEMAP>
+                        <TILEUV type="vec3">
+                            <vec3>500.000000 500.000000 1.000000</vec3>
+                        </TILEUV>
+                    </LAYERINFO>
+                    <LAYERINFO index="11">
+                        <ALPHAMAP>aranvas_volcano_mask11.dds</ALPHAMAP>
+                        <TILEMAP type="specular">aranvas_stone_g02.dds</TILEMAP>
+                        <TILEUV type="vec3">
+                            <vec3>500.000000 500.000000 1.000000</vec3>
+                        </TILEUV>
+                    </LAYERINFO>
+                </LAYER>
+            </PROPERTY>
+        </RTERRAIN>
+        <DIRLIGHT>
+            <COMMON name="TerrainLightMap0">
+                <POSITION>0.000000 0.000000 9139.817383</POSITION>
+                <DIRECTION>-0.351612 0.263262 -0.898366</DIRECTION>
+                <UP>0.533021 0.845200 0.039063</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <SHADOWLUMINOSITY>0.100</SHADOWLUMINOSITY>
+                <POWER>1.000</POWER>
+                <AMBIENT>0.000 0.000 0.000</AMBIENT>
+                <DIFFUSE>1.000 1.000 1.000</DIFFUSE>
+                <SPECULAR>1.000 1.000 1.000</SPECULAR>
+                <SKYSPECULAR>0.000</SKYSPECULAR>
+            </PROPERTY>
+        </DIRLIGHT>
+        <SUBLIGHT>
+            <COMMON name="SubLight">
+                <POSITION>57902.539063 41502.070313 462.805542</POSITION>
+                <DIRECTION>-0.640258 0.378505 -0.668434</DIRECTION>
+                <UP>-0.749850 -0.496820 0.436915</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <COLOR>0.314 0.392 0.498</COLOR>
+            </PROPERTY>
+        </SUBLIGHT>
+        <SUBLIGHT>
+            <COMMON name="SubL_001">
+                <POSITION>57921.363281 41568.613281 466.709961</POSITION>
+                <DIRECTION>-0.367966 -0.925598 -0.088714</DIRECTION>
+                <UP>-0.071873 -0.066810 0.995174</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <COLOR>0.290 0.184 0.325</COLOR>
+            </PROPERTY>
+        </SUBLIGHT>
+        <SUBLIGHT>
+            <COMMON name="SubL_002">
+                <POSITION>57860.949219 41460.191406 456.742401</POSITION>
+                <DIRECTION>0.693056 0.484806 0.533513</DIRECTION>
+                <UP>-0.389181 -0.371337 0.842999</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <COLOR>0.263 0.318 0.267</COLOR>
+            </PROPERTY>
+        </SUBLIGHT>
+        <WATERPLANE>
+            <COMMON name="aranvas_volcano_water_p_1.elu">
+                <POSITION>0.000000 0.000000 0.000000</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <MESHFILE>aranvas_volcano_water_p_1.elu</MESHFILE>
+                <DEPTHLIMIT>50.000</DEPTHLIMIT>
+                <BUMPUVSCALE>1400.000000 6200.000000 1200.000000 4100.000000</BUMPUVSCALE>
+                <BUMPUVMOVE>-0.006000 -0.016000 -0.017000 -0.023000 -0.009000 -0.010000 -0.001000 -0.001000</BUMPUVMOVE>
+                <BUMPADJUST>0.400</BUMPADJUST>
+                <BUMPWEIGHT>0.680000 3.560000 0.830000 4.170000</BUMPWEIGHT>
+                <BUMPTEX1>WaterBumps1.tga</BUMPTEX1>
+                <BUMPTEX2>WaterBumps2.tga</BUMPTEX2>
+                <CUSTOMFOG>false</CUSTOMFOG>
+                <FOGNEAR>0.000</FOGNEAR>
+                <FOGFAR>0.000</FOGFAR>
+                <UNDERWATERFOGNEAR>0.000</UNDERWATERFOGNEAR>
+                <UNDERWATERFOGFAR>7900.000</UNDERWATERFOGFAR>
+                <UNDERWATERBUMPUVSCALE>56.000</UNDERWATERBUMPUVSCALE>
+                <UNDERWATERDEPTH>2000.000</UNDERWATERDEPTH>
+                <FOGCOLOR>0.756863 0.870588 0.745098</FOGCOLOR>
+                <WATERCOLOR>0.443137 0.474510 0.043137</WATERCOLOR>
+                <RGBHALFLIFE>1300.000000 4100.000000 980.000000</RGBHALFLIFE>
+                <FRESNELCONSTANT>0.170</FRESNELCONSTANT>
+                <REFLECTADJUST>0.410</REFLECTADJUST>
+                <VERTEXWAVESCALE>250.000</VERTEXWAVESCALE>
+                <VERTEXWAVEAMPLITUDE1>0.000</VERTEXWAVEAMPLITUDE1>
+                <VERTEXWAVEPHASE1>1.000</VERTEXWAVEPHASE1>
+                <BLENDING>1.000</BLENDING>
+                <REFRACTATTENUATIONDIST>1.000</REFRACTATTENUATIONDIST>
+                <REFRACTATTENUATIONFACTOR>0.500</REFRACTATTENUATIONFACTOR>
+            </PROPERTY>
+        </WATERPLANE>
+        <ACTOR>
+            <COMMON name="aranvas_volcano_balance_01">
+                <POSITION>31877.505859 81564.960938 67.390686</POSITION>
+                <DIRECTION>0.173648 0.984808 0.000000</DIRECTION>
+                <UP>-0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_balance_01.elu</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </ACTOR>
+        <ACTOR>
+            <COMMON name="aranvas_volcano_flowland_03_003">
+                <POSITION>47984.832031 80028.648438 565.736084</POSITION>
+                <DIRECTION>0.460846 -0.884377 -0.074156</DIRECTION>
+                <UP>0.190809 0.017132 0.981478</UP>
+                <SCALE>0.883376 0.883376 0.883376</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_flowland_03.elu</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </ACTOR>
+        <ACTOR>
+            <COMMON name="aranvas_volcano_flowland_03_004">
+                <POSITION>41173.507813 69676.000000 144.932983</POSITION>
+                <DIRECTION>-0.377330 -0.862732 -0.336624</DIRECTION>
+                <UP>0.887886 -0.440335 0.133279</UP>
+                <SCALE>0.883376 0.883376 0.883376</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_flowland_03.elu</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </ACTOR>
+        <ACTOR>
+            <COMMON name="aranvas_volcano_flowland_03_005">
+                <POSITION>52244.164063 75340.765625 780.986816</POSITION>
+                <DIRECTION>0.515038 -0.857037 -0.014960</DIRECTION>
+                <UP>-0.000000 -0.017453 0.999848</UP>
+                <SCALE>1.066792 1.066792 1.066792</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_flowland_03.elu</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </ACTOR>
+        <ACTOR>
+            <COMMON name="aranvas_volcano_flowland_03_006">
+                <POSITION>51053.531250 81826.429688 437.724976</POSITION>
+                <DIRECTION>0.550790 0.678988 -0.485392</DIRECTION>
+                <UP>0.305787 0.376961 0.874297</UP>
+                <SCALE>0.883376 0.883376 0.883376</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_flowland_03.elu</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </ACTOR>
+        <ACTOR>
+            <COMMON name="aranvas_volcano_flowland_03_007">
+                <POSITION>52452.863281 71127.554688 519.143311</POSITION>
+                <DIRECTION>-0.208330 0.975743 0.067258</DIRECTION>
+                <UP>0.010088 -0.066620 0.997727</UP>
+                <SCALE>1.066792 1.066792 1.066792</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_flowland_03.elu</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </ACTOR>
+        <ACTOR>
+            <COMMON name="aranvas_volcano_flowland_03_008">
+                <POSITION>54906.601563 69086.906250 640.339722</POSITION>
+                <DIRECTION>-0.788011 -0.615662 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>0.590411 0.590411 0.590411</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_flowland_03.elu</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </ACTOR>
+        <ACTOR>
+            <COMMON name="aranvas_volcano_flowland_03_009">
+                <POSITION>55762.441406 67480.007813 701.411377</POSITION>
+                <DIRECTION>-0.629432 -0.606803 -0.485392</DIRECTION>
+                <UP>-0.349448 -0.336885 0.874297</UP>
+                <SCALE>0.883376 0.883376 0.883376</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_flowland_03.elu</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </ACTOR>
+        <ACTOR>
+            <COMMON name="aranvas_volcano_flowland_03_010">
+                <POSITION>44977.757813 81855.578125 853.250366</POSITION>
+                <DIRECTION>-0.857238 -0.498196 0.130170</DIRECTION>
+                <UP>0.099900 0.087082 0.991179</UP>
+                <SCALE>0.849146 0.849146 0.849146</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_flowland_03.elu</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </ACTOR>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_ballista_01.scene_001">
+                <POSITION>48602.859375 25619.708984 -1203.222168</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_ballista_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_bridge_01.scene_002">
+                <POSITION>37076.437500 40249.921875 -277.234741</POSITION>
+                <DIRECTION>0.694658 0.719340 0.000000</DIRECTION>
+                <UP>-0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_bridge_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_bridge_01.scene_003">
+                <POSITION>30194.732422 39731.664063 -150.093384</POSITION>
+                <DIRECTION>0.857167 0.515038 0.000000</DIRECTION>
+                <UP>-0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_bridge_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_bridge_01.scene_004">
+                <POSITION>32194.308594 45589.417969 -288.337219</POSITION>
+                <DIRECTION>0.999391 -0.034899 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_bridge_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_camp_human_01.scene_001">
+                <POSITION>49660.421875 27933.216797 -1194.331177</POSITION>
+                <DIRECTION>0.731354 0.681998 0.000000</DIRECTION>
+                <UP>-0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_camp_human_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_camp_human_01.scene_002">
+                <POSITION>49898.589844 26065.912109 -1189.838623</POSITION>
+                <DIRECTION>0.642788 -0.766044 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_camp_human_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_elem_fire_01.scene_001">
+                <POSITION>31195.207031 58461.796875 1639.117676</POSITION>
+                <DIRECTION>-0.390732 0.920505 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.304773 1.304773 1.304773</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_elem_fire_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_elem_fire_02.scene_001">
+                <POSITION>29773.082031 58055.250000 1639.117676</POSITION>
+                <DIRECTION>-0.707107 0.707106 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.304773 1.304773 1.304773</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_elem_fire_02.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_elem_fire_02.scene_002">
+                <POSITION>30873.568359 59836.332031 1639.117676</POSITION>
+                <DIRECTION>-0.707107 0.707106 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.304773 1.304773 1.304773</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_elem_fire_02.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_elem_fire_02.scene_003">
+                <POSITION>32623.220703 58609.597656 1639.117676</POSITION>
+                <DIRECTION>-0.707107 0.707106 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.304773 1.304773 1.304773</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_elem_fire_02.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_elem_fire_02.scene_004">
+                <POSITION>31334.214844 57174.144531 1639.117676</POSITION>
+                <DIRECTION>-0.707107 0.707106 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.304773 1.304773 1.304773</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_elem_fire_02.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_elem_fire_03.scene_001">
+                <POSITION>31689.072266 57335.449219 2328.849854</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.304773 1.304773 1.304773</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_elem_fire_03.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_elem_fire_03.scene_002">
+                <POSITION>32458.431641 58918.203125 2328.831055</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.304773 1.304773 1.304773</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_elem_fire_03.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_elem_fire_03.scene_003">
+                <POSITION>30539.654297 59593.804688 2858.681152</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.304773 1.304773 1.304773</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_elem_fire_03.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_elem_fire_03.scene_004">
+                <POSITION>30548.816406 58503.546875 2197.123047</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.304773 1.304773 1.304773</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_elem_fire_03.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_elem_fire_entrance.scene_002">
+                <POSITION>28880.876953 52354.687500 904.426575</POSITION>
+                <DIRECTION>0.156434 0.987688 0.000000</DIRECTION>
+                <UP>-0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_elem_fire_entrance.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_elem_fire_entrance.scene_003">
+                <POSITION>36909.824219 54709.867188 1374.063721</POSITION>
+                <DIRECTION>-0.951057 0.309017 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_elem_fire_entrance.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_elem_fire_entrance.scene_005">
+                <POSITION>58482.453125 56659.523438 893.602173</POSITION>
+                <DIRECTION>-0.743145 0.669130 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_elem_fire_entrance.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_elem_fire_entrance.scene_006">
+                <POSITION>64530.531250 50923.511719 893.602173</POSITION>
+                <DIRECTION>-0.743145 0.669130 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_elem_fire_entrance.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_elem_water_01.scene_001">
+                <POSITION>62126.382813 53274.371094 872.587891</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_elem_water_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_elem_water_02.scene_001">
+                <POSITION>63077.082031 53663.539063 1605.429932</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_elem_water_02.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_elem_water_02.scene_002">
+                <POSITION>61277.589844 52781.894531 1405.102295</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_elem_water_02.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_elem_water_02.scene_003">
+                <POSITION>62579.980469 52261.394531 1498.665771</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_elem_water_02.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_elem_water_02.scene_004">
+                <POSITION>61517.335938 54349.554688 1647.714844</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_elem_water_02.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_elem_water_02.scene_005">
+                <POSITION>62868.488281 52175.386719 829.797119</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_elem_water_02.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_elem_water_02.scene_006">
+                <POSITION>61188.082031 54455.097656 978.846191</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_elem_water_02.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_elem_water_02.scene_007">
+                <POSITION>63193.167969 54002.320313 936.561279</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_elem_water_02.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_elem_water_02.scene_008">
+                <POSITION>61049.585938 52489.703125 724.420166</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_elem_water_02.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_flowland_01.scene_001">
+                <POSITION>37389.769531 65320.218750 736.737793</POSITION>
+                <DIRECTION>-0.275637 0.959944 -0.050309</DIRECTION>
+                <UP>-0.000000 0.052336 0.998630</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_flowland_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_flowland_01.scene_007">
+                <POSITION>47208.738281 72939.632813 849.765625</POSITION>
+                <DIRECTION>-0.874620 -0.484810 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.048787 1.048787 1.048787</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_flowland_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_flowland_01.scene_010">
+                <POSITION>41139.085938 82299.171875 1017.235229</POSITION>
+                <DIRECTION>-0.241590 0.970296 -0.012661</DIRECTION>
+                <UP>-0.052336 -0.000000 0.998630</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_flowland_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_flowland_01.scene_011">
+                <POSITION>35745.609375 66950.773438 751.955322</POSITION>
+                <DIRECTION>-0.401412 -0.498238 -0.768523</DIRECTION>
+                <UP>0.832247 0.151917 -0.533185</UP>
+                <SCALE>0.754565 0.754565 0.754565</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_flowland_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_flowland_01.scene_012">
+                <POSITION>56782.781250 69146.726563 626.944092</POSITION>
+                <DIRECTION>-0.573577 0.819152 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_flowland_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_flowland_01.scene_013">
+                <POSITION>57275.929688 80755.804688 843.548523</POSITION>
+                <DIRECTION>0.920587 0.390064 0.019227</DIRECTION>
+                <UP>0.008502 -0.069237 0.997564</UP>
+                <SCALE>0.758777 0.758777 0.758777</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_flowland_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_flowland_02.scene_003">
+                <POSITION>39560.898438 73320.492188 787.991394</POSITION>
+                <DIRECTION>0.035687 -0.998550 -0.040312</DIRECTION>
+                <UP>0.156455 -0.034258 0.987091</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_flowland_02.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_flowland_02.scene_005">
+                <POSITION>50754.218750 65678.367188 638.813843</POSITION>
+                <DIRECTION>-0.121868 -0.987109 0.103749</DIRECTION>
+                <UP>0.000000 0.104528 0.994522</UP>
+                <SCALE>0.904382 0.904382 0.904382</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_flowland_02.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_flowland_02.scene_006">
+                <POSITION>46122.175781 79513.671875 895.204224</POSITION>
+                <DIRECTION>-0.985378 0.157012 0.066164</DIRECTION>
+                <UP>0.069751 0.017442 0.997412</UP>
+                <SCALE>0.882332 0.882332 0.882332</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_flowland_02.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_flowland_02.scene_007">
+                <POSITION>55190.308594 64962.632813 622.491455</POSITION>
+                <DIRECTION>-0.696896 -0.716386 0.033574</DIRECTION>
+                <UP>0.283219 -0.231901 0.930596</UP>
+                <SCALE>0.540462 0.540462 0.540462</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_flowland_02.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_flowland_02.scene_008">
+                <POSITION>55556.308594 74579.148438 819.933350</POSITION>
+                <DIRECTION>0.572395 -0.819894 -0.011756</DIRECTION>
+                <UP>0.088770 0.047708 0.994909</UP>
+                <SCALE>0.903113 0.903113 0.903113</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_flowland_02.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_flowland_02.scene_009">
+                <POSITION>46920.410156 85155.492188 665.434082</POSITION>
+                <DIRECTION>0.304462 -0.952284 -0.021404</DIRECTION>
+                <UP>0.026277 -0.014065 0.999556</UP>
+                <SCALE>0.903113 0.903113 0.903113</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_flowland_02.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_flowrock_01.scene_001">
+                <POSITION>42403.796875 69802.578125 474.268799</POSITION>
+                <DIRECTION>-0.069757 -0.997564 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.220190 1.220190 1.220190</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_flowrock_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_flowrock_01.scene_002">
+                <POSITION>50388.109375 67627.609375 392.307129</POSITION>
+                <DIRECTION>-0.250255 -0.965940 -0.065828</DIRECTION>
+                <UP>-0.081094 -0.046840 0.995605</UP>
+                <SCALE>1.244594 1.244594 1.244594</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_flowrock_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_flowrock_01.scene_005">
+                <POSITION>50793.167969 78452.968750 537.436279</POSITION>
+                <DIRECTION>0.481899 -0.867546 0.123035</DIRECTION>
+                <UP>0.158713 0.224514 0.961459</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_flowrock_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_flowrock_01.scene_007">
+                <POSITION>37080.742188 70511.476563 771.766907</POSITION>
+                <DIRECTION>0.995431 -0.052289 -0.079893</DIRECTION>
+                <UP>0.074249 -0.102188 0.991990</UP>
+                <SCALE>1.080702 1.080702 1.080702</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_flowrock_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_flowrock_01.scene_009">
+                <POSITION>44215.324219 67491.804688 902.351440</POSITION>
+                <DIRECTION>-0.685884 -0.703854 0.184802</DIRECTION>
+                <UP>-0.135606 0.373124 0.917818</UP>
+                <SCALE>1.401890 1.401890 1.401890</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_flowrock_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_flowrock_01.scene_010">
+                <POSITION>38129.238281 68397.945313 468.540649</POSITION>
+                <DIRECTION>0.986335 0.159659 -0.040653</DIRECTION>
+                <UP>0.052336 -0.069661 0.996197</UP>
+                <SCALE>1.401890 1.401890 1.401890</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_flowrock_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_flowrock_01.scene_011">
+                <POSITION>43725.039063 65800.117188 838.978455</POSITION>
+                <DIRECTION>-0.528654 -0.784767 -0.323520</DIRECTION>
+                <UP>-0.274523 -0.202583 0.939999</UP>
+                <SCALE>1.181714 1.181714 1.181714</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_flowrock_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_flowrock_01.scene_013">
+                <POSITION>52504.851563 72728.359375 423.077637</POSITION>
+                <DIRECTION>0.771561 0.213375 -0.599304</DIRECTION>
+                <UP>-0.346157 0.931212 -0.114105</UP>
+                <SCALE>0.893918 0.893918 0.893918</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_flowrock_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_flowrock_01.scene_014">
+                <POSITION>44344.617188 71675.242188 647.262573</POSITION>
+                <DIRECTION>-0.453892 -0.881870 -0.127623</DIRECTION>
+                <UP>0.016776 -0.151659 0.988291</UP>
+                <SCALE>1.244106 1.244106 1.244106</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_flowrock_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_flowrock_01.scene_016">
+                <POSITION>38587.105469 70516.101563 861.076050</POSITION>
+                <DIRECTION>0.983043 0.178693 -0.041178</DIRECTION>
+                <UP>0.069661 -0.156180 0.985269</UP>
+                <SCALE>0.785678 0.785678 0.785678</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_flowrock_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_flowrock_01.scene_017">
+                <POSITION>40870.574219 78471.445313 501.298950</POSITION>
+                <DIRECTION>-0.766155 -0.642090 -0.026955</DIRECTION>
+                <UP>0.008187 -0.051692 0.998630</UP>
+                <SCALE>1.989348 1.989348 1.989348</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_flowrock_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_flowrock_01.scene_019">
+                <POSITION>35849.242188 63373.480469 519.870300</POSITION>
+                <DIRECTION>0.969537 -0.240869 0.044493</DIRECTION>
+                <UP>-0.054238 -0.033978 0.997950</UP>
+                <SCALE>1.401890 1.401890 1.401890</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_flowrock_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_flowrock_01.scene_020">
+                <POSITION>54480.992188 78293.687500 624.008301</POSITION>
+                <DIRECTION>0.906308 -0.422618 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.025231 1.025231 1.025231</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_flowrock_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_flowrock_01.scene_021">
+                <POSITION>53083.128906 80928.023438 512.148193</POSITION>
+                <DIRECTION>0.990268 -0.139174 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.401890 1.401890 1.401890</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_flowrock_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_flowrock_01.scene_022">
+                <POSITION>56508.972656 78263.593750 641.146301</POSITION>
+                <DIRECTION>0.586353 -0.809017 0.041002</DIRECTION>
+                <UP>-0.069756 0.000000 0.997564</UP>
+                <SCALE>0.833686 0.833686 0.833686</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_flowrock_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_flowrock_01.scene_024">
+                <POSITION>44429.386719 84851.820313 549.626953</POSITION>
+                <DIRECTION>0.992099 -0.069757 -0.104273</DIRECTION>
+                <UP>0.104528 0.000000 0.994522</UP>
+                <SCALE>1.401890 1.401890 1.401890</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_flowrock_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_flowrock_01.scene_025">
+                <POSITION>44765.027344 66495.789063 686.757446</POSITION>
+                <DIRECTION>0.979413 -0.098438 0.176240</DIRECTION>
+                <UP>-0.173648 0.034369 0.984208</UP>
+                <SCALE>1.103518 1.103518 1.103518</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_flowrock_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_flowrock_01.scene_026">
+                <POSITION>43079.992188 76980.414063 509.642212</POSITION>
+                <DIRECTION>0.885286 0.460364 -0.065828</DIRECTION>
+                <UP>0.089071 -0.028923 0.995605</UP>
+                <SCALE>1.387588 1.387588 1.387588</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_flowrock_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_flowrock_01.scene_027">
+                <POSITION>49303.828125 74326.578125 587.381104</POSITION>
+                <DIRECTION>-0.790855 -0.598898 0.125975</DIRECTION>
+                <UP>0.103851 0.071529 0.992018</UP>
+                <SCALE>1.278841 1.278841 1.278841</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_flowrock_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_flowrock_02.scene_002">
+                <POSITION>44719.867188 74920.906250 114.293762</POSITION>
+                <DIRECTION>0.816443 -0.544518 0.192150</DIRECTION>
+                <UP>-0.173648 0.085832 0.981060</UP>
+                <SCALE>1.497521 1.497521 1.497521</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_flowrock_02.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_flowrock_02.scene_003">
+                <POSITION>39793.824219 76150.882813 388.997314</POSITION>
+                <DIRECTION>0.963349 -0.262512 -0.055201</DIRECTION>
+                <UP>0.041914 -0.055951 0.997553</UP>
+                <SCALE>1.428257 1.428257 1.428257</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_flowrock_02.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_flowrock_02.scene_004">
+                <POSITION>42218.066406 65949.890625 558.858215</POSITION>
+                <DIRECTION>-0.719339 -0.694659 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>0.657198 0.657198 0.657198</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_flowrock_02.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_flowrock_02.scene_005">
+                <POSITION>40098.781250 65856.984375 35.591919</POSITION>
+                <DIRECTION>-0.405483 -0.901067 0.153824</DIRECTION>
+                <UP>0.103242 0.122058 0.987139</UP>
+                <SCALE>1.553456 1.553456 1.553456</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_flowrock_02.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_flowrock_02.scene_006">
+                <POSITION>36562.921875 69019.453125 670.907471</POSITION>
+                <DIRECTION>-0.928147 0.304926 0.213456</DIRECTION>
+                <UP>0.190809 -0.102608 0.976250</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_flowrock_02.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_flowrock_02.scene_008">
+                <POSITION>49293.105469 68571.617188 271.358582</POSITION>
+                <DIRECTION>-0.241922 -0.955555 -0.168490</DIRECTION>
+                <UP>-0.000000 -0.173648 0.984808</UP>
+                <SCALE>1.079955 1.079955 1.079955</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_flowrock_02.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_flowrock_02.scene_009">
+                <POSITION>53622.695313 69060.664063 373.429443</POSITION>
+                <DIRECTION>-0.981627 0.190809 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>0.895156 0.895156 0.895156</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_flowrock_02.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_flowrock_02.scene_010">
+                <POSITION>52227.218750 69354.406250 142.678467</POSITION>
+                <DIRECTION>0.571538 0.812669 -0.113640</DIRECTION>
+                <UP>0.073302 0.087371 0.993475</UP>
+                <SCALE>1.488272 1.488272 1.488272</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_flowrock_02.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_flowrock_02.scene_011">
+                <POSITION>39645.531250 80480.953125 270.831726</POSITION>
+                <DIRECTION>-0.573577 0.819152 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.813507 1.813507 1.813507</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_flowrock_02.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_flowrock_02.scene_012">
+                <POSITION>51390.468750 68667.671875 592.198303</POSITION>
+                <DIRECTION>-0.580890 -0.807802 -0.100113</DIRECTION>
+                <UP>-0.137059 -0.024167 0.990268</UP>
+                <SCALE>0.677524 0.677524 0.677524</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_flowrock_02.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_flowrock_02.scene_013">
+                <POSITION>46515.074219 70036.023438 274.511780</POSITION>
+                <DIRECTION>0.544818 0.770442 0.331048</DIRECTION>
+                <UP>-0.423106 -0.088278 0.901770</UP>
+                <SCALE>1.194052 1.194052 1.194052</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_flowrock_02.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_flowrock_02.scene_014">
+                <POSITION>36071.707031 73502.960938 483.135986</POSITION>
+                <DIRECTION>-0.992816 -0.089355 -0.079574</DIRECTION>
+                <UP>-0.080139 0.002744 0.996780</UP>
+                <SCALE>1.093685 1.093685 1.093685</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_flowrock_02.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_flowrock_02.scene_015">
+                <POSITION>48051.332031 80971.359375 512.697937</POSITION>
+                <DIRECTION>0.275637 0.679715 -0.679715</DIRECTION>
+                <UP>0.000000 0.707107 0.707107</UP>
+                <SCALE>1.343916 1.343916 1.343916</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_flowrock_02.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_flowrock_02.scene_017">
+                <POSITION>41628.300781 71301.953125 308.709412</POSITION>
+                <DIRECTION>-0.619131 0.641189 -0.453380</DIRECTION>
+                <UP>-0.558910 0.045765 0.827964</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_flowrock_02.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_flowrock_02.scene_018">
+                <POSITION>41085.101563 72366.757813 404.287231</POSITION>
+                <DIRECTION>0.328788 0.682492 0.652766</DIRECTION>
+                <UP>0.675959 -0.652764 0.342020</UP>
+                <SCALE>0.813381 0.813381 0.813381</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_flowrock_02.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_flowrock_02.scene_019">
+                <POSITION>50079.820313 70301.398438 350.470886</POSITION>
+                <DIRECTION>-0.685811 -0.692016 0.225338</DIRECTION>
+                <UP>0.389245 -0.087155 0.917002</UP>
+                <SCALE>0.971219 0.971219 0.971219</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_flowrock_02.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_flowrock_02.scene_020">
+                <POSITION>53742.156250 77366.656250 540.259949</POSITION>
+                <DIRECTION>-0.543349 0.836605 -0.069746</DIRECTION>
+                <UP>-0.036966 0.059157 0.997564</UP>
+                <SCALE>0.850267 0.850267 0.850267</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_flowrock_02.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_flowrock_02.scene_021">
+                <POSITION>54529.441406 71458.390625 540.259949</POSITION>
+                <DIRECTION>0.651840 -0.607908 -0.453380</DIRECTION>
+                <UP>0.331567 -0.309220 0.891317</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_flowrock_02.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_flowrock_02.scene_023">
+                <POSITION>59817.546875 79739.578125 347.767639</POSITION>
+                <DIRECTION>0.360174 0.928508 0.090267</DIRECTION>
+                <UP>0.392194 -0.238505 0.888425</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_flowrock_02.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_flowrock_02.scene_024">
+                <POSITION>55617.070313 77563.000000 540.403137</POSITION>
+                <DIRECTION>0.190808 0.981627 0.000000</DIRECTION>
+                <UP>-0.000000 0.000000 1.000000</UP>
+                <SCALE>0.813381 0.813381 0.813381</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_flowrock_02.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_flowrock_02.scene_025">
+                <POSITION>37054.054688 76195.179688 540.259949</POSITION>
+                <DIRECTION>-0.432156 -0.779543 -0.453380</DIRECTION>
+                <UP>0.119644 -0.547869 0.827964</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_flowrock_02.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_flowrock_02.scene_026">
+                <POSITION>48429.347656 85830.562500 393.411194</POSITION>
+                <DIRECTION>-0.969503 0.241303 -0.042852</DIRECTION>
+                <UP>-0.067596 -0.095216 0.993159</UP>
+                <SCALE>0.813381 0.813381 0.813381</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_flowrock_02.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_flowrock_02.scene_029">
+                <POSITION>46392.835938 67172.007813 280.277710</POSITION>
+                <DIRECTION>-0.837307 0.490628 0.241249</DIRECTION>
+                <UP>-0.470699 -0.871366 0.138434</UP>
+                <SCALE>0.971219 0.971219 0.971219</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_flowrock_02.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_flowrock_02.scene_030">
+                <POSITION>38529.792969 70831.531250 387.228577</POSITION>
+                <DIRECTION>-0.993217 -0.113203 0.026545</DIRECTION>
+                <UP>0.043724 -0.152093 0.987399</UP>
+                <SCALE>0.867610 0.867610 0.867610</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_flowrock_02.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_flowrock_02.scene_031">
+                <POSITION>45911.558594 68391.296875 520.707458</POSITION>
+                <DIRECTION>-0.846006 0.527340 0.078656</DIRECTION>
+                <UP>-0.058503 -0.238446 0.969392</UP>
+                <SCALE>1.036024 1.036024 1.036024</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_flowrock_02.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_flowrock_02.scene_032">
+                <POSITION>53776.476563 79328.890625 539.501953</POSITION>
+                <DIRECTION>0.961261 0.275639 0.000000</DIRECTION>
+                <UP>-0.000000 0.000000 1.000000</UP>
+                <SCALE>0.813381 0.813381 0.813381</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_flowrock_02.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_flowrock_02.scene_033">
+                <POSITION>44160.812500 82419.203125 265.835999</POSITION>
+                <DIRECTION>-0.494464 0.835047 0.241249</DIRECTION>
+                <UP>-0.834129 -0.533915 0.138434</UP>
+                <SCALE>0.971219 0.971219 0.971219</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_flowrock_02.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_flowrock_02.scene_034">
+                <POSITION>41334.273438 65967.359375 280.277710</POSITION>
+                <DIRECTION>-0.224385 -0.944167 0.241249</DIRECTION>
+                <UP>0.970910 -0.195369 0.138434</UP>
+                <SCALE>0.971219 0.971219 0.971219</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_flowrock_02.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_flowrock_02.scene_035">
+                <POSITION>39338.429688 68392.789063 380.229675</POSITION>
+                <DIRECTION>-0.090799 -0.966206 0.241249</DIRECTION>
+                <UP>0.988652 -0.058343 0.138434</UP>
+                <SCALE>0.971219 0.971219 0.971219</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_flowrock_02.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_flowrock_02.scene_036">
+                <POSITION>40248.394531 68527.414063 503.025818</POSITION>
+                <DIRECTION>-0.325567 -0.945519 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>0.785875 0.785875 0.785875</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_flowrock_02.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_flowrock_02.scene_037">
+                <POSITION>44096.523438 75721.265625 280.277710</POSITION>
+                <DIRECTION>0.690621 0.681793 0.241249</DIRECTION>
+                <UP>-0.719849 0.680186 0.138434</UP>
+                <SCALE>0.971219 0.971219 0.971219</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_flowrock_02.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_flowrock_02.scene_038">
+                <POSITION>44865.140625 77947.148438 360.750427</POSITION>
+                <DIRECTION>-0.926898 -0.034273 -0.373745</DIRECTION>
+                <UP>-0.360024 -0.200140 0.911223</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_flowrock_02.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_flowrock_02.scene_039">
+                <POSITION>51041.238281 74383.398438 503.177979</POSITION>
+                <DIRECTION>-0.955029 -0.233737 -0.182447</DIRECTION>
+                <UP>-0.188565 0.003904 0.982053</UP>
+                <SCALE>0.949816 0.949816 0.949816</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_flowrock_02.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_flowrock_02.scene_040">
+                <POSITION>43284.652344 68772.460938 419.234924</POSITION>
+                <DIRECTION>0.037647 0.926269 -0.374977</DIRECTION>
+                <UP>-0.998630 0.048525 0.019605</UP>
+                <SCALE>0.657198 0.657198 0.657198</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_flowrock_02.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_flowrock_03.scene_002">
+                <POSITION>38466.718750 63526.332031 840.629028</POSITION>
+                <DIRECTION>-0.188748 -0.416233 -0.889452</DIRECTION>
+                <UP>-0.469059 0.833946 -0.290720</UP>
+                <SCALE>1.049647 1.049647 1.049647</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_flowrock_03.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_flowrock_03.scene_003">
+                <POSITION>39541.359375 75162.382813 558.277466</POSITION>
+                <DIRECTION>0.809520 -0.586765 0.019615</DIRECTION>
+                <UP>-0.575210 -0.786005 0.226561</UP>
+                <SCALE>0.886385 0.886385 0.886385</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_flowrock_03.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_flowrock_03.scene_004">
+                <POSITION>48776.367188 78037.187500 926.903687</POSITION>
+                <DIRECTION>0.931530 0.331628 -0.149247</DIRECTION>
+                <UP>-0.036890 -0.322111 -0.945983</UP>
+                <SCALE>0.886385 0.886385 0.886385</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_flowrock_03.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_flowrock_03.scene_005">
+                <POSITION>43804.613281 70439.906250 584.216797</POSITION>
+                <DIRECTION>0.982278 0.156434 0.103242</DIRECTION>
+                <UP>-0.104529 0.000000 0.994522</UP>
+                <SCALE>0.571577 0.571577 0.571577</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_flowrock_03.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_flowrock_03.scene_006">
+                <POSITION>47176.539063 67259.585938 1127.592285</POSITION>
+                <DIRECTION>0.035687 0.996690 -0.073043</DIRECTION>
+                <UP>-0.121213 -0.068233 -0.990279</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_flowrock_03.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_flowrock_03.scene_007">
+                <POSITION>52791.925781 76739.429688 560.071411</POSITION>
+                <DIRECTION>0.375109 0.926462 -0.030995</DIRECTION>
+                <UP>0.061956 0.008305 0.998044</UP>
+                <SCALE>0.654381 0.654381 0.654381</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_flowrock_03.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_flowrock_03.scene_008">
+                <POSITION>53527.617188 73931.460938 579.466675</POSITION>
+                <DIRECTION>-0.950827 -0.300855 -0.073582</DIRECTION>
+                <UP>-0.046186 -0.097189 0.994194</UP>
+                <SCALE>0.941384 0.941384 0.941384</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_flowrock_03.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_flowrock_03.scene_009">
+                <POSITION>46535.035156 74655.109375 876.612793</POSITION>
+                <DIRECTION>-0.232201 -0.323194 0.917403</DIRECTION>
+                <UP>-0.207886 0.937879 0.277790</UP>
+                <SCALE>1.263773 1.263773 1.263773</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_flowrock_03.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_flowrock_03.scene_010">
+                <POSITION>58460.769531 68447.859375 370.711548</POSITION>
+                <DIRECTION>-0.297152 0.264713 0.917403</DIRECTION>
+                <UP>0.685015 -0.610232 0.397960</UP>
+                <SCALE>0.886385 0.886385 0.886385</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_flowrock_03.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_flowrock_03.scene_011">
+                <POSITION>53918.945313 81431.679688 1029.206055</POSITION>
+                <DIRECTION>0.444200 0.107523 -0.889452</DIRECTION>
+                <UP>0.864486 0.209257 0.457028</UP>
+                <SCALE>1.049647 1.049647 1.049647</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_flowrock_03.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_flowrock_03.scene_012">
+                <POSITION>37566.949219 74006.828125 660.104980</POSITION>
+                <DIRECTION>0.528629 0.848048 0.036965</DIRECTION>
+                <UP>-0.069756 0.000000 0.997564</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_flowrock_03.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_flowrock_03.scene_013">
+                <POSITION>44072.886719 83041.085938 1127.592285</POSITION>
+                <DIRECTION>0.983096 -0.117751 -0.140200</DIRECTION>
+                <UP>-0.154267 -0.120330 -0.980675</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_flowrock_03.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_flowrock_03.scene_014">
+                <POSITION>43465.066406 84769.132813 1052.315796</POSITION>
+                <DIRECTION>-0.446009 -0.099754 -0.889452</DIRECTION>
+                <UP>-0.868007 -0.194138 0.457028</UP>
+                <SCALE>1.049647 1.049647 1.049647</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_flowrock_03.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_flowrock_03.scene_015">
+                <POSITION>51794.761719 77281.921875 375.249695</POSITION>
+                <DIRECTION>-0.960398 -0.040128 0.275727</DIRECTION>
+                <UP>0.051303 0.947189 0.316545</UP>
+                <SCALE>0.886385 0.886385 0.886385</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_flowrock_03.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_flowrock_03.scene_016">
+                <POSITION>48026.632813 68051.765625 509.596252</POSITION>
+                <DIRECTION>-0.457103 -0.705540 0.541544</DIRECTION>
+                <UP>0.682597 -0.668630 -0.294950</UP>
+                <SCALE>0.660861 0.660861 0.660861</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_flowrock_03.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_flowrock_03.scene_018">
+                <POSITION>52791.925781 76739.429688 560.071411</POSITION>
+                <DIRECTION>0.375109 0.926462 -0.030995</DIRECTION>
+                <UP>0.061956 0.008305 0.998044</UP>
+                <SCALE>0.654381 0.654381 0.654381</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_flowrock_03.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_flowrock_03.scene_019">
+                <POSITION>56900.531250 79256.625000 607.496948</POSITION>
+                <DIRECTION>-0.647102 0.723047 0.241790</DIRECTION>
+                <UP>-0.743130 -0.669042 0.011863</UP>
+                <SCALE>0.571577 0.571577 0.571577</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_flowrock_03.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_flowrock_03.scene_020">
+                <POSITION>36644.902344 71076.734375 441.810669</POSITION>
+                <DIRECTION>-0.637850 -0.705540 0.308805</DIRECTION>
+                <UP>0.743550 -0.668630 0.008187</UP>
+                <SCALE>0.571577 0.571577 0.571577</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_flowrock_03.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_flowtest_02.scene_001">
+                <POSITION>0.000000 0.000000 0.000000</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_flowtest_02.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_geyser_01.scene_001">
+                <POSITION>72978.351563 53938.347656 1773.362793</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_geyser_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_geyser_01.scene_002">
+                <POSITION>68773.320313 62298.859375 1541.202393</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_geyser_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_geyser_02.scene_001">
+                <POSITION>70892.851563 59305.906250 1846.330811</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.380714 1.380714 1.380714</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_geyser_02.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_geyser_02.scene_002">
+                <POSITION>71738.710938 61498.582031 1574.672974</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_geyser_02.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_geyser_03.scene_001">
+                <POSITION>67981.867188 54758.785156 1741.499023</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_geyser_03.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_geyser_03.scene_002">
+                <POSITION>69458.890625 59566.843750 1783.364014</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.304773 1.304773 1.304773</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_geyser_03.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_geyser_03.scene_003">
+                <POSITION>65914.742188 60577.574219 1681.554810</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_geyser_03.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_geyser_04.scene_001">
+                <POSITION>69902.742188 60421.214844 1753.409302</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>2.151107 2.151107 2.151107</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_geyser_04.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_geyser_04.scene_002">
+                <POSITION>69373.164063 63222.117188 1565.077515</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_geyser_04.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_magma_01.scene_002">
+                <POSITION>39531.277344 68128.445313 49.755859</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_magma_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_magma_01.scene_004">
+                <POSITION>54026.875000 80992.648438 50.000000</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>0.886385 0.886385 0.886385</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_magma_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_magma_01.scene_008">
+                <POSITION>54271.363281 93765.921875 50.000000</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_magma_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_magma_01.scene_012">
+                <POSITION>62919.160156 69116.687500 49.755859</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_magma_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_magma_01.scene_013">
+                <POSITION>76391.140625 82972.289063 50.000000</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_magma_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_magma_01.scene_014">
+                <POSITION>76391.140625 96692.523438 50.000000</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_magma_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_magma_01.scene_015">
+                <POSITION>30432.550781 92694.906250 50.000000</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_magma_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_mtstone_01.scene_001">
+                <POSITION>75566.226563 82575.085938 6598.025391</POSITION>
+                <DIRECTION>-0.601815 -0.798636 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.281480 1.281480 1.281480</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_mtstone_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_mtstone_01.scene_002">
+                <POSITION>73320.867188 82907.117188 8456.525391</POSITION>
+                <DIRECTION>-0.652985 0.750498 0.101804</DIRECTION>
+                <UP>-0.350864 -0.418884 0.837515</UP>
+                <SCALE>1.067493 1.067493 1.067493</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_mtstone_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_mtstone_01.scene_003">
+                <POSITION>77543.523438 84637.882813 8191.336914</POSITION>
+                <DIRECTION>0.790337 0.611875 0.031259</DIRECTION>
+                <UP>-0.005333 -0.044148 0.999011</UP>
+                <SCALE>1.359293 1.359293 1.359293</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_mtstone_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_mtstone_01.scene_004">
+                <POSITION>58613.105469 87299.218750 -1580.396362</POSITION>
+                <DIRECTION>-0.933580 -0.358368 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>2.150700 2.150700 2.150700</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_mtstone_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_mtstone_01.scene_005">
+                <POSITION>72720.750000 85491.414063 -603.723877</POSITION>
+                <DIRECTION>-0.933580 -0.358368 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>2.328444 2.328444 2.328444</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_mtstone_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_mtstone_01.scene_026">
+                <POSITION>65151.566406 66924.156250 343.166626</POSITION>
+                <DIRECTION>-0.915056 -0.357495 0.186733</DIRECTION>
+                <UP>0.173225 0.069756 0.982409</UP>
+                <SCALE>1.482647 1.482647 1.482647</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_mtstone_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_mtstone_01.scene_027">
+                <POSITION>73164.710938 81852.515625 -601.082092</POSITION>
+                <DIRECTION>-0.933580 -0.358368 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.689069 1.689069 1.689069</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_mtstone_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_mtstone_01.scene_029">
+                <POSITION>68533.117188 88482.953125 -4218.472168</POSITION>
+                <DIRECTION>-0.926622 -0.358368 0.113775</DIRECTION>
+                <UP>0.121869 0.000000 0.992546</UP>
+                <SCALE>2.187434 2.187434 2.187434</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_mtstone_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_mtstone_01.scene_031">
+                <POSITION>74080.421875 84422.632813 6441.920410</POSITION>
+                <DIRECTION>-0.909083 -0.340828 -0.239593</DIRECTION>
+                <UP>-0.132361 -0.309017 0.941801</UP>
+                <SCALE>1.612373 1.612373 1.612373</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_mtstone_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_mtstone_01.scene_032">
+                <POSITION>69074.664063 88197.210938 8691.158203</POSITION>
+                <DIRECTION>0.078645 -0.957767 -0.276582</DIRECTION>
+                <UP>-0.377477 -0.285393 0.880944</UP>
+                <SCALE>1.249769 1.249769 1.249769</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_mtstone_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_mtstone_01.scene_033">
+                <POSITION>70432.796875 88458.273438 6081.297852</POSITION>
+                <DIRECTION>-0.147078 0.987949 0.048225</DIRECTION>
+                <UP>-0.112547 -0.065154 0.991508</UP>
+                <SCALE>1.721382 1.721382 1.721382</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_mtstone_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_mtstone_01.scene_036">
+                <POSITION>75023.203125 81137.828125 -3269.670410</POSITION>
+                <DIRECTION>0.050891 0.995384 -0.081367</DIRECTION>
+                <UP>0.035449 0.079621 0.996195</UP>
+                <SCALE>2.116087 2.116087 2.116087</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_mtstone_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_mtstone_01.scene_037">
+                <POSITION>74695.687500 89540.742188 -2480.844971</POSITION>
+                <DIRECTION>-0.034899 -0.999391 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>2.699305 2.699305 2.699305</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_mtstone_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_mtstone_01.scene_038">
+                <POSITION>76396.523438 85308.054688 -1402.048828</POSITION>
+                <DIRECTION>0.903840 -0.420063 -0.081367</DIRECTION>
+                <UP>0.060543 -0.062695 0.996195</UP>
+                <SCALE>2.167939 2.167939 2.167939</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_mtstone_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_mtstone_01.scene_039">
+                <POSITION>72613.640625 93931.273438 3845.036621</POSITION>
+                <DIRECTION>0.991739 0.053520 -0.116573</DIRECTION>
+                <UP>0.108206 0.138984 0.984365</UP>
+                <SCALE>2.055420 2.055420 2.055420</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_mtstone_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_mtstone_01.scene_040">
+                <POSITION>73249.898438 93476.914063 -2157.628906</POSITION>
+                <DIRECTION>-0.308377 0.944094 -0.116573</DIRECTION>
+                <UP>-0.162254 0.068547 0.984365</UP>
+                <SCALE>2.055420 2.055420 2.055420</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_mtstone_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_mtstone_01.scene_041">
+                <POSITION>71958.265625 93517.242188 6983.526367</POSITION>
+                <DIRECTION>-0.594405 -0.798636 -0.094145</DIRECTION>
+                <UP>-0.156435 -0.000000 0.987688</UP>
+                <SCALE>1.281480 1.281480 1.281480</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_mtstone_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_mtstone_01.scene_042">
+                <POSITION>60038.871094 91210.984375 1801.208984</POSITION>
+                <DIRECTION>-0.550697 -0.829038 0.097103</DIRECTION>
+                <UP>0.173648 0.000000 0.984808</UP>
+                <SCALE>1.886900 1.886900 1.886900</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_mtstone_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_mtstone_01.scene_043">
+                <POSITION>60591.855469 90672.234375 -4596.584961</POSITION>
+                <DIRECTION>-0.759595 0.634405 0.143342</DIRECTION>
+                <UP>0.110018 -0.091886 0.989673</UP>
+                <SCALE>1.973959 1.973959 1.973959</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_mtstone_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_mtstone_01.scene_044">
+                <POSITION>86897.593750 88196.617188 -5134.425293</POSITION>
+                <DIRECTION>-0.842459 0.520836 0.137815</DIRECTION>
+                <UP>0.101193 -0.098277 0.990001</UP>
+                <SCALE>2.288359 2.288359 2.288359</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_mtstone_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_mtstone_01.scene_045">
+                <POSITION>79310.304688 90319.226563 -2327.293457</POSITION>
+                <DIRECTION>0.034899 0.993916 -0.104465</DIRECTION>
+                <UP>-0.000000 0.104529 0.994522</UP>
+                <SCALE>1.702754 1.702754 1.702754</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_mtstone_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_mtstone_01.scene_046">
+                <POSITION>78446.648438 91844.468750 4641.259766</POSITION>
+                <DIRECTION>-0.138546 0.990131 0.021093</DIRECTION>
+                <UP>0.182628 0.004610 0.983171</UP>
+                <SCALE>1.721382 1.721382 1.721382</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_mtstone_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_mtstone_01.scene_048">
+                <POSITION>77546.296875 85011.484375 9395.073242</POSITION>
+                <DIRECTION>-0.148726 -0.971979 -0.182035</DIRECTION>
+                <UP>0.254230 -0.215477 0.942834</UP>
+                <SCALE>1.203372 1.203372 1.203372</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_mtstone_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_mtstone_01.scene_051">
+                <POSITION>62323.609375 93955.007813 -1580.396362</POSITION>
+                <DIRECTION>-0.120683 0.974522 0.189057</DIRECTION>
+                <UP>0.139173 -0.171958 0.975224</UP>
+                <SCALE>2.150700 2.150700 2.150700</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_mtstone_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_mtstone_01.scene_052">
+                <POSITION>65302.347656 64357.886719 -853.924194</POSITION>
+                <DIRECTION>-0.438104 0.895470 0.078734</DIRECTION>
+                <UP>-0.034899 -0.104464 0.993916</UP>
+                <SCALE>1.141018 1.141018 1.141018</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_mtstone_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_mtstone_01.scene_053">
+                <POSITION>65207.621094 67301.687500 1867.168457</POSITION>
+                <DIRECTION>-0.436556 -0.894396 0.097341</DIRECTION>
+                <UP>-0.242395 0.221123 0.944643</UP>
+                <SCALE>1.141018 1.141018 1.141018</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_mtstone_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_mtstone_01.scene_054">
+                <POSITION>69510.617188 74780.851563 -9.296143</POSITION>
+                <DIRECTION>0.991739 0.053520 -0.116573</DIRECTION>
+                <UP>0.108206 0.138984 0.984365</UP>
+                <SCALE>2.055420 2.055420 2.055420</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_mtstone_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_mtstone_01.scene_055">
+                <POSITION>68855.242188 74366.820313 5795.361328</POSITION>
+                <DIRECTION>-0.594405 -0.798636 -0.094145</DIRECTION>
+                <UP>-0.156435 -0.000000 0.987688</UP>
+                <SCALE>1.281480 1.281480 1.281480</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_mtstone_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_mtstone_01.scene_056">
+                <POSITION>69583.609375 73839.976563 -2157.628906</POSITION>
+                <DIRECTION>-0.308377 0.944094 -0.116573</DIRECTION>
+                <UP>-0.162254 0.068547 0.984365</UP>
+                <SCALE>2.055420 2.055420 2.055420</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_mtstone_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_mtstone_01.scene_057">
+                <POSITION>54602.703125 95554.875000 -1580.396362</POSITION>
+                <DIRECTION>-0.933580 -0.358368 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>2.150700 2.150700 2.150700</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_mtstone_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_mtstone_01.scene_058">
+                <POSITION>50211.148438 96449.468750 -427.033203</POSITION>
+                <DIRECTION>-0.766044 0.642788 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>2.422988 2.422988 2.422988</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_mtstone_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_mtstone_01.scene_059">
+                <POSITION>87788.492188 88317.109375 4258.446777</POSITION>
+                <DIRECTION>0.989338 -0.047101 0.137815</DIRECTION>
+                <UP>-0.136151 0.036896 0.990001</UP>
+                <SCALE>2.288359 2.288359 2.288359</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_mtstone_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_mtstone_01.scene_060">
+                <POSITION>88196.242188 87484.921875 5892.827637</POSITION>
+                <DIRECTION>-0.287346 -0.911494 -0.294297</DIRECTION>
+                <UP>0.002900 -0.308081 0.951356</UP>
+                <SCALE>1.852188 1.852188 1.852188</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_mtstone_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_ore_01.scene_001">
+                <POSITION>43211.296875 53986.023438 -1341.962891</POSITION>
+                <DIRECTION>-0.032301 0.951057 -0.307324</DIRECTION>
+                <UP>-0.178566 0.297046 0.938018</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_ore_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_ore_01.scene_002">
+                <POSITION>45037.671875 51089.828125 -1230.732300</POSITION>
+                <DIRECTION>0.114239 0.916378 -0.383668</DIRECTION>
+                <UP>-0.373658 0.397472 0.838091</UP>
+                <SCALE>0.747096 0.747096 0.747096</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_ore_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_ore_01.scene_003">
+                <POSITION>49874.777344 55109.914063 -1374.155762</POSITION>
+                <DIRECTION>-0.123562 0.910120 -0.395492</DIRECTION>
+                <UP>0.404152 0.410149 0.817581</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_ore_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_ore_02.scene_001">
+                <POSITION>50613.671875 54856.128906 -1201.649292</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.615662 -0.000000 0.788011</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_ore_02.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_ore_02.scene_002">
+                <POSITION>49938.953125 54607.363281 -1078.872192</POSITION>
+                <DIRECTION>0.882948 -0.469472 0.000000</DIRECTION>
+                <UP>-0.289036 -0.543597 0.788011</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_ore_02.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_ore_02.scene_007">
+                <POSITION>44944.035156 58511.746094 -1078.872192</POSITION>
+                <DIRECTION>0.882948 -0.469472 0.000000</DIRECTION>
+                <UP>-0.289036 -0.543597 0.788011</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_ore_02.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_ore_02.scene_008">
+                <POSITION>46333.339844 58479.062500 -1201.649292</POSITION>
+                <DIRECTION>0.484810 0.874620 0.000000</DIRECTION>
+                <UP>0.538470 -0.298479 0.788011</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_ore_02.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_ore_02.scene_009">
+                <POSITION>45622.062500 51237.519531 -1078.872192</POSITION>
+                <DIRECTION>0.642788 0.766044 0.000000</DIRECTION>
+                <UP>0.471624 -0.395740 0.788011</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_ore_02.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_ore_02.scene_010">
+                <POSITION>45206.214844 51550.250000 -1201.649292</POSITION>
+                <DIRECTION>-0.829038 0.559193 0.000000</DIRECTION>
+                <UP>0.344274 0.510407 0.788011</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_ore_02.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_ore_rock_01.scene_001">
+                <POSITION>47552.675781 49108.308594 -6012.659668</POSITION>
+                <DIRECTION>0.999391 -0.034899 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_ore_rock_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_ore_rock_01.scene_002">
+                <POSITION>49461.437500 51524.691406 -6203.945313</POSITION>
+                <DIRECTION>-0.927184 -0.374607 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_ore_rock_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_ore_rock_01.scene_003">
+                <POSITION>45712.476563 60472.429688 -237.209839</POSITION>
+                <DIRECTION>1.000000 0.000000 0.000000</DIRECTION>
+                <UP>-0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_ore_rock_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_ore_rock_01.scene_004">
+                <POSITION>47757.425781 61362.929688 -384.073669</POSITION>
+                <DIRECTION>-0.999848 0.017452 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.093685 1.093685 1.093685</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_ore_rock_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_ore_rock_01.scene_005">
+                <POSITION>42802.597656 60529.296875 -209.889221</POSITION>
+                <DIRECTION>-0.898794 -0.438372 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>0.940537 0.940537 0.940537</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_ore_rock_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_ore_rock_01.scene_006">
+                <POSITION>41255.734375 58039.148438 70.558594</POSITION>
+                <DIRECTION>0.766044 0.642788 0.000000</DIRECTION>
+                <UP>-0.000000 0.000000 1.000000</UP>
+                <SCALE>1.115559 1.115559 1.115559</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_ore_rock_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_ore_rock_01.scene_007">
+                <POSITION>44628.980469 49965.171875 -237.209839</POSITION>
+                <DIRECTION>-0.978148 -0.207912 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.257163 1.257163 1.257163</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_ore_rock_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_ore_rock_01.scene_008">
+                <POSITION>51094.121094 51942.250000 -439.950806</POSITION>
+                <DIRECTION>0.669131 -0.743145 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_ore_rock_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_ore_rock_01.scene_009">
+                <POSITION>50063.500000 60152.511719 -384.073669</POSITION>
+                <DIRECTION>-0.358368 -0.933581 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.093685 1.093685 1.093685</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_ore_rock_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_ore_rock_01.scene_010">
+                <POSITION>39294.398438 55517.777344 -421.249756</POSITION>
+                <DIRECTION>0.906308 -0.422618 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.115559 1.115559 1.115559</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_ore_rock_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_ore_rock_01.scene_011">
+                <POSITION>44397.632813 61114.214844 234.071289</POSITION>
+                <DIRECTION>0.766044 0.642788 0.000000</DIRECTION>
+                <UP>-0.000000 0.000000 1.000000</UP>
+                <SCALE>1.115559 1.115559 1.115559</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_ore_rock_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_ore_rock_01.scene_012">
+                <POSITION>55084.550781 53055.949219 1471.124878</POSITION>
+                <DIRECTION>0.544639 0.838671 0.000000</DIRECTION>
+                <UP>-0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_ore_rock_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_ore_rock_01.scene_013">
+                <POSITION>40921.214844 47777.507813 208.501709</POSITION>
+                <DIRECTION>0.120683 -0.992546 0.016961</DIRECTION>
+                <UP>-0.139173 0.000000 0.990268</UP>
+                <SCALE>1.269610 1.269610 1.269610</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_ore_rock_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_ore_rock_01.scene_014">
+                <POSITION>42354.082031 48396.433594 -90.034912</POSITION>
+                <DIRECTION>0.920505 0.390731 0.000000</DIRECTION>
+                <UP>-0.000000 0.000000 1.000000</UP>
+                <SCALE>0.904382 0.904382 0.904382</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_ore_rock_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_ore_rock_01.scene_015">
+                <POSITION>53705.207031 59060.796875 864.222778</POSITION>
+                <DIRECTION>0.857167 -0.515038 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_ore_rock_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_ore_rock_01.scene_016">
+                <POSITION>44935.824219 59200.187500 -1708.325439</POSITION>
+                <DIRECTION>0.043961 -0.975765 0.214361</DIRECTION>
+                <UP>-0.119206 0.207912 0.970857</UP>
+                <SCALE>0.950134 0.950134 0.950134</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_ore_rock_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_tiranis_01.scene_001">
+                <POSITION>29849.906250 24523.431641 -317.364197</POSITION>
+                <DIRECTION>-0.292372 0.956305 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_tiranis_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_tiranis_01.scene_002">
+                <POSITION>33187.207031 23500.123047 -397.428345</POSITION>
+                <DIRECTION>0.961262 0.275638 0.000000</DIRECTION>
+                <UP>-0.000000 0.000000 1.000000</UP>
+                <SCALE>0.747332 0.747332 0.747332</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_tiranis_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_tiranis_01.scene_003">
+                <POSITION>36486.546875 21161.197266 -418.225037</POSITION>
+                <DIRECTION>-0.920505 -0.390731 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_tiranis_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_tiranis_02.scene_001">
+                <POSITION>30859.445313 24536.875000 -292.029755</POSITION>
+                <DIRECTION>-0.798636 0.601815 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_tiranis_02.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_tiranis_02.scene_002">
+                <POSITION>34061.687500 23055.607422 -414.307190</POSITION>
+                <DIRECTION>-0.309017 -0.951057 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_tiranis_02.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="aranvas_volcano_tiranis_02.scene_003">
+                <POSITION>33795.843750 28044.880859 -421.351593</POSITION>
+                <DIRECTION>0.390731 0.920505 0.000000</DIRECTION>
+                <UP>-0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>aranvas_volcano_tiranis_02.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="mt_eda_fire01.scene_006">
+                <POSITION>53044.308594 35884.734375 -1483.440674</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>mt_eda_fire01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="mt_eda_fire01.scene_007">
+                <POSITION>53044.308594 35884.734375 -1148.599243</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>mt_eda_fire01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="mt_eda_fire01.scene_008">
+                <POSITION>53044.308594 35884.734375 -659.152039</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>mt_eda_fire01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="mt_eda_humantent01.scene_006">
+                <POSITION>53251.218750 88482.898438 2627.780762</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>mt_eda_humantent01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="mt_eda_humantent01.scene_007">
+                <POSITION>54025.421875 90024.250000 2627.780762</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>mt_eda_humantent01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="mt_eda_humantent01.scene_008">
+                <POSITION>51902.054688 89262.171875 2627.812744</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>mt_eda_humantent01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="mt_eda_humantent01.scene_011">
+                <POSITION>52423.648438 90674.148438 2627.780762</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>mt_eda_humantent01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="mt_eda_macamp_02.scene_001">
+                <POSITION>37256.691406 15825.233398 -1889.990967</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>mt_eda_macamp_02.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="mt_eda_macamp_02_night.scene_001">
+                <POSITION>38489.785156 15984.283203 -1889.993408</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>mt_eda_macamp_02_night.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="mt_eda_macamp_03.scene_001">
+                <POSITION>37064.359375 15178.984375 -1889.992920</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>mt_eda_macamp_03.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="mt_eda_macamp_03_night.scene_001">
+                <POSITION>36809.425781 15831.191406 -1889.991455</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>mt_eda_macamp_03_night.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="mt_eda_macamp_04.scene_001">
+                <POSITION>35989.507813 16437.314453 -1889.936279</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>mt_eda_macamp_04.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="mt_eda_macampflag.scene_001">
+                <POSITION>38022.183594 16641.939453 -1889.989502</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>mt_eda_macampflag.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="mt_eda_macampflag_01.scene_001">
+                <POSITION>37906.183594 15942.068359 -1889.992920</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>mt_eda_macampflag_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="mt_eda_macampflag_02.scene_001">
+                <POSITION>38242.019531 15541.167969 -1889.994385</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>mt_eda_macampflag_02.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="teress_box_12.scene_001">
+                <POSITION>49825.566406 27419.513672 -1190.488892</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>teress_box_12.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="teress_box_12.scene_002">
+                <POSITION>50048.167969 27640.199219 -1190.851563</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>teress_box_12.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="teress_campfire_gh01.scene_001">
+                <POSITION>48924.125000 27005.111328 -1193.009766</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>teress_campfire_gh01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="teress_fense_31.scene_001">
+                <POSITION>48577.472656 27860.835938 -1176.008057</POSITION>
+                <DIRECTION>-0.559193 0.829038 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>teress_fense_31.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="teress_fense_32.scene_001">
+                <POSITION>48053.218750 27503.310547 -1204.343140</POSITION>
+                <DIRECTION>-0.515038 0.857167 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>teress_fense_32.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <TREE>
+            <COMMON name="FOS_Baobab_1_014">
+                <POSITION>52506.132813 40492.125000 -1508.999878</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>33.000000 33.000000 33.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>FOS_Baobab_1.spt</FILENAME>
+            </PROPERTY>
+        </TREE>
+        <TREE>
+            <COMMON name="FOS_Baobab_1_015">
+                <POSITION>53218.585938 38905.246094 -1806.260254</POSITION>
+                <DIRECTION>0.996195 0.087156 0.000000</DIRECTION>
+                <UP>-0.000000 0.000000 1.000000</UP>
+                <SCALE>33.000000 33.000000 33.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>FOS_Baobab_1.spt</FILENAME>
+            </PROPERTY>
+        </TREE>
+        <TREE>
+            <COMMON name="FOS_Baobab_2_016">
+                <POSITION>53263.335938 40834.855469 -1563.055298</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>33.000000 33.000000 33.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>FOS_Baobab_2.spt</FILENAME>
+            </PROPERTY>
+        </TREE>
+        <TREE>
+            <COMMON name="FOS_Baobab_2_020">
+                <POSITION>53394.894531 39713.914063 -1725.139038</POSITION>
+                <DIRECTION>0.996195 0.087156 0.000000</DIRECTION>
+                <UP>-0.000000 0.000000 1.000000</UP>
+                <SCALE>33.000000 33.000000 33.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>FOS_Baobab_2.spt</FILENAME>
+            </PROPERTY>
+        </TREE>
+        <TREE>
+            <COMMON name="Rengot_DouglasFir_001">
+                <POSITION>53075.742188 35895.515625 -2133.143066</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>33.000000 33.000000 33.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>Rengot_DouglasFir.spt</FILENAME>
+            </PROPERTY>
+        </TREE>
+        <TREE>
+            <COMMON name="Rengot_DouglasFir_002">
+                <POSITION>51540.121094 21754.675781 -1877.410889</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>33.000000 33.000000 33.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>Rengot_DouglasFir.spt</FILENAME>
+            </PROPERTY>
+        </TREE>
+        <TREE>
+            <COMMON name="Rengot_GiantRedwood_001">
+                <POSITION>54716.621094 20962.474609 -2173.036865</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>33.000000 33.000000 33.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>Rengot_GiantRedwood.spt</FILENAME>
+            </PROPERTY>
+        </TREE>
+        <TREE>
+            <COMMON name="Rengot_GiantRedwood_002">
+                <POSITION>53591.601563 18019.878906 -2354.631348</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>33.000000 33.000000 33.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>Rengot_GiantRedwood.spt</FILENAME>
+            </PROPERTY>
+        </TREE>
+        <TREE>
+            <COMMON name="Rengot_WesternRedCedar_2_001">
+                <POSITION>52569.988281 22296.921875 -1894.011963</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>33.000000 33.000000 33.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>Rengot_WesternRedCedar_2.spt</FILENAME>
+            </PROPERTY>
+        </TREE>
+    </SCENE>
+</ROOT>

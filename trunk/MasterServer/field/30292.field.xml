@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="euc-kr" ?>
+<maiet>
+    <FIELDINFO zone="30292" min_x="-1000" min_y="-1000" max_x="1000" max_y="1000" boundary_min_x="0" boundary_min_y="0" boundary_max_x="0" boundary_max_y="0" weather_effect="true" town="false" returnable="true">
+        <Env set="default">
+            <WEATHER default="SUN">
+                <ADD weather="CLD" percent="10" />
+                <ADD weather="RNY" percent="10" />
+                <ADD weather="HRN" percent="10" />
+                <ADD weather="SNW" percent="0" />
+                <ADD weather="HSW" percent="0" />
+                <ADD weather="CLR" percent="10" />
+            </WEATHER>
+        </Env>
+        <MARKER id="1" name="여관방 입구" x="-399.741058" y="-500.503265" z="31.999989" dir_x="0.017452" dir_y="0.999848" dir_z="0.000000" random_dir="false" />
+        <MARKER id="101" name="Bed" x="605.555298" y="-260.596619" z="31.999989" dir_x="0.017452" dir_y="-0.999848" dir_z="0.000000" random_dir="false" />
+        <MARKER id="104" name="Mural" x="237.517273" y="-602.083130" z="31.999989" dir_x="-0.000000" dir_y="1.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="108" name="Storage" x="-526.330627" y="506.458160" z="32.999989" dir_x="0.017452" dir_y="-0.999848" dir_z="0.000000" random_dir="false" />
+        <MARKER id="109" name="GuildStorage" x="-222.312775" y="517.070984" z="32.999989" dir_x="-0.000000" dir_y="-1.000000" dir_z="0.000000" random_dir="false" />
+        <SENSOR id="1" name="to 여관" x="-401.213806" y="-755.528442" z="31.999989" radius="100.000000" enabled="true">
+            <EFFECT effect="sensor_trial_02" x="1.431458" y="-20.211914" z="0.000000" dir_x="-0.000000" dir_y="1.000000" dir_z="0.000000" up_x="0.000000" up_y="0.000000" up_z="1.000000" scale_x="0.300000" scale_y="1.000000" scale_z="0.500000" />
+            <WARP title="여관방에서 여관방 입구로" condition="1" gate_type="manual" field="3" marker="45" />
+        </SENSOR>
+    </FIELDINFO>
+</maiet>

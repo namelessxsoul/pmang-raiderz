@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ROOT>
+    <PROPERTY />
+    <SCENE>
+        <RTERRAIN>
+            <COMMON>
+                <POSITION>0.000000 0.000000 0.000000</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY version="1.2">
+                <MAP_WIDTH type="int">
+                    <int>32</int>
+                </MAP_WIDTH>
+                <MAP_HEIGHT type="int">
+                    <int>32</int>
+                </MAP_HEIGHT>
+                <MAP_SIZE type="vec3">
+                    <vec3>10000.000000 10000.000000 0.000000</vec3>
+                </MAP_SIZE>
+                <MAP_NAME>UnitTestTown_dis.dds</MAP_NAME>
+                <LIGHTMAP index="0" number="2">UnitTestTown_light0.bmp</LIGHTMAP>
+                <LIGHTMAP index="1" number="2">UnitTestTown_light1.bmp</LIGHTMAP>
+                <GRASS>UnitTestTown_grass.grs</GRASS>
+                <LAYER type="array" size="1">
+                    <LAYERINFO index="0">
+                        <ALPHAMAP>UnitTestTown_mask0.dds</ALPHAMAP>
+                        <TILEMAP type="blend">teress_ground_f01.bmp</TILEMAP>
+                        <TILEUV type="vec3">
+                            <vec3>500.000000 500.000000 1.000000</vec3>
+                        </TILEUV>
+                    </LAYERINFO>
+                </LAYER>
+            </PROPERTY>
+        </RTERRAIN>
+        <DIRLIGHT>
+            <COMMON name="TerrainLightMap0">
+                <POSITION>0.000000 0.000000 0.000000</POSITION>
+                <DIRECTION>-0.000000 -0.000000 -0.000000</DIRECTION>
+                <UP>0.000000 0.000000 0.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <ENV />
+            </PROPERTY>
+        </DIRLIGHT>
+    </SCENE>
+</ROOT>

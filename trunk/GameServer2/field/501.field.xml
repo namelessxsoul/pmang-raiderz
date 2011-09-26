@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="euc-kr" ?>
+<maiet>
+    <FIELDINFO zone="501" min_x="-7000" min_y="-20000" max_x="13000" max_y="15000" boundary_min_x="0" boundary_min_y="0" boundary_max_x="0" boundary_max_y="0" weather_effect="true" town="false" returnable="true" tutorial="false" qpvpnpc1="950000" qpvpnpc2="950000" qpvprebirth1="102230" qpvprebirth2="102231">
+        <Env set="boss_room">
+            <WEATHER default="SUN">
+                <ADD weather="CLD" percent="10" />
+                <ADD weather="RNY" percent="10" />
+                <ADD weather="HRN" percent="10" />
+                <ADD weather="SNW" percent="10" />
+                <ADD weather="HSW" percent="10" />
+                <ADD weather="CLR" percent="10" />
+            </WEATHER>
+        </Env>
+        <SPAWN id="501004" group="0" name="처형집행인2" x="4419.754883" y="-3706.209229" z="6.000000" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="0.000000" random_dir="true" enabled="false" start_time="10" respawn_time="120" roam_radius="0" roam_depth="0" combat_radius="0" color="auto">
+            <NPC id="501004" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="100" group="0" name="일반교도" x="-5.578331" y="-11393.530273" z="1201.301025" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="500.000000" random_dir="true" enabled="true" start_time="10" respawn_time="10" roam_radius="500" roam_depth="200" combat_radius="0" color="auto">
+            <NPC id="501100" default="true" rate="100" />
+        </SPAWN>
+        <SPAWN id="101" group="0" name="문1" x="2.244358" y="-10232.750000" z="1251.354370" dir_x="-0.017453" dir_y="-0.999848" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="10" respawn_time="120" roam_radius="0" roam_depth="0" combat_radius="0" color="auto">
+            <NPC id="501200" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="501001" group="0" name="수도원장 네이터" x="-13.646144" y="-6318.310547" z="1202.999878" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="500.000000" random_dir="true" enabled="true" start_time="10" respawn_time="3600" roam_radius="1000" roam_depth="200" combat_radius="0" color="auto">
+            <NPC id="501001" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="102" group="0" name="교회 석상" x="-1.693076" y="-4119.446289" z="1275.557861" dir_x="-0.017452" dir_y="-0.999848" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="10" respawn_time="3600" roam_radius="0" roam_depth="0" combat_radius="0" color="auto">
+            <NPC id="501201" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="101242" group="0" name="[NPC] 수도사 지나" x="-385.802765" y="-18690.359375" z="1202.999878" dir_x="0.848048" dir_y="-0.529919" dir_z="0.000000" radius="100.000000" random_dir="false" enabled="true" start_time="1" respawn_time="1" roam_radius="200" roam_depth="200" combat_radius="0" color="auto">
+            <NPC id="101242" default="true" rate="100" />
+        </SPAWN>
+        <MARKER id="1" name="MK00001" x="-5.206017" y="-8113.582031" z="1201.496338" dir_x="-0.017452" dir_y="0.999848" dir_z="0.000000" random_dir="false" />
+        <MARKER id="2" name="MK00002" x="-42.755310" y="8714.599609" z="3.000000" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="3" name="MK00003" x="3183.337891" y="1858.908936" z="3.000000" dir_x="-0.034900" dir_y="-0.999391" dir_z="0.000000" random_dir="false" />
+        <MARKER id="50100201" name="MK50100201-집행인" x="-3216.895508" y="-4098.421875" z="3.000000" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="50100202" name="MK50100202" x="-3166.239502" y="2072.807617" z="3.000000" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="4" name="MK00004" x="4091.247070" y="-1830.683716" z="3.000000" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="101036" name="QM 101036" x="-365.332184" y="-18633.611328" z="1202.999878" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <SENSOR id="1" name="SR00001" x="7.660103" y="-19394.464844" z="1248.354370" radius="202.371170" enabled="true">
+            <WARP warp_type="field" title="다른 필드로 이동" condition="0" gate_type="auto" field="101" marker="1" />
+        </SENSOR>
+        <SENSOR id="3" name="chapel" local="true" x="-61.829407" y="-7580.842285" z="1254.360596" radius="1623.541748" enabled="true" groupname="none" />
+        <SENSOR id="2" name="torture_chamber" local="true" x="-3167.757080" y="-5404.338867" z="3.000000" radius="1760.927612" enabled="true" groupname="none" />
+        <SENSOR id="4" name="boss_room" local="true" x="3145.115723" y="-1146.699829" z="215.386597" radius="1679.006470" enabled="true" groupname="boss_room" />
+        <SENSOR id="5" name="chapel" local="true" x="-59.676178" y="-4100.759766" z="1348.208252" radius="1807.414917" enabled="true" groupname="none" />
+        <SENSOR id="6" name="boss_room" local="true" x="3168.017822" y="1080.906128" z="3.000000" radius="1750.740601" enabled="true" groupname="boss_room" />
+        <SENSOR id="101036" name="[SENSOR] 수도사 지나" local="true" x="-342.598145" y="-18743.236328" z="1202.999878" radius="300.000000" enabled="true" groupname="none" />
+    </FIELDINFO>
+</maiet>

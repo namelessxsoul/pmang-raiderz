@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet href="./colt.xsl" type="text/xsl"?>
+<maiet>
+	<COLT name="마이코니드 슬롱" npcid="117104" >
+		<COMBAT>
+			<DEFAULT>	
+				<ACTION type="talent" param1="211700601" rate="100" desc="속도저하(자폭)" />
+			</DEFAULT>
+		</COMBAT>
+		
+		<IDLE>
+			<DEFAULT>	
+				<ACTION type="nothing" param1="0" rate="40" />
+			</DEFAULT>
+		</IDLE>
+	</COLT>
+	
+	<SCRIPT><![CDATA[
+
+function NPC_117104:OnFinishKillAttack2( ThisActor, Enemy )
+	local ThisNPC = AsNPC( ThisActor )
+
+	ThisNPC:Die( Enemy )
+end
+
+function NPC_117104:OnSpawn(Spawn)
+	this:UseTalentSelf(211700604)
+end
+	]]></SCRIPT>
+</maiet>

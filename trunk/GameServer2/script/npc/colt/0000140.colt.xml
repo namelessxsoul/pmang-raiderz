@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet href="./colt.xsl" type="text/xsl"?>
+<maiet>
+<!-- 
+	인간형 표준샘플
+	
+	근거리 일반 공격2종 , 특수공격 1종
+	
+	피격시 강타를 이용한 반격
+-->
+	<COLT name="인간 샘플 (1hs)" npcid="140">
+		<COMBAT mode=''>
+			<DEFAULT victory="214010">
+				<ACTION type="nothing" param1="0.1" rate="70"/>
+
+				<ACTION type="talent" param1="214001" rate="10"/>
+				<ACTION type="talent" param1="214002" rate="10"/>
+				<ACTION type="talent" param1="214004" rate="10"/>
+			</DEFAULT>
+			<CHECK type="distance" param1="200" param2="300" >
+				<ACTION type="nothing" param1="0.1"  rate="85"/>
+				
+				<!--사거리내로 접근 -->
+				<ACTION type="lua" param1="ApproachLeft" rate="5" />
+				<ACTION type="lua" param1="ApproachRight" rate="5" />
+				<!--중거리 돌진성 기술 -->
+				<ACTION type="talent" param1="214005" rate="5" />
+			</CHECK>
+			<CHECK type="distance" param1="300" >
+				<ACTION type="distance" param1="200" param2="250" rate="90" />
+				<ACTION type="nothing" param1="1" rate="10"/>
+			</CHECK>
+			<CHECK type="rage" param1="40">
+				<ACTION type="talent" param1="214006" rate="100" />
+				<ACTION type="talent" param1="214006" rate="100" />
+				<ACTION type="talent" param1="214006" rate="100" />
+			</CHECK>
+		</COMBAT>
+		<COMBAT mode="1">
+			<DEFAULT>
+				<ACTION type="talent" param1="214009" />
+			</DEFAULT>
+		</COMBAT>
+		<IDLE>
+			<DEFAULT>
+				<ACTION type="nothing" param1="3" rate="50" />
+			</DEFAULT>
+		</IDLE>
+	</COLT>
+	<SCRIPT><![CDATA[
+function test()
+
+end
+	]]></SCRIPT>
+</maiet>

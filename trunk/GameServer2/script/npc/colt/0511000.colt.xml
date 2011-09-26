@@ -1,0 +1,348 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet href="./colt.xsl" type="text/xsl"?>
+<maiet>
+	<COLT name="chimera" npcid="511000">
+
+		<COMBAT mode="0" comment="ground mode , fire">
+			<DEFAULT>
+				<ACTION type="talent" param1="251100010" rate="30" />
+				<ACTION type="talent" param1="251100012" rate="30" />
+				<ACTION type="talent" param1="251100013" rate="30" />
+				<ACTION type="talent" param1="251100050" rate="5" duration="0"/>
+			</DEFAULT>
+			<CHECK type="hp" param2="70" comment="Mode change to ice mode">
+				<ACTION type="talent" param1="251100052" rate="30" duration="0" max_count="1"/>
+			</CHECK>
+			<CHECK type="hp" param1="95" comment="Taste time.(easy)">
+				<ACTION type="talent" param1="251100010" rate="30" />
+				<ACTION type="talent" param1="251100012" rate="30" />
+				<ACTION type="talent" param1="251100013" rate="30" />
+			</CHECK>
+			<CHECK type="rage" param1="300">
+				<ACTION type="talent" param1="251100050" rate="30" duration="0"/>
+			</CHECK>
+			<CHECK type="distance" param1="1000">
+				<ACTION type="talent" param1="251100014" rate="30" />
+			</CHECK>
+		</COMBAT>
+		<COMBAT mode="1" comment="ground mode , ice">
+			<DEFAULT>
+				<ACTION type="talent" param1="251100010" rate="30" />
+				<ACTION type="talent" param1="251100012" rate="30" />
+				<ACTION type="talent" param1="251100013" rate="30" />
+				<ACTION type="talent" param1="251100051" rate="5" duration="0"/>
+			</DEFAULT>
+			<CHECK type="hp" param2="40" comment="Mode change to raged fire mode">
+				<ACTION type="talent" param1="251100053" rate="30" max_count="1"/>
+			</CHECK>
+			<CHECK type="rage" param1="400">
+				<ACTION type="talent" param1="251100051" rate="30" duration="0"/>
+			</CHECK>
+			<CHECK type="distance" param1="1000">
+				<ACTION type="talent" param1="251100014" rate="30" />
+			</CHECK>
+		</COMBAT>
+		<COMBAT mode="2" victory="251100028" comment="flying mode , fire" >
+			<DEFAULT>
+				<ACTION type="talent" param1="251100021" rate="30" comment="twohand stamp"/>
+				<ACTION type="talent" param1="251100023" rate="30" comment="snake tail attak"/>
+				
+				<ACTION type="talent" param1="251100024" rate="10" comment="ballfire(fire)"/>
+			</DEFAULT>
+			<CHECK type="hp" param2="60" comment="Mode change to ice mode">
+				<ACTION type="talent" param1="251100032" rate="30" max_count="1"/>
+			</CHECK>
+			<CHECK type="hp" param1="90">
+				<ACTION type="talent" param1="251100021" rate="30" comment="twohand stamp"/>
+				<ACTION type="talent" param1="251100024" rate="30" comment="ball fire - fire"/>
+			</CHECK>
+			
+			<CHECK type="distance" param1="1000">
+				<ACTION type="talent" param1="251100021" rate="30" />
+				<ACTION type="talent" param1="251100024" rate="30" />
+				<ACTION type="talent" param1="251100026" rate="30" />
+				<ACTION type="talent" param1="251100027" rate="30" />
+			</CHECK>
+		</COMBAT>
+		<COMBAT mode="3" victory="251100028" comment="flying mode , ice" >
+			<DEFAULT>
+				<ACTION type="talent" param1="251100021" rate="30" comment="twohand stamp"/>
+				<ACTION type="talent" param1="251100023" rate="30" comment="snake tail attak"/>
+				
+				<ACTION type="talent" param1="251100025" rate="10" comment="ballfire(ice)"/>
+				
+				<ACTION type="talent" param1="251100026" rate="30" />
+				<ACTION type="talent" param1="251100027" rate="30" />
+			</DEFAULT>
+			
+			<CHECK type="distance" param1="1000">
+				<ACTION type="talent" param1="251100021" rate="30" />
+				<ACTION type="talent" param1="251100025" rate="30" />
+				<ACTION type="talent" param1="251100026" rate="30" />
+				<ACTION type="talent" param1="251100027" rate="30" />
+			</CHECK>
+		</COMBAT>
+		
+		<COMBAT mode="4" comment="ground mode , raged fire">
+			<DEFAULT>
+				<ACTION type="talent" param1="251100010" rate="15" />
+				<ACTION type="talent" param1="251100012" rate="15" />
+				<ACTION type="talent" param1="251100014" rate="15" />
+				<ACTION type="talent" param1="251100054" rate="100" duration="0"/>
+			</DEFAULT>
+		</COMBAT>
+		
+		<COMBAT mode="5" comment="" victory="251100058">
+			<DEFAULT>
+				<ACTION type="talent" param1="251100021" rate="30" comment="twohand stamp"/>
+				<ACTION type="talent" param1="251100023" rate="30" comment="snake tail attak"/>
+				
+				<ACTION type="talent" param1="251100024" rate="10" comment="ball fire(fire)"/>
+				
+				<ACTION type="talent" param1="251100026" rate="30" comment="right combo attack "/>
+				<ACTION type="talent" param1="251100027" rate="30" comment="left combo attack" />
+				
+				<ACTION type="talent" param1="251100055" rate="100" duration="0" comment="high flying" />
+			</DEFAULT>
+			<CHECK type="rage" param1="400">
+				<ACTION type="talent" param1="251100034" rate="30" duration="0" comment="sliding attack" />
+			</CHECK>
+			<CHECK type="distance" param1="1000">
+				<ACTION type="talent" param1="251100021" rate="30" comment="twohand stamp" />
+				<ACTION type="talent" param1="251100024" rate="30" comment="ball fire(fire)" />
+				
+				<ACTION type="talent" param1="251100026" rate="30" comment="right combo attack" />
+				<ACTION type="talent" param1="251100027" rate="30" comment="left combo attack" />
+				
+				<ACTION type="talent" param1="251100055" rate="100" duration="0" comment="high flying" />
+			</CHECK>
+		</COMBAT>
+		
+		<COMBAT mode="6" comment="" victory="251100056">
+			<DEFAULT>
+				<ACTION type="talent" param1="251100041" rate="90" />
+			</DEFAULT>
+		</COMBAT>
+		
+		<IDLE>
+			<DEFAULT>
+			</DEFAULT>
+		</IDLE>
+	</COLT>
+	<SCRIPT><![CDATA[
+
+function NPC_511000:Init( NPCID )
+	--[[
+		1 : Damage Acc for forced landing
+		2 : Damage Acc for Wakeup
+		3 : Damage Acc for Break Head
+		4 : Damage Acc for Break Tail
+	--]]
+	NPC_ReserveUserData( NPCID, 4 )
+	
+	NPC_511000.BufIdAttrFire 			= 40720
+	NPC_511000.BufIdAttrCold 			= 40722
+	
+	NPC_511000.TimerIDShortFlying		= 2			-- 단기 비행모드
+	NPC_511000.TimerIDLongFlying		= 3			-- 장기 비행모드
+	NPC_511000.TimerIDHighFlying		= 4			-- 장기 비행모드
+	
+	NPC_511000.IntervalShortFlying		= 20
+	NPC_511000.IntervalLongFlying		= 45
+	NPC_511000.IntervalHighFlying		= 10
+	
+	NPC_511000.TalIdSliding0			= 251100032
+	NPC_511000.TalIdSliding1			= 251100033
+	
+	NPC_511000.TalIdHighFlyingLanding	= 251100056
+	
+	NPC_511000.LimitForLongTermFlying 	= 0.9
+	NPC_511000.LimitForIceMode			= 0.6
+	NPC_511000.LimitForPain				= NPC_511000.MaxHP/10
+	NPC_511000.LimitForWakeUp			= 3000
+	NPC_511000.LimitForBreakHead		= NPC_511000.MaxHP/10
+	
+	NPC_511000.DataIdxForPain			= 1
+	NPC_511000.DataIdxForWakeUp			= 2
+	NPC_511000.DataIdxForBreakHead		= 3
+	
+	NPC_511000.TalIdPain				= 251100030
+	NPC_511000.TalIdWakeUp				= 251100031
+	NPC_511000.TalIdBreakHead			= 251100004
+	
+	NPC_511000.PartIdxForHead			= 3
+
+end
+
+function NPC_511000:OnSpawn( Info )
+	this:GainBuff( NPC_511000.BufIdAttrFire )
+end
+
+function NPC_511000:OnTimer( TimerID )
+	GLog( "OnTimer" .. TimerID .. "\n" )
+	if TimerID == NPC_511000.TimerIDShortFlying or TimerID == NPC_511000.TimerIDLongFlying then 
+		if this:GetMode() == 2 then
+			local Enemy = this:Aggro( "short", -1 )
+			this:MoveToActor( Enemy, NPC_511000.TalIdSliding0 )
+			this:UseTalent( NPC_511000.TalIdSliding0, Enemy )
+		elseif this:GetMode() == 3 then
+			local Enemy = this:Aggro( "short", -1 )
+			this:MoveToActor( Enemy, NPC_511000.TalIdSliding1 )
+			this:UseTalent( NPC_511000.TalIdSliding1, Enemy )
+		end
+		
+		return
+	end
+	
+	if TimerID == NPC_511000.TimerIDHighFlying then
+		GLog( "HighFlyingLanding" .. "\n" )
+		this:UseTalentSelf( NPC_511000.TalIdHighFlyingLanding )
+	end
+end
+
+function NPC_511000:OnFinishSlidingAttack( ThisActor, Enemy )
+	local ThisNPC = AsNPC( ThisActor )
+	
+	ThisNPC:KillTimer( NPC_511000.TimerIDShortFlying )
+	ThisNPC:KillTimer( NPC_511000.TimerIDLongFlying )
+end
+
+function NPC_511000:OnFinishAndAggroShort( ThisActor, Enemy )
+	local ThisNPC = AsNPC( ThisActor )
+	ThisNPC:Aggro( "short", 0 )
+end
+
+--[[
+	FlyingMode진입시 착지를 위한 타이머id및 시간을 설정해 준다.
+--]]
+function NPC_511000:OnStartFlying( ThisActor, Enemy )
+	local ThisNPC = AsNPC( ThisActor )
+	local HpPer = ThisNPC:GetHP()/ThisNPC:GetMaxHP()
+	if HpPer > NPC_511000.LimitForLongTermFlying then
+		ThisNPC:SetTimer( NPC_511000.TimerIDShortFlying, NPC_511000.IntervalShortFlying, false )
+	elseif ThisNPC:GetMode() == 5 then
+		-- 
+	else
+		ThisNPC:SetTimer( NPC_511000.TimerIDLongFlying, NPC_511000.IntervalLongFlying, false )
+	end
+end
+
+function NPC_511000:OnFinishModeChange0_2( ThisActor, Enemy )
+	GLog( "OnFinishModeChange0_2\n" )
+	NPC_511000:OnStartFlying( ThisActor, Enemy )
+end
+
+function NPC_511000:OnFinishModeChange1_3( ThisActor, Enemy )
+	GLog( "OnFinishModeChange1_3\n" )
+	NPC_511000:OnStartFlying( ThisActor, Enemy )
+end
+
+function NPC_511000:OnFinishModeChange0_1( ThisActor, Enemy )
+	GLog( "OnFinishModeChange0_1\n" )
+	local ThisNPC = AsNPC( ThisActor )
+	ThisNPC:RemoveAllBuff()
+	ThisNPC:GainBuff( NPC_511000.BufIdAttrCold )
+end
+
+function NPC_511000:OnFinishModeChange1_4( ThisActor, Enemy )
+	GLog( "OnFinishModeChange1_4\n" )
+	local ThisNPC = AsNPC( ThisActor )
+	ThisNPC:RemoveAllBuff()
+	ThisNPC:GainBuff( NPC_511000.BufIdAttrFire )
+end
+
+function NPC_511000:OnFinishModeChange1_5( ThisActor, Enemy )
+	GLog( "OnFinishModeChange1_5\n" )
+	local ThisNPC = AsNPC( ThisActor )
+	ThisNPC:RemoveAllBuff()
+	ThisNPC:GainBuff( NPC_511000.BufIdAttrFire )
+	NPC_511000:OnStartFlying( ThisActor, Enemy )
+end
+
+function NPC_511000:OnFinishModeChange4_5( ThisActor, Enemy )
+	GLog( "OnFinishModeChange4_5\n" )
+	NPC_511000:OnStartFlying( ThisActor, Enemy )
+end
+
+function NPC_511000:OnFinishModeChange5_6( ThisActor, Enemy )
+	GLog( "OnFinishModeChange5_6\n" )
+	
+	local ThisNPC = AsNPC( ThisActor )
+	ThisNPC:RemoveAllBuff()
+	ThisNPC:SetTimer( NPC_511000.TimerIDHighFlying, NPC_511000.IntervalHighFlying, false )
+end
+
+function NPC_511000:OnFinishModeChange6_5( ThisActor, Enemy )
+	GLog( "OnFinishModeChange6_5\n" )
+end
+
+function NPC_511000:AccDamage( ThisNPC, PartsIdx, HitInfo )
+	GLog( " AccDamage( HitInfo.Damage ) : " .. HitInfo.Damage .. "\n" )
+
+	local AccDamage
+	
+	-- Wake Up pattern
+	if ThisNPC:GetCurrentTalent() == NPC_511000.TalIdPain then
+		AccDamage = ThisNPC:GetUserData( NPC_511000.DataIdxForWakeUp ) + HitInfo.Damage
+		GLog( " AccDamage( " .. NPC_511000.DataIdxForWakeUp .. " ) : " .. AccDamage .. "\n" )
+		if AccDamage > NPC_511000.LimitForWakeUp then
+			ThisNPC:ClearJob();
+			ThisNPC:UseTalentSelf( NPC_511000.TalIdWakeUp );
+			ThisNPC:SetUserData( NPC_511000.DataIdxForWakeUp, 0 )
+			
+			return
+		end
+		
+		ThisNPC:SetUserData( NPC_511000.DataIdxForWakeUp, AccDamage )
+		
+		return
+	end
+
+	if not ThisNPC:CheckBPart( NPC_511000.PartIdxForHead ) and ( ThisNPC:GetMode() == 0 or ThisNPC:GetMode() == 1 ) then
+		AccDamage = ThisNPC:GetUserData( NPC_511000.DataIdxForBreakHead ) + HitInfo.Damage
+		
+		GLog( " AccDamage(" .. NPC_511000.DataIdxForBreakHead .. ") : " .. AccDamage .. "\n" )
+		if AccDamage > NPC_511000.LimitForBreakHead then 
+			ThisNPC:ClearJob();
+			ThisNPC:BreakPart( NPC_511000.PartIdxForHead, HitInfo.Attacker )
+			ThisNPC:UseTalentSelf( NPC_511000.TalIdBreakHead );
+			ThisNPC:SetUserData( NPC_511000.DataIdxForBreakHead, 0 )
+			
+			return
+		end
+		
+		ThisNPC:SetUserData( NPC_511000.DataIdxForBreakHead, AccDamage )
+		
+		return
+	end
+	
+	-- Pain Pattern
+	if ThisNPC:GetMode() == 5 and ThisNPC:GetCurrentTalent() ~= 251100054 then
+		AccDamage = ThisNPC:GetUserData( NPC_511000.DataIdxForPain ) + HitInfo.Damage
+		GLog( " AccDamage(" .. NPC_511000.DataIdxForPain .. ") : " .. AccDamage .. "\n" )
+		if AccDamage > NPC_511000.LimitForPain then 
+			ThisNPC:ClearJob();
+			ThisNPC:UseTalentSelf( NPC_511000.TalIdPain );
+			ThisNPC:SetUserData( NPC_511000.DataIdxForPain, 0 )
+			
+			return
+		end
+
+		ThisNPC:SetUserData( NPC_511000.DataIdxForPain, AccDamage )
+	
+		return
+	end
+	
+	return HitInfo
+end
+
+function NPC_511000:OnHitCapsule_1_0( HitInfo )
+	return NPC_511000:AccDamage( this, 1, HitInfo )
+end
+
+function NPC_511000:OnHitCapsule_2_0( HitInfo )
+	return NPC_511000:AccDamage( this, 1, HitInfo )
+end
+
+	]]></SCRIPT>
+</maiet>

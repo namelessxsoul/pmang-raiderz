@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="euc-kr" ?>
+<maiet>
+    <FIELDINFO zone="8003" min_x="0" min_y="0" max_x="60000" max_y="60000" boundary_min_x="0" boundary_min_y="0" boundary_max_x="0" boundary_max_y="0" weather_effect="false" town="false" returnable="true">
+        <Env set="default">
+            <WEATHER default="SUN">
+                <ADD weather="CLD" percent="0" />
+                <ADD weather="RNY" percent="0" />
+                <ADD weather="HRN" percent="0" />
+                <ADD weather="SNW" percent="0" />
+                <ADD weather="HSW" percent="0" />
+                <ADD weather="CLR" percent="0" />
+            </WEATHER>
+        </Env>
+        <SENSOR id="1" name="SR00002" local="true" x="745.787903" y="1768.965088" z="67.749298" radius="1000.000000" enabled="true" groupname="none" />
+    </FIELDINFO>
+</maiet>

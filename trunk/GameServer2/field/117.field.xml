@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="euc-kr" ?>
+<maiet>
+    <FIELDINFO zone="117" min_x="-30000" min_y="-14000" max_x="28000" max_y="16000" boundary_min_x="0" boundary_min_y="0" boundary_max_x="0" boundary_max_y="0" weather_effect="true" town="false" returnable="true">
+        <Env set="default">
+            <WEATHER default="SUN">
+                <ADD weather="CLD" percent="10" />
+                <ADD weather="RNY" percent="10" />
+                <ADD weather="HRN" percent="10" />
+                <ADD weather="SNW" percent="0" />
+                <ADD weather="HSW" percent="0" />
+                <ADD weather="CLR" percent="10" />
+            </WEATHER>
+        </Env>
+        <SPAWN id="2" group="0" name="spawn_00002" x="-11859.798828" y="-1059.393799" z="-26.962748" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="500.000000" random_dir="true" enabled="true" start_time="10" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="auto">
+            <NPC id="110019" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="3" group="0" name="spawn_00003" x="-14589.761719" y="3606.376465" z="4.036489" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="500.000000" random_dir="true" enabled="true" start_time="10" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="auto">
+            <NPC id="113015" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="4" group="0" name="spawn_00004" x="-10679.538086" y="-1910.618408" z="-25.963360" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="500.000000" random_dir="true" enabled="true" start_time="10" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="auto">
+            <NPC id="107013" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="5" group="0" name="spawn_00005" x="-10657.508789" y="-971.371460" z="-25.963367" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="500.000000" random_dir="true" enabled="true" start_time="10" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="auto">
+            <NPC id="107013" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="6" group="0" name="spawn_00006" x="-12131.633789" y="-2325.004639" z="-25.960390" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="500.000000" random_dir="true" enabled="true" start_time="10" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="auto">
+            <NPC id="107013" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="7" group="0" name="spawn_00007" x="-10987.740234" y="-2419.498535" z="-25.963312" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="500.000000" random_dir="true" enabled="true" start_time="10" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="auto">
+            <NPC id="107013" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="8" group="0" name="spawn_00008" x="-11293.185547" y="-1540.162598" z="-25.962257" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="500.000000" random_dir="true" enabled="true" start_time="10" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="auto">
+            <NPC id="107013" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="9" group="0" name="spawn_00009" x="-18728.996094" y="-5726.371582" z="4.036489" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="500.000000" random_dir="true" enabled="true" start_time="10" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="auto">
+            <NPC id="1" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="10" group="0" name="spawn_00010" x="-19020.816406" y="-6426.145508" z="4.036489" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="500.000000" random_dir="true" enabled="true" start_time="10" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="auto">
+            <NPC id="1" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="11" group="0" name="spawn_00011" x="-18005.402344" y="-6692.762695" z="4.036489" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="500.000000" random_dir="true" enabled="true" start_time="10" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="auto">
+            <NPC id="1" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="12" group="0" name="spawn_00012" x="-17423.285156" y="-5834.270508" z="4.036489" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="500.000000" random_dir="true" enabled="true" start_time="10" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="auto">
+            <NPC id="1" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="13" group="0" name="spawn_00013" x="-18969.099609" y="310.441895" z="-24.745747" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="500.000000" random_dir="true" enabled="true" start_time="10" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="auto">
+            <NPC id="1" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="14" group="0" name="spawn_00014" x="-18875.613281" y="-539.753418" z="-25.944477" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="500.000000" random_dir="true" enabled="true" start_time="10" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="auto">
+            <NPC id="1" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="15" group="0" name="spawn_00015" x="-17701.076172" y="-791.324219" z="-25.944477" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="500.000000" random_dir="true" enabled="true" start_time="10" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="auto">
+            <NPC id="1" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="16" group="0" name="spawn_00016" x="-26268.972656" y="-378.863281" z="2.000000" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="500.000000" random_dir="true" enabled="true" start_time="10" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="auto">
+            <NPC id="107011" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="17" group="0" name="spawn_00017" x="-25716.431641" y="-2491.143555" z="2.000000" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="500.000000" random_dir="true" enabled="true" start_time="10" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="auto">
+            <NPC id="107011" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="18" group="0" name="spawn_00018" x="-24231.285156" y="-376.895996" z="2.000000" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="500.000000" random_dir="true" enabled="true" start_time="10" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="auto">
+            <NPC id="107011" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="19" group="0" name="spawn_00019" x="-25286.158203" y="-954.649902" z="2.000000" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="400.000000" random_dir="true" enabled="true" start_time="10" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="auto">
+            <NPC id="107011" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="20" group="0" name="spawn_00020" x="-24666.494141" y="-3037.000244" z="2.000000" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="400.000000" random_dir="true" enabled="true" start_time="10" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="auto">
+            <NPC id="107011" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="21" group="0" name="spawn_00021" x="-18279.441406" y="8486.655273" z="4.036491" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="400.000000" random_dir="true" enabled="true" start_time="10" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="auto">
+            <NPC id="1" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="22" group="0" name="spawn_00022" x="-18797.400391" y="9954.966797" z="4.036491" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="400.000000" random_dir="true" enabled="true" start_time="10" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="auto">
+            <NPC id="1" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="23" group="0" name="spawn_00023" x="-19339.769531" y="9339.849609" z="4.036491" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="400.000000" random_dir="true" enabled="true" start_time="10" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="auto">
+            <NPC id="1" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="24" group="0" name="spawn_00024" x="-18501.562500" y="7247.041016" z="4.036491" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="400.000000" random_dir="true" enabled="true" start_time="10" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="auto">
+            <NPC id="1" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="25" group="0" name="spawn_00025" x="-17409.167969" y="7795.463867" z="4.036491" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="400.000000" random_dir="true" enabled="true" start_time="10" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="auto">
+            <NPC id="1" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="26" group="0" name="spawn_00026" x="-23845.482422" y="9931.382813" z="-25.963509" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="400.000000" random_dir="true" enabled="true" start_time="10" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="auto">
+            <NPC id="109100" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="27" group="0" name="spawn_00027" x="-24423.986328" y="9415.670898" z="-25.963511" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="400.000000" random_dir="true" enabled="true" start_time="10" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="auto">
+            <NPC id="109100" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="28" group="0" name="spawn_00028" x="-23378.353516" y="8380.146484" z="-25.963509" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="400.000000" random_dir="true" enabled="true" start_time="10" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="auto">
+            <NPC id="109100" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="29" group="0" name="spawn_00029" x="-6795.498535" y="10017.013672" z="-25.942741" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="400.000000" random_dir="true" enabled="true" start_time="10" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="auto">
+            <NPC id="1" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="31" group="0" name="spawn_00031" x="-7822.592285" y="10991.234375" z="-25.944210" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="400.000000" random_dir="true" enabled="true" start_time="10" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="auto">
+            <NPC id="1" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="32" group="0" name="spawn_00032" x="-7280.467285" y="9635.760742" z="-25.942595" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="400.000000" random_dir="true" enabled="true" start_time="10" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="auto">
+            <NPC id="1" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="33" group="0" name="spawn_00033" x="-7132.335938" y="2740.100586" z="4.036489" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="400.000000" random_dir="true" enabled="true" start_time="10" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="auto">
+            <NPC id="107013" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="34" group="0" name="spawn_00034" x="-5861.481445" y="3363.110840" z="456.667603" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="400.000000" random_dir="true" enabled="true" start_time="10" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="auto">
+            <NPC id="107013" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="35" group="0" name="spawn_00035" x="-5942.678711" y="4571.880859" z="456.672119" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="400.000000" random_dir="true" enabled="true" start_time="10" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="auto">
+            <NPC id="107013" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="36" group="0" name="spawn_00036" x="-3846.448486" y="3872.252930" z="456.672119" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="400.000000" random_dir="true" enabled="true" start_time="10" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="auto">
+            <NPC id="1" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="37" group="0" name="spawn_00037" x="-6182.780762" y="1457.533203" z="4.038430" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="400.000000" random_dir="true" enabled="true" start_time="10" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="auto">
+            <NPC id="107013" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="38" group="0" name="spawn_00038" x="-6837.547363" y="436.081787" z="4.036488" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="400.000000" random_dir="true" enabled="true" start_time="10" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="auto">
+            <NPC id="107013" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="39" group="0" name="spawn_00039" x="-5594.313477" y="11623.240234" z="4.055523" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="400.000000" random_dir="true" enabled="true" start_time="10" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="auto">
+            <NPC id="1" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="40" group="0" name="spawn_00040" x="16297.001953" y="-3985.472656" z="-440.609009" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="380.000000" random_dir="true" enabled="true" start_time="10" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="auto">
+            <NPC id="107012" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="41" group="0" name="spawn_00041" x="16714.261719" y="-4928.109863" z="-440.609009" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="380.000000" random_dir="true" enabled="true" start_time="10" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="auto">
+            <NPC id="107012" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="42" group="0" name="spawn_00042" x="17748.431641" y="-4246.985352" z="-440.609009" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="380.000000" random_dir="true" enabled="true" start_time="10" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="auto">
+            <NPC id="107012" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="43" group="0" name="spawn_00043" x="17866.591797" y="-4035.167969" z="-440.609009" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="380.000000" random_dir="true" enabled="true" start_time="10" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="auto">
+            <NPC id="107012" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="44" group="0" name="spawn_00044" x="17934.250000" y="-4925.723633" z="-440.609009" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="380.000000" random_dir="true" enabled="true" start_time="10" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="auto">
+            <NPC id="107012" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="45" group="0" name="spawn_00045" x="-1242.864258" y="656.683350" z="3.000008" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="380.000000" random_dir="true" enabled="true" start_time="10" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="auto">
+            <NPC id="107013" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="46" group="0" name="spawn_00046" x="-894.250977" y="-72.114258" z="3.000008" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="380.000000" random_dir="true" enabled="true" start_time="10" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="auto">
+            <NPC id="107013" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="47" group="0" name="spawn_00047" x="17.301758" y="1387.320313" z="3.000008" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="380.000000" random_dir="true" enabled="true" start_time="10" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="auto">
+            <NPC id="107013" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="48" group="0" name="spawn_00048" x="-459.835449" y="969.456543" z="3.000008" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="380.000000" random_dir="true" enabled="true" start_time="10" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="auto">
+            <NPC id="107013" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="49" group="0" name="spawn_00049" x="10454.322266" y="12909.157227" z="1714.765869" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="380.000000" random_dir="true" enabled="true" start_time="10" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="auto">
+            <NPC id="107012" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="50" group="0" name="spawn_00050" x="4998.741211" y="10530.025391" z="2252.394287" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="380.000000" random_dir="true" enabled="true" start_time="10" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="auto">
+            <NPC id="107012" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="51" group="0" name="spawn_00051" x="10597.555664" y="-5109.077637" z="-199.987747" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="380.000000" random_dir="true" enabled="true" start_time="10" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="auto">
+            <NPC id="107012" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="52" group="0" name="spawn_00052" x="8671.321289" y="-6921.099121" z="-199.987823" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="380.000000" random_dir="true" enabled="true" start_time="10" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="auto">
+            <NPC id="107012" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="53" group="0" name="spawn_00053" x="8594.388672" y="-7333.848145" z="-149.987778" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="380.000000" random_dir="true" enabled="true" start_time="10" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="auto">
+            <NPC id="107012" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="54" group="0" name="spawn_00054" x="10427.035156" y="-7028.335449" z="-199.987823" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="380.000000" random_dir="true" enabled="true" start_time="10" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="auto">
+            <NPC id="107012" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="55" group="0" name="spawn_00055" x="10093.683594" y="-6549.792480" z="-149.987778" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="380.000000" random_dir="true" enabled="true" start_time="10" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="auto">
+            <NPC id="107012" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="56" group="0" name="spawn_00056" x="9401.722656" y="-7177.807129" z="-199.987839" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="380.000000" random_dir="true" enabled="true" start_time="10" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="auto">
+            <NPC id="107012" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="57" group="0" name="spawn_00057" x="11171.294922" y="-5399.284180" z="-199.987762" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="380.000000" random_dir="true" enabled="true" start_time="10" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="auto">
+            <NPC id="107012" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="58" group="0" name="spawn_00058" x="10861.118164" y="-5680.901367" z="-149.987778" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="380.000000" random_dir="true" enabled="true" start_time="10" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="auto">
+            <NPC id="107012" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="59" group="0" name="spawn_00059" x="11983.299805" y="4909.067383" z="-199.987762" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="380.000000" random_dir="true" enabled="true" start_time="10" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="auto">
+            <NPC id="107012" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="60" group="0" name="spawn_00060" x="12381.469727" y="3721.620117" z="-199.987778" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="380.000000" random_dir="true" enabled="true" start_time="10" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="auto">
+            <NPC id="107012" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="61" group="0" name="spawn_00061" x="13825.755859" y="3794.396484" z="-199.987778" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="380.000000" random_dir="true" enabled="true" start_time="10" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="auto">
+            <NPC id="107012" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="62" group="0" name="spawn_00062" x="18247.019531" y="5028.611328" z="-199.987808" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="380.000000" random_dir="true" enabled="true" start_time="10" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="auto">
+            <NPC id="107012" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="63" group="0" name="spawn_00063" x="17726.750000" y="3698.818359" z="-199.987778" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="380.000000" random_dir="true" enabled="true" start_time="10" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="auto">
+            <NPC id="107012" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="64" group="0" name="spawn_00064" x="16454.138672" y="3761.643555" z="-199.987778" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="380.000000" random_dir="true" enabled="true" start_time="10" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="auto">
+            <NPC id="107012" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="65" group="0" name="spawn_00065" x="12409.952148" y="4675.848633" z="-199.987778" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="380.000000" random_dir="true" enabled="true" start_time="10" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="auto">
+            <NPC id="107012" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="66" group="0" name="spawn_00066" x="17945.634766" y="5011.014648" z="-178.566711" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="380.000000" random_dir="true" enabled="true" start_time="10" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="auto">
+            <NPC id="107012" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="117201" group="0" name="117200" x="-1842.133057" y="14592.732422" z="701.935364" dir_x="0.694659" dir_y="-0.719340" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="1" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="auto">
+            <NPC id="117200" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="117200" group="0" name="117201" x="-1319.098633" y="10818.864258" z="702.223877" dir_x="0.927184" dir_y="0.374606" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="10" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="auto">
+            <NPC id="117200" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="117202" group="0" name="117202" x="2386.059814" y="14730.519531" z="708.175049" dir_x="-0.874620" dir_y="-0.484809" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="10" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="auto">
+            <NPC id="117200" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="117203" group="0" name="117203" x="2335.902588" y="12020.186523" z="703.318665" dir_x="-0.838671" dir_y="0.544639" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="10" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="auto">
+            <NPC id="117200" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="30" group="0" name="spawn_00030" x="-6618.070313" y="11235.623047" z="2.001802" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="400.000000" random_dir="true" enabled="true" start_time="10" respawn_time="120" roam_radius="1000" roam_depth="200" combat_radius="0" color="auto">
+            <NPC id="1" default="false" rate="500" />
+        </SPAWN>
+        <MARKER id="1" name="MK00001" x="-24211.445313" y="-1395.086914" z="2.000000" dir_x="-0.069756" dir_y="-0.997564" dir_z="0.000000" random_dir="false" />
+        <MARKER id="2" name="MK00002" x="6440.149902" y="-10470.279297" z="1736.399658" dir_x="0.422618" dir_y="0.906308" dir_z="0.000000" random_dir="false" />
+        <MARKER id="3" name="MK00001" x="8389.970703" y="-5338.507813" z="-199.987778" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+    </FIELDINFO>
+</maiet>

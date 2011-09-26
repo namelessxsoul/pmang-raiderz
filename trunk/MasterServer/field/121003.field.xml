@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="euc-kr" ?>
+<maiet>
+    <FIELDINFO zone="121003" min_x="0" min_y="0" max_x="20000" max_y="20000" boundary_min_x="0" boundary_min_y="0" boundary_max_x="0" boundary_max_y="0" weather_effect="false" town="false" returnable="true">
+        <Env set="default">
+            <WEATHER default="SUN">
+                <ADD weather="CLD" percent="0" />
+                <ADD weather="RNY" percent="0" />
+                <ADD weather="HRN" percent="0" />
+                <ADD weather="SNW" percent="0" />
+                <ADD weather="HSW" percent="0" />
+                <ADD weather="CLR" percent="0" />
+            </WEATHER>
+        </Env>
+        <SPAWN id="1" group="0" name="spawn_00001" x="10008.465820" y="9558.018555" z="2.999974" dir_x="-0.438371" dir_y="-0.898794" dir_z="0.000000" radius="500.000000" random_dir="true" enabled="true" start_time="10" respawn_time="9999" roam_radius="2000" roam_depth="200" color="auto">
+            <NPC id="121019" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="2" group="0" name="spawn_00002" x="10613.919922" y="4285.389160" z="222.552658" dir_x="-0.034900" dir_y="-0.999391" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="10" respawn_time="9999" roam_radius="0" roam_depth="200" color="auto">
+            <NPC id="121220" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="3" group="0" name="spawn_00003" x="9384.525391" y="4283.731934" z="224.968826" dir_x="-0.034900" dir_y="-0.999391" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="false" start_time="10" respawn_time="9999" roam_radius="0" roam_depth="200" color="auto">
+            <NPC id="121207" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="4" group="0" name="spawn_00004" x="12432.103516" y="11032.675781" z="-3.184219" dir_x="-0.515039" dir_y="-0.857167" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="10" respawn_time="9999" roam_radius="0" roam_depth="200" color="auto">
+            <NPC id="113232" default="true" rate="10" />
+        </SPAWN>
+        <MARKER id="1" name="MK00001" x="9367.349609" y="4757.887207" z="308.452393" dir_x="0.052336" dir_y="0.998630" dir_z="0.000000" random_dir="false" />
+        <SENSOR id="1" name="오염된화원_1번방으로 " x="10564.296875" y="3780.164307" z="301.064087" radius="213.925430" enabled="true">
+            <EFFECT effect="ZoneLine" x="-16.900391" y="131.862305" z="0.000000" dir_x="0.006652" dir_y="-0.999978" dir_z="0.000000" up_x="0.000000" up_y="0.000000" up_z="1.000000" scale_x="1.000000" scale_y="1.000000" scale_z="1.000000" />
+            <WARP title="오염된화원 1번방으로" condition="0" gate_type="auto" field="121002" marker="12" />
+        </SENSOR>
+        <SENSOR id="0" name="SR00002" x="9303.022461" y="3746.537354" z="224.940628" radius="215.195724" enabled="true">
+            <EFFECT effect="ZoneLine" x="-1.375000" y="138.346680" z="0.000000" dir_x="-0.000000" dir_y="1.000000" dir_z="0.000000" up_x="0.000000" up_y="0.000000" up_z="1.000000" scale_x="1.000000" scale_y="1.000000" scale_z="1.000000" />
+            <WARP title="오염된화원 마지막방으로" condition="0" gate_type="auto" field="121002" marker="13" />
+        </SENSOR>
+    </FIELDINFO>
+</maiet>

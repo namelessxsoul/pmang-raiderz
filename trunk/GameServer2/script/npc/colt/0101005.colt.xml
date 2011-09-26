@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<!-- 하운터 -->
+<maiet>
+	<COLT>
+		<COMBAT>
+			<DEFAULT>
+				<ACTION type="nothing" param1="0.5" rate="20" cycle="3" />
+				<ACTION type="talent" param1="210100501" rate="50" />
+				<ACTION type="talent" param1="210100502" rate="30" cycle="10" />
+			</DEFAULT>
+			<CHECK type="hp" param1="0" param2="40">
+				<ACTION type="nothing" param1="0.5" rate="20" cycle="3" />
+				<ACTION type="talent" param1="210100501" rate="40" />
+				<ACTION type="talent" param1="210100502" rate="50" cycle="5" />
+			</CHECK>
+		</COMBAT>
+
+  		<REACTION>	
+		</REACTION>
+		<IDLE>
+			<DEFAULT>
+			</DEFAULT>
+		</IDLE>
+	</COLT>
+</maiet>

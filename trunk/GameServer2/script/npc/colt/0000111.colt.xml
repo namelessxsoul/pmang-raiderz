@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<maiet>
+	<COLT>
+		<COMBAT  victory="211109">
+			<DEFAULT>
+				<ACTION type="talent" param1="211101" rate="10" />
+				<ACTION type="talent" param1="211102" rate="15" />
+				<ACTION type="talent" param1="211105" rate="20" />
+				<ACTION type="talent" param1="211107" rate="20" />
+        <ACTION type="talent" param1="211110" rate="10" />
+        <ACTION type="talent" param1="211111" rate="10" />
+
+      </DEFAULT>
+
+			<CHECK type="distance" param1="1500" param2="3000">
+        <ACTION type="talent" param1="211101" rate="10" />
+        <ACTION type="talent" param1="211102" rate="15" />
+        <ACTION type="talent" param1="211105" rate="10" />
+        <ACTION type="talent" param1="211107" rate="10" />
+        <ACTION type="talent" param1="211106" rate="20" />
+			</CHECK>
+			
+			<CHECK type="distance" param1="700" param2="1500">
+				<ACTION type="talent" param1="211101" rate="20" />
+				<ACTION type="talent" param1="211105" rate="30" />
+				<ACTION type="talent" param1="211106" rate="50" />
+			</CHECK>
+
+		</COMBAT>
+		<REACTION>
+		</REACTION>
+		<IDLE>
+
+		</IDLE>
+  </COLT>
+</maiet>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet href="./colt.xsl" type="text/xsl"?>
+<maiet>
+	<COLT name="굶주린 물방울" npcid="223"> 
+		<COMBAT mode="0" comment="">
+			<DEFAULT>
+				<ACTION type="talent" param1="222301" rate="10" />
+			</DEFAULT>
+		</COMBAT>
+	</COLT>
+	
+	<SCRIPT><![CDATA[
+
+	]]></SCRIPT>
+</maiet>
+

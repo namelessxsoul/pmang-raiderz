@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<maiet>
+	<CQ min_level="1" max_level="10" max_count="4">
+    <QUEST id="999101" />
+		<QUEST id="999102" />
+    <QUEST id="999103" />
+    <QUEST id="999104" />
+  </CQ>    
+
+	<CQ min_level="11" max_level="20" max_count="3">
+    <QUEST id="999105" />
+    <QUEST id="999107" />
+		<QUEST id="999113" />
+	</CQ>
+  
+  <!--
+	<CQ min_level="11" max_level="20" max_count="2">
+		<QUEST id="28" />
+		<QUEST id="29" />
+		<QUEST id="34" />
+		<QUEST id="35" />
+		<QUEST id="40" />
+		<QUEST id="42" />
+	</CQ>
+	-->
+</maiet>

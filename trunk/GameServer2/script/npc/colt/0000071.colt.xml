@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<maiet>
+	<COLT> <!-- 핀드 샘플 -->
+		<COMBAT >
+			<DEFAULT>
+				<ACTION type="talent" param1="200711" rate="50" />
+				<ACTION type="talent" param1="200713" rate="50" />
+			</DEFAULT>
+			
+			<CHECK type="hp" param2="70">
+				<ACTION type="talent" param1="200711" rate="30" />
+				<ACTION type="talent" param1="200712" rate="20" />
+				<ACTION type="talent" param1="200713" rate="30" />
+<!-- 백대시..현재 구현 불가
+				<ACTION type="talent" param1="200714" rate="20" />
+-->
+			</CHECK>
+		</COMBAT>
+<!--		
+		<REACTION>
+			<CHECK type="Damage"  param1="normal" param2="0">
+				<ACTION type="link" param1="1" />
+			</CHECK>	
+		</REACTION>
+		-->
+	</COLT>
+</maiet>
+

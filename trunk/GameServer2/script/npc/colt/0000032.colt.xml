@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<!-- 에보스 마법사 샘플. 이 파일을 변경하기 전에 이야기 해주시기 바랍니다. - 조중필 -->
+<maiet>
+	<COLT>
+		<COMBAT >
+			<DEFAULT>
+				<ACTION type="talent" param1="200322" rate="80" />
+				<ACTION type="talent" param1="200321" rate="20" />
+			</DEFAULT>
+
+			<CHECK type="distance" param1="0" param2="300" >
+				<CHECK type="hp" param1="0" param2="30" >
+					<ACTION type="yell" auto_run="true" max_count="1" />
+					<ACTION type="talent" param1="200321" rate="80" />
+					<ACTION type="talent" param1="200322" rate="20" />
+				</CHECK>
+			</CHECK>
+		</COMBAT>
+		
+		<REACTION>
+			<CHECK type="hp" param1="0" param2="30" >
+				<!-- <ACTION type="lua" param1="NPC_32_Yell" auto_run="true" max_count="1" /> -->
+				<CHECK type="unbreakpart" param1="1" >
+					<CHECK type="motionfactor" param1="uppered" >
+						<ACTION type="breakpart" param1="1" rate="50" />
+					</CHECK>
+				</CHECK>
+			</CHECK>			
+		</REACTION>
+		
+		<IDLE>
+			<DEFAULT>
+				<ACTION type="talent" param1="200323" rate="30" />
+				<ACTION type="nothing" param1="1000" rate="70" />
+			</DEFAULT>			
+		</IDLE>
+	</COLT>
+	<SCRIPT><![CDATA[
+	
+function NPC_32:Init(NPCID)
+
+end
+
+function NPC_32:OnYell(RequestNPC, TargetActor)
+	this:Attack(TargetActor);
+end
+
+	]]></SCRIPT>
+
+
+</maiet>

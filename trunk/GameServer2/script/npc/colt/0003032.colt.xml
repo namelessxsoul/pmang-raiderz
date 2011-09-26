@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<!-- 수상한 남자 -->
+<maiet>
+	<COLT>
+		<COMBAT />
+
+		<IDLE>
+			<DEFAULT>
+				<ACTION type="talent" param1="200303201" rate="50" />
+				<ACTION type="nothing" param1="10" rate="50" />
+			</DEFAULT>
+		</IDLE>
+	</COLT>
+</maiet>

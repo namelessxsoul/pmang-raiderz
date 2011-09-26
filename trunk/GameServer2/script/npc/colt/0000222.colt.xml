@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet href="./colt.xsl" type="text/xsl"?>
+<maiet>
+	<COLT name="굶주린 마이짱" npcid="222">
+		<COMBAT mode="0">
+			<DEFAULT>
+				<ACTION type="talent" param1="222211" rate="20" duration="0"/>
+			</DEFAULT>
+		</COMBAT>
+		<COMBAT mode="1" victory="222210">
+			<DEFAULT>
+				<ACTION type="aggro" param1="random" param2="0" cycle="5"/>
+			</DEFAULT>
+	
+			<CHECK type="hp" param1="0" >
+				<ACTION type="aggro" param1="short" param2="0" max_count="1" />
+			</CHECK>
+			
+			<CHECK type="distance" param1="0" >
+				<ACTION type="distance" param1="100" param2="100" />
+			</CHECK>
+		</COMBAT>
+	</COLT>
+	
+	<SCRIPT><![CDATA[
+	
+function NPC_222:Init( NPCID )
+	NPC_222.WhirlwindBuff 		= 100012
+	NPC_222.WhirlwindTTL 		= 4
+	NPC_222.WhirlwindTimer 		= 1
+	NPC_222.WhirlwindFinish 	= 222210
+end
+
+function NPC_222:OnFinishStartWhirl( ThisActor, Enemy )
+	local ThisNPC = AsNPC( ThisActor )
+	
+	ThisNPC:GainBuff( NPC_222.WhirlwindBuff )
+	ThisNPC:SetTimer( NPC_222.WhirlwindTimer, NPC_222.WhirlwindTTL, false )
+end
+
+function NPC_222:OnActEndWhirl( ThisActor, Enemy )
+	local ThisNPC = AsNPC( ThisActor )
+	
+	ThisNPC:RemoveBuff( NPC_222.WhirlwindBuff )
+end
+
+function NPC_222:OnTimer( Index )
+	--GLog( "NPC_222:OnTimer" .. Index .. "\n" )
+	if not Index == NPC_222.WhirlwindTimer then 
+		return 
+	end
+	
+	this:UseTalentSelf( NPC_222.WhirlwindFinish )
+end
+
+	]]></SCRIPT>
+</maiet>

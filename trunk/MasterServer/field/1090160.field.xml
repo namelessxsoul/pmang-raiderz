@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="euc-kr" ?>
+<maiet>
+    <FIELDINFO zone="1031" min_x="-6007" min_y="-6007" max_x="4207" max_y="4207" boundary_min_x="0" boundary_min_y="0" boundary_max_x="0" boundary_max_y="0" weather_effect="true" fixed_time="Daytime" town="false" returnable="true" qpvpnpc1="950000" qpvpnpc2="950000" qpvprebirth1="102230" qpvprebirth2="102231">
+        <BGM fieldbgm="amb_cave_2" />
+        <SOUNDREVERB reverb="9" />
+        <Env set="default">
+            <WEATHER default="SUN">
+                <ADD weather="CLD" percent="0" />
+                <ADD weather="RNY" percent="0" />
+                <ADD weather="HRN" percent="0" />
+                <ADD weather="SNW" percent="0" />
+                <ADD weather="HSW" percent="0" />
+                <ADD weather="CLR" percent="0" />
+            </WEATHER>
+        </Env>
+        <SPAWN id="1" group="0" name="모켄의 해적" x="135.391388" y="-524.914795" z="-34.123158" dir_x="0.224951" dir_y="0.974370" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="0" respawn_time="600" roam_radius="0" roam_depth="0" color="255,0,128">
+            <NPC id="109211" default="false" rate="250" />
+            <NPC id="109212" default="false" rate="250" />
+            <NPC id="109213" default="false" rate="250" />
+            <NPC id="109214" default="false" rate="250" />
+        </SPAWN>
+        <SPAWN id="2" group="0" name="모켄의 해적" x="-202.556458" y="-444.433105" z="-32.319359" dir_x="0.224951" dir_y="0.974370" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="0" respawn_time="600" roam_radius="0" roam_depth="0" color="255,0,128">
+            <NPC id="109211" default="false" rate="250" />
+            <NPC id="109212" default="false" rate="250" />
+            <NPC id="109213" default="false" rate="250" />
+            <NPC id="109214" default="false" rate="250" />
+        </SPAWN>
+        <SPAWN id="3" group="0" name="모켄의 해적" x="525.673584" y="116.839844" z="14.619181" dir_x="-0.615662" dir_y="0.788011" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="0" respawn_time="600" roam_radius="0" roam_depth="0" color="255,0,128">
+            <NPC id="109211" default="false" rate="250" />
+            <NPC id="109212" default="false" rate="250" />
+            <NPC id="109213" default="false" rate="250" />
+            <NPC id="109214" default="false" rate="250" />
+        </SPAWN>
+        <SPAWN id="4" group="0" name="모켄의 해적" x="-509.877502" y="358.700439" z="31.091757" dir_x="0.913545" dir_y="0.406737" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="0" respawn_time="600" roam_radius="0" roam_depth="0" color="255,0,128">
+            <NPC id="109211" default="false" rate="250" />
+            <NPC id="109212" default="false" rate="250" />
+            <NPC id="109213" default="false" rate="250" />
+            <NPC id="109214" default="false" rate="250" />
+        </SPAWN>
+        <SPAWN id="5" group="0" name="모켄의 해적" x="108.694519" y="-2560.983154" z="-11.599668" dir_x="0.500000" dir_y="0.866026" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="0" respawn_time="600" roam_radius="0" roam_depth="0" color="255,0,128">
+            <NPC id="109211" default="false" rate="250" />
+            <NPC id="109212" default="false" rate="250" />
+            <NPC id="109213" default="false" rate="250" />
+            <NPC id="109214" default="false" rate="250" />
+        </SPAWN>
+        <SPAWN id="6" group="0" name="모켄의 해적" x="-234.014099" y="-2333.995605" z="-42.331177" dir_x="0.573576" dir_y="0.819152" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="0" respawn_time="600" roam_radius="0" roam_depth="0" color="255,0,128">
+            <NPC id="109211" default="false" rate="250" />
+            <NPC id="109212" default="false" rate="250" />
+            <NPC id="109213" default="false" rate="250" />
+            <NPC id="109214" default="false" rate="250" />
+        </SPAWN>
+        <MARKER id="1" name="시작지점" x="650.213440" y="1549.312500" z="-40.590935" dir_x="-0.139173" dir_y="-0.990268" dir_z="0.000000" random_dir="false" />
+        <SENSOR id="1" name="밖으로" x="76.046997" y="3371.519287" z="-36.530643" radius="1500.000000" enabled="true">
+            <EFFECT effect="ZoneLine" x="370.041595" y="-1425.996216" z="23.139648" dir_x="0.406737" dir_y="-0.913545" dir_z="0.000000" up_x="0.000000" up_y="0.000000" up_z="1.000000" scale_x="1.000000" scale_y="1.000000" scale_z="1.000000" />
+            <WARP title="밖으로" condition="0" gate_type="auto" field="109" marker="8" />
+        </SENSOR>
+        <SENSOR id="2" name="체크 포인트" local="false" x="638.812805" y="1460.697754" z="-41.328751" radius="400.000000" enabled="true" checkpoint="1" groupname="none" />
+    </FIELDINFO>
+</maiet>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<maiet>
+	<COLT name="부패한 시체">
+		<COMBAT mode="0">
+			<DEFAULT>	
+			</DEFAULT>
+		</COMBAT>
+		
+	
+		<IDLE>
+			<DEFAULT>
+				<ACTION type="nothing" param1="1" rate="70"/>
+			</DEFAULT>
+		</IDLE>
+		
+	</COLT>
+	
+	<SCRIPT><![CDATA[
+
+	function NPC_210:OnHitCapsule_1_0(HitInfo)
+		local HPPer = this:GetHP() / this:GetMaxHP()
+	
+		if HPPer < 0.75 then
+			this:BreakPart( 1, HitInfo.Attacker )
+		elseif HPPer < 0.5 then
+			this:BreakPart( 2, HitInfo.Attacker )
+		elseif HPPer < 0.25 then
+			this:BreakPart( 3, HitInfo.Attacker )
+		end
+	end
+	
+	]]></SCRIPT>
+</maiet>

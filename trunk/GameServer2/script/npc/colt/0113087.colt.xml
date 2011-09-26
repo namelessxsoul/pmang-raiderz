@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet href="./colt.xsl" type="text/xsl"?>
+<maiet>
+	<COLT name="소환된 해골전사">
+		<COMBAT mode="0">
+			<DEFAULT>	
+				<ACTION type="nothing" param1="0.5" rate="20" cycle="6"/>
+				<ACTION type="nothing" param1="0.5" rate="20" cycle="6"/>
+				<ACTION type="talent" param1="211301501" rate="20" />
+				<ACTION type="talent" param1="211301502" rate="40" />				
+				<ACTION type="talent" param1="211301503" rate="50" />
+				<ACTION type="talent" param1="211301504" rate="20" />
+			</DEFAULT>
+		</COMBAT>
+		
+		<STRESS>
+			  <CHECK type="stress" param1="100">
+				<ACTION type="talent" param1="211301501" rate="80" />
+				<ACTION type="talent" param1="211301505" rate="20" />
+			  </CHECK>
+		</STRESS>
+	
+		<IDLE>
+			<DEFAULT>
+				<ACTION type="talent" param1="211301500" rate="30"/>
+				<ACTION type="nothing" param1="1" rate="70"/>
+			</DEFAULT>
+		</IDLE>
+	</COLT>
+	<SCRIPT><![CDATA[
+
+function NPC_113087:OnSpawn(Spawn)
+	local Summoner = this:GetSummoner()
+	if Summoner == nil or Summoner:IsNull() then
+		return
+	end
+	
+	this:Assist( Summoner )
+end
+
+	]]></SCRIPT>
+</maiet>

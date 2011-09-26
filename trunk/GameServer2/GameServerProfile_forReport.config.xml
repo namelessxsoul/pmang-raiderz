@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<maiet>
+  <Config>
+	<Name> 모든필드에서 NPC들끼리 전투</Name>
+	<!-- 보고서 모드 여부 --> 
+	<ReportMode/> 
+	<!-- 출력될 보고서 파일명 --> 
+    <OutputFilename>test_GameServerProfile.xml</OutputFilename>
+	<!-- 사용할 fieldlist.xml 파일 이름, 경로는 "./system"으로 고정 --> 
+    <FieldList>fieldlist_test1.xml</FieldList> 
+	<!-- 테스트 시작 시간 (단위: 초) -->
+    <StartTime>60</StartTime>
+	<!-- 테스트 종료 시간, 시작시간부터 계산 (단위: 초) -->
+    <DurationTime>300</DurationTime>
+	<!-- 옵션 -->
+	<Option ai_lod_enable = "false" npc_fight="true"/>
+  </Config>
+</maiet>

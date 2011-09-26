@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="euc-kr" ?>
+<maiet>
+    <FIELDINFO zone="8888" min_x="0" min_y="0" max_x="50000" max_y="50000" boundary_min_x="0" boundary_min_y="0" boundary_max_x="0" boundary_max_y="0" weather_effect="true" town="false">
+        <Env set="default">
+            <WEATHER default="SUN">
+                <ADD weather="CLD" percent="10" />
+                <ADD weather="RNY" percent="10" />
+                <ADD weather="HRN" percent="10" />
+                <ADD weather="SNW" percent="10" />
+                <ADD weather="HSW" percent="10" />
+                <ADD weather="CLR" percent="10" />
+            </WEATHER>
+        </Env>
+        <SPAWN id="11" group="0" name="고블린" x="19463.519531" y="29327.064453" z="-290.274567" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="0.000000" random_dir="true" enabled="false" start_time="0" respawn_time="1000" roam_radius="0" roam_depth="200" color="166,28,176">
+            <NPC id="110014" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="12" group="0" name="고블린" x="20257.517578" y="31192.435547" z="-71.617004" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="0.000000" random_dir="true" enabled="false" start_time="0" respawn_time="1000" roam_radius="0" roam_depth="200" color="166,28,176">
+            <NPC id="110014" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="13" group="0" name="고블린" x="20065.531250" y="29912.472656" z="-249.998047" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="0.000000" random_dir="true" enabled="false" start_time="0" respawn_time="1000" roam_radius="0" roam_depth="200" color="166,28,176">
+            <NPC id="110014" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="14" group="0" name="고블린" x="19386.054688" y="30056.609375" z="-178.382309" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="0.000000" random_dir="true" enabled="false" start_time="0" respawn_time="1000" roam_radius="0" roam_depth="200" color="166,28,176">
+            <NPC id="110014" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="15" group="0" name="고블린" x="20801.218750" y="30773.582031" z="-136.771774" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="0.000000" random_dir="true" enabled="false" start_time="0" respawn_time="1000" roam_radius="0" roam_depth="200" color="166,28,176">
+            <NPC id="110014" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="101" group="0" name="골렘" x="14807.142578" y="34944.343750" z="2.000000" dir_x="0.798635" dir_y="-0.601815" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="false" start_time="0" respawn_time="600" roam_radius="0" roam_depth="0" color="166,28,176">
+            <NPC id="131103" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="1000" group="0" name="이벤트조작NPC" x="25194.070313" y="25151.105469" z="-1228.085449" dir_x="0.719340" dir_y="0.694658" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="0" respawn_time="600" roam_radius="0" roam_depth="200" color="166,28,176">
+            <NPC id="131000" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="1" group="0" name="1조 안내인" x="23586.380859" y="26442.464844" z="-1210.951782" dir_x="0.719339" dir_y="-0.694659" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="0" respawn_time="600" roam_radius="0" roam_depth="0" color="166,28,176">
+            <NPC id="131001" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="10" group="0" name="만넬로스" x="25471.443359" y="25430.664063" z="-1228.085449" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="0.000000" random_dir="true" enabled="false" start_time="10" respawn_time="0" roam_radius="0" roam_depth="0" color="auto">
+            <NPC id="105002" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="102" group="0" name="spawn_00102" x="16108.721680" y="15376.742188" z="3.000000" dir_x="0.529920" dir_y="0.848048" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="false" start_time="0" respawn_time="600" roam_radius="0" roam_depth="0" color="166,28,176">
+            <NPC id="131100" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="103" group="0" name="spawn_00103" x="35149.656250" y="14703.285156" z="3.000000" dir_x="-0.866025" dir_y="0.500000" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="false" start_time="0" respawn_time="600" roam_radius="0" roam_depth="0" color="166,28,176">
+            <NPC id="131101" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="104" group="0" name="spawn_00104" x="34585.238281" y="34611.761719" z="3.000000" dir_x="-0.707107" dir_y="-0.707107" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="false" start_time="0" respawn_time="600" roam_radius="0" roam_depth="0" color="166,28,176">
+            <NPC id="131102" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="2" group="0" name="2조 안내인" x="24204.621094" y="23743.669922" z="-1228.084717" dir_x="0.529920" dir_y="0.848048" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="0" respawn_time="600" roam_radius="0" roam_depth="0" color="166,28,176">
+            <NPC id="131001" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="3" group="0" name="3조 안내인" x="26203.238281" y="24214.910156" z="-1228.085449" dir_x="-0.642787" dir_y="0.766045" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="0" respawn_time="600" roam_radius="0" roam_depth="0" color="166,28,176">
+            <NPC id="131001" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="4" group="0" name="4조 안내인" x="26644.849609" y="26700.929688" z="-1228.085205" dir_x="-0.656059" dir_y="-0.754709" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="0" respawn_time="600" roam_radius="0" roam_depth="0" color="166,28,176">
+            <NPC id="131001" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="21" group="0" name="spawn_00021" x="20461.335938" y="19388.271484" z="-322.221954" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="0.000000" random_dir="true" enabled="false" start_time="0" respawn_time="1000" roam_radius="0" roam_depth="200" color="166,28,176">
+            <NPC id="110014" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="22" group="0" name="spawn_00022" x="21229.033203" y="19823.050781" z="-445.355957" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="0.000000" random_dir="true" enabled="false" start_time="0" respawn_time="1000" roam_radius="0" roam_depth="200" color="166,28,176">
+            <NPC id="110014" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="23" group="0" name="spawn_00023" x="20029.314453" y="19702.333984" z="-252.624710" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="0.000000" random_dir="true" enabled="false" start_time="0" respawn_time="1000" roam_radius="0" roam_depth="200" color="166,28,176">
+            <NPC id="110014" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="24" group="0" name="spawn_00024" x="20422.470703" y="20590.519531" z="-357.030396" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="0.000000" random_dir="true" enabled="false" start_time="0" respawn_time="1000" roam_radius="0" roam_depth="200" color="166,28,176">
+            <NPC id="110014" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="25" group="0" name="spawn_00025" x="19694.111328" y="20065.783203" z="-207.036179" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="0.000000" random_dir="true" enabled="false" start_time="0" respawn_time="1000" roam_radius="0" roam_depth="200" color="166,28,176">
+            <NPC id="110014" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="31" group="0" name="spawn_00026" x="30114.771484" y="20634.224609" z="-431.653900" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="0.000000" random_dir="true" enabled="false" start_time="0" respawn_time="1000" roam_radius="0" roam_depth="200" color="166,28,176">
+            <NPC id="110014" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="32" group="0" name="spawn_00032" x="29495.923828" y="19904.765625" z="-367.024323" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="0.000000" random_dir="true" enabled="false" start_time="0" respawn_time="1000" roam_radius="0" roam_depth="200" color="166,28,176">
+            <NPC id="110014" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="33" group="0" name="spawn_00033" x="30952.789063" y="20271.882813" z="-235.630264" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="0.000000" random_dir="true" enabled="false" start_time="0" respawn_time="1000" roam_radius="0" roam_depth="200" color="166,28,176">
+            <NPC id="110014" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="34" group="0" name="spawn_00034" x="30396.867188" y="19644.833984" z="-278.705200" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="0.000000" random_dir="true" enabled="false" start_time="0" respawn_time="1000" roam_radius="0" roam_depth="200" color="166,28,176">
+            <NPC id="110014" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="35" group="0" name="spawn_00035" x="29902.228516" y="19157.689453" z="-197.574844" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="0.000000" random_dir="true" enabled="false" start_time="0" respawn_time="1000" roam_radius="0" roam_depth="200" color="166,28,176">
+            <NPC id="110014" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="41" group="0" name="spawn_00036" x="29857.500000" y="30112.730469" z="-400.535461" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="0.000000" random_dir="true" enabled="false" start_time="0" respawn_time="1000" roam_radius="0" roam_depth="200" color="166,28,176">
+            <NPC id="110014" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="42" group="0" name="spawn_00042" x="30568.708984" y="29372.591797" z="-411.165039" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="0.000000" random_dir="true" enabled="false" start_time="0" respawn_time="1000" roam_radius="0" roam_depth="200" color="166,28,176">
+            <NPC id="110014" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="43" group="0" name="spawn_00043" x="29890.773438" y="30794.392578" z="-205.592529" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="0.000000" random_dir="true" enabled="false" start_time="0" respawn_time="1000" roam_radius="0" roam_depth="200" color="166,28,176">
+            <NPC id="110014" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="44" group="0" name="spawn_00044" x="30772.181641" y="30265.683594" z="-340.048065" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="0.000000" random_dir="true" enabled="false" start_time="0" respawn_time="1000" roam_radius="0" roam_depth="200" color="166,28,176">
+            <NPC id="110014" default="true" rate="10" />
+        </SPAWN>
+        <SPAWN id="45" group="0" name="spawn_00045" x="31277.919922" y="29471.826172" z="-298.947449" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="0.000000" random_dir="true" enabled="false" start_time="0" respawn_time="1000" roam_radius="0" roam_depth="200" color="166,28,176">
+            <NPC id="110014" default="true" rate="10" />
+        </SPAWN>
+        <MARKER id="1" name="MK00001_start" x="25179.496094" y="25401.216797" z="-1228.085449" dir_x="0.838671" dir_y="-0.544639" dir_z="0.000000" random_dir="false" />
+        <MARKER id="11" name="MK00011" x="23616.744141" y="26483.191406" z="-1211.484131" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="12" name="MK00012" x="22017.980469" y="27819.109375" z="-883.576355" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="13" name="MK00013" x="21381.865234" y="28669.960938" z="-615.195557" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="14" name="MK00014" x="20062.521484" y="30520.708984" z="-171.564178" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="15" name="MK00015" x="19327.310547" y="31217.052734" z="-25.155420" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="16" name="MK00016" x="18455.541016" y="31904.931641" z="-2.054334" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="17" name="MK00017" x="17444.746094" y="32793.554688" z="2.000084" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="18" name="MK00018" x="16309.166016" y="33123.421875" z="2.000000" dir_x="-0.500000" dir_y="0.866025" dir_z="0.000000" random_dir="false" />
+        <MARKER id="21" name="MK00021" x="24216.695313" y="23735.542969" z="-1227.084717" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="22" name="MK00022" x="22821.931641" y="21866.189453" z="-924.975342" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="23" name="MK00023" x="22155.742188" y="21265.871094" z="-724.246887" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="24" name="MK00024" x="20367.056641" y="19937.251953" z="-322.731689" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="25" name="MK00025" x="19172.425781" y="19186.439453" z="-89.696983" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="26" name="MK00026" x="18500.492188" y="18268.400391" z="0.205627" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="27" name="MK00027" x="17754.748047" y="17545.880859" z="1.999834" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="28" name="MK00028" x="18129.455078" y="16852.710938" z="2.000000" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="31" name="MK00031" x="26111.695313" y="24350.517578" z="-1227.084717" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="32" name="MK00032" x="27987.462891" y="22368.441406" z="-838.234802" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="33" name="MK00033" x="28870.814453" y="21386.224609" z="-672.606201" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="34" name="MK00034" x="30224.220703" y="19851.906250" z="-325.982941" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="35" name="MK00035" x="30863.027344" y="18656.345703" z="-152.752884" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="36" name="MK00036" x="31521.154297" y="18047.945313" z="-107.311172" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="37" name="MK00037" x="32263.171875" y="17525.640625" z="-39.235420" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="38" name="MK00038" x="32870.636719" y="17951.636719" z="3.000000" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="41" name="MK00041" x="26632.501953" y="26741.271484" z="-1227.085205" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="42" name="MK00042" x="27821.199219" y="28037.486328" z="-1005.800964" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="43" name="MK00043" x="28828.791016" y="28696.005859" z="-779.382080" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="44" name="MK00044" x="30230.775391" y="29870.138672" z="-413.842285" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="45" name="MK00045" x="31111.566406" y="31011.843750" z="-253.109497" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="46" name="MK00046" x="31653.982422" y="31582.976563" z="-115.895836" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="47" name="MK00047" x="32444.621094" y="32269.144531" z="2.220106" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="48" name="MK00048" x="32006.283203" y="33556.269531" z="3.000000" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <SENSOR id="11" name="SR00011" local="false" x="21887.472656" y="28423.156250" z="-755.043640" radius="1200.000000" enabled="false" />
+        <SENSOR id="13" name="SR00013" local="false" x="17537.109375" y="32773.839844" z="2.000084" radius="300.000000" enabled="false" />
+        <SENSOR id="12" name="SR00012" local="false" x="18998.328125" y="31747.203125" z="-11.386243" radius="1000.000000" enabled="false" />
+        <SENSOR id="21" name="SR00021" local="false" x="21544.675781" y="20589.203125" z="-560.562683" radius="1200.000000" enabled="false" />
+        <SENSOR id="22" name="SR00022" local="false" x="18716.531250" y="18712.519531" z="-15.244638" radius="1000.000000" enabled="false" />
+        <SENSOR id="23" name="SR00023" local="false" x="17696.017578" y="17456.128906" z="2.999857" radius="300.000000" enabled="false" />
+        <SENSOR id="31" name="SR00031" local="false" x="29400.093750" y="20865.294922" z="-557.939331" radius="1200.000000" enabled="false" />
+        <SENSOR id="32" name="SR00032" local="false" x="31442.935547" y="18127.736328" z="-116.233856" radius="1000.000000" enabled="false" />
+        <SENSOR id="33" name="SR00033" local="false" x="32287.960938" y="17412.134766" z="-33.786503" radius="300.000000" enabled="false" />
+        <SENSOR id="41" name="SR00041" local="false" x="29659.173828" y="29370.882813" z="-567.016968" radius="1200.000000" enabled="false" />
+        <SENSOR id="42" name="SR00042" local="false" x="31922.478516" y="31574.962891" z="-82.877518" radius="1000.000000" enabled="false" />
+        <SENSOR id="43" name="SR00043" local="false" x="32436.566406" y="32254.253906" z="2.116203" radius="300.000000" enabled="false" />
+    </FIELDINFO>
+</maiet>

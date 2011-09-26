@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet href="./colt.xsl" type="text/xsl"?>
+<maiet>
+  <COLT name="악화된 마리옹 전사" npcid="109226">
+		<COMBAT mode="0" comment="field" >
+			<DEFAULT>
+				<ACTION type="talent" param1="210932114" rate="10" />
+				<ACTION type="talent" param1="210932115" rate="10" />
+				<ACTION type="talent" param1="210932116" rate="10" />					
+			</DEFAULT>
+		</COMBAT>		
+	<IDLE>
+      <DEFAULT>
+      </DEFAULT>
+    </IDLE>
+  </COLT>
+  <SCRIPT><![CDATA[
+	
+	function NPC_109226:OnSpawn(Spawn)
+		this:NonDelaySay("$$COLT_0109226_26")
+		this:UseTalentSelf(210932101)
+		this:GainBuff(110026)
+  end
+  ]]></SCRIPT>
+</maiet>

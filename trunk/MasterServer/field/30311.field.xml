@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="euc-kr" ?>
+<maiet>
+    <FIELDINFO zone="1011" min_x="-2000" min_y="-2000" max_x="2000" max_y="2000" weather_effect="false" town="false">
+        <Env set="default">
+            <WEATHER default="SUN">
+                <ADD weather="CLD" percent="10" />
+                <ADD weather="RNY" percent="10" />
+                <ADD weather="HRN" percent="10" />
+                <ADD weather="SNW" percent="0" />
+                <ADD weather="HSW" percent="0" />
+                <ADD weather="CLR" percent="10" />
+            </WEATHER>
+        </Env>
+        <MARKER id="1" name="항구 창고 시작점" x="-1.989052" y="1273.919067" z="20.000000" dir_x="-0.000000" dir_y="-1.000000" dir_z="0.000000" random_dir="false" />
+        <SENSOR id="1" name="탈출 센서" x="-3.097504" y="1730.918579" z="21.999880" radius="200.000000" enabled="true">
+            <WARP condition="0" field="3" marker="4" title="마커로 이동" />
+        </SENSOR>
+    </FIELDINFO>
+</maiet>
