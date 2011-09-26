@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="euc-kr" ?>
+<maiet>
+    <NPC id="1" Name="고블린 병정 샘플" Grade="3" Type="monster" MeshPath="Monster/goblin_pawn" MeshName="goblin_pawn" BloodEffectName="ef_spread_blood" MinLevel="6" MaxLevel="6" MaxHP="300" AP="0" CHA="0" MR="0" FR="0" CR="0" LR="0" PR="0" Huge="False" Speed="100" RunSpeed="300" RotateSpeed="2" Rooted="False" Attackable="True" CounterAttack="True" AA="False" SightRange="1000" Scale="1" Occupation="10" Interact="False" ShowName="True" TitleBone="dummy_ef_body" TitleHeight="90" />
+</maiet>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet href="./colt.xsl" type="text/xsl"?>
+<maiet>
+	<COLT name="화원의 환상벽">
+		<COMBAT  >
+		</COMBAT>
+		<IDLE>
+		</IDLE>
+	</COLT>
+	<SCRIPT><![CDATA[ 
+
+function NPC_121033:OnSpawn( Info )
+	this:GainBuff( 88000 )
+end 
+
+function NPC_121033:OnFinishOpen( ThisNPC, Enemy)
+	this:RemoveBuff( 88000 )
+end
+
+	]]></SCRIPT>
+</maiet>

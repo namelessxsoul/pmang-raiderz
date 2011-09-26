@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ROOT>
+    <SCENE>
+        <DIRLIGHT>
+            <COMMON name="TerrainLightMap0">
+                <POSITION>0.000000 0.000000 1260.020020</POSITION>
+                <DIRECTION>0.000000 0.615661 -0.788011</DIRECTION>
+                <UP>0.000000 0.788011 0.615661</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <SHADOWLUMINOSITY>0.100</SHADOWLUMINOSITY>
+                <POWER>1.000</POWER>
+                <AMBIENT>0.000 0.000 0.000</AMBIENT>
+                <DIFFUSE>1.000 1.000 1.000</DIFFUSE>
+                <SPECULAR>1.000 1.000 1.000</SPECULAR>
+                <SKYSPECULAR>1.000</SKYSPECULAR>
+            </PROPERTY>
+        </DIRLIGHT>
+        <SUBLIGHT>
+            <COMMON name="SubLight">
+                <POSITION>0.000000 0.000000 1100.000000</POSITION>
+                <DIRECTION>-0.640258 0.378505 -0.668434</DIRECTION>
+                <UP>-0.749850 -0.496820 0.436915</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <COLOR>0.314 0.392 0.498</COLOR>
+            </PROPERTY>
+        </SUBLIGHT>
+        <SUBLIGHT>
+            <COMMON name="SubL_001">
+                <POSITION>0.000000 0.000000 900.000000</POSITION>
+                <DIRECTION>-0.367966 -0.925598 -0.088714</DIRECTION>
+                <UP>-0.071873 -0.066810 0.995174</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <COLOR>0.290 0.184 0.325</COLOR>
+            </PROPERTY>
+        </SUBLIGHT>
+        <SUBLIGHT>
+            <COMMON name="SubL_002">
+                <POSITION>0.000000 0.000000 1000.000000</POSITION>
+                <DIRECTION>0.693056 0.484806 0.533513</DIRECTION>
+                <UP>-0.389181 -0.371337 0.842999</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <COLOR>0.263 0.318 0.267</COLOR>
+            </PROPERTY>
+        </SUBLIGHT>
+        <SCENEINSTANCE>
+            <COMMON name="Blackroom_of_GM.scene_001">
+                <POSITION>0.000000 0.000000 0.000031</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>Blackroom_of_GM.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="Blackroom_of_GM_chair_01.scene_013">
+                <POSITION>-264.095032 -308.619446 0.000000</POSITION>
+                <DIRECTION>0.000000 -1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>Blackroom_of_GM_chair_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="Blackroom_of_GM_chair_01.scene_014">
+                <POSITION>-264.095032 -155.737671 0.000000</POSITION>
+                <DIRECTION>1.000000 -0.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>Blackroom_of_GM_chair_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="Blackroom_of_GM_chair_01.scene_015">
+                <POSITION>-264.095032 2.991364 0.000000</POSITION>
+                <DIRECTION>-1.000000 -0.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>Blackroom_of_GM_chair_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="Blackroom_of_GM_chair_01.scene_016">
+                <POSITION>-264.095032 156.326996 0.000000</POSITION>
+                <DIRECTION>0.000000 -1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>Blackroom_of_GM_chair_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="Blackroom_of_GM_chair_01.scene_017">
+                <POSITION>-264.095032 315.914520 0.000000</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>Blackroom_of_GM_chair_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="Blackroom_of_GM_chair_01.scene_018">
+                <POSITION>280.020905 315.914520 0.000000</POSITION>
+                <DIRECTION>1.000000 0.000000 0.000000</DIRECTION>
+                <UP>-0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>Blackroom_of_GM_chair_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="Blackroom_of_GM_chair_01.scene_019">
+                <POSITION>280.020905 156.326996 0.000000</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>Blackroom_of_GM_chair_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="Blackroom_of_GM_chair_01.scene_020">
+                <POSITION>280.020905 4.534027 0.000000</POSITION>
+                <DIRECTION>-1.000000 -0.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>Blackroom_of_GM_chair_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="Blackroom_of_GM_chair_01.scene_021">
+                <POSITION>280.020905 -155.737671 0.000000</POSITION>
+                <DIRECTION>1.000000 -0.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>Blackroom_of_GM_chair_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="Blackroom_of_GM_chair_01.scene_022">
+                <POSITION>280.020905 -308.619446 0.000000</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>Blackroom_of_GM_chair_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="Blackroom_of_GM_table_01.scene_001">
+                <POSITION>0.000000 0.000000 0.000000</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>Blackroom_of_GM_table_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="Catacomb_of_damned_brazier_A.scene_002">
+                <POSITION>692.081909 1159.372192 0.000000</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>Catacomb_of_damned_brazier_A.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="Catacomb_of_damned_brazier_A.scene_003">
+                <POSITION>-796.743530 -974.143860 0.000000</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>Catacomb_of_damned_brazier_A.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="Catacomb_of_damned_brazier_A.scene_004">
+                <POSITION>773.923035 -974.143860 0.000000</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>Catacomb_of_damned_brazier_A.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="Catacomb_of_damned_brazier_A.scene_005">
+                <POSITION>-688.295837 1159.372192 0.000000</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>Catacomb_of_damned_brazier_A.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="article_candlestand_a02.scene_001">
+                <POSITION>-1.570614 -182.397217 83.908386</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>article_candlestand_a02.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="article_candlestand_a02.scene_002">
+                <POSITION>0.794800 183.124054 83.908394</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>article_candlestand_a02.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="article_torture_01.scene_001">
+                <POSITION>-641.424683 -1171.742798 0.000000</POSITION>
+                <DIRECTION>0.000000 -1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>article_torture_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="article_torture_01_1.scene_001">
+                <POSITION>-382.858643 -1170.457764 0.000000</POSITION>
+                <DIRECTION>0.000000 -1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>article_torture_01_1.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="article_torture_04.scene_001">
+                <POSITION>735.222900 41.294769 0.000000</POSITION>
+                <DIRECTION>-1.000000 -0.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>article_torture_04.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="article_torture_04.scene_002">
+                <POSITION>468.071320 -1186.690186 0.000000</POSITION>
+                <DIRECTION>0.000000 -1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>article_torture_04.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <LIGHT>
+            <COMMON name="PointLight">
+                <POSITION>774.660217 -983.323730 200.685791</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <COLOR>0.624 0.769 0.988</COLOR>
+                <INTENSITY>1.000</INTENSITY>
+                <ATTENUATIONEND>700.000</ATTENUATIONEND>
+                <ATTENUATIONSTART>200.000</ATTENUATIONSTART>
+                <AREARANGE>0.000 0.000 0.000</AREARANGE>
+            </PROPERTY>
+        </LIGHT>
+        <LIGHT>
+            <COMMON name="PointL_002">
+                <POSITION>691.894958 1159.347778 200.685791</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <COLOR>0.624 0.769 0.988</COLOR>
+                <INTENSITY>1.000</INTENSITY>
+                <ATTENUATIONEND>700.000</ATTENUATIONEND>
+                <ATTENUATIONSTART>200.000</ATTENUATIONSTART>
+                <AREARANGE>0.000 0.000 0.000</AREARANGE>
+            </PROPERTY>
+        </LIGHT>
+        <LIGHT>
+            <COMMON name="PointL_003">
+                <POSITION>-691.620056 1159.347778 200.685791</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <COLOR>0.624 0.769 0.988</COLOR>
+                <INTENSITY>1.000</INTENSITY>
+                <ATTENUATIONEND>700.000</ATTENUATIONEND>
+                <ATTENUATIONSTART>200.000</ATTENUATIONSTART>
+                <AREARANGE>0.000 0.000 0.000</AREARANGE>
+            </PROPERTY>
+        </LIGHT>
+        <LIGHT>
+            <COMMON name="PointL_004">
+                <POSITION>-796.900452 -977.105652 200.685791</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <COLOR>0.624 0.769 0.988</COLOR>
+                <INTENSITY>1.000</INTENSITY>
+                <ATTENUATIONEND>700.000</ATTENUATIONEND>
+                <ATTENUATIONSTART>200.000</ATTENUATIONSTART>
+                <AREARANGE>0.000 0.000 0.000</AREARANGE>
+            </PROPERTY>
+        </LIGHT>
+        <LIGHT>
+            <COMMON name="PointL_005">
+                <POSITION>472.983398 -1164.238159 147.572906</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <COLOR>0.804 0.216 0.016</COLOR>
+                <INTENSITY>1.000</INTENSITY>
+                <ATTENUATIONEND>400.000</ATTENUATIONEND>
+                <ATTENUATIONSTART>100.000</ATTENUATIONSTART>
+                <AREARANGE>0.000 0.000 0.000</AREARANGE>
+            </PROPERTY>
+        </LIGHT>
+        <LIGHT>
+            <COMMON name="PointL_006">
+                <POSITION>733.884338 47.797447 147.572906</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <COLOR>0.804 0.216 0.016</COLOR>
+                <INTENSITY>1.000</INTENSITY>
+                <ATTENUATIONEND>400.000</ATTENUATIONEND>
+                <ATTENUATIONSTART>100.000</ATTENUATIONSTART>
+                <AREARANGE>0.000 0.000 0.000</AREARANGE>
+            </PROPERTY>
+        </LIGHT>
+    </SCENE>
+</ROOT>

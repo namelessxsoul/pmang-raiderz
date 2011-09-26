@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet href="./colt.xsl" type="text/xsl"?>
+<maiet>
+	<COLT name="화원의 문">
+		<COMBAT  >
+		</COMBAT>
+		<IDLE>
+		</IDLE>
+	</COLT>
+	<SCRIPT>
+      <![CDATA[ 
+
+
+
+	]]></SCRIPT>
+</maiet>

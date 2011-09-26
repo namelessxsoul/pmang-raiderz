@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet href="./colt.xsl" type="text/xsl"?>
+<maiet>
+	<COLT name="마귀벌레">
+		<COMBAT >
+			<DEFAULT>
+				<ACTION type="talent" param1="211103500" rate="10" /> <!-- idle2 -->
+				<ACTION type="talent" param1="211103501" rate="40" />
+				<ACTION type="talent" param1="211103502" rate="40" />
+				<ACTION type="talent" param1="211103503" rate="10" />
+			</DEFAULT>
+			<CHECK type="distance" param1="400" >
+				<ACTION type="talent" param1="211103500" rate="10" /> <!-- idle2 -->
+			</CHECK>
+		</COMBAT>
+		<IDLE>
+			<DEFAULT>
+				<ACTION type="talent" param1="211103500" rate="10"/> <!-- idle2 -->
+			</DEFAULT>
+		</IDLE>
+		<AGGRO>
+			<DEFAULT>
+				<ACTION type="talent" param1="211103504" duration="0"/> <!-- roar -->
+			</DEFAULT>
+		</AGGRO>
+	</COLT>
+	<SCRIPT><![CDATA[
+function NPC_111035:OnAct( ThisNPC, Enemy )
+	GLog("NPC_111035:OnAct\n")
+	--AsNPC(ThisNPC):ClearJob()
+end
+function NPC_111035:OnCancel( ThisNPC, Enemy )
+	GLog("NPC_111035:OnCancel\n")
+end
+function NPC_111035:OnFinish( ThisNPC, Enemy )
+	GLog("NPC_111035:OnFinish\n")
+end
+	]]></SCRIPT>
+</maiet>

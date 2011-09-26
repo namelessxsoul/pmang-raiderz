@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- 마법 지뢰 -->
+<maiet>
+	<COLT>
+		<COMBAT >
+			<DEFAULT>
+				<ACTION type="talent" param1="140007" rate="100" />
+			</DEFAULT>
+		</COMBAT>
+	</COLT>
+</maiet>

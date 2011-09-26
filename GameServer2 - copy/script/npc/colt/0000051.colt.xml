@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<maiet>
+	<COLT> <!-- 스프라이트 블루-->
+		<COMBAT>
+			<DEFAULT>
+				<ACTION type="talent" param1="200511" rate="30" />
+				<ACTION type="talent" param1="200512" rate="70" />
+			</DEFAULT>
+<!-- 체력이 떨어지면 회복 마법을 사용
+			<CHECK type="hp" param1="15" param2="40">
+				<ACTION type="talent" param1="200511" rate="15" />
+				<ACTION type="talent" param1="200512" rate="35" />
+				<ACTION type="talent" param1="200513" rate="50" />
+			</CHECK>	
+-->
+		</COMBAT>
+		
+		<REACTION>
+			<CHECK type="hp" param2="15">
+				<ACTION type="flee" param1="from_enemy" param2="5" />
+			</CHECK>
+	<!--
+			<CHECK type="Damage"  param1="normal" param2="0">
+				<ACTION type="link" param1="1" />
+			</CHECK>	
+			-->
+		</REACTION>
+	</COLT>
+</maiet>
+

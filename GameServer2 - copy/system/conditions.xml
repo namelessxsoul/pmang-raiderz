@@ -1,0 +1,2000 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<maiet xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CONDITIONS id="1">
+		<CONDITION type="level" param1="1" />
+	</CONDITIONS>
+	<CONDITIONS id="2">
+		<CONDITION type="level" param1="2" />
+	</CONDITIONS>
+	<CONDITIONS id="3">
+		<CONDITION type="level" param1="3" />
+	</CONDITIONS>
+	<CONDITIONS id="4">
+		<CONDITION type="level" param1="4" />
+	</CONDITIONS>
+	<CONDITIONS id="5">
+		<CONDITION type="level" param1="5" />
+	</CONDITIONS>
+	<CONDITIONS id="6">
+		<CONDITION type="level" param1="6" />
+	</CONDITIONS>
+	<CONDITIONS id="7">
+		<CONDITION type="level" param1="7" />
+	</CONDITIONS>
+	<CONDITIONS id="8">
+		<CONDITION type="level" param1="8" />
+	</CONDITIONS>
+	<CONDITIONS id="9">
+		<CONDITION type="level" param1="9" />
+	</CONDITIONS>
+	<CONDITIONS id="10">
+		<CONDITION type="level" param1="10" />
+	</CONDITIONS>
+	<CONDITIONS id="11">
+		<CONDITION type="level" param1="11" />
+	</CONDITIONS>
+	<CONDITIONS id="12">
+		<CONDITION type="level" param1="12" />
+	</CONDITIONS>
+	<CONDITIONS id="13">
+		<CONDITION type="level" param1="13" />
+	</CONDITIONS>
+	<CONDITIONS id="14">
+		<CONDITION type="level" param1="14" />
+	</CONDITIONS>
+	<CONDITIONS id="15">
+		<CONDITION type="level" param1="15" />
+	</CONDITIONS>
+	<CONDITIONS id="16">
+		<CONDITION type="level" param1="16" />
+	</CONDITIONS>
+	<CONDITIONS id="17">
+		<CONDITION type="level" param1="17" />
+	</CONDITIONS>
+	<CONDITIONS id="18">
+		<CONDITION type="level" param1="18" />
+	</CONDITIONS>
+	<CONDITIONS id="19">
+		<CONDITION type="level" param1="19" />
+	</CONDITIONS>
+	<CONDITIONS id="20">
+		<CONDITION type="level" param1="20" />
+	</CONDITIONS>
+	<CONDITIONS id="21">
+		<CONDITION type="level" param1="21" />
+	</CONDITIONS>
+	<CONDITIONS id="22">
+		<CONDITION type="level" param1="22" />
+	</CONDITIONS>
+	<CONDITIONS id="23">
+		<CONDITION type="level" param1="23" />
+	</CONDITIONS>
+	<CONDITIONS id="24">
+		<CONDITION type="level" param1="24" />
+	</CONDITIONS>
+	<CONDITIONS id="25">
+		<CONDITION type="level" param1="25" />
+	</CONDITIONS>
+	<CONDITIONS id="26">
+		<CONDITION type="level" param1="26" />
+	</CONDITIONS>
+	<CONDITIONS id="27">
+		<CONDITION type="level" param1="27" />
+	</CONDITIONS>
+	<CONDITIONS id="28">
+		<CONDITION type="level" param1="28" />
+	</CONDITIONS>
+	<CONDITIONS id="29">
+		<CONDITION type="level" param1="29" />
+	</CONDITIONS>
+	<CONDITIONS id="30">
+		<CONDITION type="level" param1="30" />
+	</CONDITIONS>
+	<CONDITIONS id="31">
+		<CONDITION type="level" param1="31" />
+	</CONDITIONS>
+	<CONDITIONS id="32">
+		<CONDITION type="level" param1="32" />
+	</CONDITIONS>
+	<CONDITIONS id="33">
+		<CONDITION type="level" param1="33" />
+	</CONDITIONS>
+	<CONDITIONS id="34">
+		<CONDITION type="level" param1="34" />
+	</CONDITIONS>
+	<CONDITIONS id="35">
+		<CONDITION type="level" param1="35" />
+	</CONDITIONS>
+	<CONDITIONS id="36">
+		<CONDITION type="level" param1="36" />
+	</CONDITIONS>
+	<CONDITIONS id="37">
+		<CONDITION type="level" param1="37" />
+	</CONDITIONS>
+	<CONDITIONS id="38">
+		<CONDITION type="level" param1="38" />
+	</CONDITIONS>
+	<CONDITIONS id="39">
+		<CONDITION type="level" param1="39" />
+	</CONDITIONS>
+	<CONDITIONS id="40">
+		<CONDITION type="level" param1="40" />
+	</CONDITIONS>
+	<CONDITIONS id="41">
+		<CONDITION type="level" param1="41" />
+	</CONDITIONS>
+	<CONDITIONS id="42">
+		<CONDITION type="level" param1="42" />
+	</CONDITIONS>
+	<CONDITIONS id="43">
+		<CONDITION type="level" param1="43" />
+	</CONDITIONS>
+	<CONDITIONS id="44">
+		<CONDITION type="level" param1="44" />
+	</CONDITIONS>
+	<CONDITIONS id="45">
+		<CONDITION type="level" param1="45" />
+	</CONDITIONS>
+	<CONDITIONS id="46">
+		<CONDITION type="level" param1="46" />
+	</CONDITIONS>
+	<CONDITIONS id="47">
+		<CONDITION type="level" param1="47" />
+	</CONDITIONS>
+	<CONDITIONS id="48">
+		<CONDITION type="level" param1="48" />
+	</CONDITIONS>
+	<CONDITIONS id="49">
+		<CONDITION type="level" param1="49" />
+	</CONDITIONS>
+	<CONDITIONS id="50">
+		<CONDITION type="level" param1="50" />
+	</CONDITIONS>
+
+	<CONDITIONS id="101">
+		<CONDITION type="quest" param1="1" param2="exist" />
+	</CONDITIONS>
+	<CONDITIONS id="102">
+		<CONDITION type="quest" param1="2" param2="exist" />
+	</CONDITIONS>
+	<CONDITIONS id="103">
+		<CONDITION type="quest" param1="1" param2="active" />
+	</CONDITIONS>
+	<CONDITIONS id="3020" comment="선교사 레니안 대화조건">
+		<CONDITION type="quest" param1="3005" param2="notexist" />
+	</CONDITIONS>
+	<CONDITIONS id="30020" comment="인젠으로 - 시작조건">
+		<CONDITION type="quest" param1="109104" param2="done" />
+	</CONDITIONS>
+	<CONDITIONS id="30021" comment="인젠으로 - 퀘스트 중">
+		<CONDITION type="quest" param1="3002" param2="exist" />
+	</CONDITIONS>
+	<CONDITIONS id="30022" comment="인젠으로 - 퀘스트 중이 아닐때">
+		<CONDITION type="quest" param1="3002" param2="notdone" />  
+		<CONDITION type="quest" param1="3002" param2="notexist" />
+	</CONDITIONS>  
+	<CONDITIONS id="30023" comment="인젠으로 - 퀘스트 완료 후 부러진 돛대에 있을때">
+		<CONDITION type="quest" param1="3002" param2="done" />
+	</CONDITIONS>  
+	<!--CONDITIONS id="30050" comment="다쳤을때는 빨간약 - 시작조건">
+		<CONDITION type="quest" param1="3004" param2="done" />
+	</CONDITIONS-->
+	<CONDITIONS id="30051" comment="다쳤을때는 빨간약 - 진행중">
+		<CONDITION type="quest" param1="3005" param2="exist" />
+		<CONDITION type="noitem" param1="10005" />
+	</CONDITIONS>
+	<CONDITIONS id="30052" comment="다쳤을때는 빨간약 - 진행중(2)">
+		<CONDITION type="quest" param1="3005" param2="exist" />
+		<CONDITION type="item" param1="10005" />
+	</CONDITIONS>
+	<CONDITIONS id="30059" comment="다쳤을때는 빨간약 - 완료후">
+		<CONDITION type="quest" param1="3005" param2="done" />
+	</CONDITIONS>
+	<CONDITIONS id="30060" comment="여관으로 - 시작 조건">
+		<CONDITION type="quest" param1="3002" param2="done" />
+	</CONDITIONS>  
+	<CONDITIONS id="30067" comment="여관으로 - 대사">
+		<CONDITION type="quest" param1="3006" param2="exist" />
+	</CONDITIONS>   
+	<CONDITIONS id="30068" comment="여관으로 - 대사">
+		<CONDITION type="quest" param1="3006" param2="done" />	
+	</CONDITIONS>  
+	<CONDITIONS id="30070" comment="티모트 여관 - 루퍼스 상점 여는 조건">
+		<CONDITION type="quest" param1="3006" param2="done" />
+	</CONDITIONS>
+	<CONDITIONS id="30081" comment="가이드 스톤의 테스트 - 사용전">
+		<CONDITION type="quest" param1="3008" param2="exist" />
+		<CONDITION type="quest_var" param1="3008" param2="1" />
+	</CONDITIONS>
+	<CONDITIONS id="30089" comment="가이드 스톤의 테스트 - 퀘스트 완료후">
+		<CONDITION type="quest" param1="3008" param2="done" />
+	</CONDITIONS>
+	<CONDITIONS id="30090" comment="하나의 심부름 - 퀘스트 시작 조건">
+		<CONDITION type="quest" param1="3006" param2="done" />
+	</CONDITIONS>
+	<CONDITIONS id="30100" comment="택배왔습니다 - 퀘스트 시작 조건">
+		<CONDITION type="quest" param1="3009" param2="done" />
+	</CONDITIONS>
+	<CONDITIONS id="1110320" comment=" - 퀘스트 시작 조건">
+		<CONDITION type="quest" param1="111031" param2="done" />
+	</CONDITIONS>
+	<CONDITIONS id="30101" comment="택배왔습니다 - 모험가 상점 배달전">
+		<AND>
+			<CONDITION type="quest" param1="3010" param2="exist" />
+			<CONDITION type="item" param1="10031" />
+		</AND>
+	</CONDITIONS>
+	<CONDITIONS id="30102" comment="택배왔습니다 - 에버로즈 배달전">
+		<AND>
+			<CONDITION type="quest" param1="3010" param2="exist" />
+			<CONDITION type="item" param1="10032" />
+		</AND>
+	</CONDITIONS>
+	<CONDITIONS id="30103" comment="택배왔습니다 - 보석 상점 배달전">
+		<AND>
+			<CONDITION type="quest" param1="3010" param2="exist" />
+			<CONDITION type="item" param1="10033" />
+		</AND>
+	</CONDITIONS>
+	<CONDITIONS id="30104" comment="택배왔습니다 - 모험가 상점 배달후">
+		<OR>
+			<CONDITION type="quest" param1="3010" param2="notexist" />
+			<CONDITION type="noitem" param1="10031" />
+		</OR>
+	</CONDITIONS>
+	<CONDITIONS id="30105" comment="택배왔습니다 - 에버로즈 배달후">
+		<OR>
+			<CONDITION type="quest" param1="3010" param2="notexist" />
+			<CONDITION type="noitem" param1="10032" />
+		</OR>
+	</CONDITIONS>
+	<CONDITIONS id="30106" comment="택배왔습니다 - 보석 상점 배달후">
+		<OR>
+			<CONDITION type="quest" param1="3010" param2="notexist" />
+			<CONDITION type="noitem" param1="10033" />
+		</OR>
+	</CONDITIONS>
+
+	<CONDITIONS id="30201" comment="모험가 준비 - 도중">
+		<CONDITION type="quest" param1="3020" param2="exist" />
+	</CONDITIONS>
+
+	<CONDITIONS id="3021" comment="탐험가교본 초급1 - 시작 ">
+		<CONDITION type="quest" param1="3020" param2="done" />
+	</CONDITIONS>
+
+	<CONDITIONS id="3022" comment="탐험가교본 초급2 - 시작 ">
+		<CONDITION type="quest" param1="3021" param2="done" />
+	</CONDITIONS>
+
+	<CONDITIONS id="3023" comment="탐험가교본 초급3 시작 ">
+		<CONDITION type="quest" param1="3022" param2="done" />
+		<CONDITION type="level" param1="50" />
+	</CONDITIONS>
+
+	<CONDITIONS id="3024" comment="탐험가교본 중급1 - 시작 ">
+		<CONDITION type="quest" param1="3023" param2="done" />	
+	</CONDITIONS>
+
+	<CONDITIONS id="30241" comment="탐험가교본 초급3까지 이해하지 않고 전문 탐험가에게 말걸 때 ">
+		<CONDITION type="quest" param1="3023" param2="notdone" />
+	</CONDITIONS>
+  
+	<CONDITIONS id="30242" comment="탐험가교본 초급3까지 이해한 뒤 수습 탐험가에게 말걸 때 ">
+		<CONDITION type="quest" param1="3023" param2="done" />
+	</CONDITIONS>
+
+	<CONDITIONS id="3025" comment="탐험가교본 중급2 - 시작 ">
+		<CONDITION type="quest" param1="3024" param2="done" />
+	</CONDITIONS>
+
+	<CONDITIONS id="3026" comment="탐험가교본 중급3 - 시작 ">
+		<CONDITION type="quest" param1="3025" param2="done" />			
+	</CONDITIONS> 
+
+  
+	<CONDITIONS id="107224" comment="요리사 미나 - 스토브 있을때 ">
+		<CONDITION type="item" param1="1000001" />			
+	</CONDITIONS>
+	
+	<CONDITIONS id="1010010" comment="마녀의 흔적 - 시작 조건">
+		<!--<CONDITION type="quest" param1="111035" param2="done" />-->
+	</CONDITIONS> 	
+	<CONDITIONS id="1010020" comment="마녀의 실체 - 시작 조건">
+		<CONDITION type="quest" param1="101001" param2="done" />
+	</CONDITIONS>
+	<CONDITIONS id="1010500" comment="초상화의 재료 - 도화지 - 시작 조건">
+		<CONDITION type="quest" param1="101002" param2="done" />
+	</CONDITIONS>	
+	<CONDITIONS id="1010510" comment="초상화의 재료 - 물감 - 시작 조건">
+		<CONDITION type="quest" param1="101002" param2="done" />
+	</CONDITIONS>		
+	<CONDITIONS id="1010030" comment="그림을 그립시다. - 시작 조건">
+		<CONDITION type="quest" param1="101050" param2="done" />
+		<CONDITION type="quest" param1="101051" param2="done" />
+	</CONDITIONS> 	
+	<CONDITIONS id="1010040" comment="마녀와 미녀의 차이 - 시작 조건">
+		<CONDITION type="quest" param1="101003" param2="done" />
+		<CONDITION type="item" param1="10163" />
+	</CONDITIONS> 	
+	<CONDITIONS id="1010050" comment="공개수배 '마녀' - 시작 조건">
+		<CONDITION type="level" param1="19" />
+		<CONDITION type="quest" param1="101004" param2="done" />
+	</CONDITIONS>
+	<CONDITIONS id="1010051" comment="공개수배 '마녀' - 진행중">
+		<CONDITION type="quest" param1="101005" param2="exist" />
+	</CONDITIONS>
+	<CONDITIONS id="1010052" comment="공개수배 '마녀' - 게시판과 상호작용 조건">
+		<CONDITION type="quest" param1="101005" param2="exist" />
+	</CONDITIONS>
+	<CONDITIONS id="1010071" comment="보고도 믿기 힘든 일 - 진행 중">
+		<CONDITION type="quest" param1="101007" param2="exist" />
+	</CONDITIONS> 
+	<CONDITIONS id="1010080" comment="건강 검진">
+		<CONDITION type="quest" param1="101007" param2="done" />
+		<CONDITION type="quest" param1="101005" param2="done" />
+	</CONDITIONS> 
+	<CONDITIONS id="1010090" comment="건강 검진 - 체력 검사">
+		<CONDITION type="quest" param1="101008" param2="done" />
+	</CONDITIONS> 
+	<CONDITIONS id="1010100" comment="건강 검진 - 혈액 검사">
+		<CONDITION type="quest" param1="101008" param2="done" />
+	</CONDITIONS> 
+	<CONDITIONS id="1010110" comment="건강 검진 - 마력 단층 촬영">
+		<CONDITION type="quest" param1="101009" param2="done" />
+		<CONDITION type="quest" param1="101010" param2="done" />
+	</CONDITIONS> 
+	<CONDITIONS id="1010111" comment="건강 검진 - 마력 단층 촬영 - 진행 중 마법진 인터렉션">
+		<CONDITION type="quest" param1="101011" param2="exist" />
+	</CONDITIONS> 
+	<CONDITIONS id="1010120" comment="이제 행동을 시작할 때">
+		<CONDITION type="quest" param1="101011" param2="done" />
+	</CONDITIONS> 
+	<CONDITIONS id="1010130" comment="증거를 찾아라">
+		<CONDITION type="quest" param1="101012" param2="done" />
+	</CONDITIONS> 
+	<CONDITIONS id="1010140" comment="연관 관계">
+		<CONDITION type="quest" param1="101013" param2="done" />
+	</CONDITIONS> 
+	<CONDITIONS id="1010141" comment="연관 관계 - 진행중">
+		<CONDITION type="quest" param1="101014" param2="exist" />
+	</CONDITIONS> 
+	<CONDITIONS id="1010150" comment="영역 확인">
+		<CONDITION type="quest" param1="101013" param2="done" />
+	</CONDITIONS>
+	<CONDITIONS id="1010151" comment="영역 확인 - 진행 중">
+		<CONDITION type="quest" param1="101015" param2="exist" /> 	
+	</CONDITIONS> 
+	<CONDITIONS id="1010160" comment="더 이상은 안되">
+		<CONDITION type="quest" param1="101009" param2="done" />
+		<CONDITION type="quest" param1="101010" param2="done" />
+	</CONDITIONS>
+	<CONDITIONS id="1010170" comment="가장 급한 곳은?">
+		<CONDITION type="quest" param1="101016" param2="done" />
+	</CONDITIONS>
+	<CONDITIONS id="1010171" comment="가장 급한 곳은? - 진행중">
+		<CONDITION type="quest" param1="101017" param2="exist" />
+	</CONDITIONS>
+	<CONDITIONS id="1010180" comment="리오드 방역">
+		<CONDITION type="quest" param1="101017" param2="done" />
+	</CONDITIONS>
+	<CONDITIONS id="1010181" comment="리오드 방역 - 진행중">
+		<CONDITION type="quest" param1="101018" param2="exist" />
+	</CONDITIONS>
+	<CONDITIONS id="1010190" comment="애타게 찾던 그...">
+		<CONDITION type="quest" param1="101019" param2="exist" />
+		<OR>
+			<CONDITION type="quest" param1="101018" param2="exist" />
+			<CONDITION type="quest" param1="101018" param2="done" />
+		</OR>
+	</CONDITIONS>
+	<CONDITIONS id="1010191" comment="애타게 찾던 그... - 진행중">
+		<OR>
+			<CONDITION type="quest" param1="101018" param2="exist" />
+			<CONDITION type="quest" param1="101018" param2="done" />
+		</OR>
+	</CONDITIONS>
+	<CONDITIONS id="1010200" comment="살아 갈 수 있는 길">
+		<CONDITION type="quest" param1="101019" param2="done" />
+	</CONDITIONS>
+	<CONDITIONS id="1010201" comment="살아 갈 수 있는 길 - 진행중">
+		<CONDITION type="quest" param1="101020" param2="exist" />
+		<CONDITION type="quest" param1="101020" param2="notcomplete" />
+	</CONDITIONS>
+	<CONDITIONS id="1010202" comment="살아 갈 수 있는 길 - 완료">
+		<CONDITION type="quest" param1="101020" param2="complete" />
+	</CONDITIONS>
+	<CONDITIONS id="1010210" comment="결과 보고">
+		<CONDITION type="quest" param1="101014" param2="done" />
+		<CONDITION type="quest" param1="101015" param2="done" />
+	</CONDITIONS>
+	<CONDITIONS id="1010220" comment="탈영범 검거">
+		<CONDITION type="quest" param1="101021" param2="done" />
+	</CONDITIONS>
+	<CONDITIONS id="1010221" comment="탈영범 검거 - 진행중">
+		<CONDITION type="quest" param1="101022" param2="exist" />
+	</CONDITIONS>
+	<CONDITIONS id="1010230" comment="작전명 '스파이'">
+		<CONDITION type="quest" param1="101022" param2="done" />
+	</CONDITIONS>
+	<CONDITIONS id="1010240" comment="브룬을 모시는 자">
+		<CONDITION type="quest" param1="101021" param2="done" />
+	</CONDITIONS>
+	<CONDITIONS id="1010250" comment="수상한 기운">
+		<CONDITION type="quest" param1="101024" param2="done" />
+	</CONDITIONS>
+	<CONDITIONS id="1010260" comment="한잔 쭉 들이키세요">
+		<CONDITION type="quest" param1="101025" param2="done" />
+	</CONDITIONS>
+	<CONDITIONS id="1010261" comment="한잔 쭉 들이키세요 - 진행중">
+		<CONDITION type="quest" param1="101026" param2="exist" />
+		<CONDITION type="item" param1="10181" />
+	</CONDITIONS>
+	<CONDITIONS id="1010271" comment="숲 속의 비극 - 진행중">
+		<CONDITION type="quest" param1="101027" param2="exist" />
+		<CONDITION type="item" param1="10183" />
+	</CONDITIONS>
+	<CONDITIONS id="1010280" comment="우두머리 처치">
+		<CONDITION type="quest" param1="101027" param2="done" />
+	</CONDITIONS>
+	<CONDITIONS id="1010290" comment="축적의 발찌">
+		<CONDITION type="quest" param1="101026" param2="done" />
+	</CONDITIONS>
+	<CONDITIONS id="1010291" comment="축적의 발찌">
+		<CONDITION type="quest" param1="101028" param2="done" />
+	</CONDITIONS>
+	<CONDITIONS id="1010300" comment="심증이 확증으로...">
+		<CONDITION type="quest" param1="101026" param2="done" />
+		<CONDITION type="quest" param1="101029" param2="done" />
+	</CONDITIONS>
+	<CONDITIONS id="1010310" comment="환영인사">
+		<CONDITION type="quest" param1="101023" param2="done" />
+		<CONDITION type="quest" param1="101030" param2="done" />
+	</CONDITIONS>
+	<CONDITIONS id="1010311" comment="환영인사 - 진행중">
+		<CONDITION type="quest" param1="101031" param2="exist" />
+	</CONDITIONS>
+	<CONDITIONS id="1010330" comment="기사들의 습격">
+		<CONDITION type="quest" param1="101023" param2="done" />
+	</CONDITIONS>
+	<CONDITIONS id="1010331" comment="기사들의 습격 - 진행중">
+		<CONDITION type="quest" param1="101033" param2="exist" />
+	</CONDITIONS>
+	<CONDITIONS id="1010340" comment="메린샤의 기적">
+		<CONDITION type="quest" param1="101033" param2="done" />
+		<CONDITION type="quest" param1="101035" param2="done" />
+	</CONDITIONS>
+	<CONDITIONS id="1010341" comment="메린샤의 기적 - 진행중">
+		<CONDITION type="quest" param1="101034" param2="exist" />
+	</CONDITIONS>
+	<CONDITIONS id="1010350" comment="마녀의 정체">
+		<CONDITION type="quest" param1="101023" param2="done" />
+		<CONDITION type="quest" param1="101005" param2="done" />
+		<OR>
+			<CONDITION type="quest" param1="101033" param2="exist" />
+			<CONDITION type="quest" param1="101033" param2="done" />
+		</OR>
+	</CONDITIONS>
+	<CONDITIONS id="1010351" comment="마녀의 정체 - 진행중">
+		<CONDITION type="quest" param1="101035" param2="exist" />
+	</CONDITIONS>
+	<CONDITIONS id="1010360" comment="가디엘교 위장 잠입">
+		<CONDITION type="quest" param1="101035" param2="done" />
+		<OR>
+			<CONDITION type="quest" param1="101034" param2="exist" />
+			<CONDITION type="quest" param1="101034" param2="done" />
+		</OR>
+	</CONDITIONS>
+	<CONDITIONS id="1010370" comment="위험천만 가디엘교">
+		<CONDITION type="quest" param1="101035" param2="done" />
+		<OR>
+			<CONDITION type="quest" param1="101034" param2="exist" />
+			<CONDITION type="quest" param1="101034" param2="done" />
+		</OR>
+	</CONDITIONS>
+	<CONDITIONS id="1010380" comment="밝혀지는 진실">
+		<CONDITION type="quest" param1="101035" param2="done" />
+		<CONDITION type="quest" param1="101037" param2="done" />
+		<CONDITION type="quest" param1="101040" param2="done" />
+	</CONDITIONS>
+	<CONDITIONS id="1010390" comment="나는 가디엘 교도다">
+		<CONDITION type="quest" param1="101034" param2="done" />
+	</CONDITIONS>
+	<CONDITIONS id="1010400" comment="자격 증명">
+		<CONDITION type="quest" param1="101039" param2="done" />
+	</CONDITIONS>
+	<CONDITIONS id="1010420" comment="리오드에 생명을...">    
+		<CONDITION type="quest" param1="101036" param2="done" />
+		<CONDITION type="quest" param1="101038" param2="done" />
+	</CONDITIONS>
+	<CONDITIONS id="1010430" comment="비탄한 현실...하지만 해야만 하는 일">
+		<CONDITION type="quest" param1="101042" param2="done" />
+	</CONDITIONS>
+	<CONDITIONS id="1010430" comment="비탄한 현실...하지만 해야만 하는 일 - 진행중">
+		<CONDITION type="quest" param1="101043" param2="exist" />
+	</CONDITIONS>
+	<CONDITIONS id="1010440" comment="통제 해제령">
+		<CONDITION type="quest" param1="101043" param2="done" />
+	</CONDITIONS>
+	<CONDITIONS id="1010451" comment="영웅의 전설 - 진행중">
+		<CONDITION type="quest" param1="101045" param2="done" />
+	</CONDITIONS>
+	<CONDITIONS id="1010460" comment="영웅의 자격">
+		<CONDITION type="quest" param1="101045" param2="done" />
+	</CONDITIONS>
+	<CONDITIONS id="1010461" comment="영웅의 자격 - 진행중">
+		<CONDITION type="quest" param1="101046" param2="exist" />
+	</CONDITIONS>
+	<CONDITIONS id="1010462" comment="영웅의 자격 - 진행중">
+		<CONDITION type="quest" param1="101046" param2="exist" />
+		<CONDITION type="noitem" param1="10189" />
+	</CONDITIONS>
+	<CONDITIONS id="1010463" comment="영웅의 자격 - 상점에서 아이템살때">
+		<CONDITION type="quest" param1="101046" param2="exist" />
+	</CONDITIONS>
+	<CONDITIONS id="1010464" comment="영웅의 자격 - 퀘를 완료하거나 없을땐 그냥 상점">
+		<OR>
+			<CONDITION type="quest" param1="101046" param2="done" />
+			<CONDITION type="quest" param1="101046" param2="notexist" />
+		</OR>
+	</CONDITIONS>
+	<CONDITIONS id="1010470" comment="영웅의 알현">
+		<CONDITION type="quest" param1="101046" param2="done" />
+	</CONDITIONS>
+	<CONDITIONS id="1010471" comment="영웅의 알현 - 진행중">
+		<CONDITION type="quest" param1="101047" param2="exist" />
+		<CONDITION type="item" param1="10189" />
+		<CONDITION type="item" param1="10190" />
+	</CONDITIONS>
+	<CONDITIONS id="1010472" comment="영웅의 알현 - 완료">
+		<CONDITION type="quest" param1="101047" param2="done" />
+	</CONDITIONS>
+	<CONDITIONS id="1010480" comment="홍익인간">
+		<CONDITION type="quest" param1="101047" param2="done" />
+	</CONDITIONS>
+	<CONDITIONS id="1010490" comment="호수의 수호자 이리스">
+		<CONDITION type="quest" param1="101048" param2="done" />
+	</CONDITIONS>
+	<CONDITIONS id="1020020" comment="바로 그 약초 - 시작">
+	    <OR>
+		    <CONDITION type="quest" param1="102012" param2="exist" />
+		    <CONDITION type="quest" param1="102012" param2="done" />		
+	    </OR>
+	</CONDITIONS>   
+	<CONDITIONS id="1020022" comment="바로 그 약초 - 약초 가지고 있을때">
+		<CONDITION type="quest" param1="102002" param2="exist" />
+		<CONDITION type="quest" param1="102002" param2="notcomplete" />		
+		<CONDITION type="item" param1="10002" />	
+	</CONDITIONS> 
+	<CONDITIONS id="1020031" comment="순례자 보호 - 호위 시작 조건">
+		<CONDITION type="quest" param1="102003" param2="exist" />
+		<CONDITION type="quest" param1="102003" param2="notcomplete" />	
+	</CONDITIONS> 	
+	<CONDITIONS id="1020034" comment="순례자 보호 - 호위하지 않을때">
+		<OR>
+			<CONDITION type="quest" param1="102003" param2="notexist" />
+			<CONDITION type="quest" param1="102003" param2="done" />	
+		</OR>
+	</CONDITIONS> 			
+	<CONDITIONS id="1020041" comment="한 명도 놓쳐선 안 돼 - 상자 인터렉션 조건">
+		<CONDITION type="quest" param1="102004" param2="exist" />
+		<CONDITION type="quest" param1="102004" param2="notcomplete" />	
+	</CONDITIONS> 
+	<CONDITIONS id="1020050" comment="편지에 분노를 담아 - 시작 조건">
+		<CONDITION type="level" param1="17" />  		
+	</CONDITIONS>  
+	<CONDITIONS id="1020062" comment="순례자 요한과 대화 조건">
+		<CONDITION type="quest" param1="102006" param2="exist" />
+		<OR>
+			<CONDITION type="quest_var" param1="102006" param2="1" />
+			<CONDITION type="quest_var" param1="102006" param2="3" />
+			<CONDITION type="quest_var" param1="102006" param2="4" />			
+		</OR>	
+	</CONDITIONS> 	
+	<CONDITIONS id="1020063" comment="순례자 비오레와 대화 조건">
+		<CONDITION type="quest" param1="102006" param2="exist" />
+		<OR>
+			<CONDITION type="quest_var" param1="102006" param2="1" />
+			<CONDITION type="quest_var" param1="102006" param2="2" />
+			<CONDITION type="quest_var" param1="102006" param2="4" />			
+		</OR>		
+	</CONDITIONS> 
+	<CONDITIONS id="1020064" comment="순례자 클레멘스와 대화 조건">
+		<CONDITION type="quest" param1="102006" param2="exist" />
+		<OR>
+			<CONDITION type="quest_var" param1="102006" param2="1" />
+			<CONDITION type="quest_var" param1="102006" param2="2" />
+			<CONDITION type="quest_var" param1="102006" param2="3" />			
+		</OR>		
+	</CONDITIONS> 
+	<CONDITIONS id="1020070" comment="하피 잡고 알 먹고 - 시작 조건">
+		<CONDITION type="level" param1="17" />  		
+		<CONDITION type="quest" param1="102004" param2="done" />		
+	</CONDITIONS> 	
+	<CONDITIONS id="1020071" comment="하피 알 - 루팅 조건">
+		<CONDITION type="level" param1="17" />  		
+		<CONDITION type="noitem" param1="58021" />		
+	</CONDITIONS> 	
+	<CONDITIONS id="1020072" comment="하운터 알 - 루팅 조건">
+		<CONDITION type="level" param1="17" />  		
+		<CONDITION type="noitem" param1="58022" />		
+	</CONDITIONS> 	
+	<CONDITIONS id="1020080" comment="얼어붙은 수통 - 시작">
+	    <OR>
+		    <CONDITION type="quest" param1="102011" param2="exist" />
+		    <CONDITION type="quest" param1="102011" param2="done" />		
+	    </OR>
+	</CONDITIONS> 	
+	<CONDITIONS id="1020090" comment="과거의 식물 - 시작 조건">
+		<OR>
+			<CONDITION type="faction" param1="115" param2="31000" />
+			<CONDITION type="faction" param1="116" param2="31000" />
+		</OR>
+		<CONDITION type="level" param1="18" />  		
+	</CONDITIONS> 	
+	<CONDITIONS id="1020091" comment="과거의 식물 - 인터렉션 조건">
+		<OR>
+			<CONDITION type="faction" param1="115" param2="31000" />
+			<CONDITION type="faction" param1="116" param2="31000" />
+		</OR>
+		<CONDITION type="quest" param1="102009" param2="notcomplete" />
+	</CONDITIONS> 	
+	<CONDITIONS id="1020100" comment="누구에게나 중요한 인맥 - 시작 조건">
+		<CONDITION type="level" param1="18" />  		
+		<CONDITION type="quest" param1="102024" param2="done" />	
+	</CONDITIONS>	
+	<CONDITIONS id="1020103" comment="브록과 대화">
+		<CONDITION type="quest" param1="102010" param2="exist" />
+		<CONDITION type="noitem" param1="10069" />
+	</CONDITIONS> 	
+	<CONDITIONS id="1020104" comment="키클롭스와 대화">
+		<CONDITION type="quest" param1="102010" param2="exist" />
+		<CONDITION type="noitem" param1="10070" />
+	</CONDITIONS> 	
+	<CONDITIONS id="1020105" comment="키클롭스와 대화(2)">
+		<CONDITION type="quest" param1="102010" param2="exist" />
+		<CONDITION type="item" param1="10070" />
+	</CONDITIONS> 
+	
+	<CONDITIONS id="1020110" comment="트롤의 관심 - 시작조건">
+		<CONDITION type="level" param1="18" />  		
+		<CONDITION type="quest" param1="102013" param2="done" />
+		<CONDITION type="quest" param1="102012" param2="notexist" />		
+		<CONDITION type="faction" param1="115" param2="30000" />
+		<CONDITION type="faction" param1="116" param2="24000" />
+	</CONDITIONS> 
+	<CONDITIONS id="1020120" comment="오우거의 관심 - 시작조건">
+		<CONDITION type="level" param1="18" />  		
+		<CONDITION type="quest" param1="102014" param2="done" />
+		<CONDITION type="quest" param1="102011" param2="notexist" />				
+		<CONDITION type="faction" param1="115" param2="24000" />
+		<CONDITION type="faction" param1="116" param2="30000" />
+	</CONDITIONS> 
+	<CONDITIONS id="1020130" comment="트롤의 용병 - 시작조건">
+		<CONDITION type="level" param1="18" />  		
+		<CONDITION type="quest" param1="102010" param2="done" />
+		<CONDITION type="quest" param1="102014" param2="notexist" />				
+		<CONDITION type="quest" param1="102014" param2="notdone" />		
+	</CONDITIONS> 
+	<CONDITIONS id="1020140" comment="오우거의 용병 - 시작조건">
+		<CONDITION type="level" param1="18" />  		
+		<CONDITION type="quest" param1="102010" param2="done" />
+		<CONDITION type="quest" param1="102013" param2="notexist" />
+		<CONDITION type="quest" param1="102013" param2="notdone" />			
+	</CONDITIONS> 
+	<CONDITIONS id="1020150" comment="용병계약 해지 - 시작조건">
+		<CONDITION type="level" param1="18" />  		
+		<OR>
+			<AND>
+				<CONDITION type="quest" param1="102013" param2="done" />
+				<CONDITION type="faction" param1="115" param2="31000" />
+			</AND>
+			<AND>
+				<CONDITION type="quest" param1="102014" param2="done" />
+				<CONDITION type="faction" param1="116" param2="31000" />
+			</AND>
+		</OR>
+	</CONDITIONS>
+	<CONDITIONS id="1020152" comment="족장 발로르 - 대화조건">	
+		<CONDITION type="quest" param1="102011" param2="done" />
+	</CONDITIONS> 
+	<CONDITIONS id="1020153" comment="족장 락크러셔 - 대화조건">
+		<CONDITION type="quest" param1="102012" param2="done" />
+	</CONDITIONS> 		
+	<CONDITIONS id="1020160" comment="신뢰받는 자(트롤) - 시작조건">
+		<CONDITION type="level" param1="18" />  		
+		<CONDITION type="quest" param1="102017" param2="notdone" />
+		<CONDITION type="quest" param1="102017" param2="notexist" />
+		<CONDITION type="faction" param1="115" param2="30000" />
+		<CONDITION type="quest" param1="102052" param2="done" />
+	</CONDITIONS> 
+	<CONDITIONS id="1020162" comment="족장 발로르의 인정">
+		<CONDITION type="faction" param1="115" param2="48000" />
+		<CONDITION type="quest" param1="102013" param2="done" />
+	</CONDITIONS> 	
+	<CONDITIONS id="1020170" comment="신뢰받는 자(오우거) - 시작조건">
+		<CONDITION type="level" param1="18" />  		
+		<CONDITION type="quest" param1="102016" param2="notdone" />
+		<CONDITION type="quest" param1="102016" param2="notexist" />		
+		<CONDITION type="faction" param1="116" param2="30000" />
+		<CONDITION type="quest" param1="102053" param2="done" />
+	</CONDITIONS>	
+	<CONDITIONS id="1020172" comment="족장 락크러셔의 인정">
+		<CONDITION type="faction" param1="116" param2="48000" />
+		<CONDITION type="quest" param1="102014" param2="done" />
+	</CONDITIONS> 	
+	<CONDITIONS id="1020191" comment="피가 모자라 - 진행 중일 때만"> 		
+		<CONDITION type="quest" param1="102019" param2="exist" />	
+	</CONDITIONS>	
+	<CONDITIONS id="1020200" comment="순백의 그림자 - 시작 조건">
+		<CONDITION type="level" param1="17" /> 	
+		<CONDITION type="quest" param1="102006" param2="done" />
+	</CONDITIONS>  
+	<CONDITIONS id="1020201" comment="순백의 그림자 - 트라이얼 진입조건">
+		<CONDITION type="quest" param1="102020" param2="exist" />
+		<CONDITION type="quest" param1="102020" param2="notcomplete" />	
+	</CONDITIONS> 
+	<CONDITIONS id="1020210" comment="디아고 처치 - 시작/공유 조건">
+		<CONDITION type="level" param1="19" />	
+		<CONDITION type="quest" param1="102027" param2="done" />
+	</CONDITIONS>   
+	<CONDITIONS id="1020220" comment="설인을 처치할 무기 - 시작/공유 조건">
+		<CONDITION type="level" param1="18" />	
+		<CONDITION type="quest" param1="102020" param2="done" />
+	</CONDITIONS> 
+	<CONDITIONS id="1020239" comment="아들의 유품 - 완료 대화 조건">
+		<CONDITION type="quest" param1="102022" param2="done" />		
+	</CONDITIONS> 	
+	<CONDITIONS id="1020240" comment="정상으로 가는 길 - 시작 조건">
+		<CONDITION type="quest" param1="102022" param2="done" />
+		<CONDITION type="quest" param1="102023" param2="done" />	
+	</CONDITIONS> 
+	<CONDITIONS id="1020241" comment="정상으로 가는 길 - 포탈 문 사용 조건">
+		<OR>
+			<CONDITION type="quest" param1="102024" param2="exist" />
+			<CONDITION type="quest" param1="102024" param2="done" />	
+		</OR>
+	</CONDITIONS> 	
+	<CONDITIONS id="1020250" comment="여신의 숨결 - 시작 조건">
+		<CONDITION type="level" param1="18" />	
+		<OR>
+			<CONDITION type="quest" param1="102016" param2="done" />
+			<CONDITION type="quest" param1="102017" param2="done" />	
+		</OR>
+	</CONDITIONS> 
+	<CONDITIONS id="1020251" comment="여신의 숨결 - 진행 중일 때">
+		<CONDITION type="quest" param1="102025" param2="exist" />
+	</CONDITIONS> 	 	
+	<CONDITIONS id="1020260" comment="불길을 잠재우는 것 - 시작 조건">
+		<CONDITION type="level" param1="18" />	
+		<OR>
+			<CONDITION type="quest" param1="102016" param2="done" />
+			<CONDITION type="quest" param1="102017" param2="done" />	
+		</OR>	
+	</CONDITIONS> 
+	<CONDITIONS id="1020261" comment="불길을 잠재우는 것 - 루팅 조건">
+		<CONDITION type="quest" param1="102026" param2="exist" />
+	</CONDITIONS> 	
+	<CONDITIONS id="1020270" comment="고대의 불 - 시작 조건">
+		<CONDITION type="level" param1="18" />		
+		<CONDITION type="quest" param1="102025" param2="done" />
+		<CONDITION type="quest" param1="102026" param2="done" />	
+	</CONDITIONS> 	
+	<CONDITIONS id="1020271" comment="고대의 불 - 루팅 조건">
+		<CONDITION type="quest" param1="102027" param2="exist" />
+	</CONDITIONS>
+	<CONDITIONS id="1020279" comment="고대의 불 - 완료 후 무기 제작">
+		<CONDITION type="quest" param1="102027" param2="done" />
+	</CONDITIONS> 
+	<CONDITIONS id="1020280" comment="물자 요청 - 시작 조건">	
+		<OR>
+			<CONDITION type="quest" param1="102013" param2="done" />
+			<CONDITION type="quest" param1="102014" param2="done" />	
+		</OR>
+	</CONDITIONS>  
+	<CONDITIONS id="1020289" comment="물자 요청 - 완료 후 상점 열기">
+		<CONDITION type="quest" param1="102028" param2="done" />
+	</CONDITIONS> 	
+	<CONDITIONS id="1020402" comment="리아라 - 대화(1) 조건">
+		<CONDITION type="quest" param1="102040" param2="notdone" />		
+	</CONDITIONS>  	
+	<CONDITIONS id="1020500" comment="오우거 전사 처치 - 시작/공유 조건">
+		<CONDITION type="level" param1="18" />  		
+		<CONDITION type="quest" param1="102013" param2="done" />
+		<CONDITION type="faction" param1="115" param2="29000" />
+	</CONDITIONS> 
+	<CONDITIONS id="1020510" comment="트롤 전사 처치 - 시작/공유 조건">
+		<CONDITION type="level" param1="18" />  		
+		<CONDITION type="quest" param1="102014" param2="done" />
+		<CONDITION type="faction" param1="116" param2="29000" />
+	</CONDITIONS> 
+	<CONDITIONS id="1020520" comment="고고학자의 제자(트롤) - 시작/공유 조건">
+		<CONDITION type="level" param1="18" />  		
+		<CONDITION type="quest" param1="102013" param2="done" />
+		<CONDITION type="faction" param1="115" param2="29000" />
+	</CONDITIONS> 
+	<CONDITIONS id="1020530" comment="고고학자의 제자(오우거) - 시작/공유 조건">
+		<CONDITION type="level" param1="18" />  		
+		<CONDITION type="quest" param1="102014" param2="done" />
+		<CONDITION type="faction" param1="116" param2="29000" />
+	</CONDITIONS> 
+	<CONDITIONS id="1020540" comment="고대로부터의 전언 - 시작/공유 조건">
+		<CONDITION type="level" param1="18" />  		
+		<CONDITION type="quest" param1="102052" param2="done" />
+		<CONDITION type="faction" param1="115" param2="29000" />
+	</CONDITIONS> 
+	<CONDITIONS id="1020541" comment="고대로부터의 전언 - 태양의 석판 조사 조건"> 		
+		<CONDITION type="quest" param1="102054" param2="exist" />
+		<CONDITION type="noitem" param1="10088" />		
+	</CONDITIONS> 	
+	<CONDITIONS id="1020542" comment="고대로부터의 전언 - 달의 석판 조사 조건"> 		
+		<CONDITION type="quest" param1="102054" param2="exist" />
+		<CONDITION type="noitem" param1="10089" />		
+	</CONDITIONS> 	
+	<CONDITIONS id="1020550" comment="고대로부터의 전언 - 시작/공유 조건">
+		<CONDITION type="level" param1="18" />  		
+		<CONDITION type="quest" param1="102053" param2="done" />
+		<CONDITION type="faction" param1="116" param2="29000" />
+	</CONDITIONS> 	
+	<CONDITIONS id="1020551" comment="고대로부터의 전언 - 태양의 석판 조사 조건"> 		
+		<CONDITION type="quest" param1="102055" param2="exist" />
+		<CONDITION type="noitem" param1="10088" />		
+	</CONDITIONS>
+	<CONDITIONS id="1020552" comment="고대로부터의 전언 - 달의 석판 조사 조건"> 		
+		<CONDITION type="quest" param1="102055" param2="exist" />
+		<CONDITION type="noitem" param1="10089" />		
+	</CONDITIONS>  	
+	<CONDITIONS id="1020560" comment="돈 앞에선 친구도 없다(트롤) - 시작/공유 조건">
+		<CONDITION type="level" param1="18" />  		
+		<CONDITION type="quest" param1="102013" param2="done" />
+		<CONDITION type="faction" param1="115" param2="29000" />
+	</CONDITIONS> 
+	<CONDITIONS id="1020570" comment="돈 앞에선 친구도 없다(오우거) - 시작/공유 조건">
+		<CONDITION type="level" param1="18" />  		
+		<CONDITION type="quest" param1="102014" param2="done" />
+		<CONDITION type="faction" param1="116" param2="29000" />
+	</CONDITIONS>
+	<CONDITIONS id="1021000" comment="트롤 강화석 장인 - 인터렉션 조건">
+		<CONDITION type="level" param1="18" />  		
+		<CONDITION type="quest" param1="102013" param2="done" />
+	</CONDITIONS>	
+	<CONDITIONS id="1021001" comment="트롤 강화석 장인 - 2단계 강화석 제작 조건">
+		<CONDITION type="faction" param1="115" param2="GOOD" />		
+	</CONDITIONS>	
+	<CONDITIONS id="1021002" comment="트롤 강화석 장인 - 3단계 강화석 제작 조건">
+		<CONDITION type="faction" param1="115" param2="EXCELLENT" />		
+	</CONDITIONS>		
+	<CONDITIONS id="1021010" comment="오우거 강화석 장인 - 인터렉션 조건">
+		<CONDITION type="level" param1="18" />  		
+		<CONDITION type="quest" param1="102014" param2="done" />
+	</CONDITIONS>	
+	<CONDITIONS id="1021011" comment="오우거 강화석 장인 - 2단계 강화석 제작 조건">
+		<CONDITION type="faction" param1="116" param2="GOOD" />		
+	</CONDITIONS>	
+	<CONDITIONS id="1021012" comment="오우거 강화석 장인 - 3단계 강화석 제작 조건">
+		<CONDITION type="faction" param1="116" param2="EXCELLENT" />		
+	</CONDITIONS>		
+
+	<CONDITIONS id="10216290" comment="에다산Qpvp 특수상인 리멜라 - 인터렉션 조건">
+		<CONDITION type="qpvp_team" param1="1" />
+	</CONDITIONS>
+	<CONDITIONS id="10216390" comment="에다산Qpvp 특수장인 데피라 - 인터렉션 조건">
+		<CONDITION type="qpvp_team" param1="1" />
+	</CONDITIONS>
+	<CONDITIONS id="10216490" comment="에다산Qpvp 특수상인 핑거릭커 - 인터렉션 조건">
+		<CONDITION type="qpvp_team" param1="2" />
+	</CONDITIONS>
+	<CONDITIONS id="10216590" comment="에다산Qpvp 특수장인 멕키가이버 - 인터렉션 조건">
+		<CONDITION type="qpvp_team" param1="2" />
+	</CONDITIONS>
+  
+  
+  
+	<CONDITIONS id="1070039" comment="해방감과 함께 다가오는 공복 - 완료 후">
+		<CONDITION type="quest" param1="107003" param2="done" />
+	</CONDITIONS>  
+ 	
+	<CONDITIONS id="1070051" comment="리시안사스 인터렉션 조건">
+		<CONDITION type="quest" param1="107005" param2="exist" />
+		<CONDITION type="fewitem" param1="10062" param2="7" />
+		<CONDITION type="quest" param1="107005" param2="notcomplete" />
+	</CONDITIONS>
+	<CONDITIONS id="1070052" comment="안개초 인터렉션 조건">
+		<CONDITION type="quest" param1="107005" param2="exist" />
+		<CONDITION type="fewitem" param1="10063" param2="7" />		
+		<CONDITION type="quest" param1="107005" param2="notcomplete" />
+	</CONDITIONS>
+	<CONDITIONS id="1070053" comment="금잔화 인터렉션 조건">
+		<CONDITION type="quest" param1="107005" param2="exist" />
+		<CONDITION type="fewitem" param1="10064" param2="7" />		
+		<CONDITION type="quest" param1="107005" param2="notcomplete" />
+	</CONDITIONS>	
+	<CONDITIONS id="1070060" comment="영웅의 오솔길로 - 시작 조건">
+		<CONDITION type="quest" param1="107005" param2="done" />
+		<CONDITION type="level" param1="12" /> 		
+	</CONDITIONS>  
+	<CONDITIONS id="1070100" comment="식량 되찾기 - 시작 조건">
+		<CONDITION type="level" param1="7" />  
+	</CONDITIONS>  
+	<CONDITIONS id="1070101" comment="식량 되찾기 - 밀가루 포대와 인터렉션 가능시">
+		<CONDITION type="quest" param1="107010" param2="exist" />
+	</CONDITIONS>
+	<CONDITIONS id="1070110" comment="피의 연쇄 - 시작 조건">
+		<CONDITION type="level" param1="6" />  
+	</CONDITIONS>   
+	<CONDITIONS id="1070120" comment="무기를 들어라! - 시작 조건">
+		<CONDITION type="level" param1="7" />
+		<CONDITION type="quest" param1="107011" param2="done" />
+	</CONDITIONS>
+	<CONDITIONS id="1070130" comment="검은바위 동굴 습격 - 시작 조건">
+		<CONDITION type="level" param1="8" />
+		<CONDITION type="quest" param1="107012" param2="done" />
+	</CONDITIONS>
+	<CONDITIONS id="1070131" comment="검은바위 동굴 습격 - 본거지 동굴 진입조건">
+		<CONDITION type="quest" param1="107013" param2="exist" />
+	</CONDITIONS>
+	<CONDITIONS id="1070160" comment="위협의 끝 - 시작 조건">
+		<CONDITION type="level" param1="8" />
+		<CONDITION type="quest" param1="107013" param2="done" />
+	</CONDITIONS>
+	<CONDITIONS id="1070161" comment="위협의 끝">
+		<CONDITION type="quest" param1="107016" param2="exist" />
+	</CONDITIONS> 
+	<CONDITIONS id="1070191" comment="베스피오단 현상금 - 완료 후 현상금 받기">
+		<CONDITION type="quest" param1="107019" param2="done" />
+	</CONDITIONS>
+	<CONDITIONS id="1070410" comment="발굴지 보호">
+		<CONDITION type="level" param1="5" />
+	</CONDITIONS>   
+	<CONDITIONS id="1070420" comment="습격당한 마차 - 시작 조건">
+		<CONDITION type="level" param1="5" />
+	</CONDITIONS>  
+	<CONDITIONS id="1070421" comment="습격당한 마차">
+		<CONDITION type="quest" param1="107042" param2="exist" />
+		<CONDITION type="noitem" param1="10043" />	
+	</CONDITIONS>
+	<CONDITIONS id="1070429" comment="습격당한 마차 - 완료 후 상점 여는 조건">
+		<CONDITION type="quest" param1="107042" param2="done" />
+	</CONDITIONS>  
+	<CONDITIONS id="1070430" comment="불길한 전조 - 시작 조건">
+		<CONDITION type="level" param1="5" />
+	</CONDITIONS>
+	<CONDITIONS id="1070440" comment="의문의 메시지 - 시작 조건">
+		<CONDITION type="quest" param1="107043" param2="done" />
+		<CONDITION type="level" param1="6" />		
+	</CONDITIONS>
+	<CONDITIONS id="1070441" comment="의문의 메시지 - 문서 루팅 조건">
+		<CONDITION type="quest" param1="107044" param2="exist" />
+		<CONDITION type="quest" param1="107044" param2="notcomplete" />
+	</CONDITIONS>
+	<CONDITIONS id="1070450" comment="진군 저지 - 시작 조건">
+		<CONDITION type="quest" param1="107041" param2="done" />
+		<CONDITION type="level" param1="6" />		
+	</CONDITIONS>
+	<CONDITIONS id="1070460" comment="사보타주 - 시작 조건">
+		<CONDITION type="quest" param1="107044" param2="done" />
+		<CONDITION type="level" param1="6" />		
+	</CONDITIONS>
+	<CONDITIONS id="1070462" comment="사보타주 - 폭발물과 인터렉션">
+		<CONDITION type="quest" param1="107046" param2="exist" />	
+		<CONDITION type="noitem" param1="10066" />
+	</CONDITIONS>
+	<CONDITIONS id="1070463" comment="사보타주 - 폭발물과 인터렉션">
+		<CONDITION type="quest" param1="107046" param2="exist" />	
+		<CONDITION type="item" param1="10066" />
+	</CONDITIONS>
+	<CONDITIONS id="1070470" comment="침략자의 최후 - 시작 조건">
+		<CONDITION type="quest" param1="107044" param2="done" />
+		<CONDITION type="level" param1="6" />		
+	</CONDITIONS>
+	<CONDITIONS id="1070471" comment="침략자의 최후 - 타리비의 동굴 진입조건">
+		<CONDITION type="quest" param1="107047" param2="exist" />
+	</CONDITIONS>  
+	<CONDITIONS id="1070480" comment="돕고사는 세상">
+		<CONDITION type="level" param1="6" />	
+		<CONDITION type="quest" param1="107046" param2="done" />  
+		<CONDITION type="quest" param1="107047" param2="done" />  		
+	</CONDITIONS>      
+	<CONDITIONS id="1070510" comment="돌아오지 않는 자 - 시작 조건">
+		<CONDITION type="quest" param1="107083" param2="done" />  
+	</CONDITIONS>
+	<CONDITIONS id="1070512" comment="돌아오지 않는 자 - 라팔의 시체 인터렉션 조건">
+		<CONDITION type="quest" param1="107051" param2="exist" />
+		<CONDITION type="noitem" param1="10059" />
+	</CONDITIONS>  
+	<CONDITIONS id="1070513" comment="돌아오지 않는 자 - 미스텔 센서 트리거 조건">
+		<CONDITION type="quest" param1="107051" param2="exist" />
+		<CONDITION type="quest_var" param1="107051" param2="1" />
+	</CONDITIONS>
+	<CONDITIONS id="1070540" comment="마이 스위트 홈 - 시작 조건">
+		<CONDITION type="quest" param1="107051" param2="done" />
+		<CONDITION type="level" param1="5" />		
+	</CONDITIONS>
+	<CONDITIONS id="1070541" comment="마이 스위트 홈 - 트라이얼 필드 진입 조건">
+		<CONDITION type="quest" param1="107054" param2="exist" />
+		<CONDITION type="noitem" param1="10040" />	
+	</CONDITIONS> 
+	<CONDITIONS id="1070542" comment="마이 스위트 홈 - 지하실 출입 조건">
+		<CONDITION type="quest" param1="107054" param2="exist" />
+		<CONDITION type="quest_var" param1="107054" param2="2" />
+	</CONDITIONS>      
+	<CONDITIONS id="1070543" comment="마이 스위트 홈 - 지하실 탈출 조건">
+		<CONDITION type="quest" param1="107054" param2="complete" />
+	</CONDITIONS>    
+	<CONDITIONS id="1070544" comment="마이 스위트 홈 - 시집 획득 조건">
+		<CONDITION type="quest" param1="107054" param2="exist" />
+		<CONDITION type="quest_var" param1="107054" param2="4" />	
+		<CONDITION type="noitem" param1="10040" />	
+	</CONDITIONS>  
+	<CONDITIONS id="1070545" comment="마이 스위트 홈 - 새끼거미 도망">
+		<CONDITION type="quest" param1="107054" param2="exist" />
+		<CONDITION type="quest_var" param1="107054" param2="2" />	
+		<CONDITION type="noitem" param1="10040" />	
+	</CONDITIONS>   
+	<CONDITIONS id="1070550" comment="갈대밭의 사냥꾼 - 시작 조건">
+		<CONDITION type="quest" param1="107054" param2="done" />
+		<CONDITION type="level" param1="5" />		
+	</CONDITIONS>  
+	<CONDITIONS id="1070570" comment="고집쟁이 설득하기 - 시작 조건">
+		<CONDITION type="quest" param1="107055" param2="done" />
+		<CONDITION type="level" param1="5" />		
+	</CONDITIONS>  	
+	<CONDITIONS id="1070851" comment="아낌없이 주는 나무 - 목재 더미 인터렉션 조건">
+		<CONDITION type="quest" param1="107085" param2="exist" />
+		<CONDITION type="quest" param1="107085" param2="notcomplete" />
+	</CONDITIONS>
+	<CONDITIONS id="1070810" comment="지금 필요한 것은 무엇? - 시작 조건">
+		<CONDITION type="level" param1="4" />
+		<OR>
+			<CONDITION type="quest" param1="3007" param2="notexist" />
+			<CONDITION type="quest" param1="3007" param2="done" />
+		</OR>
+	</CONDITIONS>
+	<CONDITIONS id="1070820" comment="늑대의 공포 - 시작 조건">
+		<CONDITION type="level" param1="4" />
+		<OR>
+			<CONDITION type="quest" param1="3007" param2="notexist" />
+			<CONDITION type="quest" param1="3007" param2="done" />
+		</OR>
+	</CONDITIONS>  
+	<CONDITIONS id="1070830" comment="돌려받고 싶은 것 - 시작 조건">
+		<CONDITION type="quest" param1="107081" param2="done" />
+		<CONDITION type="quest" param1="107082" param2="done" />
+	</CONDITIONS>  
+	<CONDITIONS id="1070870" comment="연기에 푹 빠진 당신 - 시작 조건">
+		<CONDITION type="level" param1="8" />
+		<CONDITION type="quest" param1="107085" param2="done" />
+	</CONDITIONS>
+	<CONDITIONS id="1070871" comment="연기에 푹 빠진 당신 - 평평한 바위와 상호작용 조건">
+		<CONDITION type="item" param1="10004" />
+		<CONDITION type="quest" param1="107087" param2="exist" />
+	</CONDITIONS>
+	<CONDITIONS id="1070880" comment="숲의 여왕 - 시작 조건">
+		<CONDITION type="level" param1="9" />
+		<CONDITION type="quest" param1="107087" param2="done" />
+	</CONDITIONS>  
+	<CONDITIONS id="1071000" comment="오튼의 독저항 목걸이 제작 - 시작조건">
+		<CONDITION type="quest" param1="107081" param2="done" />
+		<CONDITION type="quest" param1="107082" param2="done" />
+	</CONDITIONS>
+	<CONDITIONS id="1071010" comment="바삭바삭한 빵 제작 - 시작조건">
+		<CONDITION type="quest" param1="107011" param2="done" />
+	</CONDITIONS>
+	<CONDITIONS id="1090060" comment="티안의 부름 - 시작 조건">
+		<CONDITION type="quest" param1="109005" param2="done" />
+	</CONDITIONS> 	
+	<CONDITIONS id="1090070" comment="모튼기어의 사정 - 시작 조건">	
+		<CONDITION type="quest" param1="109006" param2="done" />
+	</CONDITIONS> 	
+	<CONDITIONS id="1090080" comment="이상한 정황 - 시작 조건">
+		<CONDITION type="quest" param1="109006" param2="done" />
+	</CONDITIONS> 	
+	<CONDITIONS id="1090090" comment="반드시 처리해야 할 일 - 시작 조건">	
+		<CONDITION type="quest" param1="109006" param2="done" />
+	</CONDITIONS> 	
+	<CONDITIONS id="1090100" comment="배고픈 크라울러 - 시작 조건">	
+		<OR>
+		<CONDITION type="level" param1="2" />
+		<CONDITION type="quest" param1="109007" param2="done" />
+		</OR>
+	</CONDITIONS> 
+	<CONDITIONS id="1090110" comment="장비 지급 - 시작 조건">	
+		<CONDITION type="quest" param1="109010" param2="done" />
+	</CONDITIONS> 	
+	<CONDITIONS id="1090120" comment="괘씸한 놈 - 시작 조건">	
+		<OR>
+		<CONDITION type="quest" param1="109008" param2="done" />
+		<CONDITION type="level" param1="2" />
+		</OR>
+	</CONDITIONS> 	
+	<CONDITIONS id="1090130" comment="정찰병의 흔적 - 시작 조건">	
+		<CONDITION type="quest" param1="109012" param2="done" />
+	</CONDITIONS> 	
+	<CONDITIONS id="1090131" comment="정찰병의 흔적 - 진행 중">	
+		<CONDITION type="quest" param1="109013" param2="exist" />
+	</CONDITIONS> 	
+	<CONDITIONS id="1090150" comment="반격 준비 - 시작 조건">	
+		<OR>
+		<CONDITION type="quest" param1="109013" param2="done" />
+		<CONDITION type="level" param1="3" />
+		</OR>
+	</CONDITIONS> 
+	<CONDITIONS id="1090151" comment="반격 준비 - 진행 중">	
+		<CONDITION type="quest" param1="109015" param2="exist" />
+	</CONDITIONS> 	
+	<CONDITIONS id="1090160" comment="의심스러운 일 - 시작 조건">	
+		<CONDITION type="quest" param1="109014" param2="done" />
+	</CONDITIONS> 	
+	<CONDITIONS id="1090170" comment="의심이 확신으로 - 시작 조건">	
+		<CONDITION type="quest" param1="109014" param2="done" />
+	</CONDITIONS> 	
+	<CONDITIONS id="1090180" comment="심해의 위협 - 시작 조건">	
+		<CONDITION type="level" param1="4" />
+	</CONDITIONS> 	
+	<CONDITIONS id="1090190" comment="의심이 확신으로 - 시작 조건">	
+		<CONDITION type="quest" param1="109015" param2="done" />
+	</CONDITIONS> 	
+	<CONDITIONS id="1090219" comment="요리를 배워 봅시다. - 완료 후">	
+		<CONDITION type="quest" param1="109021" param2="done" />
+	</CONDITIONS> 		
+	
+	
+	
+	<!--
+	<CONDITIONS id="1090500" comment="피해 복구 - 시작 조건">
+		<CONDITION type="quest" param1="109054" param2="done" />
+	</CONDITIONS>  
+	<CONDITIONS id="1090501" comment="피해 복구 - 진행중">
+		<CONDITION type="quest" param1="109050" param2="exist" />
+		<CONDITION type="quest" param1="109050" param2="notcomplete" />
+	</CONDITIONS>
+	<CONDITIONS id="1090502" comment="피해 복구 - 갑판장 클로버의 보고서 다시 받기">
+		<CONDITION type="quest" param1="109050" param2="exist" />
+		<CONDITION type="quest" param1="109053" param2="done" />	
+		<CONDITION type="noitem" param1="10079" />
+	</CONDITIONS>
+	<CONDITIONS id="1090503" comment="피해 복구 - 선의 제퍼슨의 보고서 다시 받기">
+		<CONDITION type="quest" param1="109050" param2="exist" />
+		<CONDITION type="quest" param1="109052" param2="done" />	
+		<CONDITION type="noitem" param1="10081" />
+	</CONDITIONS> 
+	<CONDITIONS id="1090541" comment="부름... - 진행 중">
+		<CONDITION type="quest" param1="109054" param2="exist" />
+	</CONDITIONS>  
+	<CONDITIONS id="1090618" comment="포식자의 외침 - 완료 후 대화">
+		<CONDITION type="quest" param1="109061" param2="complete" />
+	</CONDITIONS>   
+	<CONDITIONS id="1090620" comment="요리를 배워봅시다 - 시작 조건">
+		<CONDITION type="quest" param1="109061" param2="done" />
+	</CONDITIONS>   
+	<CONDITIONS id="1090621" comment="요리를 배워봅시다 - 진행중이며 미완료시">
+		<CONDITION type="quest" param1="109062" param2="exist" />
+		<CONDITION type="quest" param1="109062" param2="notcomplete" />	
+	</CONDITIONS>  
+	<CONDITIONS id="1090628" comment="요리를 배워봅시다 - 보고">
+		<CONDITION type="quest" param1="109062" param2="complete" />
+	</CONDITIONS>   
+	<CONDITIONS id="1090629" comment="요리를 배워봅시다 - 완료 조건">
+		<OR>
+			<CONDITION type="quest" param1="109062" param2="done" />
+			<AND>
+				<CONDITION type="quest" param1="109062" param2="exist" />
+				<CONDITION type="item" param1="10073" />
+			</AND>
+		</OR>
+	</CONDITIONS>     
+	<CONDITIONS id="1090710" comment="치명적인 함정 - 시작 조건">
+		<CONDITION type="quest" param1="109062" param2="done" />
+	</CONDITIONS>  
+	<CONDITIONS id="1090711" comment="치명적인 함정 - 진행중">
+		<CONDITION type="quest" param1="109071" param2="exist" />
+	</CONDITIONS>
+	<CONDITIONS id="1090811" comment="오염의 흔적 - 진행중">
+		<CONDITION type="quest" param1="109081" param2="exist" />
+	</CONDITIONS>  
+	<CONDITIONS id="1090820" comment="의심이 확신으로 - 시작 조건">
+		<CONDITION type="quest" param1="109081" param2="done" />
+	</CONDITIONS>
+	<CONDITIONS id="1090830" comment="이것은 무엇에 쓰는 물건인고? - 시작 조건">
+		<CONDITION type="quest" param1="109082" param2="done" />
+	</CONDITIONS>  
+	<CONDITIONS id="1090850" comment="내 죽음을 모두에게 알려라 - 시작 조건">
+		<CONDITION type="quest" param1="109084" param2="done" />
+	</CONDITIONS>  
+	<CONDITIONS id="1090860" comment="고대 나무 정령 까르엔 - 시작 조건">
+		<CONDITION type="quest" param1="109085" param2="done" />
+	</CONDITIONS>    
+	<CONDITIONS id="1090870" comment="치료냐! 악화냐! 그것이 문제로다. - 시작 조건">
+		<CONDITION type="quest" param1="109083" param2="done" />
+	</CONDITIONS>   
+	<CONDITIONS id="1090910" comment="괘씸한 놈! - 시작 조건">
+		<CONDITION type="quest" param1="109071" param2="done" />
+	</CONDITIONS>
+	<CONDITIONS id="1090915" comment="괘씸한 놈! - 마젠타 다이얼로그 진행조건">
+		<CONDITION type="quest" param1="109091" param2="exist" />
+		<CONDITION type="quest" param1="109091" param2="notcomplete" />
+	</CONDITIONS>  
+	<CONDITIONS id="1090920" comment="장비 지급 - 시작 조건">
+		<CONDITION type="quest" param1="109071" param2="done" />
+	</CONDITIONS>  
+	<CONDITIONS id="1090921" comment="장비 지급 - 부관 몬트리올과 대화">
+		<CONDITION type="quest" param1="109092" param2="exist" />
+	</CONDITIONS>    
+	<CONDITIONS id="1090930" comment="배신자 처단 - 시작 조건">
+		<CONDITION type="quest" param1="109082" param2="done" />
+		<CONDITION type="quest" param1="109086" param2="done" />
+		<CONDITION type="quest" param1="109091" param2="done" />	
+	</CONDITIONS>  
+
+	<CONDITIONS id="1090940" comment="반격 준비 - 시작 조건">
+		<CONDITION type="quest" param1="109093" param2="done" />
+	</CONDITIONS>  
+	<CONDITIONS id="1090942" comment="배신자 처단 - 옐로 모닥불 상호작용 조건">
+		<CONDITION type="quest" param1="109094" param2="exist" />
+	</CONDITIONS> 
+	<CONDITIONS id="1090943" comment="배신자 처단 - 시안 모닥불 상호작용 조건">
+		<CONDITION type="quest" param1="109094" param2="exist" />
+	</CONDITIONS>  
+	<CONDITIONS id="1090950" comment="모켄의 잔당 - 시작 조건">
+		<CONDITION type="quest" param1="109093" param2="done" />
+	</CONDITIONS>   
+	<CONDITIONS id="1090960" comment="위급 사항 - 시작 조건">
+		<CONDITION type="quest" param1="109094" param2="done" />
+		<CONDITION type="quest" param1="109095" param2="done" />	
+	</CONDITIONS>  -->
+	<CONDITIONS id="1091010" comment="그들의 목적은? - 시작 조건">
+		<OR>
+		<CONDITION type="quest" param1="109019" param2="done" />
+		<CONDITION type="level" param1="4" />
+		</OR>
+	</CONDITIONS>  
+	<CONDITIONS id="1091012" comment="북부 해안으로 가는 조건">
+		<CONDITION type="quest" param1="109019" param2="done" />
+	</CONDITIONS>    
+	<CONDITIONS id="1091013" comment="모튼 기어로 가는 조건">
+		<OR>
+			<AND>
+				<CONDITION type="quest" param1="109019" param2="done" />
+				<CONDITION type="quest" param1="109104" param2="notexist" />	
+			</AND>
+			<CONDITION type="quest" param1="109104" param2="complete" />
+			<CONDITION type="quest" param1="109104" param2="done" />
+		</OR>
+	</CONDITIONS>    
+	<CONDITIONS id="1091020" comment="세력 약화 - 시작 조건">
+		<OR>
+		<CONDITION type="quest" param1="109019" param2="done" />
+		<CONDITION type="level" param1="4" />
+		</OR>
+	</CONDITIONS>
+	<CONDITIONS id="1091030" comment="모켄의 은신처 - 시작 조건">
+		<CONDITION type="quest" param1="109101" param2="done" />
+		<CONDITION type="quest" param1="109102" param2="done" />	
+		<CONDITION type="quest" param1="109105" param2="done" />		
+	</CONDITIONS> 
+	<CONDITIONS id="1091031" comment="모켄의 은신처 - 동굴 진입조건">
+		<CONDITION type="quest" param1="109103" param2="exist" />	
+	</CONDITIONS>    
+	<CONDITIONS id="1091040" comment="모튼 기어 구원 - 시작 조건">
+		<CONDITION type="quest" param1="109103" param2="done" />
+	</CONDITIONS>   
+	<CONDITIONS id="1091041" comment="모튼 기어 구원 - 트라이얼 필드 이동 조건">
+		<CONDITION type="quest" param1="109104" param2="exist" />
+		<CONDITION type="quest" param1="109104" param2="notcomplete" />	
+	</CONDITIONS>    
+	<CONDITIONS id="1091050" comment="벨피노의 보급품 - 시작 조건">
+		<OR>
+		<CONDITION type="quest" param1="109019" param2="done" />
+		<CONDITION type="level" param1="4" />
+		</OR>
+	</CONDITIONS>   
+	<CONDITIONS id="1091051" comment="벨피노의 보급품 - 상자 회수 조건">
+		<CONDITION type="quest" param1="109105" param2="exist" />
+		<CONDITION type="quest" param1="109105" param2="notcomplete" />	
+	</CONDITIONS> 
+	<!--
+	<CONDITIONS id="1091060" comment="되돌릴 수 없는 재앙 - 시작 조건">
+		<CONDITION type="quest" param1="109086" param2="done" />
+	</CONDITIONS>    -->    
+	<CONDITIONS id="1091080" comment="부러진 돛대 모든 퀘스트 완료 후 NPC 대사 조건">
+		<CONDITION type="quest" param1="109104" param2="done" />
+	</CONDITIONS> 
+
+	<CONDITIONS id="1100000" comment="전투 지원 - 시작 조건">
+		<CONDITION type="quest" param1="107090" param2="notexist" />
+		<CONDITION type="level" param1="7" />
+	</CONDITIONS>
+	<CONDITIONS id="1100001" comment="전투 지원 - 진행중">
+		<CONDITION type="quest" param1="110000" param2="exist" />
+	</CONDITIONS>
+	<CONDITIONS id="1100003" comment="전투 지원 - 트라이얼 완료">
+		<CONDITION type="quest_var" param1="110000" param2="3" />
+	</CONDITIONS>
+
+	<CONDITIONS id="1100050" comment="부대원 보급 - 시작 조건">
+		<CONDITION type="level" param1="7" />
+	</CONDITIONS>
+	<CONDITIONS id="1100051" comment="부대원 보급 - 병사 인터렉션 조건">
+		<CONDITION type="item" param1="10013" />
+		<CONDITION type="quest" param1="110005" param2="exist" />
+	</CONDITIONS>
+	<CONDITIONS id="1100059" comment="부대원 보급 - 퀘 완료후 상점 진입 조건">
+		<CONDITION type="quest" param1="110005" param2="done" />
+	</CONDITIONS>
+
+	<CONDITIONS id="1100070" comment="보급방해 - 시작조건">
+		<CONDITION type="quest" param1="110002" param2="done" />
+	</CONDITIONS>
+
+	<CONDITIONS id="1100080" comment="보급부대 공격 - 시작조건">
+		<CONDITION type="quest" param1="110007" param2="done" />
+	</CONDITIONS>
+
+	<CONDITIONS id="1100090" comment="폭탄 가져오기 - 시작조건">
+		<CONDITION type="quest" param1="110008" param2="done" />
+	</CONDITIONS>
+
+	<CONDITIONS id="1100180" comment="구원의 손길 - 시작 조건">
+		<CONDITION type="quest" param1="110003" param2="done" />
+		<CONDITION type="level" param1="10" />	
+	</CONDITIONS>
+	<CONDITIONS id="1100181" comment="구원의 손길 - 퀘 진행중">
+		<CONDITION type="quest" param1="110018" param2="exist" />
+	</CONDITIONS>
+	<CONDITIONS id="1100220" comment="베타 테스터 - 시작 조건">
+		<CONDITION type="quest" param1="110042" param2="done" />
+		<CONDITION type="level" param1="11" />	
+	</CONDITIONS>
+	<CONDITIONS id="1100230" comment="돌파 - 시작 조건">
+		<CONDITION type="quest" param1="110041" param2="done" />
+		<CONDITION type="level" param1="11" />	
+	</CONDITIONS>
+	<CONDITIONS id="1100240" comment="숨바꼭질 - 시작 조건">
+		<CONDITION type="quest" param1="110023" param2="done" />
+		<CONDITION type="level" param1="11" />	
+	</CONDITIONS>
+	<CONDITIONS id="1100241" comment="숨바꼭질 - 망꾼초 인터렉션 조건">
+		<CONDITION type="quest" param1="110024" param2="exist" />
+		<CONDITION type="quest" param1="110024" param2="notcomplete" />
+	</CONDITIONS>
+	<CONDITIONS id="1100250" comment="노동의 결실 - 시작 조건">
+		<CONDITION type="quest" param1="110024" param2="done" />
+		<CONDITION type="level" param1="12" />		
+	</CONDITIONS>
+	<CONDITIONS id="1100260" comment="이공계 기피 현상 - 시작 조건">
+		<CONDITION type="quest" param1="110024" param2="done" />
+		<CONDITION type="level" param1="12" />		
+	</CONDITIONS>
+	<CONDITIONS id="1100261" comment="이공계 기피 현상 - 용해제 없을때">
+		<CONDITION type="quest" param1="110026" param2="exist" />
+		<CONDITION type="noitem" param1="10020" />
+	</CONDITIONS>
+	<CONDITIONS id="1100262" comment="이공계 기피 현상 - 용해제 있을때(무기 대상)">
+		<CONDITION type="quest" param1="110026" param2="exist" />
+		<CONDITION type="item" param1="10020" />
+	</CONDITIONS>  
+	<CONDITIONS id="1100280" comment="고블린 골렘 - 시작 조건">
+		<CONDITION type="quest" param1="110026" param2="done" />
+		<CONDITION type="level" param1="12" />		
+	</CONDITIONS>
+	<CONDITIONS id="1100290" comment="고블린 골렘의 설계도 - 시작 조건">
+		<CONDITION type="level" param1="12" />
+		<CONDITION type="quest" param1="110029" param2="notexist" />
+		<CONDITION type="quest" param1="110029" param2="notdone" />
+	</CONDITIONS>
+	<CONDITIONS id="1100330" comment="호의적인 거래3 - 시작 조건">
+		<CONDITION type="quest" param1="110026" param2="done" />
+		<CONDITION type="quest" param1="110032" param2="done" />	
+		<CONDITION type="level" param1="12" />
+	</CONDITIONS>
+	<CONDITIONS id="1100339" comment="호의적인 거래3 - 완료 후 아이템 제작 오픈">
+		<CONDITION type="quest" param1="110033" param2="done" />
+	</CONDITIONS>
+	<CONDITIONS id="1100409" comment="값비싼 대용품 - 완료 후 아이템 제작 오픈">
+		<CONDITION type="quest" param1="110040" param2="done" />
+	</CONDITIONS>  
+	<CONDITIONS id="1110011" comment="숨겨놓은 것 - 진행 중">
+		<CONDITION type="quest" param1="111001" param2="exist" />
+	</CONDITIONS>  
+	<CONDITIONS id="1110020" comment="마력은 마력이오, 조각은 조각이로다 - 시작 조건">
+		<CONDITION type="quest" param1="111001" param2="done" />
+	</CONDITIONS>  
+	<CONDITIONS id="1110030" comment="마력? 지금 그게 문제야? - 시작 조건">
+		<CONDITION type="quest" param1="111002" param2="done" />
+	</CONDITIONS> 
+	<CONDITIONS id="1110031" comment="마력? 지금 그게 문제야? - 진행중">
+		<CONDITION type="quest" param1="111003" param2="exist" />		
+	</CONDITIONS> 	
+	<CONDITIONS id="1110040" comment="조사단의 흔적 - 시작 조건">
+		<CONDITION type="quest" param1="111003" param2="done" />
+	</CONDITIONS> 
+	<CONDITIONS id="1110041" comment="조사단의 흔적 - 진행중">
+		<CONDITION type="quest" param1="111004" param2="exist" />
+		<CONDITION type="quest" param1="111004" param2="notcomplete" />		
+	</CONDITIONS> 	
+	<CONDITIONS id="1110050" comment="마력의 흔적 - 시작 조건">
+		<CONDITION type="quest" param1="111004" param2="done" />
+	</CONDITIONS> 
+	<CONDITIONS id="1110051" comment="마력의 흔적 - 진행 중">
+		<CONDITION type="quest" param1="111005" param2="exist" />
+	</CONDITIONS> 	
+	<CONDITIONS id="1110060" comment="코볼트란 조각(트롤) - 시작 조건">
+		<CONDITION type="quest" param1="111005" param2="done" />
+		<CONDITION type="quest" param1="102013" param2="done" />		
+		<CONDITION type="level" param1="20" />		
+	</CONDITIONS> 
+	<CONDITIONS id="1110062" comment="코볼트란 조각(트롤) - 진행중">
+		<CONDITION type="quest" param1="111006" param2="exist" />
+		<CONDITION type="quest" param1="111006" param2="notcomplete" />		
+		<CONDITION type="quest" param1="102013" param2="done" />
+		<CONDITION type="noitem" param1="10133" />		
+	</CONDITIONS> 	
+	<CONDITIONS id="1110069" comment="코볼트란 조각(트롤) - 완료시 체크">
+		<CONDITION type="quest" param1="111020" param2="done" />		
+	</CONDITIONS> 	
+	<CONDITIONS id="1110070" comment="코볼트란 조각(오우거) - 시작 조건">
+		<CONDITION type="quest" param1="111005" param2="done" />
+		<CONDITION type="quest" param1="102014" param2="done" />		
+		<CONDITION type="level" param1="20" />		
+	</CONDITIONS>
+	<CONDITIONS id="1110072" comment="코볼트란 조각(오우거) - 진행중">
+		<CONDITION type="quest" param1="111007" param2="exist" />
+		<CONDITION type="quest" param1="111007" param2="notcomplete" />			
+		<CONDITION type="quest" param1="102014" param2="done" />	
+		<CONDITION type="noitem" param1="10133" />		
+	</CONDITIONS>
+	<CONDITIONS id="1110079" comment="코볼트란 조각(트롤) - 완료시 체크">
+		<CONDITION type="quest" param1="111020" param2="done" />		
+	</CONDITIONS>  	
+	<CONDITIONS id="1110111" comment="이것도 저것도 다 내꺼야 - 진행중">
+		<CONDITION type="quest" param1="111011" param2="exist" />
+		<CONDITION type="noitem" param1="10136" />		
+	</CONDITIONS> 	
+	<CONDITIONS id="1110130" comment="곰팡내 나는 지루한 것 - 시작 조건">
+		<CONDITION type="quest" param1="111012" param2="done" />
+	</CONDITIONS> 	
+	<CONDITIONS id="1110140" comment="드드드드.. 드래곤!! - 시작 조건">
+		<CONDITION type="quest" param1="111013" param2="done" />
+	</CONDITIONS> 	
+	<CONDITIONS id="1110141" comment="드드드드.. 드래곤!! - 진행중">
+		<CONDITION type="quest" param1="111013" param2="done" />
+	</CONDITIONS> 
+	<CONDITIONS id="1110142" comment="드드드드.. 드래곤!! - 진행중(트롤)">
+		<CONDITION type="quest" param1="111013" param2="done" />
+		<CONDITION type="noitem" param1="10137" />		
+	</CONDITIONS> 
+	<CONDITIONS id="1110143" comment="드드드드.. 드래곤!! - 진행중(오우거)">
+		<CONDITION type="quest" param1="111013" param2="done" />
+		<CONDITION type="noitem" param1="10137" />			
+	</CONDITIONS> 	
+	<CONDITIONS id="1110144" comment="드드드드.. 드래곤!! - 4번째 일지 획득조건">
+		<CONDITION type="quest" param1="111013" param2="done" />
+		<CONDITION type="noitem" param1="10138" />		
+	</CONDITIONS>
+	<CONDITIONS id="1110145" comment="드드드드.. 드래곤!! - 5번째 일지 획득조건">
+		<CONDITION type="quest" param1="111013" param2="done" />
+		<CONDITION type="noitem" param1="10139" />		
+	</CONDITIONS>	
+	<CONDITIONS id="1110150" comment="공포의 마룡 카이저 - 시작 조건">
+		<CONDITION type="quest" param1="111014" param2="done" />
+	</CONDITIONS> 	
+	<CONDITIONS id="1110151" comment="공포의 마룡 카이저 - 진행 중">
+		<CONDITION type="quest" param1="111015" param2="exist" />
+	</CONDITIONS> 	
+	<CONDITIONS id="1110200" comment="조각을 찾는 자 - 시작 조건">
+		<CONDITION type="quest" param1="111005" param2="done" />
+		<CONDITION type="level" param1="20" />		
+	</CONDITIONS>	
+	<CONDITIONS id="1110201" comment="조각을 찾는 자 - 진행 중">
+		<CONDITION type="quest" param1="111020" param2="exist" />
+		<CONDITION type="noitem" param1="10141" />			
+	</CONDITIONS>	
+	<CONDITIONS id="1110209" comment="조각을 찾는 자 - 완료시 체크">
+		<OR>
+			<CONDITION type="quest" param1="111006" param2="done" />		
+			<CONDITION type="quest" param1="111007" param2="done" />		
+		</OR>
+	</CONDITIONS>  	
+	<CONDITIONS id="1110210" comment="마력의 정체 - 시작 조건">
+		<OR>
+			<CONDITION type="quest" param1="111006" param2="done" />
+			<CONDITION type="quest" param1="111007" param2="done" />		
+		</OR>
+		<CONDITION type="quest" param1="111020" param2="done" />		
+	</CONDITIONS> 	
+	<CONDITIONS id="1110212" comment="마력의 정체 - 진행 중">
+		<CONDITION type="quest" param1="111021" param2="exist" />			
+	</CONDITIONS>	
+	<CONDITIONS id="1110220" comment="고대의 마력 - 시작 조건">
+		<OR>
+			<CONDITION type="quest" param1="111021" param2="exist" />
+			<CONDITION type="quest" param1="111021" param2="done" />		
+		</OR>
+	</CONDITIONS> 	
+	<CONDITIONS id="1110230" comment="떠나지 못한 자의 슬픔 - 시작 조건">
+		<OR>
+			<CONDITION type="quest" param1="111021" param2="exist" />
+			<CONDITION type="quest" param1="111021" param2="done" />		
+		</OR>
+	</CONDITIONS> 	
+	<CONDITIONS id="1110231" comment="떠나지 못한 자의 슬픔 - 진행 중">
+		<CONDITION type="quest" param1="111023" param2="exist" />			
+	</CONDITIONS>	
+	<CONDITIONS id="1110240" comment="오염의 원인 - 시작 조건">
+		<CONDITION type="quest" param1="111022" param2="done" />
+	</CONDITIONS> 
+	<CONDITIONS id="1110241" comment="오염의 원인 - 진행 중">
+		<CONDITION type="quest" param1="111024" param2="exist" />			
+	</CONDITIONS>
+	<CONDITIONS id="1110250" comment="샘플 채취 - 시작 조건">
+		<CONDITION type="quest" param1="111024" param2="done" />
+	</CONDITIONS> 
+	<CONDITIONS id="1110251" comment="샘플 채취 - 슈나크의 머리 채집 조건">
+		<CONDITION type="quest" param1="111025" param2="exist" />
+		<CONDITION type="noitem" param1="10145" />			
+	</CONDITIONS> 	
+	<CONDITIONS id="1110260" comment="어떻게 처리해야 하나? - 시작 조건">
+		<CONDITION type="quest" param1="111025" param2="done" />
+	</CONDITIONS> 	
+	<CONDITIONS id="1110261" comment="어떻게 처리해야 하나? - 시작 조건">
+		<CONDITION type="quest" param1="111026" param2="exist" />
+	</CONDITIONS> 			
+	<CONDITIONS id="1110270" comment="반짝이는 것 - 시작 조건">
+		<CONDITION type="quest" param1="111025" param2="done" />
+		<CONDITION type="quest" param1="111041" param2="done" />		
+	</CONDITIONS>		
+	<CONDITIONS id="1110280" comment="마력의 화염 - 시작 조건">
+		<CONDITION type="quest" param1="111027" param2="done" />
+		<CONDITION type="level" param1="21" />		
+	</CONDITIONS> 	
+	<CONDITIONS id="1110282" comment="마력의 화염 - 감정사한테 보석 얻기(1)">
+		<CONDITION type="quest" param1="111028" param2="exist" />
+		<CONDITION type="fewitem" param1="10150" param2="3" />		
+	</CONDITIONS> 
+	<CONDITIONS id="1110283" comment="마력의 화염 - 감정사한테 보석 얻기(2)">
+		<CONDITION type="quest" param1="111028" param2="exist" />
+		<CONDITION type="manyitem" param1="10150" param2="3" />		
+	</CONDITIONS> 	
+	<CONDITIONS id="1110300" comment="특별한 망치 타루 - 시작 조건">
+		<CONDITION type="quest" param1="111028" param2="done" />
+	</CONDITIONS>
+	<CONDITIONS id="1110310" comment="암호 해독 - 시작 조건">
+		<CONDITION type="quest" param1="111030" param2="done" />
+	</CONDITIONS>
+	<CONDITIONS id="1110330" comment="마코트 해방 전쟁 - 시작 조건">
+		<CONDITION type="quest" param1="111032" param2="done" />
+	</CONDITIONS> 	
+	<CONDITIONS id="1110331" comment="마코트 해방 전쟁 - 진행 중">
+		<CONDITION type="quest" param1="111033" param2="exist" />
+	</CONDITIONS> 	
+	<CONDITIONS id="1110340" comment="쉽지 않은 상황 - 시작 조건">
+		<CONDITION type="quest" param1="111033" param2="done" />
+	</CONDITIONS> 	
+	<CONDITIONS id="1110341" comment="쉽지 않은 상황 - 진행 중">
+		<CONDITION type="quest" param1="111034" param2="exist" />
+	</CONDITIONS> 		
+	<CONDITIONS id="1110350" comment="르왕키의 잔재 - 시작 조건">
+		<CONDITION type="quest" param1="111033" param2="done" />
+	</CONDITIONS>	
+	<CONDITIONS id="1110400" comment="주술의 토템 - 시작 조건">
+		<CONDITION type="quest" param1="111021" param2="done" />
+	</CONDITIONS> 	
+	<CONDITIONS id="1110410" comment="고대의 유물 - 시작 조건">
+		<CONDITION type="quest" param1="111021" param2="done" />
+	</CONDITIONS>
+	<CONDITIONS id="1110411" comment="고대의 유물 - 금속판 등장 조건">
+		<OR>
+			<CONDITION type="quest" param1="111041" param2="done" />
+			<AND>
+				<CONDITION type="quest" param1="111041" param2="exist" />
+				<CONDITION type="quest" param1="111041" param2="notcomplete" />
+			</AND>
+		</OR>
+	</CONDITIONS> 
+	<CONDITIONS id="1110412" comment="고대의 유물 - 진행 중">
+		<CONDITION type="quest" param1="111041" param2="exist" />			
+		<CONDITION type="quest" param1="111041" param2="notcomplete" />		
+	</CONDITIONS>	
+	<CONDITIONS id="1110450" comment="마지막 조각...일까? - 시작 조건">
+		<CONDITION type="quest" param1="111031" param2="done" />
+	</CONDITIONS> 	
+	<CONDITIONS id="1110460" comment="드래곤을 불태워라 - 시작 조건">
+		<CONDITION type="quest" param1="111033" param2="done" />
+	</CONDITIONS> 	
+	<CONDITIONS id="1110461" comment="드래곤을 불태워라 - 진행 중">
+		<CONDITION type="quest" param1="111046" param2="exist" />
+	</CONDITIONS> 		
+  
+	<CONDITIONS id="1130200" comment="꽃의 왕 - 시작 조건">
+		<CONDITION type="level" param1="14" />  
+		<OR>
+			<CONDITION type="quest" param1="113095" param2="done" />
+			<CONDITION type="quest" param1="113096" param2="done" />
+			<CONDITION type="quest" param1="113097" param2="done" />	  
+		</OR>
+	</CONDITIONS>   
+
+	<CONDITIONS id="1130201" comment="꽃의 왕 - 진행 중">
+		<CONDITION type="quest" param1="113020" param2="exist" />
+	</CONDITIONS>    
+
+	<CONDITIONS id="1130500" comment="시더의 화살 - 시작 조건">
+		<OR>
+			<CONDITION type="quest" param1="113110" param2="done" />
+			<CONDITION type="quest" param1="113111" param2="done" />	
+		</OR>
+	</CONDITIONS>
+
+	<CONDITIONS id="1130600" comment="의문의 시체 - 시작 조건">
+		<CONDITION type="level" param1="12" />
+		<OR>
+			<AND>
+				<CONDITION type="quest" param1="113061" param2="notexist" />
+				<CONDITION type="quest" param1="113062" param2="notexist" />
+				<CONDITION type="quest" param1="113063" param2="notexist" />
+			</AND>
+			<CONDITION type="quest" param1="113061" param2="done" />
+			<CONDITION type="quest" param1="113062" param2="done" />
+			<CONDITION type="quest" param1="113063" param2="done" />	  
+		</OR>
+	</CONDITIONS>
+	
+	<CONDITIONS id="1130610" comment="말라버린 시체 - 시작 조건">
+		<CONDITION type="quest" param1="113060" param2="notexist" />
+		<CONDITION type="quest" param1="113060" param2="notdone" />	
+		<CONDITION type="quest" param1="113062" param2="notexist" />
+		<CONDITION type="quest" param1="113062" param2="notdone" />		
+		<CONDITION type="quest" param1="113063" param2="notexist" />
+		<CONDITION type="quest" param1="113063" param2="notdone" />		
+	</CONDITIONS>
+	<CONDITIONS id="1130620" comment="말라버린 시체 - 시작 조건">
+		<CONDITION type="quest" param1="113060" param2="notexist" />
+		<CONDITION type="quest" param1="113060" param2="notdone" />	
+		<CONDITION type="quest" param1="113061" param2="notexist" />
+		<CONDITION type="quest" param1="113061" param2="notdone" />		
+		<CONDITION type="quest" param1="113063" param2="notexist" />
+		<CONDITION type="quest" param1="113063" param2="notdone" />	
+	</CONDITIONS>  
+	<CONDITIONS id="1130630" comment="기이한 마을 - 시작 조건">
+		<CONDITION type="quest" param1="113060" param2="notexist" />
+		<CONDITION type="quest" param1="113060" param2="notdone" />	
+		<CONDITION type="quest" param1="113061" param2="notexist" />
+		<CONDITION type="quest" param1="113061" param2="notdone" />		
+		<CONDITION type="quest" param1="113062" param2="notexist" />
+		<CONDITION type="quest" param1="113062" param2="notdone" />		
+	</CONDITIONS>
+ 
+	<CONDITIONS id="1130700" comment="오래된 단검 - 시작 조건">
+		<CONDITION type="quest" param1="113060" param2="done" />
+	</CONDITIONS>    
+	<CONDITIONS id="1130710" comment="추출의 의식 - 시작 조건">
+		<CONDITION type="level" param1="12" />  
+		<CONDITION type="quest" param1="113070" param2="done" />
+	</CONDITIONS>  
+	<CONDITIONS id="1130720" comment="소모의 의식 - 시작 조건">
+		<CONDITION type="level" param1="12" />  
+		<CONDITION type="quest" param1="113070" param2="done" />
+	</CONDITIONS>   
+	<CONDITIONS id="1130721" comment="소모의 의식 - 비석 인터렉션 조건"> 
+		<CONDITION type="quest" param1="113072" param2="exist" />
+	</CONDITIONS>   
+	<CONDITIONS id="1130730" comment="능력 밖의 일 - 시작 조건">
+		<CONDITION type="quest" param1="113071" param2="done" /> 
+		<CONDITION type="quest" param1="113072" param2="done" />
+	</CONDITIONS> 
+	<CONDITIONS id="1130731" comment="능력 밖의 일 - 진행 중">
+		<CONDITION type="quest" param1="113073" param2="exist" /> 
+		<CONDITION type="quest" param1="113073" param2="notcomplete" />
+	</CONDITIONS>
+	<CONDITIONS id="1130740" comment="실험재료 - 시작 조건">
+		<CONDITION type="level" param1="12" />   
+	<OR>
+		<CONDITION type="quest" param1="113127" param2="exist" />
+		<CONDITION type="quest" param1="113127" param2="done" />	
+	</OR>
+	</CONDITIONS>
+	<CONDITIONS id="1130800" comment="아이젠트 트리어 - 시작 조건">
+		<CONDITION type="quest" param1="113073" param2="done" /> 
+	</CONDITIONS>    
+	<CONDITIONS id="1130810" comment="과거의 원한 - 시작 조건">
+		<CONDITION type="quest" param1="113073" param2="done" /> 
+	</CONDITIONS> 
+	<CONDITIONS id="1130820" comment="그래스라이더 - 시작 조건">
+		<CONDITION type="quest" param1="113073" param2="done" /> 
+	</CONDITIONS> 
+	<CONDITIONS id="1130830" comment="2개의 영혼을 가진 사람 - 시작 조건">
+		<CONDITION type="quest" param1="113081" param2="done" /> 
+		<CONDITION type="quest" param1="113082" param2="done" />	
+	</CONDITIONS>   
+	<CONDITIONS id="1130840" comment="광휘의 목걸이 - 시작 조건">
+		<CONDITION type="quest" param1="113083" param2="done" /> 
+	</CONDITIONS> 
+	<CONDITIONS id="1130850" comment="성검 벼르기 - 시작 조건">
+		<CONDITION type="quest" param1="113128" param2="done" /> 
+	</CONDITIONS> 
+	<CONDITIONS id="1130855" comment="영혼의 구슬 첫번째 리필 : 성검 벼르기 - 완료하지 않고 아이템이 없다.">
+		<CONDITION type="quest" param1="113073" param2="done" />   
+		<CONDITION type="quest" param1="113085" param2="notdone" /> 
+		<CONDITION type="noitem" param1="10098" /> 	
+	</CONDITIONS>      
+	<CONDITIONS id="1130900" comment="지겨운 녀석들 - 시작 조건">
+		<CONDITION type="quest" param1="113084" param2="done" /> 	
+	</CONDITIONS>   
+	<CONDITIONS id="1130901" comment="지겨운 녀석들 - 시작 조건">
+		<CONDITION type="equip" param1="68011" />  	
+	</CONDITIONS>    
+	<CONDITIONS id="1130904" comment="지겨운 녀석들 - 베스피오단 상징이 없을 때">
+		<CONDITION type="noitem" param1="68011" />  	
+	</CONDITIONS>    
+	<CONDITIONS id="1130910" comment="거대 줄기 - 시작 조건">
+		<CONDITION type="quest" param1="113083" param2="done" />  
+		<CONDITION type="quest" param1="113085" param2="done" /> 	
+	</CONDITIONS>  
+	<CONDITIONS id="1130911" comment="거대 줄기 - 진행 중">
+		<CONDITION type="quest" param1="113091" param2="exist" /> 	
+	</CONDITIONS>   
+	<CONDITIONS id="1130920" comment="뭔가 이상해 - 시작 조건">
+		<CONDITION type="equip" param1="68011" />  	
+	</CONDITIONS> 
+	<CONDITIONS id="1130930" comment="연락 두절 - 시작 조건">
+		<CONDITION type="equip" param1="68011" />  	
+	</CONDITIONS>   
+	<CONDITIONS id="1130940" comment="구출 - 시작 조건">
+		<CONDITION type="quest" param1="113093" param2="done" /> 		
+	</CONDITIONS>  
+	<CONDITIONS id="1130941" comment="구출 - 진행중">
+		<CONDITION type="quest" param1="113094" param2="exist" /> 	
+	</CONDITIONS>    
+	<CONDITIONS id="1130950" comment="수수께끼의 마력 - 시작 조건">
+		<CONDITION type="quest" param1="113091" param2="done" /> 	
+	</CONDITIONS>  
+	<CONDITIONS id="1130960" comment="게리온의 일기 - 시작 조건">
+		<CONDITION type="level" param1="13" /> 	
+	</CONDITIONS> 
+	<CONDITIONS id="1130970" comment="넌 여기 있으면 안돼 - 시작 조건">
+		<CONDITION type="quest" param1="113092" param2="done" /> 	
+	</CONDITIONS>   
+	<CONDITIONS id="1131010" comment="마력 주입 - 시작 조건">
+		<CONDITION type="quest" param1="113095" param2="done" /> 	
+	</CONDITIONS>  
+	<CONDITIONS id="1131015" comment="영혼의 구슬 두번째 리필 : 마력 주입 - 완료하지 않고 아이템이 없다.">
+		<CONDITION type="quest" param1="113085" param2="done" />   
+		<CONDITION type="quest" param1="113101" param2="notdone" /> 
+		<CONDITION type="noitem" param1="10109" /> 	
+	</CONDITIONS>   
+	<CONDITIONS id="1131020" comment="동료 구출 - 시작 조건">
+		<CONDITION type="quest" param1="113095" param2="done" /> 	
+	</CONDITIONS> 
+	<CONDITIONS id="1131021" comment="동료 구출 - 진행 중">
+		<CONDITION type="quest" param1="113102" param2="exist" /> 	
+	</CONDITIONS>   
+	<CONDITIONS id="1131030" comment="화원 정화 - 시작 조건">
+		<CONDITION type="quest" param1="113097" param2="done" />
+		<CONDITION type="quest" param1="113096" param2="done" />
+	</CONDITIONS>  
+	<CONDITIONS id="1131100" comment="아이젠트 트리어의 성물 - 시작 조건">
+		<CONDITION type="quest" param1="113101" param2="done" /> 	
+	</CONDITIONS>  
+	<CONDITIONS id="1131101" comment="아이젠트 트리어의 성물 - 트라이얼 필드 진입 조건">
+		<CONDITION type="quest" param1="113110" param2="exist" /> 	
+	</CONDITIONS>    
+	<CONDITIONS id="1131110" comment="두목을 구출하라 - 시작 조건">
+		<CONDITION type="quest" param1="113103" param2="done" /> 		
+	</CONDITIONS> 
+	<CONDITIONS id="1131115" comment="베스피오단 상징 - 지급 조건">
+		<CONDITION type="quest" param1="113090" param2="done" />   
+		<CONDITION type="quest" param1="113111" param2="notdone" /> 		
+		<CONDITION type="noitem" param1="68011" /> 		
+	</CONDITIONS>   
+	<CONDITIONS id="1131120" comment="죽고 싶지 않아 - 시작 조건">
+		<CONDITION type="quest" param1="113101" param2="done" /> 	
+	</CONDITIONS>   
+	<CONDITIONS id="1131121" comment="죽고 싶지 않아 - 진행 중">
+		<CONDITION type="quest" param1="113112" param2="exist" /> 	
+	</CONDITIONS>   
+	<CONDITIONS id="1131130" comment="단 한번의 기회 - 시작 조건">
+		<CONDITION type="quest" param1="113110" param2="done" /> 	
+	</CONDITIONS> 
+	<CONDITIONS id="1131132" comment="단 한번의 기회 - 항아리 등장 조건">
+		<CONDITION type="quest" param1="113113" param2="exist" /> 	
+		<CONDITION type="quest" param1="113113" param2="notcomplete" /> 	
+	</CONDITIONS>       
+	<CONDITIONS id="1131150" comment="만넬로스... 만넬로스 - 시작 조건">
+		<CONDITION type="quest" param1="113110" param2="done" /> 	
+	</CONDITIONS>  
+	<CONDITIONS id="1131160" comment="사건의 전말 - 시작 조건">
+		<CONDITION type="quest" param1="113115" param2="done" /> 	
+	</CONDITIONS>    
+	<CONDITIONS id="1131201" comment="암흑 안개 숲 - 진행 중">
+		<CONDITION type="quest" param1="113120" param2="exist" /> 	
+	</CONDITIONS>
+	<CONDITIONS id="1131230" comment="트롤에 불을 질러라 - 시작조건">
+		<CONDITION type="quest" param1="113116" param2="done" />
+	</CONDITIONS>
+	<CONDITIONS id="1131231" comment="트롤에 불을 질러라 - 진행 중">
+		<CONDITION type="quest" param1="113123" param2="exist" /> 	
+	</CONDITIONS>    
+	<CONDITIONS id="1131250" comment="음모의 단체 - 시작 조건">
+		<CONDITION type="quest" param1="113123" param2="done" /> 	
+	</CONDITIONS>
+	<CONDITIONS id="1131260" comment="무기의 조건 - 시작 조건">
+		<CONDITION type="quest" param1="113080" param2="done" />
+	</CONDITIONS>
+	<CONDITIONS id="1131270" comment="뼈와 심장 - 시작 조건">
+		<CONDITION type="quest" param1="113126" param2="done" />
+	</CONDITIONS>
+	<CONDITIONS id="1131280" comment="마력의 핵 - 시작 조건">
+		<CONDITION type="quest" param1="113127" param2="done" />
+	</CONDITIONS>
+  
+	<CONDITIONS id="1210000" comment="장미의 문 열쇠">
+		<CONDITION type="item" param1="10199" />
+	</CONDITIONS>
+	<CONDITIONS id="1210001" comment="장미의 문 열쇠">
+		<CONDITION type="noitem" param1="10199" />
+	</CONDITIONS>
+
+	<CONDITIONS id="1210002" comment="백합의 문 열쇠">
+		<CONDITION type="item" param1="10200" />
+	</CONDITIONS>
+	<CONDITIONS id="1210003" comment="백합의 문 열쇠">
+		<CONDITION type="noitem" param1="10200" />
+	</CONDITIONS>
+
+	<CONDITIONS id="1210004" comment="국화의 문 열쇠">
+		<CONDITION type="item" param1="10201" />
+	</CONDITIONS>
+	<CONDITIONS id="1210005" comment="국화의 문 열쇠">
+		<CONDITION type="noitem" param1="10201" />
+	</CONDITIONS>
+
+	<CONDITIONS id="1210010" comment="오염된 화원 진입조건">
+		<CONDITION type="quest" param1="113020" param2="exist" />
+	</CONDITIONS>
+
+	<CONDITIONS id="1210011" comment="오염된 화원 상층 진입조건">
+		<CONDITION type="kill" param1="121009"  />
+	</CONDITIONS>
+
+	<CONDITIONS id="5120004" comment="납골당 진입조건">
+		<CONDITION type="quest" param1="113050" param2="exist" />
+	</CONDITIONS>
+
+	<CONDITIONS id="5120005" comment="납골당 진입 불가시 조건">
+		<CONDITION type="quest" param1="113050" param2="notexist" />
+	</CONDITIONS>
+
+	<CONDITIONS id="5000000" comment="배달 퀘스트의 var가 0이고, 배달_아이템1을 가지고 있을때">
+		<CONDITION type="quest_var" param1="5000000" param2="0" />
+		<CONDITION type="item" param1="5000000" />
+	</CONDITIONS>
+	<CONDITIONS id="5000001" comment="배달 퀘스트의 var가 1이고, 배달_아이템2를 가지고 있을때">
+		<CONDITION type="quest_var" param1="5000000" param2="1" />
+		<CONDITION type="item" param1="5000001" />
+	</CONDITIONS>
+
+	<CONDITIONS id="5000110" comment="호위 퀘스트의 2번 목적을 완료하지 않았을때">
+		<CONDITION type="quest_objective_incomplete" param1="5000110" param2="2" />
+	</CONDITIONS>
+
+	<!-- 퀘스트 테스트용 : 당분간 사용하지 않는다
+	<CONDITIONS id="5000902" comment="loot테스트 / 퀘스트 받았을 때만">
+		<CONDITION type="quest" param1="5000902" param2="exist" />
+	</CONDITIONS>
+
+	<CONDITIONS id="5000903" comment="INTERACT테스트 / 퀘스트 받았을 때만">
+		<CONDITION type="quest" param1="5000903" param2="exist" />
+	</CONDITIONS>
+
+	<CONDITIONS id="5000904" comment="ACT테스트 / 퀘스트 받았을 때만">
+		<CONDITION type="quest" param1="5000904" param2="exist" />
+	</CONDITIONS>
+	-->
+ 
+	<CONDITIONS id="1000" comment="무모한 도전 - 시작 조건">
+		<CONDITION type="quest" param1="107053" param2="done" />
+	</CONDITIONS>
+
+	<CONDITIONS id="1001" comment="도전자 퀘스트 - 처치: 테레시스">
+		<CONDITION type="quest" param1="107088" param2="done" />
+	</CONDITIONS>
+	<CONDITIONS id="99900230" comment="도전자 퀘스트 - 처치: 테레시스 를 위한 트라이얼 필드 입장 조건 ">
+		<CONDITION type="quest" param1="999102" param2="exist" />
+		<AND>
+			<CONDITION type="quest" param1="999102" param2="notcomplete" />
+		</AND>
+	</CONDITIONS>
+	<CONDITIONS id="99900231" comment="도전자 퀘스트 - 처치: 테레시스 를 위한 트라이얼 필드 입장 조건 ">
+		<CONDITION type="quest" param1="999102" param2="done" />
+	</CONDITIONS>
+
+  
+	<CONDITIONS id="1002" comment="도전자 퀘스트 - 처치: 플릿풋">
+		<CONDITION type="quest" param1="107053" param2="done" />
+	</CONDITIONS>
+	<CONDITIONS id="99900232" comment="도전자 퀘스트 - 처치: 플릿풋을 위한 트라이얼 필드 입장 조건 ">
+		<CONDITION type="quest" param1="999103" param2="exist" />
+		<AND>
+			<CONDITION type="quest" param1="999103" param2="notcomplete" />
+		</AND>
+	</CONDITIONS>
+ 
+	<CONDITIONS id="99900233" comment="도전자 퀘스트 - 처치: 플릿풋을 위한 트라이얼 필드 입장 조건 ">
+		<CONDITION type="quest" param1="999103" param2="done" />
+	</CONDITIONS>
+  
+	<CONDITIONS id="1003" comment="도전자 퀘스트 - 처치: 보르고">
+		<CONDITION type="quest" param1="110000"  param2="done"/>
+	</CONDITIONS>
+	<CONDITIONS id="99900234" comment="도전자 퀘스트 - 처치: 보르고 위한 트라이얼 필드 입장 조건 ">
+		<CONDITION type="quest" param1="999104" param2="exist" />
+		<AND>
+			<CONDITION type="quest" param1="999104" param2="notcomplete" />
+		</AND>
+	</CONDITIONS>
+	<CONDITIONS id="99900235" comment="도전자 퀘스트 - 처치: 보르고 위한 트라이얼 필드 입장 조건 ">
+		<CONDITION type="quest" param1="999104" param2="done" />
+	</CONDITIONS>
+
+	<CONDITIONS id="1004" comment="도전자 퀘스트 - 처치: 고블린 골렘">
+		<CONDITION type="quest" param1="110028" param2="done" />
+	</CONDITIONS>
+	<CONDITIONS id="99900236" comment="도전자 퀘스트 - 처치: 고블린 골렘 위한 트라이얼 필드 입장 조건 ">
+		<CONDITION type="quest" param1="999105" param2="exist" />
+		<AND>
+			<CONDITION type="quest" param1="999105" param2="notcomplete" />
+		</AND>
+	</CONDITIONS>
+	<CONDITIONS id="99900237" comment="도전자 퀘스트 - 처치: 고블린 골렘 위한 트라이얼 필드 입장 조건 ">
+		<CONDITION type="quest" param1="999105" param2="done" />
+	</CONDITIONS>
+
+	<CONDITIONS id="1006" comment="도전자 퀘스트 - 처치: 크라울러">
+		<CONDITION type="quest" param1="109104" param2="done" />
+	</CONDITIONS>
+	<CONDITIONS id="99900238" comment="도전자 퀘스트 - 처치: 크라울러 를 위한 트라이얼 필드 입장 조건 ">
+		<CONDITION type="quest" param1="999101" param2="exist" />
+		<AND>
+			<CONDITION type="quest" param1="999101" param2="notcomplete" />
+		</AND>
+	</CONDITIONS>
+	<CONDITIONS id="99900239" comment="도전자 퀘스트 - 처치: 크라울러 를 위한 트라이얼 필드 입장 조건 ">
+		<CONDITION type="quest" param1="999101" param2="done" />
+	</CONDITIONS>
+
+	<CONDITIONS id="1007" comment="도전자 퀘스트 - 처치: 타일런트 좀비">
+		<CONDITION type="kill" param1="113083" />
+	</CONDITIONS>
+	<CONDITIONS id="9991071" comment="도전자 퀘스트 - 처치: 타일런트 좀비를 위한 트라이얼 필드 입장 조건 ">
+		<CONDITION type="quest" param1="999107" param2="exist" />
+		<AND>
+			<CONDITION type="quest" param1="999107" param2="notcomplete" />
+		</AND>
+	</CONDITIONS>
+	<CONDITIONS id="9991072" comment="도전자 퀘스트 - 처치: 타일런트 좀비를 위한 트라이얼 필드 입장 조건 ">
+		<CONDITION type="quest" param1="999107" param2="done" />
+	</CONDITIONS>
+
+
+	<CONDITIONS id="1013" comment="도전자 퀘스트 - 처치: 샤디즈">
+		<CONDITION type="quest" param1="102040"  param2="done" />
+	</CONDITIONS>
+	<CONDITIONS id="9991131" comment="도전자 퀘스트 - 처치: 샤디즈 위한 트라이얼 필드 입장 조건 ">
+		<CONDITION type="quest" param1="999113" param2="exist" />
+		<AND>
+			<CONDITION type="quest" param1="999113" param2="notcomplete" />
+		</AND>
+		</CONDITIONS>
+	<CONDITIONS id="9991132" comment="도전자 퀘스트 - 처치: 샤디즈 위한 트라이얼 필드 입장 조건 ">
+		<CONDITION type="quest" param1="999113" param2="done" />
+	</CONDITIONS>
+
+	<!-- 지스타 -->
+	<CONDITIONS id="8891011" comment="전투 지원 - 진행중">
+		<CONDITION type="quest" param1="889101" param2="exist" />
+	</CONDITIONS>
+	<CONDITIONS id="8891019" comment="전투 지원 - 트라이얼 완료">
+		<CONDITION type="quest_var" param1="889101" param2="3" />
+	</CONDITIONS>
+	
+</maiet>

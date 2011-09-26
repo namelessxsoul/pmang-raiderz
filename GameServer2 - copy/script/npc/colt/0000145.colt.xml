@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<maiet>
+	<COLT name="파이팅더미">
+		<COMBAT>
+			<DEFAULT>	
+				<ACTION type="nothing" param1="0.5" rate="40" cycle="6"/>
+				<ACTION type="nothing" param1="0.5" rate="40" cycle="6"/>
+				
+				<ACTION type="talent" param1="214501" rate="20" />
+				<ACTION type="talent" param1="214502" rate="20" />
+				<ACTION type="talent" param1="214504" rate="10" />
+			</DEFAULT>
+			
+			<CHECK type="distance" param1="300" param2="400" >
+				<ACTION type="nothing" param1="0.5" rate="40" cycle="6"/>
+				<ACTION type="nothing" param1="0.5" rate="40" cycle="6"/>
+
+				<ACTION type="lua" param1="ApproachLeft" rate="20" />
+				<ACTION type="lua" param1="ApproachRight" rate="20" />
+				<ACTION type="talent" param1="214505" rate="20" />
+			</CHECK>
+			
+			<CHECK type="distance" param1="400" >
+				<ACTION type="distance" param1="300" param2="350" rate="90" />
+				<ACTION type="nothing" param1="1" rate="10"/>
+			</CHECK>
+			
+			<CHECK type="distance" param2="200">
+				<CHECK type="rage" param1="40" >
+					<ACTION type="talent" param1="214507" rate="10" />  <!-- 회피 L -->
+					<ACTION type="talent" param1="214508" rate="10" />  <!-- 회피 R -->
+				</CHECK>
+			</CHECK>
+		</COMBAT>
+		
+	</COLT>
+	<SCRIPT><![CDATA[
+
+	]]></SCRIPT>
+</maiet>

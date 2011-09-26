@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<!-- 어미 거미 -->
+<maiet>
+	<COLT>
+		<COMBAT victory="200305801">
+			<DEFAULT>
+				<ACTION type="talent" param1="200305801" auto_run="true" max_count="1" />
+				<ACTION type="talent" param1="200305802" rate="50" />
+				<ACTION type="talent" param1="200305801" rate="30" cycle="5" />
+				<!--<ACTION type="lua" param1="NPC_3058_SpAtk" rate="50" />-->
+			</DEFAULT>
+		</COMBAT>
+		
+  		<REACTION>
+		</REACTION>
+
+		<IDLE>
+		</IDLE>
+	</COLT>
+</maiet>

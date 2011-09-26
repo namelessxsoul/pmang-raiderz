@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<maiet>
+	<COLT> <!-- 폭탄 샘플-->
+		<COMBAT >
+			<DEFAULT>
+				<ACTION type="talent" param1="200611" rate="40" />
+				<ACTION type="talent" param1="200612" rate="60" />
+			</DEFAULT>
+
+			<CHECK type="hp" param2="30">
+				<ACTION type="talent" param1="200613" auto_run="true" />
+			</CHECK>
+		</COMBAT>
+		<!--
+		<REACTION>
+			<CHECK type="Damage"  param1="normal" param2="0">
+				<ACTION type="link" param1="1" />
+			</CHECK>	
+		</REACTION>
+		-->
+	</COLT>
+</maiet>
+

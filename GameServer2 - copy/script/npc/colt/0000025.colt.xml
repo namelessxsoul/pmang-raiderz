@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- 코볼드 대족장 샘플. 샘플샘플샘플~ -->
+<maiet>
+	<SCRIPT>
+<![CDATA[
+
+function NPC_25:Init(NPCID)
+	
+end
+
+function NPC_25:OnYell(RequestNPC, TargetActor)
+	this:Assist(RequestNPC);
+end
+
+]]>
+	</SCRIPT>
+	<COLT>
+		<COMBAT >
+			<DEFAULT>
+				<ACTION type="yell" auto_run="true" max_count="1" />
+				<ACTION type="talent" param1="200251" rate="60" />
+				<ACTION type="talent" param1="200253" rate="20" />
+				<ACTION type="guard"  param1="200259" param2="3" rate="20" />
+			</DEFAULT>
+			
+	
+			<CHECK type="e_motionfactor" param1="knockback">
+				<ACTION type="talent" param1="200251" rate="30" />
+				<ACTION type="talent" param1="200253" rate="30" />
+				<ACTION type="talent" param1="200255" rate="60" />
+			</CHECK>
+			
+			<CHECK type="e_motionfactor" param1="deflect">
+				<ACTION type="talent" param1="200252" rate="20" />
+				<ACTION type="talent" param1="200253" rate="20" />
+				<ACTION type="talent" param1="200255" rate="70" />
+			</CHECK>
+			
+
+			<CHECK type="e_motionfactor" param1="beaten">
+				<ACTION type="talent" param1="200251" rate="20" />
+				<ACTION type="talent" param1="200252" rate="20" />
+				<ACTION type="talent" param1="200253" rate="20" />
+				<ACTION type="talent" param1="200254" rate="10" />
+			</CHECK>
+
+			<CHECK type="hp" param1="41" param2="70">
+				<ACTION type="talent" param1="200251" rate="30" />
+				<ACTION type="talent" param1="200252" rate="30" />
+				<ACTION type="talent" param1="200253" rate="20" />
+				<ACTION type="guard"  param1="200259" param2="2" rate="20" />
+			</CHECK>
+			<CHECK type="hp" param1="1" param2="40">
+				<ACTION type="talent" param1="200251" rate="20" />
+				<ACTION type="talent" param1="200252" rate="20" />
+				<ACTION type="talent" param1="200253" rate="20" />
+				<ACTION type="talent" param1="200254" rate="20" />
+				<ACTION type="guard"  param1="200259" param2="2" rate="20" />
+			</CHECK>
+		</COMBAT>
+		<REACTION>
+			<CHECK type="unbreakpart" param1="1" >
+				<CHECK type="hp" param2="30">
+					<CHECK type="motionfactor"  param1="knockback">
+						<ACTION type="breakpart" param1="1"/>
+					</CHECK>
+				</CHECK>
+			</CHECK>
+		</REACTION>
+		<IDLE>
+			<DEFAULT>
+				<ACTION type="talent" param1="200245" rate="30" />
+				<ACTION type="talent" param1="200246" rate="20" />
+				<ACTION type="nothing" param1="1000" rate="50" />
+			</DEFAULT>
+		</IDLE>
+	</COLT>
+</maiet>

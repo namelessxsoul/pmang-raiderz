@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet href="./colt.xsl" type="text/xsl"?>
+<maiet>
+	<COLT name="박쥐 여왕">
+		<COMBAT > 
+			<DEFAULT>	
+				<ACTION type="talent" param1="211103101" rate="30" desc="일반공격1" />
+				<ACTION type="talent" param1="211103102" rate="40" desc="일반공격2" />
+				<ACTION type="talent" param1="211103103" rate="30" desc="잡기" />
+			</DEFAULT>
+			<CHECK type="hp" param2="50">
+				<ACTION type="talent" param1="211103101" rate="30" desc="일반공격1" />
+				<ACTION type="talent" param1="211103102" rate="40" desc="일반공격2" />
+				<ACTION type="talent" param1="211103104" rate="30" desc="공포의 스크림" />
+			</CHECK>
+		</COMBAT>
+		<IDLE>
+			
+		</IDLE>
+	</COLT>
+	<SCRIPT><![CDATA[
+	
+	]]></SCRIPT>
+</maiet>

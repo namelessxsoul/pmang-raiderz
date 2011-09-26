@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="euc-kr" ?>
+<maiet>
+    <FIELDINFO zone="104" min_x="0" min_y="0" max_x="70000" max_y="70000" instance="false">
+        <Env set="default">
+            <WEATHER default="SUN">
+                <ADD weather="CLD" percent="10" />
+                <ADD weather="RNY" percent="5" />
+                <ADD weather="HRN" percent="5" />
+                <ADD weather="SNW" percent="0" />
+                <ADD weather="HSW" percent="0" />
+                <ADD weather="CLR" percent="10" />
+            </WEATHER>
+        </Env>
+        <MARKER id="1" name="M4_Swamp" x="14298.671875" y="40949.218750" z="-85.154671" dir_x="0.999507" dir_y="0.031411" dir_z="0.000000" random_dir="false" />
+        <MARKER id="2" name="M4_Limos" x="57903.925781" y="11180.871094" z="-293.204865" dir_x="-0.248690" dir_y="0.968583" dir_z="0.000000" random_dir="false" />
+        <MARKER id="3" name="M4_Lans" x="30603.101563" y="62592.183594" z="-482.300415" dir_x="-0.202787" dir_y="-0.979223" dir_z="0.000000" random_dir="false" />
+        <SENSOR id="1" name="S4_Swamp" type="TOUCH" x="5867.519043" y="40945.621094" z="273.064453" radius="7960.000000" enabled="true" />
+        <SENSOR id="2" name="S4_Limos" type="TOUCH" x="58649.558594" y="3799.766113" z="-129.029739" radius="7160.000000" enabled="true" />
+        <SENSOR id="3" name="S4_Lans" type="TOUCH" x="30697.019531" y="68691.890625" z="-404.670776" radius="5760.000000" enabled="true" />
+    </FIELDINFO>
+</maiet>

@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet href="./colt.xsl" type="text/xsl"?>
+<maiet>
+	<COLT name="바스테로" npcid="512000">
+		<PROLOGUE>
+			<DEFAULT>
+				<ACTION type="group" rate="100">
+					<ACTION type="talent" param1="251200040"/>					
+					<ACTION type="talent" param1="251200041"/>					
+				</ACTION>
+			</DEFAULT>
+		</PROLOGUE>	
+		
+		<COMBAT mode="0">
+
+			<DEFAULT>
+				<ACTION type="talent" param1="251200005" rate="10" duration="5"/>
+				<ACTION type="talent" param1="251200006" rate="10" duration="5"/>
+				
+				<ACTION type="lua" param1="NPC_512000" param2="SummonFloatingCorpse" rate="10" />
+			</DEFAULT>
+			
+			<CHECK type="gained_buff" param1="40201">
+					<ACTION type="lua" param1="NPC_512000" param2="GainBuff_Pain" rate="10" />					
+			</CHECK>
+			
+			<CHECK type="hp" param1="0">
+				<ACTION type="group" cycle="30">
+					<ACTION type="aggro" param1="far" param2="0" />
+					<ACTION type="talent" param1="251200020" duration="0" />
+				</ACTION>
+			</CHECK>
+			
+			<CHECK type="hp" param2="70" >
+				<ACTION type="talent" param1="251200030" rate="10" />
+			</CHECK>
+			
+			<CHECK type="distance" param1="800" >
+				<ACTION type="distance" param1="700" param2="700" rate="10"/>
+			</CHECK>
+		</COMBAT>
+		
+		<COMBAT mode="1">
+			<DEFAULT>
+				<ACTION type="talent" param1="251200005" rate="10" />
+				<ACTION type="talent" param1="251200006" rate="10" />
+
+				<ACTION type="talent" param1="251200010" duration="0" rate="10" />
+				<ACTION type="talent" param1="251200011" duration="0" rate="10" />
+				<ACTION type="talent" param1="251200012" duration="0" rate="10" />
+				<ACTION type="talent" param1="251200013" duration="0" rate="10" />
+			</DEFAULT>
+			
+			<CHECK type="gained_buff" param1="40201">
+					<ACTION type="lua" param1="NPC_512000" param2="GainBuff_Pain" rate="10" />					
+			</CHECK>
+			
+			<CHECK type="hp" param1="0">
+				<ACTION type="group" rate="10"  cycle="30">
+					<ACTION type="aggro" param1="far" param2="0" />
+					<ACTION type="talent" param1="251200020" duration="0" />
+				</ACTION>
+			</CHECK>
+			
+			<CHECK type="hp" param2="40" >
+				<ACTION type="talent" param1="251200031" rate="10" />
+			</CHECK>
+						
+			<CHECK type="distance" param1="800" >
+				<ACTION type="distance" param1="700" param2="700" rate="10"/>
+			</CHECK>
+			<CHECK type="distance" param1="400" >
+				<ACTION type="distance" param1="300" param2="300" />
+			</CHECK>
+		</COMBAT>
+		
+		<COMBAT mode="2">
+			<DEFAULT>
+				<ACTION type="talent" param1="251200005" rate="10" />
+				<ACTION type="talent" param1="251200006" rate="10" />
+				
+				<ACTION type="lua" param1="NPC_512000" param2="SummonFloatingCorpse" rate="10" />
+
+				<ACTION type="talent" param1="251200010" duration="0" rate="10" />
+				<ACTION type="talent" param1="251200011" duration="0" rate="10" />
+				<ACTION type="talent" param1="251200012" duration="0" rate="10" />
+				<ACTION type="talent" param1="251200013" duration="0" rate="10" />
+			</DEFAULT>
+			
+			<CHECK type="gained_buff" param1="40201">
+					<ACTION type="lua" param1="NPC_512000" param2="GainBuff_Pain" rate="10" />					
+			</CHECK>
+			
+			<CHECK type="hp" param1="0">
+				<ACTION type="group" rate="10"  cycle="30">
+					<ACTION type="aggro" param1="far" param2="0" />
+					<ACTION type="talent" param1="251200020" duration="0" />
+				</ACTION>
+			</CHECK>
+			
+			<CHECK type="distance" param1="800" >
+				<ACTION type="distance" param1="700" param2="700" rate="10"/>
+			</CHECK>
+			
+			<CHECK type="distance" param1="400" >
+				<ACTION type="distance" param1="300" param2="300" />
+			</CHECK>
+		</COMBAT>
+	
+		<IDLE>
+			<DEFAULT>
+			</DEFAULT>
+		</IDLE>
+	</COLT>
+	
+	<SCRIPT><![CDATA[
+function NPC_512000:Init( NPCID )
+	--[[
+	1: 날아다니는 시체 갯수
+	--]]
+	NPC_ReserveUserData( NPCID, 1 )
+	
+	NPC_512000.BufIdFear1							= 40220  		-- short
+	NPC_512000.BufIdFear2							= 40221  		-- long
+	NPC_512000.BufIdGroundOfDarkness			= 40201
+	
+	NPC_512000.TalIdPain1								= 251200001
+	NPC_512000.TalIdGroundOfDarkness			= 251200020
+	NPC_512000.TalIdCloakOfFear					= 251200022
+	NPC_512000.TalIdBellOfSummon					= 251200007
+	
+	NPC_512000.NpcIdSkillDummy 					= 512003
+	NPC_512000.NpcIdFloatingCorpse		 		= 512004
+	
+	NPC_512000.LimitForBreakShield					= NPC_512000.MaxHP/10
+end
+
+function NPC_512000:OnBPartRecover()
+	this:SetUserData( 1, 0)
+end
+
+-- 소환스킬 전처리
+function NPC_512000:SummonFloatingCorpse( ThisNPC, Enemy )
+	--GLog( "NPC_512000:SummonFloatingCorpse\n")
+	if ThisNPC:IsCooldown( NPC_512000.TalIdBellOfSummon ) then
+		return
+	end
+	
+	if ThisNPC:GetUserData(1) < 2 then
+		ThisNPC:UseTalentSelf( NPC_512000.TalIdBellOfSummon )
+	end
+end
+
+-- 마법진 위에 있을 때 괴로워하기 
+function NPC_512000:GainBuff_Pain( ThisNPC, Enemy )
+	--GLog( "NPC_512000:SummonFloatingCorpse\n")
+		
+	--if ThisNPC:IsCooldown( 251200002 ) then
+	--	return
+	--end	
+	--ThisNPC:ClearJob()	
+	ThisNPC:UseTalentSelf( 251200002 )	
+end
+
+-- 부유하는 시체 소환
+function NPC_512000:OnFinishBellOfSummon( ThisActor, Enemy )
+	local ThisNPC = AsNPC( ThisActor)
+	--GLog( "NPC_512000:OnFinishBellOfSummon\n" )
+	
+	local WorldPos = Math_LocalToWorld( Enemy:GetDir(), Enemy:GetPos(), vec3( math.random(-300,300) , math.random(-300,300) ,0 )  )
+	local Minion = ThisNPC:SummonNow( NPC_512000.NpcIdFloatingCorpse, WorldPos )
+	ThisNPC:SetUserData( 1, ThisNPC:GetUserData(1)+1  )
+	
+	--GLog( "Corpse count = " .. ThisNPC:GetUserData(1) .. "\n" )
+end
+
+function NPC_512000:OnFinishBellOfHellFire1( ThisNPC, Enemy )
+	local Minion = NPC_512000:SpawnHellFire( ThisNPC, Enemy  )
+	Minion:UseTalentSelf( NPC_512003.TalIdRushingQuake1 )
+end
+
+function NPC_512000:OnFinishBellOfHellFire2( ThisNPC, Enemy )
+	local Minion = NPC_512000:SpawnHellFire( ThisNPC, Enemy  )
+	Minion:UseTalentSelf( NPC_512003.TalIdRushingQuake2 )
+end
+
+function NPC_512000:OnFinishBellOfHellFire3( ThisNPC, Enemy )
+	local Minion = NPC_512000:SpawnHellFire( ThisNPC, Enemy  )
+	Minion:UseTalentSelf( NPC_512003.TalIdRushingQuake3 )
+end
+
+function NPC_512000:OnFinishBellOfHellFire4( ThisNPC, Enemy )
+	local Minion = NPC_512000:SpawnHellFire( ThisNPC, Enemy  )
+	Minion:UseTalentSelf( NPC_512003.TalIdRushingQuake4 )
+end
+
+function NPC_512000:SpawnHellFire( ThisNPC, Enemy )
+	local WorldPos = Math_LocalToWorld( Enemy:GetDir(), Enemy:GetPos(), vec3(0,0,0) )
+	return AsNPC(ThisNPC):SummonNow( NPC_512000.NpcIdSkillDummy, WorldPos )
+end
+
+-- 고통의 대지 마법진 표시
+function NPC_512000:SpawnGroundOfDarkness( ThisNPC, Enemy )
+	--GLog( "NPC_512000:SpawnGroundOfDarkness\n" )
+	local WorldPos = Math_LocalToWorld( Enemy:GetDir(), Enemy:GetPos(), vec3( math.random(-700,700) , math.random(-700,700) ,0 ) )
+	local Minion = AsNPC(ThisNPC):SummonNow( NPC_512000.NpcIdSkillDummy, WorldPos )
+	AsNPC(ThisNPC):SetTarget( Minion )
+	Minion:UseTalentSelf( NPC_512003.TalIdGroundOfDarkness )
+	--Minion:UseTalentSelf( NPC_512003.TalIdRealize )	
+	
+end
+
+-- 고통의 대지 탤런트 콜백
+function NPC_512000:OnFinishGroundOfDarkness( ThisNPC, Enemy )
+	--GLog( "NPC_512000:OnFinishGroundOfDarkness\n")
+	NPC_512000:SpawnGroundOfDarkness(ThisNPC, Enemy)
+end
+
+-- 전투시작
+function NPC_512000:OnCombatBegin( )
+	--GLog( "NPC_512000:OnCombatBegin\n" )
+	-- 부유하는 시체 갯수 초기화
+	this:SetUserData( 1, 0 )
+end
+
+--전투종료
+function NPC_512000:OnCombatEnd( )
+end
+
+function NPC_512000:AccDamage( ThisNPC, PartsIdx, HitInfo )
+	if not ThisNPC:CheckBuff( NPC_512000.BufIdGroundOfDarkness ) then
+		HitInfo.Damage = HitInfo.Damage/20		
+	else 
+		HitInfo.Damage = HitInfo.Damage/2
+		--ThisNPC:ClearJob()
+		--ThisNPC:UseTalentSelf( 251200001 )
+	end
+	
+	--GLog( " D : " .. HitInfo.Damage .. "\n" )
+	
+	return HitInfo
+end
+
+function NPC_512000:OnHitCapsule_1_0(HitInfo)
+	return NPC_512000:AccDamage( this, 1, HitInfo )
+end
+
+
+
+	]]></SCRIPT>
+</maiet>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<maiet>
+  <COLT>
+
+    
+    <IDLE>
+    </IDLE>
+
+    
+    <COMBAT >
+
+      <!-- 기본 행동 -->
+      <DEFAULT>
+
+        <!-- 장타 -->
+        <ACTION type="talent" param1="211002" rate="50" duration="3"/>
+
+        <!-- 강베기-->
+        <ACTION type="talent" param1="211005" rate="50" duration="3" cycle="10"/>
+
+        <!-- 대시 -->
+        <ACTION type="group" rate="50" cycle="10">
+          <ACTION type="talent" param1="211006" duration="0"/>
+          <ACTION type="nothing" param1="0.2" duration="0"/>
+        </ACTION>
+
+      </DEFAULT>
+
+
+      <CHECK type="distance" param2="200">
+
+        <!-- 잡아 던지기 -->
+        <ACTION type="talent" param1="211015" rate="50" duration="5" cycle="10"/>
+
+      </CHECK>
+
+    </COMBAT>
+    
+    <REACTION>
+    </REACTION>
+
+  </COLT>
+</maiet>

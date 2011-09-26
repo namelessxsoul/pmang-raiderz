@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<!-- 리치 네크로맨서 샘플  -->
+<maiet>
+	<COLT>
+		<COMBAT>
+			<DEFAULT>			
+				<ACTION type="talent" param1="212003" rate="100" />
+			</DEFAULT>						
+			<CHECK type="distance" param1="0" param2="600">		
+				<ACTION type="talent" param1="212001" rate="15" />
+				<ACTION type="talent" param1="212002" rate="15" />
+				<ACTION type="guard" param1="212009" param2="2" rate="10" />	
+			</CHECK>			
+		</COMBAT>
+
+  		<REACTION>	
+		</REACTION>
+		<IDLE>
+			<DEFAULT>
+
+			
+			</DEFAULT>
+		</IDLE>
+	</COLT>
+</maiet>

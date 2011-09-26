@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet href="./colt.xsl" type="text/xsl"?>
+<maiet>
+	<COLT name="지그니프" npcid="101000"> 
+		<COMBAT mode="0" comment="">
+			<DEFAULT>
+					
+			</DEFAULT>	
+				
+				
+			<CHECK type="hp" param1="70" param2="100" ><!-- 페이즈1  -->
+			
+				<ACTION type="talent" param1="210100019" auto_run="true" max_count="1" desc="주먹연속치기" />
+				<ACTION type="talent" param1="210100020" rate="20" duration="1" desc="러시" />
+				<ACTION type="lua" param1="NPC_101000" rate="10" param2="LeftStep" /> 
+				<ACTION type="lua" param1="NPC_101000" rate="10" param2="RightStep" />				
+			</CHECK>
+			
+			<CHECK type="hp" param1="40" param2="69" ><!-- 페이즈2 -->
+				<ACTION type="talent" param1="210100002"  auto_run="true" max_count="1" desc="pain2" />
+				<ACTION type="talent" param1="210100019" rate="10" duration="1" desc="주먹연속치기" />
+				<ACTION type="talent" param1="210100020" rate="10" duration="1" desc="러시" />
+				<ACTION type="talent" param1="210100021" rate="30" duration="1" desc="주먹내려치기" />
+				<ACTION type="talent" param1="210100022" rate="30" duration="1" desc="러시(빠른버전)" />
+				<ACTION type="lua" param1="NPC_101000" rate="10" param2="LeftStep" /> 
+				<ACTION type="lua" param1="NPC_101000" rate="10" param2="RightStep" />						
+			</CHECK>
+			
+			<CHECK type="hp" param1="1" param2="39" ><!-- 페이즈3 -->
+				<ACTION type="talent" param1="210100002"  auto_run="true" max_count="1" desc="pain2" />				
+				<ACTION type="talent" param1="210100021" rate="10" duration="1" desc="주먹내려치기" />
+				<ACTION type="talent" param1="210100022" rate="10" duration="1" desc="러시(빠른버전)" />	
+				<ACTION type="lua" param1="NPC_101000" rate="10" param2="LeftStep" /> 
+				<ACTION type="lua" param1="NPC_101000" rate="10" param2="RightStep" />						
+			</CHECK>
+			
+			<CHECK type="distance" param1="1500" >
+				<ACTION type="talent" param1="210100019" rate="10" duration="1" desc="주먹연속치기" />
+				<ACTION type="talent" param1="210100020" rate="10" duration="1" desc="러시" />				
+			</CHECK>
+			
+			
+										
+		</COMBAT>
+	</COLT>
+	
+	<SCRIPT><![CDATA[
+function NPC_101000:Init( NPCID )
+	--[[
+		User Data
+		1: BreakPart 왼발
+		2: BreakPart 오른발
+	--]]
+	NPC_ReserveUserData( NPCID, 2 );
+	
+	NPC_101000.BP_LeftAnkle = 2
+	NPC_101000.BP_RightAnkle = 3	
+	NPC_101000.BP_AnkleHP	= NPC_101000.MaxHP / 5
+	
+	NPC_101000.TALENT_LeftStep_Slow = 210100013
+	NPC_101000.TALENT_LeftStep_Fast = 210100014
+	NPC_101000.TALENT_RightStep_Slow = 210100015
+	NPC_101000.TALENT_RightStep_Fast = 210100016
+	NPC_101000.TALENT_Pain1 = 210100001
+	NPC_101000.TALENT_Punch1 = 210100019
+	NPC_101000.TALENT_Punch2 = 210100021	
+	
+	
+end
+
+function NPC_101000:LeftStep( ThisNPC, Enemy )
+	if ThisNPC:CheckBPart(NPC_101000.BP_LeftAnkle) then
+		ThisNPC:UseTalent( NPC_101000.TALENT_LeftStep_Fast, Enemy )
+	else
+		ThisNPC:UseTalent( NPC_101000.TALENT_LeftStep_Slow, Enemy )
+	end
+end
+
+function NPC_101000:RightStep( ThisNPC, Enemy )
+	if ThisNPC:CheckBPart(NPC_101000.BP_RightAnkle) then
+		ThisNPC:UseTalent( NPC_101000.TALENT_RightStep_Fast, Enemy )
+	else
+		ThisNPC:UseTalent( NPC_101000.TALENT_RightStep_Slow, Enemy )
+	end	
+end
+
+-- Talent Callback Func
+function NPC_101000:OnFinishAndAggroSwap1( ThisActor, Enemy )
+	local ThisNPC = AsNPC( ThisActor )
+	
+	ThisNPC:Aggro( "far", 0 )
+	if ThisNPC:IsCooldown( NPC_101000.TALENT_Punch1 ) then
+		return
+	end
+	--ThisNPC:UseTalentSelf( NPC_101000.TALENT_Punch1 )
+	
+end
+function NPC_101000:OnFinishAndAggroSwap2( ThisActor, Enemy )
+	local ThisNPC = AsNPC( ThisActor )
+	
+	ThisNPC:Aggro( "far", 0 )
+	if ThisNPC:IsCooldown( NPC_101000.TALENT_Punch2 ) then
+		return
+	end
+	--ThisNPC:UseTalentSelf( NPC_101000.TALENT_Punch2 )
+	
+end
+
+
+function NPC_101000:OnHitCapsule_1_3(HitInfo) -- 왼발 때릴 떄
+	return NPC_101000:AccDamage( this, 1, HitInfo)
+end
+function NPC_101000:OnHitCapsule_1_2(HitInfo) -- 오른발 때릴 때
+	return NPC_101000:AccDamage( this, 2, HitInfo)
+end
+function NPC_101000:OnHitCapsule_2_2(HitInfo) -- 왼발 때릴 때
+	return NPC_101000:AccDamage( this, 1, HitInfo)
+end
+function NPC_101000:OnHitCapsule_2_1(HitInfo) -- 오른발 때릴 때
+	return NPC_101000:AccDamage( this, 2, HitInfo)
+end
+function NPC_101000:OnHitCapsule_3_1(HitInfo) -- 왼발 때릴 때
+	return NPC_101000:AccDamage( this, 1, HitInfo)
+end
+function NPC_101000:OnHitCapsule_3_2(HitInfo) -- 오른발 때릴 때
+	return NPC_101000:AccDamage( this, 2, HitInfo)
+end
+
+
+function NPC_101000:AccDamage( ThisNPC, nHitIdx, dHitInfo) -- 오른발을 계속 때리면 오른쪽 족쇄가 왼발을 때리면 왼발족쇄가 부숴진다
+
+	local LeftAccDamage	-- 왼발 누적데미지 
+	local RightAccDamage -- 오른발 누적데미지
+	
+	if nHitIdx == 1 and (not ThisNPC:CheckBPart(NPC_101000.BP_LeftAnkle)) then -- 왼발
+		GLog("NPC_101000:AccDamage")
+		LeftAccDamage = ThisNPC:GetUserData(1) + dHitInfo.Damage
+		
+		if LeftAccDamage > NPC_101000.BP_AnkleHP then
+			ThisNPC:ClearJob()			
+			ThisNPC:UseTalentSelf( NPC_101000.TALENT_Pain1 )
+			ThisNPC:BreakPart(2, dHitInfo.Attacker)
+		end
+		
+		ThisNPC:SetUserData( 1, LeftAccDamage )
+		
+	elseif nHitIdx == 2 and not ThisNPC:CheckBPart(NPC_101000.BP_RightAnkle) then -- 오른발
+		RightAccDamage = ThisNPC:GetUserData(2) + dHitInfo.Damage
+		
+		if RightAccDamage > NPC_101000.BP_AnkleHP then
+			ThisNPC:ClearJob()
+			ThisNPC:UseTalentSelf( NPC_101000.TALENT_Pain1 )		
+			ThisNPC:BreakPart(3, dHitInfo.Attacker)
+		end 
+		
+		ThisNPC:SetUserData( 2, RightAccDamage )
+	end
+		
+	return dHitInfo
+end
+
+function NPC_101000:OnStartSummon( ThisNPC, Enemy ) -- 지진 더미 소환
+	--GLog( "NPC_512000:SpawnGroundOfDarkness\n" )
+	local WorldPos = Math_LocalToWorld( Enemy:GetDir(), ThisNPC:GetPos(), vec3(0,0,0) )
+	local Minion = AsNPC(ThisNPC):SummonNow( 101001, WorldPos )
+	AsNPC(ThisNPC):SetTarget( Minion )	
+	Minion:UseTalentSelf( 210100110 )
+	
+end
+
+
+	]]></SCRIPT>
+</maiet>
+

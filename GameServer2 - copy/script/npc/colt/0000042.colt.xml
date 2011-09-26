@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<!-- 퍼펫 [염] 샘플. 이 파일을 변경하기 전에 이야기 해주시기 바랍니다. - 조중필 -->
+<maiet>
+  <SCRIPT>
+<![CDATA[
+function NPC_42_Taunt(ThisNPC, Opponent)
+end
+
+function NPC_42_Yell(ThisNPC, Opponent)
+end
+
+function NPC_42_Partbreak(ThisNPC, Opponent)
+end
+]]>
+  </SCRIPT>  
+	<COLT>
+		<COMBAT >
+			<DEFAULT>
+				<ACTION type="talent" param1="200421" rate="20" />
+				<ACTION type="talent" param1="200428" rate="20" />
+				<ACTION type="guard" param1="200429" param2="1.5" rate="60" />
+			</DEFAULT>
+			
+			<CHECK type="e_motionfactor" param1="deflect">
+				<ACTION type="lua" param1="NPC_42_Taunt" auto_run="true" />
+				<ACTION type="talent" param1="200428" rate="1" />
+			</CHECK>
+			
+			<CHECK type="e_motionfactor" param1="knockback">
+				<ACTION type="lua" param1="NPC_42_Taunt" auto_run="true" />
+				<ACTION type="talent" param1="200428" rate="100" />
+			</CHECK>
+			
+			<CHECK type="e_motionfactor" param1="throwup">
+				<ACTION type="lua" param1="NPC_42_Taunt" auto_run="true" />
+				<ACTION type="talent" param1="200424" rate="50" />
+				<ACTION type="talent" param1="200425" rate="50" />
+			</CHECK>
+			
+			<CHECK type="breakpart" param1="1">
+				<ACTION type="talent" param1="200421" rate="50" />
+				<ACTION type="talent" param1="200428" rate="50" />
+			</CHECK>
+			
+			<CHECK type="hp" param1="0" param2="80">
+				<ACTION type="talent" param1="200427" rate="30" />
+				<ACTION type="talent" param1="200423" rate="20" />
+				<ACTION type="guard" param1="200429" param2="2" rate="50" />
+			</CHECK>
+		</COMBAT>
+
+		<REACTION>
+			<CHECK type="hp" param2="20">
+				<CHECK type="breakpart" param1="1">
+					<ACTION type="lua" param1="NPC_42_Yell" auto_run="true" max_count="1" />
+					<ACTION type="yell" rate="100" max_count="1" />
+				</CHECK>
+  			</CHECK>
+
+			<CHECK type="unbreakpart" param1="1" >
+				<CHECK type="hp" param1="1" param2="50">
+					<CHECK type="motionfactor" param1="knockback">
+						<ACTION type="lua" param1="NPC_42_Partbreak" auto_run="true" />
+						<ACTION type="adjust" param1="guard_rate" param2="0" auto_run="true" />
+						<ACTION type="breakpart" param1="1" />
+					</CHECK>
+				</CHECK>
+			</CHECK>
+		</REACTION>
+	</COLT>
+</maiet>

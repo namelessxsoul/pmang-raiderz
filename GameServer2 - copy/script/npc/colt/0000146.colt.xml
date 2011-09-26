@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<maiet>
+	<COLT name="인간 샘플 1hs(bind)">
+		<COMBAT >
+			<DEFAULT >
+			</DEFAULT>
+		</COMBAT>
+		<IDLE>
+			<DEFAULT>
+				<ACTION type="nothing" param1="3" rate="50" />
+			</DEFAULT>
+		</IDLE>
+	</COLT>
+	<SCRIPT><![CDATA[
+	
+function NPC_146:OnSpawn(Spawn)
+	this:GainBuff(110000)
+end
+
+function NPC_146:OnTryHit(Actor, TalentID)
+	-- 마법지뢰 폭파용 완드 id 10016
+	
+	if 140006 == TalentID then
+		local Player = AsPlayer(Actor)
+		if this:CheckBuff(110000) == true then
+			this:FaceTo(Player)
+			--[[
+			this:UseTalentSelf(211021801)
+			Player:AddItem(10012, 1)
+			--]]
+			
+			this:RemoveBuff(110000)
+			this:SetAlwaysRun(true)
+			
+			
+			
+			local dice = math.random(0,3)
+			if( dice == 0) then 
+				this:Balloon("$$COLT_0000146_39")
+			elseif( dice == 1) then 
+				this:Balloon("$$COLT_0000146_41")
+			elseif( dice == 2) then 
+				this:Balloon("$$COLT_0000146_43")			
+			elseif( dice == 3) then 
+				this:Balloon("$$COLT_0000146_45")
+			end
+			
+			this:StayawayFrom(Player, 800)
+			this:Despawn(true)
+		end
+	end
+end
+
+	
+	]]></SCRIPT>
+</maiet>

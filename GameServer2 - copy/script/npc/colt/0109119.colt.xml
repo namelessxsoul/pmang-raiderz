@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<!-- 고대 거북 -->
+<maiet>
+	<COLT>
+		<COMBAT >
+			<DEFAULT>
+				<ACTION type="talent" param1="210911900" rate="15" />
+				<ACTION type="talent" param1="210911901" rate="15" />
+				<ACTION type="talent" param1="210911902" rate="15" />
+				<ACTION type="talent" param1="210911903" rate="5" duration="0" />
+				<ACTION type="talent" param1="210911904" rate="5" duration="0" />
+				<ACTION type="talent" param1="210911904" rate="5" />
+				<ACTION type="talent" param1="210911905" rate="5" duration="0"  />
+				<ACTION type="talent" param1="210911905" rate="5" />
+				<ACTION type="talent" param1="210911906" rate="5" duration="0" />
+				<ACTION type="nothing" param1="2" rate="20" />
+				<ACTION type="nothing" param1="3" rate="15" />
+				<ACTION type="nothing" param1="4" rate="15" />
+			</DEFAULT>
+			<CHECK type="distance" param1="500">
+				<ACTION type="talent" param1="210911905" rate="15" duration="0"  />
+				<ACTION type="talent" param1="210911905" rate="15" />
+				<!-- <ACTION type="guard" param1="210911907" param2="5" rate="20" /> -->
+				<ACTION type="talent" param1="210911906" rate="15" duration="0" />
+				<ACTION type="nothing" param1="2" rate="15" />
+			</CHECK>
+			<CHECK type="distance" param2="500">
+				<ACTION type="talent" param1="210911900" rate="15" />
+				<ACTION type="talent" param1="210911901" rate="15" />
+				<ACTION type="talent" param1="210911902" rate="15" />
+				<ACTION type="talent" param1="210911903" rate="10" duration="0" />
+				<ACTION type="talent" param1="210911904" rate="15" duration="0" />
+				<ACTION type="talent" param1="210911904" rate="15" />
+				<ACTION type="talent" param1="210911906" rate="15" duration="0" />
+				<ACTION type="nothing" param1="2" rate="20" />
+			</CHECK>
+			<CHECK type="e_motionfactor" param1="deflect">
+				<ACTION type="talent" param1="210911900" rate="50" />
+				<ACTION type="talent" param1="210911901" rate="50" />
+				<ACTION type="talent" param1="210911906" rate="15" duration="0" />
+			</CHECK>
+		</COMBAT>
+		<REACTION>
+		</REACTION>
+		<IDLE>
+		</IDLE>
+	</COLT>
+</maiet>

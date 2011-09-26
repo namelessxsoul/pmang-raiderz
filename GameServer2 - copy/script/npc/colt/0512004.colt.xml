@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet href="./colt.xsl" type="text/xsl"?>
+<maiet>
+	<COLT name="부유하는시체" npcid="512004">
+		<COMBAT mode="0">
+			<DEFAULT>
+				<!-- <ACTION type="talent" param1="251200410" rate="10" /> -->
+				<ACTION type="talent" param1="251200411" rate="100" />
+				<ACTION type="talent" param1="251200401" rate="10" />
+				<ACTION type="talent" param1="251200402" rate="10" />
+				<ACTION type="talent" param1="251200403" rate="10" />
+			</DEFAULT>
+			
+			<CHECK type="hp" param1="0" >
+				<ACTION type="talent" param1="251200404" rate="10" duration="0" max_count="1"/>
+			</CHECK>
+			
+			<!-- <CHECK type="distance" param1="400" >
+				<ACTION type="distance" rate="10" param1="300" param2="300" />
+				<!-- <ACTION type="lua" param1="SideStep" rate="10" /> -->
+			<!-- </CHECK> -->
+		</COMBAT>
+	</COLT>
+	
+	<SCRIPT><![CDATA[
+	
+function NPC_512004:Init( NPCID )
+	NPC_512004.BufIdHellFire = 40230
+end
+
+function NPC_512004:OnSpawn( Info )
+	this:GainBuff( NPC_512004.BufIdHellFire )
+end
+
+function NPC_512004:OnDie()
+	local Summoner = this:GetSummoner()
+	Summoner:SetUserData( 1, Summoner:GetUserData(1)-1 )
+end
+	]]></SCRIPT>
+</maiet>

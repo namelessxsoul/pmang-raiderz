@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<maiet>
+	<COLT>
+		<COMBAT>
+			<DEFAULT>
+        <ACTION type="talent" param1="201210" rate="50" />
+      </DEFAULT>
+		</COMBAT>
+
+		<IDLE>
+			<DEFAULT>
+			</DEFAULT>
+		</IDLE>
+	</COLT>
+</maiet>

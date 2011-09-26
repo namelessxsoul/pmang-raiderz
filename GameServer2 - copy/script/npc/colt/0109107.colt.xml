@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet href="./colt.xsl" type="text/xsl"?>
+<maiet>
+	<COLT name="크라울러스킬더미">
+		<COMBAT >
+			<DEFAULT>
+			</DEFAULT>
+		</COMBAT>
+		<IDLE>
+			<DEFAULT>
+			</DEFAULT>
+		</IDLE>
+	</COLT>
+	<SCRIPT><![CDATA[
+	
+function NPC_109107:OnSpawn( Info )
+	GLog( "NPC_109107:OnSpawn\n" )
+end
+
+function NPC_109107:OnCombatBegin()
+	
+	this:UseTalentSelf( 210910701 )
+end
+	
+function NPC_109107:OnFinishGravityShock( ThisActor, Enemy )
+	GLog( "NPC_109107:OnFinishGravityShock\n" )
+	
+	local ThisNPC = AsNPC( ThisActor )
+	ThisNPC:Despawn(false)
+end
+
+	]]></SCRIPT>
+</maiet>

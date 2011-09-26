@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--  어미 이끼거미, 암컷 이끼거미 -->
+<maiet>
+	<COLT>
+		<COMBAT mode="0">
+			<DEFAULT>
+				<ACTION type="talent" param1="210700401" rate="80" />
+				<ACTION type="talent" param1="210700402" rate="20" />
+			</DEFAULT>
+			<CHECK type="hp" param1="1" param2="30">
+				<ACTION type="group" auto_run="true" max_count="1" >
+					<ACTION type="lua" param1="MotherSpider_SummonMinion"  auto_run="true" />
+					<ACTION type="talent" param1="210700205" duration="0" />
+				</ACTION>
+				<ACTION type="talent" param1="210700401" rate="80" />
+				<ACTION type="talent" param1="210700402" rate="20" />
+			</CHECK>
+		</COMBAT>
+		<COMBAT mode="1">
+			<DEFAULT>
+				<ACTION type="talent" param1="211103211"/>
+			</DEFAULT>
+		</COMBAT>
+	</COLT>
+	<SCRIPT><![CDATA[
+	
+function MotherSpider_SummonMinion( ThisNPC, Opponent )
+	local NPCID_BABY_SPIDER = 107002
+	local MINION_CNT = 5
+	
+	SummonMinion( ThisNPC, Opponent, NPCID_BABY_SPIDER, MINION_CNT, "$$COLT_0107004_31", -200, 200 )
+end
+
+function NPC_107004:OnDie(Despawn)
+	local NPCID_BABY_SPIDER = 107002
+	local MINION_CNT = 8
+	
+	SummonMinion( Despawn.NPC, nil, NPCID_BABY_SPIDER, MINION_CNT, "$$COLT_0107004_38", -200, 200 )
+end 
+
+	]]></SCRIPT>
+</maiet>

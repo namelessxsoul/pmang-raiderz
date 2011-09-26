@@ -1,0 +1,378 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet href="./colt.xsl" type="text/xsl"?>
+<maiet>
+	<COLT name="크라울러" npcid="109100">
+		<COMBAT mode="0" comment="No controller">
+			<DEFAULT>
+				<!-- 왼손,오른손 1회 공격 -->
+				<ACTION type="talent" param1="210910007" rate="20" />
+				<ACTION type="talent" param1="210910008" rate="20" />
+				<!-- 연속공격 -->
+				<ACTION type="talent" param1="210910012" rate="15" />
+				<ACTION type="talent" param1="210910013" rate="15" />
+				<!-- 꼬리공격 -->
+				<ACTION type="lua" param1="NPC_109100" param2="TailAttack" rate="10" />
+				
+				<!-- 양손 공격 -->
+				<ACTION type="talent" param1="210910011" rate="20" />
+				
+			</DEFAULT>
+			
+			<CHECK type="distance" param1="900">
+				<ACTION type="distance" param1="600" param2="600" />
+			</CHECK>
+
+			<CHECK type="rage" param1="200">
+				<ACTION type="aggro" param1="short" param2="30"  cycle="30" auto_run="true"/>
+				<ACTION type="talent" param1="210910006" rate="10" />
+			</CHECK>
+			
+			<CHECK type="hp" param2="80" >
+				<!-- 연속공격 -->
+				<ACTION type="talent" param1="210910012" rate="5" />
+				<ACTION type="talent" param1="210910013" rate="5" />
+				<!-- 꼬리공격 -->
+				<ACTION type="lua" param1="NPC_1000000" param2="TailAttack" rate="5" />
+				
+				<!-- 돌진 -->
+				<ACTION type="talent" param1="210910006" rate="35" />
+				<!-- 침뱉기 -->
+				<ACTION type="talent" param1="210910010" rate="35" />
+				<!-- 양손 공격 -->
+				<ACTION type="talent" param1="210910013" rate="15" />
+				
+			</CHECK>
+			
+			<CHECK type="hp" param2="40">
+				<!-- 연속공격 -->
+				<ACTION type="talent" param1="210910012" rate="5" />
+				<ACTION type="talent" param1="210910013" rate="5" />
+				<!-- 꼬리공격 -->
+				<ACTION type="lua" param1="NPC_1000000" param2="TailAttack" rate="5" />
+				
+				<!-- 돌진 -->
+				<ACTION type="talent" param1="210910006" rate="20" />
+				<!-- 침뱉기 -->
+				<ACTION type="talent" param1="210910010" rate="60" />
+				<!-- 양손 공격 -->
+				<ACTION type="talent" param1="210910011" rate="20" />
+				
+			</CHECK>
+			
+		</COMBAT>
+		
+		<COMBAT mode="1" comment="When there is controller">
+			<DEFAULT>
+				<!-- 왼손,오른손 1회 공격 -->
+				<ACTION type="talent" param1="210910007" rate="10" />
+				<ACTION type="talent" param1="210910008" rate="10" />
+				<!-- 연속공격 -->
+				<ACTION type="talent" param1="210910011" rate="10" />
+				<ACTION type="talent" param1="210910012" rate="10" />
+				<!-- 꼬리공격 -->
+				<ACTION type="lua" param1="NPC_1000000" param2="TailAttack" rate="10" />
+				
+				<!-- 돌진 -->
+				<ACTION type="talent" param1="210910006" rate="10" />
+				<!-- 침뱉기 -->
+				<ACTION type="talent" param1="210910010" rate="20" />
+				<!-- 양손 공격 -->
+				<ACTION type="talent" param1="210910013" rate="10" />
+			</DEFAULT>
+						
+			<CHECK type="distance" param1="900">
+				<ACTION type="distance" param1="600" param2="600" />
+			</CHECK>
+
+			<CHECK type="rage" param1="300">
+				<ACTION type="aggro" param1="short" param2="30"  cycle="30" auto_run="true"/>
+				<ACTION type="talent" param1="210910006" rate="10" />
+			</CHECK>
+		</COMBAT>
+		
+		<IDLE>
+			<DEFAULT>
+			</DEFAULT>
+		</IDLE>
+	</COLT>
+	
+	<SCRIPT><![CDATA[
+
+function NPC_1000000:Init( NPCID )
+	--[[  USERDATA 
+	1 : 턱 
+	2 : 레이저 포인터
+	3 : 오른손
+	4 : 왼손
+	5 : Pain
+	--]]
+	NPC_ReserveUserData( NPCID, 5 )
+	
+	NPC_1000000.LimitForBreakHand 				= NPC_1000000.MaxHP/10
+	NPC_1000000.LimitForBreakJaw					= NPC_1000000.MaxHP/2
+	NPC_1000000.LimitForBreakLazerPointer 		= NPC_1000000.MaxHP/10
+	NPC_1000000.LimitForPain							= NPC_1000000.MaxHP/10
+	
+	
+	NPC_1000000.TalIdDash							= 219100006
+	NPC_1000000.TalIdTailAttack 					= 210910009
+	NPC_1000000.TalIdTwoHandPress				= 219100011
+	
+	NPC_1000000.TalIdPain1							= 210910004
+	NPC_1000000.TalIdPain2							= 210910005
+	NPC_1000000.TalIdThreat							= 210910003
+	NPC_1000000.BufIdMindControl					= 40182
+	
+	NPC_1000000.PartsIdxJaw							= 1
+	NPC_1000000.PartsIdxLazerPointer				= 2
+	NPC_1000000.PartsIdxLeftHand					= 3
+	NPC_1000000.PartsIdxRightHand					= 4
+	
+	NPC_1000000.NpcIdDummy						= 109107
+end
+
+function NPC_1000000:TailAttack( ThisNPC, Enemy )
+	local Dist = ThisNPC:DistanceTo( Enemy )
+	local IsRear = Enemy:IsRear( ThisNPC )
+	
+	if Dist > 300 and IsRear then
+		ThisNPC:UseTalentSelf( NPC_1000000.TalIdTailAttack )
+	end
+end
+
+function NPC_1000000:OnFinishGravityShock( ThisActor, Enemy )
+	GLog( "NPC_1000000:OnFinishGravityShock\n" )
+	
+	local ThisNPC = AsNPC( ThisActor )
+	local Target = ThisNPC:Aggro( "random", 0 )
+	ThisNPC:Aggro( "random", 0 )
+	
+	local WorldPos = Math_LocalToWorld( Target:GetDir(), Target:GetPos(), vec3( 0, 0, 0 )  )
+	local Dummy = ThisNPC:SummonNow( NPC_1000000.NpcIdDummy, WorldPos )
+end
+
+-- 데미지 처리로직
+function NPC_1000000:AccDamage( ThisNPC, PartsIdx, HitInfo )
+	-- Damage Adjust
+	-----------------
+	local bLeftHand = ThisNPC:CheckBPart( NPC_1000000.PartsIdxLeftHand )
+	local bRightHand = ThisNPC:CheckBPart( NPC_1000000.PartsIdxRightHand )
+	
+	if PartsIdx == NPC_1000000.PartsIdxLeftHand and  bLeftHand then
+		HitInfo.Damage = HitInfo.Damage*3
+		--GLog( "Damage Amplied " .. HitInfo.Damage .."\n" )
+	elseif PartsIdx == NPC_1000000.PartsIdxRightHand and bRightHand then
+		HitInfo.Damage = HitInfo.Damage*3
+		--GLog( "Damage Amplied " .. HitInfo.Damage .."\n" )
+	end
+	
+	-- Damage Accumulate
+	----------------------
+	local DmgAcc = 0
+	if  PartsIdx > 0 and PartsIdx <= 4 then
+		DmgAcc = ThisNPC:GetUserData( PartsIdx ) + HitInfo.Damage	
+		ThisNPC:SetUserData( PartsIdx, DmgAcc )
+	end
+	
+	DmgAcc = ThisNPC:GetUserData( 5 ) + HitInfo.Damage	
+	ThisNPC:SetUserData( 5, DmgAcc )
+
+	--[[
+	GLog( "-- Process Acc Damage ( P:" .. PartsIdx .. 
+		", D:" .. HitInfo.Damage .. ", 1:" .. ThisNPC:GetUserData( 1 ) .. 
+		", 2:" .. ThisNPC:GetUserData( 2 ) .. ", 3:" .. ThisNPC:GetUserData( 3 ) .. ", 4:" .. ThisNPC:GetUserData( 4 ) .. ", 5:" .. ThisNPC:GetUserData( 5 ) .. " ) --\n"  )
+	--]]
+	
+	-- Reaction
+	-----------
+	
+	local bCooldown = ThisNPC:IsCooldown( NPC_1000000.TalIdPain1 ) 
+	local CurrentTalent = ThisNPC:GetCurrentTalent()
+	local bTalentFilter = ( CurrentTalent == NPC_1000000.TalIdTwoHandPress ) or ( CurrentTalent == NPC_1000000.TalIdDash )
+	
+	
+	-- Left Hand
+	if PartsIdx == NPC_1000000.PartsIdxLeftHand and
+		( not bLeftHand ) and
+		( not bCooldown ) and
+		ThisNPC:GetUserData( PartsIdx ) > NPC_1000000.LimitForBreakHand then
+
+		ThisNPC:ClearJob()
+		ThisNPC:UseTalentSelf( NPC_1000000.TalIdPain2	)
+		ThisNPC:SetUserData( PartsIdx, 0 )
+		ThisNPC:BreakPart( PartsIdx, HitInfo.Attacker )
+		return HitInfo
+	end
+	
+	-- Right Hand
+	if PartsIdx == NPC_1000000.PartsIdxRightHand and
+		( not bRightHand ) and
+		( not bCooldown ) and
+		ThisNPC:GetUserData( PartsIdx ) > NPC_1000000.LimitForBreakHand then
+
+		ThisNPC:ClearJob()
+		ThisNPC:UseTalentSelf( NPC_1000000.TalIdPain2	)
+		ThisNPC:SetUserData( PartsIdx, 0 )
+		ThisNPC:BreakPart( PartsIdx, HitInfo.Attacker )
+		return HitInfo
+	end
+	
+	--[[ 턱부위 파괴는 잠시 보류. 재미없고 뽀개고 나면 이쁘지가 않다.
+	--  Jaw
+	if PartsIdx == NPC_1000000.PartsIdxJaw and
+		( not ThisNPC:CheckBPart( NPC_1000000.PartsIdxJaw ) ) and
+		( not bCooldown ) and
+		ThisNPC:GetUserData( PartsIdx ) > NPC_1000000.LimitForBreakHand then
+
+		ThisNPC:ClearJob()
+		ThisNPC:UseTalentSelf( NPC_1000000.TalIdPain2	)
+		ThisNPC:SetUserData( PartsIdx, 0 )
+		ThisNPC:BreakPart( PartsIdx, HitInfo.Attacker )
+		return HitInfo
+	end
+	--]]
+	
+	--  Pain
+	if  ( not bCooldown ) and 
+		( not bTalentFilter ) and
+		ThisNPC:GetUserData( PartsIdx ) > NPC_1000000.LimitForPain then
+
+		ThisNPC:ClearJob()
+		ThisNPC:UseTalentSelf( NPC_1000000.TalIdPain1	)
+		ThisNPC:UseTalentSelf( NPC_1000000.TalIdThreat	)
+		ThisNPC:SetUserData( PartsIdx, 0 )
+		return HitInfo
+	end
+	
+	return HitInfo
+end
+
+function NPC_1000000:OnFinishMindControl( ThisNPC, Enemy )
+	ThisNPC:RemoveBuff( NPC_1000000.BufIdMindControl )
+end
+
+function NPC_1000000:OnHitCapsule_1_0(HitInfo)
+	return NPC_1000000:AccDamage( this, 5, HitInfo )
+end
+
+function NPC_1000000:OnHitCapsule_1_1(HitInfo)
+	return NPC_1000000:AccDamage( this, 5, HitInfo )
+end
+
+function NPC_1000000:OnHitCapsule_1_2(HitInfo)
+	return NPC_1000000:AccDamage( this, 3, HitInfo )
+end
+
+function NPC_1000000:OnHitCapsule_1_3(HitInfo)
+	return NPC_1000000:AccDamage( this, 4, HitInfo )
+end
+
+function NPC_1000000:OnHitCapsule_1_4(HitInfo)
+	return NPC_1000000:AccDamage( this, 5, HitInfo )
+end
+
+function NPC_1000000:OnHitCapsule_1_5(HitInfo)
+	return NPC_1000000:AccDamage( this, 5, HitInfo )
+end
+
+function NPC_1000000:OnHitCapsule_1_6(HitInfo)
+	return NPC_1000000:AccDamage( this, 1, HitInfo )
+end
+
+function NPC_1000000:OnHitCapsule_2_0(HitInfo)
+	return NPC_1000000:AccDamage( this, 5, HitInfo )
+end
+
+function NPC_1000000:OnHitCapsule_2_1(HitInfo)
+	return NPC_1000000:AccDamage( this, 5, HitInfo )
+end
+
+function NPC_1000000:OnHitCapsule_2_2(HitInfo)
+	return NPC_1000000:AccDamage( this, 3, HitInfo )
+end
+
+function NPC_1000000:OnHitCapsule_2_3(HitInfo)
+	return NPC_1000000:AccDamage( this, 4, HitInfo )
+end
+
+function NPC_1000000:OnHitCapsule_2_4(HitInfo)
+	return NPC_1000000:AccDamage( this, 5, HitInfo )
+end
+
+function NPC_1000000:OnHitCapsule_2_5(HitInfo)
+	return NPC_1000000:AccDamage( this, 5, HitInfo )
+end
+
+function NPC_1000000:OnHitCapsule_2_6(HitInfo)
+	return NPC_1000000:AccDamage( this, 1, HitInfo )
+end
+
+function NPC_1000000:OnHitCapsule_2_7(HitInfo)
+	return NPC_1000000:AccDamage( this, 3, HitInfo )
+end
+
+function NPC_1000000:OnHitCapsule_2_8(HitInfo)
+	return NPC_1000000:AccDamage( this, 3, HitInfo )
+end
+
+function NPC_1000000:OnHitCapsule_2_9(HitInfo)
+	return NPC_1000000:AccDamage( this, 3, HitInfo )
+end
+
+function NPC_1000000:OnHitCapsule_2_10(HitInfo)
+	return NPC_1000000:AccDamage( this, 1, HitInfo )
+end
+
+function NPC_1000000:OnHitCapsule_2_11(HitInfo)
+	return NPC_1000000:AccDamage( this, 1, HitInfo )
+end
+
+function NPC_1000000:OnHitCapsule_3_0(HitInfo)
+	return NPC_1000000:AccDamage( this, 5, HitInfo )
+end
+
+function NPC_1000000:OnHitCapsule_3_1(HitInfo)
+	return NPC_1000000:AccDamage( this, 5, HitInfo )
+end
+
+function NPC_1000000:OnHitCapsule_3_2(HitInfo)
+	return NPC_1000000:AccDamage( this, 3, HitInfo )
+end
+
+function NPC_1000000:OnHitCapsule_3_3(HitInfo)
+	return NPC_1000000:AccDamage( this, 4, HitInfo )
+end
+
+function NPC_1000000:OnHitCapsule_3_4(HitInfo)
+	return NPC_1000000:AccDamage( this, 5, HitInfo )
+end
+
+function NPC_1000000:OnHitCapsule_3_5(HitInfo)
+	return NPC_1000000:AccDamage( this, 5, HitInfo )
+end
+
+function NPC_1000000:OnHitCapsule_3_6(HitInfo)
+	return NPC_1000000:AccDamage( this, 1, HitInfo )
+end
+
+function NPC_1000000:OnHitCapsule_3_7(HitInfo)
+	return NPC_1000000:AccDamage( this, 4, HitInfo )
+end
+
+function NPC_1000000:OnHitCapsule_3_8(HitInfo)
+	return NPC_1000000:AccDamage( this, 4, HitInfo )
+end
+
+function NPC_1000000:OnHitCapsule_3_9(HitInfo)
+	return NPC_1000000:AccDamage( this, 4, HitInfo )
+end
+
+function NPC_1000000:OnHitCapsule_3_10(HitInfo)
+	return NPC_1000000:AccDamage( this, 1, HitInfo )
+end
+
+function NPC_1000000:OnHitCapsule_3_11(HitInfo)
+	return NPC_1000000:AccDamage( this, 1, HitInfo )
+end
+	]]></SCRIPT>
+</maiet>

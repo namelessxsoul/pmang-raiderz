@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet href="./colt.xsl" type="text/xsl"?>
+<maiet>
+	<COLT name="마이코니드 스폰" npcid="117101">
+		<COMBAT>
+			<DEFAULT>	
+				<ACTION type="talent" param1="211700411" rate="70" desc="점프공격" />
+				<ACTION type="talent" param1="211700414" rate="30" desc="자폭페이크" duration="0"/>
+			</DEFAULT>
+			
+			<CHECK type="hp" param1="40" param2="100">
+				<ACTION type="talent" param1="211700411" rate="80" desc="점프공격" />
+				<ACTION type="talent" param1="211700414" rate="20" desc="자폭페이크" duration="0"/>
+				<CHECK type="distance" param1="250" >
+					<ACTION type="talent" param1="211700411" rate="40" desc="점프공격" />
+					<ACTION type="talent" param1="211700410" rate="40" desc="점프이동" />
+					<ACTION type="talent" param1="211700414" rate="20" desc="자폭페이크" duration="0"/>
+				</CHECK>
+			</CHECK>
+
+			<CHECK type="hp" param2="40">
+				<ACTION type="talent" param1="211700411" rate="10" desc="점프공격" />
+				<ACTION type="talent" param1="211700413" rate="70" desc="자폭" />
+				<ACTION type="talent" param1="211700414" rate="20" desc="자폭페이크" duration="0"/>
+				<CHECK type="distance" param1="250" >
+					<ACTION type="talent" param1="211700410" rate="50" desc="점프이동" />
+				</CHECK>
+			</CHECK>
+		</COMBAT>
+		
+		<IDLE>
+			<DEFAULT>	
+				<ACTION type="talent" param1="211700400" rate="30" />
+				<ACTION type="talent" param1="211700401" rate="30" />
+				<ACTION type="nothing" param1="0" rate="40" />
+			</DEFAULT>
+		</IDLE>
+	</COLT>
+	
+	<SCRIPT><![CDATA[
+	
+function NPC_117101:OnFinishSucideAttack( ThisActor, Enemy )
+	local ThisNPC = AsNPC( ThisActor )
+	ThisNPC:Die( Enemy )
+end
+	]]></SCRIPT>
+</maiet>

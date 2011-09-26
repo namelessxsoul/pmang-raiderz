@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet href="./colt.xsl" type="text/xsl"?>
+<maiet>
+	<COLT name="악화된 에보스 마법사" npcid="109224">
+		<COMBAT >
+			<DEFAULT>	
+				<ACTION type="nothing" param1="1" rate="30" cycle="6"/>
+				<ACTION type="nothing" param1="1" rate="30" cycle="6"/>
+				
+				<ACTION type="talent" param1="210920600" rate="20" />
+				<ACTION type="talent" param1="210920601" rate="20" />
+			</DEFAULT>
+			
+			<CHECK type="distance" param1="1000" >
+				<ACTION type="distance" param1="750" param2="800" rate="50"/>
+				<ACTION type="talent" param1="210920600" rate="10" />
+				<ACTION type="talent" param1="210920601" rate="40" />
+			</CHECK>
+			
+			<CHECK type="distance" param1="500" >
+				<ACTION type="nothing" param1="1" rate="30" cycle="5"/>
+				<ACTION type="nothing" param1="1" rate="30" cycle="5"/>
+				<ACTION type="lua" param1="SideStep" rate="20" cycle="20"/>
+				
+				<ACTION type="talent" param1="210920600" rate="5" />
+				<ACTION type="talent" param1="210920601" rate="15" />
+			</CHECK>
+		</COMBAT>
+		<IDLE>
+			<DEFAULT>
+			</DEFAULT>
+		</IDLE>
+	</COLT>
+	<SCRIPT><![CDATA[
+	
+	function NPC_109224:OnSpawn(Spawn)
+		this:NonDelaySay("$$COLT_0109224_37")
+		this:UseTalentSelf(210920602)
+		this:GainBuff(110026)
+	end
+	
+	]]></SCRIPT>
+</maiet>
