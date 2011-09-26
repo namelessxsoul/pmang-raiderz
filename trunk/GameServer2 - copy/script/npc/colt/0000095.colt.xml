@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet href="./colt.xsl" type="text/xsl"?>
+<maiet>
+  <COLT name="마리옹" npcid="95">
+		<COMBAT mode="0" comment="field" victory="200009500">
+			<DEFAULT>
+				<ACTION type="talent" param1="200009511" rate="10" />
+				<ACTION type="talent" param1="200009512" rate="10" />
+				<ACTION type="talent" param1="200009513" rate="10" />
+				
+				<ACTION type="talent" param1="200009520" rate="10" duration="0"/>
+			</DEFAULT>
+		</COMBAT>
+		<COMBAT mode="1" comment="burrow" victory="200009521">
+			<DEFAULT>
+				<ACTION type="talent" param1="200009521" rate="10" duration="5"/>
+			</DEFAULT>
+		</COMBAT>
+	<IDLE>
+      <DEFAULT>
+      </DEFAULT>
+    </IDLE>
+  </COLT>
+  <SCRIPT><![CDATA[
+  
+  function NPC_95:OnSpawn( Info )
+	this:Wait(1)
+  end
+  
+  ]]></SCRIPT>
+</maiet>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet href="./colt.xsl" type="text/xsl"?>
+<maiet>
+	<COLT name="붙잡힌 크라울러" >
+		<COMBAT>
+			<DEFAULT>
+				<ACTION type="nothing" param1="1000" rate="100" />
+			</DEFAULT>
+		</COMBAT>
+		
+		
+		<IDLE>
+			<DEFAULT>
+				<ACTION type="talent" param1="210909800" rate="2" />
+				<ACTION type="talent" param1="210909801" rate="1" />
+				<ACTION type="talent" param1="210909802" rate="1" />
+				<ACTION type="talent" param1="210909803" rate="1" />				
+			</DEFAULT>
+		</IDLE>
+	</COLT>
+</maiet>

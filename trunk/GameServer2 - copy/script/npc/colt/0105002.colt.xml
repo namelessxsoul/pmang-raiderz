@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<!-- 소레나 -->
+<!--
+Venister
+
+탤런트 일람
+210500201: 착륙
+210500202: 이륙
+210500203: 좌측회전
+210500204: 우측회전
+210500205: 뿔로 치기
+210500206: 대시
+210500207: 백대시
+210500208: 울부짖기 #1 - 광역 (일어나서 소리지르기)
+210500209: 울부짖기 #2 - 분노
+210500210: 삽질하기
+210500211: 파리잡기 (오른손 앞발치기)
+210500212: 공중대시
+210500213: 머리 아파하기
+210500214: 뿔 잘리기
+210500215: 아파서 기절하기
+210500216: 오른손 휘두르기
+210500217: 근접콤보
+210500218: 분노
+210500219: 공중에서 잡기
+210500220: 브레스
+210500221: 모래 뿌리기
+210500222: 샌드 스톰
+-->
+<maiet>
+	<COLT max_duration="8">
+		<COMBAT mode="0" >
+			<DEFAULT>
+				<ACTION type="talent" param1="210500202" rate="5" duration="0" cycle="180" max_count="5" />
+			</DEFAULT>
+		</COMBAT>
+		<!-- 플라잉 모드 -->
+		<COMBAT mode="1" victory="210500201" >
+			<DEFAULT>
+				<ACTION type="talent" param1="210500222" duration="0" rate="10" cycle="30" />
+			</DEFAULT>
+		</COMBAT>
+	</COLT>
+	<SCRIPT>
+    <![CDATA[ 
+	-- 소레나 스크립트
+	--
+	function NPC_105002:Init(NPCID)
+		NPC_ReserveUserData(NPCID, 2);
+		NPC_105002.TALENT_HornDash = 190001 -- 뿔 들고 유저가 쓰는 탤런트
+		NPC_105002.TALENT_PainHornDash = 210500230 -- 뿔에 맞으면 쓰는 탤런트
+	end
+
+	-- Sorena_Stressed
+	-- 소레나가 스트레스를 받았을 때 발생되는 스크립트
+	function Sorena_Stressed(ThisNPC, Opponent)
+		if (ThisNPC:GetMode() == 0) then
+			-- 거리가 10m보다 멀면, 타겟을 근접으로 바꾼다.
+			local Distance = ThisNPC:DistanceTo(Opponent)
+			-- ThisNPC:Say("-- [DEBUG] 거리는 "..tostring(Distance).."입니다.")
+			
+			if(Distance >= 1000) then
+				ThisNPC:Aggro("short", 0)
+			else
+				-- 거리가 가까우면 랜덤으로 셋 중 하나의 근접기술을 사용한다.(2개는 근접, 한개는 그냥 날아가기)
+				local ranNum = math.random(0, 2)
+				
+				if(ranNum == 0) then 
+					ThisNPC:UseTalentSelf(210500217) -- 콤보
+				elseif(ranNum == 1) then
+					ThisNPC:UseTalentSelf(210500221) -- 흙뿌리기
+				else
+					ThisNPC:UseTalentSelf(210500202) -- 날아가기
+				end
+			end
+		else
+			ThisNPC:UseTalentSelf(210500201) -- 착륙하기
+		end
+	end
+	
+	-- Sorena_AirAttack
+	-- 소레나가 공중회전후 돌진
+	function Sorena_AirAttack(ThisNPC, Opponent)
+		-- 적을 랜덤으로 고른다.
+		ThisNPC:Aggro("random", 0)
+
+		if (Opponent:IsNull()) then
+			ThisNPC:UseTalentSelf(210500201)	-- 적이 없으면 그냥 착륙
+		end
+
+		local distance = ThisNPC:DistanceTo(Opponent);	-- 목표와의 거리
+		local least_distance = 1100	 							-- 순회 최소 거리 (단위: 미터)
+		local poly = 6													-- 순회할 정점 갯수
+		local dir = ThisNPC:GetFowardDir(Opponent); 		-- 순회 계산시 초기방향
+		local ranNum = math.random(0, 1)
+
+		-- 최소 거리 맞추기
+		if (distance < least_distance) then
+			distance = least_distance
+		end
+
+		local orbitpoints = Math_GetPolygonPoints(Opponent:GetPos(), ThisNPC:GetDir(), distance, poly)
+		local waypoints = {}
+		
+		for i=1,poly/2 do
+			waypoints[i] = orbitpoints[tostring(i)]
+		end
+		
+		ThisNPC:PatrolInstant(waypoints, PT_ONCE)
+		
+		if (ranNum == 0) then
+			ThisNPC:UseTalent(210500219, Opponent)	-- 잡기
+		else 
+			ThisNPC:UseTalent(210500212, Opponent)	-- 공중대시
+		end
+	end
+	
+	-- Sorena_AirDirt
+	-- 소레나의 마법진 소환 공격
+	function Sorena_AirDirt(ThisNPC, Opponent)
+		-- 적을 랜덤으로 고른다.
+		ThisNPC:Aggro("random", 0)
+		if (Opponent:IsNull()) then
+			ThisNPC:UseTalentSelf(210500201)	-- 적이 없으면 그냥 착륙
+		end
+		
+		local distance = ThisNPC:DistanceTo(Opponent);	-- 목표와의 거리
+		
+		if(distance > 3000) then -- 30m를 넘는 곳에 위치하고 있으면 가지 않음
+			ThisNPC:UseTalentSelf(210500201)	-- 적이 없으면 그냥 착륙
+		end
+		
+		AI_SideAttack(ThisNPC, Opponent, 500, 2950, 210500222)
+	end
+
+	-- Sorena_Headshot
+	-- 소레나의 머리를 가격했을 때 스크립트
+	function Sorena_Headshot(HitInfo)
+		local victim = HitInfo.Victim
+		local attacker = HitInfo.Attacker
+		local totalDamage = victim:GetUserData(1) + HitInfo.Damage
+		local phasePain = victim:GetUserData(2) -- 몇번째 아파하고 있는지 출력
+
+		local currentTalent = victim:GetCurrentTalent()
+
+		if(victim:GetMode() == 1) then
+			return HitInfo
+		end
+	
+		if(currentTalent == 210500214 or currentTalent == 210500215 or currentTalent == 210500213) then
+			return HitInfo
+		end
+
+		if HitInfo.TalentID == NPC_105002.TALENT_HornDash and
+		 currentTalent ~= NPC_8894022.TALENT_PainHornDash then
+			victim:ClearJob()
+			victim:UseTalentSelf(NPC_105002.TALENT_PainHornDash)
+			return HitInfo
+		end
+		
+		local reqDamage = math.min(phasePain*400+1000, 2000)
+		
+		if (totalDamage >= reqDamage) then
+			local hpRate = victim:GetHP()/victim:GetMaxHP()
+
+			-- 누적 데미지 리셋
+			totalDamage = 0
+			victim:SetUserData(1, totalDamage)
+			
+			-- 몇번째 아파하는지 저장
+			phasePain = phasePain + 1
+			victim:SetUserData(2, phasePain)
+
+			-- 피가 40%이하일 때, 머리를 일정 데미지 이상 받으면 뿔이 파괴된다. (단, 사전에 2회 이상 경직을 시켰어야 한다.)
+			-- 경직이 생길때마다 요구 누적치가 50씩 올라가기 때문에 너무 많은 경직은 뿔을 파괴하지 못하는 경우를 발생시킬 수도 있다.
+			if(hpRate < 0.4 and victim:CheckBPart(1) == false and phasePain > 2) then
+				victim:ClearJob()
+				victim:BreakPart(1, attacker)				
+				victim:UseTalentSelf(210500223)
+			else
+				if(phasePain % 4 == 0 or (victim:CheckBPart(1) and hpRate < 0.2)) then
+					victim:ClearJob()
+					victim:UseTalentSelf(210500215)
+				else
+					victim:ClearJob()
+					victim:UseTalentSelf(210500213)
+				end
+			end
+		else
+			victim:SetUserData(1, totalDamage)
+		end
+		
+		return HitInfo
+	end
+
+function NPC_105002:ProcessHitBody( ThisNPC, HitInfo)
+	local currentTalent = ThisNPC:GetCurrentTalent()
+	if HitInfo.TalentID == NPC_105002.TALENT_HornDash and
+	 currentTalent ~= NPC_8894022.TALENT_PainHornDash then
+		ThisNPC:ClearJob()
+		ThisNPC:UseTalentSelf(NPC_105002.TALENT_PainHornDash)
+		return HitInfo
+	end
+end
+	
+function NPC_105002:OnHitCapsule_1_1(HitInfo)
+	return Sorena_Headshot(HitInfo)
+end
+	
+function NPC_105002:OnHitCapsule_1_0(HitInfo)
+	return NPC_105002:ProcessHitBody( this, HitInfo )
+end
+
+function NPC_105002:OnHitCapsule_1_2(HitInfo)
+	return NPC_105002:ProcessHitBody( this, HitInfo )
+end
+
+function NPC_105002:OnHitCapsule_4_0(HitInfo)
+	return NPC_105002:ProcessHitBody( this, HitInfo )
+end
+
+function NPC_105002:OnHitCapsule_4_1(HitInfo)
+	return NPC_105002:ProcessHitBody( this, HitInfo )
+end
+
+function NPC_105002:OnHitCapsule_4_2(HitInfo)
+	return NPC_105002:ProcessHitBody( this, HitInfo )
+end
+
+function NPC_105002:OnHitCapsule_5_0(HitInfo)
+	return NPC_105002:ProcessHitBody( this, HitInfo )
+end
+
+function NPC_105002:OnHitCapsule_6_0(HitInfo)
+	return NPC_105002:ProcessHitBody( this, HitInfo )
+end
+]]>
+  </SCRIPT>
+</maiet>

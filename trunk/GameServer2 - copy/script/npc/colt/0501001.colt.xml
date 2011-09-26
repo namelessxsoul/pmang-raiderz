@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet href="./colt.xsl" type="text/xsl"?>
+<maiet>
+	<COLT name="네이터(노인)" npcid="501001">
+		<COMBAT mode="0" comment="" victory="250100101">
+			<DEFAULT>
+				<ACTION type="talent" param1="250100110" />
+				<ACTION type="talent" param1="250100111" />
+				<ACTION type="talent" param1="250100112" />
+				<ACTION type="talent" param1="250100113" />
+				<ACTION type="talent" param1="250100120" />
+				<ACTION type="talent" param1="250100121" />
+			</DEFAULT>
+			<CHECK type="hp" param2="20">
+				<ACTION type="group">
+					<ACTION type="talent" param1="250100102" />
+					<ACTION type="lua" param1="NPC_501001" param2="ShapeShifting" />
+				</ACTION>
+			</CHECK>
+		</COMBAT>
+		<COMBAT mode="1" comment="">
+			<DEFAULT>
+				<ACTION type="talent" param1="250100100" />
+			</DEFAULT>
+		</COMBAT>
+		<IDLE>
+			<DEFAULT>
+			</DEFAULT>
+		</IDLE>
+	</COLT>
+	
+	<SCRIPT><![CDATA[
+function NPC_501001:Init()
+	NPC_501001.NpcIdValkyrie = 501000
+end
+	
+function NPC_501001:ShapeShifting( ThisNPC, Enemy )
+	local Field = ThisNPC:GetField()
+	local Pos = ThisNPC:GetPos()
+	Field:Spawn( NPC_501001.NpcIdValkyrie , Pos )
+	ThisNPC:Despawn(false)
+end
+
+	]]></SCRIPT>
+</maiet>

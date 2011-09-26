@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet href="./colt.xsl" type="text/xsl"?>
+<maiet>
+	<COLT name="화원의 석문 4번방">
+		<COMBAT>
+		</COMBAT>
+		<IDLE>
+		</IDLE>
+	</COLT>
+	<SCRIPT><![CDATA[ 
+
+function NPC_121218:OnDialogExit( Player, DialogID, ExitID )
+	--GLog( "OnDialogExit( " .. DialogID .. ", " .. ExitID .. ")\n" )
+	
+	Field = this:GetField()		
+	local Door1 = Field:GetSpawnNPC(49)		
+	local lever = Field:GetSpawnNPC(34)	
+	
+	if DialogID == 1212180 and ExitID == 2 and lever:GetMode() == 1 then
+			
+		this:UseTalentSelf( 212104401 )
+		this:NarrationNow( "$$COLT_0121218_22"  )		
+		
+		Field:DespawnByID(91) -- 오염된 꽃 / 가시덩굴 디스폰 		
+		Field:DespawnByID(92) 
+		Field:DespawnByID(93) 
+		Field:DespawnByID(138) 
+		Field:DespawnByID(145) 
+		Field:DespawnByID(147) 
+		
+		Door1:UseTalentSelf( 212102201 )
+	end
+end
+
+	]]></SCRIPT>
+</maiet>

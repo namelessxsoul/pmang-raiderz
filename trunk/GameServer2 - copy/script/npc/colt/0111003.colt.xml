@@ -1,0 +1,326 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet href="./colt.xsl" type="text/xsl"?>
+<maiet>
+	<COLT name="어둠의종속자(테스트)" npcid="111003">
+		<COMBAT>
+			
+			<DEFAULT>
+				
+				<ACTION type="talent" param1="211100301" rate="10" />
+				<ACTION type="talent" param1="211100302" rate="10" />
+				<ACTION type="talent" param1="211100307" rate="2" /><!-- 독발사체 -->
+				<ACTION type="talent" param1="211100304" rate="2" /><!-- 몸통돌리기 -->
+				
+			</DEFAULT>
+			
+			<CHECK type="hp" param1="85" ><!-- 페이즈1 독구름 사용-->
+				
+				<CHECK type="distance" param1="900" >
+					<ACTION type="talent" param1="211100307" rate="20" /><!-- 독발사체 -->					
+				</CHECK>
+			
+				<ACTION type="group" rate="30" >
+					<ACTION type="talent" param1="211100316" rate="0" /><!-- 독구름 -->						
+				</ACTION>
+				
+				<ACTION type="talent" param1="211100301" rate="10" />
+				<ACTION type="talent" param1="211100302" rate="10" />				
+				<ACTION type="talent" param1="211100304" rate="5" /><!-- 몸통돌리기 -->				
+				
+				
+			</CHECK>
+			<CHECK type="hp" param1="75" param2="85"><!-- 페이즈2 자기한테 톡구름 쏘기 -->				
+				
+				
+				<ACTION type="group" rate="1000" max_count="1" >
+					<ACTION type="lua" param1="NPC_111003" param2="phase1_buff_dead" />	
+					<ACTION type="talent" param1="211100321" /> <!-- 페이즈변화 알려주기 -->
+				</ACTION>	
+				
+				<ACTION type="group" rate="20" >			
+					<ACTION type="lua" param1="NPC_111003" param2="phase1_buff_dead" rate="100" />	
+					<ACTION type="talent" param1="211100317" rate="0" /> <!-- 자기 독구름 -->	
+					<ACTION type="talent" param1="211100303" rate="20" /><!-- 점프공격 -->
+				</ACTION>				
+				<ACTION type="group" rate="20" >					
+					<ACTION type="lua" param1="NPC_111003" param2="phase1_buff_dead" rate="100" />	
+					<ACTION type="talent" param1="211100317" rate="0" /> <!-- 자기 독구름 -->	
+					<ACTION type="talent" param1="211100301" rate="5" />
+				</ACTION>
+				
+				<ACTION type="group" rate="5" >
+					<!-- <ACTION type="lua" param1="NPC_111003" param2="phase1_buff_dead" rate="100" /> -->
+					<ACTION type="talent" param1="211100303" rate="20" /><!-- 점프공격 -->
+				</ACTION>
+				
+				<ACTION type="talent" param1="211100304" rate="10" /><!-- 몸통돌리기 -->	
+				<ACTION type="talent" param1="211100301" rate="5" />
+				<ACTION type="talent" param1="211100302" rate="5" />								
+	
+			</CHECK>
+			<CHECK type="hp" param1="40" param2="75"><!-- 페이즈1 + 2 -->
+				
+				<CHECK type="distance" param1="1200" >
+					<ACTION type="lua" param1="NPC_111003" param2="phase2_buff_dead" rate="100" />	
+					<ACTION type="talent" param1="211100316" rate="0" /><!-- 독구름 -->					
+				</CHECK>
+				
+				<ACTION type="group" rate="30" >			
+					<ACTION type="lua" param1="NPC_111003" param2="phase1_buff_dead" rate="100" />	
+					<ACTION type="talent" param1="211100317" rate="0" /> <!-- 자기 독구름 -->	
+					<ACTION type="talent" param1="211100301" rate="5" />
+				</ACTION>				
+				<ACTION type="group" rate="30" >					
+					<ACTION type="lua" param1="NPC_111003" param2="phase1_buff_dead" rate="100" />	
+					<ACTION type="talent" param1="211100317" rate="0" /> <!-- 자기 독구름 -->	
+					<ACTION type="talent" param1="211100303" rate="20" /><!-- 점프공격 -->
+				</ACTION>
+				
+				<ACTION type="group" rate="20" >
+					<ACTION type="lua" param1="NPC_111003" param2="phase2_buff_dead" rate="100" />	
+					<ACTION type="talent" param1="211100316" rate="0" /><!-- 독구름 -->						
+				</ACTION>
+				
+				<ACTION type="group" rate="15" >
+					<ACTION type="lua" param1="NPC_111003" param2="phase2_buff_dead" rate="100" />	
+					<ACTION type="talent" param1="211100316" rate="0" /><!-- 독구름 -->	
+					<ACTION type="talent" param1="211100303" rate="20" /><!-- 점프공격 -->
+				</ACTION>
+				
+				<ACTION type="group" rate="10" >
+					<ACTION type="lua" param1="NPC_111003" param2="phase2_buff_dead" rate="100" />	
+					<ACTION type="talent" param1="211100316" rate="0" /><!-- 독구름 -->	
+					<ACTION type="talent" param1="211100304" rate="20" /><!-- 몸통돌리기 -->	
+				</ACTION>
+				
+				<ACTION type="talent" param1="211100304" rate="20" /><!-- 몸통돌리기 -->	
+				<ACTION type="talent" param1="211100301" rate="5" />				
+				<ACTION type="talent" param1="211100302" rate="5" />								
+				
+			</CHECK>
+			
+			<CHECK type="hp" param1="10" param2="40">
+								
+				<ACTION type="talent" param1="211100321" rate="1000" max_count="1"  /> <!-- 페이즈변화 알려주기 -->
+				
+				<ACTION type="group" rate="100" >
+					<ACTION type="lua" param1="NPC_111003" param2="phase2_buff_dead" />	
+					<ACTION type="lua" param1="NPC_111003" param2="phase3_debuff" /><!-- 필살독구름 -->					
+				</ACTION>				
+				<ACTION type="group" rate="5" >					
+					<ACTION type="talent" param1="211100317" rate="0" /> <!-- 자기 독구름 -->	
+					<ACTION type="talent" param1="211100303" rate="20" /><!-- 점프공격 -->
+				</ACTION>				
+				<ACTION type="group" rate="5" >					
+					<ACTION type="talent" param1="211100317" rate="0" /> <!-- 자기 독구름 -->	
+					<ACTION type="talent" param1="211100301" rate="5" />
+				</ACTION>
+				<ACTION type="talent" param1="211100307" rate="30" /><!-- 독발사체 -->
+				<ACTION type="talent" param1="211100304" rate="30" /><!-- 몸통돌리기 -->																		
+				<ACTION type="talent" param1="211100301" rate="5" />
+				<ACTION type="talent" param1="211100302" rate="5" />																					
+				
+				
+				
+			</CHECK>
+			
+			<CHECK type="hp" param2="10">
+						
+				<ACTION type="group" rate="50" >
+					<ACTION type="talent" param1="211100304" /><!-- 몸통돌리기 -->
+					<ACTION type="talent" param1="211100307" rate="100" /><!-- 독발사체 -->
+					<ACTION type="lua" param1="NPC_111003" param2="Healing" />
+				</ACTION>
+				<ACTION type="talent" param1="211100307" rate="80" /><!-- 독발사체 -->
+				<ACTION type="talent" param1="211100304" rate="50" /><!-- 몸통돌리기 -->												
+				<ACTION type="talent" param1="211100318" rate="5" />				
+				
+			
+			</CHECK>
+			
+		</COMBAT>		
+		
+		<IDLE>
+			<DEFAULT>
+				<ACTION type="nothing" param1="3" rate="50" />
+			</DEFAULT>
+		</IDLE>
+	</COLT>
+	<SCRIPT>
+	<![CDATA[ 
+
+	--[[
+		어둠의 종속자
+	--]]
+	
+	
+function NPC_111003:Init(NPCID)
+	NPC_ReserveUserData(NPCID, 2);
+	
+	NPC_111003.LimitForBreakParts	= NPC_111003.MaxHP/15
+	
+	NPC_111003.TalIdSpiltWeb 		= 211100307
+	NPC_111003.TalIdAroundWeb1 	= 211100313
+	NPC_111003.TalIdAroundWeb2 	= 211100314
+	NPC_111003.TalIdPain1				= 211100312
+	NPC_111003.TalIdRoar					= 211100308
+	NPC_111003.TalIdHeal					= 211100306
+	NPC_111003.TalIdJump					= 211100303
+	NPC_111003.TalIdWhirl					= 211100304
+	
+	NPC_111003.TalIdPain2		= 211100318
+	NPC_111003.TalIdImmunity1 = 211100319
+	NPC_111003.TalIdImmunity2 = 211100320	
+	
+	NPC_111003.PartIdJawL				= 3
+	NPC_111003.PartIdJawR				= 4
+end
+
+function NPC_111003:phase1_buff_dead(ThisNPC, Enemy)
+	ThisNPC:RemoveBuff( 88020 )
+	ThisNPC:RemoveBuff( 88022 )
+end
+
+
+function NPC_111003:phase2_buff_dead(ThisNPC, Enemy)
+	ThisNPC:RemoveBuff( 88024 )
+	ThisNPC:RemoveBuff( 88025 )
+end
+
+-- 랜덤으로 캐릭터에게 디버프사용
+function NPC_111003:phase3_debuff( ThisActor, Enemy ) 
+	--GLog( "NPC_111003:phase3_debuff\n" )
+	local ThisNPC = AsNPC( ThisActor)
+	
+	
+	local NewEnemy = ThisNPC:Aggro( "random", 0 )
+	if ThisNPC:IsCooldown( NPC_111003.TalIdImmunity1 ) then
+		return
+	end
+	if ThisNPC:IsCooldown( NPC_111003.TalIdImmunity2 ) then
+		return
+	end
+	
+	ThisNPC:NarrationNow("$$COLT_0111003_204")
+	ThisNPC:UseTalent( NPC_111003.TalIdImmunity1, NewEnemy )
+	NewEnemy:RemoveBuff( 88030 )
+	NewEnemy:RemoveBuff( 88033 )
+	ThisNPC:UseTalent( NPC_111003.TalIdImmunity2, Enemy )
+	--ThisNPC:UseTalent( NPC_111003.TalIdPain2, Enemy )
+	
+end
+
+function NPC_111003:OnYell(RequestNPC, TargetActor)
+	this:Assist(RequestNPC)
+end
+
+function NPC_111003:Healing(ThisNPC, Opponent)
+	if ThisNPC:IsCooldown( NPC_111003.TalIdHeal ) then
+		return
+	end
+	
+	if ThisNPC:GetHP()/ThisNPC:GetMaxHP() == 1 then
+		return
+	end
+	
+	--if ThisNPC:CheckBPart( NPC_111003.PartIdJawL ) and ThisNPC:CheckBPart( NPC_111003.PartIdJawR ) then
+	--	return
+	--end
+	
+	ThisNPC:UseTalentSelf( NPC_111003.TalIdHeal )
+end
+
+-- Talent Callback Func
+function NPC_111003:OnFinishAndAggroSwap( ThisActor, Enemy )
+	local ThisNPC = AsNPC( ThisActor )
+	
+	ThisNPC:Aggro( "short", 0 )
+end
+
+---
+function NPC_111003:CheckBreakpart(HitInfo, bFrontPart)
+	local ThisNPC = HitInfo.Victim
+	local hpRate = ThisNPC:GetHP()/ThisNPC:GetMaxHP()
+	
+	
+	local currentTalent = ThisNPC:GetCurrentTalent()
+	if currentTalent == NPC_111003.TalIdPain1 or currentTalent == NPC_111003.TalIdRoar then
+		return HitInfo
+	end
+	
+	if (bFrontPart == true and (ThisNPC:CheckBPart(3) == false or ThisNPC:CheckBPart(4) == false)) then
+		-- 전면 누적치
+		local frontDamage = ThisNPC:GetUserData(1) + HitInfo.Damage		
+		
+		if (frontDamage >= NPC_111003.LimitForBreakParts) then
+			if (ThisNPC:CheckBPart(3) == false) then
+				ThisNPC:ClearJob()
+				ThisNPC:BreakPart(3, HitInfo.Attacker)
+				ThisNPC:UseTalentSelf( NPC_111003.TalIdPain1 )
+				frontDamage = 0
+			elseif (ThisNPC:CheckBPart(4) == false) then
+				ThisNPC:ClearJob()
+				ThisNPC:BreakPart(4, HitInfo.Attacker)
+				ThisNPC:UseTalentSelf(NPC_111003.TalIdPain1)
+				frontDamage = 0
+			end
+		end
+		
+		ThisNPC:SetUserData(1, frontDamage)
+	else
+		-- 후면 누적치
+		local rearDamage = ThisNPC:GetUserData(2) + HitInfo.Damage
+		if rearDamage >= NPC_111003.LimitForBreakParts and (ThisNPC:CheckBPart(1) == false or ThisNPC:CheckBPart(2) == false) then
+			if (ThisNPC:CheckBPart(1) == false) then
+				ThisNPC:ClearJob()
+				ThisNPC:BreakPart(1, HitInfo.Attacker)
+				ThisNPC:UseTalentSelf(NPC_111003.TalIdPain1)
+				rearDamage = 0
+			elseif(ThisNPC:CheckBPart(2) == false) then
+				ThisNPC:ClearJob()
+				ThisNPC:BreakPart(2, HitInfo.Attacker)
+				ThisNPC:UseTalentSelf(NPC_111003.TalIdPain1)
+				rearDamage = 0
+			end
+		end
+		
+		ThisNPC:SetUserData(2, rearDamage)
+	end
+
+	return HitInfo
+end
+
+function NPC_111003:OnHitCapsule_0_0(HitInfo)
+	return NPC_111003:CheckBreakpart(HitInfo, true)
+end
+
+function NPC_111003:OnHitCapsule_1_0(HitInfo)
+	return NPC_111003:CheckBreakpart(HitInfo, true)
+end
+
+function NPC_111003:OnHitCapsule_2_0(HitInfo)
+	return NPC_111003:CheckBreakpart(HitInfo, true)
+end
+
+function NPC_111003:OnHitCapsule_3_0(HitInfo)
+	return NPC_111003:CheckBreakpart(HitInfo, true)
+end
+
+function NPC_111003:OnHitCapsule_1_1(HitInfo)
+	return NPC_111003:CheckBreakpart(HitInfo, false)
+end
+
+-- NPC111003_Stressed
+function NPC_111003:Stressed(ThisNPC, Enemy)
+	ThisNPC:Aggro("short", 0)
+
+	local Dist = ThisNPC:DistanceTo( Enemy )
+	if Dist < 400 and not ThisNPC:IsCooldown( NPC_111003.TalIdWhirl ) then
+		
+		ThisNPC:UseTalentSelf( NPC_111003.TalIdWhirl )
+	end
+end
+	
+	]]>
+	</SCRIPT>
+</maiet>

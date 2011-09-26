@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="euc-kr" ?>
+<maiet>
+    <FIELDINFO zone="512" min_x="-17500" min_y="-16300" max_x="17500" max_y="18700" boundary_min_x="0" boundary_min_y="0" boundary_max_x="0" boundary_max_y="0" weather_effect="true" town="false" returnable="true" qpvpnpc1="950000" qpvpnpc2="9500001" qpvprebirth1="102230" qpvprebirth2="102231">
+        <BGM fieldbgm="bgm_field_6">
+            <ENVBGM dungeonbgm="amb_dungeon_3" />
+        </BGM>
+        <SOUNDREVERB reverb="5" />
+        <Env set="default">
+            <WEATHER default="SUN">
+                <ADD weather="CLD" percent="0" />
+                <ADD weather="RNY" percent="0" />
+                <ADD weather="HRN" percent="0" />
+                <ADD weather="SNW" percent="0" />
+                <ADD weather="HSW" percent="0" />
+                <ADD weather="CLR" percent="0" />
+            </WEATHER>
+        </Env>
+        <MARKER id="1" name="from 오솔길 오른쪽" x="1977.260376" y="-12600.517578" z="154.119629" dir_x="-0.000000" dir_y="1.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="2" name="from 오솔길 왼쪽" x="-1985.037109" y="-12646.103516" z="132.886230" dir_x="0.017452" dir_y="0.999848" dir_z="0.000000" random_dir="false" />
+        <SENSOR id="1" name="to 오솔길 오른쪽" x="2023.554199" y="-13409.916016" z="3.000000" radius="450.000000" enabled="true">
+            <EFFECT effect="sensor_trial_02" x="-9.739746" y="357.634766" z="100.252014" dir_x="0.087156" dir_y="0.996195" dir_z="0.000000" up_x="0.000000" up_y="0.000000" up_z="1.000000" scale_x="1.000000" scale_y="1.000000" scale_z="2.000000" />
+            <WARP warp_type="field" title="다른 필드로 이동" condition="0" gate_type="auto" field="113" marker="9" />
+        </SENSOR>
+        <SENSOR id="2" name="to 오솔길 왼쪽" x="-2000.347778" y="-13432.445313" z="3.000000" radius="450.000000" enabled="true">
+            <EFFECT effect="sensor_trial_02" x="-1.175659" y="355.200195" z="107.331665" dir_x="0.017452" dir_y="0.999848" dir_z="0.000000" up_x="0.000000" up_y="0.000000" up_z="1.000000" scale_x="1.000000" scale_y="1.000000" scale_z="2.000000" />
+            <WARP warp_type="field" title="다른 필드로 이동" condition="0" gate_type="auto" field="113" marker="10" />
+        </SENSOR>
+    </FIELDINFO>
+</maiet>

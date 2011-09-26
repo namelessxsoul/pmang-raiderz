@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet href="./colt.xsl" type="text/xsl"?>
+<maiet>
+	<COLT name="화원의 석문 레버 가짜">
+		<COMBAT>
+		</COMBAT>
+		<IDLE>
+		</IDLE>
+	</COLT>
+	<SCRIPT><![CDATA[ 
+
+function NPC_121219:OnDialogExit( Player, DialogID, ExitID )
+	--GLog( "OnDialogExit( " .. DialogID .. ", " .. ExitID .. ")\n" )
+	
+	if DialogID == 1212190 and ExitID == 2 then
+		Field = this:GetField()		
+		this:NarrationNow( "$$COLT_0121219_17"  )				
+	end
+end
+
+	]]></SCRIPT>
+</maiet>

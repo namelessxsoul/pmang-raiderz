@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet href="./colt.xsl" type="text/xsl"?>
+<maiet>
+	<COLT name="베테랑 도굴꾼(남)" >
+		<COMBAT victory="211307710">
+			<DEFAULT>	
+				<ACTION type="nothing" param1="1" rate="20" cycle="6"/>
+				<ACTION type="nothing" param1="1" rate="20" cycle="6"/>
+				
+				<ACTION type="talent" param1="211307701" rate="30" />
+				<ACTION type="talent" param1="211307703" rate="30" />
+				<ACTION type="talent" param1="211307702" rate="10" />  <!-- 연타 -->
+				<ACTION type="talent" param1="211307705" rete="10" />   <!-- 돌진 -->
+			</DEFAULT>
+			
+			<CHECK type="distance" param1="400" >
+				<ACTION type="distance" param1="300" param2="350" rate="90" />
+			</CHECK>
+			
+			<CHECK type="distance" param1="300">
+				<ACTION type="nothing" param1="1" rate="20" cycle="6"/>
+				<ACTION type="nothing" param1="1" rate="20" cycle="6"/>
+				
+				<ACTION type="talent" param1="211307701" rate="5" />
+				<ACTION type="talent" param1="211307703" rate="5" />
+				<ACTION type="talent" param1="211307703" rate="10" />
+				<ACTION type="talent" param1="211307705" rete="20" />   <!-- 돌진 -->
+				<ACTION type="talent" param1="211307706" rate="20" />   <!-- 전진공격 -->
+			</CHECK>
+			
+			<CHECK type="distance" param2="200">
+				<CHECK type="rage" param1="100" >
+					<ACTION type="talent" param1="211307704" rate="100" />  <!-- 회피배기 -->
+				</CHECK>
+			</CHECK>
+			
+			<CHECK type="distance" param2="200">
+				<CHECK type="rage" param1="80" >
+					<ACTION type="talent" param1="211307707" rate="25" />  <!-- 회피 L -->
+					<ACTION type="talent" param1="211307708" rate="25" />  <!-- 회피 R -->
+				</CHECK>
+			</CHECK>
+			
+		</COMBAT>
+		
+		<COMBAT mode="1" >
+			<DEFAULT>	
+				<ACTION type="talent" param1="211307709" rate="100" />
+			</DEFAULT>
+		</COMBAT>
+				
+		<AGGRO>
+			<DEFAULT>
+				<!--<ACTION type="lua" param1="BespioAggroChat1" />-->
+			</DEFAULT>
+		</AGGRO>
+		
+		<IDLE>
+			<DEFAULT>
+				<ACTION type="nothing" param1="2" rate="80" />
+				<ACTION type="talent" param1="211307700" rate="20"/>
+			</DEFAULT>
+		</IDLE>
+						
+	</COLT>
+	<SCRIPT><![CDATA[
+	]]></SCRIPT>
+</maiet>

@@ -1,0 +1,1107 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ROOT>
+    <SCENE>
+        <DIRLIGHT>
+            <COMMON name="DirectionalLight">
+                <POSITION>0.000000 -1.000000 1.000000</POSITION>
+                <DIRECTION>0.298836 0.544822 -0.783496</DIRECTION>
+                <UP>-0.298836 0.833145 0.465367</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <SHADOWLUMINOSITY>0.100</SHADOWLUMINOSITY>
+                <POWER>1.000</POWER>
+                <AMBIENT>0.000 0.000 0.000</AMBIENT>
+                <DIFFUSE>1.000 1.000 1.000</DIFFUSE>
+                <SPECULAR>1.000 1.000 1.000</SPECULAR>
+                <SKYSPECULAR>1.000</SKYSPECULAR>
+            </PROPERTY>
+        </DIRLIGHT>
+        <SUBLIGHT>
+            <COMMON name="SubLight">
+                <POSITION>0.000000 0.000000 1100.000000</POSITION>
+                <DIRECTION>-0.640258 0.378505 -0.668434</DIRECTION>
+                <UP>-0.749850 -0.496820 0.436915</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <COLOR>0.314 0.392 0.498</COLOR>
+            </PROPERTY>
+        </SUBLIGHT>
+        <SUBLIGHT>
+            <COMMON name="SubL_001">
+                <POSITION>0.000000 0.000000 900.000000</POSITION>
+                <DIRECTION>-0.367966 -0.925598 -0.088714</DIRECTION>
+                <UP>-0.071873 -0.066810 0.995174</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <COLOR>0.290 0.184 0.325</COLOR>
+            </PROPERTY>
+        </SUBLIGHT>
+        <SUBLIGHT>
+            <COMMON name="SubL_002">
+                <POSITION>0.000000 0.000000 1000.000000</POSITION>
+                <DIRECTION>0.693056 0.484806 0.533513</DIRECTION>
+                <UP>-0.389181 -0.371337 0.842999</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <COLOR>0.263 0.318 0.267</COLOR>
+            </PROPERTY>
+        </SUBLIGHT>
+        <SCENEINSTANCE>
+            <COMMON name="Catacomb_of_damned_Alleyway_left01.scene_001">
+                <POSITION>0.000000 0.000000 0.000000</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>Catacomb_of_damned_Alleyway_left01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="Catacomb_of_damned_Alleyway_left02.scene_001">
+                <POSITION>0.000000 0.000000 0.000000</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>Catacomb_of_damned_Alleyway_left02.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="Catacomb_of_damned_Alleyway_left03.scene_001">
+                <POSITION>0.000000 0.000000 0.000000</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>Catacomb_of_damned_Alleyway_left03.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="Catacomb_of_damned_Alleyway_right01.scene_001">
+                <POSITION>0.000000 0.000000 0.000000</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>Catacomb_of_damned_Alleyway_right01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="Catacomb_of_damned_Alleyway_right02.scene_001">
+                <POSITION>0.000000 0.000000 0.000000</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>Catacomb_of_damned_Alleyway_right02.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="Catacomb_of_damned_Alleyway_right03.scene_001">
+                <POSITION>0.000000 0.000000 0.000000</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>Catacomb_of_damned_Alleyway_right03.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="Catacomb_of_damned_East_1_tomb.scene_001">
+                <POSITION>0.000000 0.000000 0.000000</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>Catacomb_of_damned_East_1_tomb.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="Catacomb_of_damned_East_1_tomb_Manelos.scene_001">
+                <POSITION>0.000000 0.000000 0.000000</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>Catacomb_of_damned_East_1_tomb_Manelos.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="Catacomb_of_damned_Bahomat.scene_001">
+                <POSITION>0.000000 0.000000 0.000000</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>Catacomb_of_damned_Bahomat.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="Catacomb_of_damned_East_2_tomb.scene_001">
+                <POSITION>0.000000 0.000000 0.000000</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>Catacomb_of_damned_East_2_tomb.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="Catacomb_of_damned_East_3_tomb.scene_001">
+                <POSITION>0.000000 0.000000 0.000000</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>Catacomb_of_damned_East_3_tomb.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="Catacomb_of_damned_East_tombpath_treasureRoom.scene_001">
+                <POSITION>0.000000 0.000000 0.000000</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>Catacomb_of_damned_East_tombpath_treasureRoom.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="Catacomb_of_damned_Main Hall_2.scene_001">
+                <POSITION>0.000000 0.000000 0.000000</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>Catacomb_of_damned_Main Hall_2.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="Catacomb_of_damned_Main_Hall_1.scene_001">
+                <POSITION>0.000000 0.000000 0.000000</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>Catacomb_of_damned_Main_Hall_1.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="Catacomb_of_damned_West_corpsePath_A2.scene_001">
+                <POSITION>0.000000 0.000000 0.000000</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>Catacomb_of_damned_West_corpsePath_A2.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="Catacomb_of_damned_West_corpsePath_A.scene_001">
+                <POSITION>0.000000 0.000000 0.000000</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>Catacomb_of_damned_West_corpsePath_A.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="Catacomb_of_damned_West_corpsePath_B.scene_001">
+                <POSITION>-2.838379 0.076172 0.000000</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>Catacomb_of_damned_West_corpsePath_B.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="Catacomb_of_damned_West_corpsePath_B2.scene_001">
+                <POSITION>0.000000 0.000000 0.000000</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>Catacomb_of_damned_West_corpsePath_B2.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="Catacomb_of_damned_West_endlessbones_01.scene_001">
+                <POSITION>0.000000 0.000000 0.000000</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>Catacomb_of_damned_West_endlessbones_01.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="Catacomb_of_damned_West_endlessbones_02.scene_001">
+                <POSITION>0.000000 0.000000 0.000000</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>Catacomb_of_damned_West_endlessbones_02.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="Catacomb_of_dfamned_East_lenasChapel.scene_001">
+                <POSITION>0.000000 0.000000 0.000000</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>Catacomb_of_dfamned_East_lenasChapel.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="Catacomb_of_damned_West_thosethatstand.scene_001">
+                <POSITION>0.000000 0.000000 0.000000</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>Catacomb_of_damned_West_thosethatstand.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <SCENEINSTANCE>
+            <COMMON name="Catacomb_of_damned_GhostKnightboss.scene_001">
+                <POSITION>0.000000 0.408203 0.000000</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <FILENAME>Catacomb_of_damned_GhostKnightboss.scene.xml</FILENAME>
+            </PROPERTY>
+            <SCENE />
+        </SCENEINSTANCE>
+        <LIGHT>
+            <COMMON name="PointLight">
+                <POSITION>-48.598267 -10056.485352 1150.861328</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <COLOR>0.239 0.510 0.424</COLOR>
+                <INTENSITY>1.000</INTENSITY>
+                <ATTENUATIONEND>1300.000</ATTENUATIONEND>
+                <ATTENUATIONSTART>1000.000</ATTENUATIONSTART>
+                <AREARANGE>0.000 0.000 0.000</AREARANGE>
+            </PROPERTY>
+        </LIGHT>
+        <LIGHT>
+            <COMMON name="PointL_001">
+                <POSITION>853.836365 -15078.041016 962.682495</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <COLOR>0.243 0.510 0.427</COLOR>
+                <INTENSITY>1.000</INTENSITY>
+                <ATTENUATIONEND>1500.000</ATTENUATIONEND>
+                <ATTENUATIONSTART>1000.000</ATTENUATIONSTART>
+                <AREARANGE>0.000 0.000 0.000</AREARANGE>
+            </PROPERTY>
+        </LIGHT>
+        <LIGHT>
+            <COMMON name="PointL_004">
+                <POSITION>2071.446777 -12888.693359 919.318359</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <COLOR>0.502 0.502 0.000</COLOR>
+                <INTENSITY>1.000</INTENSITY>
+                <ATTENUATIONEND>1500.000</ATTENUATIONEND>
+                <ATTENUATIONSTART>1000.000</ATTENUATIONSTART>
+                <AREARANGE>0.000 0.000 0.000</AREARANGE>
+            </PROPERTY>
+        </LIGHT>
+        <LIGHT>
+            <COMMON name="PointL_005">
+                <POSITION>5333.753418 -5378.209961 815.606567</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <COLOR>0.776 0.835 0.243</COLOR>
+                <INTENSITY>0.800</INTENSITY>
+                <ATTENUATIONEND>1600.000</ATTENUATIONEND>
+                <ATTENUATIONSTART>1000.000</ATTENUATIONSTART>
+                <AREARANGE>0.000 0.000 0.000</AREARANGE>
+            </PROPERTY>
+        </LIGHT>
+        <LIGHT>
+            <COMMON name="PointL_006">
+                <POSITION>-5793.869141 -5598.116211 690.717712</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <COLOR>0.357 0.722 0.631</COLOR>
+                <INTENSITY>1.000</INTENSITY>
+                <ATTENUATIONEND>1600.000</ATTENUATIONEND>
+                <ATTENUATIONSTART>900.000</ATTENUATIONSTART>
+                <AREARANGE>0.000 0.000 0.000</AREARANGE>
+            </PROPERTY>
+        </LIGHT>
+        <LIGHT>
+            <COMMON name="PointL_009">
+                <POSITION>-2793.319580 1601.021240 736.132080</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <COLOR>0.706 0.212 0.071</COLOR>
+                <INTENSITY>1.300</INTENSITY>
+                <ATTENUATIONEND>1800.000</ATTENUATIONEND>
+                <ATTENUATIONSTART>1200.000</ATTENUATIONSTART>
+                <AREARANGE>0.000 0.000 0.000</AREARANGE>
+            </PROPERTY>
+        </LIGHT>
+        <LIGHT>
+            <COMMON name="PointL_010">
+                <POSITION>3422.964355 1559.734863 1036.789917</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <COLOR>0.502 0.502 0.000</COLOR>
+                <INTENSITY>1.000</INTENSITY>
+                <ATTENUATIONEND>1300.000</ATTENUATIONEND>
+                <ATTENUATIONSTART>700.000</ATTENUATIONSTART>
+                <AREARANGE>0.000 0.000 0.000</AREARANGE>
+            </PROPERTY>
+        </LIGHT>
+        <LIGHT>
+            <COMMON name="PointL_011">
+                <POSITION>2597.479736 -1388.802124 466.171753</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <COLOR>0.918 0.835 0.090</COLOR>
+                <INTENSITY>1.000</INTENSITY>
+                <ATTENUATIONEND>1100.000</ATTENUATIONEND>
+                <ATTENUATIONSTART>700.000</ATTENUATIONSTART>
+                <AREARANGE>0.000 0.000 0.000</AREARANGE>
+            </PROPERTY>
+        </LIGHT>
+        <LIGHT>
+            <COMMON name="PointL_012">
+                <POSITION>6306.761719 1682.730103 466.171753</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <COLOR>0.502 0.251 0.000</COLOR>
+                <INTENSITY>1.000</INTENSITY>
+                <ATTENUATIONEND>1000.000</ATTENUATIONEND>
+                <ATTENUATIONSTART>500.000</ATTENUATIONSTART>
+                <AREARANGE>0.000 0.000 0.000</AREARANGE>
+            </PROPERTY>
+        </LIGHT>
+        <LIGHT>
+            <COMMON name="PointL_013">
+                <POSITION>8116.545898 1682.730103 466.171753</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <COLOR>0.502 0.251 0.000</COLOR>
+                <INTENSITY>1.000</INTENSITY>
+                <ATTENUATIONEND>1000.000</ATTENUATIONEND>
+                <ATTENUATIONSTART>500.000</ATTENUATIONSTART>
+                <AREARANGE>0.000 0.000 0.000</AREARANGE>
+            </PROPERTY>
+        </LIGHT>
+        <LIGHT>
+            <COMMON name="PointL_014">
+                <POSITION>6306.761719 -1761.812866 466.171753</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <COLOR>0.122 0.380 0.373</COLOR>
+                <INTENSITY>1.000</INTENSITY>
+                <ATTENUATIONEND>1000.000</ATTENUATIONEND>
+                <ATTENUATIONSTART>500.000</ATTENUATIONSTART>
+                <AREARANGE>0.000 0.000 0.000</AREARANGE>
+            </PROPERTY>
+        </LIGHT>
+        <LIGHT>
+            <COMMON name="PointL_015">
+                <POSITION>8291.402344 -1761.812866 466.171753</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <COLOR>0.149 0.349 0.243</COLOR>
+                <INTENSITY>1.000</INTENSITY>
+                <ATTENUATIONEND>1000.000</ATTENUATIONEND>
+                <ATTENUATIONSTART>500.000</ATTENUATIONSTART>
+                <AREARANGE>0.000 0.000 0.000</AREARANGE>
+            </PROPERTY>
+        </LIGHT>
+        <LIGHT>
+            <COMMON name="PointL_016">
+                <POSITION>9870.036133 4136.750000 636.416443</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <COLOR>0.502 0.502 0.000</COLOR>
+                <INTENSITY>1.000</INTENSITY>
+                <ATTENUATIONEND>1000.000</ATTENUATIONEND>
+                <ATTENUATIONSTART>300.000</ATTENUATIONSTART>
+                <AREARANGE>0.000 0.000 0.000</AREARANGE>
+            </PROPERTY>
+        </LIGHT>
+        <LIGHT>
+            <COMMON name="PointL_017">
+                <POSITION>7795.020996 6964.593262 571.809143</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <COLOR>0.761 0.478 0.831</COLOR>
+                <INTENSITY>1.000</INTENSITY>
+                <ATTENUATIONEND>800.000</ATTENUATIONEND>
+                <ATTENUATIONSTART>300.000</ATTENUATIONSTART>
+                <AREARANGE>0.000 0.000 0.000</AREARANGE>
+            </PROPERTY>
+        </LIGHT>
+        <SPOTLIGHT>
+            <COMMON name="SpotLight">
+                <POSITION>-796.569092 -6721.426758 3037.294922</POSITION>
+                <DIRECTION>0.290010 0.174966 -0.940894</DIRECTION>
+                <UP>-0.252318 0.962340 0.101183</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <ATTENUATIONEND>3500.000</ATTENUATIONEND>
+                <ATTENUATIONSTART>1500.000</ATTENUATIONSTART>
+                <FOV>50.000</FOV>
+                <INTENSITY>3.000</INTENSITY>
+                <COLOR>0.686 0.804 0.812</COLOR>
+                <USERENDERMINAREA>false</USERENDERMINAREA>
+                <RENDERMINAREA>0.005</RENDERMINAREA>
+            </PROPERTY>
+        </SPOTLIGHT>
+        <LIGHT>
+            <COMMON name="PointL_019">
+                <POSITION>-7838.748535 6964.593262 571.809143</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <COLOR>0.937 0.631 0.059</COLOR>
+                <INTENSITY>1.000</INTENSITY>
+                <ATTENUATIONEND>800.000</ATTENUATIONEND>
+                <ATTENUATIONSTART>300.000</ATTENUATIONSTART>
+                <AREARANGE>0.000 0.000 0.000</AREARANGE>
+            </PROPERTY>
+        </LIGHT>
+        <LIGHT>
+            <COMMON name="PointL_020">
+                <POSITION>-4434.741211 5835.114258 757.970459</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <COLOR>0.169 0.251 0.835</COLOR>
+                <INTENSITY>1.000</INTENSITY>
+                <ATTENUATIONEND>1500.000</ATTENUATIONEND>
+                <ATTENUATIONSTART>700.000</ATTENUATIONSTART>
+                <AREARANGE>0.000 0.000 0.000</AREARANGE>
+            </PROPERTY>
+        </LIGHT>
+        <LIGHT>
+            <COMMON name="PointL_021">
+                <POSITION>4757.741699 983.479858 708.397095</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <COLOR>0.243 0.510 0.427</COLOR>
+                <INTENSITY>1.000</INTENSITY>
+                <ATTENUATIONEND>1100.000</ATTENUATIONEND>
+                <ATTENUATIONSTART>700.000</ATTENUATIONSTART>
+                <AREARANGE>0.000 0.000 0.000</AREARANGE>
+            </PROPERTY>
+        </LIGHT>
+        <LIGHT>
+            <COMMON name="PointL_022">
+                <POSITION>-7.893555 11478.862305 30.231277</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <COLOR>1.000 0.502 0.251</COLOR>
+                <INTENSITY>0.700</INTENSITY>
+                <ATTENUATIONEND>2500.000</ATTENUATIONEND>
+                <ATTENUATIONSTART>2000.000</ATTENUATIONSTART>
+                <AREARANGE>0.000 0.000 0.000</AREARANGE>
+            </PROPERTY>
+        </LIGHT>
+        <LIGHT>
+            <COMMON name="PointL_023">
+                <POSITION>7715.226074 10633.584961 698.358704</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <COLOR>0.290 0.129 0.373</COLOR>
+                <INTENSITY>1.000</INTENSITY>
+                <ATTENUATIONEND>1300.000</ATTENUATIONEND>
+                <ATTENUATIONSTART>1000.000</ATTENUATIONSTART>
+                <AREARANGE>0.000 0.000 0.000</AREARANGE>
+            </PROPERTY>
+        </LIGHT>
+        <LIGHT>
+            <COMMON name="PointL_026">
+                <POSITION>2701.354248 13003.298828 1675.495483</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <COLOR>0.839 0.729 0.408</COLOR>
+                <INTENSITY>1.000</INTENSITY>
+                <ATTENUATIONEND>700.000</ATTENUATIONEND>
+                <ATTENUATIONSTART>500.000</ATTENUATIONSTART>
+                <AREARANGE>0.000 0.000 0.000</AREARANGE>
+            </PROPERTY>
+        </LIGHT>
+        <LIGHT>
+            <COMMON name="PointL_027">
+                <POSITION>-2485.736084 12520.188477 1904.124878</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <COLOR>0.839 0.729 0.408</COLOR>
+                <INTENSITY>1.000</INTENSITY>
+                <ATTENUATIONEND>1000.000</ATTENUATIONEND>
+                <ATTENUATIONSTART>700.000</ATTENUATIONSTART>
+                <AREARANGE>0.000 0.000 0.000</AREARANGE>
+            </PROPERTY>
+        </LIGHT>
+        <LIGHT>
+            <COMMON name="PointL_028">
+                <POSITION>-35.559814 14759.409180 1810.126953</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <COLOR>0.839 0.729 0.408</COLOR>
+                <INTENSITY>1.000</INTENSITY>
+                <ATTENUATIONEND>1800.000</ATTENUATIONEND>
+                <ATTENUATIONSTART>700.000</ATTENUATIONSTART>
+                <AREARANGE>0.000 0.000 0.000</AREARANGE>
+            </PROPERTY>
+        </LIGHT>
+        <LIGHT>
+            <COMMON name="PointL_029">
+                <POSITION>-35.559814 7887.575195 1079.208130</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <COLOR>0.090 0.243 0.643</COLOR>
+                <INTENSITY>1.000</INTENSITY>
+                <ATTENUATIONEND>1200.000</ATTENUATIONEND>
+                <ATTENUATIONSTART>700.000</ATTENUATIONSTART>
+                <AREARANGE>0.000 0.000 0.000</AREARANGE>
+            </PROPERTY>
+        </LIGHT>
+        <LIGHT>
+            <COMMON name="PointL_030">
+                <POSITION>-7793.270996 10303.493164 55.109398</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <COLOR>1.000 0.502 0.251</COLOR>
+                <INTENSITY>0.700</INTENSITY>
+                <ATTENUATIONEND>1500.000</ATTENUATIONEND>
+                <ATTENUATIONSTART>1000.000</ATTENUATIONSTART>
+                <AREARANGE>0.000 0.000 0.000</AREARANGE>
+            </PROPERTY>
+        </LIGHT>
+        <LIGHT>
+            <COMMON name="PointL_031">
+                <POSITION>7791.623047 11818.154297 368.421509</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <COLOR>0.882 0.725 0.361</COLOR>
+                <INTENSITY>1.000</INTENSITY>
+                <ATTENUATIONEND>1000.000</ATTENUATIONEND>
+                <ATTENUATIONSTART>500.000</ATTENUATIONSTART>
+                <AREARANGE>0.000 0.000 0.000</AREARANGE>
+            </PROPERTY>
+        </LIGHT>
+        <LIGHT>
+            <COMMON name="PointL_032">
+                <POSITION>7796.569336 13706.650391 652.659485</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <COLOR>0.882 0.725 0.361</COLOR>
+                <INTENSITY>1.000</INTENSITY>
+                <ATTENUATIONEND>800.000</ATTENUATIONEND>
+                <ATTENUATIONSTART>200.000</ATTENUATIONSTART>
+                <AREARANGE>0.000 0.000 0.000</AREARANGE>
+            </PROPERTY>
+        </LIGHT>
+        <LIGHT>
+            <COMMON name="PointL_033">
+                <POSITION>-7825.641113 13643.174805 652.659485</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <COLOR>0.000 0.502 0.502</COLOR>
+                <INTENSITY>1.000</INTENSITY>
+                <ATTENUATIONEND>800.000</ATTENUATIONEND>
+                <ATTENUATIONSTART>200.000</ATTENUATIONSTART>
+                <AREARANGE>0.000 0.000 0.000</AREARANGE>
+            </PROPERTY>
+        </LIGHT>
+        <LIGHT>
+            <COMMON name="PointL_034">
+                <POSITION>-6880.780762 11565.916016 407.581482</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <COLOR>0.000 0.502 0.502</COLOR>
+                <INTENSITY>1.000</INTENSITY>
+                <ATTENUATIONEND>600.000</ATTENUATIONEND>
+                <ATTENUATIONSTART>200.000</ATTENUATIONSTART>
+                <AREARANGE>0.000 0.000 0.000</AREARANGE>
+            </PROPERTY>
+        </LIGHT>
+        <LIGHT>
+            <COMMON name="PointL_035">
+                <POSITION>-7744.041016 8775.382813 549.893738</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <COLOR>0.000 0.502 0.502</COLOR>
+                <INTENSITY>1.000</INTENSITY>
+                <ATTENUATIONEND>600.000</ATTENUATIONEND>
+                <ATTENUATIONSTART>200.000</ATTENUATIONSTART>
+                <AREARANGE>0.000 0.000 0.000</AREARANGE>
+            </PROPERTY>
+        </LIGHT>
+        <LIGHT>
+            <COMMON name="PointL_036">
+                <POSITION>-7.893555 11470.551758 775.824646</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <COLOR>0.000 0.502 0.502</COLOR>
+                <INTENSITY>0.700</INTENSITY>
+                <ATTENUATIONEND>1200.000</ATTENUATIONEND>
+                <ATTENUATIONSTART>700.000</ATTENUATIONSTART>
+                <AREARANGE>0.000 0.000 0.000</AREARANGE>
+            </PROPERTY>
+        </LIGHT>
+        <LIGHT>
+            <COMMON name="PointL_037">
+                <POSITION>6871.969238 9202.101563 368.421509</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <COLOR>0.000 0.502 0.502</COLOR>
+                <INTENSITY>1.000</INTENSITY>
+                <ATTENUATIONEND>700.000</ATTENUATIONEND>
+                <ATTENUATIONSTART>500.000</ATTENUATIONSTART>
+                <AREARANGE>0.000 0.000 0.000</AREARANGE>
+            </PROPERTY>
+        </LIGHT>
+        <LIGHT>
+            <COMMON name="PointL_038">
+                <POSITION>8648.959961 9180.068359 368.421509</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <COLOR>0.000 0.502 0.502</COLOR>
+                <INTENSITY>1.000</INTENSITY>
+                <ATTENUATIONEND>700.000</ATTENUATIONEND>
+                <ATTENUATIONSTART>500.000</ATTENUATIONSTART>
+                <AREARANGE>0.000 0.000 0.000</AREARANGE>
+            </PROPERTY>
+        </LIGHT>
+        <LIGHT>
+            <COMMON name="PointL_043">
+                <POSITION>-2033.895996 15424.366211 637.556335</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <COLOR>0.000 0.502 0.502</COLOR>
+                <INTENSITY>1.000</INTENSITY>
+                <ATTENUATIONEND>700.000</ATTENUATIONEND>
+                <ATTENUATIONSTART>500.000</ATTENUATIONSTART>
+                <AREARANGE>0.000 0.000 0.000</AREARANGE>
+            </PROPERTY>
+        </LIGHT>
+        <LIGHT>
+            <COMMON name="PointL_044">
+                <POSITION>2007.027100 15402.333008 637.556335</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <COLOR>0.000 0.502 0.502</COLOR>
+                <INTENSITY>1.000</INTENSITY>
+                <ATTENUATIONEND>700.000</ATTENUATIONEND>
+                <ATTENUATIONSTART>500.000</ATTENUATIONSTART>
+                <AREARANGE>0.000 0.000 0.000</AREARANGE>
+            </PROPERTY>
+        </LIGHT>
+        <LIGHT>
+            <COMMON name="PointL_046">
+                <POSITION>-4848.257813 885.878418 315.904846</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <COLOR>0.357 0.722 0.627</COLOR>
+                <INTENSITY>0.800</INTENSITY>
+                <ATTENUATIONEND>800.000</ATTENUATIONEND>
+                <ATTENUATIONSTART>500.000</ATTENUATIONSTART>
+                <AREARANGE>0.000 0.000 0.000</AREARANGE>
+            </PROPERTY>
+        </LIGHT>
+        <LIGHT>
+            <COMMON name="PointL_047">
+                <POSITION>-35.559814 5748.312500 684.685913</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <COLOR>0.090 0.243 0.643</COLOR>
+                <INTENSITY>1.000</INTENSITY>
+                <ATTENUATIONEND>1200.000</ATTENUATIONEND>
+                <ATTENUATIONSTART>700.000</ATTENUATIONSTART>
+                <AREARANGE>0.000 0.000 0.000</AREARANGE>
+            </PROPERTY>
+        </LIGHT>
+        <LIGHT>
+            <COMMON name="PointL_002">
+                <POSITION>8859.281250 -5513.625488 581.639160</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <COLOR>0.847 0.463 0.227</COLOR>
+                <INTENSITY>0.800</INTENSITY>
+                <ATTENUATIONEND>1600.000</ATTENUATIONEND>
+                <ATTENUATIONSTART>1000.000</ATTENUATIONSTART>
+                <AREARANGE>0.000 0.000 0.000</AREARANGE>
+            </PROPERTY>
+        </LIGHT>
+        <LIGHT>
+            <COMMON name="PointL_003">
+                <POSITION>-8914.431641 -5393.746582 657.785889</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <COLOR>0.800 0.549 0.882</COLOR>
+                <INTENSITY>1.000</INTENSITY>
+                <ATTENUATIONEND>1600.000</ATTENUATIONEND>
+                <ATTENUATIONSTART>900.000</ATTENUATIONSTART>
+                <AREARANGE>0.000 0.000 0.000</AREARANGE>
+            </PROPERTY>
+        </LIGHT>
+        <LIGHT>
+            <COMMON name="PointL_048">
+                <POSITION>-6869.908691 -1771.179565 742.634094</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <COLOR>0.451 0.169 0.345</COLOR>
+                <INTENSITY>1.000</INTENSITY>
+                <ATTENUATIONEND>1800.000</ATTENUATIONEND>
+                <ATTENUATIONSTART>1200.000</ATTENUATIONSTART>
+                <AREARANGE>0.000 0.000 0.000</AREARANGE>
+            </PROPERTY>
+        </LIGHT>
+        <LIGHT>
+            <COMMON name="PointL_045">
+                <POSITION>-8491.822266 -2520.704590 315.904846</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <COLOR>0.357 0.722 0.627</COLOR>
+                <INTENSITY>0.800</INTENSITY>
+                <ATTENUATIONEND>800.000</ATTENUATIONEND>
+                <ATTENUATIONSTART>500.000</ATTENUATIONSTART>
+                <AREARANGE>0.000 0.000 0.000</AREARANGE>
+            </PROPERTY>
+        </LIGHT>
+        <LIGHT>
+            <COMMON name="PointL_051">
+                <POSITION>-6754.343750 1687.860352 738.869202</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <COLOR>0.325 0.282 0.718</COLOR>
+                <INTENSITY>1.000</INTENSITY>
+                <ATTENUATIONEND>1800.000</ATTENUATIONEND>
+                <ATTENUATIONSTART>1500.000</ATTENUATIONSTART>
+                <AREARANGE>0.000 0.000 0.000</AREARANGE>
+            </PROPERTY>
+        </LIGHT>
+        <LIGHT>
+            <COMMON name="PointL_053">
+                <POSITION>1282.463867 1559.734863 1036.789917</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <COLOR>0.502 0.502 0.000</COLOR>
+                <INTENSITY>1.000</INTENSITY>
+                <ATTENUATIONEND>1300.000</ATTENUATIONEND>
+                <ATTENUATIONSTART>700.000</ATTENUATIONSTART>
+                <AREARANGE>0.000 0.000 0.000</AREARANGE>
+            </PROPERTY>
+        </LIGHT>
+        <LIGHT>
+            <COMMON name="PointL_054">
+                <POSITION>2701.354248 14468.443359 1675.495483</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <COLOR>0.839 0.729 0.408</COLOR>
+                <INTENSITY>1.000</INTENSITY>
+                <ATTENUATIONEND>700.000</ATTENUATIONEND>
+                <ATTENUATIONSTART>500.000</ATTENUATIONSTART>
+                <AREARANGE>0.000 0.000 0.000</AREARANGE>
+            </PROPERTY>
+        </LIGHT>
+        <LIGHT>
+            <COMMON name="PointL_055">
+                <POSITION>2701.354248 11477.458008 1675.495483</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <COLOR>0.839 0.729 0.408</COLOR>
+                <INTENSITY>1.000</INTENSITY>
+                <ATTENUATIONEND>700.000</ATTENUATIONEND>
+                <ATTENUATIONSTART>500.000</ATTENUATIONSTART>
+                <AREARANGE>0.000 0.000 0.000</AREARANGE>
+            </PROPERTY>
+        </LIGHT>
+        <LIGHT>
+            <COMMON name="PointL_056">
+                <POSITION>2701.354248 10019.561523 1675.495483</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <COLOR>0.839 0.729 0.408</COLOR>
+                <INTENSITY>1.000</INTENSITY>
+                <ATTENUATIONEND>700.000</ATTENUATIONEND>
+                <ATTENUATIONSTART>500.000</ATTENUATIONSTART>
+                <AREARANGE>0.000 0.000 0.000</AREARANGE>
+            </PROPERTY>
+        </LIGHT>
+        <OCCLUDER>
+            <COMMON>
+                <POSITION>0.000000 3866.106934 -5915.439941</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <LOCALSCALE>18.500000 1.000000 15.000000</LOCALSCALE>
+                <OCCLUDERPOINT>
+                    <P>-500.000000 0.000000 1000.000000</P>
+                    <P>-500.000000 0.000002 0.000000</P>
+                    <P>500.000000 0.000002 0.000000</P>
+                    <P>500.000000 0.000000 1000.000000</P>
+                </OCCLUDERPOINT>
+            </PROPERTY>
+        </OCCLUDER>
+        <OCCLUDER>
+            <COMMON name="_001">
+                <POSITION>39.065430 -3869.056641 -5915.439941</POSITION>
+                <DIRECTION>0.000000 1.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <LOCALSCALE>16.500000 1.000000 15.000000</LOCALSCALE>
+                <OCCLUDERPOINT>
+                    <P>-500.000000 0.000000 1000.000000</P>
+                    <P>-500.000000 0.000002 0.000000</P>
+                    <P>500.000000 0.000002 0.000000</P>
+                    <P>500.000000 0.000000 1000.000000</P>
+                </OCCLUDERPOINT>
+            </PROPERTY>
+        </OCCLUDER>
+        <OCCLUDER>
+            <COMMON name="_002">
+                <POSITION>-1041.143311 -92.341309 -5915.439941</POSITION>
+                <DIRECTION>-1.000000 -0.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <LOCALSCALE>10.000000 1.000000 15.000000</LOCALSCALE>
+                <OCCLUDERPOINT>
+                    <P>-500.000000 0.000000 1000.000000</P>
+                    <P>-500.000000 0.000002 0.000000</P>
+                    <P>500.000000 0.000002 0.000000</P>
+                    <P>500.000000 0.000000 1000.000000</P>
+                </OCCLUDERPOINT>
+            </PROPERTY>
+        </OCCLUDER>
+        <OCCLUDER>
+            <COMMON name="_003">
+                <POSITION>-4751.706543 14804.164063 -5915.439941</POSITION>
+                <DIRECTION>-1.000000 -0.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <LOCALSCALE>15.000000 1.000000 15.000000</LOCALSCALE>
+                <OCCLUDERPOINT>
+                    <P>-500.000000 0.000000 1000.000000</P>
+                    <P>-500.000000 0.000002 0.000000</P>
+                    <P>500.000000 0.000002 0.000000</P>
+                    <P>500.000000 0.000000 1000.000000</P>
+                </OCCLUDERPOINT>
+            </PROPERTY>
+        </OCCLUDER>
+        <OCCLUDER>
+            <COMMON name="_004">
+                <POSITION>4821.279785 14804.164063 -5915.439941</POSITION>
+                <DIRECTION>-1.000000 -0.000000 0.000000</DIRECTION>
+                <UP>0.000000 0.000000 1.000000</UP>
+                <SCALE>1.000000 1.000000 1.000000</SCALE>
+            </COMMON>
+            <PROPERTY>
+                <LOCALSCALE>15.000000 1.000000 15.000000</LOCALSCALE>
+                <OCCLUDERPOINT>
+                    <P>-500.000000 0.000000 1000.000000</P>
+                    <P>-500.000000 0.000002 0.000000</P>
+                    <P>500.000000 0.000002 0.000000</P>
+                    <P>500.000000 0.000000 1000.000000</P>
+                </OCCLUDERPOINT>
+            </PROPERTY>
+        </OCCLUDER>
+    </SCENE>
+</ROOT>

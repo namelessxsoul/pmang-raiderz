@@ -1,0 +1,449 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<maiet>
+	<!-- 탐험가상점 무기상인 노아, 죽음의 상인 아만다리 -->
+	<NPCSHOP id="1" dialog="111" buymod="1" sellmod="1.0" faction="3" repairable="true">
+		<ITEM id="1~2" />
+		<ITEM id="4" />
+		<ITEM id="8" />		
+		<ITEM id="5" />		
+		<ITEM id="7" />	
+		<ITEM id="9" />			
+	</NPCSHOP>
+
+  <!-- 밀수업자 자하브-->
+	<NPCSHOP id="2" dialog="113" buymod="1" sellmod="1.0" faction="0" repairable="true">	
+		<ITEM id="32000" /> <!-- 귀환석 -->	
+		<ITEM id="30015~30016" />	
+		<ITEM id="30001~30002" />
+		<ITEM id="30022~30023" />		
+		<ITEM id="49000~49002" />		
+		<ITEM id="20001000" />
+		<ITEM id="20001002~20001005" />
+		<ITEM id="39999000~39999001" />		
+	</NPCSHOP>
+
+	<!-- 탐험가상점 탐험용품상인 -->
+	<NPCSHOP id="3" dialog="113" buymod="1" sellmod="1.0" faction="3" repairable="true">	
+		<ITEM id="49000~49002" />						
+	</NPCSHOP>
+
+	<!--요리 상인 에이리스-->
+	<NPCSHOP id="4" dialog="115" buymod="1" sellmod="1.0" faction="3" repairable="false">
+		<ITEM id="30001~30006" />
+	</NPCSHOP>
+
+	<!--루퍼스-->
+	<NPCSHOP id="5" dialog="113" buymod="1" sellmod="1.0" faction="3" repairable="false">
+		<ITEM id="30011~30016" />	
+		<ITEM id="32000" />  <!-- 귀환석 -->
+
+	</NPCSHOP>
+
+	<!--가구상인 조슈아 (OBT) -->
+	<NPCSHOP id="6" dialog="114" buymod="1" sellmod="1.0" faction="3" repairable="false">
+		<ITEM id="80010" />
+		<ITEM id="80030" />
+		<ITEM id="80040" />
+		<ITEM id="80050" />
+		<ITEM id="80060" />
+		<ITEM id="80070" />
+	</NPCSHOP>
+
+	<!--아이스크림 상인-->
+	<NPCSHOP id="7" dialog="115" buymod="1" sellmod="1.0" faction="3" repairable="false">
+		 <ITEM id="30021~30024" />
+	</NPCSHOP>
+
+	<!--고기 상인-->
+	<NPCSHOP id="8" dialog="113" buymod="1" sellmod="1.0" faction="3" repairable="false">
+ 		<ITEM id="58000" />
+ 		<ITEM id="58003" />
+ 		<ITEM id="58006" />	
+ 		<ITEM id="58012" />
+ 		<ITEM id="58014" />				
+	</NPCSHOP>
+
+	<!--생선 상인-->
+	<NPCSHOP id="9" dialog="113" buymod="1" sellmod="1.0" faction="3" repairable="false">
+ 		<ITEM id="58005" />
+ 		<ITEM id="58010" />
+	</NPCSHOP>
+
+	<!--과일/채소 상인-->
+	<NPCSHOP id="10" dialog="113" buymod="1" sellmod="1.0" faction="3" repairable="false">
+ 		<ITEM id="58004" />
+ 		<ITEM id="58008" />
+ 		<ITEM id="58009" />
+ 		<ITEM id="58011" />		
+	</NPCSHOP>
+
+	<!--곡물/식물 상인-->
+	<NPCSHOP id="11" dialog="113" buymod="1" sellmod="1.0" faction="3" repairable="false">
+ 		<ITEM id="58002" />
+	</NPCSHOP>
+
+	<!-- 랜디 -->
+	<NPCSHOP id="12" dialog="113" buymod="1" sellmod="1.0" faction="4" repairable="true">
+		<ITEM id="30013~30016" />
+		<ITEM id="49000~49002" />		
+		<ITEM id="58000~58004" />
+		<ITEM id="39999000~39999001" />		
+	</NPCSHOP> 
+
+	<!-- 대장장이 맥도넬 -->
+	<NPCSHOP id="13" dialog="111" buymod="1" sellmod="1.0" faction="4" repairable="true">
+		<ITEM id="1~2" />
+		<ITEM id="4" />
+		<ITEM id="8" />		
+		<ITEM id="5" />		
+		<ITEM id="7" />		
+	</NPCSHOP>
+
+	<!-- 병참병 사힌 -->
+	<NPCSHOP id="14" dialog="113" buymod="1.0" sellmod="1.0" faction="5" repairable="true">
+		<ITEM id="30015~30016" />	
+		<ITEM id="30001~30002" />
+		<ITEM id="30022~30023" />		
+		<ITEM id="32000" />
+		<ITEM id="58007" />
+		<ITEM id="58019" />	
+		<ITEM id="49000~49002" />	
+		<ITEM id="20001000" />
+		<ITEM id="20001002~20001005" />		
+		<ITEM id="39999000~39999001" />			
+	</NPCSHOP>
+
+	<!-- 죽음의 상인 아만다리 (폐기) 
+	<NPCSHOP id="15" dialog="113" buymod="1" sellmod="1.0" faction="0" repairable="true" >
+		<ITEM id="10~11" />
+		<ITEM id="13~14" />
+		<ITEM id="19" />
+		<ITEM id="39999000~39999001" />		
+	</NPCSHOP> -->
+
+	<!-- 고고학자 이든 -->
+	<NPCSHOP id="16" dialog="113" buymod="1" sellmod="1.0" faction="0" repairable="true">
+		<ITEM id="32002" />	
+	</NPCSHOP>  
+
+	<!-- 인젠: 하나 -->
+	<NPCSHOP id="17" dialog="113" buymod="1" sellmod="1.0" faction="3" repairable="true" >
+		<ITEM id="20001000" />
+		<ITEM id="20001002~20001005" />
+		<ITEM id="9002~9003" />
+		<ITEM id="9012" />
+		<ITEM id="9022" />
+		<ITEM id="9102~9103" />
+		<ITEM id="9112" />
+		<ITEM id="9122" />		
+		<ITEM id="9202~9203" />
+		<ITEM id="9212" />
+		<ITEM id="9222" />
+		<ITEM id="9005" />
+		<ITEM id="9015" />
+		<ITEM id="9025" />
+		<ITEM id="9105" />
+		<ITEM id="9115" />
+		<ITEM id="9125" />
+		<ITEM id="9205" />
+		<ITEM id="9215" />
+		<ITEM id="9225" />
+		<ITEM id="9302~9303" />
+		<ITEM id="9312~9313" />
+		<ITEM id="9322~9323" />
+		<ITEM id="9305" />
+		<ITEM id="9315" />
+		<ITEM id="9325" />		
+	</NPCSHOP>  
+	
+	<!-- 인젠: 장신구 상인 트리쉬 -->
+	<NPCSHOP id="18" dialog="113" buymod="1" sellmod="1.0" faction="3" repairable="true" >
+		<ITEM id="68001~68007" />	
+	</NPCSHOP>
+
+	<!-- 라이센스 트레이너 -->
+	<NPCSHOP id="19" dialog="300" buymod="1" sellmod="1.0" repairable="true" >
+		<ITEM id="33010~33011" />		
+		<!--ITEM id="33014" /-->		
+		<ITEM id="33018~33019" />		
+		<ITEM id="33100~33102" />	
+	</NPCSHOP>	
+	
+	<!-- 영웅의 오솔길: 견습 마법사 바우키, 잡상인 라만 -->
+	<NPCSHOP id="20" dialog="113" buymod="1" sellmod="1" repairable="true">
+		<ITEM id="30001~30004" />	
+		<ITEM id="30023~30024" />		
+		<ITEM id="32000" />	
+		<ITEM id="49000~49002" />
+		<ITEM id="58007" />
+		<ITEM id="58028" />
+		<ITEM id="20001000" />
+		<ITEM id="20001002~20001005" />
+		<ITEM id="39999000~39999002" />			
+	</NPCSHOP> 
+
+	<!-- 에다산: 상인 한스, 중립 상인 잉그워/분그워 -->
+	<NPCSHOP id="21" dialog="113" buymod="1.0" sellmod="1.0" repairable="true">
+		<ITEM id="1000001" />
+		<ITEM id="1000002" />
+		<ITEM id="30003~30004" />	
+		<ITEM id="30014" />
+		<ITEM id="30024" />			
+		<ITEM id="58023" />	
+		<ITEM id="32000" />
+		<ITEM id="49000~49002" />
+		<ITEM id="20001000" />
+		<ITEM id="20001002~20001005" />
+		<ITEM id="39999000~39999002" />			
+	</NPCSHOP>   
+
+	<!-- 부러진 돛대:미구엘 -->
+	<NPCSHOP id="22" dialog="113" buymod="1.0" sellmod="1.0" repairable="false">
+		<ITEM id="30011~30012" />	
+		<ITEM id="30021" />	
+		<ITEM id="32000" />		
+	</NPCSHOP> 
+
+	<!-- 부러진 돛대:상인 잉기 -->
+	<NPCSHOP id="23" dialog="116" buymod="1.0" sellmod="1.0" repairable="true">
+		<ITEM id="9" />	
+		<ITEM id="30011~30012" />	
+		<ITEM id="30021" />	
+		<ITEM id="32000" />			
+	</NPCSHOP> 	
+	
+	<!-- 부러진 돛대:모드 -->
+	<NPCSHOP id="24" dialog="113" buymod="1.0" sellmod="1.0" repairable="true">
+		<ITEM id="9" />	
+		<ITEM id="30011~30012" />	
+		<ITEM id="30021" />		
+		<ITEM id="32000" />		
+	</NPCSHOP> 	
+	
+	<!-- 테레스 평원 : 루안 -->
+	<NPCSHOP id="25" dialog="113" buymod="1.0" sellmod="1.0" repairable="true">
+		<ITEM id="30013~30016" />	
+		<ITEM id="30022" />		
+		<ITEM id="49000~49002" />
+		<ITEM id="32000" />
+		<ITEM id="20001000" />
+		<ITEM id="20001002~20001005" />	
+		<ITEM id="39999000~39999001" />			
+	</NPCSHOP>
+
+	<!-- 납골당: 겁에 질린 도공 디닐 -->
+	<NPCSHOP id="26" dialog="113" buymod="1" sellmod="1" repairable="true">
+		<ITEM id="32000" />
+		<ITEM id="39999000~39999002" />
+	</NPCSHOP>
+  
+	<!-- 오스카 -->
+	<NPCSHOP id="28" dialog="1112051" buymod="1.0" sellmod="1.0" repairable="true">
+		<ITEM id="30001~30006" />	
+		<ITEM id="30024" />		
+		<ITEM id="49000~49002" />
+		<ITEM id="32000" />
+		<ITEM id="20001000" />
+		<ITEM id="20001002~20001005" />	
+		<ITEM id="39999000~39999002" />			
+	</NPCSHOP>	
+	
+	<!-- 리츠 : 보석상점 주인 라피스 -->
+	<NPCSHOP id="29" dialog="113" buymod="1.0" sellmod="1.0" repairable="true">
+		<ITEM id="10189" />	
+		<ITEM id="30013~30016" />	
+		<ITEM id="30022" />		
+		<ITEM id="49000~49002" />
+		<ITEM id="32000" />
+		<ITEM id="20001000" />
+		<ITEM id="20001002~20001005" />	
+		<ITEM id="39999000~39999001" />			
+	</NPCSHOP>
+	
+	<!-- 리츠 : 모험가 상점 주인 케네스 -->
+	<NPCSHOP id="30" dialog="113" buymod="1.0" sellmod="1.0" repairable="true">
+		<ITEM id="10190" />	
+		<ITEM id="49000~49002" />
+	</NPCSHOP>
+	
+	<!-- 강화석 상인 스칼렛 -->
+	<NPCSHOP id="3010" dialog="3010" buymod="1" sellmod="1" repairable="true">
+		<ITEM id="39999000~39999001" />
+		<ITEM id="30000000~30000009" />
+		<ITEM id="30000016" />		
+	</NPCSHOP>	
+	
+	<!-- 강화용품상인 종합 -->
+	<NPCSHOP id="10300" dialog="200" buymod="1" sellmod="1" repairable="false">
+		<ITEM id="30000000" />
+		<ITEM id="30000001" />
+		<ITEM id="30000002" />
+		<ITEM id="30000002" />
+		<ITEM id="30000003" />
+		<ITEM id="30000004" />
+		<ITEM id="30000005" />
+		<ITEM id="30000006" />
+		<ITEM id="30000007" />
+		<ITEM id="30000008" />
+		<ITEM id="30000009" />
+		<ITEM id="30000100" />
+		<ITEM id="30000101" />
+		<ITEM id="30000102" />
+		<ITEM id="30000103" />
+		<ITEM id="30000104" />
+		<ITEM id="30000105" />
+		<ITEM id="30000106" />
+		<ITEM id="30000107" />
+		<ITEM id="30000108" />
+		<ITEM id="30000109" />
+		<ITEM id="30000200" />
+		<ITEM id="30000201" />
+		<ITEM id="30000202" />
+		<ITEM id="30000202" />
+		<ITEM id="30000203" />
+		<ITEM id="30000204" />
+		<ITEM id="30000205" />
+		<ITEM id="30000206" />
+		<ITEM id="30000207" />
+		<ITEM id="30000208" />
+		<ITEM id="30000209" />
+		<ITEM id="30000300" />
+		<ITEM id="30000301" />
+		<ITEM id="30000302" />
+		<ITEM id="30000302" />
+		<ITEM id="30000303" />
+		<ITEM id="30000304" />
+		<ITEM id="30000305" />
+		<ITEM id="30000306" />
+		<ITEM id="30000307" />
+		<ITEM id="30000308" />
+		<ITEM id="30000309" />
+		<ITEM id="30000400" />
+		<ITEM id="30000401" />
+		<ITEM id="30000402" />
+		<ITEM id="30000402" />
+		<ITEM id="30000403" />
+		<ITEM id="30000404" />
+		<ITEM id="30000405" />
+		<ITEM id="30000406" />
+		<ITEM id="30000407" />
+		<ITEM id="30000408" />
+		<ITEM id="30000409" />
+		<ITEM id="30000500" />
+		<ITEM id="30000501" />
+		<ITEM id="30000502" />
+		<ITEM id="30000502" />
+		<ITEM id="30000503" />
+		<ITEM id="30000504" />
+		<ITEM id="30000505" />
+		<ITEM id="30000506" />
+		<ITEM id="30000507" />
+		<ITEM id="30000508" />
+		<ITEM id="30000509" />
+		
+		<!-- 다이아 -->
+		<ITEM id="31010000" />
+		<ITEM id="31010002" />
+		<ITEM id="31010100" />
+		<ITEM id="31010102" />
+		<ITEM id="31010200" />
+		<ITEM id="31010202" />
+		<ITEM id="31020000" />
+		<ITEM id="31020002" />
+		<!--미구현 <ITEM id="31020100" />-->
+		<ITEM id="31020200" />
+		<ITEM id="31020202" />
+		<ITEM id="31020300" />
+		<ITEM id="31020302" />
+		<ITEM id="31030000" />
+		<ITEM id="31030002" />
+		<ITEM id="31030100" />
+		<ITEM id="31030102" />
+		<ITEM id="31040000" />
+		<ITEM id="31040002" />
+		<ITEM id="31040100" />
+		<ITEM id="31040102" />
+		
+		<!--강화제-->
+		<ITEM id="39999000" />
+		<ITEM id="39999001" />
+		<ITEM id="39999002" />
+		<ITEM id="39999003" />
+		<ITEM id="39999004" />
+	</NPCSHOP>
+		
+	<!-- ///////////////////// 테스트 용도 ///////////////////// -->
+	<!-- 종합 선물 세트 -->
+	<NPCSHOP id="100000" dialog="200" buymod="1" sellmod="1" repairable="true">
+		<ITEM id="31500" />
+		
+		<ITEM id="33018~33019" />
+		<ITEM id="33100~33102" />
+		<ITEM id="33500~33501" />
+		<ITEM id="49000~49002" />
+
+		<ITEM id="61998~61999" />
+		<ITEM id="62000~62004" />
+		<ITEM id="62020~62024" />
+		<ITEM id="62040~62041" />
+		<ITEM id="62043~62044" />
+		<ITEM id="62060~62064" />
+		<ITEM id="62080~62084" />
+		<ITEM id="62100~62101" />
+		<ITEM id="62103~62104" />
+		<ITEM id="62120~62124" />
+		<ITEM id="62140~62144" />
+		<ITEM id="62160~62161" />
+		<ITEM id="62163~62164" />
+		<ITEM id="62180~62184" />
+		<ITEM id="62200~62204" />
+		<ITEM id="62220~62224" />
+		<ITEM id="62240~62244" />
+		<ITEM id="62260~62264" />
+		<ITEM id="62280~62284" />
+		<ITEM id="62300~62301" />
+		<ITEM id="62303~62304" />
+		<ITEM id="62320~62324" />
+		<ITEM id="62340~62344" />
+		<ITEM id="62360~62364" />
+		<ITEM id="62400~62404" />
+		<ITEM id="62420~62424" />
+		<ITEM id="62440~62444" />
+		<ITEM id="62460~62464" />
+		<ITEM id="68000~68019" />
+		<ITEM id="70000~70007" />
+		<ITEM id="70010~70017" />
+		<ITEM id="70020~70027" />
+		<ITEM id="70030~70037" />
+		<ITEM id="70040~70047" />
+		<ITEM id="70050~70057" />
+		<ITEM id="70060~70067" />
+		<ITEM id="70070~70077" />
+		<ITEM id="70080~70087" />
+		<ITEM id="70090~70097" />
+		<ITEM id="1000001~1000002" />
+		<ITEM id="10007021~10007022" />
+		<ITEM id="20000000~20000008" />
+		<ITEM id="20001000" />
+		<ITEM id="20001002~20001005" />
+		<ITEM id="20002000" />
+		<ITEM id="20002002~20002005" />
+		<ITEM id="20002007" />
+		<ITEM id="9900020" />
+		<ITEM id="9900000~9900002" />
+		<ITEM id="70~77" />
+		<ITEM id="80~87" />
+		<ITEM id="90~97" />
+		<ITEM id="100~107" />
+		<ITEM id="2251~2255" />
+		<ITEM id="2261~2265" />
+		<ITEM id="2271~2275" />
+		<ITEM id="2281~2285" />
+		<ITEM id="2291~2295" />
+		<ITEM id="2301~2305" />
+		<ITEM id="2311~2315" />
+		<ITEM id="2321~2325" />
+	</NPCSHOP>
+</maiet>
+
+

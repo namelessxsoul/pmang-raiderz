@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- 장로 카르노스 -->
+<maiet>
+	<COLT>
+		<COMBAT >
+			<DEFAULT>
+				<ACTION type="talent" param1="211300101" rate="40" />
+				<ACTION type="talent" param1="211300102" rate="40" />
+				<ACTION type="talent" param1="211300103" rate="20" />
+			</DEFAULT>
+		</COMBAT>
+  		<REACTION>
+		</REACTION>
+		<IDLE>
+			<DEFAULT>
+			</DEFAULT>
+		</IDLE>
+	</COLT>
+</maiet>

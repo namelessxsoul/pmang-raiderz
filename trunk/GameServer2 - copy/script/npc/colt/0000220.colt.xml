@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet href="./colt.xsl" type="text/xsl"?>
+<maiet>
+	<COLT name="굶주린 언니" npcid="220">
+		<COMBAT mode="0" victory="222007" >
+			<DEFAULT>	
+				<ACTION type="nothing" param1="1" rate="40" cycle="6"/>
+				<ACTION type="nothing" param1="1" rate="10" cycle="12"/>
+				
+				<!--
+				<ACTION type="lua" param1="StarvingSyster" />
+				
+				<ACTION type="talent" param1="222011" rate="50" cycle="12"/>
+				<ACTION type="talent" param1="222002" rate="20" />
+				<ACTION type="talent" param1="222003" rate="20" />
+				<ACTION type="talent" param1="222004" rate="10" />
+				-->
+
+			</DEFAULT>
+
+			
+			<CHECK type="distance" param1="300" param2="400" >
+				<!--<ACTION type="nothing" param1="1" rate="25" cycle="6"/>
+				<ACTION type="nothing" param1="1" rate="25" cycle="6"/>-->
+				<ACTION type="nothing" param1="1" rate="40" cycle="6"/>
+				<ACTION type="nothing" param1="1" rate="10" cycle="12"/>
+				
+				<ACTION type="talent" param1="222002" rate="10" cycle="6"/>
+				<ACTION type="talent" param1="222003" rate="10" />
+				<ACTION type="talent" param1="222004" rate="10" />
+				<ACTION type="talent" param1="222005" rate="20" cycle="6"/>
+			</CHECK>
+			
+			<CHECK type="distance" param1="400" >
+				<!--<ACTION type="distance" param1="300" param2="350" rate="90" />-->
+				<ACTION type="talent" param1="222005" />
+			</CHECK>
+			
+			<CHECK type="distance" param2="200">
+				<CHECK type="rage" param1="80" >
+					<ACTION type="talent" param1="222011" rate="30" />
+					<ACTION type="group" rate="30">
+						<ACTION type="talent" param1="222008" /> <!-- 회피 L -->
+						<ACTION type="talent" param1="222005" /> <!-- 찌르기 -->
+					</ACTION>
+					<ACTION type="group" rate="40">
+						<ACTION type="talent" param1="222009" /> <!-- 회피 R -->
+						<ACTION type="talent" param1="222005" /> <!-- 찌르기 -->
+					</ACTION>
+				</CHECK>
+			</CHECK>
+		</COMBAT>
+<!--		
+		<COMBAT mode="1">
+			<DEFAULT>	
+				<ACTION type="talent" param1="222006" rate="100" />
+			</DEFAULT>
+		</COMBAT>
+-->		
+		<AGGRO>
+			<DEFAULT>
+				<ACTION type="lua" param1="BespioAggroChat1" />
+			</DEFAULT>
+		</AGGRO>
+		
+	</COLT>
+	<SCRIPT><![CDATA[
+function NPC_220:Init( NPCID)
+--	NPC_ReserveUserData( NPCID , 1)
+end 
+-- ThisNPC:UseTalent( NPC_102110.TalIdIceBall4, Enemy )
+	]]></SCRIPT>
+</maiet>

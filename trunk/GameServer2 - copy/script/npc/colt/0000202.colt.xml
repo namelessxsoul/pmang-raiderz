@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<maiet>
+	<COLT name="화원의주인회전샘플">
+		<COMBAT mode="0">
+			<DEFAULT>
+				<ACTION type="talent" param1="201903" rate="20" duration="0"/>	<!-- 모드전환 : TO_MODE1 -->
+			</DEFAULT>
+		</COMBAT>
+		
+		<COMBAT mode="1">
+			<DEFAULT>
+				<ACTION type="talent" param1="201924" rate="5"/>		<!-- 일반 공격 -->
+			</DEFAULT>
+		</COMBAT>
+		
+		<IDLE>
+			<DEFAULT>
+				<ACTION type="talent" param1="201900" rate="30" />
+				<ACTION type="nothing" param1="3" rate="70" />
+			</DEFAULT>
+		</IDLE>
+		
+		<STRESS>
+			  <CHECK type="stress" param1="400">
+				<CHECK type="mode" param1="0">
+					<ACTION type="talent" param1="201905" rate="80" />
+					<ACTION type="talent" param1="201904" rate="20" />
+				</CHECK>
+			  </CHECK>
+		</STRESS>
+
+	</COLT>
+	<SCRIPT><![CDATA[ 
+
+function NPC121019_ProcessAccDamage( ThisNPC, PartsIdx, HitInfo )
+	GLog( "ProcessAccDamage\n" ) 
+	ThisNPC:BreakPart( 1, HitInfo.Attacker )
+end
+
+--[[
+		HitCapsule Callback functions.
+--]]
+-- 화원의 주인 mode0 기본
+function NPC_202:OnHitCapsule_1_0(HitInfo)
+	NPC121019_ProcessAccDamage( this, 1, HitInfo )
+end
+
+function NPC_202:OnHitCapsule_1_1(HitInfo)
+	NPC121019_ProcessAccDamage( this, 3, HitInfo )
+end
+
+function NPC_202:OnHitCapsule_1_2(HitInfo)
+	NPC121019_ProcessAccDamage( this, 0, HitInfo )
+end
+
+function NPC_202:OnHitCapsule_1_3(HitInfo)
+	NPC121019_ProcessAccDamage( this, 0, HitInfo )
+end
+
+-- 화원의 주인 mode1 기본 
+function NPC_202:OnHitCapsule_2_0(HitInfo)
+	NPC121019_ProcessAccDamage( this, 1, HitInfo )
+end
+
+function NPC_202:OnHitCapsule_2_1(HitInfo)
+	NPC121019_ProcessAccDamage( this, 0, HitInfo )
+end
+
+function NPC_202:OnHitCapsule_2_2(HitInfo)
+	NPC121019_ProcessAccDamage( this, 0, HitInfo )
+end
+
+-- 화원의 주인 mode2 기본
+function NPC_202:OnHitCapsule_3_0(HitInfo)
+	NPC121019_ProcessAccDamage( this, 1, HitInfo )
+end
+
+function NPC_202:OnHitCapsule_3_1(HitInfo)
+	NPC121019_ProcessAccDamage( this, 0, HitInfo )
+end
+
+function NPC_202:OnHitCapsule_3_2(HitInfo)
+	NPC121019_ProcessAccDamage( this, 0, HitInfo )
+end
+
+-- 성큰어택
+function NPC_202:OnHitCapsule_4_0(HitInfo)
+	NPC121019_ProcessAccDamage( this, 1, HitInfo )
+end
+
+function NPC_202:OnHitCapsule_4_1(HitInfo)
+	NPC121019_ProcessAccDamage( this, 3, HitInfo )
+end
+
+function NPC_202:OnHitCapsule_4_2(HitInfo)
+	NPC121019_ProcessAccDamage( this, 0, HitInfo )
+end
+
+function NPC_202:OnHitCapsule_4_3(HitInfo)
+	NPC121019_ProcessAccDamage( this, 0, HitInfo )
+end
+
+function NPC_202:OnHitCapsule_4_4(HitInfo)
+	NPC121019_ProcessAccDamage( this, 1, HitInfo )
+end
+
+function NPC_202:OnHitCapsule_4_5(HitInfo)
+	NPC121019_ProcessAccDamage( this, 1, HitInfo )
+end
+
+function NPC_202:OnHitCapsule_4_6(HitInfo)
+	NPC121019_ProcessAccDamage( this, 1, HitInfo )
+end
+
+function NPC_202:OnHitCapsule_4_7(HitInfo)
+	NPC121019_ProcessAccDamage( this, 1, HitInfo )
+end
+
+function NPC_202:OnHitCapsule_4_8(HitInfo)
+	NPC121019_ProcessAccDamage( this, 0, HitInfo )
+end
+
+function NPC_202:OnHitCapsule_4_9(HitInfo)
+	NPC121019_ProcessAccDamage( this, 0, HitInfo )
+end
+
+-- mode2 꼬리잘린 모드 성큰어택
+function NPC_202:OnHitCapsule_5_0(HitInfo)
+	NPC121019_ProcessAccDamage( this, 1, HitInfo )
+end
+
+function NPC_202:OnHitCapsule_5_1(HitInfo)
+	NPC121019_ProcessAccDamage( this, 0, HitInfo )
+end
+
+function NPC_202:OnHitCapsule_5_2(HitInfo)
+	NPC121019_ProcessAccDamage( this, 0, HitInfo )
+end
+
+function NPC_202:OnHitCapsule_5_3(HitInfo)
+	NPC121019_ProcessAccDamage( this, 1, HitInfo )
+end
+
+function NPC_202:OnHitCapsule_5_4(HitInfo)
+	NPC121019_ProcessAccDamage( this, 1, HitInfo )
+end
+
+function NPC_202:OnHitCapsule_5_5(HitInfo)
+	NPC121019_ProcessAccDamage( this, 1, HitInfo )
+end
+
+function NPC_202:OnHitCapsule_5_6(HitInfo)
+	NPC121019_ProcessAccDamage( this, 1, HitInfo )
+end
+
+function NPC_202:OnHitCapsule_5_7(HitInfo)
+	NPC121019_ProcessAccDamage( this, 0, HitInfo )
+end
+
+function NPC_202:OnHitCapsule_5_8(HitInfo)
+	NPC121019_ProcessAccDamage( this, 0, HitInfo )
+end
+
+-- 모드전환 Root
+function NPC_202:OnHitCapsule_6_0(HitInfo)
+	NPC121019_ProcessAccDamage( this, 1, HitInfo )
+end
+
+function NPC_202:OnHitCapsule_6_1(HitInfo)
+	NPC121019_ProcessAccDamage( this, 0, HitInfo )
+end
+
+function NPC_202:OnHitCapsule_6_2(HitInfo)
+	NPC121019_ProcessAccDamage( this, 0, HitInfo )
+end
+
+function NPC_202:OnHitCapsule_6_3(HitInfo)
+	NPC121019_ProcessAccDamage( this, 0, HitInfo )
+end
+
+function NPC_202:OnHitCapsule_6_4(HitInfo)
+	NPC121019_ProcessAccDamage( this, 1, HitInfo )
+end
+
+-- 모드전환 Unroot
+function NPC_202:OnHitCapsule_7_0(HitInfo)
+	NPC121019_ProcessAccDamage( this, 1, HitInfo )
+end
+
+function NPC_202:OnHitCapsule_7_1(HitInfo)
+	NPC121019_ProcessAccDamage( this, 3, HitInfo )
+end
+
+function NPC_202:OnHitCapsule_7_2(HitInfo)
+	NPC121019_ProcessAccDamage( this, 0, HitInfo )
+end
+
+function NPC_202:OnHitCapsule_7_3(HitInfo)
+	NPC121019_ProcessAccDamage( this, 0, HitInfo )
+end
+
+function NPC_202:OnHitCapsule_7_4(HitInfo)
+	NPC121019_ProcessAccDamage( this, 1, HitInfo )
+end
+
+function NPC_202:OnHitCapsule_7_5(HitInfo)
+	NPC121019_ProcessAccDamage( this, 0, HitInfo )
+end
+
+-- 활력 
+function NPC_202:OnHitCapsule_8_0(HitInfo)
+	NPC121019_ProcessAccDamage( this, 1, HitInfo )
+end
+
+function NPC_202:OnHitCapsule_8_1(HitInfo)
+	NPC121019_ProcessAccDamage( this, 2, HitInfo )
+end
+
+function NPC_202:OnHitCapsule_8_2(HitInfo)
+	NPC121019_ProcessAccDamage( this, 0, HitInfo )
+end
+
+function NPC_202:OnHitCapsule_8_3(HitInfo)
+	NPC121019_ProcessAccDamage( this, 1, HitInfo )
+end
+
+function NPC_202:OnHitCapsule_8_4(HitInfo)
+	NPC121019_ProcessAccDamage( this, 0, HitInfo )
+end
+
+
+
+	]]></SCRIPT>
+</maiet>

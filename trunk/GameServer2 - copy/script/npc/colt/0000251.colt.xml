@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet href="./colt.xsl" type="text/xsl"?>
+<maiet>
+	<COLT name="버프이팩트세분화샘플나무">
+		<COMBAT mode="0">
+			<DEFAULT>	
+				<ACTION type="talent" param1="200025101" rate="10" duration="0"/>
+			</DEFAULT>
+		</COMBAT>
+	</COLT>
+	<SCRIPT><![CDATA[
+	]]></SCRIPT>
+</maiet>

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet href="./colt.xsl" type="text/xsl"?>
+<maiet>
+	<COLT name="버프스택샘플늑대">
+		<COMBAT mode="0">
+			<DEFAULT>	
+				<ACTION type="talent" param1="200025211" rate="10" />
+			</DEFAULT>
+		</COMBAT>
+		
+		<COMBAT mode="1">
+			<DEFAULT>	
+				<ACTION type="talent" param1="200025212" rate="10" />
+			</DEFAULT>
+		</COMBAT>
+		
+		<COMBAT mode="2">
+			<DEFAULT>	
+				<ACTION type="talent" param1="200025213" rate="10" />
+			</DEFAULT>
+		</COMBAT>
+		
+		<COMBAT mode="3">
+			<DEFAULT>	
+				<ACTION type="talent" param1="200025214" rate="10" />
+			</DEFAULT>
+		</COMBAT>
+		
+		<REACTION>
+			<CHECK type="mode" param1="0">
+				<ACTION type="talent" param1="200025201" rate="10" />
+			</CHECK>
+			<CHECK type="mode" param1="1">
+				<ACTION type="talent" param1="200025204" rate="10" />
+			</CHECK>
+			<CHECK type="mode" param1="2">
+			</CHECK>
+			<CHECK type="mode" param1="3">
+			</CHECK>
+		</REACTION>
+		
+		<IDLE>
+		</IDLE>
+		
+	</COLT>
+	<SCRIPT><![CDATA[
+	]]></SCRIPT>
+</maiet>

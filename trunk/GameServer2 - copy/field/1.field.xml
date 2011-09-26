@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="euc-kr" ?>
+<maiet>
+    <FIELDINFO zone="1" min_x="-18000" min_y="-15000" max_x="58000" max_y="42000" boundary_min_x="0" boundary_min_y="0" boundary_max_x="0" boundary_max_y="0" weather_effect="true" town="false" returnable="true" tutorial="false" qpvpnpc1="950000" qpvpnpc2="950000" qpvprebirth1="102230" qpvprebirth2="102231">
+        <BGM fieldbgm="bgm_field_10">
+            <ENVBGM dawnbgm="amb_dawn" />
+            <ENVBGM daytimebgm="amb_daytime" />
+            <ENVBGM sunsetbgm="amb_sunset" />
+            <ENVBGM nightbgm="amb_night" />
+            <ENVBGM clodybgm="amb_normal_1" />
+            <ENVBGM rainbgm="amb_rain" />
+            <ENVBGM heavyrainbgm="amb_heavy_rain" />
+            <ENVBGM heavysnowbgm="amb_heavy_snow" />
+        </BGM>
+        <SOUNDREVERB reverb="5" />
+        <Env set="default">
+            <WEATHER default="SUN">
+                <ADD weather="CLD" percent="10" />
+                <ADD weather="RNY" percent="5" />
+                <ADD weather="HRN" percent="5" />
+                <ADD weather="SNW" percent="0" />
+                <ADD weather="HSW" percent="0" />
+                <ADD weather="CLR" percent="10" />
+            </WEATHER>
+        </Env>
+        <SPAWN id="1" group="0" name="리츠 위병" x="545.255188" y="-10698.789063" z="1.999506" dir_x="0.000000" dir_y="1.000000" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="0" respawn_time="0" roam_radius="0" roam_depth="0" combat_radius="0" color="0,128,255">
+            <NPC id="1100" default="false" rate="500" />
+            <NPC id="1101" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="2" group="0" name="리츠 위병" x="-543.834167" y="-10693.814453" z="1.999506" dir_x="0.000000" dir_y="1.000000" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="0" respawn_time="0" roam_radius="0" roam_depth="0" combat_radius="0" color="0,128,255">
+            <NPC id="1100" default="false" rate="500" />
+            <NPC id="1101" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="3" group="0" name="리츠 위병" x="-4224.479004" y="7801.047852" z="2.000400" dir_x="-0.000000" dir_y="-1.000000" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="0" respawn_time="0" roam_radius="0" roam_depth="0" combat_radius="0" color="0,128,255">
+            <NPC id="1100" default="false" rate="500" />
+            <NPC id="1101" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="4" group="0" name="리츠 위병" x="-3133.965332" y="7796.012695" z="3.000400" dir_x="-0.000000" dir_y="-1.000000" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="0" respawn_time="0" roam_radius="0" roam_depth="0" combat_radius="0" color="0,128,255">
+            <NPC id="1100" default="false" rate="500" />
+            <NPC id="1101" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="5" group="0" name="리츠 위병" x="3146.201660" y="7799.002930" z="3.000392" dir_x="-0.000000" dir_y="-1.000000" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="0" respawn_time="0" roam_radius="0" roam_depth="0" combat_radius="0" color="0,128,255">
+            <NPC id="1100" default="false" rate="500" />
+            <NPC id="1101" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="6" group="0" name="리츠 위병" x="4225.093262" y="7798.371582" z="15.000291" dir_x="-0.000000" dir_y="-1.000000" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="0" respawn_time="0" roam_radius="0" roam_depth="0" combat_radius="0" color="0,128,255">
+            <NPC id="1100" default="false" rate="500" />
+            <NPC id="1101" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="7" group="0" name="리츠 위병" x="-13469.068359" y="-0.384855" z="3.000000" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="0" respawn_time="0" roam_radius="0" roam_depth="0" combat_radius="0" color="0,128,255">
+            <NPC id="1100" default="false" rate="500" />
+            <NPC id="1101" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="8" group="0" name="리츠 위병" x="12922.982422" y="541.938904" z="-0.000263" dir_x="-1.000000" dir_y="-0.000000" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="0" respawn_time="0" roam_radius="0" roam_depth="0" combat_radius="0" color="0,128,255">
+            <NPC id="1100" default="false" rate="500" />
+            <NPC id="1101" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="9" group="0" name="리츠 위병" x="12920.062500" y="-542.314453" z="-0.000237" dir_x="-1.000000" dir_y="-0.000000" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="0" respawn_time="0" roam_radius="0" roam_depth="0" combat_radius="0" color="0,128,255">
+            <NPC id="1100" default="false" rate="500" />
+            <NPC id="1101" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="10" group="0" name="리츠 위병" x="18141.605469" y="-2593.740723" z="2.000000" dir_x="0.000000" dir_y="1.000000" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="0" respawn_time="0" roam_radius="0" roam_depth="0" combat_radius="0" color="0,128,255">
+            <NPC id="1100" default="false" rate="500" />
+            <NPC id="1101" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="11" group="0" name="리츠 위병" x="17366.039063" y="-539.092651" z="0.000000" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="0" respawn_time="0" roam_radius="0" roam_depth="0" combat_radius="0" color="0,128,255">
+            <NPC id="1100" default="false" rate="500" />
+            <NPC id="1101" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="12" group="0" name="리츠 위병" x="17361.460938" y="542.141052" z="0.000000" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="0" respawn_time="0" roam_radius="0" roam_depth="0" combat_radius="0" color="0,128,255">
+            <NPC id="1100" default="false" rate="500" />
+            <NPC id="1101" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="13" group="0" name="리츠 위병" x="537.738281" y="16007.451172" z="890.000183" dir_x="0.000000" dir_y="1.000000" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="0" respawn_time="0" roam_radius="0" roam_depth="0" combat_radius="0" color="0,128,255">
+            <NPC id="1100" default="false" rate="500" />
+            <NPC id="1101" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="14" group="0" name="리츠 위병" x="-541.085632" y="16010.729492" z="890.000183" dir_x="0.000000" dir_y="1.000000" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="0" respawn_time="0" roam_radius="0" roam_depth="0" combat_radius="0" color="0,128,255">
+            <NPC id="1100" default="false" rate="500" />
+            <NPC id="1101" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="15" group="0" name="리츠 위병" x="-432.711273" y="29875.126953" z="1012.608765" dir_x="-0.000000" dir_y="-1.000000" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="0" respawn_time="0" roam_radius="0" roam_depth="0" combat_radius="0" color="0,128,255">
+            <NPC id="1100" default="false" rate="500" />
+            <NPC id="1101" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="16" group="0" name="리츠 위병" x="432.031677" y="29882.060547" z="1012.608765" dir_x="-0.000000" dir_y="-1.000000" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="0" respawn_time="0" roam_radius="0" roam_depth="0" combat_radius="0" color="0,128,255">
+            <NPC id="1100" default="false" rate="500" />
+            <NPC id="1101" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="17" group="0" name="리츠 위병" x="0.812897" y="30645.566406" z="1132.892578" dir_x="-0.000000" dir_y="-1.000000" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="0" respawn_time="0" roam_radius="0" roam_depth="0" combat_radius="0" color="0,128,255">
+            <NPC id="1100" default="false" rate="500" />
+            <NPC id="1101" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="18" group="0" name="리츠 위병" x="-226.023773" y="31378.197266" z="1132.892578" dir_x="-0.000000" dir_y="-1.000000" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="0" respawn_time="0" roam_radius="0" roam_depth="0" combat_radius="0" color="0,128,255">
+            <NPC id="1100" default="false" rate="500" />
+            <NPC id="1101" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="19" group="0" name="리츠 위병" x="226.539383" y="31374.544922" z="1132.892578" dir_x="-0.000000" dir_y="-1.000000" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="0" respawn_time="0" roam_radius="0" roam_depth="0" combat_radius="0" color="0,128,255">
+            <NPC id="1100" default="false" rate="500" />
+            <NPC id="1101" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="20" group="0" name="리츠 위병" x="-1139.398560" y="30498.833984" z="891.999695" dir_x="-0.000000" dir_y="-1.000000" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="0" respawn_time="0" roam_radius="0" roam_depth="0" combat_radius="0" color="0,128,255">
+            <NPC id="1100" default="false" rate="500" />
+            <NPC id="1101" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="21" group="0" name="리츠 위병" x="1137.852417" y="30499.326172" z="891.999695" dir_x="-0.000000" dir_y="-1.000000" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="0" respawn_time="0" roam_radius="0" roam_depth="0" combat_radius="0" color="0,128,255">
+            <NPC id="1100" default="false" rate="500" />
+            <NPC id="1101" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="22" group="0" name="리츠 위병" x="-900.909485" y="21999.753906" z="901.187622" dir_x="-0.000000" dir_y="-1.000000" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="0" respawn_time="0" roam_radius="0" roam_depth="0" combat_radius="0" color="0,128,255">
+            <NPC id="1100" default="false" rate="500" />
+            <NPC id="1101" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="23" group="0" name="리츠 위병" x="898.758057" y="21999.392578" z="901.223877" dir_x="-0.000000" dir_y="-1.000000" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="0" respawn_time="0" roam_radius="0" roam_depth="0" combat_radius="0" color="0,128,255">
+            <NPC id="1100" default="false" rate="500" />
+            <NPC id="1101" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="24" group="0" name="리츠 위병" x="-4049.327637" y="-5250.824707" z="2.999800" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="0" respawn_time="0" roam_radius="0" roam_depth="0" combat_radius="0" color="0,128,255">
+            <NPC id="1100" default="false" rate="500" />
+            <NPC id="1101" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="25" group="0" name="리츠 위병" x="-4048.152832" y="2668.024170" z="3.000123" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="0" respawn_time="0" roam_radius="0" roam_depth="0" combat_radius="0" color="0,128,255">
+            <NPC id="1100" default="false" rate="500" />
+            <NPC id="1101" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="26" group="0" name="리츠 위병" x="-1674.544922" y="25799.419922" z="991.999695" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="0" respawn_time="0" roam_radius="0" roam_depth="0" combat_radius="0" color="0,128,255">
+            <NPC id="1100" default="false" rate="500" />
+            <NPC id="1101" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="27" group="0" name="리츠 위병" x="-4477.282715" y="22749.437500" z="891.999695" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="0" respawn_time="0" roam_radius="0" roam_depth="0" combat_radius="0" color="0,128,255">
+            <NPC id="1100" default="false" rate="500" />
+            <NPC id="1101" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="28" group="0" name="리츠 위병" x="-4473.767578" y="28849.652344" z="891.999695" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="0" respawn_time="0" roam_radius="0" roam_depth="0" combat_radius="0" color="0,128,255">
+            <NPC id="1100" default="false" rate="500" />
+            <NPC id="1101" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="29" group="0" name="리츠 위병" x="-4474.349609" y="23849.353516" z="891.999695" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="0" respawn_time="0" roam_radius="0" roam_depth="0" combat_radius="0" color="0,128,255">
+            <NPC id="1100" default="false" rate="500" />
+            <NPC id="1101" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="30" group="0" name="리츠 위병" x="-4475.688477" y="27751.466797" z="891.999695" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="0" respawn_time="0" roam_radius="0" roam_depth="0" combat_radius="0" color="0,128,255">
+            <NPC id="1100" default="false" rate="500" />
+            <NPC id="1101" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="31" group="0" name="리츠 위병" x="1650.333252" y="25799.888672" z="991.999695" dir_x="-1.000000" dir_y="-0.000000" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="0" respawn_time="0" roam_radius="0" roam_depth="0" combat_radius="0" color="0,128,255">
+            <NPC id="1100" default="false" rate="500" />
+            <NPC id="1101" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="32" group="0" name="리츠 위병" x="4447.381348" y="23687.462891" z="892.999695" dir_x="-1.000000" dir_y="-0.000000" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="0" respawn_time="0" roam_radius="0" roam_depth="0" combat_radius="0" color="0,128,255">
+            <NPC id="1100" default="false" rate="500" />
+            <NPC id="1101" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="33" group="0" name="리츠 위병" x="4448.392578" y="22912.814453" z="891.999695" dir_x="-1.000000" dir_y="-0.000000" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="0" respawn_time="0" roam_radius="0" roam_depth="0" combat_radius="0" color="0,128,255">
+            <NPC id="1100" default="false" rate="500" />
+            <NPC id="1101" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="34" group="0" name="리츠 위병" x="4020.321533" y="-5296.360840" z="2.999800" dir_x="-1.000000" dir_y="-0.000000" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="0" respawn_time="0" roam_radius="0" roam_depth="0" combat_radius="0" color="0,128,255">
+            <NPC id="1100" default="false" rate="500" />
+            <NPC id="1101" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="35" group="0" name="리츠 위병" x="4318.236328" y="2824.623047" z="15.000319" dir_x="-1.000000" dir_y="-0.000000" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="0" respawn_time="0" roam_radius="0" roam_depth="0" combat_radius="0" color="0,128,255">
+            <NPC id="1100" default="false" rate="500" />
+            <NPC id="1101" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="36" group="0" name="리츠 위병" x="4315.856445" y="1857.263306" z="15.000314" dir_x="-1.000000" dir_y="-0.000000" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="0" respawn_time="0" roam_radius="0" roam_depth="0" combat_radius="0" color="0,128,255">
+            <NPC id="1100" default="false" rate="500" />
+            <NPC id="1101" default="false" rate="500" />
+        </SPAWN>
+        <SPAWN id="1200" group="0" name="영혼석 [광장]" x="0.201088" y="-6149.389648" z="2.999796" dir_x="0.000000" dir_y="-1.000000" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="0" respawn_time="0" roam_radius="0" roam_depth="0" combat_radius="0" color="255,255,255">
+            <NPC id="1200" default="false" rate="1000" />
+        </SPAWN>
+        <SPAWN id="1201" group="0" name="영혼석 [호텔]" x="506.924194" y="9179.065430" z="2.000400" dir_x="0.000000" dir_y="-1.000000" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="0" respawn_time="0" roam_radius="0" roam_depth="0" combat_radius="0" color="255,255,255">
+            <NPC id="1201" default="false" rate="1000" />
+        </SPAWN>
+        <SPAWN id="1202" group="0" name="영혼석 [술집]" x="21672.531250" y="-729.811523" z="2.000046" dir_x="-1.000000" dir_y="-0.000000" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="0" respawn_time="0" roam_radius="0" roam_depth="0" combat_radius="0" color="255,255,255">
+            <NPC id="1202" default="false" rate="1000" />
+        </SPAWN>
+        <SPAWN id="1203" group="0" name="영혼석 [석상]" x="2.113148" y="23917.833984" z="992.999817" dir_x="0.017453" dir_y="-0.999848" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="0" respawn_time="0" roam_radius="0" roam_depth="0" combat_radius="0" color="255,255,255">
+            <NPC id="1203" default="false" rate="1000" />
+        </SPAWN>
+        <SPAWN id="1109" group="0" name="[NPC]음유시인 루시드" x="1529.881836" y="24453.023438" z="992.999756" dir_x="0.743145" dir_y="-0.669131" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="1" respawn_time="1" roam_radius="0" roam_depth="0" combat_radius="0" color="255,0,0">
+            <NPC id="1109" default="true" rate="100" />
+        </SPAWN>
+        <SPAWN id="1110" group="0" name="[NPC]보석상점 주인 라피스" x="-10829.067383" y="-6352.701660" z="2.999749" dir_x="0.017452" dir_y="-0.999848" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="1" respawn_time="1" roam_radius="0" roam_depth="0" combat_radius="0" color="255,0,0">
+            <NPC id="1110" default="true" rate="100" />
+        </SPAWN>
+        <SPAWN id="1111" group="0" name="[NPC]모험가 상점 주인 케네스" x="8963.444336" y="-9335.478516" z="15.000314" dir_x="-0.874620" dir_y="-0.484810" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="1" respawn_time="1" roam_radius="0" roam_depth="0" combat_radius="0" color="255,0,0">
+            <NPC id="1111" default="true" rate="100" />
+        </SPAWN>
+        <SPAWN id="1112" group="0" name="[NPC]주정뱅이 노인 사무엘" x="21072.630859" y="5497.653809" z="3.319397" dir_x="0.913545" dir_y="0.406737" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="1" respawn_time="1" roam_radius="0" roam_depth="0" combat_radius="0" color="255,0,0">
+            <NPC id="1112" default="true" rate="100" />
+        </SPAWN>
+        <SPAWN id="1113" group="0" name="[NPC]베네딕토의 동상" x="-273.924988" y="25196.888672" z="992.999817" dir_x="-0.999848" dir_y="-0.017452" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="1" respawn_time="1" roam_radius="0" roam_depth="0" combat_radius="0" color="255,0,0">
+            <NPC id="1113" default="true" rate="100" />
+        </SPAWN>
+        <SPAWN id="1108" group="0" name="[NPC]궁중 연금술사 테로스" x="-5762.299316" y="23307.353516" z="933.617126" dir_x="0.999848" dir_y="-0.017453" dir_z="0.000000" radius="0.000000" random_dir="false" enabled="true" start_time="1" respawn_time="1" roam_radius="0" roam_depth="0" combat_radius="0" color="255,0,0">
+            <NPC id="1108" default="true" rate="100" />
+        </SPAWN>
+        <MARKER id="1" name="from 리오드" x="-3.434169" y="-11069.875977" z="1.999500" dir_x="-0.000000" dir_y="1.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="30" name="부활 위치 [광장]" x="1.306753" y="-6388.855469" z="2.999777" dir_x="-0.000000" dir_y="-1.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="31" name="부활 위치 [호텔]" x="508.119324" y="8939.194336" z="3.000400" dir_x="-0.000000" dir_y="-1.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="32" name="부활 위치 [술집]" x="21430.613281" y="-729.308044" z="20.000040" dir_x="-1.000000" dir_y="-0.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="33" name="부활 위치 [석상]" x="1.358273" y="23674.308594" z="991.999817" dir_x="0.000000" dir_y="-1.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="101044" name="QM 101035" x="-5729.022949" y="23261.183594" z="933.617126" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="101045" name="QM 101045" x="-345.752930" y="25225.273438" z="992.999817" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="1010461" name="QM 101046" x="-10920.740234" y="-6370.907715" z="2.999746" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="1010463" name="QM 101046" x="21177.583984" y="5681.567383" z="0.000000" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="1010464" name="QM 101046" x="1636.672729" y="24517.060547" z="992.999695" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <MARKER id="1010462" name="QM 101046" x="8852.553711" y="-9337.455078" z="15.000310" dir_x="1.000000" dir_y="0.000000" dir_z="0.000000" random_dir="false" />
+        <SENSOR id="101045" name="[SENSOR]테로스" local="false" x="-5674.502441" y="23317.798828" z="933.617126" radius="400.000000" enabled="true" groupname="none" />
+        <SENSOR id="101046" name="[SENSOR]루시드" local="true" x="1614.452148" y="24412.476563" z="992.999695" radius="500.000000" enabled="true" groupname="none" />
+    </FIELDINFO>
+</maiet>

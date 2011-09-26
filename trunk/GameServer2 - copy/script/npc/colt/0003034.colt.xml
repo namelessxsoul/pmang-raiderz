@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<!-- 불량배 샘플 -->
+<maiet>
+	<COLT>
+		<COMBAT victory="200303402" >
+			<DEFAULT>
+				<ACTION type="talent" param1="200303401" auto_run="true" max_count="1" />		
+					<ACTION type="talent" param1="200303403" rate="80" />
+					<ACTION type="talent" param1="200303404" rate="20" max_count="1" />						
+			</DEFAULT>			
+		</COMBAT>
+
+		<REACTION>	
+		</REACTION>
+		<IDLE>
+			<DEFAULT>
+			</DEFAULT>
+		</IDLE>
+	</COLT>
+</maiet>
+

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet href="./colt.xsl" type="text/xsl"?>
+<maiet>
+	<COLT name="치료대상자 샘플">
+		<COMBAT >
+			<DEFAULT>	
+				<ACTION type="nothing" param1="0.5" rate="25" cycle="6"/>
+				<ACTION type="nothing" param1="0.5" rate="25" cycle="6"/>
+
+				<ACTION type="group" cycle="1">
+					<ACTION type="yell" param1="1000" cycle="1"/>
+					<ACTION type="say" param1="yell" />
+				</ACTION>
+			</DEFAULT>
+			
+			<!-- 원거리 -->
+			<CHECK type="distance" param1="500">
+				<ACTION type="distance" param1="300" param2="350" />
+			</CHECK>
+			
+		</COMBAT>
+		<IDLE>
+			<DEFAULT>
+				<!--<ACTION type="talent" param1="210702307" rate="20"/>-->
+				<ACTION type="nothing" param1="2" rate="80" />
+			</DEFAULT>
+		</IDLE>
+		
+	</COLT>
+	<SCRIPT><![CDATA[
+	]]></SCRIPT>
+</maiet>

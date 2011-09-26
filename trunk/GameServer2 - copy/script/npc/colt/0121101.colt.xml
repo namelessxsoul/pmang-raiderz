@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- 오염된 꽃   -->
+<maiet>
+	<COLT name="오염된 꽃">
+		<COMBAT >
+			<DEFAULT>	
+				<ACTION type="talent" param1="212110002" rate="20"/>
+			</DEFAULT>			
+		</COMBAT>
+		<IDLE>
+			<DEFAULT>
+				 <ACTION type="talent" param1="212110002" rate="20"/> 
+			</DEFAULT>
+		</IDLE>
+		
+	</COLT>
+	
+</maiet>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet href="./colt.xsl" type="text/xsl"?>
+<maiet>
+	<COLT name="이속순차감소샘플">
+		<COMBAT mode="0">
+			<DEFAULT>	
+				<ACTION type="talent" param1="200025213" rate="10" cycle="5"/>
+			</DEFAULT>
+		</COMBAT>
+		<IDLE>
+		</IDLE>
+		
+	</COLT>
+	<SCRIPT><![CDATA[
+	]]></SCRIPT>
+</maiet>

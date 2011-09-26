@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<!-- 메리온 사제 샘플. -->
+<maiet>
+  <COLT>
+    <COMBAT>
+      <DEFAULT>
+        <!--<ACTION type="talent" param1="200212" rate="10" />-->
+      </DEFAULT>
+    </COMBAT>
+    <IDLE>
+      <DEFAULT>
+      </DEFAULT>
+    </IDLE>
+  </COLT>
+</maiet>

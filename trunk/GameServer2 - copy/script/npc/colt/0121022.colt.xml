@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet href="./colt.xsl" type="text/xsl"?>
+<maiet>
+	<COLT name="화원의 문">
+		<COMBAT  >
+		</COMBAT>
+		<IDLE>
+		</IDLE>
+	</COLT>
+	<SCRIPT><![CDATA[ 
+
+function NPC_121022:OnDialogExit( Player, DialogID, ExitID )
+	--GLog( "OnDialogExit( " .. DialogID .. ", " .. ExitID .. ")\n" )
+	if DialogID == 1210000 and ExitID == 1 then
+		--GLog( " ** Open door **\n" )
+		this:UseTalentSelf( 212102201 )
+    
+		--Field = this:GetField()
+    
+		--Field:ActivateSpawnGroup(2)
+	end
+end
+
+	]]></SCRIPT>
+</maiet>

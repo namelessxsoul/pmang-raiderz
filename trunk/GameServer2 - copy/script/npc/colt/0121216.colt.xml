@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet href="./colt.xsl" type="text/xsl"?>
+<maiet>
+	<COLT name="화원의 석문 1번방">
+		<COMBAT>
+		</COMBAT>
+		<IDLE>
+		</IDLE>
+	</COLT>
+	<SCRIPT><![CDATA[ 
+
+function NPC_121216:OnDialogExit( Player, DialogID, ExitID )
+	--GLog( "OnDialogExit( " .. DialogID .. ", " .. ExitID .. ")\n" )
+	
+	if DialogID == 1212160 and ExitID == 2 then
+		Field = this:GetField()		
+		local Door1 = Field:GetSpawnNPC(45)		
+		
+		this:UseTalentSelf( 212104401 )
+		this:NarrationNow( "$$COLT_0121216_20"  )		
+		
+		Door1:UseTalentSelf( 212102201 )	
+		
+	end
+end
+
+	]]></SCRIPT>
+</maiet>

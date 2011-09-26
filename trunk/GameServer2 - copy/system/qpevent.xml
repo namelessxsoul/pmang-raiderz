@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<maiet>
+	<QPEVENT id="1" title="$$ESCORT_TROLL_PRIST_TITLE" >
+		<BEGIN> 
+			<NOTICE text="$$ESCORT_TROLL_PRIST_MISSION1" />
+			<NOTICE text="$$ESCORT_TROLL_PRIST_MISSION2" />
+			<NOTICE text="$$ESCORT_TROLL_PRIST_MISSION3" />
+			
+			<SPAWN id="102150"/>			
+		</BEGIN>
+		
+		<END winnerteam = "1">
+			<NOTICE text="$$ESCORT_TROLL_PRIST_WIN" />
+			
+			<SPAWN id="102160" delaytime="10" despawntime="1200" />
+			<SPAWN id="102163" delaytime="10" despawntime="1200" />			
+			<DESPAWN npcid="102154, 102155, 102156, 102157, 102158, 102159, 102166, 102167, 102168, 102169, 102171" />
+			
+			<REWARD money="300" >
+				<ITEM id ="90000" amount="1"/>
+			</REWARD>
+		</END>
+		
+		<END winnerteam = "2">
+			<NOTICE text="$$ESCORT_TROLL_PRIST_LOSE" />
+			
+			<SPAWN id="102161" delaytime="10" despawntime="1200" />
+			<SPAWN id="102165" delaytime="10" despawntime="1200" />			
+			<DESPAWN npcid="102154, 102155, 102156, 102157, 102158, 102159, 102166, 102167, 102168, 102169, 102171" />
+			
+			<REWARD money="300" >
+				<ITEM id ="90000" amount="1"/>
+			</REWARD>
+		</END>		
+	</QPEVENT>	
+	
+	<QPEVENT id="2" title="$$ESCORT_OGRE_PRIST_TITLE" >
+		<BEGIN> 
+			<NOTICE text="$$ESCORT_OGRE_PRIST_MISSION1" />
+			<NOTICE text="$$ESCORT_OGRE_PRIST_MISSION2" />
+			<NOTICE text="$$ESCORT_OGRE_PRIST_MISSION3" />
+			
+			<SPAWN id="102151"/>						
+		</BEGIN>
+		
+		<END winnerteam = "1">
+			<NOTICE text="$$ESCORT_OGRE_PRIST_LOSE" />			
+			
+			<SPAWN id="102160" delaytime="10" despawntime="1200" />
+			<SPAWN id="102163" delaytime="10" despawntime="1200" />			
+			<DESPAWN npcid="102154, 102155, 102156, 102157, 102158, 102159, 102166, 102167, 102168, 102169, 102171" />
+			
+			<REWARD money="300" >
+				<ITEM id ="90000" amount="1"/>
+			</REWARD>
+		</END>
+		
+		<END winnerteam = "2">
+			<NOTICE text="$$ESCORT_OGRE_PRIST_WIN" />
+			
+			
+			<SPAWN id="102161" delaytime="10" despawntime="1200" />
+			<SPAWN id="102165" delaytime="10" despawntime="1200" />			
+			<DESPAWN npcid="102154, 102155, 102156, 102157, 102158, 102159, 102166, 102167, 102168, 102169, 102171" />
+			
+			<REWARD money="300" >
+				<ITEM id ="90000" amount="1"/>
+			</REWARD>
+		</END>		
+	</QPEVENT>		
+</maiet>

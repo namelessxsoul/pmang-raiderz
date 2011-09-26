@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<maiet>
+	<COLT name="화원의주인 샘플">
+		<COMBAT mode="0">
+			<DEFAULT>
+			
+				<ACTION type="talent" param1="201904" rate="50" /> <!-- 일반 공격 -->
+				<ACTION type="talent" param1="201905" rate="20" /> <!-- 대쉬 공격 -->
+				<ACTION type="talent" param1="201907" rate="15" /> <!-- 성큰 -->
+				<ACTION type="talent" param1="201909" rate="15" /> <!-- 성큰 - 파워강 -->
+				<ACTION type="talent" param1="201903" rate="20" duration="0"/>	<!-- 모드전환 : TO_MODE1 -->
+
+
+			</DEFAULT>
+			<!--
+			<CHECK type="rage" param1="10">
+				<ACTION type="lua" param1="NPC000210_ModeSwap" rate="10" />
+			</CHECK>
+			-->
+		</COMBAT>
+		
+		<COMBAT mode="1">
+			<DEFAULT>
+				<ACTION type="talent" param1="201924" rate="5" duration="0"/>		<!-- 일반 공격 -->
+			</DEFAULT>
+
+			<!-- hp가 80%이상이면 뿌리박힌 채로 쉬운 공격 패턴 -->
+			<CHECK type="hp" param1="75">
+				<ACTION type="talent" param1="201924" rate="5" duration="0"/>	<!-- 일반 공격 -->
+				<ACTION type="talent" param1="201925" rate="20" duration="0"/>	<!-- 양손 공격 -->
+				<ACTION type="talent" param1="201927" rate="30" duration="0"/>	<!-- 포자날리기 -->
+
+				<ACTION type="nothing" param1="1" rate="10" />
+				<ACTION type="nothing" param1="2" rate="20" />
+				<ACTION type="nothing" param1="3" rate="10" />
+			</CHECK>
+			
+			<CHECK type="hp" param2="75">
+				<ACTION type="talent" param1="201930" rate="100" duration="0"/>	<!-- 첫 모드전환 : TO_MODE0 -->
+				<ACTION type="talent" param1="201923" rate="10" duration="0"/>	<!-- 모드전환 : TO_MODE0 -->
+				<ACTION type="talent" param1="201924" rate="5" duration="0"/>	<!-- 일반 공격 -->
+				<ACTION type="talent" param1="201925" rate="10" duration="0"/>	<!-- 양손 공격 -->
+				<ACTION type="talent" param1="201927" rate="30" duration="0"/>	<!-- 포자날리기 -->
+				<ACTION type="talent" param1="201929" rate="40" duration="0"/>	<!-- 활력 -->
+				
+				<ACTION type="nothing" param1="1" rate="10" />
+				<ACTION type="nothing" param1="2" rate="20" />
+			</CHECK>
+		</COMBAT>
+		
+		<IDLE>
+			<DEFAULT>
+				<ACTION type="talent" param1="201900" rate="30" />
+				<ACTION type="nothing" param1="3" rate="70" />
+			</DEFAULT>
+		</IDLE>
+		
+		<STRESS>
+			  <CHECK type="stress" param1="400">
+				<CHECK type="mode" param1="0">
+					<ACTION type="talent" param1="201905" rate="80" />
+					<ACTION type="talent" param1="201904" rate="20" />
+				</CHECK>
+			  </CHECK>
+		</STRESS>
+
+	</COLT>
+	<SCRIPT>
+	<![CDATA[ 
+
+		--[[
+		몬스터의 유저데이터는 다음과 같다.
+		UD 1번:
+		 Value: 몬스터의 상태값(State)
+		   1: 초반
+		   2: 중반
+		   3: 후반
+		--]]
+
+	function NPC_201:Init( NPCID )
+		NPC_ReserveUserData( NPCID, 1 )
+	end
+
+
+	function NPC_201:OnSpawn( Info )
+		this:SetUserData( 1, 1)
+	end 
+
+	function NPC_201:OnHitCapsule_1_0(HitInfo)
+		local victim = HitInfo.Victim;
+		local attacker = HitInfo.Attacker;
+		
+			if(victim:CheckBPart(1) == false) then
+				victim:BreakPart(1, attacker)				
+			elseif (victim:CheckBPart(2) == false) then
+				victim:BreakPart(2, attacker)				
+			end
+
+	end
+
+	]]>
+	</SCRIPT>
+</maiet>

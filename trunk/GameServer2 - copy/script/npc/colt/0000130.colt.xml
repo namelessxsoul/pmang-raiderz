@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<maiet>					
+	<COLT name="늑대 샘플">
+		<COMBAT>			
+			<DEFAULT>	
+				<ACTION type="talent" param1="213001" rate="30" />
+				<ACTION type="talent" param1="213002" rate="20" /> 
+				
+				<ACTION type="talent" param1="213013" rate="10" /> <!-- 왼발 공격 -->
+				<ACTION type="talent" param1="213014" rate="10" /> <!-- 오른발 공격 -->
+				
+				<ACTION type="talent" param1="213012" rate="10" cycle="10" /> <!-- 슈퍼아머 공격 -->
+				
+				<ACTION type="talent" param1="213007" rate="10" cycle="10" />  <!-- 회전 L -->
+				<ACTION type="talent" param1="213008" rate="10" cycle="10" />  <!-- 회전 R -->
+		
+			</DEFAULT>
+			<CHECK type="distance" param1="300" param2="1000">
+				<ACTION type="talent" param1="213001" rate="20" />				
+				<ACTION type="talent" param1="213002" rate="30" />	
+				<ACTION type="lua" param1="NPC_130_RunAround"  rate="50" cycle="10" />
+			</CHECK>
+			<CHECK type="distance" param1="1000" >
+				<ACTION type="distance" param1="400" param2="500" rate="20" />			
+			</CHECK>
+		</COMBAT>
+  		<AGGRO>
+			<DEFAULT>
+				<ACTION type="talent" param1="213011" rate="10" />
+				<ACTION type="nothing"  param1="0" rate="90" />
+			</DEFAULT>
+		</AGGRO>
+		<IDLE>
+			<DEFAULT>	
+				<ACTION type="talent" param1="213004" rate="20" />
+				<ACTION type="talent" param1="213005" rate="20" />
+				<ACTION type="nothing" param1="3" rate="60" />
+			</DEFAULT>
+		</IDLE>
+	</COLT>
+	<SCRIPT>
+<![CDATA[
+
+function NPC_130:Init( NPCID)
+	NPC_ReserveUserData( NPCID , 1)
+end 
+
+function NPC_130:OnHitCapsule_0_0( HitInfo )
+	local ThisNPC = HitInfo.Victim 
+	ThisNPC:SetUserData( 1, 1 )
+end
+
+function NPC_130:LeftStep( ThisNPC, Enemy )
+	NPC_130:SideStep( ThisNPC, Enemy, true )
+end
+
+function NPC_130:RightStep( ThisNPC, Enemy )
+	NPC_130:SideStep( ThisNPC, Enemy, false )
+end
+
+function NPC_130_RunAround( ThisNPC, Enemy )
+	local Angle = 30
+	
+	if math.random( 0, 1 ) == 0 then
+		Angle = Angle * -1
+	end
+	
+	local vecTarget = ThisNPC:GetPos()
+	local vecCenter = Enemy:GetPos()
+	local vecNew = vecTarget
+	
+	vecNew = RotatePoint( vecTarget, vecCenter, Angle )
+	ThisNPC:Move( vecNew )
+	
+	vecTarget = vecNew
+	vecNew = RotatePoint( vecTarget, vecCenter, Angle )
+	ThisNPC:Move( vecNew )
+
+	vecTarget = vecNew
+	vecNew = RotatePoint( vecTarget, vecCenter, Angle )
+	ThisNPC:Move( vecNew )
+
+	ThisNPC:FaceTo( Enemy )
+	ThisNPC:Wait( 0.5 )
+end
+
+-- 근접해서 붙어서 공격할때 살짝 옆으로 횡이동 할때 쓰는 함수
+function NPC_130:SideStep( ThisNPC, Enemy, IsLeftMoving )
+	--GLog( "SideStep" )
+	local Angle = 30
+	if not IsLeftMoving then
+		Angle = Angle * -1
+	end
+	
+	local vecTarget = ThisNPC:GetPos()
+	local vecCenter = Enemy:GetPos()
+	local vecNew = vec3()
+	
+	vecNew = RotatePoint( vecTarget, vecCenter, Angle )
+	
+	ThisNPC:Move( vecNew )
+	ThisNPC:FaceTo( Enemy )
+	
+	ThisNPC:Wait( 0.5 )
+end
+
+function NPC_107008_Retreat( ThisNPC, Enemy )
+	local vecThis = ThisNPC:GetPos()
+	local vecEnemy = Enemy:GetPos()
+	local vecMove = vec3()
+	--n = math.random( 1, 2 )
+	n = math.random( 2 )
+	d = math.random( 150, 200 )
+	
+	vecMove = vecThis
+	
+	for i = 1, n, 1 do
+		vecMove = RandomRetreatPoint( vecMove, vecEnemy, 45, d )
+		ThisNPC:Move( vecMove )
+	end
+	
+	--[[
+	local AngleToEnemy = GetDegree( vecEnemy, vecThis )
+	local AngleThis = GetDegree( vecThis, vecMove )
+	local Diff = AngleThis - AngleToEnemy
+	local ReqAngle = ( Diff+180 ) % 360
+		
+	if ReqAngle < 0 then
+		ReqAngle = 360 + ReqAngle
+	end
+	
+	if ReqAngle > 45 and ReqAngle < 180 then
+		ThisNPC:UseTalentSelf( 213003 ) 
+	elseif ReqAngle < 315 then
+		ThisNPC:UseTalentSelf( 213004 )
+	end
+	--]]
+	
+	--GLog( "R:" .. ReqAngle .." T:" .. AngleThis .. " E:"..AngleToEnemy.."\n" )
+	--ThisNPC:FaceTo( Enemy )
+	--ThisNPC:Wait( 0.5 )
+end
+
+function NPC_107008_RotateMove( ThisNPC, Enemy )
+	RotateMove( ThisNPC, Enemy, 35, 0.5 )
+end
+
+]]></SCRIPT>	
+</maiet>

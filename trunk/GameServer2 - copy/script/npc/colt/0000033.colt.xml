@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<maiet>
+	<COLT> <!-- 샘플 에보스 소대장 -->
+		<COMBAT >
+			<DEFAULT>
+				<ACTION type="talent" param1="200331" rate="50" />
+				<ACTION type="talent" param1="200332" rate="30" />
+				<ACTION type="guard" param1="200339" param2="1" rate="20" />
+			</DEFAULT>
+			
+			<CHECK type="hp" param2="70" >
+				<ACTION type="talent" param1="200331" rate="40" />
+				<ACTION type="talent" param1="200332" rate="30" />
+				<ACTION type="talent" param1="200333" rate="20" />
+				<ACTION type="guard" param1="200339" param2="2" rate="10" />
+			</CHECK>
+
+			<CHECK type="hp" param2="40" >
+				<CHECK type="unbreakpart" param1="1" >
+					<ACTION type="talent" param1="200331" rate="10" />
+					<ACTION type="talent" param1="200332" rate="10" />
+					<ACTION type="talent" param1="200333" rate="10" />
+					<ACTION type="talent" param1="200334" rate="40" max_count="1" />
+					<ACTION type="guard" param1="200339" param2="1" rate="30" />
+				</CHECK>
+			</CHECK>
+		</COMBAT>
+		
+		<REACTION>
+<!-- 물약 마시기
+			<CHECK type="hp" param2="40">
+				<ACTION type="talent" param1="200335" rate="90" max_count="1"/>
+  			</CHECK>	
+-->
+			<CHECK type="hp" param2="15">
+				<ACTION type="flee" param1="from_enemy" param2="5" />
+  			</CHECK>
+  
+			<CHECK type="unbreakpart" param1="1" >
+				<CHECK type="hp" param2="40">
+					<ACTION type="breakpart" param1="1" />
+				</CHECK>
+			</CHECK>
+	<!--
+			<CHECK type="damage"  param1="normal" param2="0">
+				<ACTION type="link" param1="1"/>
+			</CHECK>	
+			-->
+		</REACTION>
+	</COLT>
+	<SCRIPT><![CDATA[
+	
+function NPC_33:Init(NPCID)
+end
+
+function NPC_33:OnYell(RequestNPC, TargetActor)
+	this:Attack(TargetActor);
+end
+
+	]]></SCRIPT>
+</maiet>
+

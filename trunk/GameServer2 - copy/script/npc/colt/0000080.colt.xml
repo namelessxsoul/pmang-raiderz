@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<!-- 드라코리치 샘플. 이 파일을 변경하기 전에 이야기 해주시기 바랍니다. - 조중필 -->
+<maiet>
+	<COLT>
+		 <REACTION>
+			<CHECK type="hitcapsule" param1="1">
+				<ACTION type="change_hitcapsule" param1="2" />
+  			</CHECK>
+			<CHECK type="hitcapsule" param1="2">
+				<ACTION type="change_hitcapsule" param1="1" />
+  			</CHECK>
+		</REACTION>
+	</COLT>
+</maiet>

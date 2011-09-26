@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet href="./colt.xsl" type="text/xsl"?>
+<maiet>
+	<COLT name="가디엘 교도" npcid="101020">
+		<COMBAT>
+			<DEFAULT>	
+				<!-- 가끔씩 말풍선 나레이션 해야 함 -->
+				<!--<ACTION type="nothing" param1="1" rate="25" cycle="6"/>
+				<ACTION type="nothing" param1="1" rate="25" cycle="6"/>
+				
+				<ACTION type="talent" param1="210701101" rate="20" />
+				<ACTION type="talent" param1="210701102" rate="20" />
+				<ACTION type="talent" param1="210701115" rate="10" />-->
+			</DEFAULT>
+			
+		</COMBAT>
+	</COLT>
+	<SCRIPT><![CDATA[
+
+	]]></SCRIPT>
+</maiet>

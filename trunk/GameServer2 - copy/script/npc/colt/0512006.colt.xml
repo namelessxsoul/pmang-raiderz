@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet href="./colt.xsl" type="text/xsl"?>
+<maiet>
+	<COLT name="번개구-" npcid="512006">
+		<COMBAT mode="0">
+			<DEFAULT>
+				<ACTION type="aggro" param1="random" param2="0" cycle="5"/>
+			</DEFAULT>
+	
+			<CHECK type="hp" param1="0" >
+				<ACTION type="aggro" param1="short" param2="0" max_count="1" />
+			</CHECK>
+			
+			<CHECK type="distance" param1="800" >
+				<ACTION type="distance" param1="600" param2="600" rate="10"/>
+			</CHECK>
+			
+			<CHECK type="distance" param1="600" >
+				<ACTION type="distance" param1="400" param2="400" rate="10"/>
+			</CHECK>
+			
+			<CHECK type="distance" param1="400" >
+				<ACTION type="distance" param1="300" param2="300" />
+			</CHECK>
+			
+			<CHECK type="distance" param1="300" >
+				<ACTION type="distance" param1="200" param2="200" />
+			</CHECK>
+			
+			<CHECK type="distance" param1="200" >
+				<ACTION type="distance" param1="100" param2="100" />
+			</CHECK>
+			
+		</COMBAT>
+	</COLT>
+	
+	<SCRIPT><![CDATA[
+	
+function NPC_512006:Init( NPCID )
+	NPC_512006.BufIdElectricField 	= 40312
+end
+
+function NPC_512006:OnSpawn( SpawnInfo )
+	--GLog( "NPC_512006:OnSpawn\n" )
+	--SpawnInfo.NPC:SetDecayTime(0) -- 번개구가 죽어도 사운드가 계속 반복되어 시체를 바로 사라지게 했다. 티켓해결되면 삭제해도 됨.
+end
+
+function NPC_512006:OnCombatBegin()
+	
+	this:GainBuff( NPC_512006.BufIdElectricField )
+	this:SetTimer( 1, NPC_512002.TTLElectricOrb, false )
+end
+
+function NPC_512006:OnTimer( Index )
+	--GLog( "NPC_512006:OnTimer" .. Index .. "\n" )
+	if Index == 1 then
+		
+		this:RemoveBuff( NPC_512006.BufIdElectricField )
+		this:Despawn(false)
+		return
+	end
+end
+
+function NPC_512006:OnFinishBomb( ThisActor, Enemy )
+	--GLog( "NPC_512006:OnFinishBomb\n" )	
+	
+	
+	local ThisNPC = AsNPC( ThisActor )
+	this:RemoveBuff( NPC_512006.BufIdElectricField )
+	ThisNPC:Despawn(false)
+end
+
+	]]></SCRIPT>
+</maiet>
