@@ -1,0 +1,206 @@
+﻿설치 sql2008 r2
+데이타베이스 복원
+RZ_ACCOUNTDB  RZ_GAMEDB   RZ_LOGDB
+
+새로운 빌드 지점으로 구축
+3개의 db를 복원 지점에 복원한다
+3개의 간단하게 데이타베이스를 복원
+다음 ODBC  시스템 DNS  (local)  생성
+계정 : SA  암호: 123456  SQL2008 계정 : SA 암호 : 123456 암호를 변경 123456
+복사 GameServer2  변경 GameServer2-copy
+자신의 IP server.ini  모든 라인을 변경
+SQL Native Client  변경 WTT 컴퓨터이름을  PC-201107282238 또는 （local）  
+
+SQL2008의 기본 ip은 127.0.0.1
+ODBC = "SQL Native Client"  ODBC = "SQL Server"
+
+모든 폴더의 server.ini 위와 같이 변경
+
+지금 시작하세요
+권리 GameServer에 server.ini  복사 GameServer2-copy 내부 
+
+부팅 순서
+01AppServer.exe
+02MasterServer.exe
+03LoginServer.exe
+04GameServer.exe  이것은 GameServer2-copy의
+05GameServer.exe  이 GameServer2의
+
+OK
+자동 등록 계정：
+ 수정 LoginServer 폴더 server.ini  
+ [CONST]
+ ALLOW_INSERT_NEW_ACCOUNT = 1    （0에서 1）
+
+ GM
+ GM수정할 수있는 데이터베이스를 설정 : play-grade  3
+ 콘솔을 엽니다 : Ctrl+~
+ 입력:help
+ 
+
+계정등록 RZ_ACCOUNT 테이블 또한 다른 계정에 대한 암호PWD를 추가하여 사용할수 있음  
+비디오 카드에 포인트가 되도록
+- -  다음 메모리 통합 도구가 됨
+-----------------------------------------------------------------------------------
+원문
+RaiderZ은 무엇입니까? 
+
+RaiderZ 그게 Vindictus의 전투와 비슷한 전투에의 독특한 스핀과 함께하지만, 일반적인 공격에 따라 기술과 마법에 더 큰 초점을 맞추고있는 MMORPG이다. 나를 판매했다 가장 큰 요점은, 전투 그렇게는했지만 Vindictus 달리 게임은 파티와 길드 당신이 굉장되는 원하는만큼 함께 게임을 할 수있는 기반 인스턴스되지 않습니다. 지금까지이 이슬람 성직자 (한 spec'd 더 낫게 한 spec'd 이상 위반)를 가지고 플러스 맹렬한는 XD 내 재생 시간에서 환상하였습니다! 
+내 서버에서 SS 덤프 / 비디오 덤프
+
+1 단계 :
+  마이크로 소프트 SQL 2008 R2를 설치
+  데이터베이스 엔진 구성까지 모든 방법 다음을 클릭하십시오
+  보안 모드 - 선택한 혼합 모드 인증
+  사용자 이름 - SA
+  비밀 번호 - 당신이 원하는 건 뭐든지
+
+2 단계 :
+  데이터베이스 및 서버 파일의 압축을 풉니다.
+  마이크로 소프트 SQL 2008 R2 문 열어
+  당신이 나타납니다 :
+ 
+스크린샷을 따라, 비밀 번호는 입력 @ 1 단계를 한 것입니다.
+ 당신이 끝나면, 우리는 데이터베이스를 만드는로 이동할 수 있습니다.
+  오른쪽 데이터베이스를 클릭하십시오 :
+
+새 데이터베이스를 선택하고, 데이터베이스 이름은 다음과 같습니다 RZ_ACCOUNTDB
+  RZ_GAMEDB 및 RZ_LOGDB에 대해 동일한 작업을 수행
+
+이제 데이터베이스 설정을 가지고 있지만, 그들을 복원해야합니다.;
+ 
+
+복원 :
+
+
+데이터베이스 -> RZ_ACCOUNT DB 선택 '장치'및 2 단계의 시작에서 추출했다 곳에서 RZ_ACCOUNTDB.BAK을 선택합니다. RESTORE
+ 
+그 후, 상단 왼쪽 모서리에있는 옵션을 이동합니다.
+ 틱 '기존 데이터베이스 덮어쓰기'
+  또한 RZ_GAMEDB 및 RZ_LOGDB에 대해이 작업을 수행합니다.
+  이제 우리는 데이터베이스에 대해 수행됩니다.
+ 
+ DateBase 3EA
+ RZ_ACCOUNTDB
+ RZ_GAMEDB
+ RZ_LOGDB
+ 
+
+3 단계 :
+  ODBCAD 설정
+  시작> 유형 odbcad32.exe를 실행
+  시스템 DSN 탭을 클릭합니다.
+  추가를 클릭하십시오
+  SQL 서버 네이티브 클라이언트 10.0 클릭하십시오 마침을 클릭합니다
+ 
+ Name: 무엇이든 당신이 원하는
+ Description: 당신이 원하는 건 뭐든지
+ Server: (local)
+ 
+Click next, tick SQL Server authentication
+ 
+Login ID: sa
+ Password: 1 단계에서 입력한 암호
+ 
+다음 클릭
+ Tick 기본 데이타베이스 선택:
+
+그리고 RZ_ACCOUNTDB을 선택하고 완료를 클릭하십시오.
+
+지금 서버에 파일을 이동합시다.
+ 
+4 단계 :
+
+ 
+ 복사 gameserver2 붙혀넣기 - 폴더명을 gameserver2 - copy 변경.
+
+  gameserver 폴더에 server.ini로 이동하여 gameserver 2 -copy 에 붙여넣기
+
+server.ini 설정 :
+
+ AppServer
+ GameServer2
+ GameServer2 - copy
+ Login Server
+ Master Server
+ server.ini
+
+ 각 폴더에 대해, server.ini
+ 
+
+내 구성을 따르십시오.
+
+Set ODBC = "SQL Server"
+ 
+Public_IP/Master_server_ip = your ip
+ 
+Password = whatever you input @ step 1
+
+ Do this for all folders.
+
+ 【여기입니다 INI 의 문서 SQL Server Native client 10.0 대체 SQL Server】
+
+5 단계 :
+ 
+ 클라이언트 설정 :
+
+  Raiderz 클라이언트를 설치합니다.
+
+  당신이 끝나면 Raiderz 디렉토리에 connect.rar 압축을 풉니다.
+
+  Connect.txt를 IP 주소 입력합니다.
+ 
+최종 단계 :
+
+ 모든 5 서버를 시작합니다
+ 
+일단보고 '전체 서버 시작'
+
+Do take note that you have to run the gameserver.exe from gameserver2, gameserver2-copy and not gameserver. 
+With that, you can start up RaiderZ launcher and input any account from RZ_ACCOUNTDB. AND HAVE FUN ! 
+
+시작 순서는
+ 
+ AppServer
+ Master Server
+ Login Server
+ GameServer2
+ GameServer2 - copy
+
+ --------------------------서버 설정합니다------------------------:
+ 
+MSSQL의 버전은 무엇입니까?
+ 해결 방법 : 도구 2008 R2 익스프레스 (10.50.1600).
+ 데이터베이스 백업은 2008 R2에서 만든 2008 R2보다 오래된 버전으로 복원할 수 없기 때문에 당신이 2008 Express를 사용할 수 없습니다
+ 
+내 서버 이름 ( "컴퓨터 이름 \ XXX"), what should I 입력?
+
+해결 방법 : 기본값은 SQLEXPRESS이기 xxx는, 당신 MSSQL 2008 R2 인스턴스 이름입니다.
+
+ ex.: RAGEZONE-PC\SQLEXPRESS
+
+ I don't know how to create an database user, any solutions?
+ Solution: you can use "sa" or "pwedev" instead of "ragezone", it works too.
+나는 데이터베이스 사용자를 만드는 방법 어떤 솔루션을 몰라?
+  솔루션 : 당신이 "SA"또는 대신 "ragezone"의 "pwedev"를 사용할 수 너무 작동합니다.
+
+ Oh, I got a DBMS error, but ODBC connection test result is OK, what's happening?
+ Solution: change ODBC value in ALL server.ini from "SQL Native Client" to "SQL Server".
+ 오, DBMS 오류를 가지고 있지만, ODBC 연결 테스트 결과는 무슨 일이 일어나고 있는지, OK입니까?
+  솔루션 : "SQL 서버"에 "SQL 네이티브 클라이언트"에서 모든 server.ini 변화 ODBC 값.
+
+흠. 고객이 말하는 "서버가 실행되고. 나중에 다시 시도하십시오"또는 이런 일을, 어떤 것은 이것인가?
+  솔루션 : 당신이 GameServers 모두 포함한 모든 서버 파일을 실행하고 있는지 확인 확실하면, 그들은 잠시 잠깐 만요, 데이터 로딩 프로세스가있을 수 있습니다..
+ 
+Client says about "PhysX"?
+ Solution: download and install nVidia PhysX System Software.
+클라이언트는 "PhysX"에 대해 말한다?
+  솔루션 : NVIDIA PhysX 시스템 소프트웨어를 다운로드하고 설치합니다.
+
+
+ What's username I can play?
+ Solution: for GM/Test account is "aibeast", it comes with 50lv character with GM status.
+제가 재생할 수 사용자 이름은 무엇입니까?
+  해결 방법 : GM에 대해 / 테스트 계정이 "aibeast"이며, 그것이 GM의 상태 50lv 캐릭터와 함께 제공됩니다.
+
+ Good Luck! 
